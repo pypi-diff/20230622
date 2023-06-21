@@ -893,3 +893,132 @@
 [2023-06-22 01:04:04] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-22 01:04:04] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
 [2023-06-22 01:04:04] INFO root fetch - main [MainThread]: Store serial: [18597491]
+[2023-06-22 01:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597491]
+[2023-06-22 01:09:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airunner
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-adjudicator
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flwr-nightly
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drdid
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: powervaultpy
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: design-kgex
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvxrisk
+[2023-06-22 01:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-cfdi
+[2023-06-22 01:09:14] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [drdid]: New version: [1.1.3] Old Version: [1.0.3]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [powervaultpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [python-adjudicator]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-22 01:09:14] WARNING root fetch - processPackages [design-kgex]: Skipping, unable to determine old version
+[2023-06-22 01:09:14] INFO root fetch - processPackages [design-kgex]: Start processing: MarChie
+[2023-06-22 01:09:14] INFO root fetch - main [MainThread]: End processing [design-kgex] error
+[2023-06-22 01:09:14] INFO root fetch - processPackages [cvxrisk]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230621] Old Version: [0.7.0b20230620]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230621] Old Version: [0.7.0b20230620]
+[2023-06-22 01:09:14] WARNING root fetch - processPackages [MarChie]: Skipping, unable to determine old version
+[2023-06-22 01:09:14] INFO root fetch - processPackages [MarChie]: Start processing: gpt3discord
+[2023-06-22 01:09:14] INFO root fetch - main [MainThread]: End processing [MarChie] error
+[2023-06-22 01:09:14] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2023-06-22 01:09:14] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230621] Old Version: [1.5.0.dev20230619]
+[2023-06-22 01:09:14] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/49/be/c224fff8c4ef7d09f8795af2cea402cf8c549a84fb06d1db5a109360deb0/python_adjudicator-0.2.1.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [drdid]: Downloading https://files.pythonhosted.org/packages/0b/9e/a852d5a62cf937b232505af3b9b8a76b13ebea42d3995050ceb28158506f/drdid-1.0.3.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/b1/2b/f1a4e5c57e1cf286faef580987436cb10e3031407e15b88a706416c6d363/powervaultpy-0.0.6.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/06/2f/959afc662aae41323949ea7ecbe658e10fda8f98a86047b35008a4700074/tmnt-0.7.0b20230620.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/81/61/4ad237e640cac5325afaa0ac80433b960bdea9c5c9ef9be3d4ce90f40bca/tmnt-cu101-0.7.0b20230620.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [cvxrisk]: Downloading https://files.pythonhosted.org/packages/a1/a0/2b1c99746b898aa8d60285c1e94904cbffa78be17bbffd65588a304e5e9f/cvxrisk-0.0.6.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/62/68/1f5f2ee1f44ad682db520a6a6e521953c35c18c0c7a1e410490a84daa563/flwr_nightly-1.5.0.dev20230619.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/37/05/2206aa04638856656febff14ed92b412dfe23dcbf520d5ae6b2e00bb94b8/gpt3discord-9.0.4.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/76/fe/be775b16841da85ba7c58d1d5f7f00445cfa2189e614f9220f93c28c24f9/python_adjudicator-0.3.0.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [drdid]: Downloading https://files.pythonhosted.org/packages/be/9b/ee29984fb552e563ec986f2b1e49b59a95d25426659a51cedc7f4e799d4f/drdid-1.1.3.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/8f/1d/c1f0da541ac301acc6a0f10e1fca53e21be8d93f565d0d2479bc59ab1934/powervaultpy-0.0.7.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [python-adjudicator]: executing diffoscope
+[2023-06-22 01:09:14] INFO root fetch - processPackages [python-adjudicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_adjudicator-0.2.1.tar.gz tmp/python_adjudicator-0.3.0.tar.gz --markdown 20230622/p/python-adjudicator/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 01:09:14] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2023-06-22 01:09:14] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/12/f5/22bcc8334c31c53d1a438b6f45b0f81d83a2fe4ae77dabdf2a25cc47a1a6/flwr_nightly-1.5.0.dev20230621.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-22 01:09:14] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230622/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-22 01:09:14] INFO root fetch - processPackages [powervaultpy]: executing diffoscope
+[2023-06-22 01:09:14] INFO root fetch - processPackages [powervaultpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powervaultpy-0.0.6.tar.gz tmp/powervaultpy-0.0.7.tar.gz --markdown 20230622/p/powervaultpy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 01:09:14] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/7d/86/43c3f9b1cb96e3fbbe29e600637105c04e2a6cde1baf0a2d03d0c0f431be/tmnt-0.7.0b20230621.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [cvxrisk]: Downloading https://files.pythonhosted.org/packages/8f/7b/db195a6933cca7a673a76673e05be2137a27026756569e87b140875a6dc7/cvxrisk-0.0.7.tar.gz
+[2023-06-22 01:09:14] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/be/fc/6235e9c7f69eb6164900f1a180962ce2c15bbe21fe8b5a9fe3470ea3f2b7/tmnt-cu101-0.7.0b20230621.tar.gz
+[2023-06-22 01:09:15] INFO root fetch - processPackages [cvxrisk]: executing diffoscope
+[2023-06-22 01:09:15] INFO root fetch - processPackages [cvxrisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxrisk-0.0.6.tar.gz tmp/cvxrisk-0.0.7.tar.gz --markdown 20230622/c/cvxrisk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 01:09:15] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-22 01:09:15] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230619.tar.gz tmp/flwr_nightly-1.5.0.dev20230621.tar.gz --markdown 20230622/f/flwr-nightly/1.5.0.dev20230619-1.5.0.dev20230621/diff.md --exclude *.pyd
+[2023-06-22 01:09:15] INFO root fetch - processPackages [gpt3discord]: Downloading https://files.pythonhosted.org/packages/35/2f/7cad7be49486612c7af56839595bd1843092d25ac4d2d187a8f56624913a/gpt3discord-9.1.tar.gz
+[2023-06-22 01:09:15] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2023-06-22 01:09:15] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20230622/d/django-cfdi/2.98-2.99/diff.md --exclude *.pyd
+[2023-06-22 01:09:15] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-22 01:09:15] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230620.tar.gz tmp/tmnt-cu101-0.7.0b20230621.tar.gz --markdown 20230622/t/tmnt-cu101/0.7.0b20230620-0.7.0b20230621/diff.md --exclude *.pyd
+[2023-06-22 01:09:15] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-22 01:09:15] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230620.tar.gz tmp/tmnt-0.7.0b20230621.tar.gz --markdown 20230622/t/tmnt/0.7.0b20230620-0.7.0b20230621/diff.md --exclude *.pyd
+[2023-06-22 01:09:15] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-06-22 01:09:15] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230622/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-06-22 01:09:16] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.6.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.7.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [powervaultpy]: Start processing: havoc-clustering
+[2023-06-22 01:09:16] INFO root fetch - main [MainThread]: End processing [powervaultpy]: success
+[2023-06-22 01:09:16] WARNING root fetch - processPackages [havoc-clustering]: Skipping, unable to determine old version
+[2023-06-22 01:09:16] INFO root fetch - processPackages [havoc-clustering]: Start processing: finvader
+[2023-06-22 01:09:16] INFO root fetch - main [MainThread]: End processing [havoc-clustering] error
+[2023-06-22 01:09:16] INFO root fetch - processPackages [finvader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [python-adjudicator]: Remove: archive file [/home/abi/fetcher/tmp/python_adjudicator-0.2.1.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [python-adjudicator]: Remove: archive file [/home/abi/fetcher/tmp/python_adjudicator-0.3.0.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [python-adjudicator]: Start processing: aiogram-dialog
+[2023-06-22 01:09:16] INFO root fetch - main [MainThread]: End processing [python-adjudicator]: success
+[2023-06-22 01:09:16] INFO root fetch - processPackages [aiogram-dialog]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [finvader]: Downloading https://files.pythonhosted.org/packages/7c/60/61971f28e0b5746498c4742dce3ef09e31252a90a570a5ede6ee070ad87a/finvader-1.0.0.tar.gz
+[2023-06-22 01:09:16] INFO root fetch - processPackages [cvxrisk]: Remove: archive file [/home/abi/fetcher/tmp/cvxrisk-0.0.6.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [cvxrisk]: Remove: archive file [/home/abi/fetcher/tmp/cvxrisk-0.0.7.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [cvxrisk]: Start processing: keycloak-django
+[2023-06-22 01:09:16] INFO root fetch - main [MainThread]: End processing [cvxrisk]: success
+[2023-06-22 01:09:16] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230620.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230621.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-22 01:09:16] INFO root fetch - processPackages [keycloak-django]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [aiogram-dialog]: Downloading https://files.pythonhosted.org/packages/ca/58/a5eebb03900ea91f6bfef4415b0cdcbaf9ac8757a58f8fa715b8074f2028/aiogram_dialog-2.0.0b8-py3-none-any.whl
+[2023-06-22 01:09:16] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-22 01:09:16] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-22 01:09:16] INFO root fetch - processPackages [finvader]: Downloading https://files.pythonhosted.org/packages/6d/46/8b7e6ff18585f6371f033cd52151f6b94e10fc26027b5856191406c2bd72/finvader-1.0.1.tar.gz
+[2023-06-22 01:09:17] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/25/55/e74508127aa4b91ca546396e615da5083557b3af8edecbc921f2fd6850ba/keycloak_django-1.1.1.tar.gz
+[2023-06-22 01:09:17] INFO root fetch - processPackages [finvader]: executing diffoscope
+[2023-06-22 01:09:17] INFO root fetch - processPackages [finvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finvader-1.0.0.tar.gz tmp/finvader-1.0.1.tar.gz --markdown 20230622/f/finvader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-22 01:09:17] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230619.tar.gz]
+[2023-06-22 01:09:17] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230621.tar.gz]
+[2023-06-22 01:09:17] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-22 01:09:17] INFO root fetch - processPackages [aiogram-dialog]: Downloading https://files.pythonhosted.org/packages/41/8f/95c3c13124dc4ec951f50e22cae6fa670904709a6790f8ccccb06c85629b/aiogram_dialog-2.0.0b9-py3-none-any.whl
+[2023-06-22 01:09:17] INFO root fetch - processPackages [keycloak-django]: Downloading https://files.pythonhosted.org/packages/06/b1/cb7c99833320266ea94338c0d9d862599e818c3b4e2f9ba7c22a59608201/keycloak_django-1.1.2.tar.gz
+[2023-06-22 01:09:17] INFO root fetch - processPackages [aiogram-dialog]: executing diffoscope
+[2023-06-22 01:09:17] INFO root fetch - processPackages [aiogram-dialog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram_dialog-2.0.0b8-py3-none-any.whl.zip tmp/aiogram_dialog-2.0.0b9-py3-none-any.whl.zip --markdown 20230622/a/aiogram-dialog/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-06-22 01:09:18] INFO root fetch - processPackages [finvader]: Remove: archive file [/home/abi/fetcher/tmp/finvader-1.0.0.tar.gz]
+[2023-06-22 01:09:18] INFO root fetch - processPackages [finvader]: Remove: archive file [/home/abi/fetcher/tmp/finvader-1.0.1.tar.gz]
+[2023-06-22 01:09:18] INFO root fetch - main [MainThread]: End processing [finvader]: success
+[2023-06-22 01:09:18] INFO root fetch - processPackages [gpt3discord]: Remove: archive file [/home/abi/fetcher/tmp/gpt3discord-9.0.4.tar.gz]
+[2023-06-22 01:09:18] INFO root fetch - processPackages [gpt3discord]: Remove: archive file [/home/abi/fetcher/tmp/gpt3discord-9.1.tar.gz]
+[2023-06-22 01:09:18] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-06-22 01:09:18] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230620.tar.gz]
+[2023-06-22 01:09:18] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230621.tar.gz]
+[2023-06-22 01:09:18] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-22 01:09:18] INFO root fetch - processPackages [aiogram-dialog]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_dialog-2.0.0b8-py3-none-any.whl.zip]
+[2023-06-22 01:09:18] INFO root fetch - processPackages [aiogram-dialog]: Remove: archive file [/home/abi/fetcher/tmp/aiogram_dialog-2.0.0b9-py3-none-any.whl.zip]
+[2023-06-22 01:09:18] INFO root fetch - main [MainThread]: End processing [aiogram-dialog]: success
+[2023-06-22 01:09:24] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.98-py3-none-any.whl.zip]
+[2023-06-22 01:09:24] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
+[2023-06-22 01:09:24] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2023-06-22 01:09:47] INFO root fetch - processPackages [keycloak-django]: executing diffoscope
+[2023-06-22 01:09:47] INFO root fetch - processPackages [keycloak-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycloak_django-1.1.1.tar.gz tmp/keycloak_django-1.1.2.tar.gz --markdown 20230622/k/keycloak-django/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-22 01:09:48] INFO root fetch - processPackages [keycloak-django]: Remove: archive file [/home/abi/fetcher/tmp/keycloak_django-1.1.1.tar.gz]
+[2023-06-22 01:09:48] INFO root fetch - processPackages [keycloak-django]: Remove: archive file [/home/abi/fetcher/tmp/keycloak_django-1.1.2.tar.gz]
+[2023-06-22 01:09:48] INFO root fetch - main [MainThread]: End processing [keycloak-django]: success
+[2023-06-22 01:15:22] INFO root fetch - processPackages [drdid]: executing diffoscope
+[2023-06-22 01:15:22] INFO root fetch - processPackages [drdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drdid-1.0.3.tar.gz tmp/drdid-1.1.3.tar.gz --markdown 20230622/d/drdid/1.0.3-1.1.3/diff.md --exclude *.pyd
+[2023-06-22 01:15:23] INFO root fetch - processPackages [drdid]: Remove: archive file [/home/abi/fetcher/tmp/drdid-1.0.3.tar.gz]
+[2023-06-22 01:15:23] INFO root fetch - processPackages [drdid]: Remove: archive file [/home/abi/fetcher/tmp/drdid-1.1.3.tar.gz]
+[2023-06-22 01:15:23] INFO root fetch - main [MainThread]: End processing [drdid]: success
+[2023-06-22 01:15:23] INFO root fetch - main [MainThread]: Store serial: [18597540]
