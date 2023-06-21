@@ -1344,3 +1344,60 @@
 [2023-06-22 01:31:57] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b6.tar.gz]
 [2023-06-22 01:31:57] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-06-22 01:31:57] INFO root fetch - main [MainThread]: Store serial: [18597689]
+[2023-06-22 01:37:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597689]
+[2023-06-22 01:37:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocr-iiif-tools
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drdid
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mosaicml-cli
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-PHAL-plugin-network-manager
+[2023-06-22 01:37:07] INFO root fetch - processPackages [drdid]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ocr-iiif-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kfish]: New version: [99.0.202306212335] Old Version: [99.0.202306212232]
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: New version: [1.0.1a5] Old Version: [1.0.1a4]
+[2023-06-22 01:37:07] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/9d/69/c676c4ff960ea42e111800f40de618135cd68be51edfc3453bfbc062addb/ocr_iiif_tools-0.0.2.tar.gz
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kcli]: New version: [99.0.202306212332] Old Version: [99.0.202306212229]
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/dc/4d/b50217db6b3dda1e655391ddbeb5e7d5696086a6fe60aec31bb7f40988a0/kfish-99.0.202306212232-py3-none-any.whl
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Downloading https://files.pythonhosted.org/packages/9a/7f/0525a09ad3457d0eaf0260b9f4b33dfa6b965e3161791dae2afd3aa1cbe2/ovos-PHAL-plugin-network-manager-1.0.1a4.tar.gz
+[2023-06-22 01:37:07] INFO root fetch - processPackages [drdid]: Downloading https://files.pythonhosted.org/packages/3b/7c/d2b3f3730f2336a6aa21f6917ab31240f03d5a132b4528d09e9f6e2f4b76/drdid-1.1.4.tar.gz
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c3/7f/5f9cdf83a16798900abe8798cedc942d91369bd200136a9016aa75fd236d/kcli-99.0.202306212229-py3-none-any.whl
+[2023-06-22 01:37:07] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/08/41/a9c5dd61375b8ef9f749f0e1e0c1277adfbac1e63a96dfd08d91eb55a11f/mosaicml-cli-0.4.8.tar.gz
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Downloading https://files.pythonhosted.org/packages/4c/37/0e9cf1d37209907202a58abecaf1c98142649fa361b8a8fabd7ab6dcff39/ovos-PHAL-plugin-network-manager-1.0.1a5.tar.gz
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/93/6c/d6e455b8ca866d5f1b2bd4f0a1faacd38790882bd68b2c57ac42a2f23386/ocr_iiif_tools-0.0.3.tar.gz
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0c/33/f1c00bc7a9ae8e79f79f2e04a851a89d4109dca1b2fc5a76945af31a80ec/kfish-99.0.202306212335-py3-none-any.whl
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: executing diffoscope
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-network-manager-1.0.1a4.tar.gz tmp/ovos-PHAL-plugin-network-manager-1.0.1a5.tar.gz --markdown 20230622/o/ovos-PHAL-plugin-network-manager/1.0.1a4-1.0.1a5/diff.md --exclude *.pyd
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306212232-py3-none-any.whl.zip tmp/kfish-99.0.202306212335-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306212232-99.0.202306212335/diff.md --exclude *.pyd
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ocr-iiif-tools]: executing diffoscope
+[2023-06-22 01:37:07] INFO root fetch - processPackages [ocr-iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocr_iiif_tools-0.0.2.tar.gz tmp/ocr_iiif_tools-0.0.3.tar.gz --markdown 20230622/o/ocr-iiif-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 01:37:07] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/a1/78/4910b54eb33cffcaa9c3ae169edce10958dd5c158e1fb8995d6a874f2542/mosaicml-cli-0.4.9.tar.gz
+[2023-06-22 01:37:07] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/20/e8/c9d4c24b364df4dfea223ceccf8bef19293d6f5e2884f184216155ce70ae/kcli-99.0.202306212332-py3-none-any.whl
+[2023-06-22 01:37:07] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-06-22 01:37:07] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.8.tar.gz tmp/mosaicml-cli-0.4.9.tar.gz --markdown 20230622/m/mosaicml-cli/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-22 01:37:08] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 01:37:08] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306212229-py3-none-any.whl.zip tmp/kcli-99.0.202306212332-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306212229-99.0.202306212332/diff.md --exclude *.pyd
+[2023-06-22 01:37:08] INFO root fetch - processPackages [drdid]: Downloading https://files.pythonhosted.org/packages/ef/59/d5df643e778c11f4c236c3929a7e6f3dd10f123042d0a3002aaadf381b50/drdid-1.1.5.tar.gz
+[2023-06-22 01:37:08] INFO root fetch - processPackages [drdid]: executing diffoscope
+[2023-06-22 01:37:08] INFO root fetch - processPackages [drdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drdid-1.1.4.tar.gz tmp/drdid-1.1.5.tar.gz --markdown 20230622/d/drdid/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-22 01:37:09] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306212232-py3-none-any.whl.zip]
+[2023-06-22 01:37:09] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306212335-py3-none-any.whl.zip]
+[2023-06-22 01:37:09] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 01:37:09] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-network-manager-1.0.1a4.tar.gz]
+[2023-06-22 01:37:09] INFO root fetch - processPackages [ovos-PHAL-plugin-network-manager]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-network-manager-1.0.1a5.tar.gz]
+[2023-06-22 01:37:09] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-network-manager]: success
+[2023-06-22 01:37:09] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.2.tar.gz]
+[2023-06-22 01:37:09] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.3.tar.gz]
+[2023-06-22 01:37:09] INFO root fetch - main [MainThread]: End processing [ocr-iiif-tools]: success
+[2023-06-22 01:37:09] INFO root fetch - processPackages [drdid]: Remove: archive file [/home/abi/fetcher/tmp/drdid-1.1.4.tar.gz]
+[2023-06-22 01:37:09] INFO root fetch - processPackages [drdid]: Remove: archive file [/home/abi/fetcher/tmp/drdid-1.1.5.tar.gz]
+[2023-06-22 01:37:09] INFO root fetch - main [MainThread]: End processing [drdid]: success
+[2023-06-22 01:37:10] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.8.tar.gz]
+[2023-06-22 01:37:10] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.9.tar.gz]
+[2023-06-22 01:37:10] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-06-22 01:37:15] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212229-py3-none-any.whl.zip]
+[2023-06-22 01:37:15] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212332-py3-none-any.whl.zip]
+[2023-06-22 01:37:15] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 01:37:15] INFO root fetch - main [MainThread]: Store serial: [18597721]
