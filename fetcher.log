@@ -291,3 +291,123 @@
 [2023-06-22 00:15:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230621221235-py3-none-any.whl.zip]
 [2023-06-22 00:15:39] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-22 00:15:39] INFO root fetch - main [MainThread]: Store serial: [18597158]
+[2023-06-22 00:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597158]
+[2023-06-22 00:20:49] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-core
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-google
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drupaljsonapiclient
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-pasqal
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eox-hooks
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psat-server-web
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lincot
+[2023-06-22 00:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymatrix-rain
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230621221235] Old Version: [1.2.0.dev20230613162638]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [pymatrix-rain]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-22 00:20:49] WARNING root fetch - processPackages [lincot]: Skipping, unable to determine old version
+[2023-06-22 00:20:49] INFO root fetch - processPackages [lincot]: Start processing: img2table
+[2023-06-22 00:20:49] INFO root fetch - main [MainThread]: End processing [lincot] error
+[2023-06-22 00:20:49] WARNING root fetch - processPackages [drupaljsonapiclient]: Skipping, unable to determine old version
+[2023-06-22 00:20:49] INFO root fetch - processPackages [drupaljsonapiclient]: Start processing: openplugin-client
+[2023-06-22 00:20:49] INFO root fetch - main [MainThread]: End processing [drupaljsonapiclient] error
+[2023-06-22 00:20:49] INFO root fetch - processPackages [psat-server-web]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [chalkpy]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [eox-hooks]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230621221235] Old Version: [1.2.0.dev20230613162638]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230621221235] Old Version: [1.2.0.dev20230613162638]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230621221235] Old Version: [1.2.0.dev20230613162638]
+[2023-06-22 00:20:49] WARNING root fetch - processPackages [openplugin-client]: Skipping, unable to determine old version
+[2023-06-22 00:20:49] INFO root fetch - processPackages [openplugin-client]: Start processing: yfinance
+[2023-06-22 00:20:49] INFO root fetch - main [MainThread]: End processing [openplugin-client] error
+[2023-06-22 00:20:49] INFO root fetch - processPackages [img2table]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [pymatrix-rain]: Downloading https://files.pythonhosted.org/packages/24/8a/6ef233f56b5419f413ecb68fab4bacccfcd1031953a05289d80286851c96/pymatrix-rain-1.2.0.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/69/6f/83cfb9f9263de5fb92a52f27676466b0592a229a3c831abdff456ec0022b/psat-server-web-0.1.7.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [eox-hooks]: Downloading https://files.pythonhosted.org/packages/eb/50/c56b1737f66e129655ba5170deb9764903716a7738548fbbda3b6696f4f9/eox-hooks-4.1.0.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/65/25/201ab328e8190d4a8c191cc0abee36d4fd9e98f19c9338da570e4557fe09/cirq_google-1.2.0.dev20230613162638-py3-none-any.whl
+[2023-06-22 00:20:49] INFO root fetch - processPackages [yfinance]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-22 00:20:49] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/a0/e5/950aa823c668dc83000db9f14ba598bcf7dee1243c0382ea52e954c39fa1/chalkpy-2.9.7.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/13/1d/0a0f42808a00aa2180034448c6e881dd0791a1082177319ab9d32cee45ac/cirq-1.2.0.dev20230613162638-py3-none-any.whl
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/01/be/55026f80fd60c5201032957432c55a3bd5ca0334978536fd21f069e27578/cirq_core-1.2.0.dev20230613162638-py3-none-any.whl
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/03/4f/2044413683987a6df31c71a17a3fcede97460015d673637873a5f5c38b56/cirq_pasqal-1.2.0.dev20230613162638-py3-none-any.whl
+[2023-06-22 00:20:49] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/0c/ad/7507e97e991972f5f7f29c8d286effb0c776752c3d7035bb22e0f8c63122/img2table-1.0.4.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/a8/d8/009751b5ddba3498075f4e073f65a1e4e30dfc83bdb3003ef5044588b4b8/yfinance-0.2.7.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [pymatrix-rain]: Downloading https://files.pythonhosted.org/packages/70/8e/5b2404612262ea77cbdae27feb4d097e6029599583d1bb6443eab5fa303d/pymatrix-rain-1.3.0.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/a2/bf/6f5c5631f5a10ef764f18cd44e4d77355235d869031f58f1f53d5d883060/cirq_google-1.2.0.dev20230621221235-py3-none-any.whl
+[2023-06-22 00:20:49] INFO root fetch - processPackages [eox-hooks]: Downloading https://files.pythonhosted.org/packages/d6/7b/b19238b81665ad64ea0a8b1b2203e79498d90c154e7f8ccad6ec429560b2/eox-hooks-4.1.1.tar.gz
+[2023-06-22 00:20:49] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2023-06-22 00:20:50] INFO root fetch - processPackages [eox-hooks]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [eox-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eox-hooks-4.1.0.tar.gz tmp/eox-hooks-4.1.1.tar.gz --markdown 20230622/e/eox-hooks/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/06/71/b203715cfc06b7907dcc8a4e38be711f7c9038e4df7bac6282948c2a9fed/cirq-1.2.0.dev20230621221235-py3-none-any.whl
+[2023-06-22 00:20:50] INFO root fetch - processPackages [pymatrix-rain]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [pymatrix-rain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatrix-rain-1.2.0.tar.gz tmp/pymatrix-rain-1.3.0.tar.gz --markdown 20230622/p/pymatrix-rain/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/16/c6/01f9e35884c4891da6e7f76b6e3388b328412c49d9582b279ff13cdc29f2/cirq_pasqal-1.2.0.dev20230621221235-py3-none-any.whl
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230613162638-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230621221235-py3-none-any.whl.zip --markdown 20230622/c/cirq-google/1.2.0.dev20230613162638-1.2.0.dev20230621221235/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/ec/2f/be0c9a76e0be50a00362dd908a9f82ea050dba4abd0df9da27f1fc8856a8/cirq_core-1.2.0.dev20230621221235-py3-none-any.whl
+[2023-06-22 00:20:50] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.7.tar.gz tmp/chalkpy-2.9.8.tar.gz --markdown 20230622/c/chalkpy/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/44/7c/2f17e16867fb4ad198467cc2ee2db5ff845cfdb1159ecb69ef2e6fc0807b/yfinance-0.2.9.tar.gz
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230613162638-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230621221235-py3-none-any.whl.zip --markdown 20230622/c/cirq-pasqal/1.2.0.dev20230613162638-1.2.0.dev20230621221235/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230613162638-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230621221235-py3-none-any.whl.zip --markdown 20230622/c/cirq-core/1.2.0.dev20230613162638-1.2.0.dev20230621221235/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [yfinance]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [yfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfinance-0.2.7.tar.gz tmp/yfinance-0.2.9.tar.gz --markdown 20230622/y/yfinance/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-06-22 00:20:50] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230613162638-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230621221235-py3-none-any.whl.zip --markdown 20230622/c/cirq/1.2.0.dev20230613162638-1.2.0.dev20230621221235/diff.md --exclude *.pyd
+[2023-06-22 00:20:50] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/f2/19/25c20c136b102302c0beb404f66ca1a2469340e977406b6a984fac9702ef/img2table-1.0.5.tar.gz
+[2023-06-22 00:20:51] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/5f/bc/c9fe5b7a7cf578fa4926cd7f2931bf417a7ad0e8dbc278e90dfec083f8b6/psat-server-web-0.1.8.tar.gz
+[2023-06-22 00:20:51] INFO root fetch - processPackages [img2table]: executing diffoscope
+[2023-06-22 00:20:51] INFO root fetch - processPackages [img2table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2table-1.0.4.tar.gz tmp/img2table-1.0.5.tar.gz --markdown 20230622/i/img2table/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-22 00:20:51] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230613162638-py3-none-any.whl.zip]
+[2023-06-22 00:20:51] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230621221235-py3-none-any.whl.zip]
+[2023-06-22 00:20:51] INFO root fetch - processPackages [cirq]: Start processing: dysweep
+[2023-06-22 00:20:51] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-06-22 00:20:51] INFO root fetch - processPackages [dysweep]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [pymatrix-rain]: Remove: archive file [/home/abi/fetcher/tmp/pymatrix-rain-1.2.0.tar.gz]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [pymatrix-rain]: Remove: archive file [/home/abi/fetcher/tmp/pymatrix-rain-1.3.0.tar.gz]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [pymatrix-rain]: Start processing: qsonic
+[2023-06-22 00:20:52] INFO root fetch - main [MainThread]: End processing [pymatrix-rain]: success
+[2023-06-22 00:20:52] INFO root fetch - processPackages [eox-hooks]: Remove: archive file [/home/abi/fetcher/tmp/eox-hooks-4.1.0.tar.gz]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [eox-hooks]: Remove: archive file [/home/abi/fetcher/tmp/eox-hooks-4.1.1.tar.gz]
+[2023-06-22 00:20:52] INFO root fetch - main [MainThread]: End processing [eox-hooks]: success
+[2023-06-22 00:20:52] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230613162638-py3-none-any.whl.zip]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [yfinance]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-0.2.7.tar.gz]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230621221235-py3-none-any.whl.zip]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [yfinance]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-0.2.9.tar.gz]
+[2023-06-22 00:20:52] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-06-22 00:20:52] INFO root fetch - main [MainThread]: End processing [yfinance]: success
+[2023-06-22 00:20:52] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/92/1d/9ee549d3150b6e14e2a72aa35ceea91941362e0a06069d64d530f6819ea4/dysweep-0.0.8.tar.gz
+[2023-06-22 00:20:52] INFO root fetch - processPackages [qsonic]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-22 00:20:52] INFO root fetch - processPackages [qsonic]: Downloading https://files.pythonhosted.org/packages/48/50/78f5d0c5f5639be155fbd1688902989d314e860829f4c94fab5dc3f5b528/qsonic-0.7.2.tar.gz
+[2023-06-22 00:20:52] INFO root fetch - processPackages [dysweep]: Downloading https://files.pythonhosted.org/packages/e8/07/79adda083e992dcadf1e148f271ead095b725b5a035086fafafae191d4f3/dysweep-0.0.9.tar.gz
+[2023-06-22 00:20:52] INFO root fetch - processPackages [dysweep]: executing diffoscope
+[2023-06-22 00:20:52] INFO root fetch - processPackages [dysweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dysweep-0.0.8.tar.gz tmp/dysweep-0.0.9.tar.gz --markdown 20230622/d/dysweep/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 00:20:52] INFO root fetch - processPackages [qsonic]: Downloading https://files.pythonhosted.org/packages/1d/d6/6331a808a3214f7e5f9fde7973bd885ca80ca738ba717503f31ba6380f45/qsonic-0.7.3.tar.gz
+[2023-06-22 00:20:52] INFO root fetch - processPackages [psat-server-web]: executing diffoscope
+[2023-06-22 00:20:52] INFO root fetch - processPackages [psat-server-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psat-server-web-0.1.7.tar.gz tmp/psat-server-web-0.1.8.tar.gz --markdown 20230622/p/psat-server-web/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-22 00:20:53] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.0.8.tar.gz]
+[2023-06-22 00:20:53] INFO root fetch - processPackages [dysweep]: Remove: archive file [/home/abi/fetcher/tmp/dysweep-0.0.9.tar.gz]
+[2023-06-22 00:20:53] INFO root fetch - main [MainThread]: End processing [dysweep]: success
+[2023-06-22 00:20:54] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.4.tar.gz]
+[2023-06-22 00:20:54] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.5.tar.gz]
+[2023-06-22 00:20:54] INFO root fetch - main [MainThread]: End processing [img2table]: success
+[2023-06-22 00:20:54] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230613162638-py3-none-any.whl.zip]
+[2023-06-22 00:20:54] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230621221235-py3-none-any.whl.zip]
+[2023-06-22 00:20:54] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-06-22 00:20:56] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.7.tar.gz]
+[2023-06-22 00:20:56] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2023-06-22 00:20:56] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-22 00:20:58] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.1.7.tar.gz]
+[2023-06-22 00:20:58] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.1.8.tar.gz]
+[2023-06-22 00:20:58] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
+[2023-06-22 00:21:06] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230613162638-py3-none-any.whl.zip]
+[2023-06-22 00:21:06] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230621221235-py3-none-any.whl.zip]
+[2023-06-22 00:21:06] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-06-22 00:21:13] INFO root fetch - processPackages [qsonic]: executing diffoscope
+[2023-06-22 00:21:13] INFO root fetch - processPackages [qsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsonic-0.7.2.tar.gz tmp/qsonic-0.7.3.tar.gz --markdown 20230622/q/qsonic/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-22 00:21:14] INFO root fetch - processPackages [qsonic]: Remove: archive file [/home/abi/fetcher/tmp/qsonic-0.7.2.tar.gz]
+[2023-06-22 00:21:14] INFO root fetch - processPackages [qsonic]: Remove: archive file [/home/abi/fetcher/tmp/qsonic-0.7.3.tar.gz]
+[2023-06-22 00:21:14] INFO root fetch - main [MainThread]: End processing [qsonic]: success
+[2023-06-22 00:21:14] INFO root fetch - main [MainThread]: Store serial: [18597205]
