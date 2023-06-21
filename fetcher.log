@@ -1237,3 +1237,110 @@
 [2023-06-22 01:26:01] INFO root fetch - processPackages [patito]: Remove: archive file [/home/abi/fetcher/tmp/patito-0.5.0.tar.gz]
 [2023-06-22 01:26:01] INFO root fetch - main [MainThread]: End processing [patito]: success
 [2023-06-22 01:26:01] INFO root fetch - main [MainThread]: Store serial: [18597641]
+[2023-06-22 01:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597641]
+[2023-06-22 01:31:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datafog
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esphome
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-hub
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: determined
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapy-manipulate-request
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightcurves
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-PHAL-plugin-wifi-setup
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drdid
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nimblephysics
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: design-kgex
+[2023-06-22 01:31:10] INFO root fetch - processPackages [model-hub]: New version: [0.23.1rc2] Old Version: [0.23.1rc1]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [scrapy-manipulate-request]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [lightcurves]: New version: [1.0] Old Version: [0.0.5]
+[2023-06-22 01:31:10] WARNING root fetch - processPackages [datafog]: Skipping, unable to determine old version
+[2023-06-22 01:31:10] INFO root fetch - processPackages [nimblephysics]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [datafog]: Start processing: alanapy
+[2023-06-22 01:31:10] INFO root fetch - main [MainThread]: End processing [datafog] error
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: New version: [1.1.1a3] Old Version: [1.1.1a2]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [esphome]: New version: [2023.6.0b6] Old Version: [2023.6.0b5]
+[2023-06-22 01:31:10] WARNING root fetch - processPackages [design-kgex]: Skipping, unable to determine old version
+[2023-06-22 01:31:10] INFO root fetch - processPackages [design-kgex]: Start processing: bgstools
+[2023-06-22 01:31:10] INFO root fetch - main [MainThread]: End processing [design-kgex] error
+[2023-06-22 01:31:10] INFO root fetch - processPackages [determined]: New version: [0.23.1rc2] Old Version: [0.23.1rc1]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/e3/0e/d5736c178b3314b62894e9c0091f0783a03f0389f1102bd8eeda38c312d7/model_hub-0.23.1rc1-py3-none-any.whl
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/6e/40/26395877197b7a93e901b5c63c50dbfbee2858aa100e6ba0e883b433fdbe/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/80/61/49400481650f8b9a276b9a1bcc50472f519d2e6140db17b1d36772eb6f85/esphome-2023.6.0b5.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [drdid]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/51/fb/4645e59e85d4f94290e5ca82a4d5cfc72b95221ff952d947943ce4ba2cba/determined-0.23.1rc1-py3-none-any.whl
+[2023-06-22 01:31:10] INFO root fetch - processPackages [alanapy]: New version: [0.5] Old Version: [0.4]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/f2/47/576289bfe32ed60eca2030e5c7b07c48dcba1900fed21a7215e07c733b5e/ovos-PHAL-plugin-wifi-setup-1.1.1a3.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [scrapy-manipulate-request]: Downloading https://files.pythonhosted.org/packages/27/23/12bf4ca8c8be760eca9bb41e8fefcd9a5730fe86cd013c429eb7a646a39e/scrapy-manipulate-request-0.0.1.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/f4/16/528f14b7196eb7a5e0b79ae0dca17055ab911442aa00dc567a6596d56178/model_hub-0.23.1rc2-py3-none-any.whl
+[2023-06-22 01:31:10] INFO root fetch - processPackages [lightcurves]: Downloading https://files.pythonhosted.org/packages/ce/8e/7289b78f6fb4e82e167cf19492438e762cac61c0d4ae685ea0683efc3736/lightcurves-0.0.5.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [nimblephysics]: Downloading https://files.pythonhosted.org/packages/e2/b9/4722adb08c31a974418723f0ac892aa3845d4afb9dbcc696ac2515a3fca8/nimblephysics-0.9.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-22 01:31:10] WARNING root fetch - processPackages [nimblephysics]: Skipping package: exceeds size limit 67824984>=10485760
+[2023-06-22 01:31:10] INFO root fetch - processPackages [nimblephysics]: Start processing: ChurchToolsApi
+[2023-06-22 01:31:10] INFO root fetch - main [MainThread]: End processing [nimblephysics] error
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: executing diffoscope
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a3.tar.gz --markdown 20230622/o/ovos-PHAL-plugin-wifi-setup/1.1.1a2-1.1.1a3/diff.md --exclude *.pyd
+[2023-06-22 01:31:10] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/d7/e7/5c675dc6e3d8fc3727d8899642b3066f82bdf3e4d22e91a0c3e61b899138/determined-0.23.1rc2-py3-none-any.whl
+[2023-06-22 01:31:10] INFO root fetch - processPackages [drdid]: Downloading https://files.pythonhosted.org/packages/be/9b/ee29984fb552e563ec986f2b1e49b59a95d25426659a51cedc7f4e799d4f/drdid-1.1.3.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-06-22 01:31:10] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.1rc1-py3-none-any.whl.zip tmp/model_hub-0.23.1rc2-py3-none-any.whl.zip --markdown 20230622/m/model-hub/0.23.1rc1-0.23.1rc2/diff.md --exclude *.pyd
+[2023-06-22 01:31:10] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-06-22 01:31:10] WARNING root fetch - processPackages [ChurchToolsApi]: Skipping, unable to determine old version
+[2023-06-22 01:31:10] INFO root fetch - processPackages [ChurchToolsApi]: Start processing: pymongoarrow
+[2023-06-22 01:31:10] INFO root fetch - main [MainThread]: End processing [ChurchToolsApi] error
+[2023-06-22 01:31:10] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/d3/72/364b45af22cd2ea96bb18b2829fb5124ce585b15ae688dab4f3fd0f83621/alanapy-0.4.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-06-22 01:31:10] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230622/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 01:31:10] INFO root fetch - processPackages [scrapy-manipulate-request]: Downloading https://files.pythonhosted.org/packages/68/e1/3ab93841984ddcfdf928b9ef7efe13d1ba6e024854f8ed8aba4f0e1a873a/scrapy-manipulate-request-0.0.2.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/1d/2a/fb2180e52babf5394f74945919c9c538eb0995f769d4fb73868da298cd64/esphome-2023.6.0b6.tar.gz
+[2023-06-22 01:31:10] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-06-22 01:31:10] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.1rc1-py3-none-any.whl.zip tmp/determined-0.23.1rc2-py3-none-any.whl.zip --markdown 20230622/d/determined/0.23.1rc1-0.23.1rc2/diff.md --exclude *.pyd
+[2023-06-22 01:31:10] INFO root fetch - processPackages [scrapy-manipulate-request]: executing diffoscope
+[2023-06-22 01:31:10] INFO root fetch - processPackages [scrapy-manipulate-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-manipulate-request-0.0.1.tar.gz tmp/scrapy-manipulate-request-0.0.2.tar.gz --markdown 20230622/s/scrapy-manipulate-request/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 01:31:10] INFO root fetch - processPackages [pymongoarrow]: New version: [1.0.0] Old Version: [0.7.0]
+[2023-06-22 01:31:10] INFO root fetch - processPackages [lightcurves]: Downloading https://files.pythonhosted.org/packages/f1/8c/fdbced452bdaf32d0a18e8883a4f21ce542393c3d0b36564e807dbd25c21/lightcurves-1.0-py3-none-any.whl
+[2023-06-22 01:31:11] INFO root fetch - processPackages [drdid]: Downloading https://files.pythonhosted.org/packages/3b/7c/d2b3f3730f2336a6aa21f6917ab31240f03d5a132b4528d09e9f6e2f4b76/drdid-1.1.4.tar.gz
+[2023-06-22 01:31:11] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-06-22 01:31:11] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.0b5.tar.gz tmp/esphome-2023.6.0b6.tar.gz --markdown 20230622/e/esphome/2023.6.0b5-2023.6.0b6/diff.md --exclude *.pyd
+[2023-06-22 01:31:11] INFO root fetch - processPackages [alanapy]: Downloading https://files.pythonhosted.org/packages/c5/7a/e8cc234f9e12a492052a579ffe4ef80bf3dbae88241ec529d8e2304b4cf9/alanapy-0.5.tar.gz
+[2023-06-22 01:31:11] INFO root fetch - processPackages [lightcurves]: executing diffoscope
+[2023-06-22 01:31:11] INFO root fetch - processPackages [lightcurves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightcurves-0.0.5.tar.gz tmp/lightcurves-1.0-py3-none-any.whl.zip --markdown 20230622/l/lightcurves/0.0.5-1.0/diff.md --exclude *.pyd
+[2023-06-22 01:31:11] INFO root fetch - processPackages [pymongoarrow]: Downloading https://files.pythonhosted.org/packages/1e/c7/6dee669656089b47c6a993ec39bef196675821a3c9eafc779603553014af/pymongoarrow-0.7.0.tar.gz
+[2023-06-22 01:31:11] INFO root fetch - processPackages [drdid]: executing diffoscope
+[2023-06-22 01:31:11] INFO root fetch - processPackages [drdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drdid-1.1.3.tar.gz tmp/drdid-1.1.4.tar.gz --markdown 20230622/d/drdid/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-22 01:31:11] INFO root fetch - processPackages [pymongoarrow]: Downloading https://files.pythonhosted.org/packages/9f/00/98567b765b0292d550a6934725b94e966a22d66563bab2270d03a8d81f8a/pymongoarrow-1.0.0-cp38-cp38-macosx_10_14_x86_64.whl
+[2023-06-22 01:31:12] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a3.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-wifi-setup]: success
+[2023-06-22 01:31:12] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.1rc1-py3-none-any.whl.zip]
+[2023-06-22 01:31:12] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.1rc2-py3-none-any.whl.zip]
+[2023-06-22 01:31:12] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-06-22 01:31:12] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-06-22 01:31:12] INFO root fetch - processPackages [scrapy-manipulate-request]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-manipulate-request-0.0.1.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - processPackages [scrapy-manipulate-request]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-manipulate-request-0.0.2.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - main [MainThread]: End processing [scrapy-manipulate-request]: success
+[2023-06-22 01:31:12] INFO root fetch - processPackages [drdid]: Remove: archive file [/home/abi/fetcher/tmp/drdid-1.1.3.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - processPackages [drdid]: Remove: archive file [/home/abi/fetcher/tmp/drdid-1.1.4.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - main [MainThread]: End processing [drdid]: success
+[2023-06-22 01:31:12] INFO root fetch - processPackages [lightcurves]: Remove: archive file [/home/abi/fetcher/tmp/lightcurves-0.0.5.tar.gz]
+[2023-06-22 01:31:12] INFO root fetch - processPackages [lightcurves]: Remove: archive file [/home/abi/fetcher/tmp/lightcurves-1.0-py3-none-any.whl.zip]
+[2023-06-22 01:31:12] INFO root fetch - main [MainThread]: End processing [lightcurves]: success
+[2023-06-22 01:31:13] INFO root fetch - processPackages [alanapy]: executing diffoscope
+[2023-06-22 01:31:13] INFO root fetch - processPackages [alanapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alanapy-0.4.tar.gz tmp/alanapy-0.5.tar.gz --markdown 20230622/a/alanapy/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-22 01:31:13] INFO root fetch - processPackages [pymongoarrow]: executing diffoscope
+[2023-06-22 01:31:13] INFO root fetch - processPackages [pymongoarrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymongoarrow-0.7.0.tar.gz tmp/pymongoarrow-1.0.0-cp38-cp38-macosx_10_14_x86_64.whl.zip --markdown 20230622/p/pymongoarrow/0.7.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 01:31:14] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.1rc1-py3-none-any.whl.zip]
+[2023-06-22 01:31:14] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.1rc2-py3-none-any.whl.zip]
+[2023-06-22 01:31:14] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-06-22 01:31:14] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.4.tar.gz]
+[2023-06-22 01:31:14] INFO root fetch - processPackages [alanapy]: Remove: archive file [/home/abi/fetcher/tmp/alanapy-0.5.tar.gz]
+[2023-06-22 01:31:14] INFO root fetch - main [MainThread]: End processing [alanapy]: success
+[2023-06-22 01:31:14] INFO root fetch - processPackages [pymongoarrow]: Remove: archive file [/home/abi/fetcher/tmp/pymongoarrow-0.7.0.tar.gz]
+[2023-06-22 01:31:14] INFO root fetch - processPackages [pymongoarrow]: Remove: archive file [/home/abi/fetcher/tmp/pymongoarrow-1.0.0-cp38-cp38-macosx_10_14_x86_64.whl.zip]
+[2023-06-22 01:31:14] INFO root fetch - main [MainThread]: End processing [pymongoarrow]: success
+[2023-06-22 01:31:57] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b5.tar.gz]
+[2023-06-22 01:31:57] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b6.tar.gz]
+[2023-06-22 01:31:57] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-06-22 01:31:57] INFO root fetch - main [MainThread]: Store serial: [18597689]
