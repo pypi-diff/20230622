@@ -1538,3 +1538,72 @@
 [2023-06-22 01:47:49] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212337-py3-none-any.whl.zip]
 [2023-06-22 01:47:49] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-22 01:47:49] INFO root fetch - main [MainThread]: Store serial: [18597778]
+[2023-06-22 01:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597778]
+[2023-06-22 01:52:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alanapy
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awsebcli
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ak_selenium
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chia-blockchain
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aenum
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: entelecheia
+[2023-06-22 01:52:58] WARNING root fetch - processPackages [alanapy]: Skipping, unable to determine old version
+[2023-06-22 01:52:58] INFO root fetch - main [MainThread]: End processing [alanapy] error
+[2023-06-22 01:52:58] INFO root fetch - processPackages [kfish]: New version: [99.0.202306212335] Old Version: [99.0.202306212232]
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ak_selenium]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 01:52:58] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 01:52:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/dc/4d/b50217db6b3dda1e655391ddbeb5e7d5696086a6fe60aec31bb7f40988a0/kfish-99.0.202306212232-py3-none-any.whl
+[2023-06-22 01:52:58] INFO root fetch - processPackages [entelecheia]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 01:52:58] INFO root fetch - processPackages [chia-blockchain]: New version: [2.0.0b3] Old Version: [2.0.0b1]
+[2023-06-22 01:52:58] INFO root fetch - processPackages [awsebcli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-22 01:52:58] INFO root fetch - processPackages [aenum]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-22 01:52:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0c/33/f1c00bc7a9ae8e79f79f2e04a851a89d4109dca1b2fc5a76945af31a80ec/kfish-99.0.202306212335-py3-none-any.whl
+[2023-06-22 01:52:58] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-06-22 01:52:58] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/d1/c2/1fcb2bec77900e0480d4f8f6611c989bdb4189071c4efd55832737a03a70/chia-blockchain-2.0.0b1.tar.gz
+[2023-06-22 01:52:58] INFO root fetch - processPackages [ak_selenium]: Downloading https://files.pythonhosted.org/packages/e5/6d/0974abc65c3bfc85b84e2436c4cc9e4c2df220ea30bc645b755fbcf0c7db/ak_selenium-0.0.1.tar.gz
+[2023-06-22 01:52:58] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/9a/dc/8a8ba2091ae304c299373cc8adb6019c814d048d5906da7a997efb6c9385/entelecheia-0.2.2.tar.gz
+[2023-06-22 01:52:58] INFO root fetch - processPackages [awsebcli]: Downloading https://files.pythonhosted.org/packages/8e/dc/cc09e88d5f6794c38823db6218fb16c9c637fc2749f6da96621ed55b502f/awsebcli-3.9.0.tar.gz
+[2023-06-22 01:52:58] INFO root fetch - processPackages [aenum]: Downloading https://files.pythonhosted.org/packages/14/f6/0c98c65f0f4e0a275f7a4493dddc58b30831749d7f74a72e487994fd9b7f/aenum-3.1.8.tar.gz
+[2023-06-22 01:52:58] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 01:52:58] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306212232-py3-none-any.whl.zip tmp/kfish-99.0.202306212335-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306212232-99.0.202306212335/diff.md --exclude *.pyd
+[2023-06-22 01:52:59] INFO root fetch - processPackages [ak_selenium]: Downloading https://files.pythonhosted.org/packages/8b/42/bb7122a7be9c9fd39dea926982d05e0ff5d25e98fc9cdbfa3e115fca431e/ak_selenium-0.0.2.tar.gz
+[2023-06-22 01:52:59] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/54/3e/5ee6d22044b2f24285e2ac9912970ec2e4affd3dd1b8978e34aaa3d3c595/entelecheia-0.2.3.tar.gz
+[2023-06-22 01:52:59] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-06-22 01:52:59] INFO root fetch - processPackages [aenum]: Downloading https://files.pythonhosted.org/packages/73/85/601b0587a82eb5852de78156f1d65345c1bb2d3a9b9733abab665a05faf8/aenum-3.1.9.tar.gz
+[2023-06-22 01:52:59] INFO root fetch - processPackages [awsebcli]: Downloading https://files.pythonhosted.org/packages/16/81/c8b942570f6e92bac9843ead8fc9baa6cfed48684a0687665447e76e2858/awsebcli-3.9.1.tar.gz
+[2023-06-22 01:52:59] INFO root fetch - processPackages [aenum]: executing diffoscope
+[2023-06-22 01:52:59] INFO root fetch - processPackages [aenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aenum-3.1.8.tar.gz tmp/aenum-3.1.9.tar.gz --markdown 20230622/a/aenum/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-22 01:52:59] INFO root fetch - processPackages [awsebcli]: executing diffoscope
+[2023-06-22 01:52:59] INFO root fetch - processPackages [awsebcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsebcli-3.9.0.tar.gz tmp/awsebcli-3.9.1.tar.gz --markdown 20230622/a/awsebcli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-22 01:52:59] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/f7/ae/9fa5c132791d0ffd9b9a7f3f04a8d1699668d4f32451beece56e68428ad6/chia-blockchain-2.0.0b3.tar.gz
+[2023-06-22 01:52:59] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306212232-py3-none-any.whl.zip]
+[2023-06-22 01:52:59] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306212335-py3-none-any.whl.zip]
+[2023-06-22 01:52:59] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 01:53:00] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-06-22 01:53:00] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.2.tar.gz tmp/entelecheia-0.2.3.tar.gz --markdown 20230622/e/entelecheia/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 01:53:01] INFO root fetch - processPackages [ak_selenium]: executing diffoscope
+[2023-06-22 01:53:01] INFO root fetch - processPackages [ak_selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ak_selenium-0.0.1.tar.gz tmp/ak_selenium-0.0.2.tar.gz --markdown 20230622/a/ak_selenium/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 01:53:01] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-06-22 01:53:01] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230622/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 01:53:01] INFO root fetch - processPackages [aenum]: Remove: archive file [/home/abi/fetcher/tmp/aenum-3.1.8.tar.gz]
+[2023-06-22 01:53:01] INFO root fetch - processPackages [aenum]: Remove: archive file [/home/abi/fetcher/tmp/aenum-3.1.9.tar.gz]
+[2023-06-22 01:53:01] INFO root fetch - main [MainThread]: End processing [aenum]: success
+[2023-06-22 01:53:01] INFO root fetch - processPackages [awsebcli]: Remove: archive file [/home/abi/fetcher/tmp/awsebcli-3.9.0.tar.gz]
+[2023-06-22 01:53:01] INFO root fetch - processPackages [awsebcli]: Remove: archive file [/home/abi/fetcher/tmp/awsebcli-3.9.1.tar.gz]
+[2023-06-22 01:53:01] INFO root fetch - main [MainThread]: End processing [awsebcli]: success
+[2023-06-22 01:53:02] INFO root fetch - processPackages [ak_selenium]: Remove: archive file [/home/abi/fetcher/tmp/ak_selenium-0.0.1.tar.gz]
+[2023-06-22 01:53:02] INFO root fetch - processPackages [ak_selenium]: Remove: archive file [/home/abi/fetcher/tmp/ak_selenium-0.0.2.tar.gz]
+[2023-06-22 01:53:02] INFO root fetch - main [MainThread]: End processing [ak_selenium]: success
+[2023-06-22 01:53:02] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.2.tar.gz]
+[2023-06-22 01:53:02] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.3.tar.gz]
+[2023-06-22 01:53:02] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-06-22 01:53:03] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-06-22 01:53:03] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-06-22 01:53:03] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-06-22 01:53:09] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-06-22 01:53:09] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-2.0.0b1.tar.gz tmp/chia-blockchain-2.0.0b3.tar.gz --markdown 20230622/c/chia-blockchain/2.0.0b1-2.0.0b3/diff.md --exclude *.pyd
+[2023-06-22 01:53:30] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0b1.tar.gz]
+[2023-06-22 01:53:30] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0b3.tar.gz]
+[2023-06-22 01:53:30] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-06-22 01:53:30] INFO root fetch - main [MainThread]: Store serial: [18597798]
