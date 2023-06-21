@@ -1193,3 +1193,47 @@
 [2023-06-22 01:20:50] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230621231033-py3-none-any.whl.zip]
 [2023-06-22 01:20:50] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-22 01:20:50] INFO root fetch - main [MainThread]: Store serial: [18597620]
+[2023-06-22 01:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597620]
+[2023-06-22 01:25:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miao-make
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ape-kava
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inquirer3
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hardened-steel
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prefab-cloud-python
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: patito
+[2023-06-22 01:25:59] INFO root fetch - processPackages [hardened-steel]: New version: [0.0.4.dev0] Old Version: [0.0.3.dev0]
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ape-kava]: New version: [1.1] Old Version: [1.0]
+[2023-06-22 01:25:59] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/22/2f/e67ad0ec3ab84ec2e0a60b1af1db060885c79cf91d756459489ddbcf96c1/hardened-steel-0.0.3.dev0.tar.gz
+[2023-06-22 01:25:59] WARNING root fetch - processPackages [inquirer3]: Skipping, unable to determine old version
+[2023-06-22 01:25:59] INFO root fetch - main [MainThread]: End processing [inquirer3] error
+[2023-06-22 01:25:59] INFO root fetch - processPackages [prefab-cloud-python]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-22 01:25:59] WARNING root fetch - processPackages [miao-make]: Skipping, unable to determine old version
+[2023-06-22 01:25:59] INFO root fetch - main [MainThread]: End processing [miao-make] error
+[2023-06-22 01:25:59] INFO root fetch - processPackages [patito]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ape-kava]: Downloading https://files.pythonhosted.org/packages/5d/6f/815aff67e42cfd9e5925e42ad97177a016aeb094b8677b96069c870bb5be/ape-kava-1.0.tar.gz
+[2023-06-22 01:25:59] INFO root fetch - processPackages [hardened-steel]: executing diffoscope
+[2023-06-22 01:25:59] INFO root fetch - processPackages [hardened-steel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardened-steel-0.0.3.dev0.tar.gz tmp/hardened-steel-0.0.4.dev0.tar.gz --markdown 20230622/h/hardened-steel/0.0.3.dev0-0.0.4.dev0/diff.md --exclude *.pyd
+[2023-06-22 01:25:59] INFO root fetch - processPackages [prefab-cloud-python]: Downloading https://files.pythonhosted.org/packages/c6/ea/47ba118603fe043d9fcac315da1855d2ffd6470a1d58d01b02f28a03b4ab/prefab_cloud_python-0.3.2.tar.gz
+[2023-06-22 01:25:59] INFO root fetch - processPackages [patito]: Downloading https://files.pythonhosted.org/packages/32/ed/aa901c1629079ac0a9af77b81dad29b6de9fc593aea4b4e0862573f08ec1/patito-0.4.4.tar.gz
+[2023-06-22 01:25:59] INFO root fetch - processPackages [ape-kava]: Downloading https://files.pythonhosted.org/packages/f7/cc/45b6993fd7190a84f4a5d30e6e595c257c34803aa1e4a8eefa4935838600/ape-kava-1.1.tar.gz
+[2023-06-22 01:25:59] INFO root fetch - processPackages [prefab-cloud-python]: Downloading https://files.pythonhosted.org/packages/04/e2/99fc1c47645c258cd601ac2aed078b424cb2afebc20af2e54aa680fee7bb/prefab_cloud_python-0.3.3.tar.gz
+[2023-06-22 01:26:00] INFO root fetch - processPackages [ape-kava]: executing diffoscope
+[2023-06-22 01:26:00] INFO root fetch - processPackages [ape-kava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-kava-1.0.tar.gz tmp/ape-kava-1.1.tar.gz --markdown 20230622/a/ape-kava/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-22 01:26:00] INFO root fetch - processPackages [prefab-cloud-python]: executing diffoscope
+[2023-06-22 01:26:00] INFO root fetch - processPackages [prefab-cloud-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefab_cloud_python-0.3.2.tar.gz tmp/prefab_cloud_python-0.3.3.tar.gz --markdown 20230622/p/prefab-cloud-python/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-22 01:26:00] INFO root fetch - processPackages [patito]: Downloading https://files.pythonhosted.org/packages/d5/d1/cfd30ef9e420d69360a0eefec6dbe6781da2f03f0da13a818c86958e535a/patito-0.5.0.tar.gz
+[2023-06-22 01:26:00] INFO root fetch - processPackages [patito]: executing diffoscope
+[2023-06-22 01:26:00] INFO root fetch - processPackages [patito]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patito-0.4.4.tar.gz tmp/patito-0.5.0.tar.gz --markdown 20230622/p/patito/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 01:26:00] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.3.dev0.tar.gz]
+[2023-06-22 01:26:00] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.4.dev0.tar.gz]
+[2023-06-22 01:26:00] INFO root fetch - main [MainThread]: End processing [hardened-steel]: success
+[2023-06-22 01:26:01] INFO root fetch - processPackages [ape-kava]: Remove: archive file [/home/abi/fetcher/tmp/ape-kava-1.0.tar.gz]
+[2023-06-22 01:26:01] INFO root fetch - processPackages [ape-kava]: Remove: archive file [/home/abi/fetcher/tmp/ape-kava-1.1.tar.gz]
+[2023-06-22 01:26:01] INFO root fetch - main [MainThread]: End processing [ape-kava]: success
+[2023-06-22 01:26:01] INFO root fetch - processPackages [prefab-cloud-python]: Remove: archive file [/home/abi/fetcher/tmp/prefab_cloud_python-0.3.2.tar.gz]
+[2023-06-22 01:26:01] INFO root fetch - processPackages [prefab-cloud-python]: Remove: archive file [/home/abi/fetcher/tmp/prefab_cloud_python-0.3.3.tar.gz]
+[2023-06-22 01:26:01] INFO root fetch - main [MainThread]: End processing [prefab-cloud-python]: success
+[2023-06-22 01:26:01] INFO root fetch - processPackages [patito]: Remove: archive file [/home/abi/fetcher/tmp/patito-0.4.4.tar.gz]
+[2023-06-22 01:26:01] INFO root fetch - processPackages [patito]: Remove: archive file [/home/abi/fetcher/tmp/patito-0.5.0.tar.gz]
+[2023-06-22 01:26:01] INFO root fetch - main [MainThread]: End processing [patito]: success
+[2023-06-22 01:26:01] INFO root fetch - main [MainThread]: Store serial: [18597641]
