@@ -468,3 +468,90 @@
 [2023-06-22 00:32:34] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.3.tar.gz]
 [2023-06-22 00:32:34] INFO root fetch - main [MainThread]: End processing [prefecto]: success
 [2023-06-22 00:32:34] INFO root fetch - main [MainThread]: Store serial: [18597234]
+[2023-06-22 00:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597234]
+[2023-06-22 00:38:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxy3d
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: design-kgex
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: horde-model-reference
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jc
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-quantum-tgp
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hardened-steel
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pssepy
+[2023-06-22 00:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: motley-cue
+[2023-06-22 00:38:03] INFO root fetch - processPackages [horde-model-reference]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-22 00:38:03] WARNING root fetch - processPackages [design-kgex]: Skipping, unable to determine old version
+[2023-06-22 00:38:03] INFO root fetch - main [MainThread]: End processing [design-kgex] error
+[2023-06-22 00:38:03] INFO root fetch - processPackages [pyxy3d]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [kcli]: New version: [99.0.202306212229] Old Version: [99.0.202306211913]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [kfish]: New version: [99.0.202306212232] Old Version: [99.0.202306211915]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [pssepy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [hardened-steel]: New version: [0.0.2.dev0] Old Version: [0.0.1]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [azure-quantum-tgp]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [jc]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [motley-cue]: New version: [0.5.3] Old Version: [0.5.1]
+[2023-06-22 00:38:03] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/65/b2/906bc0ac77e8b146217e2861a3dbd51149090fcee38473593d5896701528/pyxy3d-0.1.0.tar.gz
+[2023-06-22 00:38:03] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/db/59/22ccb7701c58f7135f4a4a5694f56585130af672565feee9404b92719f4a/horde_model_reference-0.1.1-py3-none-any.whl
+[2023-06-22 00:38:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2e/cf/a6784e1cb01772df79d58a76fa3dc6a07f335a826fcdc75e819efa2ecc5e/kcli-99.0.202306211913-py3-none-any.whl
+[2023-06-22 00:38:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0e/a6/328ecbe3a215324d8e406f3d6d77ccdb6f40acc53b7e96ff9b6d0a410271/kfish-99.0.202306211915-py3-none-any.whl
+[2023-06-22 00:38:03] INFO root fetch - processPackages [azure-quantum-tgp]: Downloading https://files.pythonhosted.org/packages/d5/2b/70f47f627dd6f6f54a52c62215eb0f36161e1c575010040f1ce12cc8c97f/azure-quantum-tgp-1.0.0.tar.gz
+[2023-06-22 00:38:03] INFO root fetch - processPackages [jc]: Downloading https://files.pythonhosted.org/packages/48/07/8a4c81803e573ae79bfb33878dfd5626a7176b70fcc459dd687074fdab4e/jc-1.9.2.tar.gz
+[2023-06-22 00:38:03] INFO root fetch - processPackages [pssepy]: Downloading https://files.pythonhosted.org/packages/1c/fc/5bdf5d31c967ae7a3d06cfa988aa5f3999a43cc7212174dfb9be7955beea/pssepy-0.3.0.tar.gz
+[2023-06-22 00:38:03] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/34/75/69f7351e909f2cfdc75af4d567fc2f1e9a80e8971ad2a7030f2e5607785b/hardened-steel-0.0.1.tar.gz
+[2023-06-22 00:38:03] INFO root fetch - processPackages [motley-cue]: Downloading https://files.pythonhosted.org/packages/95/dc/75a0b83b9f594f49cd30070efd4290ce9f34600ea477348c80f9bdca1686/motley_cue-0.5.1.tar.gz
+[2023-06-22 00:38:03] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/61/7d/ca424333387fcde2152af3ea79a22fa07eacab19f9f8a2df007ab1f0cd12/pyxy3d-0.1.1.tar.gz
+[2023-06-22 00:38:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/c3/7f/5f9cdf83a16798900abe8798cedc942d91369bd200136a9016aa75fd236d/kcli-99.0.202306212229-py3-none-any.whl
+[2023-06-22 00:38:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/dc/4d/b50217db6b3dda1e655391ddbeb5e7d5696086a6fe60aec31bb7f40988a0/kfish-99.0.202306212232-py3-none-any.whl
+[2023-06-22 00:38:03] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/68/92/9bfc5b4b7880ee2086a495a99b3d2ce80196e8d19dd4c6ae4aabf398b244/horde_model_reference-0.2.1-py3-none-any.whl
+[2023-06-22 00:38:04] INFO root fetch - processPackages [azure-quantum-tgp]: Downloading https://files.pythonhosted.org/packages/0e/c5/e154d40ddf53473c3f17e452d1693d5d06d04f3efa17063d0bc55cb2f401/azure-quantum-tgp-1.1.0.tar.gz
+[2023-06-22 00:38:04] INFO root fetch - processPackages [pssepy]: Downloading https://files.pythonhosted.org/packages/57/80/deb71c4ca2bc624d7f6a332079a1d9104e38e97ffc5581e546016a9591ff/pssepy-0.4.0.tar.gz
+[2023-06-22 00:38:04] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/66/0f/13787582651a0303153221ddb5e7ad9f97747b1b87c3c9da214229f5c29a/hardened-steel-0.0.2.dev0.tar.gz
+[2023-06-22 00:38:04] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 00:38:04] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306211915-py3-none-any.whl.zip tmp/kfish-99.0.202306212232-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306211915-99.0.202306212232/diff.md --exclude *.pyd
+[2023-06-22 00:38:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 00:38:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306211913-py3-none-any.whl.zip tmp/kcli-99.0.202306212229-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306211913-99.0.202306212229/diff.md --exclude *.pyd
+[2023-06-22 00:38:04] INFO root fetch - processPackages [motley-cue]: Downloading https://files.pythonhosted.org/packages/a9/da/8534d7503b1810dd20079c79680967417c5b83d2c2a1d4539569b9b0d9f0/motley_cue-0.5.3.tar.gz
+[2023-06-22 00:38:04] INFO root fetch - processPackages [pssepy]: executing diffoscope
+[2023-06-22 00:38:04] INFO root fetch - processPackages [hardened-steel]: executing diffoscope
+[2023-06-22 00:38:04] INFO root fetch - processPackages [pssepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssepy-0.3.0.tar.gz tmp/pssepy-0.4.0.tar.gz --markdown 20230622/p/pssepy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 00:38:04] INFO root fetch - processPackages [hardened-steel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardened-steel-0.0.1.tar.gz tmp/hardened-steel-0.0.2.dev0.tar.gz --markdown 20230622/h/hardened-steel/0.0.1-0.0.2.dev0/diff.md --exclude *.pyd
+[2023-06-22 00:38:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306211915-py3-none-any.whl.zip]
+[2023-06-22 00:38:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306212232-py3-none-any.whl.zip]
+[2023-06-22 00:38:05] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 00:38:05] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.1.tar.gz]
+[2023-06-22 00:38:05] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.2.dev0.tar.gz]
+[2023-06-22 00:38:05] INFO root fetch - main [MainThread]: End processing [hardened-steel]: success
+[2023-06-22 00:38:05] INFO root fetch - processPackages [pssepy]: Remove: archive file [/home/abi/fetcher/tmp/pssepy-0.3.0.tar.gz]
+[2023-06-22 00:38:05] INFO root fetch - processPackages [pssepy]: Remove: archive file [/home/abi/fetcher/tmp/pssepy-0.4.0.tar.gz]
+[2023-06-22 00:38:05] INFO root fetch - main [MainThread]: End processing [pssepy]: success
+[2023-06-22 00:38:11] INFO root fetch - processPackages [jc]: Downloading https://files.pythonhosted.org/packages/82/79/2e005b1a767c449092be56b2a1265724a46d77a74e05c9fe6c28973c7a21/jc-1.9.3.tar.gz
+[2023-06-22 00:38:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306211913-py3-none-any.whl.zip]
+[2023-06-22 00:38:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212229-py3-none-any.whl.zip]
+[2023-06-22 00:38:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 00:38:18] INFO root fetch - processPackages [jc]: executing diffoscope
+[2023-06-22 00:38:18] INFO root fetch - processPackages [jc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jc-1.9.2.tar.gz tmp/jc-1.9.3.tar.gz --markdown 20230622/j/jc/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-22 00:38:26] INFO root fetch - processPackages [jc]: Remove: archive file [/home/abi/fetcher/tmp/jc-1.9.2.tar.gz]
+[2023-06-22 00:38:26] INFO root fetch - processPackages [jc]: Remove: archive file [/home/abi/fetcher/tmp/jc-1.9.3.tar.gz]
+[2023-06-22 00:38:26] INFO root fetch - main [MainThread]: End processing [jc]: success
+[2023-06-22 00:40:59] INFO root fetch - processPackages [motley-cue]: executing diffoscope
+[2023-06-22 00:40:59] INFO root fetch - processPackages [motley-cue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motley_cue-0.5.1.tar.gz tmp/motley_cue-0.5.3.tar.gz --markdown 20230622/m/motley-cue/0.5.1-0.5.3/diff.md --exclude *.pyd
+[2023-06-22 00:41:00] INFO root fetch - processPackages [motley-cue]: Remove: archive file [/home/abi/fetcher/tmp/motley_cue-0.5.1.tar.gz]
+[2023-06-22 00:41:00] INFO root fetch - processPackages [motley-cue]: Remove: archive file [/home/abi/fetcher/tmp/motley_cue-0.5.3.tar.gz]
+[2023-06-22 00:41:00] INFO root fetch - main [MainThread]: End processing [motley-cue]: success
+[2023-06-22 00:41:07] INFO root fetch - processPackages [pyxy3d]: executing diffoscope
+[2023-06-22 00:41:07] INFO root fetch - processPackages [pyxy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxy3d-0.1.0.tar.gz tmp/pyxy3d-0.1.1.tar.gz --markdown 20230622/p/pyxy3d/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 00:41:09] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.0.tar.gz]
+[2023-06-22 00:41:09] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.1.tar.gz]
+[2023-06-22 00:41:09] INFO root fetch - main [MainThread]: End processing [pyxy3d]: success
+[2023-06-22 00:44:02] INFO root fetch - processPackages [horde-model-reference]: executing diffoscope
+[2023-06-22 00:44:02] INFO root fetch - processPackages [horde-model-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_model_reference-0.1.1-py3-none-any.whl.zip tmp/horde_model_reference-0.2.1-py3-none-any.whl.zip --markdown 20230622/h/horde-model-reference/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 00:44:04] INFO root fetch - processPackages [horde-model-reference]: Remove: archive file [/home/abi/fetcher/tmp/horde_model_reference-0.1.1-py3-none-any.whl.zip]
+[2023-06-22 00:44:04] INFO root fetch - processPackages [horde-model-reference]: Remove: archive file [/home/abi/fetcher/tmp/horde_model_reference-0.2.1-py3-none-any.whl.zip]
+[2023-06-22 00:44:04] INFO root fetch - main [MainThread]: End processing [horde-model-reference]: success
+[2023-06-22 00:44:12] INFO root fetch - processPackages [azure-quantum-tgp]: executing diffoscope
+[2023-06-22 00:44:12] INFO root fetch - processPackages [azure-quantum-tgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-quantum-tgp-1.0.0.tar.gz tmp/azure-quantum-tgp-1.1.0.tar.gz --markdown 20230622/a/azure-quantum-tgp/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-22 00:44:14] INFO root fetch - processPackages [azure-quantum-tgp]: Remove: archive file [/home/abi/fetcher/tmp/azure-quantum-tgp-1.0.0.tar.gz]
+[2023-06-22 00:44:14] INFO root fetch - processPackages [azure-quantum-tgp]: Remove: archive file [/home/abi/fetcher/tmp/azure-quantum-tgp-1.1.0.tar.gz]
+[2023-06-22 00:44:14] INFO root fetch - main [MainThread]: End processing [azure-quantum-tgp]: success
+[2023-06-22 00:44:14] INFO root fetch - main [MainThread]: Store serial: [18597292]
