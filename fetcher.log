@@ -411,3 +411,60 @@
 [2023-06-22 00:21:14] INFO root fetch - processPackages [qsonic]: Remove: archive file [/home/abi/fetcher/tmp/qsonic-0.7.3.tar.gz]
 [2023-06-22 00:21:14] INFO root fetch - main [MainThread]: End processing [qsonic]: success
 [2023-06-22 00:21:14] INFO root fetch - main [MainThread]: Store serial: [18597205]
+[2023-06-22 00:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597205]
+[2023-06-22 00:26:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evm-trace
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsws
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezkl-lib
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Lab93-Finance
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unstructured-inference
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prefecto
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ezkl-lib]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 00:26:25] INFO root fetch - processPackages [evm-trace]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-06-22 00:26:25] INFO root fetch - processPackages [dsws]: New version: [0.9] Old Version: [0.8]
+[2023-06-22 00:26:25] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/0a/91/0c41c16d2edded8e3d02ef9839f486b258fb844c709871ecb4eae14efcf3/dsws-0.8.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [Lab93-Finance]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2023-06-22 00:26:25] INFO root fetch - processPackages [unstructured-inference]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-22 00:26:25] INFO root fetch - processPackages [prefecto]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 00:26:25] INFO root fetch - processPackages [ezkl-lib]: Downloading https://files.pythonhosted.org/packages/b7/3a/2f305b9796f71682be0a25aa9dde607b79355e7874330d9bb9269f52fc5f/ezkl_lib-0.2.0-cp37-abi3-win_amd64.whl
+[2023-06-22 00:26:25] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/b2/71/a9e8de12dd7f80a240a35c7c0813dbbe17208b0bea253cefe25f9585e2fe/evm-trace-0.1.0a8.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/5e/9b/fdd0a73d4563207976dc6dac706f903846b84e6a3278f794e35d3af29bd5/unstructured_inference-0.5.1.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [Lab93-Finance]: Downloading https://files.pythonhosted.org/packages/c4/bc/2e7bd8a77e06a6a58c69c75a2cd9dd0c2c6f0017b561a1d4a099bbb0cd0e/Lab93-Finance-0.0.1.3.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/34/52/a5a05fc41e66f47db4849a82bdb12466cd71a3e2dbb6e8182080f3350857/prefecto-0.0.2.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [dsws]: Downloading https://files.pythonhosted.org/packages/32/6f/54537116273920427b944cd4791479e9e0187712a3adb14dbef41f5b2c8d/dsws-0.9.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [dsws]: executing diffoscope
+[2023-06-22 00:26:25] INFO root fetch - processPackages [dsws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws-0.8.tar.gz tmp/dsws-0.9.tar.gz --markdown 20230622/d/dsws/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-22 00:26:25] INFO root fetch - processPackages [Lab93-Finance]: Downloading https://files.pythonhosted.org/packages/54/c7/a32ae74f57d067e495762fa4f9917b66197cf08080b9c8dc8e55e19de1cc/Lab93-Finance-0.0.1.4.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/d9/bd/116463d0e738d5507236282d010bf49dd0b965498e0225c7d3ea87ec3a4c/evm-trace-0.1.0a9.tar.gz
+[2023-06-22 00:26:25] INFO root fetch - processPackages [prefecto]: Downloading https://files.pythonhosted.org/packages/c8/ec/a70927220edf772d221e015e1ae7e91655764b6b8e4237eef83f978aae5e/prefecto-0.0.3.tar.gz
+[2023-06-22 00:26:26] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/34/b6/407b210a6526251dc20ea68692f64eec79c4b4482d905b840cb10f5c108e/unstructured_inference-0.5.2.tar.gz
+[2023-06-22 00:26:26] INFO root fetch - processPackages [evm-trace]: executing diffoscope
+[2023-06-22 00:26:26] INFO root fetch - processPackages [evm-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evm-trace-0.1.0a8.tar.gz tmp/evm-trace-0.1.0a9.tar.gz --markdown 20230622/e/evm-trace/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-06-22 00:26:26] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.8.tar.gz]
+[2023-06-22 00:26:26] INFO root fetch - processPackages [dsws]: Remove: archive file [/home/abi/fetcher/tmp/dsws-0.9.tar.gz]
+[2023-06-22 00:26:26] INFO root fetch - main [MainThread]: End processing [dsws]: success
+[2023-06-22 00:26:26] INFO root fetch - processPackages [ezkl-lib]: Downloading https://files.pythonhosted.org/packages/96/fa/f9d7dd91127a961c673cf7f3cf283ef967182182552e89f03d46bb9e9b11/ezkl_lib-0.3.0-cp37-abi3-win_amd64.whl
+[2023-06-22 00:26:27] INFO root fetch - processPackages [evm-trace]: Remove: archive file [/home/abi/fetcher/tmp/evm-trace-0.1.0a8.tar.gz]
+[2023-06-22 00:26:27] INFO root fetch - processPackages [evm-trace]: Remove: archive file [/home/abi/fetcher/tmp/evm-trace-0.1.0a9.tar.gz]
+[2023-06-22 00:26:27] INFO root fetch - main [MainThread]: End processing [evm-trace]: success
+[2023-06-22 00:26:32] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2023-06-22 00:26:32] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.5.1.tar.gz tmp/unstructured_inference-0.5.2.tar.gz --markdown 20230622/u/unstructured-inference/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-22 00:26:33] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.5.1.tar.gz]
+[2023-06-22 00:26:33] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.5.2.tar.gz]
+[2023-06-22 00:26:33] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2023-06-22 00:30:31] INFO root fetch - processPackages [ezkl-lib]: executing diffoscope
+[2023-06-22 00:30:31] INFO root fetch - processPackages [ezkl-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezkl_lib-0.2.0-cp37-abi3-win_amd64.whl.zip tmp/ezkl_lib-0.3.0-cp37-abi3-win_amd64.whl.zip --markdown 20230622/e/ezkl-lib/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 00:30:42] INFO root fetch - processPackages [ezkl-lib]: Remove: archive file [/home/abi/fetcher/tmp/ezkl_lib-0.2.0-cp37-abi3-win_amd64.whl.zip]
+[2023-06-22 00:30:42] INFO root fetch - processPackages [ezkl-lib]: Remove: archive file [/home/abi/fetcher/tmp/ezkl_lib-0.3.0-cp37-abi3-win_amd64.whl.zip]
+[2023-06-22 00:30:42] INFO root fetch - main [MainThread]: End processing [ezkl-lib]: success
+[2023-06-22 00:32:33] INFO root fetch - processPackages [Lab93-Finance]: executing diffoscope
+[2023-06-22 00:32:33] INFO root fetch - processPackages [Lab93-Finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lab93-Finance-0.0.1.3.tar.gz tmp/Lab93-Finance-0.0.1.4.tar.gz --markdown 20230622/L/Lab93-Finance/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2023-06-22 00:32:34] INFO root fetch - processPackages [prefecto]: executing diffoscope
+[2023-06-22 00:32:34] INFO root fetch - processPackages [prefecto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefecto-0.0.2.tar.gz tmp/prefecto-0.0.3.tar.gz --markdown 20230622/p/prefecto/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 00:32:34] INFO root fetch - processPackages [Lab93-Finance]: Remove: archive file [/home/abi/fetcher/tmp/Lab93-Finance-0.0.1.3.tar.gz]
+[2023-06-22 00:32:34] INFO root fetch - processPackages [Lab93-Finance]: Remove: archive file [/home/abi/fetcher/tmp/Lab93-Finance-0.0.1.4.tar.gz]
+[2023-06-22 00:32:34] INFO root fetch - main [MainThread]: End processing [Lab93-Finance]: success
+[2023-06-22 00:32:34] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.2.tar.gz]
+[2023-06-22 00:32:34] INFO root fetch - processPackages [prefecto]: Remove: archive file [/home/abi/fetcher/tmp/prefecto-0.0.3.tar.gz]
+[2023-06-22 00:32:34] INFO root fetch - main [MainThread]: End processing [prefecto]: success
+[2023-06-22 00:32:34] INFO root fetch - main [MainThread]: Store serial: [18597234]
