@@ -1607,3 +1607,59 @@
 [2023-06-22 01:53:30] INFO root fetch - processPackages [chia-blockchain]: Remove: archive file [/home/abi/fetcher/tmp/chia-blockchain-2.0.0b3.tar.gz]
 [2023-06-22 01:53:30] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
 [2023-06-22 01:53:30] INFO root fetch - main [MainThread]: Store serial: [18597798]
+[2023-06-22 01:58:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597798]
+[2023-06-22 01:58:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 01:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unigui
+[2023-06-22 01:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: healsparse
+[2023-06-22 01:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featurelayers
+[2023-06-22 01:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-22 01:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ChemCal
+[2023-06-22 01:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thermo
+[2023-06-22 01:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: navigator-session
+[2023-06-22 01:58:42] INFO root fetch - processPackages [thermo]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 01:58:42] WARNING root fetch - processPackages [ChemCal]: Skipping, unable to determine old version
+[2023-06-22 01:58:42] INFO root fetch - processPackages [featurelayers]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-22 01:58:42] INFO root fetch - main [MainThread]: End processing [ChemCal] error
+[2023-06-22 01:58:42] INFO root fetch - processPackages [healsparse]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-22 01:58:42] INFO root fetch - processPackages [unigui]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-22 01:58:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202306212354] Old Version: [99.0.202306212347]
+[2023-06-22 01:58:42] INFO root fetch - processPackages [navigator-session]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-22 01:58:42] INFO root fetch - processPackages [thermo]: Downloading https://files.pythonhosted.org/packages/27/c9/7aa856583152387add5b9700ec8245ebe08243b9d75dcba3ea1ee1e9f6a6/thermo-0.2.8.tar.gz
+[2023-06-22 01:58:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/04/30/efed12661727dc45e6230fc7a05fc3a1abb5779865957a0692a0b577ee2b/kcli-99.0.202306212347-py3-none-any.whl
+[2023-06-22 01:58:42] INFO root fetch - processPackages [healsparse]: Downloading https://files.pythonhosted.org/packages/cf/5d/bea97030d240da7138b02840140f3e37e317d8a2b3589476f3074ce4d672/healsparse-1.6.4.tar.gz
+[2023-06-22 01:58:42] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/69/ce/0c8720730aebb03ef9a28a4a2802713e8653f891c48177fae342cbb732ae/featurelayers-1.1.7.tar.gz
+[2023-06-22 01:58:42] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/50/9e/caf0306d6d2111b3eaa34532f3968caa652140ce8c0f85121b7428edff4c/unigui-1.5.2.tar.gz
+[2023-06-22 01:58:42] INFO root fetch - processPackages [navigator-session]: Downloading https://files.pythonhosted.org/packages/96/6f/ec9d0209fac5a976bc9379b6afca31c7f9e511814b34a44fd14cbd12be65/navigator_session-0.4.3-py3-none-any.whl
+[2023-06-22 01:58:42] WARNING root fetch - processPackages [thermo]: Skipping package: exceeds size limit 10732574>=10485760
+[2023-06-22 01:58:42] INFO root fetch - main [MainThread]: End processing [thermo] error
+[2023-06-22 01:58:42] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/b6/52/9cebb831725e793ec2741e3ee66e98fe5372b1541650f64963ed435073a6/featurelayers-1.1.8.tar.gz
+[2023-06-22 01:58:42] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-22 01:58:42] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.1.7.tar.gz tmp/featurelayers-1.1.8.tar.gz --markdown 20230622/f/featurelayers/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-22 01:58:42] INFO root fetch - processPackages [healsparse]: Downloading https://files.pythonhosted.org/packages/06/7c/7a9348d9e4d6a930ae76da41d4fc57bfcb6c3d3fb07874012985cb29c732/healsparse-1.6.5.tar.gz
+[2023-06-22 01:58:42] INFO root fetch - processPackages [navigator-session]: Downloading https://files.pythonhosted.org/packages/d8/12/a12c9a0e0dae4055f74097a289e55f1fae522a13a0598a8dac65e2da08a5/navigator_session-0.4.4-py3-none-any.whl
+[2023-06-22 01:58:42] INFO root fetch - processPackages [unigui]: Downloading https://files.pythonhosted.org/packages/fb/6d/654c5748ef67bf5e381a08bfbeced502ad9cdaf178cbb51596b91d5cc639/unigui-1.5.3.tar.gz
+[2023-06-22 01:58:42] INFO root fetch - processPackages [healsparse]: executing diffoscope
+[2023-06-22 01:58:42] INFO root fetch - processPackages [healsparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healsparse-1.6.4.tar.gz tmp/healsparse-1.6.5.tar.gz --markdown 20230622/h/healsparse/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-22 01:58:43] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.1.7.tar.gz]
+[2023-06-22 01:58:43] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.1.8.tar.gz]
+[2023-06-22 01:58:43] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-22 01:58:44] INFO root fetch - processPackages [healsparse]: Remove: archive file [/home/abi/fetcher/tmp/healsparse-1.6.4.tar.gz]
+[2023-06-22 01:58:44] INFO root fetch - processPackages [healsparse]: Remove: archive file [/home/abi/fetcher/tmp/healsparse-1.6.5.tar.gz]
+[2023-06-22 01:58:44] INFO root fetch - main [MainThread]: End processing [healsparse]: success
+[2023-06-22 01:58:44] INFO root fetch - processPackages [navigator-session]: executing diffoscope
+[2023-06-22 01:58:44] INFO root fetch - processPackages [navigator-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_session-0.4.3-py3-none-any.whl.zip tmp/navigator_session-0.4.4-py3-none-any.whl.zip --markdown 20230622/n/navigator-session/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-22 01:58:45] INFO root fetch - processPackages [unigui]: executing diffoscope
+[2023-06-22 01:58:45] INFO root fetch - processPackages [unigui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigui-1.5.2.tar.gz tmp/unigui-1.5.3.tar.gz --markdown 20230622/u/unigui/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-22 01:58:45] INFO root fetch - processPackages [navigator-session]: Remove: archive file [/home/abi/fetcher/tmp/navigator_session-0.4.3-py3-none-any.whl.zip]
+[2023-06-22 01:58:45] INFO root fetch - processPackages [navigator-session]: Remove: archive file [/home/abi/fetcher/tmp/navigator_session-0.4.4-py3-none-any.whl.zip]
+[2023-06-22 01:58:45] INFO root fetch - main [MainThread]: End processing [navigator-session]: success
+[2023-06-22 01:58:47] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.2.tar.gz]
+[2023-06-22 01:58:47] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.5.3.tar.gz]
+[2023-06-22 01:58:47] INFO root fetch - main [MainThread]: End processing [unigui]: success
+[2023-06-22 01:58:47] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ce/e5/5eee69556737f8bce6cb29ce487196de6e22d27e439a7a1d5f96cf0e7cbf/kcli-99.0.202306212354-py3-none-any.whl
+[2023-06-22 01:58:52] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 01:58:52] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306212347-py3-none-any.whl.zip tmp/kcli-99.0.202306212354-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306212347-99.0.202306212354/diff.md --exclude *.pyd
+[2023-06-22 01:59:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212347-py3-none-any.whl.zip]
+[2023-06-22 01:59:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212354-py3-none-any.whl.zip]
+[2023-06-22 01:59:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 01:59:02] INFO root fetch - main [MainThread]: Store serial: [18597818]
