@@ -1401,3 +1401,57 @@
 [2023-06-22 01:37:15] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212332-py3-none-any.whl.zip]
 [2023-06-22 01:37:15] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-22 01:37:15] INFO root fetch - main [MainThread]: Store serial: [18597721]
+[2023-06-22 01:42:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597721]
+[2023-06-22 01:42:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-phal-plugin-connectivity-events
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alanapy
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: collective.person
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyfi-template
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dg-auditwheel
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MGSurvE
+[2023-06-22 01:42:24] INFO root fetch - processPackages [alanapy]: New version: [0.6] Old Version: [0.5]
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: New version: [0.0.3a4] Old Version: [0.0.3a3]
+[2023-06-22 01:42:24] INFO root fetch - processPackages [lollms]: New version: [2.0.8] Old Version: [2.0.6]
+[2023-06-22 01:42:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202306212337] Old Version: [99.0.202306212332]
+[2023-06-22 01:42:24] WARNING root fetch - processPackages [collective.person]: Skipping, unable to determine old version
+[2023-06-22 01:42:24] INFO root fetch - main [MainThread]: End processing [collective.person] error
+[2023-06-22 01:42:24] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-22 01:42:24] WARNING root fetch - processPackages [dg-auditwheel]: Skipping, unable to determine old version
+[2023-06-22 01:42:24] INFO root fetch - main [MainThread]: End processing [dg-auditwheel] error
+[2023-06-22 01:42:24] INFO root fetch - processPackages [MGSurvE]: New version: [0.9.1.5] Old Version: [0.9.1.0]
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Downloading https://files.pythonhosted.org/packages/8a/46/cc82a823d06fe4d99eaac79b1fc0c583655c4516d9dcca3df3a389977003/ovos-phal-plugin-connectivity-events-0.0.3a3.tar.gz
+[2023-06-22 01:42:24] ERROR root fetch - processPackages [alanapy]: Unable to fetch info: No such project/version 'alanapy' 0.5
+[2023-06-22 01:42:24] INFO root fetch - main [MainThread]: End processing [alanapy] error
+[2023-06-22 01:42:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/20/e8/c9d4c24b364df4dfea223ceccf8bef19293d6f5e2884f184216155ce70ae/kcli-99.0.202306212332-py3-none-any.whl
+[2023-06-22 01:42:24] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/5d/e0/393d8d71f524c8880a12e0f01644a9ff4fcada670da05b236cf32499cb47/lollms-2.0.6.tar.gz
+[2023-06-22 01:42:24] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/de/d2/3a18537d4af2f791ca4ac2c96432acb2b60bc28e0a3bde512d17945062bc/hyfi_template-0.3.8.tar.gz
+[2023-06-22 01:42:24] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/cb/5f/71c9aa8eedb951b62a8d7400e8063ed0352ea5fb7eb6937de1ce99e4310e/MGSurvE-0.9.1.0.tar.gz
+[2023-06-22 01:42:24] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Downloading https://files.pythonhosted.org/packages/23/37/6c176bda6479ac307121d113dcafa2b0a9ea0e692723374191046dec7d7c/ovos-phal-plugin-connectivity-events-0.0.3a4.tar.gz
+[2023-06-22 01:42:24] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791309>=10485760
+[2023-06-22 01:42:24] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-22 01:42:25] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: executing diffoscope
+[2023-06-22 01:42:25] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-phal-plugin-connectivity-events-0.0.3a3.tar.gz tmp/ovos-phal-plugin-connectivity-events-0.0.3a4.tar.gz --markdown 20230622/o/ovos-phal-plugin-connectivity-events/0.0.3a3-0.0.3a4/diff.md --exclude *.pyd
+[2023-06-22 01:42:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a2/2f/e446ac534a88f5c69dce93b33d5d1f9719389f11759316717de2699c2600/kcli-99.0.202306212337-py3-none-any.whl
+[2023-06-22 01:42:25] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/52/9d/a59bbe37a7a9fecd2074109613b3d488a7d0e727283141375549eedf064e/hyfi_template-0.3.9.tar.gz
+[2023-06-22 01:42:25] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 01:42:25] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306212332-py3-none-any.whl.zip tmp/kcli-99.0.202306212337-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306212332-99.0.202306212337/diff.md --exclude *.pyd
+[2023-06-22 01:42:25] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-06-22 01:42:25] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.8.tar.gz tmp/hyfi_template-0.3.9.tar.gz --markdown 20230622/h/hyfi-template/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-22 01:42:25] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/4c/28/1cd569742761c3726e2e52ca2fcf1750a69b24371bd60dcb57a1164ca35d/MGSurvE-0.9.1.5.tar.gz
+[2023-06-22 01:42:25] INFO root fetch - processPackages [MGSurvE]: executing diffoscope
+[2023-06-22 01:42:25] INFO root fetch - processPackages [MGSurvE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MGSurvE-0.9.1.0.tar.gz tmp/MGSurvE-0.9.1.5.tar.gz --markdown 20230622/M/MGSurvE/0.9.1.0-0.9.1.5/diff.md --exclude *.pyd
+[2023-06-22 01:42:26] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.8.tar.gz]
+[2023-06-22 01:42:26] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.9.tar.gz]
+[2023-06-22 01:42:26] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-06-22 01:42:26] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Remove: archive file [/home/abi/fetcher/tmp/ovos-phal-plugin-connectivity-events-0.0.3a3.tar.gz]
+[2023-06-22 01:42:26] INFO root fetch - processPackages [ovos-phal-plugin-connectivity-events]: Remove: archive file [/home/abi/fetcher/tmp/ovos-phal-plugin-connectivity-events-0.0.3a4.tar.gz]
+[2023-06-22 01:42:26] INFO root fetch - main [MainThread]: End processing [ovos-phal-plugin-connectivity-events]: success
+[2023-06-22 01:42:26] INFO root fetch - processPackages [MGSurvE]: Remove: archive file [/home/abi/fetcher/tmp/MGSurvE-0.9.1.0.tar.gz]
+[2023-06-22 01:42:26] INFO root fetch - processPackages [MGSurvE]: Remove: archive file [/home/abi/fetcher/tmp/MGSurvE-0.9.1.5.tar.gz]
+[2023-06-22 01:42:26] INFO root fetch - main [MainThread]: End processing [MGSurvE]: success
+[2023-06-22 01:42:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212332-py3-none-any.whl.zip]
+[2023-06-22 01:42:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212337-py3-none-any.whl.zip]
+[2023-06-22 01:42:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 01:42:33] INFO root fetch - main [MainThread]: Store serial: [18597749]
