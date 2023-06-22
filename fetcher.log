@@ -13070,3 +13070,92 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:13:58] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.3.tar.gz]
 [2023-06-22 09:13:58] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbqueue]: success
 [2023-06-22 09:13:58] INFO root fetch - main [MainThread]: Store serial: [18601861]
+[2023-06-22 09:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601861]
+[2023-06-22 09:19:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-nightly
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlplatformutils
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsspkg
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfq-nightly
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dialogy
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JustScan
+[2023-06-22 09:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazyearth
+[2023-06-22 09:19:07] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [cs]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [mlplatformutils]: New version: [0.9.5.9] Old Version: [0.9.5.8]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [dsspkg]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230621] Old Version: [0.7.3.dev20230620]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [dialogy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-22 09:19:07] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/ad/78/f14ea49853349ca4d8979f08a189acff98bfd03218edea1bdadda21cb4fc/mlplatformutils-0.9.5.8.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [cs]: Downloading https://files.pythonhosted.org/packages/96/8a/09b46ff879c0a593d466f0c58b290c4b3d233be7c4f10cb5c88bc4e29b0a/cs-3.1.0.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/a4/83/18164d2d133954ba3e72c4e04d4354a59e75f2801c076b0ec6c1c939d5db/tfq_nightly-0.7.3.dev20230620-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-22 09:19:07] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/cb/52/89d161781efe9257151aec7fcc28e4bc6478f3030d9f735f7572f4075ce6/dsspkg-0.2.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/98/9c0607140525a5654c6e21f4f5142382491d00618c71ab35f6d398597a78/dialogy-2.0.8.tar.gz
+[2023-06-22 09:19:07] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-22 09:19:07] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-22 09:19:07] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230622/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-22 09:19:07] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-22 09:19:08] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/68/e6/463cac1c919061400ea79986be28543c90624c99cc269a71548ab236d058/mlplatformutils-0.9.5.9.tar.gz
+[2023-06-22 09:19:08] INFO root fetch - processPackages [cs]: Downloading https://files.pythonhosted.org/packages/68/09/f2ed131a6b154b371ca59c0cce2368be3020ef577980663b739aac90424f/cs-3.2.0.tar.gz
+[2023-06-22 09:19:08] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/68/44/3c37cf32d756cf480a0800920be1d992d2e4a1512c545f83457e5d98be20/dsspkg-0.2.1.tar.gz
+[2023-06-22 09:19:08] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-22 09:19:08] INFO root fetch - processPackages [cs]: executing diffoscope
+[2023-06-22 09:19:08] INFO root fetch - processPackages [cs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-3.1.0.tar.gz tmp/cs-3.2.0.tar.gz --markdown 20230622/c/cs/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-22 09:19:08] INFO root fetch - processPackages [dsspkg]: executing diffoscope
+[2023-06-22 09:19:08] INFO root fetch - processPackages [dsspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspkg-0.2.tar.gz tmp/dsspkg-0.2.1.tar.gz --markdown 20230622/d/dsspkg/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 09:19:08] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-22 09:19:08] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.9.5.8.tar.gz tmp/mlplatformutils-0.9.5.9.tar.gz --markdown 20230622/m/mlplatformutils/0.9.5.8-0.9.5.9/diff.md --exclude *.pyd
+[2023-06-22 09:19:08] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-22 09:19:08] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-22 09:19:08] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230622/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-22 09:19:08] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-06-22 09:19:08] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-22 09:19:08] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230622/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-22 09:19:08] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822714>=10485760
+[2023-06-22 09:19:08] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-22 09:19:08] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-06-22 09:19:08] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.8.tar.gz tmp/dialogy-2.0.9.tar.gz --markdown 20230622/d/dialogy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-22 09:19:08] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-22 09:19:08] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-22 09:19:08] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230622/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-22 09:19:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-22 09:19:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-22 09:19:09] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230622/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 09:19:09] INFO root fetch - processPackages [cs]: Remove: archive file [/home/abi/fetcher/tmp/cs-3.1.0.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - processPackages [cs]: Remove: archive file [/home/abi/fetcher/tmp/cs-3.2.0.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - main [MainThread]: End processing [cs]: success
+[2023-06-22 09:19:09] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-22 09:19:09] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.8.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.9.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-22 09:19:09] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-22 09:19:09] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-22 09:19:09] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-22 09:19:09] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.1.tar.gz]
+[2023-06-22 09:19:09] INFO root fetch - main [MainThread]: End processing [dsspkg]: success
+[2023-06-22 09:19:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-22 09:19:10] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-22 09:19:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-22 09:19:11] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-22 09:19:11] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-22 09:19:11] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-22 09:19:11] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.8.tar.gz]
+[2023-06-22 09:19:11] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-06-22 09:19:11] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-06-22 09:19:18] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-22 09:19:18] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-22 09:19:18] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-22 09:19:18] INFO root fetch - main [MainThread]: Store serial: [18601887]
