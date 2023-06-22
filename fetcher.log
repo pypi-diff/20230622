@@ -5123,3 +5123,87 @@
 [2023-06-22 03:01:45] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-22 03:01:45] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-22 03:01:45] INFO root fetch - main [MainThread]: Store serial: [18599015]
+[2023-06-22 03:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18599015]
+[2023-06-22 03:06:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-tts-plugin-coqui-remote
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corpus-judge
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: featurelayers
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nmdc-schema
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: texto-transformer
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aemcmc-nightly
+[2023-06-22 03:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-lambda-layer-curl
+[2023-06-22 03:06:54] INFO root fetch - processPackages [corpus-judge]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [featurelayers]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230622] Old Version: [0.0.8.dev20230621]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [texto-transformer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [nmdc-schema]: New version: [7.7.0] Old Version: [7.6.7]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-22 03:06:54] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/39/10/971ac1ade39555620fdecb55fca21860d567bcc765a89cc24674b0f4f532/featurelayers-1.1.9.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Downloading https://files.pythonhosted.org/packages/ec/90/5b702759483b7610d1ddb18a73f77bad356f94330e46ce43a88b4ccd1ed1/neon-tts-plugin-coqui-remote-0.0.1a1.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [texto-transformer]: Downloading https://files.pythonhosted.org/packages/f0/5a/d5188d5a75e1a75fb4ed0a4c163e03046766c39e6e7ca7ffaf077e6eb90d/texto_transformer-0.0.2.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [corpus-judge]: Downloading https://files.pythonhosted.org/packages/c3/f2/6d0727c6a542a5ec86b9d4a2870cd75f028d411a78d85a59806f5c6e1384/corpus_judge-0.0.4.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/74/b9/bfc525316714d861198b6ad9f0a8e7d7cba2400f88cda4648021156f7515/aemcmc-nightly-0.0.8.dev20230621.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/97/0a/9f1a3b2c44cc58bdf8625ac91db7bfbead1a63a33c47e756598d54b9158c/nmdc_schema-7.6.7.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/e5/06/fe27b5ec5d80f28ae83d4f1967c29ea55c3c225519163cbe830f24655fa3/featurelayers-1.2.0.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [corpus-judge]: Downloading https://files.pythonhosted.org/packages/27/6e/7429be4f3feac7533b3411d7dd8a31b2faec5bc47eabd85b924458cf3105/corpus_judge-0.1.0-py3-none-any.whl
+[2023-06-22 03:06:54] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-22 03:06:54] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.1.9.tar.gz tmp/featurelayers-1.2.0.tar.gz --markdown 20230622/f/featurelayers/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-22 03:06:54] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Downloading https://files.pythonhosted.org/packages/fe/89/c90b676fc0bb6dfd06677fac393518e902767f09f8c602d7ebb4d500c3f0/neon-tts-plugin-coqui-remote-0.0.1a2.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [texto-transformer]: Downloading https://files.pythonhosted.org/packages/b7/c6/7d5fa3ec41f4f88cd2c83d6a8ea0a7b552b4a52fb6a14ecb92ecbf4b1c3c/texto_transformer-0.0.3.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [texto-transformer]: executing diffoscope
+[2023-06-22 03:06:54] INFO root fetch - processPackages [texto-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texto_transformer-0.0.2.tar.gz tmp/texto_transformer-0.0.3.tar.gz --markdown 20230622/t/texto-transformer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 03:06:54] INFO root fetch - processPackages [nmdc-schema]: Downloading https://files.pythonhosted.org/packages/10/7b/0fa74b67e2528a4fb5aa727a641dec4b82785c8a4f3f874986144baa2a99/nmdc_schema-7.7.0.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/64/25/cafbe6ab2d03170518fed154e83b7f30aa3f2d169d89db95cc7a0ae80b87/aemcmc-nightly-0.0.8.dev20230622.tar.gz
+[2023-06-22 03:06:54] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: executing diffoscope
+[2023-06-22 03:06:54] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-tts-plugin-coqui-remote-0.0.1a1.tar.gz tmp/neon-tts-plugin-coqui-remote-0.0.1a2.tar.gz --markdown 20230622/n/neon-tts-plugin-coqui-remote/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-22 03:06:54] INFO root fetch - processPackages [nmdc-schema]: executing diffoscope
+[2023-06-22 03:06:54] INFO root fetch - processPackages [nmdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmdc_schema-7.6.7.tar.gz tmp/nmdc_schema-7.7.0.tar.gz --markdown 20230622/n/nmdc-schema/7.6.7-7.7.0/diff.md --exclude *.pyd
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230622/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230622/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 03:06:55] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-22 03:06:55] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230621.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230622.tar.gz --markdown 20230622/a/aemcmc-nightly/0.0.8.dev20230621-0.0.8.dev20230622/diff.md --exclude *.pyd
+[2023-06-22 03:06:55] INFO root fetch - processPackages [corpus-judge]: executing diffoscope
+[2023-06-22 03:06:55] INFO root fetch - processPackages [corpus-judge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corpus_judge-0.0.4.tar.gz tmp/corpus_judge-0.1.0-py3-none-any.whl.zip --markdown 20230622/c/corpus-judge/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-22 03:06:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230622/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-22 03:06:56] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.1.9.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.0.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-22 03:06:56] INFO root fetch - processPackages [texto-transformer]: Remove: archive file [/home/abi/fetcher/tmp/texto_transformer-0.0.2.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - processPackages [texto-transformer]: Remove: archive file [/home/abi/fetcher/tmp/texto_transformer-0.0.3.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - main [MainThread]: End processing [texto-transformer]: success
+[2023-06-22 03:06:56] INFO root fetch - processPackages [corpus-judge]: Remove: archive file [/home/abi/fetcher/tmp/corpus_judge-0.0.4.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - processPackages [corpus-judge]: Remove: archive file [/home/abi/fetcher/tmp/corpus_judge-0.1.0-py3-none-any.whl.zip]
+[2023-06-22 03:06:56] INFO root fetch - main [MainThread]: End processing [corpus-judge]: success
+[2023-06-22 03:06:56] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Remove: archive file [/home/abi/fetcher/tmp/neon-tts-plugin-coqui-remote-0.0.1a1.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Remove: archive file [/home/abi/fetcher/tmp/neon-tts-plugin-coqui-remote-0.0.1a2.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - main [MainThread]: End processing [neon-tts-plugin-coqui-remote]: success
+[2023-06-22 03:06:56] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-22 03:06:56] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230621.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230622.tar.gz]
+[2023-06-22 03:06:56] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-22 03:06:58] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-7.6.7.tar.gz]
+[2023-06-22 03:06:58] INFO root fetch - processPackages [nmdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/nmdc_schema-7.7.0.tar.gz]
+[2023-06-22 03:06:58] INFO root fetch - main [MainThread]: End processing [nmdc-schema]: success
+[2023-06-22 03:06:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-22 03:06:59] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-22 03:06:59] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-22 03:06:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-22 03:06:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-22 03:06:59] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-22 03:06:59] INFO root fetch - main [MainThread]: Store serial: [18599044]
