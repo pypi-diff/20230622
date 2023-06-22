@@ -16670,3 +16670,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 12:00:40] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.0a0.tar.gz]
 [2023-06-22 12:00:40] INFO root fetch - main [MainThread]: End processing [hayloft]: success
 [2023-06-22 12:00:40] INFO root fetch - main [MainThread]: Store serial: [18603351]
+[2023-06-22 12:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603351]
+[2023-06-22 12:05:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 12:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsna-automl
+[2023-06-22 12:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amlopsvueelements
+[2023-06-22 12:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rofunc
+[2023-06-22 12:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: archive-hocr-tools
+[2023-06-22 12:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tableshark
+[2023-06-22 12:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyastgrep
+[2023-06-22 12:05:49] INFO root fetch - processPackages [pyastgrep]: New version: [1.2] Old Version: [1.1]
+[2023-06-22 12:05:49] WARNING root fetch - processPackages [dsna-automl]: Skipping, unable to determine old version
+[2023-06-22 12:05:49] INFO root fetch - main [MainThread]: End processing [dsna-automl] error
+[2023-06-22 12:05:49] INFO root fetch - processPackages [archive-hocr-tools]: New version: [1.1.9] Old Version: [1.1.40]
+[2023-06-22 12:05:49] INFO root fetch - processPackages [rofunc]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2023-06-22 12:05:49] INFO root fetch - processPackages [tableshark]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 12:05:49] INFO root fetch - processPackages [amlopsvueelements]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-22 12:05:49] INFO root fetch - processPackages [pyastgrep]: Downloading https://files.pythonhosted.org/packages/00/06/b00c19f72d4a90ebc17cbf28619365da168c7f101a786e75ba945476be11/pyastgrep-1.1.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/f9/26/28719c60c1bb32b85f1e39eda75493e2007b02f902338566bf589cc85c2f/archive-hocr-tools-1.1.40.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/0b/eb/31e9d6e90bbabdd00504ab50105873f06de72bfe633c5115d02f43a10e14/amlopsvueelements-1.2.2.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [pyastgrep]: Downloading https://files.pythonhosted.org/packages/f0/4f/ceefd1a0d86d7b5324486d100b085bd5d0af3f5b5d6d2224632d708f9d57/pyastgrep-1.2.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [tableshark]: Downloading https://files.pythonhosted.org/packages/2b/ab/9f705601dcca4069de6a3e497fb848f0f43c1e7c4d64675de2e15cf1de73/tableshark-0.0.1.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [rofunc]: Downloading https://files.pythonhosted.org/packages/60/f8/f71c82524f70576b05aa1723d58073f7d0d15475249cd485d99fe863a533/rofunc-0.0.2.1.tar.gz
+[2023-06-22 12:05:49] WARNING root fetch - processPackages [rofunc]: Skipping package: exceeds size limit 96248672>=10485760
+[2023-06-22 12:05:49] INFO root fetch - main [MainThread]: End processing [rofunc] error
+[2023-06-22 12:05:49] INFO root fetch - processPackages [pyastgrep]: executing diffoscope
+[2023-06-22 12:05:49] INFO root fetch - processPackages [pyastgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastgrep-1.1.tar.gz tmp/pyastgrep-1.2.tar.gz --markdown 20230622/p/pyastgrep/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-22 12:05:49] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/175062dc61f6a2a9e54da920691e617e4bec55f8b34eb0bdbdbd7e5eb345/archive-hocr-tools-1.1.9.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [tableshark]: Downloading https://files.pythonhosted.org/packages/e9/63/591d7ef0bb7bfbbf253edc8ebee55d6ebcf358d311503fc8f7f0fb7613f7/tableshark-0.0.2.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [amlopsvueelements]: Downloading https://files.pythonhosted.org/packages/95/69/d4449bbaf6ac7ce896096e2b85ced66a7d6c924bc9e18cd250677660fff1/amlopsvueelements-1.2.3.tar.gz
+[2023-06-22 12:05:49] INFO root fetch - processPackages [tableshark]: executing diffoscope
+[2023-06-22 12:05:49] INFO root fetch - processPackages [tableshark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableshark-0.0.1.tar.gz tmp/tableshark-0.0.2.tar.gz --markdown 20230622/t/tableshark/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 12:05:49] INFO root fetch - processPackages [amlopsvueelements]: executing diffoscope
+[2023-06-22 12:05:49] INFO root fetch - processPackages [amlopsvueelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amlopsvueelements-1.2.2.tar.gz tmp/amlopsvueelements-1.2.3.tar.gz --markdown 20230622/a/amlopsvueelements/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-22 12:05:49] INFO root fetch - processPackages [archive-hocr-tools]: executing diffoscope
+[2023-06-22 12:05:49] INFO root fetch - processPackages [archive-hocr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archive-hocr-tools-1.1.40.tar.gz tmp/archive-hocr-tools-1.1.9.tar.gz --markdown 20230622/a/archive-hocr-tools/1.1.40-1.1.9/diff.md --exclude *.pyd
+[2023-06-22 12:05:50] INFO root fetch - processPackages [tableshark]: Remove: archive file [/home/abi/fetcher/tmp/tableshark-0.0.1.tar.gz]
+[2023-06-22 12:05:50] INFO root fetch - processPackages [tableshark]: Remove: archive file [/home/abi/fetcher/tmp/tableshark-0.0.2.tar.gz]
+[2023-06-22 12:05:50] INFO root fetch - main [MainThread]: End processing [tableshark]: success
+[2023-06-22 12:05:51] INFO root fetch - processPackages [pyastgrep]: Remove: archive file [/home/abi/fetcher/tmp/pyastgrep-1.1.tar.gz]
+[2023-06-22 12:05:51] INFO root fetch - processPackages [pyastgrep]: Remove: archive file [/home/abi/fetcher/tmp/pyastgrep-1.2.tar.gz]
+[2023-06-22 12:05:51] INFO root fetch - main [MainThread]: End processing [pyastgrep]: success
+[2023-06-22 12:05:51] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.40.tar.gz]
+[2023-06-22 12:05:51] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.9.tar.gz]
+[2023-06-22 12:05:51] INFO root fetch - main [MainThread]: End processing [archive-hocr-tools]: success
+[2023-06-22 12:05:54] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.2.tar.gz]
+[2023-06-22 12:05:55] INFO root fetch - processPackages [amlopsvueelements]: Remove: archive file [/home/abi/fetcher/tmp/amlopsvueelements-1.2.3.tar.gz]
+[2023-06-22 12:05:55] INFO root fetch - main [MainThread]: End processing [amlopsvueelements]: success
+[2023-06-22 12:05:55] INFO root fetch - main [MainThread]: Store serial: [18603371]
