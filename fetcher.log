@@ -12787,3 +12787,129 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
 [2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
 [2023-06-22 08:53:03] INFO root fetch - main [MainThread]: Store serial: [18601757]
+[2023-06-22 08:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601757]
+[2023-06-22 08:58:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.pipeline
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abejacli
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bkv
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.static-website
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sam-ml-py
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bimdata-api-client
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: faker-pyspark
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LNPLab
+[2023-06-22 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blickfeld-qb2
+[2023-06-22 08:58:12] INFO root fetch - processPackages [abejacli]: New version: [2.2.0rc1] Old Version: [2.1.0rc1]
+[2023-06-22 08:58:12] INFO root fetch - processPackages [sam-ml-py]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-22 08:58:12] WARNING root fetch - processPackages [bkv]: Skipping, unable to determine old version
+[2023-06-22 08:58:12] INFO root fetch - processPackages [bkv]: Start processing: marchie
+[2023-06-22 08:58:12] INFO root fetch - processPackages [blickfeld-qb2]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-22 08:58:12] INFO root fetch - main [MainThread]: End processing [bkv] error
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-22 08:58:12] INFO root fetch - processPackages [faker-pyspark]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-22 08:58:12] INFO root fetch - processPackages [bimdata-api-client]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-06-22 08:58:12] WARNING root fetch - processPackages [LNPLab]: Skipping, unable to determine old version
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-22 08:58:12] INFO root fetch - processPackages [LNPLab]: Start processing: wheel-axle
+[2023-06-22 08:58:12] INFO root fetch - main [MainThread]: End processing [LNPLab] error
+[2023-06-22 08:58:12] INFO root fetch - processPackages [marchie]: New version: [0.2] Old Version: [0.1]
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [wheel-axle]: New version: [0.0.6.dev20230622065708] Old Version: [0.0.6.dev20230415195445]
+[2023-06-22 08:58:12] INFO root fetch - processPackages [faker-pyspark]: Downloading https://files.pythonhosted.org/packages/58/bc/ccb9b91141f21e2524f048270a21e3e7099ff4ab96b3b7d3d7e8b6af0eb7/faker_pyspark-0.5.0.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/77/15/bb2726645ce1b3ea568380ced78888c2d51d84ca099cc9c41bc83a86b40c/sam_ml-py-0.4.2.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [abejacli]: Downloading https://files.pythonhosted.org/packages/18/19/0ee316facacc4c0a43cdcc4d07a098d29cb02c004cb52ce338f76fae0f31/abejacli-2.1.0rc1-py3-none-any.whl
+[2023-06-22 08:58:12] INFO root fetch - processPackages [blickfeld-qb2]: Downloading https://files.pythonhosted.org/packages/1e/fb/b3e86db8fb9bd503f54fc45096ffb9f4e8b78df0de5c8f58e113034a8c19/blickfeld_qb2-1.5.2.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [marchie]: Downloading https://files.pythonhosted.org/packages/89/8c/5c87d89b069924683cdc544871dbc6f2fa81f7b32f8fdf1e27ee6b83c022/MarChie-0.1.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [faker-pyspark]: Downloading https://files.pythonhosted.org/packages/10/ec/630aae50f0e21e698a404427fa8bc0c099088306e78817b248b43929ea1b/faker_pyspark-0.6.0.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/2f/7a/025bd38858b44925fac4abf2105445c93da1a5221e526c5a3f6388951530/bimdata-api-client-9.8.1.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/0e/95/8254517678ecb8c9e3aa6130801340bf5491e9b8d5a20655a0526e0da38c/wheel_axle-0.0.6.dev20230415195445.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [faker-pyspark]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [faker-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker_pyspark-0.5.0.tar.gz tmp/faker_pyspark-0.6.0.tar.gz --markdown 20230622/f/faker-pyspark/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/6d/75/10c04e39bbac6f0395d3f4157f300db2264715228f1229ecc02da9b38bb4/sam_ml-py-0.5.0.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [abejacli]: Downloading https://files.pythonhosted.org/packages/b7/1b/e2915ee75813912510d84699f133367f2ca9dde89d578f4f618ea0d48eab/abejacli-2.2.0rc1-py3-none-any.whl
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230622/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.4.2.tar.gz tmp/sam_ml-py-0.5.0.tar.gz --markdown 20230622/s/sam-ml-py/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [blickfeld-qb2]: Downloading https://files.pythonhosted.org/packages/23/cb/a3f59e44847a628370934855263908c7cde596105763b4c997e80ca35fd3/blickfeld_qb2-1.5.3.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [marchie]: Downloading https://files.pythonhosted.org/packages/46/80/19457af4c317b7924c9f248e2fdfdc353f802e3f6ee2cc5920bb8f4b92a3/marchie-0.2.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [wheel-axle]: Downloading https://files.pythonhosted.org/packages/ce/24/3050d6554478ea9940fa530062034b6f27db630f58de0f3bef730e52f2b4/wheel_axle-0.0.6.dev20230622065708.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [abejacli]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [abejacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abejacli-2.1.0rc1-py3-none-any.whl.zip tmp/abejacli-2.2.0rc1-py3-none-any.whl.zip --markdown 20230622/a/abejacli/2.1.0rc1-2.2.0rc1/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [bimdata-api-client]: Downloading https://files.pythonhosted.org/packages/04/d6/f16eeffb47cb62e83c3459330ab4b2f40e6502e16df942ccd8185cf05998/bimdata-api-client-9.9.0.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230622/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-06-22 08:58:12] INFO root fetch - processPackages [blickfeld-qb2]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [blickfeld-qb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blickfeld_qb2-1.5.2.tar.gz tmp/blickfeld_qb2-1.5.3.tar.gz --markdown 20230622/b/blickfeld-qb2/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [wheel-axle]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [wheel-axle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheel_axle-0.0.6.dev20230415195445.tar.gz tmp/wheel_axle-0.0.6.dev20230622065708.tar.gz --markdown 20230622/w/wheel-axle/0.0.6.dev20230415195445-0.0.6.dev20230622065708/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [marchie]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [marchie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MarChie-0.1.tar.gz tmp/marchie-0.2.tar.gz --markdown 20230622/m/marchie/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230622/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-22 08:58:12] INFO root fetch - processPackages [bimdata-api-client]: executing diffoscope
+[2023-06-22 08:58:12] INFO root fetch - processPackages [bimdata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimdata-api-client-9.8.1.tar.gz tmp/bimdata-api-client-9.9.0.tar.gz --markdown 20230622/b/bimdata-api-client/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-06-22 08:58:13] INFO root fetch - processPackages [faker-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/faker_pyspark-0.5.0.tar.gz]
+[2023-06-22 08:58:13] INFO root fetch - processPackages [faker-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/faker_pyspark-0.6.0.tar.gz]
+[2023-06-22 08:58:13] INFO root fetch - processPackages [faker-pyspark]: Start processing: pdd-docgen
+[2023-06-22 08:58:13] INFO root fetch - main [MainThread]: End processing [faker-pyspark]: success
+[2023-06-22 08:58:13] INFO root fetch - processPackages [pdd-docgen]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [pdd-docgen]: Downloading https://files.pythonhosted.org/packages/b3/55/da786baf098a9e56b4284dcb6366a6c3df4c6e33d68327983dff0a981c56/pdd_docgen-1.0.8-py2.py3-none-any.whl
+[2023-06-22 08:58:14] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: ProcessOptimizer
+[2023-06-22 08:58:14] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-06-22 08:58:14] INFO root fetch - processPackages [ProcessOptimizer]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.6.dev20230415195445.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [wheel-axle]: Remove: archive file [/home/abi/fetcher/tmp/wheel_axle-0.0.6.dev20230622065708.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [wheel-axle]: Start processing: pysiml
+[2023-06-22 08:58:14] INFO root fetch - main [MainThread]: End processing [wheel-axle]: success
+[2023-06-22 08:58:14] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-06-22 08:58:14] INFO root fetch - processPackages [ProcessOptimizer]: Downloading https://files.pythonhosted.org/packages/32/fa/aa1990f94eba6c91c0bcdfc4017632d71f9fd529b0a35ada73119a3c49a7/ProcessOptimizer-0.8.0.tar.gz
+[2023-06-22 08:58:14] INFO root fetch - processPackages [abejacli]: Remove: archive file [/home/abi/fetcher/tmp/abejacli-2.1.0rc1-py3-none-any.whl.zip]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [abejacli]: Remove: archive file [/home/abi/fetcher/tmp/abejacli-2.2.0rc1-py3-none-any.whl.zip]
+[2023-06-22 08:58:14] INFO root fetch - main [MainThread]: End processing [abejacli]: success
+[2023-06-22 08:58:14] INFO root fetch - processPackages [pdd-docgen]: Downloading https://files.pythonhosted.org/packages/6c/a0/508722d052aeca959b2dc89f90fca37822a87759b095c92c7746fd78489e/pdd_docgen-1.0.9-py2.py3-none-any.whl
+[2023-06-22 08:58:14] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202306220657] Old Version: [0.2.9.dev202306080855]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [blickfeld-qb2]: Remove: archive file [/home/abi/fetcher/tmp/blickfeld_qb2-1.5.2.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [blickfeld-qb2]: Remove: archive file [/home/abi/fetcher/tmp/blickfeld_qb2-1.5.3.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - main [MainThread]: End processing [blickfeld-qb2]: success
+[2023-06-22 08:58:14] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.4.2.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.5.0.tar.gz]
+[2023-06-22 08:58:14] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-06-22 08:58:14] INFO root fetch - processPackages [pdd-docgen]: executing diffoscope
+[2023-06-22 08:58:14] INFO root fetch - processPackages [pdd-docgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdd_docgen-1.0.8-py2.py3-none-any.whl.zip tmp/pdd_docgen-1.0.9-py2.py3-none-any.whl.zip --markdown 20230622/p/pdd-docgen/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 08:58:14] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/c7/f8/6b822931f518edd4b557f612f546515e8e95525d2bc06093d38b7078c798/pysiml-0.2.9.dev202306080855-py3-none-any.whl
+[2023-06-22 08:58:14] INFO root fetch - processPackages [ProcessOptimizer]: Downloading https://files.pythonhosted.org/packages/5f/9a/98800fc24db448346b72eb575f7cefb363e44e90cdec2303e28675ab4b1f/ProcessOptimizer-0.8.1.tar.gz
+[2023-06-22 08:58:15] INFO root fetch - processPackages [ProcessOptimizer]: executing diffoscope
+[2023-06-22 08:58:15] INFO root fetch - processPackages [ProcessOptimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProcessOptimizer-0.8.0.tar.gz tmp/ProcessOptimizer-0.8.1.tar.gz --markdown 20230622/P/ProcessOptimizer/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-22 08:58:15] INFO root fetch - processPackages [marchie]: Remove: archive file [/home/abi/fetcher/tmp/MarChie-0.1.tar.gz]
+[2023-06-22 08:58:15] INFO root fetch - processPackages [marchie]: Remove: archive file [/home/abi/fetcher/tmp/marchie-0.2.tar.gz]
+[2023-06-22 08:58:15] INFO root fetch - main [MainThread]: End processing [marchie]: success
+[2023-06-22 08:58:15] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/99/30/fc0b8e220e418db3d9acf271334f6c92bf3b1e8e3dd9a42eef523d8fd1ea/pysiml-0.2.9.dev202306220657-py3-none-any.whl
+[2023-06-22 08:58:15] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-06-22 08:58:15] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.9.dev202306080855-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202306220657-py3-none-any.whl.zip --markdown 20230622/p/pysiml/0.2.9.dev202306080855-0.2.9.dev202306220657/diff.md --exclude *.pyd
+[2023-06-22 08:58:15] INFO root fetch - processPackages [pdd-docgen]: Remove: archive file [/home/abi/fetcher/tmp/pdd_docgen-1.0.8-py2.py3-none-any.whl.zip]
+[2023-06-22 08:58:15] INFO root fetch - processPackages [pdd-docgen]: Remove: archive file [/home/abi/fetcher/tmp/pdd_docgen-1.0.9-py2.py3-none-any.whl.zip]
+[2023-06-22 08:58:15] INFO root fetch - main [MainThread]: End processing [pdd-docgen]: success
+[2023-06-22 08:58:16] INFO root fetch - processPackages [ProcessOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/ProcessOptimizer-0.8.0.tar.gz]
+[2023-06-22 08:58:16] INFO root fetch - processPackages [ProcessOptimizer]: Remove: archive file [/home/abi/fetcher/tmp/ProcessOptimizer-0.8.1.tar.gz]
+[2023-06-22 08:58:16] INFO root fetch - main [MainThread]: End processing [ProcessOptimizer]: success
+[2023-06-22 08:58:17] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-06-22 08:58:17] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-06-22 08:58:17] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-06-22 08:58:17] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306080855-py3-none-any.whl.zip]
+[2023-06-22 08:58:17] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306220657-py3-none-any.whl.zip]
+[2023-06-22 08:58:17] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-06-22 08:58:19] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.8.1.tar.gz]
+[2023-06-22 08:58:19] INFO root fetch - processPackages [bimdata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/bimdata-api-client-9.9.0.tar.gz]
+[2023-06-22 08:58:19] INFO root fetch - main [MainThread]: End processing [bimdata-api-client]: success
+[2023-06-22 08:58:19] INFO root fetch - main [MainThread]: Store serial: [18601800]
