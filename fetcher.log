@@ -16189,3 +16189,231 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 11:42:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-22 11:42:49] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-22 11:42:49] INFO root fetch - main [MainThread]: Store serial: [18603203]
+[2023-06-22 11:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603203]
+[2023-06-22 11:48:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riotee-gateway
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-serve
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybird-cli
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aligned
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s3-url-helper
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-snitch
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-serve
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sql-field-report
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cid-cmd
+[2023-06-22 11:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tableshark
+[2023-06-22 11:48:00] INFO root fetch - processPackages [sql-field-report]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-22 11:48:00] INFO root fetch - processPackages [aligned]: New version: [0.0.9a0] Old Version: [0.0.9]
+[2023-06-22 11:48:00] INFO root fetch - processPackages [riotee-gateway]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 11:48:00] INFO root fetch - processPackages [cid-cmd]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 11:48:00] WARNING root fetch - processPackages [tableshark]: Skipping, unable to determine old version
+[2023-06-22 11:48:00] INFO root fetch - processPackages [tableshark]: Start processing: django-webpfield
+[2023-06-22 11:48:00] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-22 11:48:00] INFO root fetch - main [MainThread]: End processing [tableshark] error
+[2023-06-22 11:48:00] INFO root fetch - processPackages [django-snitch]: New version: [3.1.8] Old Version: [3.1.7]
+[2023-06-22 11:48:00] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-06-22 11:48:00] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-22 11:48:00] WARNING root fetch - processPackages [django-webpfield]: Skipping, unable to determine old version
+[2023-06-22 11:48:00] INFO root fetch - processPackages [django-webpfield]: Start processing: bridgecrew
+[2023-06-22 11:48:00] INFO root fetch - main [MainThread]: End processing [django-webpfield] error
+[2023-06-22 11:48:00] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/30/bd/15fea4264d97334a8d62630ee7c7d2dc2427595f7160c4345c49a451dc33/sql_field_report-1.0.7.tar.gz
+[2023-06-22 11:48:00] WARNING root fetch - processPackages [s3-url-helper]: Skipping, unable to determine old version
+[2023-06-22 11:48:00] INFO root fetch - processPackages [s3-url-helper]: Start processing: m-abac-test
+[2023-06-22 11:48:00] INFO root fetch - main [MainThread]: End processing [s3-url-helper] error
+[2023-06-22 11:48:00] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/fe/a0/5dd619b961c8d1d90c05d9d9c3ef6c6df786df4198eb728acb3362743acc/cid-cmd-0.2.8.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 11:48:00] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-22 11:48:00] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/9e/85/468062cae05e55d2284b85d91dc0e75abafac8f8cbada21eb41169971f12/riotee_gateway-0.0.8.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [django-snitch]: Downloading https://files.pythonhosted.org/packages/64/f8/2ba0c044be0fc40cd1b9477725b29aa1757df10fba54dd3e92278f33ee12/django_snitch-3.1.7.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [aligned]: Downloading https://files.pythonhosted.org/packages/e2/1a/5b0451950c50b76d365bf4d6df17cd620d1527d27ab5a0ff90f01b829d86/aligned-0.0.9.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/32/6d/2a17b0502b559cee495f4e07224f56ff0eb2a35fba5a62fb74eacc0381ec/cid-cmd-0.2.9.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/7f/49/c33e067e08f7b745cb4b09fa8408fa007d8bbd27e8927033878f48fa5da8/sql_field_report-1.0.8.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-22 11:48:00] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-22 11:48:00] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230622/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-22 11:48:00] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-22 11:48:00] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230622/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230622/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid-cmd-0.2.8.tar.gz tmp/cid-cmd-0.2.9.tar.gz --markdown 20230622/c/cid-cmd/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [django-snitch]: Downloading https://files.pythonhosted.org/packages/65/cc/384a28e0bf8e09cce7607df4183402bfd591586f6b77d436ad51e66bbf5a/django_snitch-3.1.8.tar.gz
+[2023-06-22 11:48:01] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-1.0.7.tar.gz tmp/sql_field_report-1.0.8.tar.gz --markdown 20230622/s/sql-field-report/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [aligned]: Downloading https://files.pythonhosted.org/packages/80/76/56f2f101a999db7508a16452e09b1eb914b98582072a7b0a24058d97c906/aligned-0.0.9a0.tar.gz
+[2023-06-22 11:48:01] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/64/f1/3f9d009b334f38baaef2bda4cc2ed5d327116e162d06d388f2af6b969f33/riotee_gateway-0.0.9.tar.gz
+[2023-06-22 11:48:01] INFO root fetch - processPackages [django-snitch]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [django-snitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_snitch-3.1.7.tar.gz tmp/django_snitch-3.1.8.tar.gz --markdown 20230622/d/django-snitch/3.1.7-3.1.8/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [aligned]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [aligned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligned-0.0.9.tar.gz tmp/aligned-0.0.9a0.tar.gz --markdown 20230622/a/aligned/0.0.9-0.0.9a0/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-22 11:48:01] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-06-22 11:48:01] INFO root fetch - processPackages [riotee-gateway]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [riotee-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_gateway-0.0.8.tar.gz tmp/riotee_gateway-0.0.9.tar.gz --markdown 20230622/r/riotee-gateway/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-06-22 11:48:01] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230622/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-22 11:48:01] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230622/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-06-22 11:48:02] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-1.0.7.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-1.0.8.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [sql-field-report]: Start processing: peaqevcore
+[2023-06-22 11:48:02] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-06-22 11:48:02] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [tinybird-cli]: Start processing: nlpcube
+[2023-06-22 11:48:02] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-22 11:48:02] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [bridgecrew]: Start processing: lollms
+[2023-06-22 11:48:02] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-22 11:48:02] INFO root fetch - processPackages [nlpcube]: New version: [0.3.1.1] Old Version: [0.3.1.0]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.8.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.9.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [riotee-gateway]: Start processing: ramodels
+[2023-06-22 11:48:02] INFO root fetch - main [MainThread]: End processing [riotee-gateway]: success
+[2023-06-22 11:48:02] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-22 11:48:02] INFO root fetch - processPackages [nlpcube]: Downloading https://files.pythonhosted.org/packages/95/f8/dd4bbd94dc3082e0a43ed4c532ea7689ac33aa65fb0e13cca6ca59160976/nlpcube-0.3.1.0.tar.gz
+[2023-06-22 11:48:02] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-22 11:48:02] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-22 11:48:02] INFO root fetch - processPackages [lollms]: Start processing: maryam
+[2023-06-22 11:48:02] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-22 11:48:02] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-06-22 11:48:02] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-06-22 11:48:02] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-22 11:48:03] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-22 11:48:03] INFO root fetch - processPackages [maryam]: New version: [2.5.2] Old Version: [2.5.1.post3]
+[2023-06-22 11:48:03] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-22 11:48:03] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230622/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-22 11:48:03] INFO root fetch - processPackages [django-snitch]: Remove: archive file [/home/abi/fetcher/tmp/django_snitch-3.1.7.tar.gz]
+[2023-06-22 11:48:03] INFO root fetch - processPackages [django-snitch]: Remove: archive file [/home/abi/fetcher/tmp/django_snitch-3.1.8.tar.gz]
+[2023-06-22 11:48:03] INFO root fetch - main [MainThread]: End processing [django-snitch]: success
+[2023-06-22 11:48:03] INFO root fetch - processPackages [maryam]: Downloading https://files.pythonhosted.org/packages/6d/f4/4bfb02dfac1666c486fa839c15557faa41734b5b8cc24df5b6fbafe22afd/maryam-2.5.1.post3.tar.gz
+[2023-06-22 11:48:03] INFO root fetch - processPackages [aligned]: Remove: archive file [/home/abi/fetcher/tmp/aligned-0.0.9.tar.gz]
+[2023-06-22 11:48:03] INFO root fetch - processPackages [aligned]: Remove: archive file [/home/abi/fetcher/tmp/aligned-0.0.9a0.tar.gz]
+[2023-06-22 11:48:03] INFO root fetch - main [MainThread]: End processing [aligned]: success
+[2023-06-22 11:48:03] ERROR root fetch - processPackages [langchain-serve]: Diffoscope failed: gzip: tmp/langchain-serve-0.0.9.dev9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/langchain-serve-0.0.9.dev9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-22 11:48:03] INFO root fetch - main [MainThread]: End processing [langchain-serve] error
+[2023-06-22 11:48:03] INFO root fetch - processPackages [nlpcube]: Downloading https://files.pythonhosted.org/packages/70/04/3122a89f2165adbe0da3428b57bbd8e6bd6663d73afe3e403d2d4caae28a/nlpcube-0.3.1.1.tar.gz
+[2023-06-22 11:48:03] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-22 11:48:03] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-22 11:48:03] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230622/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-22 11:48:03] INFO root fetch - processPackages [nlpcube]: executing diffoscope
+[2023-06-22 11:48:03] INFO root fetch - processPackages [nlpcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpcube-0.3.1.0.tar.gz tmp/nlpcube-0.3.1.1.tar.gz --markdown 20230622/n/nlpcube/0.3.1.0-0.3.1.1/diff.md --exclude *.pyd
+[2023-06-22 11:48:03] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-22 11:48:03] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-22 11:48:03] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-22 11:48:03] INFO root fetch - processPackages [maryam]: Downloading https://files.pythonhosted.org/packages/5f/d0/6e12cf3b67e00baa2851a6227245add175be3f157311c0e4507aa5a32eb9/maryam-2.5.2.tar.gz
+[2023-06-22 11:48:03] INFO root fetch - processPackages [maryam]: executing diffoscope
+[2023-06-22 11:48:03] INFO root fetch - processPackages [maryam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maryam-2.5.1.post3.tar.gz tmp/maryam-2.5.2.tar.gz --markdown 20230622/m/maryam/2.5.1.post3-2.5.2/diff.md --exclude *.pyd
+[2023-06-22 11:48:04] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.8.tar.gz]
+[2023-06-22 11:48:04] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.9.tar.gz]
+[2023-06-22 11:48:04] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2023-06-22 11:48:05] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-22 11:48:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-22 11:48:05] INFO root fetch - processPackages [nlpcube]: Remove: archive file [/home/abi/fetcher/tmp/nlpcube-0.3.1.0.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - processPackages [nlpcube]: Remove: archive file [/home/abi/fetcher/tmp/nlpcube-0.3.1.1.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - main [MainThread]: End processing [nlpcube]: success
+[2023-06-22 11:48:05] INFO root fetch - processPackages [maryam]: Remove: archive file [/home/abi/fetcher/tmp/maryam-2.5.1.post3.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - processPackages [maryam]: Remove: archive file [/home/abi/fetcher/tmp/maryam-2.5.2.tar.gz]
+[2023-06-22 11:48:05] INFO root fetch - main [MainThread]: End processing [maryam]: success
+[2023-06-22 11:48:05] INFO root fetch - main [MainThread]: Store serial: [18603255]
