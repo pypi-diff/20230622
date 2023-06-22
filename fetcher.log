@@ -17222,3 +17222,183 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-22 12:22:29] INFO root fetch - processPackages [AutoTransform]: Remove: archive file [/home/abi/fetcher/tmp/AutoTransform-1.1.1a4.tar.gz]
 [2023-06-22 12:22:29] INFO root fetch - main [MainThread]: End processing [AutoTransform]: success
 [2023-06-22 12:22:29] INFO root fetch - main [MainThread]: Store serial: [18603531]
+[2023-06-22 12:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603531]
+[2023-06-22 12:27:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hhnk-research-tools
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepfilterdataloader
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepfilterlib
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepfilternet
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyspark-delta-scd2
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SqliteOrmMagic
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: macrometa-source-collection
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: automl-dsna
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: karton-classifier
+[2023-06-22 12:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dbt-graph-builder
+[2023-06-22 12:27:38] INFO root fetch - processPackages [hhnk-research-tools]: New version: [2023.3] Old Version: [2023.2]
+[2023-06-22 12:27:38] INFO root fetch - processPackages [pyspark-delta-scd2]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-22 12:27:38] INFO root fetch - processPackages [deepfilternet]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-22 12:27:38] INFO root fetch - processPackages [deepfilterdataloader]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-22 12:27:38] WARNING root fetch - processPackages [dbt-graph-builder]: Skipping, unable to determine old version
+[2023-06-22 12:27:38] INFO root fetch - processPackages [dbt-graph-builder]: Start processing: wordview
+[2023-06-22 12:27:38] INFO root fetch - main [MainThread]: End processing [dbt-graph-builder] error
+[2023-06-22 12:27:38] INFO root fetch - processPackages [deepfilterlib]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-22 12:27:38] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-06-22 12:27:38] INFO root fetch - processPackages [karton-classifier]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-06-22 12:27:38] WARNING root fetch - processPackages [automl-dsna]: Skipping, unable to determine old version
+[2023-06-22 12:27:38] INFO root fetch - processPackages [automl-dsna]: Start processing: pybddisasm
+[2023-06-22 12:27:38] INFO root fetch - main [MainThread]: End processing [automl-dsna] error
+[2023-06-22 12:27:38] INFO root fetch - processPackages [wordview]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/07/67/e5a9b651708ebf589e35f24afa4e5be12bb989006d724f5ca6818c405ad2/pyspark_delta_scd2-0.3.1.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pybddisasm]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-22 12:27:39] WARNING root fetch - processPackages [SqliteOrmMagic]: Skipping, unable to determine old version
+[2023-06-22 12:27:39] INFO root fetch - processPackages [SqliteOrmMagic]: Start processing: pyspark-delta-scd2
+[2023-06-22 12:27:39] INFO root fetch - main [MainThread]: End processing [SqliteOrmMagic] error
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilternet]: Downloading https://files.pythonhosted.org/packages/05/05/99c5d97dac861b823e29ef402b89354e7e72b4cb9d3a570e715acc153e72/deepfilternet-0.5.1.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/87/2c/46c072f420f6c539f51760d096f0dbf26d23da323e3db6238d8097c13b1a/hhnk_research_tools-2023.2.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilterlib]: Downloading https://files.pythonhosted.org/packages/eb/15/724eb7ef60c67cc6d54fc08a21af029e2f4f8560893153d9a09015234c98/DeepFilterLib-0.5.1-cp39-none-win_amd64.whl
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilterdataloader]: Downloading https://files.pythonhosted.org/packages/c7/52/77f93a40baaf0102b342d9b06f57143a09d3a447bf7b3edb0247bc034af4/DeepFilterDataLoader-0.5.1-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-22 12:27:39] INFO root fetch - processPackages [karton-classifier]: Downloading https://files.pythonhosted.org/packages/ca/dc/2d46caaf4213d6046ad0a272cacd5c4708d0ceede1032ed77d7955d5230f/karton_classifier-1.4.0-py3-none-any.whl
+[2023-06-22 12:27:39] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/c9/ca/7168ed2b07ba2f512a234bd033294b9cb257352d6fbf34e962f03376c992/wordview-0.2.4.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/20/2f/664a0a44c95c71d5929d0ffcf7bb85909eec79502dfb9e2356ef0a632d74/macrometa-source-collection-0.0.51.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pybddisasm]: Downloading https://files.pythonhosted.org/packages/85/ea/bc821aad965badcb6438511f2ca075151bc45cfbfc99023b9795406d0afc/pybddisasm-0.2.1-cp39-cp39-win_amd64.whl
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/fc/8a/9004acad55442e95e2eea9a5ab480e84c5364b5ae46cc03e34763dd9727f/pyspark_delta_scd2-0.4.0.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/fc/8a/9004acad55442e95e2eea9a5ab480e84c5364b5ae46cc03e34763dd9727f/pyspark_delta_scd2-0.4.0.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilternet]: Downloading https://files.pythonhosted.org/packages/26/7a/2f3736529047c5c93aa8b3eed0e1f3ddda1ff0c1dadf6592bca1e14f6fd1/deepfilternet-0.5.2.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/8e/af/2792bbbe38c3dadbd19ce41ec60b5a36a712b36bd20809108487acc4a4fb/macrometa-source-collection-0.0.52.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilterlib]: Downloading https://files.pythonhosted.org/packages/9f/81/a049fe3e17c6ff4aa88bfe6f6c0f6369b75b26bf3f20228f989dce987021/DeepFilterLib-0.5.2-cp39-none-win_amd64.whl
+[2023-06-22 12:27:39] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/f3/0f/e842edcfd1d6c61b5db4e50f4be634aa453af1b831d664487d6b602efeb8/hhnk_research_tools-2023.3.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_delta_scd2-0.3.1.tar.gz tmp/pyspark_delta_scd2-0.4.0.tar.gz --markdown 20230622/p/pyspark-delta-scd2/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 12:27:39] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.51.tar.gz tmp/macrometa-source-collection-0.0.52.tar.gz --markdown 20230622/m/macrometa-source-collection/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-06-22 12:27:39] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/a0/af/bbb149bddd09198d0d0e785013cb95e7af93a1681e53bcf5ca9451ab04ad/wordview-0.3.0.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [karton-classifier]: Downloading https://files.pythonhosted.org/packages/24/53/798c704249c5c57caf084e24bf3a5fd33d3ce5367f495dd8e134f566d731/karton_classifier-2.0.0-py3-none-any.whl
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilterlib]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilterlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepFilterLib-0.5.1-cp39-none-win_amd64.whl.zip tmp/DeepFilterLib-0.5.2-cp39-none-win_amd64.whl.zip --markdown 20230622/d/deepfilterlib/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilternet]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [deepfilternet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfilternet-0.5.1.tar.gz tmp/deepfilternet-0.5.2.tar.gz --markdown 20230622/d/deepfilternet/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-22 12:27:39] INFO root fetch - processPackages [hhnk-research-tools]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [hhnk-research-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhnk_research_tools-2023.2.tar.gz tmp/hhnk_research_tools-2023.3.tar.gz --markdown 20230622/h/hhnk-research-tools/2023.2-2023.3/diff.md --exclude *.pyd
+[2023-06-22 12:27:39] INFO root fetch - processPackages [karton-classifier]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [karton-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karton_classifier-1.4.0-py3-none-any.whl.zip tmp/karton_classifier-2.0.0-py3-none-any.whl.zip --markdown 20230622/k/karton-classifier/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/c8/1f/df9589bbf6823c1e9d3e6a990f0958efe85e290a6fe96c4bf4d75a6b018b/pyspark_delta_scd2-0.4.1.tar.gz
+[2023-06-22 12:27:39] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-0.2.4.tar.gz tmp/wordview-0.3.0.tar.gz --markdown 20230622/w/wordview/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pybddisasm]: Downloading https://files.pythonhosted.org/packages/c1/21/d2f4ba9453703a467ce64a81bff2fe66fef4a53c407d6c5caecec28065eb/pybddisasm-0.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: executing diffoscope
+[2023-06-22 12:27:39] INFO root fetch - processPackages [pyspark-delta-scd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_delta_scd2-0.4.0.tar.gz tmp/pyspark_delta_scd2-0.4.1.tar.gz --markdown 20230622/p/pyspark-delta-scd2/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-22 12:27:40] INFO root fetch - processPackages [deepfilterdataloader]: Downloading https://files.pythonhosted.org/packages/f6/d9/81eff9796fcbc56a606fdde440c05d385a59ba04a351276902b7d3fba588/DeepFilterDataLoader-0.5.2-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-22 12:27:40] INFO root fetch - processPackages [deepfilterdataloader]: executing diffoscope
+[2023-06-22 12:27:40] INFO root fetch - processPackages [deepfilterdataloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepFilterDataLoader-0.5.1-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/DeepFilterDataLoader-0.5.2-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230622/d/deepfilterdataloader/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-22 12:27:40] INFO root fetch - processPackages [deepfilterlib]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterLib-0.5.1-cp39-none-win_amd64.whl.zip]
+[2023-06-22 12:27:40] INFO root fetch - processPackages [deepfilterlib]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterLib-0.5.2-cp39-none-win_amd64.whl.zip]
+[2023-06-22 12:27:40] INFO root fetch - processPackages [deepfilterlib]: Start processing: PyEmailExtracter
+[2023-06-22 12:27:40] INFO root fetch - main [MainThread]: End processing [deepfilterlib]: success
+[2023-06-22 12:27:40] INFO root fetch - processPackages [pyspark-delta-scd2]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_delta_scd2-0.3.1.tar.gz]
+[2023-06-22 12:27:40] INFO root fetch - processPackages [pyspark-delta-scd2]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_delta_scd2-0.4.0.tar.gz]
+[2023-06-22 12:27:40] INFO root fetch - main [MainThread]: End processing [pyspark-delta-scd2]: success
+[2023-06-22 12:27:40] INFO root fetch - processPackages [PyEmailExtracter]: New version: [0.2] Old Version: [0.1]
+[2023-06-22 12:27:40] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/fa/37/65eef3ed12be0f1e89120700998bb81078dd178d38d1cef02cc310219dd8/PyEmailExtracter-0.1.tar.gz
+[2023-06-22 12:27:41] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.51.tar.gz]
+[2023-06-22 12:27:41] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.52.tar.gz]
+[2023-06-22 12:27:41] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-22 12:27:41] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/90/cd/d47d7023361518988444846499a169c5a076b398833cd67c4a05846299a2/PyEmailExtracter-0.2.tar.gz
+[2023-06-22 12:27:41] ERROR root fetch - processPackages [pyspark-delta-scd2]: Diffoscope failed: gzip: tmp/pyspark_delta_scd2-0.4.0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 130, in comparisons
+    my_members = OrderedDict(self.get_adjusted_members_sizes())
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/pyspark_delta_scd2-0.4.0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-22 12:27:41] INFO root fetch - main [MainThread]: End processing [pyspark-delta-scd2] error
+[2023-06-22 12:27:41] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.2.4.tar.gz]
+[2023-06-22 12:27:41] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-0.3.0.tar.gz]
+[2023-06-22 12:27:41] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-06-22 12:27:41] INFO root fetch - processPackages [karton-classifier]: Remove: archive file [/home/abi/fetcher/tmp/karton_classifier-1.4.0-py3-none-any.whl.zip]
+[2023-06-22 12:27:41] INFO root fetch - processPackages [karton-classifier]: Remove: archive file [/home/abi/fetcher/tmp/karton_classifier-2.0.0-py3-none-any.whl.zip]
+[2023-06-22 12:27:41] INFO root fetch - main [MainThread]: End processing [karton-classifier]: success
+[2023-06-22 12:27:41] INFO root fetch - processPackages [PyEmailExtracter]: executing diffoscope
+[2023-06-22 12:27:41] INFO root fetch - processPackages [PyEmailExtracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtracter-0.1.tar.gz tmp/PyEmailExtracter-0.2.tar.gz --markdown 20230622/P/PyEmailExtracter/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-22 12:27:41] INFO root fetch - processPackages [pybddisasm]: executing diffoscope
+[2023-06-22 12:27:41] INFO root fetch - processPackages [pybddisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybddisasm-0.2.1-cp39-cp39-win_amd64.whl.zip tmp/pybddisasm-0.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20230622/p/pybddisasm/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 12:27:41] INFO root fetch - processPackages [hhnk-research-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk_research_tools-2023.2.tar.gz]
+[2023-06-22 12:27:41] INFO root fetch - processPackages [hhnk-research-tools]: Remove: archive file [/home/abi/fetcher/tmp/hhnk_research_tools-2023.3.tar.gz]
+[2023-06-22 12:27:41] INFO root fetch - main [MainThread]: End processing [hhnk-research-tools]: success
+[2023-06-22 12:27:42] INFO root fetch - processPackages [deepfilternet]: Remove: archive file [/home/abi/fetcher/tmp/deepfilternet-0.5.1.tar.gz]
+[2023-06-22 12:27:42] INFO root fetch - processPackages [deepfilternet]: Remove: archive file [/home/abi/fetcher/tmp/deepfilternet-0.5.2.tar.gz]
+[2023-06-22 12:27:42] INFO root fetch - main [MainThread]: End processing [deepfilternet]: success
+[2023-06-22 12:27:42] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.1.tar.gz]
+[2023-06-22 12:27:42] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.2.tar.gz]
+[2023-06-22 12:27:42] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter]: success
+[2023-06-22 12:27:58] INFO root fetch - processPackages [deepfilterdataloader]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterDataLoader-0.5.1-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-22 12:27:58] INFO root fetch - processPackages [deepfilterdataloader]: Remove: archive file [/home/abi/fetcher/tmp/DeepFilterDataLoader-0.5.2-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-22 12:27:58] INFO root fetch - main [MainThread]: End processing [deepfilterdataloader]: success
+[2023-06-22 12:28:36] INFO root fetch - processPackages [pybddisasm]: Remove: archive file [/home/abi/fetcher/tmp/pybddisasm-0.2.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 12:28:36] INFO root fetch - processPackages [pybddisasm]: Remove: archive file [/home/abi/fetcher/tmp/pybddisasm-0.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2023-06-22 12:28:36] INFO root fetch - main [MainThread]: End processing [pybddisasm]: success
+[2023-06-22 12:28:36] INFO root fetch - main [MainThread]: Store serial: [18603580]
