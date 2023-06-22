@@ -21884,3 +21884,168 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 15:24:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221323-py3-none-any.whl.zip]
 [2023-06-22 15:24:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-22 15:24:52] INFO root fetch - main [MainThread]: Store serial: [18605379]
+[2023-06-22 15:29:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605379]
+[2023-06-22 15:30:02] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aa-simplewiki
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spoutlang
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matrix-sydent
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongeasy
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tif
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ul-data-gateway-sdk
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cave-utils
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flake8-annotations-complexity
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MultiScraper
+[2023-06-22 15:30:02] WARNING root fetch - processPackages [spoutlang]: Skipping, unable to determine old version
+[2023-06-22 15:30:02] INFO root fetch - processPackages [spoutlang]: Start processing: readme-ai
+[2023-06-22 15:30:02] INFO root fetch - main [MainThread]: End processing [spoutlang] error
+[2023-06-22 15:30:02] INFO root fetch - processPackages [aa-simplewiki]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-22 15:30:02] WARNING root fetch - processPackages [ul-data-gateway-sdk]: Skipping, unable to determine old version
+[2023-06-22 15:30:02] INFO root fetch - processPackages [ul-data-gateway-sdk]: Start processing: kcli
+[2023-06-22 15:30:02] INFO root fetch - main [MainThread]: End processing [ul-data-gateway-sdk] error
+[2023-06-22 15:30:02] INFO root fetch - processPackages [matrix-sydent]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [mongeasy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [kfish]: New version: [99.0.202306221329] Old Version: [99.0.202306221326]
+[2023-06-22 15:30:02] WARNING root fetch - processPackages [MultiScraper]: Skipping, unable to determine old version
+[2023-06-22 15:30:02] INFO root fetch - processPackages [MultiScraper]: Start processing: aiohttp-deps
+[2023-06-22 15:30:02] INFO root fetch - main [MainThread]: End processing [MultiScraper] error
+[2023-06-22 15:30:02] INFO root fetch - processPackages [flake8-annotations-complexity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [cave-utils]: New version: [1.5.0b7] Old Version: [1.5.0b6]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [tif]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [readme-ai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [aiohttp-deps]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [mongeasy]: Downloading https://files.pythonhosted.org/packages/aa/26/4ac9db7a47bdff63fd4d9f2156188d0940578459d91307ce187f9c39cdff/mongeasy-0.2.0.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [kcli]: New version: [99.0.202306221327] Old Version: [99.0.202306221323]
+[2023-06-22 15:30:02] INFO root fetch - processPackages [readme-ai]: Downloading https://files.pythonhosted.org/packages/7a/6a/aa87edeb4c36ce779d2ee77eca2c83c1af09e0af85579c52ee4b5b614d93/readme_ai-0.1.2.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [cave-utils]: Downloading https://files.pythonhosted.org/packages/22/40/4b9b5f9f3993c82674c476c0b14509e49aebf0510370057d12f640827ab0/cave_utils-1.5.0b6.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/98/92/71bac34f38079ed127c4a669b4d7118bee37f03c8733bb849c6ef061a43b/aa-simplewiki-1.0.2.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [flake8-annotations-complexity]: Downloading https://files.pythonhosted.org/packages/44/a9/a45f07e1090976bf8c5c2966df63050ba51e87a16d3e43969fc1b8ae22db/flake8_annotations_complexity-0.0.7.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [matrix-sydent]: Downloading https://files.pythonhosted.org/packages/8a/c1/dabdb82bc07e1c64465a05f20245dab28e89aacf3ffa7c798ef1f264435d/matrix_sydent-2.5.3.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [tif]: Downloading https://files.pythonhosted.org/packages/b7/19/255520f8c11f00fdce5ea917c360db8d04ddcff174f152c30bc9ffa3180d/tif-3.0.1.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/59/6b/b06b35495a9ebd54e3637a4ab9293cff6758ed8d805011fe766477f14f16/kfish-99.0.202306221326-py3-none-any.whl
+[2023-06-22 15:30:02] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/c5/17/42926421211188b7cfe5e303c098ddd012acc6568139c6310fb6096c88a4/aiohttp_deps-0.2.0.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ea/6b/692167ab8f11971ba4e7b506656c4402e91aeaa3ed72e74ba90ee4aa1485/kcli-99.0.202306221323-py3-none-any.whl
+[2023-06-22 15:30:02] INFO root fetch - processPackages [readme-ai]: Downloading https://files.pythonhosted.org/packages/41/e0/c9fd33fe6951ff1c49dde3771efa39e421b858d446dd40d3de6654c223b9/readme_ai-0.1.3.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [mongeasy]: Downloading https://files.pythonhosted.org/packages/aa/b0/c877eee371840962807ddcc5f37cfc5b0678a33c43f37660817be7641f0c/mongeasy-0.2.1.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [readme-ai]: executing diffoscope
+[2023-06-22 15:30:02] INFO root fetch - processPackages [readme-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ai-0.1.2.tar.gz tmp/readme_ai-0.1.3.tar.gz --markdown 20230622/r/readme-ai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 15:30:02] INFO root fetch - processPackages [mongeasy]: executing diffoscope
+[2023-06-22 15:30:02] INFO root fetch - processPackages [mongeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongeasy-0.2.0.tar.gz tmp/mongeasy-0.2.1.tar.gz --markdown 20230622/m/mongeasy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 15:30:02] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/5b/a4/dc6023b3baa11c0ad15c45c099bd866605f302a00220114ec5ad20c4bab4/aa-simplewiki-1.0.3.tar.gz
+[2023-06-22 15:30:02] INFO root fetch - processPackages [flake8-annotations-complexity]: Downloading https://files.pythonhosted.org/packages/d0/22/95d82ddf351f3b0fe84fad532798d36797be0fb29d593b403740fe30dacc/flake8_annotations_complexity-0.0.8.tar.gz
+[2023-06-22 15:30:03] INFO root fetch - processPackages [aiohttp-deps]: Downloading https://files.pythonhosted.org/packages/2a/9d/6372e70c00e37fbf6efe31f451fffdd48dee83ed89bb6cc602ea17962f4b/aiohttp_deps-0.2.1.tar.gz
+[2023-06-22 15:30:03] INFO root fetch - processPackages [tif]: Downloading https://files.pythonhosted.org/packages/a6/da/187676797a7760e1ed65bc6b53fe1db1e9a0d14142980de5c6a60b86ff69/tif-3.1.0.tar.gz
+[2023-06-22 15:30:03] INFO root fetch - processPackages [aa-simplewiki]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [matrix-sydent]: Downloading https://files.pythonhosted.org/packages/37/4d/d9d543fb1057af83c4dec4b5065878f04837806edfed3c6330b069fc6962/matrix_sydent-2.5.4.tar.gz
+[2023-06-22 15:30:03] INFO root fetch - processPackages [aa-simplewiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-simplewiki-1.0.2.tar.gz tmp/aa-simplewiki-1.0.3.tar.gz --markdown 20230622/a/aa-simplewiki/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-22 15:30:03] INFO root fetch - processPackages [flake8-annotations-complexity]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [flake8-annotations-complexity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_annotations_complexity-0.0.7.tar.gz tmp/flake8_annotations_complexity-0.0.8.tar.gz --markdown 20230622/f/flake8-annotations-complexity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-22 15:30:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d8/40/ac9534f5667604f8ecfdc1ea301f33aae09b14acb4bb864a5dfba7e4ffa0/kcli-99.0.202306221327-py3-none-any.whl
+[2023-06-22 15:30:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b2/67/72b5278628c1d3fdeed8c823643e630b73c648c8c0d0576e1dbd3424c40e/kfish-99.0.202306221329-py3-none-any.whl
+[2023-06-22 15:30:03] INFO root fetch - processPackages [tif]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [tif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tif-3.0.1.tar.gz tmp/tif-3.1.0.tar.gz --markdown 20230622/t/tif/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-06-22 15:30:03] INFO root fetch - processPackages [cave-utils]: Downloading https://files.pythonhosted.org/packages/2f/ba/c0b8ffb8cb047650d46bc76c4d5c80f6bd76e0c0154e4434cbd8ba5f42e4/cave_utils-1.5.0b7.tar.gz
+[2023-06-22 15:30:03] INFO root fetch - processPackages [matrix-sydent]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [matrix-sydent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_sydent-2.5.3.tar.gz tmp/matrix_sydent-2.5.4.tar.gz --markdown 20230622/m/matrix-sydent/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-06-22 15:30:03] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306221323-py3-none-any.whl.zip tmp/kcli-99.0.202306221327-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306221323-99.0.202306221327/diff.md --exclude *.pyd
+[2023-06-22 15:30:03] INFO root fetch - processPackages [aiohttp-deps]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [aiohttp-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_deps-0.2.0.tar.gz tmp/aiohttp_deps-0.2.1.tar.gz --markdown 20230622/a/aiohttp-deps/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 15:30:03] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221326-py3-none-any.whl.zip tmp/kfish-99.0.202306221329-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306221326-99.0.202306221329/diff.md --exclude *.pyd
+[2023-06-22 15:30:03] INFO root fetch - processPackages [cave-utils]: executing diffoscope
+[2023-06-22 15:30:03] INFO root fetch - processPackages [cave-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cave_utils-1.5.0b6.tar.gz tmp/cave_utils-1.5.0b7.tar.gz --markdown 20230622/c/cave-utils/1.5.0b6-1.5.0b7/diff.md --exclude *.pyd
+[2023-06-22 15:30:04] INFO root fetch - processPackages [flake8-annotations-complexity]: Remove: archive file [/home/abi/fetcher/tmp/flake8_annotations_complexity-0.0.7.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [flake8-annotations-complexity]: Remove: archive file [/home/abi/fetcher/tmp/flake8_annotations_complexity-0.0.8.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [flake8-annotations-complexity]: Start processing: starrailcard
+[2023-06-22 15:30:04] INFO root fetch - main [MainThread]: End processing [flake8-annotations-complexity]: success
+[2023-06-22 15:30:04] INFO root fetch - processPackages [starrailcard]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.2.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [aa-simplewiki]: Remove: archive file [/home/abi/fetcher/tmp/aa-simplewiki-1.0.3.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [aa-simplewiki]: Start processing: phc-ingestion
+[2023-06-22 15:30:04] INFO root fetch - main [MainThread]: End processing [aa-simplewiki]: success
+[2023-06-22 15:30:04] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.38] Old Version: [0.3.37]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/74/1d/bd1a557484ec388844999f63ddd18e4c34cc007a3287f8e7b42eedfa2548/starrailcard-0.0.3.tar.gz
+[2023-06-22 15:30:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221326-py3-none-any.whl.zip]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221329-py3-none-any.whl.zip]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [kfish]: Start processing: getgauge-cli
+[2023-06-22 15:30:04] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 15:30:04] INFO root fetch - processPackages [getgauge-cli]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.2.0.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [aiohttp-deps]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_deps-0.2.1.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [aiohttp-deps]: Start processing: subplots-from-axsize
+[2023-06-22 15:30:04] INFO root fetch - main [MainThread]: End processing [aiohttp-deps]: success
+[2023-06-22 15:30:04] INFO root fetch - processPackages [subplots-from-axsize]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/mongeasy-0.2.0.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [mongeasy]: Remove: archive file [/home/abi/fetcher/tmp/mongeasy-0.2.1.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [mongeasy]: Start processing: kfish
+[2023-06-22 15:30:04] INFO root fetch - main [MainThread]: End processing [mongeasy]: success
+[2023-06-22 15:30:04] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/f4/e8/2007fd7f11c0052cf22d54da169dfc479eb3a9cef97fac86b5b582786bfd/phc-ingestion-0.3.37.tar.gz
+[2023-06-22 15:30:04] INFO root fetch - processPackages [kfish]: New version: [99.0.202306221329] Old Version: [99.0.202306221326]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/59/6b/b06b35495a9ebd54e3637a4ab9293cff6758ed8d805011fe766477f14f16/kfish-99.0.202306221326-py3-none-any.whl
+[2023-06-22 15:30:04] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/72/05/3022ee7e63a0da5a2579e8254cdf0ea1c547bed81743e6b804b2f38c12ce/starrailcard-0.0.4.tar.gz
+[2023-06-22 15:30:04] INFO root fetch - processPackages [readme-ai]: Remove: archive file [/home/abi/fetcher/tmp/readme_ai-0.1.2.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [getgauge-cli]: Downloading https://files.pythonhosted.org/packages/3d/93/6b34a9b12452e1940b320f63c838e77a0b6f6275e19d2d843cac7dfbc885/getgauge-cli-1.4.3.tar.gz
+[2023-06-22 15:30:04] INFO root fetch - processPackages [readme-ai]: Remove: archive file [/home/abi/fetcher/tmp/readme_ai-0.1.3.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [readme-ai]: Start processing: strawberry-graphql
+[2023-06-22 15:30:04] INFO root fetch - main [MainThread]: End processing [readme-ai]: success
+[2023-06-22 15:30:04] INFO root fetch - processPackages [cave-utils]: Remove: archive file [/home/abi/fetcher/tmp/cave_utils-1.5.0b6.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [cave-utils]: Remove: archive file [/home/abi/fetcher/tmp/cave_utils-1.5.0b7.tar.gz]
+[2023-06-22 15:30:04] INFO root fetch - processPackages [cave-utils]: Start processing: docleaf
+[2023-06-22 15:30:05] INFO root fetch - main [MainThread]: End processing [cave-utils]: success
+[2023-06-22 15:30:05] INFO root fetch - processPackages [docleaf]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-22 15:30:05] INFO root fetch - processPackages [subplots-from-axsize]: Downloading https://files.pythonhosted.org/packages/d7/08/59363c343cc430004b97cdd12c2aa768ed08bf445b9845d127466fea67f1/subplots_from_axsize-0.1.3.tar.gz
+[2023-06-22 15:30:05] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-22 15:30:05] INFO root fetch - processPackages [tif]: Remove: archive file [/home/abi/fetcher/tmp/tif-3.0.1.tar.gz]
+[2023-06-22 15:30:05] INFO root fetch - processPackages [tif]: Remove: archive file [/home/abi/fetcher/tmp/tif-3.1.0.tar.gz]
+[2023-06-22 15:30:05] INFO root fetch - main [MainThread]: End processing [tif]: success
+[2023-06-22 15:30:05] INFO root fetch - processPackages [starrailcard]: executing diffoscope
+[2023-06-22 15:30:05] INFO root fetch - processPackages [starrailcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailcard-0.0.3.tar.gz tmp/starrailcard-0.0.4.tar.gz --markdown 20230622/s/starrailcard/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 15:30:05] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b2/67/72b5278628c1d3fdeed8c823643e630b73c648c8c0d0576e1dbd3424c40e/kfish-99.0.202306221329-py3-none-any.whl
+[2023-06-22 15:30:05] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/b3/4f/31ad6c86d2ad4aa54712ce79df921c186bcb7e32bf3cc16fdea4866d7c3e/phc-ingestion-0.3.38.tar.gz
+[2023-06-22 15:30:05] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 15:30:05] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221326-py3-none-any.whl.zip tmp/kfish-99.0.202306221329-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306221326-99.0.202306221329/diff.md --exclude *.pyd
+[2023-06-22 15:30:05] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-06-22 15:30:05] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/df/a5/8d827807fb0cf8e010af46b6e2e0f206506478d51d3de1933a58a4c03147/docleaf-0.5.0-cp39-none-win_amd64.whl
+[2023-06-22 15:30:05] INFO root fetch - processPackages [getgauge-cli]: Downloading https://files.pythonhosted.org/packages/a5/53/151217f629e3055f7973ea545b906a49149a2f65fce7e102baabdd63cf97/getgauge-cli-1.5.0.tar.gz
+[2023-06-22 15:30:05] INFO root fetch - processPackages [subplots-from-axsize]: Downloading https://files.pythonhosted.org/packages/dd/f4/53df9168e2feac5e228711e06724f57de0dc0ec81e5d66587ecc5814e8f6/subplots_from_axsize-0.1.5.tar.gz
+[2023-06-22 15:30:05] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-06-22 15:30:05] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.37.tar.gz tmp/phc-ingestion-0.3.38.tar.gz --markdown 20230622/p/phc-ingestion/0.3.37-0.3.38/diff.md --exclude *.pyd
+[2023-06-22 15:30:05] INFO root fetch - processPackages [getgauge-cli]: executing diffoscope
+[2023-06-22 15:30:05] INFO root fetch - processPackages [getgauge-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getgauge-cli-1.4.3.tar.gz tmp/getgauge-cli-1.5.0.tar.gz --markdown 20230622/g/getgauge-cli/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-06-22 15:30:05] INFO root fetch - processPackages [subplots-from-axsize]: executing diffoscope
+[2023-06-22 15:30:05] INFO root fetch - processPackages [subplots-from-axsize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subplots_from_axsize-0.1.3.tar.gz tmp/subplots_from_axsize-0.1.5.tar.gz --markdown 20230622/s/subplots-from-axsize/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-06-22 15:30:05] INFO root fetch - processPackages [docleaf]: Downloading https://files.pythonhosted.org/packages/5a/fe/74ada432ed897630065c90b62f1e2ec59d6b7da78beec45f8078cd73ea92/docleaf-0.6.0-cp39-none-win_amd64.whl
+[2023-06-22 15:30:05] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-06-22 15:30:05] INFO root fetch - processPackages [docleaf]: executing diffoscope
+[2023-06-22 15:30:05] INFO root fetch - processPackages [docleaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docleaf-0.5.0-cp39-none-win_amd64.whl.zip tmp/docleaf-0.6.0-cp39-none-win_amd64.whl.zip --markdown 20230622/d/docleaf/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-22 15:30:05] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-22 15:30:05] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230622/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-22 15:30:06] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221326-py3-none-any.whl.zip]
+[2023-06-22 15:30:06] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221329-py3-none-any.whl.zip]
+[2023-06-22 15:30:06] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 15:30:06] INFO root fetch - processPackages [getgauge-cli]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-cli-1.4.3.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - processPackages [getgauge-cli]: Remove: archive file [/home/abi/fetcher/tmp/getgauge-cli-1.5.0.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - main [MainThread]: End processing [getgauge-cli]: success
+[2023-06-22 15:30:06] INFO root fetch - processPackages [subplots-from-axsize]: Remove: archive file [/home/abi/fetcher/tmp/subplots_from_axsize-0.1.3.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - processPackages [subplots-from-axsize]: Remove: archive file [/home/abi/fetcher/tmp/subplots_from_axsize-0.1.5.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - main [MainThread]: End processing [subplots-from-axsize]: success
+[2023-06-22 15:30:06] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.3.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.4.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - main [MainThread]: End processing [starrailcard]: success
+[2023-06-22 15:30:06] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.37.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.38.tar.gz]
+[2023-06-22 15:30:06] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-06-22 15:30:07] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.5.0-cp39-none-win_amd64.whl.zip]
+[2023-06-22 15:30:07] INFO root fetch - processPackages [docleaf]: Remove: archive file [/home/abi/fetcher/tmp/docleaf-0.6.0-cp39-none-win_amd64.whl.zip]
+[2023-06-22 15:30:07] INFO root fetch - main [MainThread]: End processing [docleaf]: success
+[2023-06-22 15:30:07] INFO root fetch - processPackages [matrix-sydent]: Remove: archive file [/home/abi/fetcher/tmp/matrix_sydent-2.5.3.tar.gz]
+[2023-06-22 15:30:07] INFO root fetch - processPackages [matrix-sydent]: Remove: archive file [/home/abi/fetcher/tmp/matrix_sydent-2.5.4.tar.gz]
+[2023-06-22 15:30:07] INFO root fetch - main [MainThread]: End processing [matrix-sydent]: success
+[2023-06-22 15:30:07] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-06-22 15:30:07] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-06-22 15:30:07] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-22 15:30:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221323-py3-none-any.whl.zip]
+[2023-06-22 15:30:10] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221327-py3-none-any.whl.zip]
+[2023-06-22 15:30:10] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 15:30:10] INFO root fetch - main [MainThread]: Store serial: [18605452]
