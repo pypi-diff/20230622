@@ -15712,3 +15712,130 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 11:23:41] INFO root fetch - processPackages [mercurial]: Remove: archive file [/home/abi/fetcher/tmp/mercurial-6.4rc0.tar.gz]
 [2023-06-22 11:23:41] INFO root fetch - main [MainThread]: End processing [mercurial]: success
 [2023-06-22 11:23:41] INFO root fetch - main [MainThread]: Store serial: [18603006]
+[2023-06-22 11:28:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603006]
+[2023-06-22 11:28:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requests-pkcs12
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py4ami
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talisman-dm
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marionette-predeployed
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycatsearch
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-ctrl-mpexec
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-ctrl-bps
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybotx
+[2023-06-22 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yt-summarizer
+[2023-06-22 11:28:51] INFO root fetch - processPackages [py4ami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:28:51] WARNING root fetch - processPackages [yt-summarizer]: Skipping, unable to determine old version
+[2023-06-22 11:28:51] INFO root fetch - processPackages [yt-summarizer]: Start processing: braincube-aws-core
+[2023-06-22 11:28:51] INFO root fetch - main [MainThread]: End processing [yt-summarizer] error
+[2023-06-22 11:28:51] INFO root fetch - processPackages [requests-pkcs12]: New version: [1.9] Old Version: [1.8]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [pycatsearch]: New version: [5.1.7] Old Version: [5.1.6]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [pybotx]: New version: [0.55.6] Old Version: [0.55.5]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [talisman-dm]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [marionette-predeployed]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230622092455] Old Version: [2.1.1.dev20230622082107]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [braincube-aws-core]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/70/3c/0141e12b587bec5b891a41842fbcece287881b9943b05633bfe7a77c212e/requests_pkcs12-1.8.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/c1/07/75c1f6c6e791a52b5fee9079ad16d2c817810cbc84672a2101b065c341ad/braincube-aws-core-0.0.2.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/03/ca/f6f0c85b1d0a852ddc84a2b1c4b38a771c8b45b6510c56733c68b5f9c482/localstack-core-2.1.1.dev20230622082107.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [py4ami]: Downloading https://files.pythonhosted.org/packages/c5/19/fd72b8e353daaae6dce12807e4727231323c1eb920f6f081e58828435702/py4ami-0.0.8.tar.gz
+[2023-06-22 11:28:51] WARNING root fetch - processPackages [py4ami]: Skipping package: exceeds size limit 16331081>=10485760
+[2023-06-22 11:28:51] INFO root fetch - processPackages [py4ami]: Start processing: repleno
+[2023-06-22 11:28:51] INFO root fetch - main [MainThread]: End processing [py4ami] error
+[2023-06-22 11:28:51] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/57/1b/6d255e8554cbe7fa832b32d079cabd350122dd95abd8f735273bd5e6ca29/pycatsearch-5.1.6.tar.gz
+[2023-06-22 11:28:51] WARNING root fetch - processPackages [repleno]: Skipping, unable to determine old version
+[2023-06-22 11:28:51] INFO root fetch - processPackages [repleno]: Start processing: testkafkainitialcleint
+[2023-06-22 11:28:51] INFO root fetch - main [MainThread]: End processing [repleno] error
+[2023-06-22 11:28:51] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/ed/7b/c63dab386460cedecb16ca1a9f5dbb275583d9abb2f9852eac02dc8f1139/talisman-dm-1.0.0a8.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/68/83/011d8de3b5caa96970482b4419a1c42318766d4c83102bbcc26535c63fd8/marionette-predeployed-2.0.0b1.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [braincube-aws-core]: Downloading https://files.pythonhosted.org/packages/07/c7/2097a4dcecfa7db90d468651f2ef8d062759be2f8b2632de6476cae6f009/braincube-aws-core-0.0.3.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [testkafkainitialcleint]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-06-22 11:28:51] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [testkafkainitialcleint]: Downloading https://files.pythonhosted.org/packages/bf/88/ae285b92de99006fb82751ed7cfe1638fc8f94668492b45de39300291353/testkafkainitialcleint-1.0.1.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/4c/24/c255dc77d3b307b01fc45e4723b5dbee60d767cf0b3a25c68b05293fdf94/localstack-core-2.1.1.dev20230622092455.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/30/0e/06ee6b678fcaffc4bc9e2a869a43d656320497bc3eae25a43a8e64aaf775/pybotx-0.55.5.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/14/dd/3651b0dd709a3712d5581cbd74b92a5b2c38d03c51e07a2906b45a1074b9/requests_pkcs12-1.9.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [braincube-aws-core]: executing diffoscope
+[2023-06-22 11:28:51] INFO root fetch - processPackages [braincube-aws-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-0.0.2.tar.gz tmp/braincube-aws-core-0.0.3.tar.gz --markdown 20230622/b/braincube-aws-core/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 11:28:51] INFO root fetch - processPackages [pycatsearch]: Downloading https://files.pythonhosted.org/packages/67/4e/464917fe4096bbbd28cde9d5252eac3c42c5d661b2893c46ea9a9fa40c96/pycatsearch-5.1.7.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-06-22 11:28:51] INFO root fetch - processPackages [talisman-dm]: Downloading https://files.pythonhosted.org/packages/bd/ef/0d2809d6ed2c72eee47f846077380162aecf867d99c7289e3fbcb3a223f9/talisman-dm-1.0.0a9.tar.gz
+[2023-06-22 11:28:52] INFO root fetch - processPackages [pycatsearch]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [pycatsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatsearch-5.1.6.tar.gz tmp/pycatsearch-5.1.7.tar.gz --markdown 20230622/p/pycatsearch/5.1.6-5.1.7/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [marionette-predeployed]: Downloading https://files.pythonhosted.org/packages/3b/59/3c96cac75eb892bea3d323d71c85f05f8cde0f928b8f4a276d5df3999f9f/marionette-predeployed-2.0.0b2.tar.gz
+[2023-06-22 11:28:52] ERROR root fetch - processPackages [testkafkainitialcleint]: Unable to fetch info: No such project/version 'testkafkainitialcleint' 1.0.3
+[2023-06-22 11:28:52] INFO root fetch - processPackages [testkafkainitialcleint]: Start processing: CKAstroTools
+[2023-06-22 11:28:52] INFO root fetch - main [MainThread]: End processing [testkafkainitialcleint] error
+[2023-06-22 11:28:52] INFO root fetch - processPackages [requests-pkcs12]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [requests-pkcs12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_pkcs12-1.8.tar.gz tmp/requests_pkcs12-1.9.tar.gz --markdown 20230622/r/requests-pkcs12/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [CKAstroTools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 11:28:52] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/8c/18/c6055d7f4bb5fcc7ac06ad7b29c54c9cfa874f51299efa391a900b767d03/pybotx-0.55.6.tar.gz
+[2023-06-22 11:28:52] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [marionette-predeployed]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [marionette-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette-predeployed-2.0.0b1.tar.gz tmp/marionette-predeployed-2.0.0b2.tar.gz --markdown 20230622/m/marionette-predeployed/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-06-22 11:28:52] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230622082107.tar.gz tmp/localstack-core-2.1.1.dev20230622092455.tar.gz --markdown 20230622/l/localstack-core/2.1.1.dev20230622082107-2.1.1.dev20230622092455/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/89/7f/626be593faa2f7f843ca293d38464f265a5a245629af0122ec8b040239fd/CKAstroTools-0.0.4.tar.gz
+[2023-06-22 11:28:52] INFO root fetch - processPackages [pybotx]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [talisman-dm]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [pybotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx-0.55.5.tar.gz tmp/pybotx-0.55.6.tar.gz --markdown 20230622/p/pybotx/0.55.5-0.55.6/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [talisman-dm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talisman-dm-1.0.0a8.tar.gz tmp/talisman-dm-1.0.0a9.tar.gz --markdown 20230622/t/talisman-dm/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:28:52] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/1e/10/2da58bae93177e123814189260e9d6071d49cb0aa407a242c8524e2c27e8/CKAstroTools-0.0.5.tar.gz
+[2023-06-22 11:28:52] INFO root fetch - processPackages [CKAstroTools]: executing diffoscope
+[2023-06-22 11:28:52] INFO root fetch - processPackages [CKAstroTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CKAstroTools-0.0.4.tar.gz tmp/CKAstroTools-0.0.5.tar.gz --markdown 20230622/C/CKAstroTools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 11:28:53] INFO root fetch - processPackages [requests-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/requests_pkcs12-1.8.tar.gz]
+[2023-06-22 11:28:53] INFO root fetch - processPackages [requests-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/requests_pkcs12-1.9.tar.gz]
+[2023-06-22 11:28:53] INFO root fetch - processPackages [requests-pkcs12]: Start processing: deep-agent
+[2023-06-22 11:28:53] INFO root fetch - main [MainThread]: End processing [requests-pkcs12]: success
+[2023-06-22 11:28:53] INFO root fetch - processPackages [deep-agent]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-22 11:28:53] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.2.tar.gz]
+[2023-06-22 11:28:53] INFO root fetch - processPackages [braincube-aws-core]: Remove: archive file [/home/abi/fetcher/tmp/braincube-aws-core-0.0.3.tar.gz]
+[2023-06-22 11:28:53] INFO root fetch - processPackages [braincube-aws-core]: Start processing: mltlk
+[2023-06-22 11:28:53] INFO root fetch - main [MainThread]: End processing [braincube-aws-core]: success
+[2023-06-22 11:28:53] INFO root fetch - processPackages [deep-agent]: Downloading https://files.pythonhosted.org/packages/f9/8f/df84818b56110353b78beb554be4d091148c43dc7681b157b682e4e0d8db/deep_agent-1.0.0.tar.gz
+[2023-06-22 11:28:53] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-22 11:28:53] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b1.tar.gz]
+[2023-06-22 11:28:53] INFO root fetch - processPackages [marionette-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/marionette-predeployed-2.0.0b2.tar.gz]
+[2023-06-22 11:28:53] INFO root fetch - main [MainThread]: End processing [marionette-predeployed]: success
+[2023-06-22 11:28:54] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-22 11:28:54] INFO root fetch - processPackages [deep-agent]: Downloading https://files.pythonhosted.org/packages/16/f9/a30bb82ef74b76d7e2932ad9db33d7d05d5acd8e38acc8bdfb51960a16a0/deep_agent-1.0.1.tar.gz
+[2023-06-22 11:28:54] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.4.tar.gz]
+[2023-06-22 11:28:54] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.5.tar.gz]
+[2023-06-22 11:28:54] INFO root fetch - main [MainThread]: End processing [CKAstroTools]: success
+[2023-06-22 11:28:54] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.6.tar.gz]
+[2023-06-22 11:28:54] INFO root fetch - processPackages [pycatsearch]: Remove: archive file [/home/abi/fetcher/tmp/pycatsearch-5.1.7.tar.gz]
+[2023-06-22 11:28:54] INFO root fetch - main [MainThread]: End processing [pycatsearch]: success
+[2023-06-22 11:28:54] INFO root fetch - processPackages [deep-agent]: executing diffoscope
+[2023-06-22 11:28:54] INFO root fetch - processPackages [deep-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_agent-1.0.0.tar.gz tmp/deep_agent-1.0.1.tar.gz --markdown 20230622/d/deep-agent/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-22 11:28:54] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-22 11:28:54] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a8.tar.gz]
+[2023-06-22 11:28:54] INFO root fetch - processPackages [talisman-dm]: Remove: archive file [/home/abi/fetcher/tmp/talisman-dm-1.0.0a9.tar.gz]
+[2023-06-22 11:28:54] INFO root fetch - main [MainThread]: End processing [talisman-dm]: success
+[2023-06-22 11:28:55] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz]
+[2023-06-22 11:28:55] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz]
+[2023-06-22 11:28:55] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-06-22 11:28:55] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz]
+[2023-06-22 11:28:55] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz]
+[2023-06-22 11:28:55] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-06-22 11:28:55] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.55.5.tar.gz]
+[2023-06-22 11:28:55] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.55.6.tar.gz]
+[2023-06-22 11:28:55] INFO root fetch - main [MainThread]: End processing [pybotx]: success
+[2023-06-22 11:28:55] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-22 11:28:55] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230622/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-22 11:28:56] INFO root fetch - processPackages [deep-agent]: Remove: archive file [/home/abi/fetcher/tmp/deep_agent-1.0.0.tar.gz]
+[2023-06-22 11:28:56] INFO root fetch - processPackages [deep-agent]: Remove: archive file [/home/abi/fetcher/tmp/deep_agent-1.0.1.tar.gz]
+[2023-06-22 11:28:56] INFO root fetch - main [MainThread]: End processing [deep-agent]: success
+[2023-06-22 11:28:56] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-22 11:28:56] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-22 11:28:56] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-22 11:29:01] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622082107.tar.gz]
+[2023-06-22 11:29:01] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622092455.tar.gz]
+[2023-06-22 11:29:01] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-22 11:29:01] INFO root fetch - main [MainThread]: Store serial: [18603060]
