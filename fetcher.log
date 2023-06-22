@@ -9291,3 +9291,24 @@
 [2023-06-22 04:16:01] INFO root fetch - processPackages [rq]: Remove: archive file [/home/abi/fetcher/tmp/rq-1.9.0.tar.gz]
 [2023-06-22 04:16:01] INFO root fetch - main [MainThread]: End processing [rq]: success
 [2023-06-22 04:16:01] INFO root fetch - main [MainThread]: Store serial: [18600465]
+[2023-06-22 04:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600465]
+[2023-06-22 04:21:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-22 04:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skill-easter-eggs
+[2023-06-22 04:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embaas
+[2023-06-22 04:21:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vstutils
+[2023-06-22 04:21:10] INFO root fetch - processPackages [embaas]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 04:21:10] INFO root fetch - processPackages [skill-easter-eggs]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-06-22 04:21:10] INFO root fetch - processPackages [vstutils]: New version: [5.5.2] Old Version: [5.5.1]
+[2023-06-22 04:21:10] INFO root fetch - processPackages [skill-easter-eggs]: Downloading https://files.pythonhosted.org/packages/55/6d/5aa93ed127a74ea79a1c2ba4a932d00cef3fbaf1b049804fc123884ef8cb/skill-easter-eggs-0.1.0a3.tar.gz
+[2023-06-22 04:21:10] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/cc/05/cb7ee7a41c0432990604c428fec4cd237084f1774892ed7aa3f5143bd8af/vstutils-5.5.1.tar.gz
+[2023-06-22 04:21:10] ERROR root fetch - processPackages [embaas]: Unable to fetch info: No such project/version 'embaas' 0.0.1
+[2023-06-22 04:21:10] INFO root fetch - main [MainThread]: End processing [embaas] error
+[2023-06-22 04:21:10] WARNING root fetch - processPackages [skill-easter-eggs]: Skipping package: exceeds size limit 21752529>=10485760
+[2023-06-22 04:21:10] INFO root fetch - main [MainThread]: End processing [skill-easter-eggs] error
+[2023-06-22 04:21:10] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/20/f8/a3eb7d0e0a15200ac21d100b03f9d0227bed87540cffb60af939c5d7c378/vstutils-5.5.2.tar.gz
+[2023-06-22 04:21:10] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-22 04:21:10] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.1.tar.gz tmp/vstutils-5.5.2.tar.gz --markdown 20230622/v/vstutils/5.5.1-5.5.2/diff.md --exclude *.pyd
+[2023-06-22 04:21:13] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.1.tar.gz]
+[2023-06-22 04:21:13] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.2.tar.gz]
+[2023-06-22 04:21:13] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-22 04:21:13] INFO root fetch - main [MainThread]: Store serial: [18600477]
