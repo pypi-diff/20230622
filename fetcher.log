@@ -9531,3 +9531,33 @@
 [2023-06-22 04:42:20] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230622.tar.gz]
 [2023-06-22 04:42:20] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-22 04:42:20] INFO root fetch - main [MainThread]: Store serial: [18600591]
+[2023-06-22 04:47:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600591]
+[2023-06-22 04:47:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-22 04:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robocorp-storage
+[2023-06-22 04:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xhs
+[2023-06-22 04:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-roborock
+[2023-06-22 04:47:29] INFO root fetch - processPackages [robocorp-storage]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 04:47:29] INFO root fetch - processPackages [xhs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 04:47:29] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-22 04:47:29] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-06-22 04:47:29] INFO root fetch - processPackages [robocorp-storage]: Downloading https://files.pythonhosted.org/packages/84/03/fba0446c93eb808ca338f588f1b36d468168dd1ffdadfa61b6446ce70e9b/robocorp_storage-0.1.1.tar.gz
+[2023-06-22 04:47:29] INFO root fetch - processPackages [xhs]: Downloading https://files.pythonhosted.org/packages/a0/e8/daa255471557af0b1c8a37bdcec1502e462c86f1b27b20db6572824a325c/xhs-0.2.2.tar.gz
+[2023-06-22 04:47:29] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-06-22 04:47:29] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-22 04:47:29] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230622/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-22 04:47:29] INFO root fetch - processPackages [robocorp-storage]: Downloading https://files.pythonhosted.org/packages/ec/d2/a070181cd0a5bb7a1bbbd45c78d491b54ed6e956488a898262ac111a0c4c/robocorp_storage-0.1.2.tar.gz
+[2023-06-22 04:47:29] INFO root fetch - processPackages [robocorp-storage]: executing diffoscope
+[2023-06-22 04:47:29] INFO root fetch - processPackages [robocorp-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_storage-0.1.1.tar.gz tmp/robocorp_storage-0.1.2.tar.gz --markdown 20230622/r/robocorp-storage/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 04:47:29] INFO root fetch - processPackages [xhs]: Downloading https://files.pythonhosted.org/packages/7a/7e/4017e51d51321e32dd253d4f87de6eaf18e7359e6ae82f6f7707d5841116/xhs-0.2.3.tar.gz
+[2023-06-22 04:47:29] INFO root fetch - processPackages [xhs]: executing diffoscope
+[2023-06-22 04:47:29] INFO root fetch - processPackages [xhs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhs-0.2.2.tar.gz tmp/xhs-0.2.3.tar.gz --markdown 20230622/x/xhs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 04:47:30] INFO root fetch - processPackages [robocorp-storage]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_storage-0.1.1.tar.gz]
+[2023-06-22 04:47:30] INFO root fetch - processPackages [robocorp-storage]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_storage-0.1.2.tar.gz]
+[2023-06-22 04:47:30] INFO root fetch - main [MainThread]: End processing [robocorp-storage]: success
+[2023-06-22 04:47:30] INFO root fetch - processPackages [xhs]: Remove: archive file [/home/abi/fetcher/tmp/xhs-0.2.2.tar.gz]
+[2023-06-22 04:47:30] INFO root fetch - processPackages [xhs]: Remove: archive file [/home/abi/fetcher/tmp/xhs-0.2.3.tar.gz]
+[2023-06-22 04:47:30] INFO root fetch - main [MainThread]: End processing [xhs]: success
+[2023-06-22 04:48:25] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-06-22 04:48:25] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-06-22 04:48:25] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-22 04:48:25] INFO root fetch - main [MainThread]: Store serial: [18600604]
