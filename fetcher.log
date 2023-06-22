@@ -21459,3 +21459,204 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 15:08:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.22-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-22 15:08:53] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-06-22 15:08:53] INFO root fetch - main [MainThread]: Store serial: [18605204]
+[2023-06-22 15:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605204]
+[2023-06-22 15:14:03] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: es-translator
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ProjectAssessment
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nligraphspacy
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-numpy
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vnstock
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbnlab-preview
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mumott
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: causalnex
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nligraphspacy]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ProjectAssessment]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [causalnex]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [es-translator]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [kfish]: New version: [99.0.202306221309] Old Version: [99.0.202306221236]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [mumott]: New version: [1.0] Old Version: [0.6]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [vnstock]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 15:14:03] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/d6/72/e93d34d8ce8d3d03d2024e807d848c764029ff4aee4f4591260417378803/es_translator-1.7.1.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d8/60/c5c01d43a500736a986b39889e2d6388bc9cc4cfc133f03e2faf98be773f/fbnlab_preview-0.1.6-py3-none-any.whl
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c3/1a/752ba6d8042cce3e5386de55efc6c009219c99e3729fa2f35a8a4e0e9ca3/kfish-99.0.202306221236-py3-none-any.whl
+[2023-06-22 15:14:03] INFO root fetch - processPackages [causalnex]: Downloading https://files.pythonhosted.org/packages/af/29/c9f0345945febc1540ff287ac0ffdce55feac41a0d04da0b9c756c0ee56f/causalnex-0.9.1.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ProjectAssessment]: Downloading https://files.pythonhosted.org/packages/56/28/14980fd8602b970c1e85ec8ef420edb3bf2760d4cccab1393ce19c043aee/projectassessment-0.3.2.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/4c/bc/431a310af4b28ec7b9b1c27fae0e593172363c93de4a6fb7caff83fb12de/vnstock-0.1.4.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [mumott]: Downloading https://files.pythonhosted.org/packages/8e/20/e71be06b7fe811f8a33742cda309a2346c3b8331c1b3a2ea0ea7f5402e20/mumott-0.6.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/0e/8c/416dc3428d05509328d44a0409d7003e3563ff93f1b91f6dd8ca74d00998/nligraphspacy-1.1.0.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230622/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/bc/41/ceddccc0fd9e3658141fc9d29c1939dad0569154c19036e8b8e937d6b49a/es_translator-1.7.2.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9e/83/639ffe7582da0fd5ab60e646b6dcc0ce54c96701b7684f314a23cf78caf5/kfish-99.0.202306221309-py3-none-any.whl
+[2023-06-22 15:14:03] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d7/3a/47c89e574c39c0662e1815320fe44c7232deaec9dfc8f45c9607f9d1f0fb/fbnlab_preview-0.1.8-py3-none-any.whl
+[2023-06-22 15:14:03] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.7.1.tar.gz tmp/es_translator-1.7.2.tar.gz --markdown 20230622/e/es-translator/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ProjectAssessment]: Downloading https://files.pythonhosted.org/packages/e6/71/ff210dd72e233f74a4abf1658e94b9f8d95071c31c371827f3b08880c2bc/projectassessment-0.3.3.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221236-py3-none-any.whl.zip tmp/kfish-99.0.202306221309-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306221236-99.0.202306221309/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230622/f/fbnlab-preview/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/4e/f5/f33138b0db44f05e1ff9eaa06b4dc74c96494715eae8b138e608cecadd05/nligraphspacy-1.1.2.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ProjectAssessment]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [ProjectAssessment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectassessment-0.3.2.tar.gz tmp/projectassessment-0.3.3.tar.gz --markdown 20230622/P/ProjectAssessment/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/cb/7b/766e5275baba564d6a44930bc4f8a5577e839ed0eb20d0981f6cbbf83392/vnstock-0.1.6.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-1.1.0.tar.gz tmp/nligraphspacy-1.1.2.tar.gz --markdown 20230622/n/nligraphspacy/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [causalnex]: Downloading https://files.pythonhosted.org/packages/2f/87/e50fd1bc85c356bc258bbcd0878df5f9b3c3fa00fefe4bdaf53800f36274/causalnex-0.9.2.tar.gz
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230622/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [vnstock]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [vnstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnstock-0.1.4.tar.gz tmp/vnstock-0.1.6.tar.gz --markdown 20230622/v/vnstock/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-22 15:14:03] INFO root fetch - processPackages [causalnex]: executing diffoscope
+[2023-06-22 15:14:03] INFO root fetch - processPackages [causalnex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalnex-0.9.1.tar.gz tmp/causalnex-0.9.2.tar.gz --markdown 20230622/c/causalnex/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-22 15:14:04] INFO root fetch - processPackages [mumott]: Downloading https://files.pythonhosted.org/packages/82/31/248128cc63f3c075805ef6b983ade3fa51082876394fb2731e3e8cc88e57/mumott-1.0.tar.gz
+[2023-06-22 15:14:04] INFO root fetch - processPackages [mumott]: executing diffoscope
+[2023-06-22 15:14:04] INFO root fetch - processPackages [mumott]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mumott-0.6.tar.gz tmp/mumott-1.0.tar.gz --markdown 20230622/m/mumott/0.6-1.0/diff.md --exclude *.pyd
+[2023-06-22 15:14:05] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.7.1.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.7.2.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [es-translator]: Start processing: woon-vcfg
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-06-22 15:14:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221236-py3-none-any.whl.zip]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221309-py3-none-any.whl.zip]
+[2023-06-22 15:14:05] WARNING root fetch - processPackages [woon-vcfg]: Skipping, unable to determine old version
+[2023-06-22 15:14:05] INFO root fetch - processPackages [kfish]: Start processing: nbdev-pytorch
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 15:14:05] INFO root fetch - processPackages [woon-vcfg]: Start processing: PyEmailExtractor
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [woon-vcfg] error
+[2023-06-22 15:14:05] WARNING root fetch - processPackages [PyEmailExtractor]: Skipping, unable to determine old version
+[2023-06-22 15:14:05] INFO root fetch - processPackages [PyEmailExtractor]: Start processing: configuraptor
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [PyEmailExtractor] error
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [configuraptor]: New version: [1.9.2] Old Version: [1.8.0]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.0.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.2.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nligraphspacy]: Start processing: ansible-lint
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-06-22 15:14:05] INFO root fetch - processPackages [ansible-lint]: New version: [6.9.1] Old Version: [6.9.0]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [ProjectAssessment]: Remove: archive file [/home/abi/fetcher/tmp/projectassessment-0.3.2.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [ProjectAssessment]: Remove: archive file [/home/abi/fetcher/tmp/projectassessment-0.3.3.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [ProjectAssessment]: Start processing: cdk-serverless-clamscan
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [ProjectAssessment]: success
+[2023-06-22 15:14:05] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.5.0] Old Version: [2.4.99]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [ansible-lint]: Downloading https://files.pythonhosted.org/packages/59/c9/bebba18cfb0eb91208fbfaf44156225aa55bfe7f2dbd5afeb6f020fa5dcb/ansible-lint-6.9.0.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/57/19/34925c0692fe8cf372d2738b4eb23d59ca29288419a5571f3d13d6758c0b/configuraptor-1.8.0.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [fbnlab-preview]: Start processing: routeros-check
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230622/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 15:14:05] INFO root fetch - processPackages [routeros-check]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.1.4.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.1.6.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [vnstock]: Start processing: redis-rate-limiters
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [vnstock]: success
+[2023-06-22 15:14:05] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/c3/88/072c3034e29da4be52b0ab904d17b3173d2d1f9cbb956f5fc175f1953135/cdk-serverless-clamscan-2.4.99.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/c6/5d/8f10cf246fa624fdfd121882fdd621658a55715eeddeac38ddcbe5d0f3f8/configuraptor-1.9.2.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-pandas]: Start processing: embaas
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-22 15:14:05] WARNING root fetch - processPackages [embaas]: Skipping, unable to determine old version
+[2023-06-22 15:14:05] INFO root fetch - processPackages [embaas]: Start processing: nbdev-scipy
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [embaas] error
+[2023-06-22 15:14:05] INFO root fetch - processPackages [redis-rate-limiters]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [ansible-lint]: Downloading https://files.pythonhosted.org/packages/fb/c0/915c941753e6ef9ca998621a5ee07a812a07d674cf5bb759de0488f1325d/ansible-lint-6.9.1.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [routeros-check]: Downloading https://files.pythonhosted.org/packages/65/88/500354774b9631a313abd2f9d3251b904b4d07d22d4dca4facc090cdb128/routeros-check-0.9.1.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [causalnex]: Remove: archive file [/home/abi/fetcher/tmp/causalnex-0.9.1.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [causalnex]: Remove: archive file [/home/abi/fetcher/tmp/causalnex-0.9.2.tar.gz]
+[2023-06-22 15:14:05] INFO root fetch - processPackages [causalnex]: Start processing: pepperize.cdk-route53-health-check
+[2023-06-22 15:14:05] INFO root fetch - main [MainThread]: End processing [causalnex]: success
+[2023-06-22 15:14:05] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-22 15:14:05] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-22 15:14:05] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.8.0.tar.gz tmp/configuraptor-1.9.2.tar.gz --markdown 20230622/c/configuraptor/1.8.0-1.9.2/diff.md --exclude *.pyd
+[2023-06-22 15:14:05] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/3a/e4/5e69e2eacca2e99bb3a1246dc67fb0a9c3bcbc83ab4adc04ddfc6e2f6b8a/cdk-serverless-clamscan-2.5.0.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [ansible-lint]: executing diffoscope
+[2023-06-22 15:14:06] INFO root fetch - processPackages [ansible-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-lint-6.9.0.tar.gz tmp/ansible-lint-6.9.1.tar.gz --markdown 20230622/a/ansible-lint/6.9.0-6.9.1/diff.md --exclude *.pyd
+[2023-06-22 15:14:06] INFO root fetch - processPackages [redis-rate-limiters]: Downloading https://files.pythonhosted.org/packages/29/dd/4829650a27b5b433b760aac40dc9030b3c7b8ce6d727d8a65db41be772d9/redis_rate_limiters-0.2.0.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 15:14:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-06-22 15:14:06] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.99.tar.gz tmp/cdk-serverless-clamscan-2.5.0.tar.gz --markdown 20230622/c/cdk-serverless-clamscan/2.4.99-2.5.0/diff.md --exclude *.pyd
+[2023-06-22 15:14:06] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-22 15:14:06] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230622/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 15:14:06] INFO root fetch - processPackages [routeros-check]: Downloading https://files.pythonhosted.org/packages/93/4a/8a6bbec19e54969b45f7ae4ce2f4eecf4b9ff2d07a81ca97b27b00880d3d/routeros-check-0.9.2.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-22 15:14:06] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-22 15:14:06] INFO root fetch - processPackages [nbdev-numpy]: Start processing: countrycode
+[2023-06-22 15:14:06] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-22 15:14:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [countrycode]: New version: [0.3.0] Old Version: [0.2]
+[2023-06-22 15:14:06] INFO root fetch - processPackages [redis-rate-limiters]: Downloading https://files.pythonhosted.org/packages/6a/9b/a6ec5d4a208df6d2c0e625445f2b37e0bf8e742ea66a35e048dbaaacd68c/redis_rate_limiters-0.3.0.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [routeros-check]: executing diffoscope
+[2023-06-22 15:14:06] INFO root fetch - processPackages [routeros-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routeros-check-0.9.1.tar.gz tmp/routeros-check-0.9.2.tar.gz --markdown 20230622/r/routeros-check/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-22 15:14:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [redis-rate-limiters]: executing diffoscope
+[2023-06-22 15:14:06] INFO root fetch - processPackages [redis-rate-limiters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_rate_limiters-0.2.0.tar.gz tmp/redis_rate_limiters-0.3.0.tar.gz --markdown 20230622/r/redis-rate-limiters/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 15:14:06] INFO root fetch - processPackages [countrycode]: Downloading https://files.pythonhosted.org/packages/73/c2/01f0747ddc98f29144eae1a00edd88392df81ea305d0da8de244944c9a91/countrycode-0.2.tar.gz
+[2023-06-22 15:14:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-06-22 15:14:06] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230622/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 15:14:06] INFO root fetch - processPackages [countrycode]: Downloading https://files.pythonhosted.org/packages/43/4a/6114186e63242aa67e57f152837c99dc0d2772ee5819f3b393b097af147f/countrycode-0.3.0.tar.gz
+[2023-06-22 15:14:07] INFO root fetch - processPackages [countrycode]: executing diffoscope
+[2023-06-22 15:14:07] INFO root fetch - processPackages [countrycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countrycode-0.2.tar.gz tmp/countrycode-0.3.0.tar.gz --markdown 20230622/c/countrycode/0.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 15:14:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.4.99.tar.gz]
+[2023-06-22 15:14:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.5.0.tar.gz]
+[2023-06-22 15:14:07] INFO root fetch - processPackages [cdk-serverless-clamscan]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-22 15:14:07] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-06-22 15:14:07] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-22 15:14:07] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-22 15:14:07] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-22 15:14:07] INFO root fetch - processPackages [nbdev-scipy]: Start processing: spdx-tools
+[2023-06-22 15:14:07] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-22 15:14:07] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/06/e1/0673405365659821d2aa26a4daee3e2a03fff36e6687901f3f120fe3954c/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl
+[2023-06-22 15:14:07] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-22 15:14:07] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-22 15:14:07] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-22 15:14:07] INFO root fetch - processPackages [spdx-tools]: New version: [0.8.0a2] Old Version: [0.8.0a1]
+[2023-06-22 15:14:07] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/84/b9/169c2b8f87fa84d481051d9b11e61c43ed4e141182ef541b13ede9a4caa0/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl
+[2023-06-22 15:14:07] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/88/f1/4ecfab2a950e9e3d892927048ee9ebd5db7c55178f4ffa94ede21cc9c667/spdx-tools-0.8.0a1.tar.gz
+[2023-06-22 15:14:07] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-22 15:14:07] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl.zip --markdown 20230622/D/Denoising-Diffusion-Probabilistic-Models/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-22 15:14:08] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.8.0.tar.gz]
+[2023-06-22 15:14:08] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.9.2.tar.gz]
+[2023-06-22 15:14:08] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-22 15:14:08] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/22/c3/3177362db99c1c07790c2bfc106b62691936267aca8dbcc9776533c6489a/spdx-tools-0.8.0a2.tar.gz
+[2023-06-22 15:14:08] INFO root fetch - processPackages [redis-rate-limiters]: Remove: archive file [/home/abi/fetcher/tmp/redis_rate_limiters-0.2.0.tar.gz]
+[2023-06-22 15:14:08] INFO root fetch - processPackages [redis-rate-limiters]: Remove: archive file [/home/abi/fetcher/tmp/redis_rate_limiters-0.3.0.tar.gz]
+[2023-06-22 15:14:08] INFO root fetch - main [MainThread]: End processing [redis-rate-limiters]: success
+[2023-06-22 15:14:08] INFO root fetch - processPackages [spdx-tools]: executing diffoscope
+[2023-06-22 15:14:08] INFO root fetch - processPackages [spdx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdx-tools-0.8.0a1.tar.gz tmp/spdx-tools-0.8.0a2.tar.gz --markdown 20230622/s/spdx-tools/0.8.0a1-0.8.0a2/diff.md --exclude *.pyd
+[2023-06-22 15:14:09] INFO root fetch - processPackages [routeros-check]: Remove: archive file [/home/abi/fetcher/tmp/routeros-check-0.9.1.tar.gz]
+[2023-06-22 15:14:09] INFO root fetch - processPackages [routeros-check]: Remove: archive file [/home/abi/fetcher/tmp/routeros-check-0.9.2.tar.gz]
+[2023-06-22 15:14:09] INFO root fetch - main [MainThread]: End processing [routeros-check]: success
+[2023-06-22 15:14:09] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl.zip]
+[2023-06-22 15:14:09] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl.zip]
+[2023-06-22 15:14:09] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-22 15:14:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-06-22 15:14:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-06-22 15:14:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-06-22 15:14:10] INFO root fetch - processPackages [mumott]: Remove: archive file [/home/abi/fetcher/tmp/mumott-0.6.tar.gz]
+[2023-06-22 15:14:10] INFO root fetch - processPackages [mumott]: Remove: archive file [/home/abi/fetcher/tmp/mumott-1.0.tar.gz]
+[2023-06-22 15:14:10] INFO root fetch - main [MainThread]: End processing [mumott]: success
+[2023-06-22 15:14:11] INFO root fetch - processPackages [countrycode]: Remove: archive file [/home/abi/fetcher/tmp/countrycode-0.2.tar.gz]
+[2023-06-22 15:14:11] INFO root fetch - processPackages [countrycode]: Remove: archive file [/home/abi/fetcher/tmp/countrycode-0.3.0.tar.gz]
+[2023-06-22 15:14:11] INFO root fetch - main [MainThread]: End processing [countrycode]: success
+[2023-06-22 15:14:13] INFO root fetch - processPackages [ansible-lint]: Remove: archive file [/home/abi/fetcher/tmp/ansible-lint-6.9.0.tar.gz]
+[2023-06-22 15:14:13] INFO root fetch - processPackages [ansible-lint]: Remove: archive file [/home/abi/fetcher/tmp/ansible-lint-6.9.1.tar.gz]
+[2023-06-22 15:14:13] INFO root fetch - main [MainThread]: End processing [ansible-lint]: success
+[2023-06-22 15:14:14] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0a1.tar.gz]
+[2023-06-22 15:14:14] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0a2.tar.gz]
+[2023-06-22 15:14:14] INFO root fetch - main [MainThread]: End processing [spdx-tools]: success
+[2023-06-22 15:14:14] INFO root fetch - main [MainThread]: Store serial: [18605283]
