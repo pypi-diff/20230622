@@ -9312,3 +9312,63 @@
 [2023-06-22 04:21:13] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.2.tar.gz]
 [2023-06-22 04:21:13] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-22 04:21:13] INFO root fetch - main [MainThread]: Store serial: [18600477]
+[2023-06-22 04:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600477]
+[2023-06-22 04:26:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 04:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: design-kgex
+[2023-06-22 04:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-project-pypi-2
+[2023-06-22 04:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exergenics-etl
+[2023-06-22 04:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: midsv
+[2023-06-22 04:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kgdata
+[2023-06-22 04:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bgstools
+[2023-06-22 04:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wq.app
+[2023-06-22 04:26:22] INFO root fetch - processPackages [hatch-project-pypi-2]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-22 04:26:22] INFO root fetch - processPackages [exergenics-etl]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-22 04:26:22] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 04:26:22] INFO root fetch - processPackages [midsv]: New version: [0.9.5] Old Version: [0.9.0]
+[2023-06-22 04:26:22] INFO root fetch - processPackages [kgdata]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-06-22 04:26:22] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-06-22 04:26:22] WARNING root fetch - processPackages [design-kgex]: Skipping, unable to determine old version
+[2023-06-22 04:26:22] INFO root fetch - main [MainThread]: End processing [design-kgex] error
+[2023-06-22 04:26:22] INFO root fetch - processPackages [wq.app]: New version: [2.0.0a1] Old Version: [2.0.0a0]
+[2023-06-22 04:26:22] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/29/2d/2612e5d5d3948bbe2f6e7b6d1ae30e6b56b2b581aca1bb62063701ce7901/hatch_project_pypi_2-0.0.5.tar.gz
+[2023-06-22 04:26:22] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/c8/4e/d4983280647039a857115bd402e436f31fc886d693387b7d7d098b03c37c/exergenics-etl-1.4.0.tar.gz
+[2023-06-22 04:26:22] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/b6/c5/825d6125877c4b980d4ed784585ce2f59e0bc32e01d9a85df926b5dfe43d/kgdata-3.8.0.tar.gz
+[2023-06-22 04:26:22] INFO root fetch - processPackages [midsv]: Downloading https://files.pythonhosted.org/packages/b6/80/78017975bc8bfbb675302290956a1793872440140f508f68764c8d07e91f/midsv-0.9.0.zip
+[2023-06-22 04:26:22] INFO root fetch - processPackages [wq.app]: Downloading https://files.pythonhosted.org/packages/d9/e2/7a380f4a3770091f9017c48b65958962c6b80c50e9f34db4b5e5ade7c8fe/wq.app-2.0.0a0-py3-none-any.whl
+[2023-06-22 04:26:22] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/02/94/8905bc71124cdef7a0cf9a1f6358c07665bb9d48aa747789d25f1849adff/hatch_project_pypi_2-0.0.6.tar.gz
+[2023-06-22 04:26:22] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-06-22 04:26:23] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/77/cb/a16d0f0fd99181fdf273d1afaca80257990b6d9aef012c40364818156ae7/exergenics-etl-1.4.1.tar.gz
+[2023-06-22 04:26:23] INFO root fetch - processPackages [hatch-project-pypi-2]: executing diffoscope
+[2023-06-22 04:26:23] INFO root fetch - processPackages [hatch-project-pypi-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi_2-0.0.5.tar.gz tmp/hatch_project_pypi_2-0.0.6.tar.gz --markdown 20230622/h/hatch-project-pypi-2/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-22 04:26:23] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-06-22 04:26:23] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230622/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 04:26:23] INFO root fetch - processPackages [kgdata]: Downloading https://files.pythonhosted.org/packages/00/81/6b97fd64cdaa9683b028ddf5fd6dff8bbc93f1312cded728ab66ace65a8c/kgdata-3.9.0.tar.gz
+[2023-06-22 04:26:23] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-06-22 04:26:23] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-1.4.0.tar.gz tmp/exergenics-etl-1.4.1.tar.gz --markdown 20230622/e/exergenics-etl/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-22 04:26:23] INFO root fetch - processPackages [midsv]: Downloading https://files.pythonhosted.org/packages/97/79/d129afb32817c53de63be6befe36adc12e4ca059a59b6e4b56275ce6d7ee/midsv-0.9.5.zip
+[2023-06-22 04:26:23] INFO root fetch - processPackages [midsv]: executing diffoscope
+[2023-06-22 04:26:23] INFO root fetch - processPackages [midsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midsv-0.9.0.zip tmp/midsv-0.9.5.zip --markdown 20230622/m/midsv/0.9.0-0.9.5/diff.md --exclude *.pyd
+[2023-06-22 04:26:23] INFO root fetch - processPackages [kgdata]: executing diffoscope
+[2023-06-22 04:26:23] INFO root fetch - processPackages [kgdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgdata-3.8.0.tar.gz tmp/kgdata-3.9.0.tar.gz --markdown 20230622/k/kgdata/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-22 04:26:23] INFO root fetch - processPackages [wq.app]: Downloading https://files.pythonhosted.org/packages/8d/b7/83c2a7c51e7125e04b2a921feac806b26b926e2d1313261593faf3c6a10e/wq.app-2.0.0a1.tar.gz
+[2023-06-22 04:26:24] INFO root fetch - processPackages [wq.app]: executing diffoscope
+[2023-06-22 04:26:24] INFO root fetch - processPackages [wq.app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wq.app-2.0.0a0-py3-none-any.whl.zip tmp/wq.app-2.0.0a1.tar.gz --markdown 20230622/w/wq.app/2.0.0a0-2.0.0a1/diff.md --exclude *.pyd
+[2023-06-22 04:26:24] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.5.tar.gz]
+[2023-06-22 04:26:24] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.6.tar.gz]
+[2023-06-22 04:26:24] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi-2]: success
+[2023-06-22 04:26:24] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-06-22 04:26:24] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-06-22 04:26:24] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-06-22 04:26:24] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.4.0.tar.gz]
+[2023-06-22 04:26:24] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.4.1.tar.gz]
+[2023-06-22 04:26:24] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-06-22 04:26:24] INFO root fetch - processPackages [midsv]: Remove: archive file [/home/abi/fetcher/tmp/midsv-0.9.0.zip]
+[2023-06-22 04:26:24] INFO root fetch - processPackages [midsv]: Remove: archive file [/home/abi/fetcher/tmp/midsv-0.9.5.zip]
+[2023-06-22 04:26:24] INFO root fetch - main [MainThread]: End processing [midsv]: success
+[2023-06-22 04:26:25] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-3.8.0.tar.gz]
+[2023-06-22 04:26:25] INFO root fetch - processPackages [kgdata]: Remove: archive file [/home/abi/fetcher/tmp/kgdata-3.9.0.tar.gz]
+[2023-06-22 04:26:25] INFO root fetch - main [MainThread]: End processing [kgdata]: success
+[2023-06-22 04:26:27] INFO root fetch - processPackages [wq.app]: Remove: archive file [/home/abi/fetcher/tmp/wq.app-2.0.0a0-py3-none-any.whl.zip]
+[2023-06-22 04:26:27] INFO root fetch - processPackages [wq.app]: Remove: archive file [/home/abi/fetcher/tmp/wq.app-2.0.0a1.tar.gz]
+[2023-06-22 04:26:27] INFO root fetch - main [MainThread]: End processing [wq.app]: success
+[2023-06-22 04:26:27] INFO root fetch - main [MainThread]: Store serial: [18600520]
