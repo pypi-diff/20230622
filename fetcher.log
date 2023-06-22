@@ -14246,3 +14246,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:18:46] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-2023.6.22.tar.gz]
 [2023-06-22 10:18:46] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2023-06-22 10:18:46] INFO root fetch - main [MainThread]: Store serial: [18602341]
+[2023-06-22 10:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602341]
+[2023-06-22 10:23:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 10:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erdetect
+[2023-06-22 10:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: few-shot-priming
+[2023-06-22 10:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: league
+[2023-06-22 10:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: binsync
+[2023-06-22 10:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-06-22 10:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: marchie
+[2023-06-22 10:23:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wodoo
+[2023-06-22 10:23:57] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-22 10:23:57] INFO root fetch - processPackages [league]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 10:23:57] WARNING root fetch - processPackages [marchie]: Skipping, unable to determine old version
+[2023-06-22 10:23:57] INFO root fetch - main [MainThread]: End processing [marchie] error
+[2023-06-22 10:23:57] INFO root fetch - processPackages [binsync]: New version: [3.9.0] Old Version: [3.6.0]
+[2023-06-22 10:23:57] INFO root fetch - processPackages [erdetect]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-22 10:23:57] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230622082107] Old Version: [2.1.1.dev20230622073141]
+[2023-06-22 10:23:57] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-22 10:23:57] INFO root fetch - processPackages [league]: Downloading https://files.pythonhosted.org/packages/19/d1/2a6fd6ccc160a29449757f8d6e3fedc7f0a6ebb8bed0dbb6714b8b30b949/league-0.0.1.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-06-22 10:23:57] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/41/ed/6955625418feda88463248efd6f96d8d07c9b8583ff33b756d7990f45186/binsync-3.6.0.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/39/b5/ea5aac6b46d86d17cac96915688af53a6ce7a97d29a26d2f9e94b60ca62d/wodoo-0.3.96.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d2/9d/c6e3c52a6942f14af2e41ea61301a51c593ccd652746a7fd7bce9d8db04b/localstack-core-2.1.1.dev20230622073141.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [erdetect]: Downloading https://files.pythonhosted.org/packages/82/e7/d229e7e75b1821da27a5757a1183e796e4cf1c82529c3f677a991592f5c7/erdetect-2.2.0.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-22 10:23:57] INFO root fetch - processPackages [league]: Downloading https://files.pythonhosted.org/packages/82/16/dcd07ef9a74ba3152cfe1923699e08d1ba9f74ef1a81b8ba860e008f5d14/league-0.0.2.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-22 10:23:57] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230622/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 10:23:57] INFO root fetch - processPackages [erdetect]: Downloading https://files.pythonhosted.org/packages/69/53/94b5eee70dc3e4a1b829facf211ea891646415abc5e322d44578a404507e/erdetect-2.3.0.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [league]: executing diffoscope
+[2023-06-22 10:23:57] INFO root fetch - processPackages [league]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-0.0.1.tar.gz tmp/league-0.0.2.tar.gz --markdown 20230622/l/league/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 10:23:57] INFO root fetch - processPackages [erdetect]: executing diffoscope
+[2023-06-22 10:23:57] INFO root fetch - processPackages [erdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erdetect-2.2.0.tar.gz tmp/erdetect-2.3.0.tar.gz --markdown 20230622/e/erdetect/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-22 10:23:57] INFO root fetch - processPackages [wodoo]: Downloading https://files.pythonhosted.org/packages/8a/a0/cbc82edc630f60de213ee13e1d7308d7f4d97d11ef8b006170cd493184ff/wodoo-0.3.99.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-06-22 10:23:57] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230622/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-06-22 10:23:57] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/b6/86/bbec3dc5ab126a930960864b284c79d2c6cf4dea64e63b280ff2f2ecc9a8/binsync-3.9.0.tar.gz
+[2023-06-22 10:23:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/03/ca/f6f0c85b1d0a852ddc84a2b1c4b38a771c8b45b6510c56733c68b5f9c482/localstack-core-2.1.1.dev20230622082107.tar.gz
+[2023-06-22 10:23:58] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2023-06-22 10:23:58] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-3.6.0.tar.gz tmp/binsync-3.9.0.tar.gz --markdown 20230622/b/binsync/3.6.0-3.9.0/diff.md --exclude *.pyd
+[2023-06-22 10:23:58] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-22 10:23:58] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230622073141.tar.gz tmp/localstack-core-2.1.1.dev20230622082107.tar.gz --markdown 20230622/l/localstack-core/2.1.1.dev20230622073141-2.1.1.dev20230622082107/diff.md --exclude *.pyd
+[2023-06-22 10:23:58] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-22 10:23:58] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-22 10:23:58] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-22 10:23:58] INFO root fetch - processPackages [league]: Remove: archive file [/home/abi/fetcher/tmp/league-0.0.1.tar.gz]
+[2023-06-22 10:23:58] INFO root fetch - processPackages [league]: Remove: archive file [/home/abi/fetcher/tmp/league-0.0.2.tar.gz]
+[2023-06-22 10:23:58] INFO root fetch - main [MainThread]: End processing [league]: success
+[2023-06-22 10:23:58] INFO root fetch - processPackages [erdetect]: Remove: archive file [/home/abi/fetcher/tmp/erdetect-2.2.0.tar.gz]
+[2023-06-22 10:23:58] INFO root fetch - processPackages [erdetect]: Remove: archive file [/home/abi/fetcher/tmp/erdetect-2.3.0.tar.gz]
+[2023-06-22 10:23:58] INFO root fetch - main [MainThread]: End processing [erdetect]: success
+[2023-06-22 10:23:59] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-3.6.0.tar.gz]
+[2023-06-22 10:23:59] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-3.9.0.tar.gz]
+[2023-06-22 10:23:59] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2023-06-22 10:24:01] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.3.96.tar.gz]
+[2023-06-22 10:24:01] INFO root fetch - processPackages [wodoo]: Remove: archive file [/home/abi/fetcher/tmp/wodoo-0.3.99.tar.gz]
+[2023-06-22 10:24:01] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-06-22 10:24:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622073141.tar.gz]
+[2023-06-22 10:24:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622082107.tar.gz]
+[2023-06-22 10:24:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-22 10:24:06] INFO root fetch - main [MainThread]: Store serial: [18602360]
