@@ -13979,3 +13979,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:02:42] INFO root fetch - processPackages [dvp-common]: Remove: archive file [/home/abi/fetcher/tmp/dvp-common-4.1.0.tar.gz]
 [2023-06-22 10:02:42] INFO root fetch - main [MainThread]: End processing [dvp-common]: success
 [2023-06-22 10:02:42] INFO root fetch - main [MainThread]: Store serial: [18602230]
+[2023-06-22 10:07:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602230]
+[2023-06-22 10:07:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lumigo-opentelemetry
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudshell-cp-vcenter
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: therepy
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tg-bot-ml
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: marchie
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tg-bot-ml
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deci-platform-client
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyglove
+[2023-06-22 10:07:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: graal
+[2023-06-22 10:07:51] WARNING root fetch - processPackages [marchie]: Skipping, unable to determine old version
+[2023-06-22 10:07:51] INFO root fetch - processPackages [marchie]: Start processing: odoo14-addon-l10n-be-cooperator
+[2023-06-22 10:07:51] INFO root fetch - main [MainThread]: End processing [marchie] error
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [graal]: New version: [0.4.9rc1] Old Version: [0.4.9]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [cloudshell-cp-vcenter]: New version: [5.0.4] Old Version: [5.0.2]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [deci-platform-client]: New version: [5.3.1] Old Version: [5.3.0]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230622] Old Version: [0.3.1.dev20230621]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9181700408075] Old Version: [1.5.0rc9178701900018]
+[2023-06-22 10:07:51] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/f6/e4/422a82f272ff3638c7b315c5d9cc045d5912fb9671fdef14e1f2829a0500/deci_platform_client-5.3.0-py3-none-any.whl
+[2023-06-22 10:07:51] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: New version: [14.0.1.2.3] Old Version: [14.0.1.2.2]
+[2023-06-22 10:07:51] WARNING root fetch - processPackages [therepy]: Skipping, unable to determine old version
+[2023-06-22 10:07:51] INFO root fetch - main [MainThread]: End processing [therepy] error
+[2023-06-22 10:07:51] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/19/7c/30dc9d55a8e1a287287d90f98da34a6ca11318d04e39a4c7647e4242f2a2/power-grid-model-1.5.0rc9178701900018.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/9c/64/2e350612673dcde2f1bd79c8b6fea2e0ef8b6239bdff92276be501c2c300/lumigo_opentelemetry-1.0.8-py3-none-any.whl
+[2023-06-22 10:07:51] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/28/71/99ec2531294b878cbfa9cb41e308c5db4437123469a73bfa1b5913989405/graal-0.4.9.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/34/69/1ab87c22515c5d1f543542bf2d510c8aa824de1d4cf2ec452684da6d8d73/tg_bot_ml-0.0.7.linux-x86_64.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/34/69/1ab87c22515c5d1f543542bf2d510c8aa824de1d4cf2ec452684da6d8d73/tg_bot_ml-0.0.7.linux-x86_64.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Downloading https://files.pythonhosted.org/packages/30/b4/bc9b26e1afdb9e94793526bd5e99ec53ed34c460dd0ebc873b33b289c422/cloudshell-cp-vcenter-5.0.2.zip
+[2023-06-22 10:07:51] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/aa/e5/05b403c577c692550dad1123bd826cf8650253ed74dad05c047d66b4f2a6/pyglove-0.3.1.dev20230621.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Downloading https://files.pythonhosted.org/packages/b6/39/678bc0f968fb64196326c137f766956fc02fba1bf9504e9f70a53f2f00f8/odoo14_addon_l10n_be_cooperator-14.0.1.2.2-py3-none-any.whl
+[2023-06-22 10:07:51] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/6d/3f/f1170c05cfaca19fae1d50df6ab06b445b544c9146970c03992b1feeab38/power-grid-model-1.5.0rc9181700408075.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/85/0a/e55127c64107b1e09540ddb3f0fb44fb765f20d855baea3215fb4949f483/deci_platform_client-5.3.1-py3-none-any.whl
+[2023-06-22 10:07:51] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-22 10:07:51] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9178701900018.tar.gz tmp/power-grid-model-1.5.0rc9181700408075.tar.gz --markdown 20230622/p/power-grid-model/1.5.0rc9178701900018-1.5.0rc9181700408075/diff.md --exclude *.pyd
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/31/4d/2700874c129d5f530b3cbd5c639dbc0b2ad6808f92da9394b736b08e638e/tg_bot_ml-0.0.8.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/31/4d/2700874c129d5f530b3cbd5c639dbc0b2ad6808f92da9394b736b08e638e/tg_bot_ml-0.0.8.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-06-22 10:07:51] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-06-22 10:07:51] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.3.0-py3-none-any.whl.zip tmp/deci_platform_client-5.3.1-py3-none-any.whl.zip --markdown 20230622/d/deci-platform-client/5.3.0-5.3.1/diff.md --exclude *.pyd
+[2023-06-22 10:07:51] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/d6/7c/e140d26dff640e468180e000def2320773c2906e7ac2dddfd0a1c61e9d0b/pyglove-0.3.1.dev20230622.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Downloading https://files.pythonhosted.org/packages/57/1e/d096b8441c74c629c108b14dd7d536bd2f108312e5650503d7468ef74328/cloudshell-cp-vcenter-5.0.4.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: executing diffoscope
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: executing diffoscope
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_bot_ml-0.0.7.linux-x86_64.tar.gz tmp/tg_bot_ml-0.0.8.tar.gz --markdown 20230622/t/tg-bot-ml/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-22 10:07:51] INFO root fetch - processPackages [tg-bot-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_bot_ml-0.0.7.linux-x86_64.tar.gz tmp/tg_bot_ml-0.0.8.tar.gz --markdown 20230622/t/tg-bot-ml/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-22 10:07:51] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/e0/70/db6f659a9b5bd80d414a88a02c4ad9e8c2c86ce6917625ce6034a2ed0a4c/graal-0.4.9rc1.tar.gz
+[2023-06-22 10:07:51] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-06-22 10:07:51] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230622/l/lumigo-opentelemetry/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:07:52] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Downloading https://files.pythonhosted.org/packages/6a/83/70028039f5b6adb2b7d229753cc47b7e1c1df5a354eed5b37c2f3069e500/odoo14_addon_l10n_be_cooperator-14.0.1.2.3-py3-none-any.whl
+[2023-06-22 10:07:52] INFO root fetch - processPackages [cloudshell-cp-vcenter]: executing diffoscope
+[2023-06-22 10:07:52] INFO root fetch - processPackages [cloudshell-cp-vcenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudshell-cp-vcenter-5.0.2.zip tmp/cloudshell-cp-vcenter-5.0.4.tar.gz --markdown 20230622/c/cloudshell-cp-vcenter/5.0.2-5.0.4/diff.md --exclude *.pyd
+[2023-06-22 10:07:52] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-06-22 10:07:52] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.9.tar.gz tmp/graal-0.4.9rc1.tar.gz --markdown 20230622/g/graal/0.4.9-0.4.9rc1/diff.md --exclude *.pyd
+[2023-06-22 10:07:52] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-22 10:07:52] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230621.tar.gz tmp/pyglove-0.3.1.dev20230622.tar.gz --markdown 20230622/p/pyglove/0.3.1.dev20230621-0.3.1.dev20230622/diff.md --exclude *.pyd
+[2023-06-22 10:07:52] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: executing diffoscope
+[2023-06-22 10:07:52] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.3-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-l10n-be-cooperator/14.0.1.2.2-14.0.1.2.3/diff.md --exclude *.pyd
+[2023-06-22 10:07:53] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.7.linux-x86_64.tar.gz]
+[2023-06-22 10:07:53] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.8.tar.gz]
+[2023-06-22 10:07:53] INFO root fetch - main [MainThread]: End processing [tg-bot-ml]: success
+[2023-06-22 10:07:53] INFO root fetch - main [MainThread]: End processing [tg-bot-ml]: success
+[2023-06-22 10:07:53] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-cp-vcenter-5.0.2.zip]
+[2023-06-22 10:07:53] INFO root fetch - processPackages [cloudshell-cp-vcenter]: Remove: archive file [/home/abi/fetcher/tmp/cloudshell-cp-vcenter-5.0.4.tar.gz]
+[2023-06-22 10:07:53] INFO root fetch - main [MainThread]: End processing [cloudshell-cp-vcenter]: success
+[2023-06-22 10:07:53] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9.tar.gz]
+[2023-06-22 10:07:53] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9rc1.tar.gz]
+[2023-06-22 10:07:53] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-06-22 10:07:53] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.2-py3-none-any.whl.zip]
+[2023-06-22 10:07:53] INFO root fetch - processPackages [odoo14-addon-l10n-be-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_be_cooperator-14.0.1.2.3-py3-none-any.whl.zip]
+[2023-06-22 10:07:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-be-cooperator]: success
+[2023-06-22 10:07:53] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.8-py3-none-any.whl.zip]
+[2023-06-22 10:07:53] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-06-22 10:07:53] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-06-22 10:07:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230621.tar.gz]
+[2023-06-22 10:07:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230622.tar.gz]
+[2023-06-22 10:07:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-22 10:07:58] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9178701900018.tar.gz]
+[2023-06-22 10:07:58] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9181700408075.tar.gz]
+[2023-06-22 10:07:58] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-22 10:08:00] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.3.0-py3-none-any.whl.zip]
+[2023-06-22 10:08:00] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.3.1-py3-none-any.whl.zip]
+[2023-06-22 10:08:00] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-06-22 10:08:00] INFO root fetch - main [MainThread]: Store serial: [18602265]
