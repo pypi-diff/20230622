@@ -21127,3 +21127,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 14:52:32] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2090.0.tar.gz]
 [2023-06-22 14:52:32] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2023-06-22 14:52:32] INFO root fetch - main [MainThread]: Store serial: [18605043]
+[2023-06-22 14:57:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605043]
+[2023-06-22 14:57:41] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrf24-op
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-fabric
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqliteormmagic
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-sdk
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sospice
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantops
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PhotosAPI-Client
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-orca-spark2
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-friesian-spark2
+[2023-06-22 14:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-chronos-spark2
+[2023-06-22 14:57:41] INFO root fetch - processPackages [PhotosAPI-Client]: New version: [0.4.0] Old Version: [0.2.0]
+[2023-06-22 14:57:41] WARNING root fetch - processPackages [sospice]: Skipping, unable to determine old version
+[2023-06-22 14:57:41] INFO root fetch - processPackages [sospice]: Start processing: woon-vconfig
+[2023-06-22 14:57:41] INFO root fetch - main [MainThread]: End processing [sospice] error
+[2023-06-22 14:57:41] INFO root fetch - processPackages [sqliteormmagic]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 14:57:41] INFO root fetch - processPackages [nrf24-op]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 14:57:41] WARNING root fetch - processPackages [quantops]: Skipping, unable to determine old version
+[2023-06-22 14:57:41] INFO root fetch - processPackages [quantops]: Start processing: bigdl-spark2
+[2023-06-22 14:57:41] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-06-22 14:57:41] INFO root fetch - main [MainThread]: End processing [quantops] error
+[2023-06-22 14:57:41] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230620]
+[2023-06-22 14:57:41] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230620]
+[2023-06-22 14:57:41] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230620]
+[2023-06-22 14:57:41] INFO root fetch - processPackages [cognite-sdk]: New version: [6.4.7] Old Version: [6.4.5]
+[2023-06-22 14:57:41] WARNING root fetch - processPackages [woon-vconfig]: Skipping, unable to determine old version
+[2023-06-22 14:57:41] INFO root fetch - processPackages [woon-vconfig]: Start processing: datalake-scripts
+[2023-06-22 14:57:41] INFO root fetch - main [MainThread]: End processing [woon-vconfig] error
+[2023-06-22 14:57:41] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230620]
+[2023-06-22 14:57:41] INFO root fetch - processPackages [sqliteormmagic]: Downloading https://files.pythonhosted.org/packages/9f/ad/b6ba9af76bf2e3261cb78c7121f366e48f6f0f90312fccb4cb2bc24a7e01/SqliteOrmMagic-0.0.6.tar.gz
+[2023-06-22 14:57:41] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2023-06-22 14:57:41] INFO root fetch - processPackages [datalake-scripts]: New version: [2.6.8] Old Version: [2.6.7]
+[2023-06-22 14:57:41] INFO root fetch - processPackages [PhotosAPI-Client]: Downloading https://files.pythonhosted.org/packages/49/ec/0bbfcbb12d717bf9af88b280198f098fec322e6540186aa126dd1698797b/PhotosAPI_Client-0.2.0.tar.gz
+[2023-06-22 14:57:41] INFO root fetch - processPackages [nrf24-op]: Downloading https://files.pythonhosted.org/packages/17/84/fa7edba7c6a86fce544b54e07c92e90074c64429dcbf5dfdf840398e7207/nrf24_op-0.2.0.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/20/41/ae7e1383d4fb2c71bc181b538266b04e083931db9b975987c5b0f8f63592/bigdl_orca_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/b9/21/f48646972d07c239c6ea2335afbc660179695b1b0b23d2667567ce48e56c/bigdl_friesian_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:57:42] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/41/42/69e8eeef42355da0e31013fe0ed298ade33ac6a4a6e98aeea65c1981c342/cognite_sdk-6.4.5.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/e8/cd/586b4b2f67ef0b2665795cc32de8bc9603cd368edae3716cd622dffc613a/bigdl_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/01/93/3d2460971fbd7f5bc416393412d365d1a03dc9811841593a05483dbf6840/bigdl_chronos_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:57:42] INFO root fetch - processPackages [datalake-scripts]: Downloading https://files.pythonhosted.org/packages/f4/be/006ca2c9a7ebf1f8f51549244f789fad9715d5ac7790eef408e2fd42cac0/datalake-scripts-2.6.7.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [sqliteormmagic]: Downloading https://files.pythonhosted.org/packages/71/5c/3bdc24442c808c26bc658391132eace4e083dd9d03fb54c46c659757530e/sqliteormmagic-0.0.7.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [PhotosAPI-Client]: Downloading https://files.pythonhosted.org/packages/c7/a7/bd9762ad6ff473483c2a98234a1db8eb71dc602811e131c2b9067cb573f0/PhotosAPI_Client-0.4.0.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [nrf24-op]: Downloading https://files.pythonhosted.org/packages/99/44/326251a9535c399fb396cad5c0d228d4475e6b132310020c8c1a298df5ce/nrf24_op-0.3.0.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [sqliteormmagic]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [sqliteormmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SqliteOrmMagic-0.0.6.tar.gz tmp/sqliteormmagic-0.0.7.tar.gz --markdown 20230622/s/sqliteormmagic/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/65/47/fabbfe5e2bcd1c1274730839f2b39678939e1993cd38583390b0510cf242/bigdl_friesian_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:57:42] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369685>=10485760
+[2023-06-22 14:57:42] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-22 14:57:42] INFO root fetch - processPackages [PhotosAPI-Client]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [PhotosAPI-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PhotosAPI_Client-0.2.0.tar.gz tmp/PhotosAPI_Client-0.4.0.tar.gz --markdown 20230622/P/PhotosAPI-Client/0.2.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 14:57:42] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/d5/03/c1c1012b758e9e0f3e9194551b1450f4acdc38a225e437799c701f9f0a7e/cognite_sdk-6.4.7.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/6a/47/cbc9b1e95728184bc38304fafaae77f60ffc25baa6c4314c425a9096502a/bigdl_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:57:42] INFO root fetch - processPackages [nrf24-op]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [nrf24-op]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrf24_op-0.2.0.tar.gz tmp/nrf24_op-0.3.0.tar.gz --markdown 20230622/n/nrf24-op/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/3c/56/149c1f96aef3d6f583521ac278d5bb2960702c27afb1ddad0587a21bf181/bigdl_chronos_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:57:42] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.4.5.tar.gz tmp/cognite_sdk-6.4.7.tar.gz --markdown 20230622/c/cognite-sdk/6.4.5-6.4.7/diff.md --exclude *.pyd
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230622/b/bigdl-friesian-spark2/2.4.0b20230620-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230622/b/bigdl-spark2/2.4.0b20230620-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 14:57:42] INFO root fetch - processPackages [datalake-scripts]: Downloading https://files.pythonhosted.org/packages/24/ba/8c696f695a90fb92b5691dc61c2057cd31495d342eb56ea76030d9ac055d/datalake-scripts-2.6.8.tar.gz
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230622/b/bigdl-chronos-spark2/2.4.0b20230620-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 14:57:42] INFO root fetch - processPackages [datalake-scripts]: executing diffoscope
+[2023-06-22 14:57:42] INFO root fetch - processPackages [datalake-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalake-scripts-2.6.7.tar.gz tmp/datalake-scripts-2.6.8.tar.gz --markdown 20230622/d/datalake-scripts/2.6.7-2.6.8/diff.md --exclude *.pyd
+[2023-06-22 14:57:43] INFO root fetch - processPackages [sqliteormmagic]: Remove: archive file [/home/abi/fetcher/tmp/SqliteOrmMagic-0.0.6.tar.gz]
+[2023-06-22 14:57:43] INFO root fetch - processPackages [sqliteormmagic]: Remove: archive file [/home/abi/fetcher/tmp/sqliteormmagic-0.0.7.tar.gz]
+[2023-06-22 14:57:43] INFO root fetch - main [MainThread]: End processing [sqliteormmagic]: success
+[2023-06-22 14:57:43] INFO root fetch - processPackages [nrf24-op]: Remove: archive file [/home/abi/fetcher/tmp/nrf24_op-0.2.0.tar.gz]
+[2023-06-22 14:57:43] INFO root fetch - processPackages [nrf24-op]: Remove: archive file [/home/abi/fetcher/tmp/nrf24_op-0.3.0.tar.gz]
+[2023-06-22 14:57:43] INFO root fetch - main [MainThread]: End processing [nrf24-op]: success
+[2023-06-22 14:57:43] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:57:43] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:57:43] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-22 14:57:43] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2023-06-22 14:57:44] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:57:44] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:57:44] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-22 14:57:44] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-06-22 14:57:44] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230622/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-06-22 14:57:44] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:57:44] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:57:44] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-22 14:57:45] INFO root fetch - processPackages [PhotosAPI-Client]: Remove: archive file [/home/abi/fetcher/tmp/PhotosAPI_Client-0.2.0.tar.gz]
+[2023-06-22 14:57:45] INFO root fetch - processPackages [PhotosAPI-Client]: Remove: archive file [/home/abi/fetcher/tmp/PhotosAPI_Client-0.4.0.tar.gz]
+[2023-06-22 14:57:45] INFO root fetch - main [MainThread]: End processing [PhotosAPI-Client]: success
+[2023-06-22 14:57:46] INFO root fetch - processPackages [datalake-scripts]: Remove: archive file [/home/abi/fetcher/tmp/datalake-scripts-2.6.7.tar.gz]
+[2023-06-22 14:57:46] INFO root fetch - processPackages [datalake-scripts]: Remove: archive file [/home/abi/fetcher/tmp/datalake-scripts-2.6.8.tar.gz]
+[2023-06-22 14:57:46] INFO root fetch - main [MainThread]: End processing [datalake-scripts]: success
+[2023-06-22 14:57:47] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2023-06-22 14:57:47] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2023-06-22 14:57:47] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-06-22 14:57:47] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.4.5.tar.gz]
+[2023-06-22 14:57:47] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.4.7.tar.gz]
+[2023-06-22 14:57:47] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-06-22 14:57:47] INFO root fetch - main [MainThread]: Store serial: [18605105]
