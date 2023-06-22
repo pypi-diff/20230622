@@ -23303,3 +23303,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 16:24:12] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-06-22 16:24:12] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-06-22 16:24:12] INFO root fetch - main [MainThread]: Store serial: [18606004]
+[2023-06-22 16:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18606004]
+[2023-06-22 16:29:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NGPIris
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.target
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-superagent
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LeoX
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sailboat-gym
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thipstercli
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sailboat-gym
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cellfinder-core
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napari-workflows
+[2023-06-22 16:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orquestra-sdk
+[2023-06-22 16:29:21] INFO root fetch - processPackages [LeoX]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [thipstercli]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [orquestra-sdk]: New version: [0.51.0] Old Version: [0.50.0]
+[2023-06-22 16:29:21] WARNING root fetch - processPackages [fern-superagent]: Skipping, unable to determine old version
+[2023-06-22 16:29:21] INFO root fetch - processPackages [napari-workflows]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [fern-superagent]: Start processing: split-python4gpt
+[2023-06-22 16:29:21] INFO root fetch - main [MainThread]: End processing [fern-superagent] error
+[2023-06-22 16:29:21] INFO root fetch - processPackages [NGPIris]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [cellfinder-core]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [split-python4gpt]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-22 16:29:21] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/4c/51/d2bdab730f3c1e3217b7d0772b8c45d02d919a1436598af2b6357d2395b8/thipstercli-0.4.3.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [split-python4gpt]: Downloading https://files.pythonhosted.org/packages/d4/19/8e7a90e5eab7ce47e6eebfe5c725250095736a9c2e8be9b296086cb9981e/split_python4gpt-1.0.2.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [NGPIris]: Downloading https://files.pythonhosted.org/packages/be/64/8d6d5163a5e6379f0975e8a7a5d7fea1b308329cf04defa87541a5144d40/NGPIris-4.2.0.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [LeoX]: Downloading https://files.pythonhosted.org/packages/43/bf/1ac4cc7b2a9991995d8ff76eb196716f5a7f2259afdc511416a6db8c3351/LeoX-0.6.0.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/ca/0b/542c09bf744b149e452b9ef651f4e80181f68016f80b29369d596c194862/orquestra_sdk-0.50.0-py3-none-any.whl
+[2023-06-22 16:29:21] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [napari-workflows]: Downloading https://files.pythonhosted.org/packages/b0/f1/cb55d5f06c3b7716e49e13570eb4ed13212ff51e4f353f8f5e46caf32f01/napari-workflows-0.2.8.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [cellfinder-core]: Downloading https://files.pythonhosted.org/packages/04/7f/47eac382c1adddd177f3bb3d9d9621ea4495972967e6df058751e4b368fa/cellfinder-core-0.4.0.tar.gz
+[2023-06-22 16:29:21] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-22 16:29:21] INFO root fetch - processPackages [dissect.target]: Start processing: streamline
+[2023-06-22 16:29:21] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-22 16:29:21] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/f3/63/389d1d9ce6f2480b983e473e02c3f008c39c13303247949d704d86564750/thipstercli-0.5.0.tar.gz
+[2023-06-22 16:29:21] INFO root fetch - processPackages [split-python4gpt]: Downloading https://files.pythonhosted.org/packages/fe/30/49802f408e1603f37349a5e9d9bf7fee83120cd3681a26664f01e8b8fd7e/split_python4gpt-1.0.3.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [streamline]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-22 16:29:22] INFO root fetch - processPackages [NGPIris]: Downloading https://files.pythonhosted.org/packages/ed/eb/05dfd7fcc7d79d805c39635b819239ab4a0eacf1303352c9c39d2dd51a2d/NGPIris-4.3.0.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.4.3.tar.gz tmp/thipstercli-0.5.0.tar.gz --markdown 20230622/t/thipstercli/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [LeoX]: Downloading https://files.pythonhosted.org/packages/c5/89/e4fcd78480cbe1d71e50a4488b2dbd6cf9b6e410fb4dda24c5d27888c639/LeoX-0.6.1.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/2c/e8/254e4588f8432aeeea0b320c89b11bdd4d78c2827db5005e1efc638d5dd2/orquestra_sdk-0.51.0-py3-none-any.whl
+[2023-06-22 16:29:22] INFO root fetch - processPackages [split-python4gpt]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [split-python4gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/split_python4gpt-1.0.2.tar.gz tmp/split_python4gpt-1.0.3.tar.gz --markdown 20230622/s/split-python4gpt/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [cellfinder-core]: Downloading https://files.pythonhosted.org/packages/b9/46/7a4632f55c42228f8b5030aee464fd66574d8933b1ab3dd1371dab51d77b/cellfinder-core-0.4.1.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [NGPIris]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [NGPIris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NGPIris-4.2.0.tar.gz tmp/NGPIris-4.3.0.tar.gz --markdown 20230622/N/NGPIris/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [napari-workflows]: Downloading https://files.pythonhosted.org/packages/36/35/443d0076752376a44399f66c215bb958340ca2a7ec1012aa69c782fe796b/napari-workflows-0.2.9.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [orquestra-sdk]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [orquestra-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra_sdk-0.50.0-py3-none-any.whl.zip tmp/orquestra_sdk-0.51.0-py3-none-any.whl.zip --markdown 20230622/o/orquestra-sdk/0.50.0-0.51.0/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [napari-workflows]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [napari-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-workflows-0.2.8.tar.gz tmp/napari-workflows-0.2.9.tar.gz --markdown 20230622/n/napari-workflows/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [streamline]: Downloading https://files.pythonhosted.org/packages/53/16/73e43a7f4718c3714d4dc494fb227ef2442ac34964a045399d459f1b77b1/streamline-1.1.0.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [LeoX]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [LeoX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LeoX-0.6.0.tar.gz tmp/LeoX-0.6.1.tar.gz --markdown 20230622/L/LeoX/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230622/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230622/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [cellfinder-core]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [cellfinder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellfinder-core-0.4.0.tar.gz tmp/cellfinder-core-0.4.1.tar.gz --markdown 20230622/c/cellfinder-core/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-22 16:29:22] INFO root fetch - processPackages [streamline]: Downloading https://files.pythonhosted.org/packages/52/fc/04b76fca550c1041db78ee158ef8a0c2f83de19a1e3d098200f9b16f65a0/streamline-1.1.1.tar.gz
+[2023-06-22 16:29:22] INFO root fetch - processPackages [streamline]: executing diffoscope
+[2023-06-22 16:29:22] INFO root fetch - processPackages [streamline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamline-1.1.0.tar.gz tmp/streamline-1.1.1.tar.gz --markdown 20230622/s/streamline/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-22 16:29:23] INFO root fetch - processPackages [split-python4gpt]: Remove: archive file [/home/abi/fetcher/tmp/split_python4gpt-1.0.2.tar.gz]
+[2023-06-22 16:29:23] INFO root fetch - processPackages [split-python4gpt]: Remove: archive file [/home/abi/fetcher/tmp/split_python4gpt-1.0.3.tar.gz]
+[2023-06-22 16:29:23] INFO root fetch - processPackages [split-python4gpt]: Start processing: stac-collection-search
+[2023-06-22 16:29:23] INFO root fetch - main [MainThread]: End processing [split-python4gpt]: success
+[2023-06-22 16:29:23] INFO root fetch - processPackages [stac-collection-search]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [stac-collection-search]: Downloading https://files.pythonhosted.org/packages/6b/4a/cdda766cc40cdb6e65a2dcec9758ac7c1fbdf0175ecdfcfb8db7192aedee/stac_collection_search-0.0.4.tar.gz
+[2023-06-22 16:29:24] INFO root fetch - processPackages [NGPIris]: Remove: archive file [/home/abi/fetcher/tmp/NGPIris-4.2.0.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [NGPIris]: Remove: archive file [/home/abi/fetcher/tmp/NGPIris-4.3.0.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [NGPIris]: Start processing: hydrogibs
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [NGPIris]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [LeoX]: Remove: archive file [/home/abi/fetcher/tmp/LeoX-0.6.0.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [LeoX]: Remove: archive file [/home/abi/fetcher/tmp/LeoX-0.6.1.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [LeoX]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.4.3.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.5.0.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.8.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.9.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [hydrogibs]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [napari-workflows]: Remove: archive file [/home/abi/fetcher/tmp/napari-workflows-0.2.8.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [napari-workflows]: Remove: archive file [/home/abi/fetcher/tmp/napari-workflows-0.2.9.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [napari-workflows]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [stac-collection-search]: Downloading https://files.pythonhosted.org/packages/1f/85/7bfcb9f2cc43ae8b2499ecc17eb96baefd8044978f2fd2be4179b13ab341/stac_collection_search-0.0.5.tar.gz
+[2023-06-22 16:29:24] INFO root fetch - processPackages [streamline]: Remove: archive file [/home/abi/fetcher/tmp/streamline-1.1.0.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [streamline]: Remove: archive file [/home/abi/fetcher/tmp/streamline-1.1.1.tar.gz]
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [streamline]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [stac-collection-search]: executing diffoscope
+[2023-06-22 16:29:24] INFO root fetch - processPackages [stac-collection-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_collection_search-0.0.4.tar.gz tmp/stac_collection_search-0.0.5.tar.gz --markdown 20230622/s/stac-collection-search/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 16:29:24] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/f6/f7/3d9fbbc6f8bbdc9d6e53f863fa968aa6e1932bbc728945a136c664c252fb/hydrogibs-0.3.7.tar.gz
+[2023-06-22 16:29:24] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.50.0-py3-none-any.whl.zip]
+[2023-06-22 16:29:24] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.51.0-py3-none-any.whl.zip]
+[2023-06-22 16:29:24] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
+[2023-06-22 16:29:24] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/42/2b/7a399661b73c55fb26bca5c84d6dee809c05c91ed58d84efe3a7630b662c/hydrogibs-0.4.0.tar.gz
+[2023-06-22 16:29:25] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-06-22 16:29:25] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.3.7.tar.gz tmp/hydrogibs-0.4.0.tar.gz --markdown 20230622/h/hydrogibs/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 16:29:25] INFO root fetch - processPackages [cellfinder-core]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-core-0.4.0.tar.gz]
+[2023-06-22 16:29:25] INFO root fetch - processPackages [cellfinder-core]: Remove: archive file [/home/abi/fetcher/tmp/cellfinder-core-0.4.1.tar.gz]
+[2023-06-22 16:29:25] INFO root fetch - main [MainThread]: End processing [cellfinder-core]: success
+[2023-06-22 16:29:25] INFO root fetch - processPackages [stac-collection-search]: Remove: archive file [/home/abi/fetcher/tmp/stac_collection_search-0.0.4.tar.gz]
+[2023-06-22 16:29:25] INFO root fetch - processPackages [stac-collection-search]: Remove: archive file [/home/abi/fetcher/tmp/stac_collection_search-0.0.5.tar.gz]
+[2023-06-22 16:29:25] INFO root fetch - main [MainThread]: End processing [stac-collection-search]: success
+[2023-06-22 16:29:26] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.3.7.tar.gz]
+[2023-06-22 16:29:26] INFO root fetch - processPackages [hydrogibs]: Remove: archive file [/home/abi/fetcher/tmp/hydrogibs-0.4.0.tar.gz]
+[2023-06-22 16:29:26] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-06-22 16:29:26] INFO root fetch - main [MainThread]: Store serial: [18606043]
