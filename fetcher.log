@@ -9185,3 +9185,38 @@
 [2023-06-22 03:59:57] INFO root fetch - processPackages [pyaprilaire]: Remove: archive file [/home/abi/fetcher/tmp/pyaprilaire-0.7.0b1.tar.gz]
 [2023-06-22 03:59:57] INFO root fetch - main [MainThread]: End processing [pyaprilaire]: success
 [2023-06-22 03:59:57] INFO root fetch - main [MainThread]: Store serial: [18600423]
+[2023-06-22 04:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600423]
+[2023-06-22 04:05:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 04:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skill-easter-eggs
+[2023-06-22 04:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqchromloader
+[2023-06-22 04:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uproot-browser
+[2023-06-22 04:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: featurelayers
+[2023-06-22 04:05:06] INFO root fetch - processPackages [seqchromloader]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-22 04:05:06] INFO root fetch - processPackages [skill-easter-eggs]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-06-22 04:05:06] INFO root fetch - processPackages [featurelayers]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-22 04:05:06] INFO root fetch - processPackages [uproot-browser]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-22 04:05:06] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/23/3f/dcdc90d4e25ce041d7b078f93cde1cb9141424ac55874fde332e77558027/featurelayers-1.2.3.tar.gz
+[2023-06-22 04:05:06] INFO root fetch - processPackages [skill-easter-eggs]: Downloading https://files.pythonhosted.org/packages/55/6d/5aa93ed127a74ea79a1c2ba4a932d00cef3fbaf1b049804fc123884ef8cb/skill-easter-eggs-0.1.0a3.tar.gz
+[2023-06-22 04:05:06] INFO root fetch - processPackages [uproot-browser]: Downloading https://files.pythonhosted.org/packages/d3/6d/2bb858d4ab62c0dcd34ac3d915ff13b9964a23e72b8522d0009fa751b522/uproot_browser-0.6.3.tar.gz
+[2023-06-22 04:05:06] INFO root fetch - processPackages [seqchromloader]: Downloading https://files.pythonhosted.org/packages/5c/35/6cef097e3c614a6dface28845643ab06a86cde406458394e028b42b82e5d/seqchromloader-0.6.0.tar.gz
+[2023-06-22 04:05:06] WARNING root fetch - processPackages [skill-easter-eggs]: Skipping package: exceeds size limit 21752529>=10485760
+[2023-06-22 04:05:06] INFO root fetch - main [MainThread]: End processing [skill-easter-eggs] error
+[2023-06-22 04:05:06] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/b1/7f/009f027d6e720c75739cc21c7bce60078791eb10a696c3aaf724c8305583/featurelayers-1.2.4.tar.gz
+[2023-06-22 04:05:06] INFO root fetch - processPackages [uproot-browser]: Downloading https://files.pythonhosted.org/packages/47/fc/be8b345675f32a1c8421cf28d6355f78c843fdd05f71956c310d85392572/uproot_browser-0.6.4.tar.gz
+[2023-06-22 04:05:06] INFO root fetch - processPackages [seqchromloader]: Downloading https://files.pythonhosted.org/packages/14/2e/1e925905448be084f8c64742ea342d06eed82dc83e623dda8ad3de901f19/seqchromloader-0.6.1.tar.gz
+[2023-06-22 04:05:07] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-22 04:05:07] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.2.3.tar.gz tmp/featurelayers-1.2.4.tar.gz --markdown 20230622/f/featurelayers/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-22 04:05:07] INFO root fetch - processPackages [uproot-browser]: executing diffoscope
+[2023-06-22 04:05:07] INFO root fetch - processPackages [uproot-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uproot_browser-0.6.3.tar.gz tmp/uproot_browser-0.6.4.tar.gz --markdown 20230622/u/uproot-browser/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-22 04:05:07] INFO root fetch - processPackages [seqchromloader]: executing diffoscope
+[2023-06-22 04:05:07] INFO root fetch - processPackages [seqchromloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqchromloader-0.6.0.tar.gz tmp/seqchromloader-0.6.1.tar.gz --markdown 20230622/s/seqchromloader/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-22 04:05:08] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.3.tar.gz]
+[2023-06-22 04:05:08] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.4.tar.gz]
+[2023-06-22 04:05:08] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-22 04:05:08] INFO root fetch - processPackages [uproot-browser]: Remove: archive file [/home/abi/fetcher/tmp/uproot_browser-0.6.3.tar.gz]
+[2023-06-22 04:05:08] INFO root fetch - processPackages [uproot-browser]: Remove: archive file [/home/abi/fetcher/tmp/uproot_browser-0.6.4.tar.gz]
+[2023-06-22 04:05:08] INFO root fetch - main [MainThread]: End processing [uproot-browser]: success
+[2023-06-22 04:05:08] INFO root fetch - processPackages [seqchromloader]: Remove: archive file [/home/abi/fetcher/tmp/seqchromloader-0.6.0.tar.gz]
+[2023-06-22 04:05:08] INFO root fetch - processPackages [seqchromloader]: Remove: archive file [/home/abi/fetcher/tmp/seqchromloader-0.6.1.tar.gz]
+[2023-06-22 04:05:08] INFO root fetch - main [MainThread]: End processing [seqchromloader]: success
+[2023-06-22 04:05:08] INFO root fetch - main [MainThread]: Store serial: [18600439]
