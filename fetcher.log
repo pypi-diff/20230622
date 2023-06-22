@@ -18103,3 +18103,115 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:01:53] INFO root fetch - processPackages [texto-transformer]: Remove: archive file [/home/abi/fetcher/tmp/texto_transformer-0.0.4.tar.gz]
 [2023-06-22 13:01:53] INFO root fetch - main [MainThread]: End processing [texto-transformer]: success
 [2023-06-22 13:01:53] INFO root fetch - main [MainThread]: Store serial: [18603898]
+[2023-06-22 13:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603898]
+[2023-06-22 13:07:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybox-toolkit
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autumn8
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: signe
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cf-deploy
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyRothC
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydraulics
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: derico.article
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydraulics
+[2023-06-22 13:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: semeio
+[2023-06-22 13:07:02] WARNING root fetch - processPackages [signe]: Skipping, unable to determine old version
+[2023-06-22 13:07:02] INFO root fetch - processPackages [signe]: Start processing: shapes-recognition
+[2023-06-22 13:07:02] INFO root fetch - main [MainThread]: End processing [signe] error
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev79] Old Version: [0.1.9.dev67]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pyRothC]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: New version: [0.1.2] Old Version: [0.1]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: New version: [0.1.2] Old Version: [0.1]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [shapes-recognition]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [autumn8]: New version: [2.0.0rc1] Old Version: [1.1.0rc2]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [semeio]: New version: [1.6.0rc2] Old Version: [1.6.0rc1]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/86/24/ac624ab563b84c5249b1413b0484391f3503a6b2191a6def75893df1edae/shapes_recognition-2.2.9.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: Downloading https://files.pythonhosted.org/packages/b4/89/da294caba4c2644bdbb66100cca9c104d550790f5deb00943060b0aca308/pydraulics-0.1.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: Downloading https://files.pythonhosted.org/packages/b4/89/da294caba4c2644bdbb66100cca9c104d550790f5deb00943060b0aca308/pydraulics-0.1.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/9c/15/8202f727cd65e49b35e213b1b39aac0dd54447cce9f74f38e0f7133bfaff/pybox-toolkit-0.1.9.dev67.tar.gz
+[2023-06-22 13:07:02] WARNING root fetch - processPackages [derico.article]: Skipping, unable to determine old version
+[2023-06-22 13:07:02] INFO root fetch - processPackages [derico.article]: Start processing: kalm
+[2023-06-22 13:07:02] INFO root fetch - main [MainThread]: End processing [derico.article] error
+[2023-06-22 13:07:02] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/5f/b4/80914e66b3d2421004e6153c7e82f50f6c194fd736ef183b090abbd5e798/cf_deploy-0.1.8.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pyRothC]: Downloading https://files.pythonhosted.org/packages/b5/c9/68438400317a19bd07ec5845ae6ffa62c73a9d737a8cfdd7a51ff9ecda61/pyRothC-0.0.3.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/3c/25/64bbe82198bcb094c9906e6631ba12dae03b2a4a11b5b09892b6de2ac196/autumn8-1.1.0rc2.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [semeio]: Downloading https://files.pythonhosted.org/packages/13/30/58d5be143e33f4da50ed6850144c1121057fbf9a5cd600d87a3c068d6ae1/semeio-1.6.0rc1.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-22 13:07:02] WARNING root fetch - processPackages [semeio]: Skipping package: exceeds size limit 17363763>=10485760
+[2023-06-22 13:07:02] INFO root fetch - processPackages [semeio]: Start processing: currentscape
+[2023-06-22 13:07:02] INFO root fetch - main [MainThread]: End processing [semeio] error
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/62/5c/edebf6a9a0d3e1cf8e5efd985af8a1909df1fd1f03789007ad2b2a60493f/pybox-toolkit-0.1.9.dev79.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/ab/24/f1f2221622dfedf75e5fe6ac576a50cec14bdcaf9e1be14052da398ca0a8/shapes_recognition-2.3.0.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [currentscape]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: Downloading https://files.pythonhosted.org/packages/2e/27/0f22462fdc175589373795f2e29d00282cff3d261ac60c1a173825c3c2da/pydraulics-0.1.2.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: Downloading https://files.pythonhosted.org/packages/2e/27/0f22462fdc175589373795f2e29d00282cff3d261ac60c1a173825c3c2da/pydraulics-0.1.2.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/1e/af/ee4a5e260c51b2e1dfe63a089afdd939c4d88f7833b7d17cb914630fb830/currentscape-1.0.7.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-22 13:07:02] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.2.9.tar.gz tmp/shapes_recognition-2.3.0.tar.gz --markdown 20230622/s/shapes-recognition/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-06-22 13:07:02] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.9.dev67.tar.gz tmp/pybox-toolkit-0.1.9.dev79.tar.gz --markdown 20230622/p/pybox-toolkit/0.1.9.dev67-0.1.9.dev79/diff.md --exclude *.pyd
+[2023-06-22 13:07:02] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/e5/5f/c1080016400e67671af90cd9f789866f0ad8fb9d3464a30d3b7a9460b5f1/cf_deploy-0.1.9.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/66/7e/262a33ec66ba35c24d35f6fea02a6819f539f48ed5d1018acdce013e40b4/autumn8-2.0.0rc1.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pyRothC]: Downloading https://files.pythonhosted.org/packages/99/2d/1aa710151fb75f13060a5411980e0e47d0db78210a36a548eeec6fe85896/pyrothc-0.0.4.tar.gz
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: executing diffoscope
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraulics-0.1.tar.gz tmp/pydraulics-0.1.2.tar.gz --markdown 20230622/p/pydraulics/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: executing diffoscope
+[2023-06-22 13:07:02] INFO root fetch - processPackages [pydraulics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraulics-0.1.tar.gz tmp/pydraulics-0.1.2.tar.gz --markdown 20230622/p/pydraulics/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 13:07:03] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/42/8f/8eac7b66edeec39347dc1ccd1389e7f3ae09c1ac09a70e41179b45b6b992/currentscape-1.0.8.tar.gz
+[2023-06-22 13:07:03] INFO root fetch - processPackages [pyRothC]: executing diffoscope
+[2023-06-22 13:07:03] INFO root fetch - processPackages [pyRothC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRothC-0.0.3.tar.gz tmp/pyrothc-0.0.4.tar.gz --markdown 20230622/p/pyRothC/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 13:07:03] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:07:03] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:07:03] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:07:03] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:07:03] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-06-22 13:07:03] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.1.0rc2.tar.gz tmp/autumn8-2.0.0rc1.tar.gz --markdown 20230622/a/autumn8/1.1.0rc2-2.0.0rc1/diff.md --exclude *.pyd
+[2023-06-22 13:07:03] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-06-22 13:07:03] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230622/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 13:07:03] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-22 13:07:03] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.7.tar.gz tmp/currentscape-1.0.8.tar.gz --markdown 20230622/c/currentscape/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-22 13:07:04] INFO root fetch - processPackages [pydraulics]: Remove: archive file [/home/abi/fetcher/tmp/pydraulics-0.1.tar.gz]
+[2023-06-22 13:07:04] INFO root fetch - processPackages [pydraulics]: Remove: archive file [/home/abi/fetcher/tmp/pydraulics-0.1.2.tar.gz]
+[2023-06-22 13:07:04] INFO root fetch - processPackages [pydraulics]: Start processing: gflanguages
+[2023-06-22 13:07:04] INFO root fetch - main [MainThread]: End processing [pydraulics]: success
+[2023-06-22 13:07:04] INFO root fetch - processPackages [pydraulics]: Start processing: CTkTable
+[2023-06-22 13:07:04] INFO root fetch - main [MainThread]: End processing [pydraulics]: success
+[2023-06-22 13:07:04] WARNING root fetch - processPackages [CTkTable]: Skipping, unable to determine old version
+[2023-06-22 13:07:04] INFO root fetch - main [MainThread]: End processing [CTkTable] error
+[2023-06-22 13:07:04] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.9.tar.gz]
+[2023-06-22 13:07:04] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.3.0.tar.gz]
+[2023-06-22 13:07:04] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-22 13:07:04] INFO root fetch - processPackages [gflanguages]: New version: [0.8.9] Old Version: [0.5.0]
+[2023-06-22 13:07:05] INFO root fetch - processPackages [gflanguages]: Downloading https://files.pythonhosted.org/packages/61/ae/c389c5eada417d34600c6bbf2867bc1502408495b45e468b9440fed7b180/gflanguages-0.5.0.tar.gz
+[2023-06-22 13:07:05] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-22 13:07:05] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev67.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev79.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-22 13:07:05] INFO root fetch - processPackages [pyRothC]: Remove: archive file [/home/abi/fetcher/tmp/pyRothC-0.0.3.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - processPackages [pyRothC]: Remove: archive file [/home/abi/fetcher/tmp/pyrothc-0.0.4.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - main [MainThread]: End processing [pyRothC]: success
+[2023-06-22 13:07:05] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.8.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.9.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-06-22 13:07:05] INFO root fetch - processPackages [autumn8]: Remove: archive file [/home/abi/fetcher/tmp/autumn8-1.1.0rc2.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - processPackages [autumn8]: Remove: archive file [/home/abi/fetcher/tmp/autumn8-2.0.0rc1.tar.gz]
+[2023-06-22 13:07:05] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-06-22 13:07:05] INFO root fetch - processPackages [gflanguages]: Downloading https://files.pythonhosted.org/packages/37/dc/ba31d51109a80e56dd2d0f084f2578b28425345f98078759335a10a406c7/gflanguages-0.8.9.tar.gz
+[2023-06-22 13:07:05] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-22 13:07:05] INFO root fetch - processPackages [gflanguages]: executing diffoscope
+[2023-06-22 13:07:05] INFO root fetch - processPackages [gflanguages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gflanguages-0.5.0.tar.gz tmp/gflanguages-0.8.9.tar.gz --markdown 20230622/g/gflanguages/0.5.0-0.8.9/diff.md --exclude *.pyd
+[2023-06-22 13:07:06] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.7.tar.gz]
+[2023-06-22 13:07:06] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.8.tar.gz]
+[2023-06-22 13:07:06] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-22 13:07:45] INFO root fetch - processPackages [gflanguages]: Remove: archive file [/home/abi/fetcher/tmp/gflanguages-0.5.0.tar.gz]
+[2023-06-22 13:07:45] INFO root fetch - processPackages [gflanguages]: Remove: archive file [/home/abi/fetcher/tmp/gflanguages-0.8.9.tar.gz]
+[2023-06-22 13:07:45] INFO root fetch - main [MainThread]: End processing [gflanguages]: success
+[2023-06-22 13:07:45] INFO root fetch - main [MainThread]: Store serial: [18603945]
