@@ -10070,3 +10070,45 @@
 [2023-06-22 05:14:50] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230622.tar.gz]
 [2023-06-22 05:14:50] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-06-22 05:14:50] INFO root fetch - main [MainThread]: Store serial: [18600765]
+[2023-06-22 05:19:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600765]
+[2023-06-22 05:20:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 05:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-zarr
+[2023-06-22 05:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sigilo
+[2023-06-22 05:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-newrelic
+[2023-06-22 05:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-06-22 05:20:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snok
+[2023-06-22 05:20:01] WARNING root fetch - processPackages [sigilo]: Skipping, unable to determine old version
+[2023-06-22 05:20:01] INFO root fetch - main [MainThread]: End processing [sigilo] error
+[2023-06-22 05:20:01] INFO root fetch - processPackages [pydantic-zarr]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 05:20:01] INFO root fetch - processPackages [snok]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 05:20:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-22 05:20:01] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-22 05:20:01] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/fe/84/4438fef49e8db854d6e3d5f83ec22d4b0411b4688de1510c523941a512c2/snok-0.0.2.tar.gz
+[2023-06-22 05:20:01] INFO root fetch - processPackages [pydantic-zarr]: Downloading https://files.pythonhosted.org/packages/88/98/0843839658f4ed25170137e26617a76c15d12d4e2a641e7f5374dba527e5/pydantic_zarr-0.2.0.tar.gz
+[2023-06-22 05:20:01] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/61/d0/b3aaff59bcf5faa2e1e3545569332e9bd3f802c5ed308c849b4befb6c5dd/snok-0.0.3.tar.gz
+[2023-06-22 05:20:01] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/ef/a6/5a2dc7e59387b8255b81669c6a9d61ee0f45ce40ec1601299246c18ab98c/cdktf-cdktf-provider-newrelic-8.0.0.tar.gz
+[2023-06-22 05:20:01] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/96/62/01d32430de229c7fb16c3e5c55d8e3a0465bc0cfd2dcb2fed73bb59eee1a/cdktf-cdktf-provider-spotinst-8.0.0.tar.gz
+[2023-06-22 05:20:01] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-06-22 05:20:01] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.2.tar.gz tmp/snok-0.0.3.tar.gz --markdown 20230622/s/snok/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 05:20:01] INFO root fetch - processPackages [pydantic-zarr]: Downloading https://files.pythonhosted.org/packages/d8/e8/a7288ac299adbc7ec7fcf134cddef6b5087145e1a57000671406434fc686/pydantic_zarr-0.3.0.tar.gz
+[2023-06-22 05:20:01] INFO root fetch - processPackages [pydantic-zarr]: executing diffoscope
+[2023-06-22 05:20:01] INFO root fetch - processPackages [pydantic-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_zarr-0.2.0.tar.gz tmp/pydantic_zarr-0.3.0.tar.gz --markdown 20230622/p/pydantic-zarr/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 05:20:02] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/03/8a/cad274b63ff8d3b7b93698fbfad36f60f04c1b33e73c558a3800b4841c97/cdktf-cdktf-provider-spotinst-9.0.0.tar.gz
+[2023-06-22 05:20:02] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Downloading https://files.pythonhosted.org/packages/7d/bc/e1cc01180021ce8c2713b704fb54434e12a9da2f62011c67813e8b15452d/cdktf-cdktf-provider-newrelic-9.0.0.tar.gz
+[2023-06-22 05:20:02] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: executing diffoscope
+[2023-06-22 05:20:02] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-newrelic-8.0.0.tar.gz tmp/cdktf-cdktf-provider-newrelic-9.0.0.tar.gz --markdown 20230622/c/cdktf-cdktf-provider-newrelic/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-22 05:20:02] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-06-22 05:20:02] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-8.0.0.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.0.tar.gz --markdown 20230622/c/cdktf-cdktf-provider-spotinst/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-22 05:20:02] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.2.tar.gz]
+[2023-06-22 05:20:02] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.3.tar.gz]
+[2023-06-22 05:20:02] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-06-22 05:20:02] INFO root fetch - processPackages [pydantic-zarr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_zarr-0.2.0.tar.gz]
+[2023-06-22 05:20:02] INFO root fetch - processPackages [pydantic-zarr]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_zarr-0.3.0.tar.gz]
+[2023-06-22 05:20:02] INFO root fetch - main [MainThread]: End processing [pydantic-zarr]: success
+[2023-06-22 05:20:07] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-8.0.0.tar.gz]
+[2023-06-22 05:20:07] INFO root fetch - processPackages [cdktf-cdktf-provider-newrelic]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-newrelic-9.0.0.tar.gz]
+[2023-06-22 05:20:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-newrelic]: success
+[2023-06-22 05:20:07] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-8.0.0.tar.gz]
+[2023-06-22 05:20:07] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.0.tar.gz]
+[2023-06-22 05:20:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-06-22 05:20:07] INFO root fetch - main [MainThread]: Store serial: [18600782]
