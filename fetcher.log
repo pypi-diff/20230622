@@ -11886,3 +11886,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 07:33:22] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.2.tar.gz]
 [2023-06-22 07:33:22] INFO root fetch - main [MainThread]: End processing [spm1d]: success
 [2023-06-22 07:33:22] INFO root fetch - main [MainThread]: Store serial: [18601407]
+[2023-06-22 07:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601407]
+[2023-06-22 07:38:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robot-rumble
+[2023-06-22 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: altocumulus
+[2023-06-22 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HomoglyphsCJK
+[2023-06-22 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lae
+[2023-06-22 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipeline-viz
+[2023-06-22 07:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p-ttauto-crawler
+[2023-06-22 07:38:31] INFO root fetch - processPackages [altocumulus]: New version: [2.3.0] Old Version: [2.1.2]
+[2023-06-22 07:38:31] INFO root fetch - processPackages [HomoglyphsCJK]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-22 07:38:31] WARNING root fetch - processPackages [lae]: Skipping, unable to determine old version
+[2023-06-22 07:38:31] INFO root fetch - main [MainThread]: End processing [lae] error
+[2023-06-22 07:38:31] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 07:38:31] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-22 07:38:31] INFO root fetch - processPackages [pipeline-viz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 07:38:31] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-22 07:38:31] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/bd/c3/29e6ff4aca62a84555ba76c75978ef3f430161260d31e65bdb585c1d8d4b/robot_rumble-0.0.5.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/3b/7e/c9f58666188abd32dfe26c5d7b3c27b7fc1db9c64ad57d5fede1ae2d679e/HomoglyphsCJK-0.1.4.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [pipeline-viz]: Downloading https://files.pythonhosted.org/packages/46/ef/e95f6b493c47b74ffbf76b16ac192d578025313fbc55cb4472ed530ec83a/pipeline_viz-0.1.0.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/69/03/72e537c6e90d1e3de91b6734a1bc5e93d4e220e29ca821bd379e3ece70f8/robot_rumble-0.0.6.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-22 07:38:32] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230622/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 07:38:32] WARNING root fetch - processPackages [robot-rumble]: Skipping package: exceeds size limit 22355265>=10485760
+[2023-06-22 07:38:32] INFO root fetch - main [MainThread]: End processing [robot-rumble] error
+[2023-06-22 07:38:32] INFO root fetch - processPackages [altocumulus]: Downloading https://files.pythonhosted.org/packages/3f/96/17813b8697094a3afca3a000ae8c55eb10d91def820a5201c28043c0b931/altocumulus-2.1.2.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [pipeline-viz]: Downloading https://files.pythonhosted.org/packages/81/b9/9bcb13969bf32d18321e761b07037ae72313bd884d308a5f238ccc12213b/pipeline_viz-0.1.1.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/44/b9/d871e984001e94af3e8a119c25bfad7b1dab667ddb8616d9d0275a657182/HomoglyphsCJK-0.1.5.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [pipeline-viz]: executing diffoscope
+[2023-06-22 07:38:32] INFO root fetch - processPackages [pipeline-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_viz-0.1.0.tar.gz tmp/pipeline_viz-0.1.1.tar.gz --markdown 20230622/p/pipeline-viz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 07:38:32] INFO root fetch - processPackages [HomoglyphsCJK]: executing diffoscope
+[2023-06-22 07:38:32] INFO root fetch - processPackages [HomoglyphsCJK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomoglyphsCJK-0.1.4.tar.gz tmp/HomoglyphsCJK-0.1.5.tar.gz --markdown 20230622/H/HomoglyphsCJK/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-22 07:38:32] INFO root fetch - processPackages [altocumulus]: Downloading https://files.pythonhosted.org/packages/54/73/2a0d9600525406d13f9310b25ea2b92b3551dfa7a2c5db90d54ee2bba58c/altocumulus-2.3.0.tar.gz
+[2023-06-22 07:38:32] INFO root fetch - processPackages [altocumulus]: executing diffoscope
+[2023-06-22 07:38:32] INFO root fetch - processPackages [altocumulus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altocumulus-2.1.2.tar.gz tmp/altocumulus-2.3.0.tar.gz --markdown 20230622/a/altocumulus/2.1.2-2.3.0/diff.md --exclude *.pyd
+[2023-06-22 07:38:33] INFO root fetch - processPackages [HomoglyphsCJK]: Remove: archive file [/home/abi/fetcher/tmp/HomoglyphsCJK-0.1.4.tar.gz]
+[2023-06-22 07:38:33] INFO root fetch - processPackages [HomoglyphsCJK]: Remove: archive file [/home/abi/fetcher/tmp/HomoglyphsCJK-0.1.5.tar.gz]
+[2023-06-22 07:38:33] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK]: success
+[2023-06-22 07:38:33] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-22 07:38:33] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-22 07:38:33] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-22 07:38:33] INFO root fetch - processPackages [pipeline-viz]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_viz-0.1.0.tar.gz]
+[2023-06-22 07:38:33] INFO root fetch - processPackages [pipeline-viz]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_viz-0.1.1.tar.gz]
+[2023-06-22 07:38:33] INFO root fetch - main [MainThread]: End processing [pipeline-viz]: success
+[2023-06-22 07:38:34] INFO root fetch - processPackages [altocumulus]: Remove: archive file [/home/abi/fetcher/tmp/altocumulus-2.1.2.tar.gz]
+[2023-06-22 07:38:34] INFO root fetch - processPackages [altocumulus]: Remove: archive file [/home/abi/fetcher/tmp/altocumulus-2.3.0.tar.gz]
+[2023-06-22 07:38:34] INFO root fetch - main [MainThread]: End processing [altocumulus]: success
+[2023-06-22 07:38:34] INFO root fetch - main [MainThread]: Store serial: [18601426]
