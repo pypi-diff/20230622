@@ -10143,3 +10143,51 @@
 [2023-06-22 05:25:30] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.0.tar.gz]
 [2023-06-22 05:25:30] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
 [2023-06-22 05:25:30] INFO root fetch - main [MainThread]: Store serial: [18600795]
+[2023-06-22 05:30:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600795]
+[2023-06-22 05:30:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 05:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2023-06-22 05:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncssh
+[2023-06-22 05:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmkoalas
+[2023-06-22 05:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: banana-dev-staging
+[2023-06-22 05:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-ttauto-crawler
+[2023-06-22 05:30:40] INFO root fetch - processPackages [banana-dev-staging]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-06-22 05:30:40] INFO root fetch - processPackages [pmkoalas]: New version: [0.2] Old Version: [0.0.1a2]
+[2023-06-22 05:30:40] INFO root fetch - processPackages [asyncssh]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-22 05:30:40] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 05:30:40] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-22 05:30:40] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-06-22 05:30:41] INFO root fetch - processPackages [pmkoalas]: Downloading https://files.pythonhosted.org/packages/09/58/e610ed0ca455b45bb6dc7e37f11fc1bf3d11f64edcfc4cf146abee124f9b/pmkoalas-0.0.1a2.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [banana-dev-staging]: Downloading https://files.pythonhosted.org/packages/ea/83/85d7cbb724735cdc55ab6bd3a8794afece48b371f0a6fceca19f3a0bd625/banana_dev_staging-5.0.0.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [asyncssh]: Downloading https://files.pythonhosted.org/packages/88/68/8fb70ea88cb1f05e6b2406d4fa7952c911ca6072657572bfe9ed446f490a/asyncssh-2.8.1.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-22 05:30:41] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230622/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 05:30:41] INFO root fetch - processPackages [banana-dev-staging]: Downloading https://files.pythonhosted.org/packages/a6/42/2b9b1948f6fb350bb0ef87cf561ba03146627312aee8e7a174b78dac4ffa/banana_dev_staging-5.0.1.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [asyncssh]: Downloading https://files.pythonhosted.org/packages/c9/d3/90256821bcac46f39a6f0ee14acc2f57ed6a54fa3ebe78d133fb697c91ca/asyncssh-2.9.0.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [banana-dev-staging]: executing diffoscope
+[2023-06-22 05:30:41] INFO root fetch - processPackages [banana-dev-staging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banana_dev_staging-5.0.0.tar.gz tmp/banana_dev_staging-5.0.1.tar.gz --markdown 20230622/b/banana-dev-staging/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-06-22 05:30:41] INFO root fetch - processPackages [pmkoalas]: Downloading https://files.pythonhosted.org/packages/69/13/6c27fec89fe995dae53a86052a06172108e43719e38396bb550559852465/pmkoalas-0.2.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-06-22 05:30:41] INFO root fetch - processPackages [pmkoalas]: executing diffoscope
+[2023-06-22 05:30:41] INFO root fetch - processPackages [pmkoalas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmkoalas-0.0.1a2.tar.gz tmp/pmkoalas-0.2.tar.gz --markdown 20230622/p/pmkoalas/0.0.1a2-0.2/diff.md --exclude *.pyd
+[2023-06-22 05:30:41] INFO root fetch - processPackages [asyncssh]: executing diffoscope
+[2023-06-22 05:30:41] INFO root fetch - processPackages [asyncssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncssh-2.8.1.tar.gz tmp/asyncssh-2.9.0.tar.gz --markdown 20230622/a/asyncssh/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-22 05:30:41] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-06-22 05:30:41] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230622/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-06-22 05:30:42] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-22 05:30:42] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-22 05:30:42] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-22 05:30:42] INFO root fetch - processPackages [banana-dev-staging]: Remove: archive file [/home/abi/fetcher/tmp/banana_dev_staging-5.0.0.tar.gz]
+[2023-06-22 05:30:42] INFO root fetch - processPackages [banana-dev-staging]: Remove: archive file [/home/abi/fetcher/tmp/banana_dev_staging-5.0.1.tar.gz]
+[2023-06-22 05:30:42] INFO root fetch - main [MainThread]: End processing [banana-dev-staging]: success
+[2023-06-22 05:30:42] INFO root fetch - processPackages [pmkoalas]: Remove: archive file [/home/abi/fetcher/tmp/pmkoalas-0.0.1a2.tar.gz]
+[2023-06-22 05:30:42] INFO root fetch - processPackages [pmkoalas]: Remove: archive file [/home/abi/fetcher/tmp/pmkoalas-0.2.tar.gz]
+[2023-06-22 05:30:42] INFO root fetch - main [MainThread]: End processing [pmkoalas]: success
+[2023-06-22 05:30:44] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-06-22 05:30:44] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-06-22 05:30:44] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-06-22 05:30:46] INFO root fetch - processPackages [asyncssh]: Remove: archive file [/home/abi/fetcher/tmp/asyncssh-2.8.1.tar.gz]
+[2023-06-22 05:30:46] INFO root fetch - processPackages [asyncssh]: Remove: archive file [/home/abi/fetcher/tmp/asyncssh-2.9.0.tar.gz]
+[2023-06-22 05:30:46] INFO root fetch - main [MainThread]: End processing [asyncssh]: success
+[2023-06-22 05:30:46] INFO root fetch - main [MainThread]: Store serial: [18600810]
