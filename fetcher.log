@@ -10398,3 +10398,72 @@
 [2023-06-22 05:51:39] INFO root fetch - processPackages [validmind]: Remove: archive file [/home/abi/fetcher/tmp/validmind-1.9.7.tar.gz]
 [2023-06-22 05:51:39] INFO root fetch - main [MainThread]: End processing [validmind]: success
 [2023-06-22 05:51:39] INFO root fetch - main [MainThread]: Store serial: [18600884]
+[2023-06-22 05:56:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600884]
+[2023-06-22 05:56:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypdfe
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ARIclicker
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hak
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocr-iiif-tools
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snok
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revChatGPT
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haidarlibs
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quao
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ARIclicker]: New version: [0.1.7] Old Version: [0.0.2]
+[2023-06-22 05:56:48] WARNING root fetch - processPackages [pypdfe]: Skipping, unable to determine old version
+[2023-06-22 05:56:48] INFO root fetch - main [MainThread]: End processing [pypdfe] error
+[2023-06-22 05:56:48] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 05:56:48] INFO root fetch - processPackages [snok]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 05:56:48] INFO root fetch - processPackages [revChatGPT]: New version: [6.4.1] Old Version: [6.4.0]
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ocr-iiif-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 05:56:48] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/ac46bd51c82e9538e52d818226fad67aaad53701029e6d88ece49808e408/ocr_iiif_tools-0.0.4.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [haidarlibs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 05:56:48] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 05:56:48] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/21/a0/3e7b9cc9bfb3984bc2b41e8248e0248a8cd7d5e222d8f51f0cc579164d49/snok-0.0.4.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/98/80/14fc0360d144b25fe162f1ae5aac987c98d54ffb8e47b8adc3bb74b4b28a/revChatGPT-6.4.0.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/43/cf/9e0aae38461fbbf139ab9f768c3b606db77561372094ec3c5bf98bc9a9b3/ARIclicker-0.0.2.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/51/6a/317301daa6ab4386afb7ce487e75f49e79771d0c5beb3664fdf013ebdf2a/haidarlibs-0.0.8.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-06-22 05:56:48] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230622/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/08/5b/85e19fc38b640c09c47f3f85255327e14a2d8d585e716b4357c4c49717c1/ocr_iiif_tools-0.0.5.tar.gz
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ocr-iiif-tools]: executing diffoscope
+[2023-06-22 05:56:48] INFO root fetch - processPackages [ocr-iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocr_iiif_tools-0.0.4.tar.gz tmp/ocr_iiif_tools-0.0.5.tar.gz --markdown 20230622/o/ocr-iiif-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 05:56:49] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/03/7f/fe2fdad81f0997315b9efb4c05bba72b883c6099fb95ffb9f7539c227b4d/snok-0.0.5.tar.gz
+[2023-06-22 05:56:49] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/53/28/98e0891fdfaf0eb86a9956ed34f23dcfb53bd307625add29a7e094b628f8/revChatGPT-6.4.1.tar.gz
+[2023-06-22 05:56:49] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/56/e0/8f1c29f15b7a61ea73e9ef4528aefd8d4826553c645bb56b0b16a18bdb54/ARIclicker-0.1.7.tar.gz
+[2023-06-22 05:56:49] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-06-22 05:56:49] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.4.tar.gz tmp/snok-0.0.5.tar.gz --markdown 20230622/s/snok/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 05:56:49] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-06-22 05:56:49] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.0.2.tar.gz tmp/ARIclicker-0.1.7.tar.gz --markdown 20230622/A/ARIclicker/0.0.2-0.1.7/diff.md --exclude *.pyd
+[2023-06-22 05:56:49] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-06-22 05:56:49] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-22 05:56:49] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230622/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 05:56:49] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-22 05:56:49] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.4.0.tar.gz tmp/revChatGPT-6.4.1.tar.gz --markdown 20230622/r/revChatGPT/6.4.0-6.4.1/diff.md --exclude *.pyd
+[2023-06-22 05:56:49] INFO root fetch - processPackages [haidarlibs]: Downloading https://files.pythonhosted.org/packages/a0/f5/61d36a23563ac4ac5883d198221e9e3b7bb46f1ae09b7a1683322461743e/haidarlibs-0.0.9.tar.gz
+[2023-06-22 05:56:49] INFO root fetch - processPackages [haidarlibs]: executing diffoscope
+[2023-06-22 05:56:49] INFO root fetch - processPackages [haidarlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haidarlibs-0.0.8.tar.gz tmp/haidarlibs-0.0.9.tar.gz --markdown 20230622/h/haidarlibs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 05:56:50] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.4.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.5.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - main [MainThread]: End processing [ocr-iiif-tools]: success
+[2023-06-22 05:56:50] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.4.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.5.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-06-22 05:56:50] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.0.2.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.1.7.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-06-22 05:56:50] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-22 05:56:50] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.0.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.1.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-22 05:56:50] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.8.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - processPackages [haidarlibs]: Remove: archive file [/home/abi/fetcher/tmp/haidarlibs-0.0.9.tar.gz]
+[2023-06-22 05:56:50] INFO root fetch - main [MainThread]: End processing [haidarlibs]: success
+[2023-06-22 05:56:52] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-06-22 05:56:52] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-06-22 05:56:52] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-06-22 05:56:52] INFO root fetch - main [MainThread]: Store serial: [18600906]
