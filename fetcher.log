@@ -12707,3 +12707,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:47:52] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
 [2023-06-22 08:47:52] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-06-22 08:47:52] INFO root fetch - main [MainThread]: Store serial: [18601730]
+[2023-06-22 08:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601730]
+[2023-06-22 08:53:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taskanalytics-data-wrapper
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faker-pyspark
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyllo-kickstart
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.identity
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-06-22 08:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-06-22 08:53:01] INFO root fetch - processPackages [pyllo-kickstart]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [faker-pyspark]: New version: [0.5.0] Old Version: [0.3.0]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [taskanalytics-data-wrapper]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-22 08:53:01] INFO root fetch - processPackages [faker-pyspark]: Downloading https://files.pythonhosted.org/packages/f1/23/7efe4dcc93205073f0e9476600e0a1a3358609f24e6f6d60593f313aa8aa/faker_pyspark-0.3.0.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/97/38/e2f9b14890efcd00ef828b165bd9ff276265616d79d8d621c6ec8b436d08/aws_prototyping_sdk.identity-0.9.3.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [pyllo-kickstart]: Downloading https://files.pythonhosted.org/packages/a2/bb/db3aa11e1499b8b0f9cf68221fd4de948b8964aacf49c9aa4691f6c79130/pyllo-kickstart-1.0.2.tar.gz
+[2023-06-22 08:53:01] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-22 08:53:01] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-22 08:53:01] INFO root fetch - processPackages [taskanalytics-data-wrapper]: Downloading https://files.pythonhosted.org/packages/10/02/6f67adc6a3850f938acc3947a39ca784c055f0e95ffd0c6ef07158037c87/taskanalytics-data-wrapper-0.1.6.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Downloading https://files.pythonhosted.org/packages/4f/9d/94a124e4f88dd060b8de9979d16e3ba1cb19e6590bed27dc100625fd0edb/aws_prototyping_sdk.identity-0.9.4.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [taskanalytics-data-wrapper]: Downloading https://files.pythonhosted.org/packages/cb/5b/9de618f552081cc47e719b9265e449a75bec1e74dfe262bb346d13c9175d/taskanalytics-data-wrapper-0.1.7.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230622/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-22 08:53:01] INFO root fetch - processPackages [faker-pyspark]: Downloading https://files.pythonhosted.org/packages/58/bc/ccb9b91141f21e2524f048270a21e3e7099ff4ab96b3b7d3d7e8b6af0eb7/faker_pyspark-0.5.0.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230622/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-22 08:53:01] INFO root fetch - processPackages [pyllo-kickstart]: Downloading https://files.pythonhosted.org/packages/e3/23/3020aff3e27f054afb7e1f4cab55ce5ea3ec54b10c2c49e543b0eb61d2d4/pyllo-kickstart-1.0.3.tar.gz
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230622/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-22 08:53:01] INFO root fetch - processPackages [taskanalytics-data-wrapper]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [taskanalytics-data-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskanalytics-data-wrapper-0.1.6.tar.gz tmp/taskanalytics-data-wrapper-0.1.7.tar.gz --markdown 20230622/t/taskanalytics-data-wrapper/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230622/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230622/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-22 08:53:01] INFO root fetch - processPackages [faker-pyspark]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [faker-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker_pyspark-0.3.0.tar.gz tmp/faker_pyspark-0.5.0.tar.gz --markdown 20230622/f/faker-pyspark/0.3.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 08:53:01] INFO root fetch - processPackages [pyllo-kickstart]: executing diffoscope
+[2023-06-22 08:53:01] INFO root fetch - processPackages [pyllo-kickstart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllo-kickstart-1.0.2.tar.gz tmp/pyllo-kickstart-1.0.3.tar.gz --markdown 20230622/p/pyllo-kickstart/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-06-22 08:53:03] INFO root fetch - processPackages [faker-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/faker_pyspark-0.3.0.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [faker-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/faker_pyspark-0.5.0.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [faker-pyspark]: success
+[2023-06-22 08:53:03] INFO root fetch - processPackages [taskanalytics-data-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/taskanalytics-data-wrapper-0.1.6.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [taskanalytics-data-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/taskanalytics-data-wrapper-0.1.7.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [taskanalytics-data-wrapper]: success
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-06-22 08:53:03] INFO root fetch - processPackages [pyllo-kickstart]: Remove: archive file [/home/abi/fetcher/tmp/pyllo-kickstart-1.0.2.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [pyllo-kickstart]: Remove: archive file [/home/abi/fetcher/tmp/pyllo-kickstart-1.0.3.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [pyllo-kickstart]: success
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-22 08:53:03] INFO root fetch - main [MainThread]: Store serial: [18601757]
