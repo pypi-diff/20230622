@@ -18302,3 +18302,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:12:58] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
 [2023-06-22 13:12:58] INFO root fetch - main [MainThread]: End processing [openlane]: success
 [2023-06-22 13:12:58] INFO root fetch - main [MainThread]: Store serial: [18603981]
+[2023-06-22 13:18:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603981]
+[2023-06-22 13:18:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: travel-pricing-scraper
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luminesce-sdk-preview
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-sdk
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: StoryLines
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: filesreader
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccfit2
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalm
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyguess
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: es-translator
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discopy
+[2023-06-22 13:18:07] INFO root fetch - processPackages [StoryLines]: New version: [0.9] Old Version: [0.8]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-22 13:18:07] WARNING root fetch - processPackages [filesreader]: Skipping, unable to determine old version
+[2023-06-22 13:18:07] INFO root fetch - processPackages [filesreader]: Start processing: MASlite
+[2023-06-22 13:18:07] INFO root fetch - main [MainThread]: End processing [filesreader] error
+[2023-06-22 13:18:07] INFO root fetch - processPackages [travel-pricing-scraper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [pyguess]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [discopy]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ccfit2]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [es-translator]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-22 13:18:07] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/b9/af/1778f003fcc511dbe692236d9688daab5e13dc0c1f58c0fe01c83d430a98/es_translator-1.6.1.tar.gz
+[2023-06-22 13:18:07] INFO root fetch - processPackages [pyguess]: Downloading https://files.pythonhosted.org/packages/97/45/894c7f78660f3d9cf377f3297a2680b82578eb69e5b5410c887e5b5fc0c6/pyguess-0.2.0.tar.gz
+[2023-06-22 13:18:07] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-22 13:18:07] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-06-22 13:18:07] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/ab/2f/867ceb64e81b571b9e016688f0f5294b4a4c3879f21b28209feb0bb96d3b/ccfit2-5.0.1.tar.gz
+[2023-06-22 13:18:07] INFO root fetch - processPackages [StoryLines]: Downloading https://files.pythonhosted.org/packages/5b/58/3bcd332bb8b614d789f310e096bb30a953d9883ffa5ab644090ec1127312/StoryLines-0.8.tar.gz
+[2023-06-22 13:18:07] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-22 13:18:07] INFO root fetch - processPackages [MASlite]: New version: [2022.4.27.79467] Old Version: [2022.11.3]
+[2023-06-22 13:18:08] INFO root fetch - processPackages [travel-pricing-scraper]: Downloading https://files.pythonhosted.org/packages/02/47/4287c58771c2a6de99a0f99e3d1fa54607ee6eb03e633fc2c98fd5a806ec/travel_pricing_scraper-0.1.0.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [discopy]: Downloading https://files.pythonhosted.org/packages/c5/f6/f2cb5703a6650dfb2a5497caf5f75fdaba5f736db1d1f6efce3611a0bb34/discopy-1.1.3.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230622/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [MASlite]: Downloading https://files.pythonhosted.org/packages/cb/e1/e43b9c20f597f39329a1cad1a08d222615a895330f9e56ac64226fb80f20/MASlite-2022.11.3-py3-none-any.whl
+[2023-06-22 13:18:08] INFO root fetch - processPackages [pyguess]: Downloading https://files.pythonhosted.org/packages/13/79/4cfe59561f05c3c3e6d2ada17f022db1ac48562ca60e280e2f16e5bb451c/pyguess-0.2.1.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/d9/8d/6f6864371c9c12f3c902ade53d39afcb2d5975b5989b19ae5b4cfaf2b166/es_translator-1.7.0.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/12/c2/36bb7e06297d66b7772efb5907f07435498fda8eb7271f8578d6b7adfc24/ccfit2-5.0.2.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [travel-pricing-scraper]: Downloading https://files.pythonhosted.org/packages/46/fe/944fde7a0b1523a82982cfcaf1b60e52fac8a0dc59fd0594ef5854ca1bbd/travel_pricing_scraper-0.1.1.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [StoryLines]: Downloading https://files.pythonhosted.org/packages/6a/a0/09837007afa363d5b28482c15ca4a596d4e8c226f002d0b5c958454aeba4/StoryLines-0.9.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [pyguess]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [pyguess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguess-0.2.0.tar.gz tmp/pyguess-0.2.1.tar.gz --markdown 20230622/p/pyguess/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.6.1.tar.gz tmp/es_translator-1.7.0.tar.gz --markdown 20230622/e/es-translator/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [ccfit2]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [ccfit2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccfit2-5.0.1.tar.gz tmp/ccfit2-5.0.2.tar.gz --markdown 20230622/c/ccfit2/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [travel-pricing-scraper]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [travel-pricing-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/travel_pricing_scraper-0.1.0.tar.gz tmp/travel_pricing_scraper-0.1.1.tar.gz --markdown 20230622/t/travel-pricing-scraper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [StoryLines]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [StoryLines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StoryLines-0.8.tar.gz tmp/StoryLines-0.9.tar.gz --markdown 20230622/S/StoryLines/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230622/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [MASlite]: Downloading https://files.pythonhosted.org/packages/db/6a/0ed158c5199fd267503f9d8cd3f7a197f8c34f26386cbf0fb947b64f734d/MASlite-2022.4.27.79467.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [MASlite]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [MASlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MASlite-2022.11.3-py3-none-any.whl.zip tmp/MASlite-2022.4.27.79467.tar.gz --markdown 20230622/M/MASlite/2022.11.3-2022.4.27.79467/diff.md --exclude *.pyd
+[2023-06-22 13:18:08] INFO root fetch - processPackages [discopy]: Downloading https://files.pythonhosted.org/packages/76/31/3af20b42520d07f1ec436580769e9601a689e9acbeec8c36aacd34f89f5f/discopy-1.1.4.tar.gz
+[2023-06-22 13:18:08] INFO root fetch - processPackages [discopy]: executing diffoscope
+[2023-06-22 13:18:08] INFO root fetch - processPackages [discopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discopy-1.1.3.tar.gz tmp/discopy-1.1.4.tar.gz --markdown 20230622/d/discopy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-22 13:18:10] INFO root fetch - processPackages [MASlite]: Remove: archive file [/home/abi/fetcher/tmp/MASlite-2022.11.3-py3-none-any.whl.zip]
+[2023-06-22 13:18:10] INFO root fetch - processPackages [MASlite]: Remove: archive file [/home/abi/fetcher/tmp/MASlite-2022.4.27.79467.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - main [MainThread]: End processing [MASlite]: success
+[2023-06-22 13:18:10] INFO root fetch - processPackages [pyguess]: Remove: archive file [/home/abi/fetcher/tmp/pyguess-0.2.0.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - processPackages [pyguess]: Remove: archive file [/home/abi/fetcher/tmp/pyguess-0.2.1.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - main [MainThread]: End processing [pyguess]: success
+[2023-06-22 13:18:10] INFO root fetch - processPackages [travel-pricing-scraper]: Remove: archive file [/home/abi/fetcher/tmp/travel_pricing_scraper-0.1.0.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - processPackages [travel-pricing-scraper]: Remove: archive file [/home/abi/fetcher/tmp/travel_pricing_scraper-0.1.1.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - main [MainThread]: End processing [travel-pricing-scraper]: success
+[2023-06-22 13:18:10] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-22 13:18:10] INFO root fetch - processPackages [StoryLines]: Remove: archive file [/home/abi/fetcher/tmp/StoryLines-0.8.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - processPackages [StoryLines]: Remove: archive file [/home/abi/fetcher/tmp/StoryLines-0.9.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - main [MainThread]: End processing [StoryLines]: success
+[2023-06-22 13:18:10] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.6.1.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.7.0.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-06-22 13:18:10] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.8.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.9.tar.gz]
+[2023-06-22 13:18:10] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-06-22 13:18:11] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.0.1.tar.gz]
+[2023-06-22 13:18:11] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.0.2.tar.gz]
+[2023-06-22 13:18:11] INFO root fetch - main [MainThread]: End processing [ccfit2]: success
+[2023-06-22 13:18:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-22 13:18:11] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-22 13:18:11] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-22 13:18:14] INFO root fetch - processPackages [discopy]: Remove: archive file [/home/abi/fetcher/tmp/discopy-1.1.3.tar.gz]
+[2023-06-22 13:18:14] INFO root fetch - processPackages [discopy]: Remove: archive file [/home/abi/fetcher/tmp/discopy-1.1.4.tar.gz]
+[2023-06-22 13:18:14] INFO root fetch - main [MainThread]: End processing [discopy]: success
+[2023-06-22 13:18:14] INFO root fetch - main [MainThread]: Store serial: [18604017]
