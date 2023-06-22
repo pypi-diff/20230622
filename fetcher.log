@@ -11343,3 +11343,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:47:33] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ccmodule-0.28.tar.gz]
 [2023-06-22 06:47:33] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ccmodule]: success
 [2023-06-22 06:47:33] INFO root fetch - main [MainThread]: Store serial: [18601143]
+[2023-06-22 06:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601143]
+[2023-06-22 06:52:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rotary-controller-python
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-rwkv
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-export-async-schedule
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-queue
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ppqueue
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ml-rwkv]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 06:52:42] WARNING root fetch - processPackages [rotary-controller-python]: Skipping, unable to determine old version
+[2023-06-22 06:52:42] INFO root fetch - main [MainThread]: End processing [rotary-controller-python] error
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addons-oca-queue]: New version: [14.0.20230621.0] Old Version: [14.0.20230316.0]
+[2023-06-22 06:52:42] WARNING root fetch - processPackages [ppqueue]: Skipping, unable to determine old version
+[2023-06-22 06:52:42] INFO root fetch - main [MainThread]: End processing [ppqueue] error
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ml-rwkv]: Downloading https://files.pythonhosted.org/packages/7a/b9/e0d02dec1b9431ae2aac5721e7cf4a53bee11d6be4e448f3ec56248c894c/ml-rwkv-0.0.2.tar.gz
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: Downloading https://files.pythonhosted.org/packages/de/a4/e26d162bce4348c0816f6ab2aee92efddc57eb1b0aefda8d3373a7b4f1b9/odoo14_addon_export_async_schedule-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/7f/de/d134bb9678c59d55e800516cc83b4eeffc79782ac47333aa504afb3bb426/odoo14_addons_oca_queue-14.0.20230316.0-py3-none-any.whl
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ml-rwkv]: Downloading https://files.pythonhosted.org/packages/e1/45/44537e5932fd4ffa9c668f2bbfb00df6facc1b3d059f1688170904ad3f39/ml-rwkv-0.0.3.tar.gz
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ml-rwkv]: executing diffoscope
+[2023-06-22 06:52:42] INFO root fetch - processPackages [ml-rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-rwkv-0.0.2.tar.gz tmp/ml-rwkv-0.0.3.tar.gz --markdown 20230622/m/ml-rwkv/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addons-oca-queue]: Downloading https://files.pythonhosted.org/packages/0b/d8/03118e5cb6f5e1ea8a313e96df4d7137846e86d94e9b89fa21480e01e69c/odoo14_addons_oca_queue-14.0.20230621.0-py3-none-any.whl
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: Downloading https://files.pythonhosted.org/packages/b0/16/ca73120f6ad97d14d034860e99425e439bb0f98ce141416598376774ea51/odoo14_addon_export_async_schedule-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addons-oca-queue]: executing diffoscope
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addons-oca-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_queue-14.0.20230316.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_queue-14.0.20230621.0-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addons-oca-queue/14.0.20230316.0-14.0.20230621.0/diff.md --exclude *.pyd
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: executing diffoscope
+[2023-06-22 06:52:42] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_export_async_schedule-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_export_async_schedule-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-export-async-schedule/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-06-22 06:52:43] INFO root fetch - processPackages [ml-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/ml-rwkv-0.0.2.tar.gz]
+[2023-06-22 06:52:43] INFO root fetch - processPackages [ml-rwkv]: Remove: archive file [/home/abi/fetcher/tmp/ml-rwkv-0.0.3.tar.gz]
+[2023-06-22 06:52:43] INFO root fetch - main [MainThread]: End processing [ml-rwkv]: success
+[2023-06-22 06:52:43] INFO root fetch - processPackages [odoo14-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_queue-14.0.20230316.0-py3-none-any.whl.zip]
+[2023-06-22 06:52:43] INFO root fetch - processPackages [odoo14-addons-oca-queue]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_queue-14.0.20230621.0-py3-none-any.whl.zip]
+[2023-06-22 06:52:43] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-queue]: success
+[2023-06-22 06:52:44] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_export_async_schedule-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-22 06:52:44] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_export_async_schedule-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-22 06:52:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-export-async-schedule]: success
+[2023-06-22 06:52:44] INFO root fetch - main [MainThread]: Store serial: [18601160]
