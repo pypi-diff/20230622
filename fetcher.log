@@ -19252,3 +19252,145 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:45:28] INFO root fetch - processPackages [dsr-shelx]: Remove: archive file [/home/abi/fetcher/tmp/dsr_shelx-241.tar.gz]
 [2023-06-22 13:45:28] INFO root fetch - main [MainThread]: End processing [dsr-shelx]: success
 [2023-06-22 13:45:28] INFO root fetch - main [MainThread]: Store serial: [18604320]
+[2023-06-22 13:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604320]
+[2023-06-22 13:50:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readme-ai
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: es-translator
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blueye-protocol
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tum-esm-signal
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stellar-sdk
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-ant-menu
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: customgpt-client
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: petisco
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-06-22 13:50:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-llm
+[2023-06-22 13:50:37] INFO root fetch - processPackages [tum-esm-signal]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [QuNet]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [customgpt-client]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [es-translator]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-06-22 13:50:37] WARNING root fetch - processPackages [readme-ai]: Skipping, unable to determine old version
+[2023-06-22 13:50:37] INFO root fetch - processPackages [readme-ai]: Start processing: tum-esm-signal
+[2023-06-22 13:50:37] INFO root fetch - processPackages [blueye-protocol]: New version: [3.0.0] Old Version: [2.2.1]
+[2023-06-22 13:50:37] INFO root fetch - main [MainThread]: End processing [readme-ai] error
+[2023-06-22 13:50:37] INFO root fetch - processPackages [stellar-sdk]: New version: [8.2.1] Old Version: [8.2.0]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc1] Old Version: [2.0.0rc0]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/93/d3/1e58323f0e555eea4ecbec417ce366a2476339c9f8cd6fa8491002ae4371/QuNet-0.0.93-py3-none-any.whl
+[2023-06-22 13:50:37] INFO root fetch - processPackages [tum-esm-signal]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 13:50:37] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/d9/8d/6f6864371c9c12f3c902ade53d39afcb2d5975b5989b19ae5b4cfaf2b166/es_translator-1.7.0.tar.gz
+[2023-06-22 13:50:37] INFO root fetch - processPackages [blueye-protocol]: Downloading https://files.pythonhosted.org/packages/fa/da/6d6609c5d3ba8675a610017073cb70969a42fcf0ce15c287a3a418614d99/blueye_protocol-2.2.1.tar.gz
+[2023-06-22 13:50:37] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/df/66/1f0dad5c285a6d0214671111bdae6780e739712e03e813e97d12c013d536/tum_esm_signal-0.1.0.tar.gz
+[2023-06-22 13:50:37] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b6/5e/946ed0d2e40c90e74c3d6b11a9dfa32af2393f3332be54d83227e3d1071c/bigdl_llm-2.4.0b20230621-py3-none-win_amd64.whl
+[2023-06-22 13:50:37] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/df/66/1f0dad5c285a6d0214671111bdae6780e739712e03e813e97d12c013d536/tum_esm_signal-0.1.0.tar.gz
+[2023-06-22 13:50:37] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/00/5e/3df1dc090c5df6e89406368e969852a9521de210ab6049a9cd41d3d29d91/st_ant_menu-0.0.8-py3-none-any.whl
+[2023-06-22 13:50:37] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/52/d9/6ae6bae7e581bfca1a76765656e54eed7dee96242e25905c40b97f0e1cb5/customgpt_client-1.0.3.tar.gz
+[2023-06-22 13:50:37] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/d7/43/78f9603b40ce70a8dceccf4ce680a08ecbc8145f2fcd5c4ef6cc9df13eef/petisco-2.0.0rc0.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [stellar-sdk]: Downloading https://files.pythonhosted.org/packages/b6/75/f7de41daa54a716a880f36b642b05d0668d02757720e914af898e31a09ea/stellar_sdk-8.2.0.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/d6/72/e93d34d8ce8d3d03d2024e807d848c764029ff4aee4f4591260417378803/es_translator-1.7.1.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/eb/32/0ae95ff9bcc3ce3f78947c655e7272eeb2613594acf7a50fcedc937a1618/QuNet-0.0.94-py3-none-any.whl
+[2023-06-22 13:50:38] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/3f/03/71fbc78d6ab9c35108dbed5d3474ff4ffb051bb896145c66754f5df29f24/customgpt_client-1.0.4.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/be/d4/035dfb9e2df3caa9cf0c87c972aa285a9d358072421c53f1933d9632cfa4/bigdl_llm-2.4.0b20230622-py3-none-win_amd64.whl
+[2023-06-22 13:50:38] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/25/d5/5c10b5595c143a5a845821937f8a572ba388726d924a0193935398f45800/tum_esm_signal-0.1.1.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [customgpt-client]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [customgpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customgpt_client-1.0.3.tar.gz tmp/customgpt_client-1.0.4.tar.gz --markdown 20230622/c/customgpt-client/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [blueye-protocol]: Downloading https://files.pythonhosted.org/packages/da/17/7710d8e42b598b40f18c092472d3411408b8b4ac72c538f886278f495f76/blueye.protocol-3.0.0.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/25/d5/5c10b5595c143a5a845821937f8a572ba388726d924a0193935398f45800/tum_esm_signal-0.1.1.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.7.0.tar.gz tmp/es_translator-1.7.1.tar.gz --markdown 20230622/e/es-translator/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.93-py3-none-any.whl.zip tmp/QuNet-0.0.94-py3-none-any.whl.zip --markdown 20230622/Q/QuNet/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/b3/65/8620d7dc685cc0da6e269f2b45e025f95060054c569247c3fceecf3be30b/petisco-2.0.0rc1.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [stellar-sdk]: Downloading https://files.pythonhosted.org/packages/f1/d6/9e3ddc30a25f401b2f5ddcf19c4ea4d2dfb9854893239a427a132da9b784/stellar_sdk-8.2.1.tar.gz
+[2023-06-22 13:50:38] INFO root fetch - processPackages [tum-esm-signal]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [tum-esm-signal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_signal-0.1.0.tar.gz tmp/tum_esm_signal-0.1.1.tar.gz --markdown 20230622/t/tum-esm-signal/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [tum-esm-signal]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [tum-esm-signal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_signal-0.1.0.tar.gz tmp/tum_esm_signal-0.1.1.tar.gz --markdown 20230622/t/tum-esm-signal/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [blueye-protocol]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [blueye-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueye_protocol-2.2.1.tar.gz tmp/blueye.protocol-3.0.0.tar.gz --markdown 20230622/b/blueye-protocol/2.2.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [stellar-sdk]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [stellar-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellar_sdk-8.2.0.tar.gz tmp/stellar_sdk-8.2.1.tar.gz --markdown 20230622/s/stellar-sdk/8.2.0-8.2.1/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc0.tar.gz tmp/petisco-2.0.0rc1.tar.gz --markdown 20230622/p/petisco/2.0.0rc0-2.0.0rc1/diff.md --exclude *.pyd
+[2023-06-22 13:50:38] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-22 13:50:38] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230621-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230622-py3-none-win_amd64.whl.zip --markdown 20230622/b/bigdl-llm/2.4.0b20230621-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 13:50:39] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/8d/b8/05b9140865f38d5b42db920bf8ece71bdc9acfc0d6b4b3a6367b72e3c541/st_ant_menu-0.0.9-py3-none-any.whl
+[2023-06-22 13:50:39] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-06-22 13:50:39] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip --markdown 20230622/s/st-ant-menu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 13:50:39] INFO root fetch - processPackages [tum-esm-signal]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_signal-0.1.0.tar.gz]
+[2023-06-22 13:50:39] INFO root fetch - processPackages [tum-esm-signal]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_signal-0.1.1.tar.gz]
+[2023-06-22 13:50:39] INFO root fetch - processPackages [tum-esm-signal]: Start processing: tdnpathviz
+[2023-06-22 13:50:39] INFO root fetch - main [MainThread]: End processing [tum-esm-signal]: success
+[2023-06-22 13:50:39] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-06-22 13:50:39] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.7.0.tar.gz]
+[2023-06-22 13:50:39] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.7.1.tar.gz]
+[2023-06-22 13:50:39] INFO root fetch - processPackages [es-translator]: Start processing: ul-py-tool
+[2023-06-22 13:50:39] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-06-22 13:50:39] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.93-py3-none-any.whl.zip]
+[2023-06-22 13:50:39] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.94-py3-none-any.whl.zip]
+[2023-06-22 13:50:39] INFO root fetch - processPackages [QuNet]: Start processing: bigdl-chronos
+[2023-06-22 13:50:39] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-22 13:50:39] WARNING root fetch - processPackages [ul-py-tool]: Skipping, unable to determine old version
+[2023-06-22 13:50:39] INFO root fetch - processPackages [ul-py-tool]: Start processing: kcli
+[2023-06-22 13:50:39] INFO root fetch - main [MainThread]: End processing [ul-py-tool] error
+[2023-06-22 13:50:39] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/82/30/7dfc3181293709fb5a092d3f34163ff9e41ce077f3b529ec39012b24fe7c/tdnpathviz-0.1.2.8-py3-none-any.whl
+[2023-06-22 13:50:40] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [kcli]: New version: [99.0.202306221149] Old Version: [99.0.202306221046]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [tum-esm-signal]: Start processing: pinecone-text
+[2023-06-22 13:50:40] INFO root fetch - main [MainThread]: End processing [tum-esm-signal]: success
+[2023-06-22 13:50:40] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/ac/f3/15cc4cf00e877916fb9533d0dcbf1120353285736d8c2b77fd85cade2c08/bigdl_chronos-2.4.0b20230621-py3-none-win_amd64.whl
+[2023-06-22 13:50:40] INFO root fetch - processPackages [pinecone-text]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/c4/ab/c33845d9bcb0da0781d8b86f3d500c0a2831024985fafecdada9fc1fe5fd/tdnpathviz-0.1.2.9-py3-none-any.whl
+[2023-06-22 13:50:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/98/39/15d023e197d8d2ad0aa251e30d0b098129489ea86b312d7f8dc47e312898/kcli-99.0.202306221046-py3-none-any.whl
+[2023-06-22 13:50:40] INFO root fetch - processPackages [pinecone-text]: Downloading https://files.pythonhosted.org/packages/69/eb/26102ac130c093548500beec3783e133302d07ac810f8140276634923995/pinecone_text-0.5.1.tar.gz
+[2023-06-22 13:50:40] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-06-22 13:50:40] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip --markdown 20230622/t/tdnpathviz/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-06-22 13:50:40] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/51/5f/b3ea9965333020451037e383ca739ee3912a3720ab5bc2bc61440cd30689/bigdl_chronos-2.4.0b20230622-py3-none-win_amd64.whl
+[2023-06-22 13:50:40] INFO root fetch - processPackages [pinecone-text]: Downloading https://files.pythonhosted.org/packages/86/8f/3aaf254d5872cbbded5f4ac651be02458732eb47e6f20236751e520d68f1/pinecone_text-0.5.2.tar.gz
+[2023-06-22 13:50:40] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-22 13:50:40] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230621-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230622-py3-none-win_amd64.whl.zip --markdown 20230622/b/bigdl-chronos/2.4.0b20230621-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 13:50:40] INFO root fetch - processPackages [blueye-protocol]: Remove: archive file [/home/abi/fetcher/tmp/blueye_protocol-2.2.1.tar.gz]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [blueye-protocol]: Remove: archive file [/home/abi/fetcher/tmp/blueye.protocol-3.0.0.tar.gz]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [blueye-protocol]: Start processing: SqliteOrmMagic
+[2023-06-22 13:50:40] INFO root fetch - main [MainThread]: End processing [blueye-protocol]: success
+[2023-06-22 13:50:40] INFO root fetch - processPackages [pinecone-text]: executing diffoscope
+[2023-06-22 13:50:40] INFO root fetch - processPackages [pinecone-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_text-0.5.1.tar.gz tmp/pinecone_text-0.5.2.tar.gz --markdown 20230622/p/pinecone-text/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-22 13:50:40] INFO root fetch - processPackages [SqliteOrmMagic]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/05/3a/6301ab7c5b04b5e0e20af6d46ce39faf89160a2387749b1a677ce09aaf9b/kcli-99.0.202306221149-py3-none-any.whl
+[2023-06-22 13:50:40] INFO root fetch - processPackages [SqliteOrmMagic]: Downloading https://files.pythonhosted.org/packages/21/07/8286cbcfab35d5b7cd0c6ac2b866ae79105705cde40636840b7c226fd299/SqliteOrmMagic-0.0.5.tar.gz
+[2023-06-22 13:50:40] INFO root fetch - processPackages [SqliteOrmMagic]: Downloading https://files.pythonhosted.org/packages/9f/ad/b6ba9af76bf2e3261cb78c7121f366e48f6f0f90312fccb4cb2bc24a7e01/SqliteOrmMagic-0.0.6.tar.gz
+[2023-06-22 13:50:40] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230621-py3-none-win_amd64.whl.zip]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230622-py3-none-win_amd64.whl.zip]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.3.tar.gz]
+[2023-06-22 13:50:40] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.4.tar.gz]
+[2023-06-22 13:50:40] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
+[2023-06-22 13:50:40] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-22 13:50:40] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 13:50:40] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306221046-py3-none-any.whl.zip tmp/kcli-99.0.202306221149-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306221046-99.0.202306221149/diff.md --exclude *.pyd
+[2023-06-22 13:50:41] INFO root fetch - processPackages [SqliteOrmMagic]: executing diffoscope
+[2023-06-22 13:50:41] INFO root fetch - processPackages [SqliteOrmMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SqliteOrmMagic-0.0.5.tar.gz tmp/SqliteOrmMagic-0.0.6.tar.gz --markdown 20230622/S/SqliteOrmMagic/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-22 13:50:41] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc0.tar.gz]
+[2023-06-22 13:50:41] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc1.tar.gz]
+[2023-06-22 13:50:41] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-22 13:50:41] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip]
+[2023-06-22 13:50:41] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip]
+[2023-06-22 13:50:41] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-06-22 13:50:41] INFO root fetch - processPackages [pinecone-text]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_text-0.5.1.tar.gz]
+[2023-06-22 13:50:41] INFO root fetch - processPackages [pinecone-text]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_text-0.5.2.tar.gz]
+[2023-06-22 13:50:41] INFO root fetch - main [MainThread]: End processing [pinecone-text]: success
+[2023-06-22 13:50:42] INFO root fetch - processPackages [SqliteOrmMagic]: Remove: archive file [/home/abi/fetcher/tmp/SqliteOrmMagic-0.0.5.tar.gz]
+[2023-06-22 13:50:42] INFO root fetch - processPackages [SqliteOrmMagic]: Remove: archive file [/home/abi/fetcher/tmp/SqliteOrmMagic-0.0.6.tar.gz]
+[2023-06-22 13:50:42] INFO root fetch - main [MainThread]: End processing [SqliteOrmMagic]: success
+[2023-06-22 13:50:42] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230621-py3-none-win_amd64.whl.zip]
+[2023-06-22 13:50:42] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230622-py3-none-win_amd64.whl.zip]
+[2023-06-22 13:50:42] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-22 13:50:43] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-8.2.0.tar.gz]
+[2023-06-22 13:50:43] INFO root fetch - processPackages [stellar-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stellar_sdk-8.2.1.tar.gz]
+[2023-06-22 13:50:43] INFO root fetch - main [MainThread]: End processing [stellar-sdk]: success
+[2023-06-22 13:50:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221046-py3-none-any.whl.zip]
+[2023-06-22 13:50:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221149-py3-none-any.whl.zip]
+[2023-06-22 13:50:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 13:51:49] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip]
+[2023-06-22 13:51:49] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
+[2023-06-22 13:51:49] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-06-22 13:51:49] INFO root fetch - main [MainThread]: Store serial: [18604371]
