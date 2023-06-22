@@ -18000,3 +18000,106 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 12:56:40] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.6.tar.gz]
 [2023-06-22 12:56:40] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-22 12:56:40] INFO root fetch - main [MainThread]: Store serial: [18603847]
+[2023-06-22 13:01:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603847]
+[2023-06-22 13:01:49] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-wsentids
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropython-sht20
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowlang
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merqube-client-lib
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swaggerspect
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydraulics
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropython-hdc1080
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrappeycom
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jsonltojson
+[2023-06-22 13:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jsonltojson
+[2023-06-22 13:01:49] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-22 13:01:49] INFO root fetch - processPackages [jsonltojson]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-22 13:01:49] WARNING root fetch - processPackages [micropython-sht20]: Skipping, unable to determine old version
+[2023-06-22 13:01:49] INFO root fetch - processPackages [micropython-sht20]: Start processing: nics
+[2023-06-22 13:01:49] INFO root fetch - main [MainThread]: End processing [micropython-sht20] error
+[2023-06-22 13:01:49] INFO root fetch - processPackages [jsonltojson]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-22 13:01:49] INFO root fetch - processPackages [scrappeycom]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-22 13:01:49] INFO root fetch - processPackages [swaggerspect]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 13:01:49] WARNING root fetch - processPackages [micropython-wsentids]: Skipping, unable to determine old version
+[2023-06-22 13:01:49] INFO root fetch - processPackages [micropython-wsentids]: Start processing: texto-transformer
+[2023-06-22 13:01:49] INFO root fetch - main [MainThread]: End processing [micropython-wsentids] error
+[2023-06-22 13:01:49] INFO root fetch - processPackages [flowlang]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 13:01:49] INFO root fetch - processPackages [pydraulics]: New version: [0.1] Old Version: [0.0.1]
+[2023-06-22 13:01:49] WARNING root fetch - processPackages [micropython-hdc1080]: Skipping, unable to determine old version
+[2023-06-22 13:01:49] INFO root fetch - processPackages [micropython-hdc1080]: Start processing: test-package-username
+[2023-06-22 13:01:49] INFO root fetch - main [MainThread]: End processing [micropython-hdc1080] error
+[2023-06-22 13:01:49] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 13:01:49] INFO root fetch - processPackages [jsonltojson]: Downloading https://files.pythonhosted.org/packages/11/01/51cb209ada84caa911d6d33d8b23afeaa9ef73b9198a306e1cc1a51c81c1/jsonltojson-0.0.1.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/4f/38/dbe12cb279d95b7c0499c45b5a428ae41d92719d10ed6f9249f81a50e7d5/scrappeycom-0.3.7.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [texto-transformer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 13:01:49] WARNING root fetch - processPackages [test-package-username]: Skipping, unable to determine old version
+[2023-06-22 13:01:49] INFO root fetch - processPackages [test-package-username]: Start processing: lnschema_core
+[2023-06-22 13:01:49] INFO root fetch - main [MainThread]: End processing [test-package-username] error
+[2023-06-22 13:01:49] INFO root fetch - processPackages [jsonltojson]: Downloading https://files.pythonhosted.org/packages/11/01/51cb209ada84caa911d6d33d8b23afeaa9ef73b9198a306e1cc1a51c81c1/jsonltojson-0.0.1.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [texto-transformer]: Downloading https://files.pythonhosted.org/packages/b7/c6/7d5fa3ec41f4f88cd2c83d6a8ea0a7b552b4a52fb6a14ecb92ecbf4b1c3c/texto_transformer-0.0.3.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [flowlang]: Downloading https://files.pythonhosted.org/packages/d1/ae/10d80961ea0f62f9d53bfa3e94a27ce305ff92617eb2525bc67608e27699/flowlang-0.0.1.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/e3/8a/87d5de868674de660bac929b7f69b1c1d2e86a4134f32d80f5784805935f/merqube_client_lib-0.8.2.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-22 13:01:49] INFO root fetch - processPackages [swaggerspect]: Downloading https://files.pythonhosted.org/packages/5a/8d/12793ff26c987bd6e540e01eba5da33860bc866103f3e1b92e4d1ba34ee8/swaggerspect-0.0.3.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/78/23/1a7b35d0bc5d084b000669841767485064cf4eb45ac6e524034fb547c276/scrappeycom-0.3.8.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [pydraulics]: Downloading https://files.pythonhosted.org/packages/2a/5b/0bbf4990e4c35f7b064bffdf476eb99363bab149ebb20a912c1fdaf0a6d2/pydraulics-0.0.1.tar.gz
+[2023-06-22 13:01:49] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [jsonltojson]: Downloading https://files.pythonhosted.org/packages/7d/cf/b736b43d701dfc24d9ddaa52a4d2e2a5e50ddefabed32c0312bcc690c397/jsonltojson-1.0.0.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [jsonltojson]: Downloading https://files.pythonhosted.org/packages/7d/cf/b736b43d701dfc24d9ddaa52a4d2e2a5e50ddefabed32c0312bcc690c397/jsonltojson-1.0.0.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [scrappeycom]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [scrappeycom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappeycom-0.3.7.tar.gz tmp/scrappeycom-0.3.8.tar.gz --markdown 20230622/s/scrappeycom/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [flowlang]: Downloading https://files.pythonhosted.org/packages/dc/c3/56ce162fa8dc6f5f5619eff7203eee2cd35d647586747d19c20756d1a50e/flowlang-0.0.2.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [texto-transformer]: Downloading https://files.pythonhosted.org/packages/64/60/78bf594267b7c9b73db5d6fe2de18ae4e3d4b4c730c9e65ac60109fe0086/texto_transformer-0.0.4.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [jsonltojson]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [jsonltojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonltojson-0.0.1.tar.gz tmp/jsonltojson-1.0.0.tar.gz --markdown 20230622/j/jsonltojson/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [jsonltojson]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [jsonltojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonltojson-0.0.1.tar.gz tmp/jsonltojson-1.0.0.tar.gz --markdown 20230622/j/jsonltojson/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230622/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/46/e5/e5cabd06e75c7a73c090820e784564bd56b6d650bf657c8af3ddf97f93e0/merqube_client_lib-0.9.0.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [texto-transformer]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [texto-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texto_transformer-0.0.3.tar.gz tmp/texto_transformer-0.0.4.tar.gz --markdown 20230622/t/texto-transformer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [pydraulics]: Downloading https://files.pythonhosted.org/packages/b4/89/da294caba4c2644bdbb66100cca9c104d550790f5deb00943060b0aca308/pydraulics-0.1.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [flowlang]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [flowlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowlang-0.0.1.tar.gz tmp/flowlang-0.0.2.tar.gz --markdown 20230622/f/flowlang/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.8.2.tar.gz tmp/merqube_client_lib-0.9.0.tar.gz --markdown 20230622/m/merqube-client-lib/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [swaggerspect]: Downloading https://files.pythonhosted.org/packages/ed/4b/2aa5bc7e7bd9b07acf1dd08c1c7af5d59f36e0be4d23794d4e21073b0de1/swaggerspect-0.0.4.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [pydraulics]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [pydraulics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydraulics-0.0.1.tar.gz tmp/pydraulics-0.1.tar.gz --markdown 20230622/p/pydraulics/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-22 13:01:50] INFO root fetch - processPackages [swaggerspect]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [swaggerspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swaggerspect-0.0.3.tar.gz tmp/swaggerspect-0.0.4.tar.gz --markdown 20230622/s/swaggerspect/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 13:01:50] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-22 13:01:50] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230622/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 13:01:51] INFO root fetch - processPackages [jsonltojson]: Remove: archive file [/home/abi/fetcher/tmp/jsonltojson-0.0.1.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - processPackages [jsonltojson]: Remove: archive file [/home/abi/fetcher/tmp/jsonltojson-1.0.0.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - main [MainThread]: End processing [jsonltojson]: success
+[2023-06-22 13:01:51] INFO root fetch - main [MainThread]: End processing [jsonltojson]: success
+[2023-06-22 13:01:51] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 13:01:51] INFO root fetch - processPackages [pydraulics]: Remove: archive file [/home/abi/fetcher/tmp/pydraulics-0.0.1.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - processPackages [pydraulics]: Remove: archive file [/home/abi/fetcher/tmp/pydraulics-0.1.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - main [MainThread]: End processing [pydraulics]: success
+[2023-06-22 13:01:51] INFO root fetch - processPackages [flowlang]: Remove: archive file [/home/abi/fetcher/tmp/flowlang-0.0.1.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - processPackages [flowlang]: Remove: archive file [/home/abi/fetcher/tmp/flowlang-0.0.2.tar.gz]
+[2023-06-22 13:01:51] INFO root fetch - main [MainThread]: End processing [flowlang]: success
+[2023-06-22 13:01:52] INFO root fetch - processPackages [swaggerspect]: Remove: archive file [/home/abi/fetcher/tmp/swaggerspect-0.0.3.tar.gz]
+[2023-06-22 13:01:52] INFO root fetch - processPackages [swaggerspect]: Remove: archive file [/home/abi/fetcher/tmp/swaggerspect-0.0.4.tar.gz]
+[2023-06-22 13:01:52] INFO root fetch - main [MainThread]: End processing [swaggerspect]: success
+[2023-06-22 13:01:52] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.7.tar.gz]
+[2023-06-22 13:01:52] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.8.tar.gz]
+[2023-06-22 13:01:52] INFO root fetch - main [MainThread]: End processing [scrappeycom]: success
+[2023-06-22 13:01:52] INFO root fetch - processPackages [merqube-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/merqube_client_lib-0.8.2.tar.gz]
+[2023-06-22 13:01:52] INFO root fetch - processPackages [merqube-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/merqube_client_lib-0.9.0.tar.gz]
+[2023-06-22 13:01:52] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-06-22 13:01:53] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-22 13:01:53] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-22 13:01:53] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-22 13:01:53] INFO root fetch - processPackages [texto-transformer]: Remove: archive file [/home/abi/fetcher/tmp/texto_transformer-0.0.3.tar.gz]
+[2023-06-22 13:01:53] INFO root fetch - processPackages [texto-transformer]: Remove: archive file [/home/abi/fetcher/tmp/texto_transformer-0.0.4.tar.gz]
+[2023-06-22 13:01:53] INFO root fetch - main [MainThread]: End processing [texto-transformer]: success
+[2023-06-22 13:01:53] INFO root fetch - main [MainThread]: Store serial: [18603898]
