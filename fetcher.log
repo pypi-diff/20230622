@@ -10257,3 +10257,40 @@
 [2023-06-22 05:36:02] INFO root fetch - processPackages [carpo-student]: Remove: archive file [/home/abi/fetcher/tmp/carpo_student-0.0.9.tar.gz]
 [2023-06-22 05:36:02] INFO root fetch - main [MainThread]: End processing [carpo-student]: success
 [2023-06-22 05:36:02] INFO root fetch - main [MainThread]: Store serial: [18600829]
+[2023-06-22 05:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600829]
+[2023-06-22 05:41:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wows-shell
+[2023-06-22 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wows-shell
+[2023-06-22 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hatch-project-pypi-2
+[2023-06-22 05:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-chatgpt
+[2023-06-22 05:41:12] INFO root fetch - processPackages [napari-chatgpt]: New version: [2023.6.3] Old Version: [2023.6.21]
+[2023-06-22 05:41:12] INFO root fetch - processPackages [hatch-project-pypi-2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 05:41:12] INFO root fetch - processPackages [wows-shell]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-22 05:41:12] INFO root fetch - processPackages [wows-shell]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-22 05:41:12] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/25/23/c0b7f4c2d49661649784839ee96d7af8491d97c9c506d83f78c3244521f3/hatch_project_pypi_2-0.0.8.tar.gz
+[2023-06-22 05:41:12] INFO root fetch - processPackages [napari-chatgpt]: Downloading https://files.pythonhosted.org/packages/c8/fa/cd7a3f6eaca1388c7a1e1ee158cfd892670fcde669624aa03dea2955a52c/napari-chatgpt-2023.6.21.tar.gz
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/6f/d2/9e758f63c119f278be1cbc282ca8ede4dda852e9cf1fdeede2e6980a26cf/wows_shell-1.2.1.tar.gz
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/6f/d2/9e758f63c119f278be1cbc282ca8ede4dda852e9cf1fdeede2e6980a26cf/wows_shell-1.2.1.tar.gz
+[2023-06-22 05:41:13] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/03/03/2648b818892fb354302e1aa97dcc8e3ef5b7f4fee1f964ebe31ac62d51fb/hatch_project_pypi_2-0.0.9.tar.gz
+[2023-06-22 05:41:13] INFO root fetch - processPackages [hatch-project-pypi-2]: executing diffoscope
+[2023-06-22 05:41:13] INFO root fetch - processPackages [hatch-project-pypi-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi_2-0.0.8.tar.gz tmp/hatch_project_pypi_2-0.0.9.tar.gz --markdown 20230622/h/hatch-project-pypi-2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/fd/f2/0b07cfb092ba7ba0e97b8a2ec2fed44002004e2a75a5848471b83f4a7f36/wows_shell-1.2.2.tar.gz
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/fd/f2/0b07cfb092ba7ba0e97b8a2ec2fed44002004e2a75a5848471b83f4a7f36/wows_shell-1.2.2.tar.gz
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: executing diffoscope
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wows_shell-1.2.1.tar.gz tmp/wows_shell-1.2.2.tar.gz --markdown 20230622/w/wows-shell/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: executing diffoscope
+[2023-06-22 05:41:13] INFO root fetch - processPackages [wows-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wows_shell-1.2.1.tar.gz tmp/wows_shell-1.2.2.tar.gz --markdown 20230622/w/wows-shell/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-22 05:41:13] INFO root fetch - processPackages [napari-chatgpt]: Downloading https://files.pythonhosted.org/packages/8c/96/9c6112d08a0b010d80cf211bd0cfdd8dcf83d4a900f06842547e759087fe/napari-chatgpt-2023.6.3.tar.gz
+[2023-06-22 05:41:13] INFO root fetch - processPackages [napari-chatgpt]: executing diffoscope
+[2023-06-22 05:41:13] INFO root fetch - processPackages [napari-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-chatgpt-2023.6.21.tar.gz tmp/napari-chatgpt-2023.6.3.tar.gz --markdown 20230622/n/napari-chatgpt/2023.6.21-2023.6.3/diff.md --exclude *.pyd
+[2023-06-22 05:41:14] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.8.tar.gz]
+[2023-06-22 05:41:14] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.9.tar.gz]
+[2023-06-22 05:41:14] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi-2]: success
+[2023-06-22 05:41:14] INFO root fetch - processPackages [wows-shell]: Remove: archive file [/home/abi/fetcher/tmp/wows_shell-1.2.1.tar.gz]
+[2023-06-22 05:41:14] INFO root fetch - processPackages [wows-shell]: Remove: archive file [/home/abi/fetcher/tmp/wows_shell-1.2.2.tar.gz]
+[2023-06-22 05:41:14] INFO root fetch - main [MainThread]: End processing [wows-shell]: success
+[2023-06-22 05:41:14] INFO root fetch - main [MainThread]: End processing [wows-shell]: success
+[2023-06-22 05:41:16] INFO root fetch - processPackages [napari-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-chatgpt-2023.6.21.tar.gz]
+[2023-06-22 05:41:16] INFO root fetch - processPackages [napari-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-chatgpt-2023.6.3.tar.gz]
+[2023-06-22 05:41:16] INFO root fetch - main [MainThread]: End processing [napari-chatgpt]: success
+[2023-06-22 05:41:16] INFO root fetch - main [MainThread]: Store serial: [18600840]
