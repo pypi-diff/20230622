@@ -11785,3 +11785,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 07:28:04] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.7.3.tar.gz]
 [2023-06-22 07:28:04] INFO root fetch - main [MainThread]: End processing [hstrat]: success
 [2023-06-22 07:28:04] INFO root fetch - main [MainThread]: Store serial: [18601371]
+[2023-06-22 07:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601371]
+[2023-06-22 07:33:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-orderpoint-generator
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-free-quantity
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robot-rumble
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chiral-bindings
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: statute-utils
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crazy-thursday
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spm1d
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyAlgoEngine
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reversinglabs-sdk-py3
+[2023-06-22 07:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finflo
+[2023-06-22 07:33:13] INFO root fetch - processPackages [chiral-bindings]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.3.5] Old Version: [0.3.2]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: New version: [15.0.1.0.1.4] Old Version: [15.0.1.0.1.3]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [spm1d]: New version: [0.4.2] Old Version: [0.4.19]
+[2023-06-22 07:33:13] WARNING root fetch - processPackages [statute-utils]: Skipping, unable to determine old version
+[2023-06-22 07:33:13] INFO root fetch - processPackages [statute-utils]: Start processing: aspose-tasks
+[2023-06-22 07:33:13] INFO root fetch - processPackages [robot-rumble]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 07:33:13] INFO root fetch - main [MainThread]: End processing [statute-utils] error
+[2023-06-22 07:33:13] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-generator]: New version: [15.0.1.0.1.1] Old Version: [15.0.1.0.1]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [reversinglabs-sdk-py3]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.9.1] Old Version: [2023.6.9.0]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [aspose-tasks]: New version: [23.6.0] Old Version: [23.5.0]
+[2023-06-22 07:33:13] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/b6/a5/f2932238b21ce87a7ac6b866a1bc4036c0621915252294bfab7afb765d34/robot_rumble-0.0.4.tar.gz
+[2023-06-22 07:33:13] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/b1/40/5829ec135b8688f4278ad96c53701edc59c7542d244da7fff625e9bf0586/crazy-thursday-2023.6.9.0.tar.gz
+[2023-06-22 07:33:13] INFO root fetch - processPackages [spm1d]: Downloading https://files.pythonhosted.org/packages/90/1c/3cd686a4fc577a28790a2c80f73c2ce92de8dda09c1c844885b36c0303e2/spm1d-0.4.19.tar.gz
+[2023-06-22 07:33:13] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/46/34/2d131eb057251988c078cc2b3154a60feb01ff88035ad1b3ec67f16fefd3/PyAlgoEngine-0.3.2.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [chiral-bindings]: Downloading https://files.pythonhosted.org/packages/4f/c4/3b4bc18011a644eb8bdacf2ae9f2c60277ea22a5e5e06c11eb7e5709dd78/chiral_bindings-0.1.0.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [aspose-tasks]: Downloading https://files.pythonhosted.org/packages/06/99/5277a2d5e310279391a899680e5a2ce08b69a80ac2817418ce987dde9f41/aspose_tasks-23.5.0-py3-none-win_amd64.whl
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/2a/35/2afa0ac0ae0be41f0f82f40c0b152930695fb0172b07b46f3c129ace45a9/odoo_addon_stock_free_quantity-15.0.1.0.1.3-py3-none-any.whl
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-generator]: Downloading https://files.pythonhosted.org/packages/0e/62/ac1140b1db31c92ffea8b529315adf0c373d9ba5e9f4b22873acd33cd657/odoo_addon_stock_orderpoint_generator-15.0.1.0.1-py3-none-any.whl
+[2023-06-22 07:33:14] WARNING root fetch - processPackages [aspose-tasks]: Skipping package: exceeds size limit 47412599>=10485760
+[2023-06-22 07:33:14] INFO root fetch - processPackages [aspose-tasks]: Start processing: AFR
+[2023-06-22 07:33:14] INFO root fetch - main [MainThread]: End processing [aspose-tasks] error
+[2023-06-22 07:33:14] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Downloading https://files.pythonhosted.org/packages/de/94/268404f6743cad6606e11a3445015981c909cf440101ea24bd14a5444a68/reversinglabs-sdk-py3-2.1.2.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [AFR]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 07:33:14] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/5e/9d/4da02a3a3f23da194e2e84c3736bb6b6dddf3afa5ff453187cab26459381/crazy-thursday-2023.6.9.1.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [robot-rumble]: Downloading https://files.pythonhosted.org/packages/bd/c3/29e6ff4aca62a84555ba76c75978ef3f430161260d31e65bdb585c1d8d4b/robot_rumble-0.0.5.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/51/cd/ee9c272ba91a0409762a4e7dc669aa64fb66229f433a2ccc7b96a84bc168/PyAlgoEngine-0.3.5.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.9.0.tar.gz tmp/crazy-thursday-2023.6.9.1.tar.gz --markdown 20230622/c/crazy-thursday/2023.6.9.0-2023.6.9.1/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [chiral-bindings]: Downloading https://files.pythonhosted.org/packages/6c/54/f67272ef2b53dc6b760f3b2a1439701f8749f9b78b6c7fca9bac3fb01ec0/chiral_bindings-0.1.1.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.2.tar.gz tmp/PyAlgoEngine-0.3.5.tar.gz --markdown 20230622/P/PyAlgoEngine/0.3.2-0.3.5/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Downloading https://files.pythonhosted.org/packages/df/ab/1e12c4a9704eb598e22b9613d5e98b15e60b918de84f3ad5a60e20b7b0d2/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl
+[2023-06-22 07:33:14] INFO root fetch - processPackages [AFR]: Downloading https://files.pythonhosted.org/packages/a5/d1/a40646bce8032fbc487368f489d4862e40c5cd6fc8ca22e5c5ffd4f43b79/AFR-0.2.2.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [robot-rumble]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [robot-rumble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot_rumble-0.0.4.tar.gz tmp/robot_rumble-0.0.5.tar.gz --markdown 20230622/r/robot-rumble/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-generator]: Downloading https://files.pythonhosted.org/packages/e6/98/0abe3fb9e2e382568c80d90a58ecf020700520f234e85cb215f44a8a71f2/odoo_addon_stock_orderpoint_generator-15.0.1.0.1.1-py3-none-any.whl
+[2023-06-22 07:33:14] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Downloading https://files.pythonhosted.org/packages/d3/a9/4aff640a1b4b03d952e6260b6d8febf313415a0b3af0484e9837e4031eca/reversinglabs-sdk-py3-2.2.0.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230622/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [reversinglabs-sdk-py3]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [reversinglabs-sdk-py3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reversinglabs-sdk-py3-2.1.2.tar.gz tmp/reversinglabs-sdk-py3-2.2.0.tar.gz --markdown 20230622/r/reversinglabs-sdk-py3/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [chiral-bindings]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [chiral-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiral_bindings-0.1.0.tar.gz tmp/chiral_bindings-0.1.1.tar.gz --markdown 20230622/c/chiral-bindings/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-stock-free-quantity/15.0.1.0.1.3-15.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-generator]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_orderpoint_generator-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_orderpoint_generator-15.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-stock-orderpoint-generator/15.0.1.0.1-15.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-22 07:33:14] INFO root fetch - processPackages [AFR]: Downloading https://files.pythonhosted.org/packages/ca/19/9fb0f29f47b6f35d5cccc41f1015c67dae76144c1ca4d194963002fdd673/AFR-0.2.3.tar.gz
+[2023-06-22 07:33:14] INFO root fetch - processPackages [AFR]: executing diffoscope
+[2023-06-22 07:33:14] INFO root fetch - processPackages [AFR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AFR-0.2.2.tar.gz tmp/AFR-0.2.3.tar.gz --markdown 20230622/A/AFR/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 07:33:15] INFO root fetch - processPackages [spm1d]: Downloading https://files.pythonhosted.org/packages/4e/c6/41931b66c21680f8157df4d1f64c17afb2dfdb20eec251f936dc8606bc0c/spm1d-0.4.2.tar.gz
+[2023-06-22 07:33:15] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.0.tar.gz]
+[2023-06-22 07:33:15] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.9.1.tar.gz]
+[2023-06-22 07:33:15] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-22 07:33:15] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.2.tar.gz]
+[2023-06-22 07:33:15] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.5.tar.gz]
+[2023-06-22 07:33:15] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2023-06-22 07:33:16] INFO root fetch - processPackages [robot-rumble]: Remove: archive file [/home/abi/fetcher/tmp/robot_rumble-0.0.4.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - processPackages [robot-rumble]: Remove: archive file [/home/abi/fetcher/tmp/robot_rumble-0.0.5.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - main [MainThread]: End processing [robot-rumble]: success
+[2023-06-22 07:33:16] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-06-22 07:33:16] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-06-22 07:33:16] INFO root fetch - processPackages [odoo-addon-stock-free-quantity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_free_quantity-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-22 07:33:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-free-quantity]: success
+[2023-06-22 07:33:16] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Remove: archive file [/home/abi/fetcher/tmp/reversinglabs-sdk-py3-2.1.2.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - processPackages [reversinglabs-sdk-py3]: Remove: archive file [/home/abi/fetcher/tmp/reversinglabs-sdk-py3-2.2.0.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - main [MainThread]: End processing [reversinglabs-sdk-py3]: success
+[2023-06-22 07:33:16] INFO root fetch - processPackages [AFR]: Remove: archive file [/home/abi/fetcher/tmp/AFR-0.2.2.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - processPackages [AFR]: Remove: archive file [/home/abi/fetcher/tmp/AFR-0.2.3.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - main [MainThread]: End processing [AFR]: success
+[2023-06-22 07:33:16] INFO root fetch - processPackages [chiral-bindings]: Remove: archive file [/home/abi/fetcher/tmp/chiral_bindings-0.1.0.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - processPackages [chiral-bindings]: Remove: archive file [/home/abi/fetcher/tmp/chiral_bindings-0.1.1.tar.gz]
+[2023-06-22 07:33:16] INFO root fetch - main [MainThread]: End processing [chiral-bindings]: success
+[2023-06-22 07:33:16] INFO root fetch - processPackages [spm1d]: executing diffoscope
+[2023-06-22 07:33:16] INFO root fetch - processPackages [spm1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spm1d-0.4.19.tar.gz tmp/spm1d-0.4.2.tar.gz --markdown 20230622/s/spm1d/0.4.19-0.4.2/diff.md --exclude *.pyd
+[2023-06-22 07:33:17] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-generator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_orderpoint_generator-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-22 07:33:17] INFO root fetch - processPackages [odoo-addon-stock-orderpoint-generator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_orderpoint_generator-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-22 07:33:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-orderpoint-generator]: success
+[2023-06-22 07:33:22] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.19.tar.gz]
+[2023-06-22 07:33:22] INFO root fetch - processPackages [spm1d]: Remove: archive file [/home/abi/fetcher/tmp/spm1d-0.4.2.tar.gz]
+[2023-06-22 07:33:22] INFO root fetch - main [MainThread]: End processing [spm1d]: success
+[2023-06-22 07:33:22] INFO root fetch - main [MainThread]: Store serial: [18601407]
