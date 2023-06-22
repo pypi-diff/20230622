@@ -9748,3 +9748,69 @@
 [2023-06-22 04:53:44] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-06-22 04:53:44] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-06-22 04:53:44] INFO root fetch - main [MainThread]: Store serial: [18600659]
+[2023-06-22 04:58:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600659]
+[2023-06-22 04:58:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 04:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brunospackage
+[2023-06-22 04:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: start-cloudflare
+[2023-06-22 04:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featurelayers
+[2023-06-22 04:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libs-n-utils-package-uq-2022
+[2023-06-22 04:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaohn-common-utils
+[2023-06-22 04:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domain-admin
+[2023-06-22 04:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: p-ttauto-crawler
+[2023-06-22 04:58:54] INFO root fetch - processPackages [start-cloudflare]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 04:58:54] INFO root fetch - processPackages [brunospackage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 04:58:54] INFO root fetch - processPackages [featurelayers]: New version: [1.2.6] Old Version: [1.2.4]
+[2023-06-22 04:58:54] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-06-22 04:58:54] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 04:58:54] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 04:58:54] INFO root fetch - processPackages [domain-admin]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-22 04:58:55] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/b1/7f/009f027d6e720c75739cc21c7bce60078791eb10a696c3aaf724c8305583/featurelayers-1.2.4.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/b7/db/6028a57d58c5253d7bd565c90fe612d055b1a5e2c8a4fbe2d23dacfd20cd/gaohn-common-utils-0.0.76.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/52/31/ecb0c929ddf65f4edbe9a5343411da5c3c8e7e15931235cfe95c77762bd0/libs_n_utils_package_uq_2022-0.0.2.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [start-cloudflare]: Downloading https://files.pythonhosted.org/packages/2c/5a/2c926219b02de9d0fed51bd157d7b2c33c806190d1ba20afff1f5db0f90c/start_cloudflare-0.0.1.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/ac/77/0843d92036bee8f14b374a01944a8a1342b0c87ba92f04fbd76c6c6c8f3b/brunospackage-0.0.8.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/9c/61/d8b7049782e732789a071ca7f0e26d87e22d17f79899b60c1109bec69393/domain-admin-1.4.3.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/d1/75/d083c18847c9cb2a5cfa36651392a426c5ec2cdd6f6e161a6410d4da257d/featurelayers-1.2.6.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-22 04:58:55] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230622/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 04:58:55] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/39/27/b2eb3f84de993e29ba830dbe9031b585e046ca1ee12e5e681fae48761a98/gaohn-common-utils-0.0.77.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Downloading https://files.pythonhosted.org/packages/e0/ed/ec1597b877d66f3b50d8e6781f87d931cbd1b4b9af4a50fa14e7bd97cf69/libs_n_utils_package_uq_2022-0.0.3.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-22 04:58:55] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.2.4.tar.gz tmp/featurelayers-1.2.6.tar.gz --markdown 20230622/f/featurelayers/1.2.4-1.2.6/diff.md --exclude *.pyd
+[2023-06-22 04:58:55] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: executing diffoscope
+[2023-06-22 04:58:55] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libs_n_utils_package_uq_2022-0.0.2.tar.gz tmp/libs_n_utils_package_uq_2022-0.0.3.tar.gz --markdown 20230622/l/libs-n-utils-package-uq-2022/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 04:58:55] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-22 04:58:55] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.76.tar.gz tmp/gaohn-common-utils-0.0.77.tar.gz --markdown 20230622/g/gaohn-common-utils/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-06-22 04:58:55] INFO root fetch - processPackages [start-cloudflare]: Downloading https://files.pythonhosted.org/packages/25/45/621486f1f65831fa61ca2af3c865867fbc8aa6ad572c30ae2da17c8416c6/start_cloudflare-0.0.2.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [brunospackage]: Downloading https://files.pythonhosted.org/packages/ed/aa/d7df2a9650cbd6ab39fcf0f1456a54ce65d6295beb9225dd7efd7247b9a2/brunospackage-0.0.9.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [start-cloudflare]: executing diffoscope
+[2023-06-22 04:58:55] INFO root fetch - processPackages [start-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_cloudflare-0.0.1.tar.gz tmp/start_cloudflare-0.0.2.tar.gz --markdown 20230622/s/start-cloudflare/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 04:58:55] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/fc/aa/dc22088887587c98541c0d48f5c804409045d57381b9362b308c9a687fdc/domain-admin-1.4.4.tar.gz
+[2023-06-22 04:58:55] INFO root fetch - processPackages [brunospackage]: executing diffoscope
+[2023-06-22 04:58:55] INFO root fetch - processPackages [brunospackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brunospackage-0.0.8.tar.gz tmp/brunospackage-0.0.9.tar.gz --markdown 20230622/b/brunospackage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 04:58:55] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-22 04:58:55] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.3.tar.gz tmp/domain-admin-1.4.4.tar.gz --markdown 20230622/d/domain-admin/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-22 04:58:56] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-22 04:58:56] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-22 04:58:56] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-22 04:58:56] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.4.tar.gz]
+[2023-06-22 04:58:56] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.6.tar.gz]
+[2023-06-22 04:58:56] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-22 04:58:57] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.76.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.77.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-22 04:58:57] INFO root fetch - processPackages [start-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/start_cloudflare-0.0.1.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - processPackages [start-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/start_cloudflare-0.0.2.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - main [MainThread]: End processing [start-cloudflare]: success
+[2023-06-22 04:58:57] INFO root fetch - processPackages [brunospackage]: Remove: archive file [/home/abi/fetcher/tmp/brunospackage-0.0.8.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - processPackages [brunospackage]: Remove: archive file [/home/abi/fetcher/tmp/brunospackage-0.0.9.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - main [MainThread]: End processing [brunospackage]: success
+[2023-06-22 04:58:57] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.2.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - processPackages [libs-n-utils-package-uq-2022]: Remove: archive file [/home/abi/fetcher/tmp/libs_n_utils_package_uq_2022-0.0.3.tar.gz]
+[2023-06-22 04:58:57] INFO root fetch - main [MainThread]: End processing [libs-n-utils-package-uq-2022]: success
+[2023-06-22 04:59:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.3.tar.gz]
+[2023-06-22 04:59:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.4.tar.gz]
+[2023-06-22 04:59:05] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-22 04:59:05] INFO root fetch - main [MainThread]: Store serial: [18600679]
