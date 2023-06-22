@@ -17896,3 +17896,107 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 12:51:15] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221046-py3-none-any.whl.zip]
 [2023-06-22 12:51:15] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-22 12:51:15] INFO root fetch - main [MainThread]: Store serial: [18603810]
+[2023-06-22 12:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603810]
+[2023-06-22 12:56:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: batchx
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.target
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.analytics
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citation-report
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optigatrust
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sharingiscaring
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trainer
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nics
+[2023-06-22 12:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: function-analyser
+[2023-06-22 12:56:24] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [radical.analytics]: New version: [1.6.7] Old Version: [1.5.0]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [trainer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [citation-report]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [optigatrust]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [function-analyser]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [batchx]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [domain-admin]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [nics]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-22 12:56:24] INFO root fetch - processPackages [function-analyser]: Downloading https://files.pythonhosted.org/packages/22/f5/358649cbfe34c1cb7473f7ae6eaee9e28c155a29ebb0f3c790866664b57a/function-analyser-0.0.7.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [citation-report]: Downloading https://files.pythonhosted.org/packages/79/fd/6ba7d38fefa1d0c6f71b910b0305ab294a58e398db7fe296e93c66da3f18/citation_report-0.1.4.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/36/4b/3b1d5aade0198d252e61978889c45b100ce499f10fe9e3a2dc4cf945b8cc/nics-0.7.0.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/8b/c6/747af42d8872ab5af79a309a14918083e52a6ba309710f0fce89901cba9b/domain-admin-1.4.5.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [trainer]: Downloading https://files.pythonhosted.org/packages/41/02/ba061ab8fc85a8095a693bcd9335c02e924f4b19a74d0538cbdd87bc879c/trainer-0.0.8.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/7b/7c/1b8c292d299a1fb7d166102d20468f1201b41c673bc19d219d6c0b741b8c/radical.analytics-1.5.0.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [optigatrust]: Downloading https://files.pythonhosted.org/packages/1d/c7/192509a04a2a7f7bef83ebca129cd982fce1a24a4d73ee9521c9911300c8/optigatrust-1.3.7.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/1a/b4/eafc6c05bd2118b4e79a8b7fe5d0f3b4f63562467082d84eb263df649056/batchx-9.8.0.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [function-analyser]: Downloading https://files.pythonhosted.org/packages/5c/c6/fc0f9e0a1b156f9fe55d9a1373afa3605111299b1bdbcc6b40ba208f88e1/function-analyser-0.0.8.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-06-22 12:56:24] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230622/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 12:56:24] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [citation-report]: Downloading https://files.pythonhosted.org/packages/ed/77/87faf6bb51d7fa8aa7359ecbd30cd95635ec673d33009ff04822c63fc183/citation_report-0.1.5.tar.gz
+[2023-06-22 12:56:24] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-22 12:56:25] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/66/81/f8ad31bca2369f6c2b872f9ce0260b8c55fe276d1e2868180c9435c2750b/domain-admin-1.4.6.tar.gz
+[2023-06-22 12:56:25] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.5.tar.gz tmp/domain-admin-1.4.6.tar.gz --markdown 20230622/d/domain-admin/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-06-22 12:56:25] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-22 12:56:25] INFO root fetch - processPackages [dissect.target]: Start processing: cloud-governance
+[2023-06-22 12:56:25] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-22 12:56:25] INFO root fetch - processPackages [citation-report]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [citation-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_report-0.1.4.tar.gz tmp/citation_report-0.1.5.tar.gz --markdown 20230622/c/citation-report/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-22 12:56:25] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.7.0.tar.gz tmp/nics-0.8.0.tar.gz --markdown 20230622/n/nics/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-22 12:56:25] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-22 12:56:25] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/5b/81/5c50aa0623da735c9a61638def1c8ce16e9c73508049a9a537486f67b2cc/batchx-9.9.0.tar.gz
+[2023-06-22 12:56:25] INFO root fetch - processPackages [trainer]: Downloading https://files.pythonhosted.org/packages/65/4f/3f1d3eeeed1e74373c7a7e85cceb31015446a29da5f86c21294febc83447/trainer-0.0.9.tar.gz
+[2023-06-22 12:56:25] INFO root fetch - processPackages [optigatrust]: Downloading https://files.pythonhosted.org/packages/58/50/6962d9824dcd3e5883f6ee2ee55b41ac5d793d8158a2b06892aa1340c577/optigatrust-1.3.8.tar.gz
+[2023-06-22 12:56:25] INFO root fetch - processPackages [function-analyser]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [function-analyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function-analyser-0.0.7.tar.gz tmp/function-analyser-0.0.8.tar.gz --markdown 20230622/f/function-analyser/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-22 12:56:25] INFO root fetch - processPackages [trainer]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainer-0.0.8.tar.gz tmp/trainer-0.0.9.tar.gz --markdown 20230622/t/trainer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 12:56:25] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-22 12:56:25] INFO root fetch - processPackages [batchx]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [batchx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchx-9.8.0.tar.gz tmp/batchx-9.9.0.tar.gz --markdown 20230622/b/batchx/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-22 12:56:25] INFO root fetch - processPackages [optigatrust]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [optigatrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optigatrust-1.3.7.tar.gz tmp/optigatrust-1.3.8.tar.gz --markdown 20230622/o/optigatrust/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-22 12:56:25] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-22 12:56:25] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-22 12:56:25] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230622/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-22 12:56:26] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.7.0.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - processPackages [nics]: Start processing: flowops
+[2023-06-22 12:56:26] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 12:56:26] WARNING root fetch - processPackages [flowops]: Skipping, unable to determine old version
+[2023-06-22 12:56:26] INFO root fetch - processPackages [flowops]: Start processing: micropython-wsentids
+[2023-06-22 12:56:26] INFO root fetch - main [MainThread]: End processing [flowops] error
+[2023-06-22 12:56:26] INFO root fetch - processPackages [function-analyser]: Remove: archive file [/home/abi/fetcher/tmp/function-analyser-0.0.7.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - processPackages [function-analyser]: Remove: archive file [/home/abi/fetcher/tmp/function-analyser-0.0.8.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - main [MainThread]: End processing [function-analyser]: success
+[2023-06-22 12:56:26] INFO root fetch - processPackages [citation-report]: Remove: archive file [/home/abi/fetcher/tmp/citation_report-0.1.4.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - processPackages [citation-report]: Remove: archive file [/home/abi/fetcher/tmp/citation_report-0.1.5.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - main [MainThread]: End processing [citation-report]: success
+[2023-06-22 12:56:26] WARNING root fetch - processPackages [micropython-wsentids]: Skipping, unable to determine old version
+[2023-06-22 12:56:26] INFO root fetch - main [MainThread]: End processing [micropython-wsentids] error
+[2023-06-22 12:56:26] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.8.0.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.9.0.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - main [MainThread]: End processing [batchx]: success
+[2023-06-22 12:56:26] INFO root fetch - processPackages [optigatrust]: Remove: archive file [/home/abi/fetcher/tmp/optigatrust-1.3.7.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - processPackages [optigatrust]: Remove: archive file [/home/abi/fetcher/tmp/optigatrust-1.3.8.tar.gz]
+[2023-06-22 12:56:26] INFO root fetch - main [MainThread]: End processing [optigatrust]: success
+[2023-06-22 12:56:27] INFO root fetch - processPackages [trainer]: Remove: archive file [/home/abi/fetcher/tmp/trainer-0.0.8.tar.gz]
+[2023-06-22 12:56:27] INFO root fetch - processPackages [trainer]: Remove: archive file [/home/abi/fetcher/tmp/trainer-0.0.9.tar.gz]
+[2023-06-22 12:56:27] INFO root fetch - main [MainThread]: End processing [trainer]: success
+[2023-06-22 12:56:27] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-22 12:56:27] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-22 12:56:27] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-22 12:56:28] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/dd/ea/c60eeaf6b1275bfd4aa95f6d7e3b3969cfd767711c0f98183e5d86535c37/radical.analytics-1.6.7.tar.gz
+[2023-06-22 12:56:28] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.8.tar.gz]
+[2023-06-22 12:56:28] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-06-22 12:56:28] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-06-22 12:56:28] INFO root fetch - processPackages [radical.analytics]: executing diffoscope
+[2023-06-22 12:56:28] INFO root fetch - processPackages [radical.analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.analytics-1.5.0.tar.gz tmp/radical.analytics-1.6.7.tar.gz --markdown 20230622/r/radical.analytics/1.5.0-1.6.7/diff.md --exclude *.pyd
+[2023-06-22 12:56:31] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.5.0.tar.gz]
+[2023-06-22 12:56:31] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
+[2023-06-22 12:56:31] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
+[2023-06-22 12:56:40] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.5.tar.gz]
+[2023-06-22 12:56:40] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.6.tar.gz]
+[2023-06-22 12:56:40] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-22 12:56:40] INFO root fetch - main [MainThread]: Store serial: [18603847]
