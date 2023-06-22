@@ -12216,3 +12216,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:04:52] INFO root fetch - processPackages [dash-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/dash_leaflet-0.1.9rc5.tar.gz]
 [2023-06-22 08:04:52] INFO root fetch - main [MainThread]: End processing [dash-leaflet]: success
 [2023-06-22 08:04:52] INFO root fetch - main [MainThread]: Store serial: [18601527]
+[2023-06-22 08:09:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601527]
+[2023-06-22 08:10:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 08:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bocfx
+[2023-06-22 08:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-06-22 08:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ziglang
+[2023-06-22 08:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyguess
+[2023-06-22 08:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: impoasdiff
+[2023-06-22 08:10:01] INFO root fetch - processPackages [bocfx]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-22 08:10:01] INFO root fetch - processPackages [ziglang]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230622] Old Version: [2.4.0.dev20230621]
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyguess]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-22 08:10:01] WARNING root fetch - processPackages [impoasdiff]: Skipping, unable to determine old version
+[2023-06-22 08:10:01] INFO root fetch - main [MainThread]: End processing [impoasdiff] error
+[2023-06-22 08:10:01] INFO root fetch - processPackages [ziglang]: Downloading https://files.pythonhosted.org/packages/ed/be/c69f5257e16da1fb3c3f0771393a3b7e8a2d53679085040e18f06f18c32f/ziglang-0.9.0-py3-none-win_amd64.whl
+[2023-06-22 08:10:01] INFO root fetch - processPackages [bocfx]: Downloading https://files.pythonhosted.org/packages/41/29/4abbcaa5b321170cec0fcd709ff2d10447c916ecb6b9c5e2bbb4d9be57b2/bocfx-0.8.0.tar.gz
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/c4/8b/93dd168406eee082ba8287f0524d2b8373054771a77299abe3cdb58b885b/pyg_nightly-2.4.0.dev20230621.tar.gz
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyguess]: Downloading https://files.pythonhosted.org/packages/d4/87/abf2c956c3faa61109eee22fb230e0fe66b210206373c85e5b6a9ed5e031/pyguess-0.1.0.tar.gz
+[2023-06-22 08:10:01] INFO root fetch - processPackages [bocfx]: Downloading https://files.pythonhosted.org/packages/3f/b7/898a8117b6fc583f1dc8fdef35cf188c3182b70ba6cb90a76746b8e822d5/bocfx-0.8.1.tar.gz
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/39/11/524205f0250a2169085c261544708bf1c31b1998d0c5442f284902b7ce20/pyg_nightly-2.4.0.dev20230622.tar.gz
+[2023-06-22 08:10:01] INFO root fetch - processPackages [bocfx]: executing diffoscope
+[2023-06-22 08:10:01] INFO root fetch - processPackages [bocfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bocfx-0.8.0.tar.gz tmp/bocfx-0.8.1.tar.gz --markdown 20230622/b/bocfx/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyguess]: Downloading https://files.pythonhosted.org/packages/97/45/894c7f78660f3d9cf377f3297a2680b82578eb69e5b5410c887e5b5fc0c6/pyguess-0.2.0.tar.gz
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-22 08:10:01] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230621.tar.gz tmp/pyg_nightly-2.4.0.dev20230622.tar.gz --markdown 20230622/p/pyg-nightly/2.4.0.dev20230621-2.4.0.dev20230622/diff.md --exclude *.pyd
+[2023-06-22 08:10:02] INFO root fetch - processPackages [pyguess]: executing diffoscope
+[2023-06-22 08:10:02] INFO root fetch - processPackages [pyguess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguess-0.1.0.tar.gz tmp/pyguess-0.2.0.tar.gz --markdown 20230622/p/pyguess/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 08:10:02] WARNING root fetch - processPackages [ziglang]: Skipping package: exceeds size limit 66169850>=10485760
+[2023-06-22 08:10:02] INFO root fetch - main [MainThread]: End processing [ziglang] error
+[2023-06-22 08:10:02] INFO root fetch - processPackages [bocfx]: Remove: archive file [/home/abi/fetcher/tmp/bocfx-0.8.0.tar.gz]
+[2023-06-22 08:10:02] INFO root fetch - processPackages [bocfx]: Remove: archive file [/home/abi/fetcher/tmp/bocfx-0.8.1.tar.gz]
+[2023-06-22 08:10:02] INFO root fetch - main [MainThread]: End processing [bocfx]: success
+[2023-06-22 08:10:03] INFO root fetch - processPackages [pyguess]: Remove: archive file [/home/abi/fetcher/tmp/pyguess-0.1.0.tar.gz]
+[2023-06-22 08:10:03] INFO root fetch - processPackages [pyguess]: Remove: archive file [/home/abi/fetcher/tmp/pyguess-0.2.0.tar.gz]
+[2023-06-22 08:10:03] INFO root fetch - main [MainThread]: End processing [pyguess]: success
+[2023-06-22 08:10:07] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230621.tar.gz]
+[2023-06-22 08:10:07] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230622.tar.gz]
+[2023-06-22 08:10:07] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-22 08:10:07] INFO root fetch - main [MainThread]: Store serial: [18601555]
