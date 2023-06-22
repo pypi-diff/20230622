@@ -21225,3 +21225,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 14:57:47] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.4.7.tar.gz]
 [2023-06-22 14:57:47] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2023-06-22 14:57:47] INFO root fetch - main [MainThread]: Store serial: [18605105]
+[2023-06-22 15:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605105]
+[2023-06-22 15:02:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-puml-mod
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plottah
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readme-ai
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-info
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splunk-add-on-ucc-framework
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snakemake
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cs-telegram-bot-api
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xdat
+[2023-06-22 15:02:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: postgres-ddl
+[2023-06-22 15:02:57] INFO root fetch - processPackages [readme-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 15:02:57] WARNING root fetch - processPackages [mkdocs-puml-mod]: Skipping, unable to determine old version
+[2023-06-22 15:02:57] INFO root fetch - main [MainThread]: End processing [mkdocs-puml-mod] error
+[2023-06-22 15:02:57] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 15:02:57] INFO root fetch - processPackages [plottah]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 15:02:57] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-22 15:02:57] WARNING root fetch - processPackages [crypto-info]: Skipping, unable to determine old version
+[2023-06-22 15:02:57] INFO root fetch - main [MainThread]: End processing [crypto-info] error
+[2023-06-22 15:02:57] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-06-22 15:02:57] INFO root fetch - processPackages [cs-telegram-bot-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 15:02:57] INFO root fetch - processPackages [postgres-ddl]: New version: [1.9] Old Version: [1.8]
+[2023-06-22 15:02:57] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-06-22 15:02:57] INFO root fetch - processPackages [readme-ai]: Downloading https://files.pythonhosted.org/packages/e2/8c/3115629c8e59d1e445d9dba674aa36410a550a928290f1e8d5aab7fa5c95/readme_ai-0.1.1.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/4b/94/d33f67502c99998bd9ce5d332d8d6b3360140e458e75c48809ee95eab131/plottah-0.1.1.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [cs-telegram-bot-api]: Downloading https://files.pythonhosted.org/packages/47/57/da4992daec71b9561ea4d452af1004dbc7a07ed948d3da52cb7e353781c6/cs-telegram-bot-api-0.0.8.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [postgres-ddl]: Downloading https://files.pythonhosted.org/packages/e1/7d/ab866abe7b5748cb8eb9175047ac32f8e574d4b92b37f0acc5645317874c/postgres_ddl-1.8.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [readme-ai]: Downloading https://files.pythonhosted.org/packages/7a/6a/aa87edeb4c36ce779d2ee77eca2c83c1af09e0af85579c52ee4b5b614d93/readme_ai-0.1.2.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [readme-ai]: executing diffoscope
+[2023-06-22 15:02:57] INFO root fetch - processPackages [readme-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ai-0.1.1.tar.gz tmp/readme_ai-0.1.2.tar.gz --markdown 20230622/r/readme-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 15:02:57] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-06-22 15:02:57] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230622/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-06-22 15:02:57] INFO root fetch - processPackages [cs-telegram-bot-api]: Downloading https://files.pythonhosted.org/packages/2c/7b/9de1c9523d5205889175be5ba87d00713ab75deeacfb1644c6ae41726f1d/cs-telegram-bot-api-0.0.9.tar.gz
+[2023-06-22 15:02:57] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-22 15:02:57] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230622/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 15:02:57] INFO root fetch - processPackages [plottah]: Downloading https://files.pythonhosted.org/packages/ce/07/02c9cdf3f5828f6dd8d8f2aa71dd7419309fd73115b03c9a2d008fcf1358/plottah-0.1.2.tar.gz
+[2023-06-22 15:02:58] INFO root fetch - processPackages [postgres-ddl]: Downloading https://files.pythonhosted.org/packages/1d/f7/c4c7f53968066eb428bd62a3d672b8add90595fbf43bb27004ff304f6947/postgres_ddl-1.9.tar.gz
+[2023-06-22 15:02:58] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2023-06-22 15:02:58] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-06-22 15:02:58] INFO root fetch - processPackages [plottah]: executing diffoscope
+[2023-06-22 15:02:58] INFO root fetch - processPackages [plottah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottah-0.1.1.tar.gz tmp/plottah-0.1.2.tar.gz --markdown 20230622/p/plottah/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 15:02:58] INFO root fetch - processPackages [cs-telegram-bot-api]: executing diffoscope
+[2023-06-22 15:02:58] INFO root fetch - processPackages [cs-telegram-bot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-telegram-bot-api-0.0.8.tar.gz tmp/cs-telegram-bot-api-0.0.9.tar.gz --markdown 20230622/c/cs-telegram-bot-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 15:02:58] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2023-06-22 15:02:58] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20230622/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-22 15:02:58] INFO root fetch - processPackages [postgres-ddl]: executing diffoscope
+[2023-06-22 15:02:58] INFO root fetch - processPackages [postgres-ddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres_ddl-1.8.tar.gz tmp/postgres_ddl-1.9.tar.gz --markdown 20230622/p/postgres-ddl/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-22 15:02:58] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-06-22 15:02:58] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230622/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-06-22 15:02:59] INFO root fetch - processPackages [readme-ai]: Remove: archive file [/home/abi/fetcher/tmp/readme_ai-0.1.1.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - processPackages [readme-ai]: Remove: archive file [/home/abi/fetcher/tmp/readme_ai-0.1.2.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - main [MainThread]: End processing [readme-ai]: success
+[2023-06-22 15:02:59] INFO root fetch - processPackages [cs-telegram-bot-api]: Remove: archive file [/home/abi/fetcher/tmp/cs-telegram-bot-api-0.0.8.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - processPackages [cs-telegram-bot-api]: Remove: archive file [/home/abi/fetcher/tmp/cs-telegram-bot-api-0.0.9.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - main [MainThread]: End processing [cs-telegram-bot-api]: success
+[2023-06-22 15:02:59] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-22 15:02:59] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.1.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - processPackages [plottah]: Remove: archive file [/home/abi/fetcher/tmp/plottah-0.1.2.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - main [MainThread]: End processing [plottah]: success
+[2023-06-22 15:02:59] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2023-06-22 15:02:59] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2023-06-22 15:03:00] INFO root fetch - processPackages [postgres-ddl]: Remove: archive file [/home/abi/fetcher/tmp/postgres_ddl-1.8.tar.gz]
+[2023-06-22 15:03:00] INFO root fetch - processPackages [postgres-ddl]: Remove: archive file [/home/abi/fetcher/tmp/postgres_ddl-1.9.tar.gz]
+[2023-06-22 15:03:00] INFO root fetch - main [MainThread]: End processing [postgres-ddl]: success
+[2023-06-22 15:03:00] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz]
+[2023-06-22 15:03:00] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz]
+[2023-06-22 15:03:00] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-06-22 15:03:00] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-06-22 15:03:00] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-06-22 15:03:00] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-06-22 15:03:00] INFO root fetch - main [MainThread]: Store serial: [18605145]
