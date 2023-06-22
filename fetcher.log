@@ -11454,3 +11454,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:57:58] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.6.tar.gz]
 [2023-06-22 06:57:58] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-06-22 06:57:58] INFO root fetch - main [MainThread]: Store serial: [18601205]
+[2023-06-22 07:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601205]
+[2023-06-22 07:03:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mio-cli
+[2023-06-22 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipeline-viz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracebloc-package-dev
+[2023-06-22 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audiotoolbox
+[2023-06-22 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: halc
+[2023-06-22 07:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tg-bot-ml
+[2023-06-22 07:03:09] INFO root fetch - processPackages [mio-cli]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tg-bot-ml]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 07:03:09] WARNING root fetch - processPackages [pipeline-viz]: Skipping, unable to determine old version
+[2023-06-22 07:03:09] INFO root fetch - main [MainThread]: End processing [pipeline-viz] error
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/8e/40/bbaf5021307a35017025575397fb3191d238c933cc5571bcef3ff96cbc36/tg_bot_ml-0.0.3.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [halc]: New version: [0.22.4] Old Version: [0.22.3]
+[2023-06-22 07:03:09] INFO root fetch - processPackages [audiotoolbox]: New version: [0.66] Old Version: [0.65.1]
+[2023-06-22 07:03:09] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/9f/2c/457eec0757671d085714a9e7298804e1a3a0592acb1a231bbdd8ecf9b117/mio-cli-1.2.9.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/28/4a/c30c49ee98bacc95f6c1b0ec6bc39833d9da8ebd5c587680447f9467c7dc/tracebloc_package-dev-0.4.9.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [audiotoolbox]: Downloading https://files.pythonhosted.org/packages/a6/88/c183446b7affb9f62709ede7c0672d1a6f79aa3e4239444a5d4001eb2103/audiotoolbox-0.65.1.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/f2/a2/bda22179ea7144aae6b903b77c5edd986ef1915f39832286b3c01fcbd86b/halc-0.22.3.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/3c/b0/f93101cbeadab0e1f6b2bb46c8374d59f4cb3bd08f143cb7ac5ed1782151/tg_bot_ml-0.0.4.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tg-bot-ml]: executing diffoscope
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tg-bot-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_bot_ml-0.0.3.tar.gz tmp/tg_bot_ml-0.0.4.tar.gz --markdown 20230622/t/tg-bot-ml/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 07:03:09] INFO root fetch - processPackages [halc]: Downloading https://files.pythonhosted.org/packages/5a/58/156cd99658bf2aa1eb4c5070ed05bf9763d96c1d856709e879fa04c59b10/halc-0.22.4.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/7f/c6/1310dbd5c088553820abd73ae654b595fd1459f33de6dc25aee17a762c50/tracebloc_package-dev-0.5.0.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [audiotoolbox]: Downloading https://files.pythonhosted.org/packages/62/02/da8eba09f2cc1e924d0b37cdbcb00edc867e24d131e7bef403940d0d6c53/audiotoolbox-0.66.tar.gz
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2023-06-22 07:03:09] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.4.9.tar.gz tmp/tracebloc_package-dev-0.5.0.tar.gz --markdown 20230622/t/tracebloc-package-dev/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 07:03:09] INFO root fetch - processPackages [halc]: executing diffoscope
+[2023-06-22 07:03:09] INFO root fetch - processPackages [halc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halc-0.22.3.tar.gz tmp/halc-0.22.4.tar.gz --markdown 20230622/h/halc/0.22.3-0.22.4/diff.md --exclude *.pyd
+[2023-06-22 07:03:10] INFO root fetch - processPackages [audiotoolbox]: executing diffoscope
+[2023-06-22 07:03:10] INFO root fetch - processPackages [audiotoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiotoolbox-0.65.1.tar.gz tmp/audiotoolbox-0.66.tar.gz --markdown 20230622/a/audiotoolbox/0.65.1-0.66/diff.md --exclude *.pyd
+[2023-06-22 07:03:10] INFO root fetch - processPackages [mio-cli]: Downloading https://files.pythonhosted.org/packages/9f/fb/11454973482df3ef98d87742b71204fc362b7d1067079a983a793a16a7e7/mio-cli-1.3.0.tar.gz
+[2023-06-22 07:03:10] INFO root fetch - processPackages [mio-cli]: executing diffoscope
+[2023-06-22 07:03:10] INFO root fetch - processPackages [mio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mio-cli-1.2.9.tar.gz tmp/mio-cli-1.3.0.tar.gz --markdown 20230622/m/mio-cli/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-06-22 07:03:10] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.3.tar.gz]
+[2023-06-22 07:03:10] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.4.tar.gz]
+[2023-06-22 07:03:10] INFO root fetch - main [MainThread]: End processing [tg-bot-ml]: success
+[2023-06-22 07:03:11] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.3.tar.gz]
+[2023-06-22 07:03:11] INFO root fetch - processPackages [halc]: Remove: archive file [/home/abi/fetcher/tmp/halc-0.22.4.tar.gz]
+[2023-06-22 07:03:11] INFO root fetch - main [MainThread]: End processing [halc]: success
+[2023-06-22 07:03:11] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.4.9.tar.gz]
+[2023-06-22 07:03:11] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.0.tar.gz]
+[2023-06-22 07:03:11] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2023-06-22 07:03:11] INFO root fetch - processPackages [audiotoolbox]: Remove: archive file [/home/abi/fetcher/tmp/audiotoolbox-0.65.1.tar.gz]
+[2023-06-22 07:03:11] INFO root fetch - processPackages [audiotoolbox]: Remove: archive file [/home/abi/fetcher/tmp/audiotoolbox-0.66.tar.gz]
+[2023-06-22 07:03:11] INFO root fetch - main [MainThread]: End processing [audiotoolbox]: success
+[2023-06-22 07:03:12] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.2.9.tar.gz]
+[2023-06-22 07:03:12] INFO root fetch - processPackages [mio-cli]: Remove: archive file [/home/abi/fetcher/tmp/mio-cli-1.3.0.tar.gz]
+[2023-06-22 07:03:12] INFO root fetch - main [MainThread]: End processing [mio-cli]: success
+[2023-06-22 07:03:12] INFO root fetch - main [MainThread]: Store serial: [18601277]
