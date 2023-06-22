@@ -17514,3 +17514,145 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 12:34:42] INFO root fetch - processPackages [tttpquisby]: Remove: archive file [/home/abi/fetcher/tmp/tttpquisby-0.0.6.tar.gz]
 [2023-06-22 12:34:42] INFO root fetch - main [MainThread]: End processing [tttpquisby]: success
 [2023-06-22 12:34:42] INFO root fetch - main [MainThread]: Store serial: [18603626]
+[2023-06-22 12:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603626]
+[2023-06-22 12:39:51] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biosignalsnotebooks
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyEmailExtracter
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shapes-recognition
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hayloft
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: structlog-sentry
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geovisio_cli
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openstacksdk
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: curtxt-reader
+[2023-06-22 12:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dinamis-sdk
+[2023-06-22 12:39:51] INFO root fetch - processPackages [hayloft]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [shapes-recognition]: New version: [2.2.9] Old Version: [2.0.0]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [PyEmailExtracter]: New version: [0.5] Old Version: [0.4]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [biosignalsnotebooks]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [structlog-sentry]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 12:39:51] WARNING root fetch - processPackages [curtxt-reader]: Skipping, unable to determine old version
+[2023-06-22 12:39:51] INFO root fetch - processPackages [openstacksdk]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [curtxt-reader]: Start processing: couchcopy
+[2023-06-22 12:39:51] INFO root fetch - main [MainThread]: End processing [curtxt-reader] error
+[2023-06-22 12:39:51] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [geovisio_cli]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [couchcopy]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/f1/79/abfb9befd5504416d178f070464c56c73856e3559b38294cd623a3345154/PyEmailExtracter-0.4.tar.gz
+[2023-06-22 12:39:51] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/85/29/4f57349e421a5d91d38fe2cc0a5854f89dc4f6e449d36715e50fe86ef986/hayloft-0.2.0a1.tar.gz
+[2023-06-22 12:39:51] INFO root fetch - processPackages [structlog-sentry]: Downloading https://files.pythonhosted.org/packages/5a/30/c549e7f37e3efc1d709d0e6a345f7743aaffc8f265b06a0b85c92c9ac9b5/structlog_sentry-2.0.2.tar.gz
+[2023-06-22 12:39:51] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-22 12:39:51] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-22 12:39:51] INFO root fetch - processPackages [lollms]: Start processing: whisper-ctranslate2
+[2023-06-22 12:39:51] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-22 12:39:51] INFO root fetch - processPackages [openstacksdk]: Downloading https://files.pythonhosted.org/packages/0a/7f/a3535e523ef1ae853229bb30af8f32d98f3fd21b50c0f42e917b6174afb2/openstacksdk-1.2.0.tar.gz
+[2023-06-22 12:39:51] INFO root fetch - processPackages [whisper-ctranslate2]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-22 12:39:51] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/9a/76/ca2947d160162dbc4f34aef4d82cee26a9d257a9fd0e719430e85956453d/shapes_recognition-2.0.0.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [couchcopy]: Downloading https://files.pythonhosted.org/packages/81/00/2a111993e271ee20b5c49d86b4b870bba20c7c6f117c9f31df78022658c8/couchcopy-0.1.5.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/a1/ec/382f7f736e1acece6e3f2aa0a8727d43137cf54ff29da7cc4b7aba53af56/geovisio_cli-0.2.0.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/07/7b/033385a1101b381dab52816a633efb6b3186d9c4afed7ae3084770b83130/PyEmailExtracter-0.5.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/f4/05/802fa81e5b2dc455bb7d27c463cdaec469477ffa53555ac8b685b09dfd1d/dinamis-sdk-0.0.8.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [biosignalsnotebooks]: Downloading https://files.pythonhosted.org/packages/02/f6/1935fd249c9c42c2ca31c3b0c764881351246beea9335f96a5e9a4e23e2c/biosignalsnotebooks-0.6.8.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/fa/73/8b45db67c5b737bb15aec90d507ef617db147f6c3fdc9b5e9d7b8eb635dd/whisper-ctranslate2-0.2.6.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [structlog-sentry]: Downloading https://files.pythonhosted.org/packages/f5/ff/df94733624472affdedf8e42457d05bc7836347ffde2dc74680d8d0fb51a/structlog_sentry-2.0.3.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [PyEmailExtracter]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [PyEmailExtracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtracter-0.4.tar.gz tmp/PyEmailExtracter-0.5.tar.gz --markdown 20230622/P/PyEmailExtracter/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [structlog-sentry]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [structlog-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structlog_sentry-2.0.2.tar.gz tmp/structlog_sentry-2.0.3.tar.gz --markdown 20230622/s/structlog-sentry/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/61/8d/b688205ffe6dc1b4224883d001364e2bc54b88ea04ac7561220bc48af8e9/hayloft-0.2.0a2.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [shapes-recognition]: Downloading https://files.pythonhosted.org/packages/86/24/ac624ab563b84c5249b1413b0484391f3503a6b2191a6def75893df1edae/shapes_recognition-2.2.9.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [couchcopy]: Downloading https://files.pythonhosted.org/packages/e3/4d/69d627419989d90f3807e3fcb7ad9f08bfd93fc231d1c17b55ce5d756597/couchcopy-0.2.0.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/b7/06/db33c97036307ffb48533bca0c9766d70bbde9894bea626d053436227967/whisper-ctranslate2-0.2.7.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [openstacksdk]: Downloading https://files.pythonhosted.org/packages/ac/bd/99a8970d6638d32b5fc0e3ad1e41adfd1f1de4c47e8e1814e43708104a41/openstacksdk-1.3.0.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/82/c5/c0226478e0a4911853335a789765c4b0ebe2533108d4c20ca4ab6e5463a1/dinamis-sdk-0.0.9.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [shapes-recognition]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [shapes-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapes_recognition-2.0.0.tar.gz tmp/shapes_recognition-2.2.9.tar.gz --markdown 20230622/s/shapes-recognition/2.0.0-2.2.9/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [couchcopy]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [couchcopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchcopy-0.1.5.tar.gz tmp/couchcopy-0.2.0.tar.gz --markdown 20230622/c/couchcopy/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [whisper-ctranslate2]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [whisper-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-ctranslate2-0.2.6.tar.gz tmp/whisper-ctranslate2-0.2.7.tar.gz --markdown 20230622/w/whisper-ctranslate2/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.2.0a1.tar.gz tmp/hayloft-0.2.0a2.tar.gz --markdown 20230622/h/hayloft/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.0.8.tar.gz tmp/dinamis-sdk-0.0.9.tar.gz --markdown 20230622/d/dinamis-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [openstacksdk]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [openstacksdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstacksdk-1.2.0.tar.gz tmp/openstacksdk-1.3.0.tar.gz --markdown 20230622/o/openstacksdk/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [geovisio_cli]: Downloading https://files.pythonhosted.org/packages/a1/e5/ff288c8b1aa913961f74dc011bc699d9437f7f422480003bfa2ef47b7ae7/geovisio_cli-0.2.1.tar.gz
+[2023-06-22 12:39:52] WARNING root fetch - processPackages [biosignalsnotebooks]: Skipping package: exceeds size limit 38839551>=10485760
+[2023-06-22 12:39:52] INFO root fetch - processPackages [biosignalsnotebooks]: Start processing: tttpquisby
+[2023-06-22 12:39:52] INFO root fetch - main [MainThread]: End processing [biosignalsnotebooks] error
+[2023-06-22 12:39:52] INFO root fetch - processPackages [tttpquisby]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 12:39:52] INFO root fetch - processPackages [geovisio_cli]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [geovisio_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovisio_cli-0.2.0.tar.gz tmp/geovisio_cli-0.2.1.tar.gz --markdown 20230622/g/geovisio_cli/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 12:39:52] INFO root fetch - processPackages [tttpquisby]: Downloading https://files.pythonhosted.org/packages/fc/67/b20539f0df4cf9a58aace5bc996ff982132dd2f667339acb121cae7ad7b5/tttpquisby-0.0.6.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [tttpquisby]: Downloading https://files.pythonhosted.org/packages/57/d5/afd210bc8a74c0d4ff107af9d22489fe70a2d01a07a3e7af72a20d014972/tttpquisby-0.0.7.tar.gz
+[2023-06-22 12:39:52] INFO root fetch - processPackages [tttpquisby]: executing diffoscope
+[2023-06-22 12:39:52] INFO root fetch - processPackages [tttpquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tttpquisby-0.0.6.tar.gz tmp/tttpquisby-0.0.7.tar.gz --markdown 20230622/t/tttpquisby/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 12:39:53] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.4.tar.gz]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.5.tar.gz]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [PyEmailExtracter]: Start processing: pkuchat
+[2023-06-22 12:39:53] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter]: success
+[2023-06-22 12:39:53] WARNING root fetch - processPackages [pkuchat]: Skipping, unable to determine old version
+[2023-06-22 12:39:53] INFO root fetch - processPackages [pkuchat]: Start processing: labyrinthine
+[2023-06-22 12:39:53] INFO root fetch - main [MainThread]: End processing [pkuchat] error
+[2023-06-22 12:39:53] INFO root fetch - processPackages [labyrinthine]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [labyrinthine]: Downloading https://files.pythonhosted.org/packages/64/1c/df89a9bd9f403b2aebab034c660f828c67de063a70ea66682478cc626baa/labyrinthine-0.1.8.tar.gz
+[2023-06-22 12:39:53] INFO root fetch - processPackages [structlog-sentry]: Remove: archive file [/home/abi/fetcher/tmp/structlog_sentry-2.0.2.tar.gz]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [structlog-sentry]: Remove: archive file [/home/abi/fetcher/tmp/structlog_sentry-2.0.3.tar.gz]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [structlog-sentry]: Start processing: dsna-ml
+[2023-06-22 12:39:53] INFO root fetch - main [MainThread]: End processing [structlog-sentry]: success
+[2023-06-22 12:39:53] WARNING root fetch - processPackages [dsna-ml]: Skipping, unable to determine old version
+[2023-06-22 12:39:53] INFO root fetch - processPackages [dsna-ml]: Start processing: riotee-gateway
+[2023-06-22 12:39:53] INFO root fetch - main [MainThread]: End processing [dsna-ml] error
+[2023-06-22 12:39:53] INFO root fetch - processPackages [riotee-gateway]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/9e/85/468062cae05e55d2284b85d91dc0e75abafac8f8cbada21eb41169971f12/riotee_gateway-0.0.8.tar.gz
+[2023-06-22 12:39:53] INFO root fetch - processPackages [labyrinthine]: Downloading https://files.pythonhosted.org/packages/7a/01/15fdbb070ef0687590e92e7574e8abaf9da9d514c91c4c40f908311a84d4/labyrinthine-0.1.9.tar.gz
+[2023-06-22 12:39:53] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.0.8.tar.gz]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.0.9.tar.gz]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [dinamis-sdk]: Start processing: odoo-addon-sale-stock-cancel-restriction
+[2023-06-22 12:39:53] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2023-06-22 12:39:53] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/64/f1/3f9d009b334f38baaef2bda4cc2ed5d327116e162d06d388f2af6b969f33/riotee_gateway-0.0.9.tar.gz
+[2023-06-22 12:39:53] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-06-22 12:39:53] INFO root fetch - processPackages [riotee-gateway]: executing diffoscope
+[2023-06-22 12:39:53] INFO root fetch - processPackages [riotee-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_gateway-0.0.8.tar.gz tmp/riotee_gateway-0.0.9.tar.gz --markdown 20230622/r/riotee-gateway/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 12:39:53] INFO root fetch - processPackages [labyrinthine]: executing diffoscope
+[2023-06-22 12:39:53] INFO root fetch - processPackages [labyrinthine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labyrinthine-0.1.8.tar.gz tmp/labyrinthine-0.1.9.tar.gz --markdown 20230622/l/labyrinthine/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 12:39:54] INFO root fetch - processPackages [whisper-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/whisper-ctranslate2-0.2.6.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [whisper-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/whisper-ctranslate2-0.2.7.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [whisper-ctranslate2]: Start processing: create-pass
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [whisper-ctranslate2]: success
+[2023-06-22 12:39:54] WARNING root fetch - processPackages [create-pass]: Skipping, unable to determine old version
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [create-pass] error
+[2023-06-22 12:39:54] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Downloading https://files.pythonhosted.org/packages/8f/85/8c53c8e0ca2738f068909bc42a85cad487f0169bebdbc9c37fa95a27b1bd/odoo_addon_sale_stock_cancel_restriction-15.0.1.0.1-py3-none-any.whl
+[2023-06-22 12:39:54] INFO root fetch - processPackages [tttpquisby]: Remove: archive file [/home/abi/fetcher/tmp/tttpquisby-0.0.6.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [tttpquisby]: Remove: archive file [/home/abi/fetcher/tmp/tttpquisby-0.0.7.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [tttpquisby]: success
+[2023-06-22 12:39:54] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Downloading https://files.pythonhosted.org/packages/d9/33/ceeaf9367d49bf31ac5d63b86efb0fa75cd9354264559ca63879e6955998/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-22 12:39:54] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.0a1.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.0a2.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-22 12:39:54] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.2.0.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [geovisio_cli]: Remove: archive file [/home/abi/fetcher/tmp/geovisio_cli-0.2.1.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [geovisio_cli]: success
+[2023-06-22 12:39:54] INFO root fetch - processPackages [couchcopy]: Remove: archive file [/home/abi/fetcher/tmp/couchcopy-0.1.5.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [couchcopy]: Remove: archive file [/home/abi/fetcher/tmp/couchcopy-0.2.0.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [couchcopy]: success
+[2023-06-22 12:39:54] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: executing diffoscope
+[2023-06-22 12:39:54] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_stock_cancel_restriction-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-sale-stock-cancel-restriction/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-22 12:39:54] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.0.0.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [shapes-recognition]: Remove: archive file [/home/abi/fetcher/tmp/shapes_recognition-2.2.9.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [shapes-recognition]: success
+[2023-06-22 12:39:54] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.8.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.9.tar.gz]
+[2023-06-22 12:39:54] INFO root fetch - main [MainThread]: End processing [riotee-gateway]: success
+[2023-06-22 12:39:55] INFO root fetch - processPackages [labyrinthine]: Remove: archive file [/home/abi/fetcher/tmp/labyrinthine-0.1.8.tar.gz]
+[2023-06-22 12:39:55] INFO root fetch - processPackages [labyrinthine]: Remove: archive file [/home/abi/fetcher/tmp/labyrinthine-0.1.9.tar.gz]
+[2023-06-22 12:39:55] INFO root fetch - main [MainThread]: End processing [labyrinthine]: success
+[2023-06-22 12:39:55] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_cancel_restriction-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-22 12:39:55] INFO root fetch - processPackages [odoo-addon-sale-stock-cancel-restriction]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_stock_cancel_restriction-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-22 12:39:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-cancel-restriction]: success
+[2023-06-22 12:40:27] INFO root fetch - processPackages [openstacksdk]: Remove: archive file [/home/abi/fetcher/tmp/openstacksdk-1.2.0.tar.gz]
+[2023-06-22 12:40:27] INFO root fetch - processPackages [openstacksdk]: Remove: archive file [/home/abi/fetcher/tmp/openstacksdk-1.3.0.tar.gz]
+[2023-06-22 12:40:27] INFO root fetch - main [MainThread]: End processing [openstacksdk]: success
+[2023-06-22 12:40:27] INFO root fetch - main [MainThread]: Store serial: [18603689]
