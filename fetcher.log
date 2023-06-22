@@ -5349,3 +5349,110 @@
 [2023-06-22 03:18:03] INFO root fetch - main [MainThread]: End processing [pythonce]: success
 [2023-06-22 03:18:04] INFO root fetch - main [MainThread]: End processing [pythonce]: success
 [2023-06-22 03:18:04] INFO root fetch - main [MainThread]: Store serial: [18599089]
+[2023-06-22 03:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18599089]
+[2023-06-22 03:23:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moptipy
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msgram-parser
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foco-improc
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SummarizedExperiment
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p2g
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linuxp
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mass-composition
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comicon
+[2023-06-22 03:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airflow-provider-duckdb
+[2023-06-22 03:23:14] WARNING root fetch - processPackages [msgram-parser]: Skipping, unable to determine old version
+[2023-06-22 03:23:14] INFO root fetch - processPackages [msgram-parser]: Start processing: always-updates
+[2023-06-22 03:23:14] INFO root fetch - main [MainThread]: End processing [msgram-parser] error
+[2023-06-22 03:23:14] INFO root fetch - processPackages [p2g]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-22 03:23:14] INFO root fetch - processPackages [SummarizedExperiment]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 03:23:15] WARNING root fetch - processPackages [foco-improc]: Skipping, unable to determine old version
+[2023-06-22 03:23:15] INFO root fetch - processPackages [foco-improc]: Start processing: duckdb
+[2023-06-22 03:23:15] INFO root fetch - main [MainThread]: End processing [foco-improc] error
+[2023-06-22 03:23:15] INFO root fetch - processPackages [linuxp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [airflow-provider-duckdb]: New version: [0.1.1a7] Old Version: [0.1.1a6]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [comicon]: New version: [0.4.0a1] Old Version: [0.3.1]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/e7/a6/919e06e8b8c97f298f962e6d415a1b11bcca77b5c5b5077d382f57e80a9a/SummarizedExperiment-0.2.5.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev72] Old Version: [0.8.2.dev37]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [airflow-provider-duckdb]: Downloading https://files.pythonhosted.org/packages/fb/fb/445d3edd692938db72bfe4d5c7b404620854bc9b25b6fdb0748e9436f50b/airflow-provider-duckdb-0.1.1a6.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [comicon]: Downloading https://files.pythonhosted.org/packages/5f/0f/490f391ebbaf5c21301c2e346cbfe266f9a5bf12a353f7e47a061658eee2/comicon-0.3.1.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-22 03:23:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [linuxp]: Downloading https://files.pythonhosted.org/packages/1c/1a/bc92915ccad933deb92332593268eb5c50bf98764d58ec46bb9cc026e2ec/linuxp-1.0.8.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [p2g]: Downloading https://files.pythonhosted.org/packages/8a/82/6d3c0b1c6db3cf89cb5785376ffb6dea3146d97174e49e5a214f9b5989bd/p2g-0.2.5.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/7f/5279c5a66253c3acc29a2b1baa2ae5e5c13f14d8ed5e613af26af0568f80/moptipy-0.9.8.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [airflow-provider-duckdb]: Downloading https://files.pythonhosted.org/packages/62/ce/fcebe9991d8d946d41a039e7614964031fc998e436bf359f91fdf6365e33/airflow-provider-duckdb-0.1.1a7.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [SummarizedExperiment]: Downloading https://files.pythonhosted.org/packages/5d/27/560249421386d62b63a024bec1d63bf8cca94dc81da392f9dcc5fcfcbed6/SummarizedExperiment-0.2.6.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230622/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [comicon]: Downloading https://files.pythonhosted.org/packages/79/be/df2802d89b39f8e7f44909c841870b47df14cd6f84f174e5b330b9be0b1a/comicon-0.4.0a1.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [airflow-provider-duckdb]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [airflow-provider-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-duckdb-0.1.1a6.tar.gz tmp/airflow-provider-duckdb-0.1.1a7.tar.gz --markdown 20230622/a/airflow-provider-duckdb/0.1.1a6-0.1.1a7/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230622/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [linuxp]: Downloading https://files.pythonhosted.org/packages/6f/73/bf29357b0a0571db1a50735c793ebc34477ef09ce35117e3fb254ea639e3/linuxp-1.0.9.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [p2g]: Downloading https://files.pythonhosted.org/packages/b9/02/fcb3141762561735a4b2a6759572cdc6c1173256dc7f0e3873094b16346c/p2g-0.2.6.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [SummarizedExperiment]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [SummarizedExperiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SummarizedExperiment-0.2.5.tar.gz tmp/SummarizedExperiment-0.2.6.tar.gz --markdown 20230622/S/SummarizedExperiment/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/cb/36967fa3b18d5b7afc897e4a5b55dc7a96a1ccdce006a643799fec6f99d5/duckdb-0.8.2.dev72.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [linuxp]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [linuxp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linuxp-1.0.8.tar.gz tmp/linuxp-1.0.9.tar.gz --markdown 20230622/l/linuxp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [comicon]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [comicon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comicon-0.3.1.tar.gz tmp/comicon-0.4.0a1.tar.gz --markdown 20230622/c/comicon/0.3.1-0.4.0a1/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [p2g]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [p2g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2g-0.2.5.tar.gz tmp/p2g-0.2.6.tar.gz --markdown 20230622/p/p2g/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-06-22 03:23:15] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.2.dev37.tar.gz tmp/duckdb-0.8.2.dev72.tar.gz --markdown 20230622/d/duckdb/0.8.2.dev37-0.8.2.dev72/diff.md --exclude *.pyd
+[2023-06-22 03:23:15] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-06-22 03:23:15] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230622/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 03:23:16] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-22 03:23:16] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-22 03:23:16] INFO root fetch - processPackages [always-updates]: Start processing: pymino
+[2023-06-22 03:23:16] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-22 03:23:17] INFO root fetch - processPackages [airflow-provider-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-duckdb-0.1.1a6.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - processPackages [airflow-provider-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-duckdb-0.1.1a7.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - main [MainThread]: End processing [airflow-provider-duckdb]: success
+[2023-06-22 03:23:17] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-22 03:23:17] INFO root fetch - processPackages [pymino]: New version: [1.2.1.3] Old Version: [1.2.1.2]
+[2023-06-22 03:23:17] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-06-22 03:23:17] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/4c/ad/068214fc8f17ba5e6f1ee5a5e3147bc1128eefeceb11e9d348332ae2ce42/pymino-1.2.1.2.tar.gz
+[2023-06-22 03:23:17] INFO root fetch - processPackages [linuxp]: Remove: archive file [/home/abi/fetcher/tmp/linuxp-1.0.8.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - processPackages [linuxp]: Remove: archive file [/home/abi/fetcher/tmp/linuxp-1.0.9.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - main [MainThread]: End processing [linuxp]: success
+[2023-06-22 03:23:17] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.5.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - processPackages [SummarizedExperiment]: Remove: archive file [/home/abi/fetcher/tmp/SummarizedExperiment-0.2.6.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - main [MainThread]: End processing [SummarizedExperiment]: success
+[2023-06-22 03:23:17] INFO root fetch - processPackages [comicon]: Remove: archive file [/home/abi/fetcher/tmp/comicon-0.3.1.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - processPackages [comicon]: Remove: archive file [/home/abi/fetcher/tmp/comicon-0.4.0a1.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - main [MainThread]: End processing [comicon]: success
+[2023-06-22 03:23:17] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-22 03:23:17] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230622/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-22 03:23:17] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/08/3e/dffb61884594cf7dbf577f6c8ceeac2f7cb60acb58af8fe4a71765d33cd8/pymino-1.2.1.3.tar.gz
+[2023-06-22 03:23:17] INFO root fetch - processPackages [p2g]: Remove: archive file [/home/abi/fetcher/tmp/p2g-0.2.5.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - processPackages [p2g]: Remove: archive file [/home/abi/fetcher/tmp/p2g-0.2.6.tar.gz]
+[2023-06-22 03:23:17] INFO root fetch - main [MainThread]: End processing [p2g]: success
+[2023-06-22 03:23:17] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-22 03:23:17] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.2.tar.gz tmp/pymino-1.2.1.3.tar.gz --markdown 20230622/p/pymino/1.2.1.2-1.2.1.3/diff.md --exclude *.pyd
+[2023-06-22 03:23:19] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.8.tar.gz]
+[2023-06-22 03:23:19] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-06-22 03:23:19] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-06-22 03:23:19] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-22 03:23:19] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-22 03:23:19] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-22 03:23:19] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.2.tar.gz]
+[2023-06-22 03:23:19] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.3.tar.gz]
+[2023-06-22 03:23:19] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-22 03:25:30] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev37.tar.gz]
+[2023-06-22 03:25:30] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.2.dev72.tar.gz]
+[2023-06-22 03:25:30] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-22 03:25:30] INFO root fetch - main [MainThread]: Store serial: [18599133]
