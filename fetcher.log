@@ -23144,3 +23144,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 16:18:05] INFO root fetch - processPackages [squirrel-core]: Remove: archive file [/home/abi/fetcher/tmp/squirrel_core-0.19.1.dev6201509.tar.gz]
 [2023-06-22 16:18:05] INFO root fetch - main [MainThread]: End processing [squirrel-core]: success
 [2023-06-22 16:18:05] INFO root fetch - main [MainThread]: Store serial: [18605942]
+[2023-06-22 16:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605942]
+[2023-06-22 16:23:15] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PureCloudPlatformClientV2
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palmers-preprocess
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: d2y
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d2y
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchmark-mi
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jajapy
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sigilo
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weni-rp-apps
+[2023-06-22 16:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simplenetlink
+[2023-06-22 16:23:15] INFO root fetch - processPackages [d2y]: New version: [0.2.24] Old Version: [0.2.18]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [palmers-preprocess]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [d2y]: New version: [0.2.24] Old Version: [0.2.18]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [jajapy]: New version: [0.9] Old Version: [0.8]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [simplenetlink]: New version: [0.6] Old Version: [0.5]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [sigilo]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-22 16:23:15] WARNING root fetch - processPackages [benchmark-mi]: Skipping, unable to determine old version
+[2023-06-22 16:23:15] INFO root fetch - processPackages [benchmark-mi]: Start processing: recon-lw
+[2023-06-22 16:23:15] INFO root fetch - main [MainThread]: End processing [benchmark-mi] error
+[2023-06-22 16:23:15] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.6.0a1] Old Version: [2.6.0]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5346690345] Old Version: [2.0.0.dev5321044174]
+[2023-06-22 16:23:15] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-22 16:23:15] INFO root fetch - processPackages [sigilo]: Downloading https://files.pythonhosted.org/packages/89/87/d3fce39e8088d24d0eb4de365a817873d008cf0d6467792a6ddc3725ea5c/sigilo-0.1.0.tar.gz
+[2023-06-22 16:23:15] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-06-22 16:23:15] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/16/e6/8682662d8532ecb27ff6d0ebbcda59ff0c2b4b5b40ebc018667df2e87e6f/d2y-0.2.18.tar.gz
+[2023-06-22 16:23:15] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/16/e6/8682662d8532ecb27ff6d0ebbcda59ff0c2b4b5b40ebc018667df2e87e6f/d2y-0.2.18.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [palmers-preprocess]: Downloading https://files.pythonhosted.org/packages/e9/2c/af8be76b5b176ba09aa4d2c709c3cc870cb7d126c85fc35483085379484d/palmers_preprocess-0.0.8.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [jajapy]: Downloading https://files.pythonhosted.org/packages/2d/c7/98c468b8c1540f0d44e902f0b1376241cabf13e889bc55f49009771396c4/jajapy-0.8.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/f9/a7/9fa70ea69b64cf62f19bb30dfc655f4dd4b13d8c102a6cba023476f50799/weni_rp_apps-2.6.0.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/56/fa/7e2664031bf3eff4d06fdee04ad2d0194a7350bf2382faf47b19bd380476/recon_lw-2.0.0.dev5321044174.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [simplenetlink]: Downloading https://files.pythonhosted.org/packages/21/8f/e1f738fda7841fa3e741a69f663e9db0ccfa9caf0d7494121f5129b09cb1/simplenetlink-0.5-py3-none-any.whl
+[2023-06-22 16:23:16] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230622/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [sigilo]: Downloading https://files.pythonhosted.org/packages/1d/06/cb3d578353e18d2ab28b9138137cf6cb893ba898f3a6a64481bfd8661207/sigilo-0.2.0.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230622/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [sigilo]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [sigilo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigilo-0.1.0.tar.gz tmp/sigilo-0.2.0.tar.gz --markdown 20230622/s/sigilo/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [jajapy]: Downloading https://files.pythonhosted.org/packages/73/28/78b119b64a5beb1f5361bb195895c86ee46461ac79ddedfa77f540c54864/jajapy-0.9.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/d1/6d/6fbd05cb3687e1a612fb14e17887a10ff23155b967865ea72d549a308b93/weni_rp_apps-2.6.0a1.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/3a/1a/74f6501f2afb2f423598bf748742920705bd0e968bbd0c355c1e129dea01/recon_lw-2.0.0.dev5346690345.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/9c/d2/6c1bda335a86941c322124a697e307d2aae5d36e6937d6e1b8df7cf2a9e3/d2y-0.2.24.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [d2y]: Downloading https://files.pythonhosted.org/packages/9c/d2/6c1bda335a86941c322124a697e307d2aae5d36e6937d6e1b8df7cf2a9e3/d2y-0.2.24.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [jajapy]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [jajapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jajapy-0.8.tar.gz tmp/jajapy-0.9.tar.gz --markdown 20230622/j/jajapy/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [simplenetlink]: Downloading https://files.pythonhosted.org/packages/d7/12/5b71ab26693c4865c4d4e3ceb8487e6dc8d2ed8372c7eab1e4036ce3d9b9/simplenetlink-0.6-py3-none-any.whl
+[2023-06-22 16:23:16] INFO root fetch - processPackages [palmers-preprocess]: Downloading https://files.pythonhosted.org/packages/c2/21/6b7a051b357dba9e982016e23054fb2fc0bf13cbc4dbf10b8e933702361b/palmers_preprocess-0.0.9.tar.gz
+[2023-06-22 16:23:16] INFO root fetch - processPackages [simplenetlink]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [simplenetlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplenetlink-0.5-py3-none-any.whl.zip tmp/simplenetlink-0.6-py3-none-any.whl.zip --markdown 20230622/s/simplenetlink/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5321044174.tar.gz tmp/recon_lw-2.0.0.dev5346690345.tar.gz --markdown 20230622/r/recon-lw/2.0.0.dev5321044174-2.0.0.dev5346690345/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [d2y]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [palmers-preprocess]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [d2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2y-0.2.18.tar.gz tmp/d2y-0.2.24.tar.gz --markdown 20230622/d/d2y/0.2.18-0.2.24/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [palmers-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_preprocess-0.0.8.tar.gz tmp/palmers_preprocess-0.0.9.tar.gz --markdown 20230622/p/palmers-preprocess/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [d2y]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [d2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2y-0.2.18.tar.gz tmp/d2y-0.2.24.tar.gz --markdown 20230622/d/d2y/0.2.18-0.2.24/diff.md --exclude *.pyd
+[2023-06-22 16:23:16] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-06-22 16:23:16] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.6.0.tar.gz tmp/weni_rp_apps-2.6.0a1.tar.gz --markdown 20230622/w/weni-rp-apps/2.6.0-2.6.0a1/diff.md --exclude *.pyd
+[2023-06-22 16:23:17] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-22 16:23:17] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-22 16:23:17] INFO root fetch - processPackages [leadguru-jobs]: Start processing: cca-zoo
+[2023-06-22 16:23:17] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-22 16:23:17] INFO root fetch - processPackages [cca-zoo]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [sigilo]: Remove: archive file [/home/abi/fetcher/tmp/sigilo-0.1.0.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [sigilo]: Remove: archive file [/home/abi/fetcher/tmp/sigilo-0.2.0.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [sigilo]: Start processing: curtxt-reader
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [sigilo]: success
+[2023-06-22 16:23:18] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/b1/c7/e3771faed78fd259ee3f3c63a24ab790564f39b2af75cc39ec5312c03681/cca_zoo-2.0.3.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [curtxt-reader]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [simplenetlink]: Remove: archive file [/home/abi/fetcher/tmp/simplenetlink-0.5-py3-none-any.whl.zip]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [simplenetlink]: Remove: archive file [/home/abi/fetcher/tmp/simplenetlink-0.6-py3-none-any.whl.zip]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [simplenetlink]: Start processing: data-chunker
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [simplenetlink]: success
+[2023-06-22 16:23:18] INFO root fetch - processPackages [curtxt-reader]: Downloading https://files.pythonhosted.org/packages/30/a7/1459a75cd98977ad07234608cc3379308c940b2c6a3bb1c1e01d55e2b1f8/curtxt-reader-1.0.1.tar.gz
+[2023-06-22 16:23:18] WARNING root fetch - processPackages [data-chunker]: Skipping, unable to determine old version
+[2023-06-22 16:23:18] INFO root fetch - processPackages [data-chunker]: Start processing: Imagetotextegs
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [data-chunker] error
+[2023-06-22 16:23:18] WARNING root fetch - processPackages [Imagetotextegs]: Skipping, unable to determine old version
+[2023-06-22 16:23:18] INFO root fetch - processPackages [Imagetotextegs]: Start processing: lamin_logger
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [Imagetotextegs] error
+[2023-06-22 16:23:18] INFO root fetch - processPackages [lamin_logger]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [d2y]: Remove: archive file [/home/abi/fetcher/tmp/d2y-0.2.18.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [d2y]: Remove: archive file [/home/abi/fetcher/tmp/d2y-0.2.24.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [d2y]: Start processing: hostphot
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [d2y]: success
+[2023-06-22 16:23:18] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5321044174.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5346690345.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [recon-lw]: Start processing: spanishconjugator
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-06-22 16:23:18] INFO root fetch - processPackages [d2y]: Start processing: iql
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [d2y]: success
+[2023-06-22 16:23:18] INFO root fetch - processPackages [hostphot]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [cca-zoo]: Downloading https://files.pythonhosted.org/packages/ff/a6/8b926bb8eb658bb1192b25af1f05222ae57e43cbf188ce3762f1194bf175/cca_zoo-2.0.4.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/d9/2e/5750c0c691deac79f7dc95f9936eb9f0c729ed03977e028569c23cf40aaf/lamin_logger-0.7.0.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [iql]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [cca-zoo]: executing diffoscope
+[2023-06-22 16:23:18] INFO root fetch - processPackages [cca-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cca_zoo-2.0.3.tar.gz tmp/cca_zoo-2.0.4.tar.gz --markdown 20230622/c/cca-zoo/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [curtxt-reader]: Downloading https://files.pythonhosted.org/packages/25/25/b76c2c40ccbb3a20ec8526b1709cd4d49b6e7fac05d603188de6bb2f5dac/curtxt-reader-1.0.2.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [iql]: Downloading https://files.pythonhosted.org/packages/50/37/9837cddd981dfee0bcd9db3d25cc63bc56f6337fcb1886a800a51431cf33/iql-1.6.3-py3-none-any.whl
+[2023-06-22 16:23:18] INFO root fetch - processPackages [curtxt-reader]: executing diffoscope
+[2023-06-22 16:23:18] INFO root fetch - processPackages [curtxt-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curtxt-reader-1.0.1.tar.gz tmp/curtxt-reader-1.0.2.tar.gz --markdown 20230622/c/curtxt-reader/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-22 16:23:18] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/25/1c/03faf6f9091359cc0d8de5b75fe4734b6791cda1cb7759600cab9593f1a3/hostphot-2.7.1.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [palmers-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/palmers_preprocess-0.0.8.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [palmers-preprocess]: Remove: archive file [/home/abi/fetcher/tmp/palmers_preprocess-0.0.9.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [palmers-preprocess]: Start processing: spanishconjugator
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [palmers-preprocess]: success
+[2023-06-22 16:23:18] INFO root fetch - processPackages [lamin_logger]: Downloading https://files.pythonhosted.org/packages/7f/c0/5b82e3a32e17b9e04e7b2fd64ae6f642d9c9038290f52958ac49fedb12eb/lamin_logger-0.7.1.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [lamin_logger]: executing diffoscope
+[2023-06-22 16:23:18] INFO root fetch - processPackages [lamin_logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_logger-0.7.0.tar.gz tmp/lamin_logger-0.7.1.tar.gz --markdown 20230622/l/lamin_logger/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230622/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-22 16:23:18] INFO root fetch - processPackages [jajapy]: Remove: archive file [/home/abi/fetcher/tmp/jajapy-0.8.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - processPackages [jajapy]: Remove: archive file [/home/abi/fetcher/tmp/jajapy-0.9.tar.gz]
+[2023-06-22 16:23:18] INFO root fetch - main [MainThread]: End processing [jajapy]: success
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-22 16:23:18] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230622/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-22 16:23:18] INFO root fetch - processPackages [iql]: Downloading https://files.pythonhosted.org/packages/3b/4e/ea98f97d83fc06e9efe42f45c2258b1e80038d6cc5a579ef4014062d52ba/iql-1.6.4-py3-none-any.whl
+[2023-06-22 16:23:19] INFO root fetch - processPackages [iql]: executing diffoscope
+[2023-06-22 16:23:19] INFO root fetch - processPackages [iql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iql-1.6.3-py3-none-any.whl.zip tmp/iql-1.6.4-py3-none-any.whl.zip --markdown 20230622/i/iql/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-22 16:23:19] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/b2/df/d846e55bba85ce6f8d7b0befd89e31e1dfe405fce94775e84a1401f1b1c7/hostphot-2.8.0.tar.gz
+[2023-06-22 16:23:19] INFO root fetch - processPackages [hostphot]: executing diffoscope
+[2023-06-22 16:23:19] INFO root fetch - processPackages [hostphot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostphot-2.7.1.tar.gz tmp/hostphot-2.8.0.tar.gz --markdown 20230622/h/hostphot/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-06-22 16:23:20] INFO root fetch - processPackages [curtxt-reader]: Remove: archive file [/home/abi/fetcher/tmp/curtxt-reader-1.0.1.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - processPackages [curtxt-reader]: Remove: archive file [/home/abi/fetcher/tmp/curtxt-reader-1.0.2.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - main [MainThread]: End processing [curtxt-reader]: success
+[2023-06-22 16:23:20] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-22 16:23:20] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-22 16:23:20] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.3.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - processPackages [cca-zoo]: Remove: archive file [/home/abi/fetcher/tmp/cca_zoo-2.0.4.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - main [MainThread]: End processing [cca-zoo]: success
+[2023-06-22 16:23:20] INFO root fetch - processPackages [iql]: Remove: archive file [/home/abi/fetcher/tmp/iql-1.6.3-py3-none-any.whl.zip]
+[2023-06-22 16:23:20] INFO root fetch - processPackages [iql]: Remove: archive file [/home/abi/fetcher/tmp/iql-1.6.4-py3-none-any.whl.zip]
+[2023-06-22 16:23:20] INFO root fetch - main [MainThread]: End processing [iql]: success
+[2023-06-22 16:23:20] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.6.0.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.6.0a1.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-06-22 16:23:20] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.7.0.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - processPackages [lamin_logger]: Remove: archive file [/home/abi/fetcher/tmp/lamin_logger-0.7.1.tar.gz]
+[2023-06-22 16:23:20] INFO root fetch - main [MainThread]: End processing [lamin_logger]: success
+[2023-06-22 16:23:23] INFO root fetch - processPackages [hostphot]: Remove: archive file [/home/abi/fetcher/tmp/hostphot-2.7.1.tar.gz]
+[2023-06-22 16:23:23] INFO root fetch - processPackages [hostphot]: Remove: archive file [/home/abi/fetcher/tmp/hostphot-2.8.0.tar.gz]
+[2023-06-22 16:23:23] INFO root fetch - main [MainThread]: End processing [hostphot]: success
+[2023-06-22 16:24:12] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-06-22 16:24:12] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-06-22 16:24:12] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-06-22 16:24:12] INFO root fetch - main [MainThread]: Store serial: [18606004]
