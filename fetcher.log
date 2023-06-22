@@ -14168,3 +14168,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:13:14] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev6-py3-none-any.whl.zip]
 [2023-06-22 10:13:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-automatic-workflow]: success
 [2023-06-22 10:13:14] INFO root fetch - main [MainThread]: Store serial: [18602308]
+[2023-06-22 10:18:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602308]
+[2023-06-22 10:18:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qlik-sdk
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botmerger
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssh-remote-control
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-chat-plus
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-logikal
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yt-dlp
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: diefpy
+[2023-06-22 10:18:23] INFO root fetch - processPackages [botmerger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 10:18:23] INFO root fetch - processPackages [pytest-logikal]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-06-22 10:18:23] WARNING root fetch - processPackages [streamlit-chat-plus]: Skipping, unable to determine old version
+[2023-06-22 10:18:23] INFO root fetch - main [MainThread]: End processing [streamlit-chat-plus] error
+[2023-06-22 10:18:23] INFO root fetch - processPackages [diefpy]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ssh-remote-control]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-22 10:18:23] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-22 10:18:23] INFO root fetch - processPackages [yt-dlp]: New version: [2023.6.22] Old Version: [2023.6.21]
+[2023-06-22 10:18:23] INFO root fetch - processPackages [qlik-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 10:18:23] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-22 10:18:23] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-22 10:18:23] INFO root fetch - processPackages [botmerger]: Downloading https://files.pythonhosted.org/packages/fc/38/906227e4a6d15baee647f8beb618bf6bca6257783faace4d6c294a4e6b57/botmerger-0.0.1.tar.gz
+[2023-06-22 10:18:23] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/06/8c/56e404ba5702b7e915fe9a9d28c1563f5b0018e9768634094b96007f0939/pytest-logikal-1.8.4.tar.gz
+[2023-06-22 10:18:23] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-22 10:18:23] INFO root fetch - processPackages [qlik-sdk]: Downloading https://files.pythonhosted.org/packages/38/cd/f6f1602ac36a7edcff034d4643dcfadb37bebb7a37e486a5985637b00804/qlik-sdk-0.8.0.tar.gz
+[2023-06-22 10:18:23] INFO root fetch - processPackages [diefpy]: Downloading https://files.pythonhosted.org/packages/71/ec/22d9d82d578776fe9d0655e0e83b52707fc8162cecb1f4b95b5f12462365/diefpy-1.2.0.tar.gz
+[2023-06-22 10:18:23] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/20/4e/f11603954f0652b1be6fee626ff133b0fb14cf3b1f92aa5070fbec4abc13/ssh_remote_control-0.1.3.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/36/9a/13eee74e6a621ab42d2b8c7fd7daf6e943af1a8269aa966718fae177a64b/yt-dlp-2023.6.21.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [botmerger]: Downloading https://files.pythonhosted.org/packages/29/bf/f6a347ac05a0f7bc22f1eb556de2fcd50e1bb06f5c8d035aad52e9046d5f/botmerger-0.0.2.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230622/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 10:18:24] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/85/45/9c6bdfaad7d16d10971e2b83a0dfdba3b792ffa743e2506ac714403cb585/pytest-logikal-1.9.0.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [botmerger]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [botmerger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botmerger-0.0.1.tar.gz tmp/botmerger-0.0.2.tar.gz --markdown 20230622/b/botmerger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 10:18:24] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/4d/f1/3d254017c48c89eb3d4322889c62a2c8a02bed0430d344e8aafb94a061f5/ssh_remote_control-0.1.4.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [qlik-sdk]: Downloading https://files.pythonhosted.org/packages/91/70/a876e7d4f6f158807542814231d08b68d2f0f3f4e8657b300aa4460fc683/qlik-sdk-0.9.0.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [diefpy]: Downloading https://files.pythonhosted.org/packages/ad/bf/bc4a00dc161f82ad25700beb7dcb3f3ba4496fb3d5fd4f509691d3423520/diefpy-1.2.1.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-22 10:18:24] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-logikal-1.8.4.tar.gz tmp/pytest-logikal-1.9.0.tar.gz --markdown 20230622/p/pytest-logikal/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-06-22 10:18:24] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/57/86/b5fb11442d96a7a438ec6ad27d04c546f4f7e64c3d551259f886adeddb8e/yt-dlp-2023.6.22.tar.gz
+[2023-06-22 10:18:24] INFO root fetch - processPackages [ssh-remote-control]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [ssh-remote-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_remote_control-0.1.3.tar.gz tmp/ssh_remote_control-0.1.4.tar.gz --markdown 20230622/s/ssh-remote-control/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-22 10:18:24] INFO root fetch - processPackages [diefpy]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [diefpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diefpy-1.2.0.tar.gz tmp/diefpy-1.2.1.tar.gz --markdown 20230622/d/diefpy/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-22 10:18:24] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230622/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 10:18:24] INFO root fetch - processPackages [qlik-sdk]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [qlik-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlik-sdk-0.8.0.tar.gz tmp/qlik-sdk-0.9.0.tar.gz --markdown 20230622/q/qlik-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 10:18:24] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2023-06-22 10:18:24] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-dlp-2023.6.21.tar.gz tmp/yt-dlp-2023.6.22.tar.gz --markdown 20230622/y/yt-dlp/2023.6.21-2023.6.22/diff.md --exclude *.pyd
+[2023-06-22 10:18:25] INFO root fetch - processPackages [botmerger]: Remove: archive file [/home/abi/fetcher/tmp/botmerger-0.0.1.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - processPackages [botmerger]: Remove: archive file [/home/abi/fetcher/tmp/botmerger-0.0.2.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - main [MainThread]: End processing [botmerger]: success
+[2023-06-22 10:18:25] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.3.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.4.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
+[2023-06-22 10:18:25] INFO root fetch - processPackages [diefpy]: Remove: archive file [/home/abi/fetcher/tmp/diefpy-1.2.0.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - processPackages [diefpy]: Remove: archive file [/home/abi/fetcher/tmp/diefpy-1.2.1.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - main [MainThread]: End processing [diefpy]: success
+[2023-06-22 10:18:25] INFO root fetch - processPackages [pytest-logikal]: Remove: archive file [/home/abi/fetcher/tmp/pytest-logikal-1.8.4.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - processPackages [pytest-logikal]: Remove: archive file [/home/abi/fetcher/tmp/pytest-logikal-1.9.0.tar.gz]
+[2023-06-22 10:18:25] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2023-06-22 10:18:26] INFO root fetch - processPackages [qlik-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qlik-sdk-0.8.0.tar.gz]
+[2023-06-22 10:18:26] INFO root fetch - processPackages [qlik-sdk]: Remove: archive file [/home/abi/fetcher/tmp/qlik-sdk-0.9.0.tar.gz]
+[2023-06-22 10:18:26] INFO root fetch - main [MainThread]: End processing [qlik-sdk]: success
+[2023-06-22 10:18:26] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-22 10:18:26] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-22 10:18:26] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-22 10:18:28] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-22 10:18:28] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-22 10:18:28] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-22 10:18:46] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-2023.6.21.tar.gz]
+[2023-06-22 10:18:46] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-2023.6.22.tar.gz]
+[2023-06-22 10:18:46] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2023-06-22 10:18:46] INFO root fetch - main [MainThread]: Store serial: [18602341]
