@@ -13237,3 +13237,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:25:09] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-22 09:25:09] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-22 09:25:09] INFO root fetch - main [MainThread]: Store serial: [18601916]
+[2023-06-22 09:30:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601916]
+[2023-06-22 09:30:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 09:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sciform
+[2023-06-22 09:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-nbqueue
+[2023-06-22 09:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydevkit
+[2023-06-22 09:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fondat-postgresql
+[2023-06-22 09:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LNPLab
+[2023-06-22 09:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsspkg
+[2023-06-22 09:30:19] INFO root fetch - processPackages [dsspkg]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-22 09:30:19] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-22 09:30:19] INFO root fetch - processPackages [LNPLab]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 09:30:19] INFO root fetch - processPackages [fondat-postgresql]: New version: [4.1.0] Old Version: [4.0b2]
+[2023-06-22 09:30:19] INFO root fetch - processPackages [jupyterlab-nbqueue]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-22 09:30:19] INFO root fetch - processPackages [pydevkit]: New version: [3.2.2] Old Version: [2.1.1]
+[2023-06-22 09:30:19] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/cb/52/89d161781efe9257151aec7fcc28e4bc6478f3030d9f735f7572f4075ce6/dsspkg-0.2.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [jupyterlab-nbqueue]: Downloading https://files.pythonhosted.org/packages/c5/71/064726f2e83ef3680d2aded1add4d9594db4a878b8ab329dba673c5db12e/jupyterlab_nbqueue-0.1.3.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [LNPLab]: Downloading https://files.pythonhosted.org/packages/c8/7b/10303ce0b318141e60302d10f41cfcc55df22bdea2a36768f40e2686e451/LNPLab-0.0.1.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/68/44/3c37cf32d756cf480a0800920be1d992d2e4a1512c545f83457e5d98be20/dsspkg-0.2.1.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [pydevkit]: Downloading https://files.pythonhosted.org/packages/a3/63/6f53370e28dbc123f71f8a4e17254c2744ace8e9a4ed6300ea9bc7a52f09/pydevkit-2.1.1-py3-none-any.whl
+[2023-06-22 09:30:19] INFO root fetch - processPackages [fondat-postgresql]: Downloading https://files.pythonhosted.org/packages/66/e5/bc3fa0ba0a8a5f6159998d6e9e409eb6c498778428504571e0d1e30415c7/fondat-postgresql-4.0b2.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [dsspkg]: executing diffoscope
+[2023-06-22 09:30:19] INFO root fetch - processPackages [dsspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspkg-0.2.tar.gz tmp/dsspkg-0.2.1.tar.gz --markdown 20230622/d/dsspkg/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 09:30:19] INFO root fetch - processPackages [LNPLab]: Downloading https://files.pythonhosted.org/packages/f2/a9/5102cc80a23776afb82941eca68afe53543a59b61882a589b76be9e64706/LNPLab-0.0.2.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [fondat-postgresql]: Downloading https://files.pythonhosted.org/packages/61/4e/d0115d3f6b9b571f17a088b09e3d9fd3affb13b0ec756d157cfb10a7e43f/fondat_postgresql-4.1.0.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-22 09:30:19] INFO root fetch - processPackages [fondat-postgresql]: executing diffoscope
+[2023-06-22 09:30:19] INFO root fetch - processPackages [fondat-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondat-postgresql-4.0b2.tar.gz tmp/fondat_postgresql-4.1.0.tar.gz --markdown 20230622/f/fondat-postgresql/4.0b2-4.1.0/diff.md --exclude *.pyd
+[2023-06-22 09:30:19] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-22 09:30:19] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230622/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-22 09:30:19] INFO root fetch - processPackages [pydevkit]: Downloading https://files.pythonhosted.org/packages/d2/47/a9f75274a863fa76fc2abb5540e12c5857bf7cce9daf789b928ff05fc3ea/pydevkit-3.2.2-py3-none-any.whl
+[2023-06-22 09:30:19] INFO root fetch - processPackages [LNPLab]: executing diffoscope
+[2023-06-22 09:30:19] INFO root fetch - processPackages [LNPLab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LNPLab-0.0.1.tar.gz tmp/LNPLab-0.0.2.tar.gz --markdown 20230622/L/LNPLab/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 09:30:19] INFO root fetch - processPackages [pydevkit]: executing diffoscope
+[2023-06-22 09:30:19] INFO root fetch - processPackages [pydevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydevkit-2.1.1-py3-none-any.whl.zip tmp/pydevkit-3.2.2-py3-none-any.whl.zip --markdown 20230622/p/pydevkit/2.1.1-3.2.2/diff.md --exclude *.pyd
+[2023-06-22 09:30:20] INFO root fetch - processPackages [jupyterlab-nbqueue]: Downloading https://files.pythonhosted.org/packages/7b/8b/3c673d52d9f9d8a5da2db225bcca5e02a15658571d40b90960ad7f6528ce/jupyterlab_nbqueue-0.1.4.tar.gz
+[2023-06-22 09:30:20] INFO root fetch - processPackages [jupyterlab-nbqueue]: executing diffoscope
+[2023-06-22 09:30:20] INFO root fetch - processPackages [jupyterlab-nbqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nbqueue-0.1.3.tar.gz tmp/jupyterlab_nbqueue-0.1.4.tar.gz --markdown 20230622/j/jupyterlab-nbqueue/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-22 09:30:21] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.1.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - main [MainThread]: End processing [dsspkg]: success
+[2023-06-22 09:30:21] INFO root fetch - processPackages [fondat-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/fondat-postgresql-4.0b2.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - processPackages [fondat-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/fondat_postgresql-4.1.0.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - main [MainThread]: End processing [fondat-postgresql]: success
+[2023-06-22 09:30:21] INFO root fetch - processPackages [LNPLab]: Remove: archive file [/home/abi/fetcher/tmp/LNPLab-0.0.1.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - processPackages [LNPLab]: Remove: archive file [/home/abi/fetcher/tmp/LNPLab-0.0.2.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - main [MainThread]: End processing [LNPLab]: success
+[2023-06-22 09:30:21] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-22 09:30:21] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-22 09:30:21] INFO root fetch - processPackages [pydevkit]: Remove: archive file [/home/abi/fetcher/tmp/pydevkit-2.1.1-py3-none-any.whl.zip]
+[2023-06-22 09:30:21] INFO root fetch - processPackages [pydevkit]: Remove: archive file [/home/abi/fetcher/tmp/pydevkit-3.2.2-py3-none-any.whl.zip]
+[2023-06-22 09:30:21] INFO root fetch - main [MainThread]: End processing [pydevkit]: success
+[2023-06-22 09:30:24] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.3.tar.gz]
+[2023-06-22 09:30:24] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.4.tar.gz]
+[2023-06-22 09:30:24] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbqueue]: success
+[2023-06-22 09:30:24] INFO root fetch - main [MainThread]: Store serial: [18601941]
