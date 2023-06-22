@@ -19522,3 +19522,76 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:57:05] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.6.tar.gz]
 [2023-06-22 13:57:05] INFO root fetch - main [MainThread]: End processing [metamist]: success
 [2023-06-22 13:57:05] INFO root fetch - main [MainThread]: Store serial: [18604416]
+[2023-06-22 14:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604416]
+[2023-06-22 14:02:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shareddata
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto-ext
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morch
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hardened-steel
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morch
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymolecule-parser
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parshift
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyCompGeomAlgorithms
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ssbtoolkit
+[2023-06-22 14:02:15] INFO root fetch - processPackages [morch]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 14:02:15] INFO root fetch - processPackages [hardened-steel]: New version: [0.0.6.dev0] Old Version: [0.0.5.dev0]
+[2023-06-22 14:02:15] INFO root fetch - processPackages [moto-ext]: New version: [4.1.9.post1] Old Version: [4.1.8.post1]
+[2023-06-22 14:02:15] WARNING root fetch - processPackages [PyCompGeomAlgorithms]: Skipping, unable to determine old version
+[2023-06-22 14:02:15] INFO root fetch - main [MainThread]: End processing [PyCompGeomAlgorithms] error
+[2023-06-22 14:02:15] INFO root fetch - processPackages [parshift]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-06-22 14:02:15] INFO root fetch - processPackages [morch]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 14:02:15] INFO root fetch - processPackages [ssbtoolkit]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-22 14:02:15] INFO root fetch - processPackages [pymolecule-parser]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-22 14:02:15] INFO root fetch - processPackages [shareddata]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 14:02:15] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/6b/aa/caa8a28fbe74c9626454a0f01b196b94ca22fc40c28a10fb2d8c8c092fe6/hardened-steel-0.0.5.dev0.tar.gz
+[2023-06-22 14:02:15] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/8a/b4/c4440e7b0d2c715d1836c0bcbf83d5635f8fa2bb525cc6ed974d66d4f034/morch-0.1.2.tar.gz
+[2023-06-22 14:02:15] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/a3/89/36663418cc430f191945f4554d0919f8804487b2ffe208a4b81eb15419ff/shareddata-2.0.8.tar.gz
+[2023-06-22 14:02:15] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/8a/b4/c4440e7b0d2c715d1836c0bcbf83d5635f8fa2bb525cc6ed974d66d4f034/morch-0.1.2.tar.gz
+[2023-06-22 14:02:15] INFO root fetch - processPackages [parshift]: Downloading https://files.pythonhosted.org/packages/b5/29/bd4cb8a1b4eff8c105b2bb9d30d154640096d037241f11b26ad1bd8c4b49/parshift-0.2.2.tar.gz
+[2023-06-22 14:02:15] INFO root fetch - processPackages [pymolecule-parser]: Downloading https://files.pythonhosted.org/packages/07/7b/a8f2dc48d5496ab59fede87c106f26c3ba85e725a5907e64668e230291bf/pymolecule_parser-0.0.2.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [ssbtoolkit]: Downloading https://files.pythonhosted.org/packages/bb/a6/91a6dcd406345d3f8b561ebf12740f9094f8189970adc5a8c304608db7f3/ssbtoolkit-1.0.5.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/f0/14/ac0f54b6fa67741547e41f378bc66510d31ea67aefd6ca4ffe3eac6317fd/hardened-steel-0.0.6.dev0.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/85/35/73a4daba1b6e24607a1166a907cf2ab684e3fa073c4290b36c6c987873ce/morch-0.1.3.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/c9/f9/61fa61a22abefea2b892306bbb73a62ed0a1a79371960e7ef36dd8fd83b5/shareddata-2.0.9.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/85/35/73a4daba1b6e24607a1166a907cf2ab684e3fa073c4290b36c6c987873ce/morch-0.1.3.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [parshift]: Downloading https://files.pythonhosted.org/packages/a3/e5/483577c4bd8a605e2d9382ef9296fc0774a090dbb72ca7e9207cd43db8bb/parshift-1.0.0.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-4.1.8.post1.tar.gz tmp/moto-ext-4.1.9.post1.tar.gz --markdown 20230622/m/moto-ext/4.1.8.post1-4.1.9.post1/diff.md --exclude *.pyd
+[2023-06-22 14:02:16] INFO root fetch - processPackages [morch]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [morch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morch-0.1.2.tar.gz tmp/morch-0.1.3.tar.gz --markdown 20230622/m/morch/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 14:02:16] INFO root fetch - processPackages [morch]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [morch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morch-0.1.2.tar.gz tmp/morch-0.1.3.tar.gz --markdown 20230622/m/morch/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 14:02:16] INFO root fetch - processPackages [pymolecule-parser]: Downloading https://files.pythonhosted.org/packages/9b/3f/9e40adbe4dc8ac9b4c58b7829495dd40e925d22545f43772a25d9c45c4d5/pymolecule_parser-0.1.0.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.8.tar.gz tmp/shareddata-2.0.9.tar.gz --markdown 20230622/s/shareddata/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-22 14:02:16] INFO root fetch - processPackages [parshift]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [parshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parshift-0.2.2.tar.gz tmp/parshift-1.0.0.tar.gz --markdown 20230622/p/parshift/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 14:02:16] INFO root fetch - processPackages [hardened-steel]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [hardened-steel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardened-steel-0.0.5.dev0.tar.gz tmp/hardened-steel-0.0.6.dev0.tar.gz --markdown 20230622/h/hardened-steel/0.0.5.dev0-0.0.6.dev0/diff.md --exclude *.pyd
+[2023-06-22 14:02:16] INFO root fetch - processPackages [ssbtoolkit]: Downloading https://files.pythonhosted.org/packages/6d/64/9a44321f82405e5d768fc231a122330073d83a21e635e7ff4613ae2d55a6/ssbtoolkit-1.0.6.tar.gz
+[2023-06-22 14:02:16] INFO root fetch - processPackages [pymolecule-parser]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [pymolecule-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymolecule_parser-0.0.2.tar.gz tmp/pymolecule_parser-0.1.0.tar.gz --markdown 20230622/p/pymolecule-parser/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-22 14:02:16] INFO root fetch - processPackages [ssbtoolkit]: executing diffoscope
+[2023-06-22 14:02:16] INFO root fetch - processPackages [ssbtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssbtoolkit-1.0.5.tar.gz tmp/ssbtoolkit-1.0.6.tar.gz --markdown 20230622/s/ssbtoolkit/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-22 14:02:17] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-0.1.2.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-0.1.3.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - main [MainThread]: End processing [morch]: success
+[2023-06-22 14:02:17] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.5.dev0.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.6.dev0.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - main [MainThread]: End processing [hardened-steel]: success
+[2023-06-22 14:02:17] INFO root fetch - processPackages [parshift]: Remove: archive file [/home/abi/fetcher/tmp/parshift-0.2.2.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - processPackages [parshift]: Remove: archive file [/home/abi/fetcher/tmp/parshift-1.0.0.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - main [MainThread]: End processing [parshift]: success
+[2023-06-22 14:02:17] INFO root fetch - processPackages [pymolecule-parser]: Remove: archive file [/home/abi/fetcher/tmp/pymolecule_parser-0.0.2.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - processPackages [pymolecule-parser]: Remove: archive file [/home/abi/fetcher/tmp/pymolecule_parser-0.1.0.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - main [MainThread]: End processing [pymolecule-parser]: success
+[2023-06-22 14:02:17] INFO root fetch - processPackages [ssbtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ssbtoolkit-1.0.5.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - processPackages [ssbtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/ssbtoolkit-1.0.6.tar.gz]
+[2023-06-22 14:02:17] INFO root fetch - main [MainThread]: End processing [ssbtoolkit]: success
+[2023-06-22 14:02:17] INFO root fetch - main [MainThread]: End processing [morch]: success
+[2023-06-22 14:02:18] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.8.tar.gz]
+[2023-06-22 14:02:18] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.9.tar.gz]
+[2023-06-22 14:02:18] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-06-22 14:05:16] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2023-06-22 14:05:16] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2023-06-22 14:05:16] INFO root fetch - main [MainThread]: Store serial: [18604446]
