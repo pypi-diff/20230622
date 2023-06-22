@@ -15954,3 +15954,238 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 11:36:47] INFO root fetch - processPackages [pyterrier-pisa]: Remove: archive file [/home/abi/fetcher/tmp/pyterrier_pisa-0.0.4-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
 [2023-06-22 11:36:47] INFO root fetch - main [MainThread]: End processing [pyterrier-pisa]: success
 [2023-06-22 11:36:47] INFO root fetch - main [MainThread]: Store serial: [18603106]
+[2023-06-22 11:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603106]
+[2023-06-22 11:42:05] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docker-shaper
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testvelikafkaclient
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-linode
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: patroni
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymakeplots
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-tg-bot-framework
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: breeze-strategies
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cars
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nifpga-fast-fifo-recv
+[2023-06-22 11:42:05] WARNING root fetch - processPackages [django-tg-bot-framework]: Skipping, unable to determine old version
+[2023-06-22 11:42:05] INFO root fetch - processPackages [django-tg-bot-framework]: Start processing: DLMS-SPODES
+[2023-06-22 11:42:05] INFO root fetch - main [MainThread]: End processing [django-tg-bot-framework] error
+[2023-06-22 11:42:05] WARNING root fetch - processPackages [docker-shaper]: Skipping, unable to determine old version
+[2023-06-22 11:42:05] INFO root fetch - processPackages [docker-shaper]: Start processing: clinvar-tsv
+[2023-06-22 11:42:05] INFO root fetch - main [MainThread]: End processing [docker-shaper] error
+[2023-06-22 11:42:05] INFO root fetch - processPackages [testvelikafkaclient]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-22 11:42:05] WARNING root fetch - processPackages [cars]: Skipping, unable to determine old version
+[2023-06-22 11:42:05] INFO root fetch - processPackages [cars]: Start processing: checkov
+[2023-06-22 11:42:05] INFO root fetch - main [MainThread]: End processing [cars] error
+[2023-06-22 11:42:05] INFO root fetch - processPackages [pulumi-linode]: New version: [4.3.0a1687424922] Old Version: [4.3.0a1687055232]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.7] Old Version: [6.0.6]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [pymakeplots]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [patroni]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [clinvar-tsv]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-22 11:42:05] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/eb/53/48871ecb178421c06b5b3aa631d10d454587a871924ff8888d36a56b3ccd/breeze_strategies-6.0.6.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [testvelikafkaclient]: Downloading https://files.pythonhosted.org/packages/ab/89/ffba440bb61d42a1c2f5b2abadd20d1f7da6cb392d1af2bc5dc38ccf7ad7/testvelikafkaclient-1.0.3.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/39/b0/6de55a6af13f68dc882d73fc66a243598039508d7ee5e379ea57895950d9/pulumi_linode-4.3.0a1687055232.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/84/39/6891c54bd2bc577a242fc40c6125fd63a21feafa38cd93b95a002ba99120/nifpga_fast_fifo_recv-0.99.0.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [pymakeplots]: Downloading https://files.pythonhosted.org/packages/49/1f/c2474da28223758e64cb284e348d2a0bf1f6c6bab37516f933d49d7a9f68/pymakeplots-0.1.6.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [clinvar-tsv]: Downloading https://files.pythonhosted.org/packages/99/4d/1cb7fa3986a8c272b76a6cb041faf8aaf23bbc771211035eed3331d395ea/clinvar-tsv-0.6.2.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [patroni]: Downloading https://files.pythonhosted.org/packages/07/f1/a95fb9e2fb9d95507ee64d829216a3bb1faf11dbcd2d517c5abda4f6bf65/patroni-3.0.2.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-06-22 11:42:05] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/e7/ca/7a89220de49a059514fdd83bda254c302e7ad0cc1789f6d646343cef8674/breeze_strategies-6.0.7.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.6.tar.gz tmp/breeze_strategies-6.0.7.tar.gz --markdown 20230622/b/breeze-strategies/6.0.6-6.0.7/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/c5/09/962533a88403a1a798fbd521c0b35407e11e7ef666dbd6b007d2cacf358c/nifpga_fast_fifo_recv-0.99.1.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [testvelikafkaclient]: Downloading https://files.pythonhosted.org/packages/d9/fd/cb2fa668c9b815f743107988d76b74b643cade713debc1316c06fb1bd55e/testvelikafkaclient-1.0.4.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/83/be/76c3d57aa68379569630b936df7be1e5acb79702dbfdb1813c83c362a1a2/pulumi_linode-4.3.0a1687424922.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [pymakeplots]: Downloading https://files.pythonhosted.org/packages/45/2c/ea6362320a2321dd3b6534856f3b0137bee0c3eddb66563ae77915455a14/pymakeplots-0.1.7.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [clinvar-tsv]: Downloading https://files.pythonhosted.org/packages/62/58/4703c553795d30e2d67858127db96463758261446acc2afa171bae731354/clinvar-tsv-0.6.3.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [patroni]: Downloading https://files.pythonhosted.org/packages/57/f4/d4e0a842ed4561df2b2e8158c635246b3ee229fadd90287a3f57ef514c5c/patroni-3.0.3.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifpga_fast_fifo_recv-0.99.0.tar.gz tmp/nifpga_fast_fifo_recv-0.99.1.tar.gz --markdown 20230622/n/nifpga-fast-fifo-recv/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [testvelikafkaclient]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [testvelikafkaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testvelikafkaclient-1.0.3.tar.gz tmp/testvelikafkaclient-1.0.4.tar.gz --markdown 20230622/t/testvelikafkaclient/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230622/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.3.0a1687055232.tar.gz tmp/pulumi_linode-4.3.0a1687424922.tar.gz --markdown 20230622/p/pulumi-linode/4.3.0a1687055232-4.3.0a1687424922/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [clinvar-tsv]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [clinvar-tsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinvar-tsv-0.6.2.tar.gz tmp/clinvar-tsv-0.6.3.tar.gz --markdown 20230622/c/clinvar-tsv/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [patroni]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [patroni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patroni-3.0.2.tar.gz tmp/patroni-3.0.3.tar.gz --markdown 20230622/p/patroni/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-22 11:42:06] INFO root fetch - processPackages [pymakeplots]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [pymakeplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymakeplots-0.1.6.tar.gz tmp/pymakeplots-0.1.7.tar.gz --markdown 20230622/p/pymakeplots/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230622/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-06-22 11:42:06] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-22 11:42:06] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230622/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-22 11:42:07] INFO root fetch - processPackages [testvelikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/testvelikafkaclient-1.0.3.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [testvelikafkaclient]: Remove: archive file [/home/abi/fetcher/tmp/testvelikafkaclient-1.0.4.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [testvelikafkaclient]: Start processing: lsst-daf-butler
+[2023-06-22 11:42:07] INFO root fetch - main [MainThread]: End processing [testvelikafkaclient]: success
+[2023-06-22 11:42:07] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.99.0.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.99.1.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Start processing: lollms
+[2023-06-22 11:42:07] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv]: success
+[2023-06-22 11:42:07] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.6.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.7.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [breeze-strategies]: Start processing: openai-dbd
+[2023-06-22 11:42:07] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-22 11:42:07] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-22 11:42:07] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-06-22 11:42:07] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 11:42:07] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-22 11:42:07] INFO root fetch - processPackages [lollms]: Start processing: giant-plugins
+[2023-06-22 11:42:07] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-22 11:42:07] INFO root fetch - processPackages [pymakeplots]: Remove: archive file [/home/abi/fetcher/tmp/pymakeplots-0.1.6.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [pymakeplots]: Remove: archive file [/home/abi/fetcher/tmp/pymakeplots-0.1.7.tar.gz]
+[2023-06-22 11:42:07] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-22 11:42:07] INFO root fetch - processPackages [pymakeplots]: Start processing: sfftk
+[2023-06-22 11:42:07] INFO root fetch - main [MainThread]: End processing [pymakeplots]: success
+[2023-06-22 11:42:07] INFO root fetch - processPackages [giant-plugins]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [sfftk]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [giant-plugins]: Downloading https://files.pythonhosted.org/packages/69/bf/8fd91a052305bfeda7a7ff6147373edc51ee1f0370368e2bdd4aa36c3b84/giant-plugins-1.0.8.tar.gz
+[2023-06-22 11:42:08] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-22 11:42:08] INFO root fetch - processPackages [sfftk]: Downloading https://files.pythonhosted.org/packages/d1/60/e6a79cd1cb402e60b07759af903506eef007275f4dc9e99c575414234a4b/sfftk-0.8.4.tar.gz
+[2023-06-22 11:42:08] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-06-22 11:42:08] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-22 11:42:08] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230622/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 11:42:08] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-06-22 11:42:08] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:42:08] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [DLMS-SPODES]: Start processing: netzip
+[2023-06-22 11:42:08] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-22 11:42:08] INFO root fetch - processPackages [giant-plugins]: Downloading https://files.pythonhosted.org/packages/c2/6c/275688b0e041dcb282b957248ea60c9c0568685cd2f4c16beb575b762cd6/giant-plugins-1.0.9.tar.gz
+[2023-06-22 11:42:08] INFO root fetch - processPackages [netzip]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [sfftk]: Downloading https://files.pythonhosted.org/packages/ee/ea/9d337cef12edaa232b9313235de591ce913d22b0546cf576f0fd3413f731/sfftk-0.8.5.tar.gz
+[2023-06-22 11:42:08] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [ramodels]: Start processing: function-analyser
+[2023-06-22 11:42:08] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-06-22 11:42:08] WARNING root fetch - processPackages [function-analyser]: Skipping, unable to determine old version
+[2023-06-22 11:42:08] INFO root fetch - processPackages [function-analyser]: Start processing: odoo-addon-contract
+[2023-06-22 11:42:08] INFO root fetch - main [MainThread]: End processing [function-analyser] error
+[2023-06-22 11:42:08] INFO root fetch - processPackages [netzip]: Downloading https://files.pythonhosted.org/packages/8c/24/b6b50fc1f5a24012ba9c2a41b2399b00bf6bad1e2dd82c55f29d236813a7/netzip-0.3.0.tar.gz
+[2023-06-22 11:42:08] INFO root fetch - processPackages [sfftk]: executing diffoscope
+[2023-06-22 11:42:08] INFO root fetch - processPackages [sfftk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfftk-0.8.4.tar.gz tmp/sfftk-0.8.5.tar.gz --markdown 20230622/s/sfftk/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-22 11:42:08] INFO root fetch - processPackages [odoo-addon-contract]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-22 11:42:08] INFO root fetch - processPackages [giant-plugins]: executing diffoscope
+[2023-06-22 11:42:08] INFO root fetch - processPackages [giant-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant-plugins-1.0.8.tar.gz tmp/giant-plugins-1.0.9.tar.gz --markdown 20230622/g/giant-plugins/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 11:42:08] INFO root fetch - processPackages [netzip]: Downloading https://files.pythonhosted.org/packages/34/eb/7a471e9500400f0f193f3b2272052f68b7b0009faef15072baa551f93457/netzip-0.3.1.tar.gz
+[2023-06-22 11:42:08] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/32/7b/93565093c2570f58b208994a6dd8200813797df08efb10c52e78aa1f5431/odoo_addon_contract-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-22 11:42:09] INFO root fetch - processPackages [clinvar-tsv]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-tsv-0.6.2.tar.gz]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [clinvar-tsv]: Remove: archive file [/home/abi/fetcher/tmp/clinvar-tsv-0.6.3.tar.gz]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [clinvar-tsv]: Start processing: deepsearch-toolkit
+[2023-06-22 11:42:09] INFO root fetch - main [MainThread]: End processing [clinvar-tsv]: success
+[2023-06-22 11:42:09] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.3.0a1687055232.tar.gz]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.3.0a1687424922.tar.gz]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [pulumi-linode]: Start processing: dv-utils
+[2023-06-22 11:42:09] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2023-06-22 11:42:09] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [dv-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [netzip]: executing diffoscope
+[2023-06-22 11:42:09] INFO root fetch - processPackages [netzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netzip-0.3.0.tar.gz tmp/netzip-0.3.1.tar.gz --markdown 20230622/n/netzip/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-22 11:42:09] INFO root fetch - processPackages [patroni]: Remove: archive file [/home/abi/fetcher/tmp/patroni-3.0.2.tar.gz]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [patroni]: Remove: archive file [/home/abi/fetcher/tmp/patroni-3.0.3.tar.gz]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [patroni]: Start processing: django-logikal
+[2023-06-22 11:42:09] INFO root fetch - main [MainThread]: End processing [patroni]: success
+[2023-06-22 11:42:09] INFO root fetch - processPackages [django-logikal]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [dv-utils]: Downloading https://files.pythonhosted.org/packages/f3/2b/39b5902cbd1dac6d534c43f3a30d386e21ded6619df5c0a40a4f797193e7/dv_utils-0.1.0.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/53/66/33bde55a240a8b297e68f7746e32e0c49c3be34a0bef777b582ce892e75a/deepsearch_toolkit-0.8.0.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [odoo-addon-contract]: Downloading https://files.pythonhosted.org/packages/5b/7f/939af877f65b147a5d0095d0ae681367871d1cd8bf0e8a611e6445b2f344/odoo_addon_contract-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-22 11:42:09] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [openai-dbd]: Start processing: molo
+[2023-06-22 11:42:09] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-22 11:42:09] INFO root fetch - processPackages [dv-utils]: Downloading https://files.pythonhosted.org/packages/5a/b6/9b45a38b48fdf1a70813fa4350adb6783765c60b21bd87df20522681e237/dv_utils-0.1.1.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [molo]: New version: [0.0.12] Old Version: [0.0.1]
+[2023-06-22 11:42:09] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/99/92/fda6e4e13cc7e8e5f1ee948203a9ed30d4c451db9983e669d640e0a62abf/django-logikal-1.0.1.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [dv-utils]: executing diffoscope
+[2023-06-22 11:42:09] INFO root fetch - processPackages [dv-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dv_utils-0.1.0.tar.gz tmp/dv_utils-0.1.1.tar.gz --markdown 20230622/d/dv-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 11:42:09] INFO root fetch - processPackages [odoo-addon-contract]: executing diffoscope
+[2023-06-22 11:42:09] INFO root fetch - processPackages [odoo-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_contract-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-contract/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-22 11:42:09] INFO root fetch - processPackages [molo]: Downloading https://files.pythonhosted.org/packages/cb/ca/b32cc23c54bce2a25aea53c81a75f43b5232c38c71a25473ddc617c1be1e/molo-0.0.1.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/af/4f/81421d1676fe839d31289bc27a262bdbb1dfd7c868324c8a18fca437e37e/deepsearch_toolkit-0.9.0.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2023-06-22 11:42:09] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20230622/d/deepsearch-toolkit/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 11:42:09] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/8e/2e/085b561b591a43e98231b91d84133458c169ef73c68110a1732367171ecc/django-logikal-1.0.2.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [molo]: Downloading https://files.pythonhosted.org/packages/e4/c6/797bd6c95031816e708a151023a0d31590a43eb275b874457c6998eede77/molo-0.0.12.tar.gz
+[2023-06-22 11:42:09] INFO root fetch - processPackages [molo]: executing diffoscope
+[2023-06-22 11:42:09] INFO root fetch - processPackages [molo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molo-0.0.1.tar.gz tmp/molo-0.0.12.tar.gz --markdown 20230622/m/molo/0.0.1-0.0.12/diff.md --exclude *.pyd
+[2023-06-22 11:42:10] INFO root fetch - processPackages [django-logikal]: executing diffoscope
+[2023-06-22 11:42:10] INFO root fetch - processPackages [django-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-logikal-1.0.1.tar.gz tmp/django-logikal-1.0.2.tar.gz --markdown 20230622/d/django-logikal/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-22 11:42:10] INFO root fetch - processPackages [netzip]: Remove: archive file [/home/abi/fetcher/tmp/netzip-0.3.0.tar.gz]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [netzip]: Remove: archive file [/home/abi/fetcher/tmp/netzip-0.3.1.tar.gz]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [netzip]: Start processing: python-adjudicator
+[2023-06-22 11:42:10] INFO root fetch - main [MainThread]: End processing [netzip]: success
+[2023-06-22 11:42:10] INFO root fetch - processPackages [python-adjudicator]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [sfftk]: Remove: archive file [/home/abi/fetcher/tmp/sfftk-0.8.4.tar.gz]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [sfftk]: Remove: archive file [/home/abi/fetcher/tmp/sfftk-0.8.5.tar.gz]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [sfftk]: Start processing: dvadmin-sms
+[2023-06-22 11:42:10] INFO root fetch - main [MainThread]: End processing [sfftk]: success
+[2023-06-22 11:42:10] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/76/fe/be775b16841da85ba7c58d1d5f7f00445cfa2189e614f9220f93c28c24f9/python_adjudicator-0.3.0.tar.gz
+[2023-06-22 11:42:10] INFO root fetch - processPackages [dvadmin-sms]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [dvadmin-sms]: Downloading https://files.pythonhosted.org/packages/47/57/1c4e7c9849234397c2d2b97ed7b0b14d0b36b90f3f3474f3fffcb19e9caf/dvadmin-sms-1.0.5.tar.gz
+[2023-06-22 11:42:10] INFO root fetch - processPackages [python-adjudicator]: Downloading https://files.pythonhosted.org/packages/f6/70/6564e386eff578f7888e76477b49a42d8b27ca39446e78017f222158219f/python_adjudicator-0.3.1.tar.gz
+[2023-06-22 11:42:10] INFO root fetch - processPackages [dv-utils]: Remove: archive file [/home/abi/fetcher/tmp/dv_utils-0.1.0.tar.gz]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [dv-utils]: Remove: archive file [/home/abi/fetcher/tmp/dv_utils-0.1.1.tar.gz]
+[2023-06-22 11:42:10] INFO root fetch - processPackages [dv-utils]: Start processing: pythclient
+[2023-06-22 11:42:10] INFO root fetch - main [MainThread]: End processing [dv-utils]: success
+[2023-06-22 11:42:10] INFO root fetch - processPackages [python-adjudicator]: executing diffoscope
+[2023-06-22 11:42:10] INFO root fetch - processPackages [python-adjudicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_adjudicator-0.3.0.tar.gz tmp/python_adjudicator-0.3.1.tar.gz --markdown 20230622/p/python-adjudicator/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-22 11:42:11] INFO root fetch - processPackages [pythclient]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-22 11:42:11] INFO root fetch - processPackages [dvadmin-sms]: Downloading https://files.pythonhosted.org/packages/a4/6a/98538b16ca14faa6617db45c1717d705d24adb99fded3a20e9fd43b5333d/dvadmin-sms-1.0.6.tar.gz
+[2023-06-22 11:42:11] INFO root fetch - processPackages [dvadmin-sms]: executing diffoscope
+[2023-06-22 11:42:11] INFO root fetch - processPackages [dvadmin-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvadmin-sms-1.0.5.tar.gz tmp/dvadmin-sms-1.0.6.tar.gz --markdown 20230622/d/dvadmin-sms/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-22 11:42:11] INFO root fetch - processPackages [molo]: Remove: archive file [/home/abi/fetcher/tmp/molo-0.0.1.tar.gz]
+[2023-06-22 11:42:11] INFO root fetch - processPackages [molo]: Remove: archive file [/home/abi/fetcher/tmp/molo-0.0.12.tar.gz]
+[2023-06-22 11:42:11] INFO root fetch - processPackages [molo]: Start processing: lollms
+[2023-06-22 11:42:11] INFO root fetch - main [MainThread]: End processing [molo]: success
+[2023-06-22 11:42:11] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 11:42:11] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/03/38/cd1e3ce1ccbd561374d0d864d240f72188cdf6e29db7decc9d043c4b33af/pythclient-0.1.6.tar.gz
+[2023-06-22 11:42:11] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-22 11:42:11] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-22 11:42:11] INFO root fetch - processPackages [lollms]: Start processing: PyEmailExtracter
+[2023-06-22 11:42:11] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-22 11:42:11] WARNING root fetch - processPackages [PyEmailExtracter]: Skipping, unable to determine old version
+[2023-06-22 11:42:11] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter] error
+[2023-06-22 11:42:11] INFO root fetch - processPackages [pythclient]: Downloading https://files.pythonhosted.org/packages/bf/95/9494b581cd2c6cba315eca8c83764d75ab3f2876009e18bc12eb50d06723/pythclient-0.1.7.tar.gz
+[2023-06-22 11:42:11] INFO root fetch - processPackages [pythclient]: executing diffoscope
+[2023-06-22 11:42:11] INFO root fetch - processPackages [pythclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythclient-0.1.6.tar.gz tmp/pythclient-0.1.7.tar.gz --markdown 20230622/p/pythclient/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-22 11:42:12] INFO root fetch - processPackages [python-adjudicator]: Remove: archive file [/home/abi/fetcher/tmp/python_adjudicator-0.3.0.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - processPackages [python-adjudicator]: Remove: archive file [/home/abi/fetcher/tmp/python_adjudicator-0.3.1.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - main [MainThread]: End processing [python-adjudicator]: success
+[2023-06-22 11:42:12] INFO root fetch - processPackages [giant-plugins]: Remove: archive file [/home/abi/fetcher/tmp/giant-plugins-1.0.8.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - processPackages [giant-plugins]: Remove: archive file [/home/abi/fetcher/tmp/giant-plugins-1.0.9.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - main [MainThread]: End processing [giant-plugins]: success
+[2023-06-22 11:42:12] INFO root fetch - processPackages [dvadmin-sms]: Remove: archive file [/home/abi/fetcher/tmp/dvadmin-sms-1.0.5.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - processPackages [dvadmin-sms]: Remove: archive file [/home/abi/fetcher/tmp/dvadmin-sms-1.0.6.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - main [MainThread]: End processing [dvadmin-sms]: success
+[2023-06-22 11:42:12] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230400.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.0.0a20230500.tar.gz]
+[2023-06-22 11:42:12] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-06-22 11:42:13] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django-logikal-1.0.1.tar.gz]
+[2023-06-22 11:42:13] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django-logikal-1.0.2.tar.gz]
+[2023-06-22 11:42:13] INFO root fetch - main [MainThread]: End processing [django-logikal]: success
+[2023-06-22 11:42:13] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.6.tar.gz]
+[2023-06-22 11:42:13] INFO root fetch - processPackages [pythclient]: Remove: archive file [/home/abi/fetcher/tmp/pythclient-0.1.7.tar.gz]
+[2023-06-22 11:42:13] INFO root fetch - main [MainThread]: End processing [pythclient]: success
+[2023-06-22 11:42:14] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.8.0.tar.gz]
+[2023-06-22 11:42:14] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
+[2023-06-22 11:42:14] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2023-06-22 11:42:15] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-22 11:42:15] INFO root fetch - processPackages [odoo-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-22 11:42:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract]: success
+[2023-06-22 11:42:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-22 11:42:49] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-22 11:42:49] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-22 11:42:49] INFO root fetch - main [MainThread]: Store serial: [18603203]
