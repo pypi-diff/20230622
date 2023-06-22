@@ -14816,3 +14816,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:50:29] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9183710847250.tar.gz]
 [2023-06-22 10:50:29] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-06-22 10:50:29] INFO root fetch - main [MainThread]: Store serial: [18602554]
+[2023-06-22 10:55:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602554]
+[2023-06-22 10:55:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtlpy
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: integral-client-legacy
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sirmordred
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udl-vis
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: m3-gar-client
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bkv
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdpcli-beta
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qps-limit
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: breeze-strategies
+[2023-06-22 10:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zebrazoom
+[2023-06-22 10:55:39] INFO root fetch - processPackages [sirmordred]: New version: [0.9.0rc1] Old Version: [0.8.0rc1]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [udl-vis]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [qps-limit]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-06-22 10:55:39] WARNING root fetch - processPackages [integral-client-legacy]: Skipping, unable to determine old version
+[2023-06-22 10:55:39] INFO root fetch - processPackages [bkv]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [integral-client-legacy]: Start processing: python-worker
+[2023-06-22 10:55:39] INFO root fetch - main [MainThread]: End processing [integral-client-legacy] error
+[2023-06-22 10:55:39] INFO root fetch - processPackages [dtlpy]: New version: [1.79.14] Old Version: [1.78.17]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [cdpcli-beta]: New version: [0.9.90] Old Version: [0.9.89]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [m3-gar-client]: New version: [1.0.0] Old Version: [0.1.8]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [python-worker]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-22 10:55:39] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/e7/92/dc0e8b249f7120dddadd69de9953a32c81aeb8c439cae7c7a7c9ca929ff7/breeze_strategies-6.0.4.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/07/e3/0adc1ae0c4650ccd32ecc01b0ed04bf2273cac65b6bb7ce3272acc2fc688/m3-gar-client-0.1.8.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/26/ce/4848bb6590ebe5f18aa27418955afed3498cb475b8fdfeee4e914a5391b0/qps_limit-0.1.4-py3-none-any.whl
+[2023-06-22 10:55:39] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/c2/80/4b6e5c521e94fc35e76c96735623a92cc667bdd68330662e8789b9bb4384/dtlpy-1.78.17-py3-none-any.whl
+[2023-06-22 10:55:39] INFO root fetch - processPackages [udl-vis]: Downloading https://files.pythonhosted.org/packages/11/a8/cc9facc8852e9de74ae057723b5c08b3a89bfe34fd64eefe1596d0e1640e/udl_vis-0.3.3-py3-none-any.whl
+[2023-06-22 10:55:39] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/ea/06/a7e7840b337bdc960286d13c723cb87b8abff817c7d5469b3d62568b9ca9/sirmordred-0.8.0rc1.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [bkv]: Downloading https://files.pythonhosted.org/packages/8c/b9/6c2a5df6e005192f23f5596d1f79d6a3d18b50bc74416cf5cd17148a5807/bkv-0.0.1.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [python-worker]: Downloading https://files.pythonhosted.org/packages/15/45/21919a3a99fb0ce3aaeccdda22690845d6312245251637d08bf1f4451e5c/python-worker-2.1.1.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [cdpcli-beta]: Downloading https://files.pythonhosted.org/packages/0c/d3/d99b7d3238ac93ebee02966a11828388fb4656e48a2655e80794b8c14a1b/cdpcli-beta-0.9.89.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/b9/b2/e3621b288302150ac7916e754ec2f07a3680adf802c054cc55ebca909b78/dtlpy-1.79.14-py3-none-any.whl
+[2023-06-22 10:55:39] INFO root fetch - processPackages [udl-vis]: Downloading https://files.pythonhosted.org/packages/b3/2e/34a794083320f79099e044256997aef91e7f02e056759264b85b4982f56f/udl_vis-0.3.4-py3-none-any.whl
+[2023-06-22 10:55:39] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/58/fd/d81db4f3279f502d4640610c24d66127c3efa3d206935cbef8d13e25c483/breeze_strategies-6.0.5.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/56/9a/9809b796ced9cff228e93a86f2093b4782ed6c57444ad0f3074a556292fd/qps_limit-0.1.5-py3-none-any.whl
+[2023-06-22 10:55:39] INFO root fetch - processPackages [bkv]: Downloading https://files.pythonhosted.org/packages/c6/10/7c5d34b90d0365a28bcedcfb73a830f11656e93c5df6c75176781d56c6ba/bkv-0.0.2.tar.gz
+[2023-06-22 10:55:39] INFO root fetch - processPackages [udl-vis]: executing diffoscope
+[2023-06-22 10:55:39] INFO root fetch - processPackages [udl-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udl_vis-0.3.3-py3-none-any.whl.zip tmp/udl_vis-0.3.4-py3-none-any.whl.zip --markdown 20230622/u/udl-vis/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-22 10:55:39] INFO root fetch - processPackages [dtlpy]: executing diffoscope
+[2023-06-22 10:55:39] INFO root fetch - processPackages [dtlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtlpy-1.78.17-py3-none-any.whl.zip tmp/dtlpy-1.79.14-py3-none-any.whl.zip --markdown 20230622/d/dtlpy/1.78.17-1.79.14/diff.md --exclude *.pyd
+[2023-06-22 10:55:39] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-22 10:55:39] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.4.tar.gz tmp/breeze_strategies-6.0.5.tar.gz --markdown 20230622/b/breeze-strategies/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-06-22 10:55:40] INFO root fetch - processPackages [cdpcli-beta]: Downloading https://files.pythonhosted.org/packages/6b/15/171d989e80db4edf96d9e99b6f8aadf57133f2768d7ff1d12b31a3f2d8ed/cdpcli-beta-0.9.90.tar.gz
+[2023-06-22 10:55:40] INFO root fetch - processPackages [bkv]: executing diffoscope
+[2023-06-22 10:55:40] INFO root fetch - processPackages [bkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkv-0.0.1.tar.gz tmp/bkv-0.0.2.tar.gz --markdown 20230622/b/bkv/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 10:55:40] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-06-22 10:55:40] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-0.1.4-py3-none-any.whl.zip tmp/qps_limit-0.1.5-py3-none-any.whl.zip --markdown 20230622/q/qps-limit/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-22 10:55:40] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/59/a4/857ecd77364df9e224bff2d9c2139c751643bf85c9d6c1146d0e0dd7c9ad/m3-gar-client-1.0.0.tar.gz
+[2023-06-22 10:55:40] INFO root fetch - processPackages [python-worker]: Downloading https://files.pythonhosted.org/packages/97/2b/1919167fa3f973eb6b882dc536ab048db494720717fe413983fbe3fa8872/python-worker-2.2.0.tar.gz
+[2023-06-22 10:55:40] INFO root fetch - processPackages [cdpcli-beta]: executing diffoscope
+[2023-06-22 10:55:40] INFO root fetch - processPackages [cdpcli-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdpcli-beta-0.9.89.tar.gz tmp/cdpcli-beta-0.9.90.tar.gz --markdown 20230622/c/cdpcli-beta/0.9.89-0.9.90/diff.md --exclude *.pyd
+[2023-06-22 10:55:40] INFO root fetch - processPackages [python-worker]: executing diffoscope
+[2023-06-22 10:55:40] INFO root fetch - processPackages [python-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-worker-2.1.1.tar.gz tmp/python-worker-2.2.0.tar.gz --markdown 20230622/p/python-worker/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-22 10:55:40] INFO root fetch - processPackages [m3-gar-client]: executing diffoscope
+[2023-06-22 10:55:40] INFO root fetch - processPackages [m3-gar-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-gar-client-0.1.8.tar.gz tmp/m3-gar-client-1.0.0.tar.gz --markdown 20230622/m/m3-gar-client/0.1.8-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 10:55:40] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-06-22 10:55:41] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.4-py3-none-any.whl.zip]
+[2023-06-22 10:55:41] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.5-py3-none-any.whl.zip]
+[2023-06-22 10:55:41] INFO root fetch - processPackages [qps-limit]: Start processing: dsspkg
+[2023-06-22 10:55:41] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-06-22 10:55:41] INFO root fetch - processPackages [dsspkg]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-22 10:55:41] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/db/2b/c5c78bcc25a58d591be51f8ef2cb475b16f5a478f32d96703ee45ccb497d/dsspkg-0.3.1.tar.gz
+[2023-06-22 10:55:41] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.4.tar.gz]
+[2023-06-22 10:55:41] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.5.tar.gz]
+[2023-06-22 10:55:41] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-22 10:55:41] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-06-22 10:55:41] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230622/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-22 10:55:41] INFO root fetch - processPackages [bkv]: Remove: archive file [/home/abi/fetcher/tmp/bkv-0.0.1.tar.gz]
+[2023-06-22 10:55:41] INFO root fetch - processPackages [bkv]: Remove: archive file [/home/abi/fetcher/tmp/bkv-0.0.2.tar.gz]
+[2023-06-22 10:55:41] INFO root fetch - main [MainThread]: End processing [bkv]: success
+[2023-06-22 10:55:41] INFO root fetch - processPackages [python-worker]: Remove: archive file [/home/abi/fetcher/tmp/python-worker-2.1.1.tar.gz]
+[2023-06-22 10:55:41] INFO root fetch - processPackages [python-worker]: Remove: archive file [/home/abi/fetcher/tmp/python-worker-2.2.0.tar.gz]
+[2023-06-22 10:55:41] INFO root fetch - main [MainThread]: End processing [python-worker]: success
+[2023-06-22 10:55:41] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/7f/92/a28072702df2f4a7c0441aa7dcec71af202bfaa4dabfae78433edff9d017/dsspkg-0.3.2.tar.gz
+[2023-06-22 10:55:41] INFO root fetch - processPackages [dsspkg]: executing diffoscope
+[2023-06-22 10:55:41] INFO root fetch - processPackages [dsspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspkg-0.3.1.tar.gz tmp/dsspkg-0.3.2.tar.gz --markdown 20230622/d/dsspkg/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-22 10:55:42] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-0.1.8.tar.gz]
+[2023-06-22 10:55:42] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.0.0.tar.gz]
+[2023-06-22 10:55:42] INFO root fetch - main [MainThread]: End processing [m3-gar-client]: success
+[2023-06-22 10:55:43] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.3.1.tar.gz]
+[2023-06-22 10:55:43] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.3.2.tar.gz]
+[2023-06-22 10:55:43] INFO root fetch - main [MainThread]: End processing [dsspkg]: success
+[2023-06-22 10:55:43] INFO root fetch - processPackages [udl-vis]: Remove: archive file [/home/abi/fetcher/tmp/udl_vis-0.3.3-py3-none-any.whl.zip]
+[2023-06-22 10:55:43] INFO root fetch - processPackages [udl-vis]: Remove: archive file [/home/abi/fetcher/tmp/udl_vis-0.3.4-py3-none-any.whl.zip]
+[2023-06-22 10:55:43] INFO root fetch - main [MainThread]: End processing [udl-vis]: success
+[2023-06-22 10:55:43] INFO root fetch - processPackages [sirmordred]: Downloading https://files.pythonhosted.org/packages/c7/49/486a9cdfba45a91ab747d4ee927f88500203170c1f30383287e7cb7f49f9/sirmordred-0.9.0rc1.tar.gz
+[2023-06-22 10:55:43] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.78.17-py3-none-any.whl.zip]
+[2023-06-22 10:55:43] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.79.14-py3-none-any.whl.zip]
+[2023-06-22 10:55:43] INFO root fetch - main [MainThread]: End processing [dtlpy]: success
+[2023-06-22 10:55:43] INFO root fetch - processPackages [cdpcli-beta]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-beta-0.9.89.tar.gz]
+[2023-06-22 10:55:43] INFO root fetch - processPackages [cdpcli-beta]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-beta-0.9.90.tar.gz]
+[2023-06-22 10:55:43] INFO root fetch - main [MainThread]: End processing [cdpcli-beta]: success
+[2023-06-22 10:55:43] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-06-22 10:55:43] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-06-22 10:55:43] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-06-22 10:55:44] INFO root fetch - processPackages [sirmordred]: executing diffoscope
+[2023-06-22 10:55:44] INFO root fetch - processPackages [sirmordred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirmordred-0.8.0rc1.tar.gz tmp/sirmordred-0.9.0rc1.tar.gz --markdown 20230622/s/sirmordred/0.8.0rc1-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-22 10:55:49] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.8.0rc1.tar.gz]
+[2023-06-22 10:55:49] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.0rc1.tar.gz]
+[2023-06-22 10:55:49] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
+[2023-06-22 10:55:49] INFO root fetch - main [MainThread]: Store serial: [18602588]
