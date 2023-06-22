@@ -12553,3 +12553,119 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:37:13] INFO root fetch - processPackages [jupyter-rtc-test]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rtc_test-0.0.4.tar.gz]
 [2023-06-22 08:37:13] INFO root fetch - main [MainThread]: End processing [jupyter-rtc-test]: success
 [2023-06-22 08:37:13] INFO root fetch - main [MainThread]: Store serial: [18601674]
+[2023-06-22 08:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601674]
+[2023-06-22 08:42:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotjar-data-wrapper
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-base
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-cli
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-dso
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-libs
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-whd
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-oci
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-dynamic-filenames
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domain-admin
+[2023-06-22 08:42:22] INFO root fetch - processPackages [hotjar-data-wrapper]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230622.6.36.975162] Old Version: [20230621.8.23.945122]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2089.0] Old Version: [1.2088.0]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [domain-admin]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [django-dynamic-filenames]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2089.0] Old Version: [1.2088.0]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2089.0] Old Version: [1.2088.0]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2089.0] Old Version: [1.2088.0]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2089.0] Old Version: [1.2088.0]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-22 08:42:22] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/fc/aa/dc22088887587c98541c0d48f5c804409045d57381b9362b308c9a687fdc/domain-admin-1.4.4.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [hotjar-data-wrapper]: Downloading https://files.pythonhosted.org/packages/6c/0e/477b453cdf807e2cca73110477fbe2e79b649a66e54737fb8f15d75d11f0/hotjar-data-wrapper-0.1.4.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/a7/f4/a290724e0dc0e1e785f92fddcc7759770a41bbe621072971a9436509c5c8/gardener-cicd-dso-1.2088.0.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b1/4b/411974b560682a63f11f612c1c73fdc9414339519a9b02d9ec152901df1a/certora-cli-alpha-master-20230621.8.23.945122.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [django-dynamic-filenames]: Downloading https://files.pythonhosted.org/packages/b4/ba/32294e2f16fbf31de3f56e08c7f2a82b9fe67ef86aee7a6ce79dea3058be/django-dynamic-filenames-1.3.1.tar.gz
+[2023-06-22 08:42:22] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37098248>=10485760
+[2023-06-22 08:42:22] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: ocp-freecad-cam
+[2023-06-22 08:42:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/95/49/11b13935801e0fc007043af7910ddb18a55b9e039ed2706737bfc6bf9a7e/gardener-cicd-base-1.2088.0.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/66/0f/32ec0b867ee99ea090118429a713eb4a53ae2a41da24a7f9e01a54223991/gardener-cicd-libs-1.2088.0.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/7f/33/4c4ebb96858cc6e7b4b452ac4a58695cb71deb0f3a8dd5ae0f1b7f325db7/gardener-cicd-whd-1.2088.0.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/8b/c6/747af42d8872ab5af79a309a14918083e52a6ba309710f0fce89901cba9b/domain-admin-1.4.5.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-22 08:42:22] INFO root fetch - processPackages [ocp-freecad-cam]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/a1/1e/bf5bf8cc2a51434f5742296eabf0ee2d75c8fa910b597e7d8e3cdc0501e8/gardener-cicd-base-1.2089.0.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.4.tar.gz tmp/domain-admin-1.4.5.tar.gz --markdown 20230622/d/domain-admin/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [ocp-freecad-cam]: Downloading https://files.pythonhosted.org/packages/58/3c/1aa33f2be0da2c75c924f07ba7d07980a6f4000f084576203ac0203fd7b7/ocp-freecad-cam-0.9.1.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/c0/9b/9cac9bc3fa37d0b448e218c10458dc4e1d2255c778c8bea2019cd2d906cf/gardener-cicd-dso-1.2089.0.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [hotjar-data-wrapper]: Downloading https://files.pythonhosted.org/packages/84/dd/a38b8e96287b59277c1b4154229d897e8d55ae7467126a37db10371ec9ae/hotjar-data-wrapper-0.1.5.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/85/76/a6074a587f1901d2b819e8256bcb83c74187e61c222153ac9a42aea1985d/gardener-cicd-whd-1.2089.0.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2088.0.tar.gz tmp/gardener-cicd-base-1.2089.0.tar.gz --markdown 20230622/g/gardener-cicd-base/1.2088.0-1.2089.0/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [django-dynamic-filenames]: Downloading https://files.pythonhosted.org/packages/66/21/983489a524a506e360336fd0d1846edd404b10ac3b89192009256c569563/django-dynamic-filenames-1.3.2.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2088.0.tar.gz tmp/gardener-cicd-dso-1.2089.0.tar.gz --markdown 20230622/g/gardener-cicd-dso/1.2088.0-1.2089.0/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/ff/72/20ac2e88e03d89d34cd8667f6f760182db12e7d1d4b978e8aae16932a6c1/gardener-cicd-libs-1.2089.0.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230622/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [ocp-freecad-cam]: Downloading https://files.pythonhosted.org/packages/7b/84/c547949ae062ebcd579160a6689deb3243866a18527c2aa53ad45e9fcba3/ocp-freecad-cam-0.9.2.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [hotjar-data-wrapper]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [hotjar-data-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotjar-data-wrapper-0.1.4.tar.gz tmp/hotjar-data-wrapper-0.1.5.tar.gz --markdown 20230622/h/hotjar-data-wrapper/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [ocp-freecad-cam]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [ocp-freecad-cam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp-freecad-cam-0.9.1.tar.gz tmp/ocp-freecad-cam-0.9.2.tar.gz --markdown 20230622/o/ocp-freecad-cam/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2088.0.tar.gz tmp/gardener-cicd-whd-1.2089.0.tar.gz --markdown 20230622/g/gardener-cicd-whd/1.2088.0-1.2089.0/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [django-dynamic-filenames]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [django-dynamic-filenames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dynamic-filenames-1.3.1.tar.gz tmp/django-dynamic-filenames-1.3.2.tar.gz --markdown 20230622/d/django-dynamic-filenames/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2088.0.tar.gz tmp/gardener-cicd-libs-1.2089.0.tar.gz --markdown 20230622/g/gardener-cicd-libs/1.2088.0-1.2089.0/diff.md --exclude *.pyd
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/e3/c7/4e42143c73ebd70af4d68f8ef0e77fdb7270c4161796e14e5e7402d0c34e/gardener-cicd-cli-1.2088.0.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/7b/72/2e14e8cf1c5e16b9c9beacd17d97ed9a0c0ee0bfa1e448fcc5cdd08b1802/gardener-cicd-cli-1.2089.0.tar.gz
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-22 08:42:23] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2088.0.tar.gz tmp/gardener-cicd-cli-1.2089.0.tar.gz --markdown 20230622/g/gardener-cicd-cli/1.2088.0-1.2089.0/diff.md --exclude *.pyd
+[2023-06-22 08:42:25] INFO root fetch - processPackages [hotjar-data-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hotjar-data-wrapper-0.1.4.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [hotjar-data-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hotjar-data-wrapper-0.1.5.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [hotjar-data-wrapper]: Start processing: eodc-faas-openeo
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [hotjar-data-wrapper]: success
+[2023-06-22 08:42:25] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.6] Old Version: [2023.6.5rc1]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-oci]: Start processing: mtmtool
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-22 08:42:25] INFO root fetch - processPackages [mtmtool]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2088.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2089.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-22 08:42:25] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/af/28/38ec1818a61a64965d8823afb74bb6207e2fd000d32564c9140f39dc0340/eodc_faas_openeo-2023.6.5rc1.tar.gz
+[2023-06-22 08:42:25] INFO root fetch - processPackages [ocp-freecad-cam]: Remove: archive file [/home/abi/fetcher/tmp/ocp-freecad-cam-0.9.1.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [ocp-freecad-cam]: Remove: archive file [/home/abi/fetcher/tmp/ocp-freecad-cam-0.9.2.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [ocp-freecad-cam]: success
+[2023-06-22 08:42:25] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/53/c7/d50191ebc0f27d1ace2c728c90a780fa460c61be772c41f186754ca9b326/eodc_faas_openeo-2023.6.6.tar.gz
+[2023-06-22 08:42:25] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/95/a6/aa5865ff23641f3a39d922f52996547a3b4907d1b73726581249fec68ffc/mtmtool-1.2.8.tar.gz
+[2023-06-22 08:42:25] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-06-22 08:42:25] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.5rc1.tar.gz tmp/eodc_faas_openeo-2023.6.6.tar.gz --markdown 20230622/e/eodc-faas-openeo/2023.6.5rc1-2023.6.6/diff.md --exclude *.pyd
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2088.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2089.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-22 08:42:25] INFO root fetch - processPackages [django-dynamic-filenames]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-filenames-1.3.1.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [django-dynamic-filenames]: Remove: archive file [/home/abi/fetcher/tmp/django-dynamic-filenames-1.3.2.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [django-dynamic-filenames]: success
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2088.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2089.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-22 08:42:25] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/d4/ed/60b45a1dcc5ad753b89251e6c897a9d8e542e7fd3df3faef4a8262f0996d/mtmtool-1.2.9.tar.gz
+[2023-06-22 08:42:25] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-06-22 08:42:25] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.2.8.tar.gz tmp/mtmtool-1.2.9.tar.gz --markdown 20230622/m/mtmtool/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2088.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2089.0.tar.gz]
+[2023-06-22 08:42:25] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-22 08:42:26] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.5rc1.tar.gz]
+[2023-06-22 08:42:26] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.6.tar.gz]
+[2023-06-22 08:42:26] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-06-22 08:42:26] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2088.0.tar.gz]
+[2023-06-22 08:42:26] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2089.0.tar.gz]
+[2023-06-22 08:42:26] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-22 08:42:27] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.8.tar.gz]
+[2023-06-22 08:42:27] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.9.tar.gz]
+[2023-06-22 08:42:27] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-06-22 08:42:39] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.4.tar.gz]
+[2023-06-22 08:42:39] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.5.tar.gz]
+[2023-06-22 08:42:39] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-06-22 08:42:39] INFO root fetch - main [MainThread]: Store serial: [18601713]
