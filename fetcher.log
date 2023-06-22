@@ -19878,3 +19878,137 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 14:10:38] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
 [2023-06-22 14:10:38] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-06-22 14:10:38] INFO root fetch - main [MainThread]: Store serial: [18604544]
+[2023-06-22 14:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604544]
+[2023-06-22 14:15:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simages
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-identity-sdk
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fa-models
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elphmod
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morch
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ibm-watson-pipelines
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nrf24-op
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hardened-steel
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaceone-core
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: social-blade-scraper
+[2023-06-22 14:15:47] INFO root fetch - processPackages [simages]: New version: [23.0.3] Old Version: [23.0.2]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [morch]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [social-blade-scraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [nrf24-op]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [hardened-steel]: New version: [0.0.7] Old Version: [0.0.6.dev0]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [fa-models]: New version: [1.0.43] Old Version: [1.0.40]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [ibm-watson-pipelines]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [elphmod]: New version: [0.9] Old Version: [0.8]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2458]
+[2023-06-22 14:15:47] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/22/5d/f4fc19987a5d095de3e602fc26c4c16f8667a29b8c170381983ea26d1f52/morch-0.1.6.tar.gz
+[2023-06-22 14:15:47] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/f0/14/ac0f54b6fa67741547e41f378bc66510d31ea67aefd6ca4ffe3eac6317fd/hardened-steel-0.0.6.dev0.tar.gz
+[2023-06-22 14:15:47] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/8e/2a/38761aa2f22de9336b381a2f26d18b92069a3c271049e3afe28f38d81ee1/social-blade-scraper-0.1.1.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/a4/e9/f45aeb965a588b35eeef70790d6ff16082f346ce0b8fb9ea62be7b27b423/finbourne-identity-sdk-0.0.2458.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [simages]: Downloading https://files.pythonhosted.org/packages/15/2f/06be58fe913b12abc9ece9f49f0924ffc235acd61554c81034e88b0f9fde/simages-23.0.2.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/27/47/1dc68a34a4a63592651ebf099e019090cf9ae3dce443dbfc42895458e4cb/fa-models-1.0.40.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ibm-watson-pipelines]: Downloading https://files.pythonhosted.org/packages/a0/3a/2350efc1da4906c2cb610fb5e4e703705293888595efc062a1a58d576d1e/ibm-watson-pipelines-1.0.1.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [nrf24-op]: Downloading https://files.pythonhosted.org/packages/87/da/31d4586a46da28e7a67c3e05bb9db98460ab64a6d71c27dd3b31e22a457a/nrf24_op-0.1.0.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-22 14:15:48] INFO root fetch - processPackages [elphmod]: Downloading https://files.pythonhosted.org/packages/45/6a/6ebbe0cc12fc92a65dc088b97f976d5befce6be5d6cec224b44f9f964e50/elphmod-0.8.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/a6/86/915c7e793495c84ccecea5e25c7423076eea84929341bf78f6284472bda6/morch-0.1.7.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [hardened-steel]: Downloading https://files.pythonhosted.org/packages/e5/91/650d1988a5290a461f0454458cd4061309b1c229c7ae1098d50ff156dee7/hardened-steel-0.0.7.tar.gz
+[2023-06-22 14:15:48] WARNING root fetch - processPackages [simages]: Skipping package: exceeds size limit 27266650>=10485760
+[2023-06-22 14:15:48] INFO root fetch - processPackages [simages]: Start processing: ccfit2
+[2023-06-22 14:15:48] INFO root fetch - main [MainThread]: End processing [simages] error
+[2023-06-22 14:15:48] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/f0/e1/5c1df9d1b6dc0ba633a96e6ea90b5d214b1dce2e14c2e01a3c7cc6ec20fd/social-blade-scraper-0.1.2.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ccfit2]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-06-22 14:15:48] INFO root fetch - processPackages [morch]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [morch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morch-0.1.6.tar.gz tmp/morch-0.1.7.tar.gz --markdown 20230622/m/morch/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [hardened-steel]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [hardened-steel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardened-steel-0.0.6.dev0.tar.gz tmp/hardened-steel-0.0.7.tar.gz --markdown 20230622/h/hardened-steel/0.0.6.dev0-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/d6/da/a9f26dffa3c44b83d446d8ccc4007ccea72ac7a34cbe9cfc1661c28ab5a6/fa-models-1.0.43.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [nrf24-op]: Downloading https://files.pythonhosted.org/packages/17/84/fa7edba7c6a86fce544b54e07c92e90074c64429dcbf5dfdf840398e7207/nrf24_op-0.2.0.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [social-blade-scraper]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [social-blade-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social-blade-scraper-0.1.1.tar.gz tmp/social-blade-scraper-0.1.2.tar.gz --markdown 20230622/s/social-blade-scraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ibm-watson-pipelines]: Downloading https://files.pythonhosted.org/packages/5c/37/b80711767e40ea06f793389cda8adc085c590b869730d1f9dac6b285fe76/ibm-watson-pipelines-1.0.2.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/80/50/dbea971a867d9421e994da7e7855a8e918b8a5952f9151961b1a688e51bc/ccfit2-5.1.0.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-22 14:15:48] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [elphmod]: Downloading https://files.pythonhosted.org/packages/4d/64/c6cab8a4b2d5cbf1055e9c9bca7cda67564d8e819415fbc92df845dd06e4/elphmod-0.9.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [nrf24-op]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [nrf24-op]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrf24_op-0.1.0.tar.gz tmp/nrf24_op-0.2.0.tar.gz --markdown 20230622/n/nrf24-op/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.40.tar.gz tmp/fa-models-1.0.43.tar.gz --markdown 20230622/f/fa-models/1.0.40-1.0.43/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230622/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2458.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230622/f/finbourne-identity-sdk/0.0.2458-0.0.840/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ibm-watson-pipelines]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ibm-watson-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-watson-pipelines-1.0.1.tar.gz tmp/ibm-watson-pipelines-1.0.2.tar.gz --markdown 20230622/i/ibm-watson-pipelines/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [elphmod]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [elphmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elphmod-0.8.tar.gz tmp/elphmod-0.9.tar.gz --markdown 20230622/e/elphmod/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/43/a7/bfeb223fbf2dbb5b862cd5295c09701c04c6684fda7de706f0fd31f73290/ccfit2-5.1.1.tar.gz
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ccfit2]: executing diffoscope
+[2023-06-22 14:15:48] INFO root fetch - processPackages [ccfit2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccfit2-5.1.0.tar.gz tmp/ccfit2-5.1.1.tar.gz --markdown 20230622/c/ccfit2/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-06-22 14:15:50] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.1.1.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.1.2.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [social-blade-scraper]: Start processing: horde-model-reference
+[2023-06-22 14:15:50] INFO root fetch - main [MainThread]: End processing [social-blade-scraper]: success
+[2023-06-22 14:15:50] INFO root fetch - processPackages [horde-model-reference]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/68/92/9bfc5b4b7880ee2086a495a99b3d2ce80196e8d19dd4c6ae4aabf398b244/horde_model_reference-0.2.1-py3-none-any.whl
+[2023-06-22 14:15:50] INFO root fetch - processPackages [nrf24-op]: Remove: archive file [/home/abi/fetcher/tmp/nrf24_op-0.1.0.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [nrf24-op]: Remove: archive file [/home/abi/fetcher/tmp/nrf24_op-0.2.0.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [nrf24-op]: Start processing: cybrid-api-organization-python
+[2023-06-22 14:15:50] INFO root fetch - main [MainThread]: End processing [nrf24-op]: success
+[2023-06-22 14:15:50] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.6.dev0.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [hardened-steel]: Remove: archive file [/home/abi/fetcher/tmp/hardened-steel-0.0.7.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [hardened-steel]: Start processing: cybrid-api-bank-python
+[2023-06-22 14:15:50] INFO root fetch - main [MainThread]: End processing [hardened-steel]: success
+[2023-06-22 14:15:50] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-0.1.6.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-0.1.7.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [morch]: Start processing: cybrid-api-id-python
+[2023-06-22 14:15:50] INFO root fetch - main [MainThread]: End processing [morch]: success
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [horde-model-reference]: Downloading https://files.pythonhosted.org/packages/94/b1/94af3b2f1266ecead1ddc74512152639ba9a9c4f26bc7fbb9d2e31f8bbb2/horde_model_reference-0.2.2-py3-none-any.whl
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-22 14:15:50] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.40.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.43.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-22 14:15:50] INFO root fetch - processPackages [horde-model-reference]: executing diffoscope
+[2023-06-22 14:15:50] INFO root fetch - processPackages [horde-model-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_model_reference-0.2.1-py3-none-any.whl.zip tmp/horde_model_reference-0.2.2-py3-none-any.whl.zip --markdown 20230622/h/horde-model-reference/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-22 14:15:50] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-22 14:15:50] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230622/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230622/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 14:15:50] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.1.0.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.1.1.tar.gz]
+[2023-06-22 14:15:50] INFO root fetch - main [MainThread]: End processing [ccfit2]: success
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-22 14:15:50] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230622/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 14:15:51] INFO root fetch - processPackages [ibm-watson-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/ibm-watson-pipelines-1.0.1.tar.gz]
+[2023-06-22 14:15:51] INFO root fetch - processPackages [ibm-watson-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/ibm-watson-pipelines-1.0.2.tar.gz]
+[2023-06-22 14:15:51] INFO root fetch - main [MainThread]: End processing [ibm-watson-pipelines]: success
+[2023-06-22 14:15:51] INFO root fetch - processPackages [elphmod]: Remove: archive file [/home/abi/fetcher/tmp/elphmod-0.8.tar.gz]
+[2023-06-22 14:15:51] INFO root fetch - processPackages [elphmod]: Remove: archive file [/home/abi/fetcher/tmp/elphmod-0.9.tar.gz]
+[2023-06-22 14:15:51] INFO root fetch - main [MainThread]: End processing [elphmod]: success
+[2023-06-22 14:15:51] INFO root fetch - processPackages [horde-model-reference]: Remove: archive file [/home/abi/fetcher/tmp/horde_model_reference-0.2.1-py3-none-any.whl.zip]
+[2023-06-22 14:15:51] INFO root fetch - processPackages [horde-model-reference]: Remove: archive file [/home/abi/fetcher/tmp/horde_model_reference-0.2.2-py3-none-any.whl.zip]
+[2023-06-22 14:15:51] INFO root fetch - main [MainThread]: End processing [horde-model-reference]: success
+[2023-06-22 14:15:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-22 14:15:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-22 14:15:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-22 14:15:52] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2458.tar.gz]
+[2023-06-22 14:15:52] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-06-22 14:15:52] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-06-22 14:15:53] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-22 14:15:53] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-22 14:15:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-22 14:15:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-22 14:15:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-22 14:15:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-22 14:15:53] INFO root fetch - main [MainThread]: Store serial: [18604588]
