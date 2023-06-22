@@ -17055,3 +17055,170 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 12:17:17] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.3.0a1687424922.tar.gz]
 [2023-06-22 12:17:17] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
 [2023-06-22 12:17:17] INFO root fetch - main [MainThread]: Store serial: [18603479]
+[2023-06-22 12:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603479]
+[2023-06-22 12:22:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hamsclientfork
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AutoTransform
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flasket
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shortloop-python
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docstruct
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spectacularAI
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langful
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mongeasy-test-plugin
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyEmailExtracter
+[2023-06-22 12:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydraulics
+[2023-06-22 12:22:27] INFO root fetch - processPackages [docstruct]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 12:22:27] INFO root fetch - processPackages [PyEmailExtracter]: New version: [0.2] Old Version: [0.1]
+[2023-06-22 12:22:27] INFO root fetch - processPackages [shortloop-python]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-22 12:22:27] INFO root fetch - processPackages [flasket]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-22 12:22:27] INFO root fetch - processPackages [langful]: New version: [0.28] Old Version: [0.27]
+[2023-06-22 12:22:27] INFO root fetch - processPackages [AutoTransform]: New version: [1.1.1a4] Old Version: [1.1.1a3]
+[2023-06-22 12:22:27] INFO root fetch - processPackages [hamsclientfork]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-22 12:22:27] INFO root fetch - processPackages [spectacularAI]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-22 12:22:27] WARNING root fetch - processPackages [pydraulics]: Skipping, unable to determine old version
+[2023-06-22 12:22:27] WARNING root fetch - processPackages [mongeasy-test-plugin]: Skipping, unable to determine old version
+[2023-06-22 12:22:27] INFO root fetch - main [MainThread]: End processing [pydraulics] error
+[2023-06-22 12:22:27] INFO root fetch - main [MainThread]: End processing [mongeasy-test-plugin] error
+[2023-06-22 12:22:27] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/fa/37/65eef3ed12be0f1e89120700998bb81078dd178d38d1cef02cc310219dd8/PyEmailExtracter-0.1.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/b5/ec/392c7b4c0e0e2b75f95a3a4703d2fb0d88e76d578e8bc3dcf277aa56501c/shortloop_python-0.1.4.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [AutoTransform]: Downloading https://files.pythonhosted.org/packages/d7/7e/f438d0f59e1826393b77e57cede22407a7e18dc3c2375bf0c401e841a243/AutoTransform-1.1.1a3.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/b6/dd/ef382a3ef2f781e571fa44b24e715c99a80570ce64432ea7959058098147/docstruct-1.0.8.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/1d/41/463c20e0c3f66dcd7450ab1c97e878a948f906d2c851902f2d0800ea1903/shortloop_python-0.1.5.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/36/65/b2e58301025d45479f5f154005002b3ada88a87c2edcb6ce2de700dafe20/langful-0.27-py2.py3-none-any.whl
+[2023-06-22 12:22:27] INFO root fetch - processPackages [flasket]: Downloading https://files.pythonhosted.org/packages/22/56/6190e179e6d7df3f64955dba9e627b38eeb2a611669169aa670fe077eebe/flasket-0.9.2.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/90/cd/d47d7023361518988444846499a169c5a076b398833cd67c4a05846299a2/PyEmailExtracter-0.2.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [hamsclientfork]: Downloading https://files.pythonhosted.org/packages/05/50/caf73b71fb26b954b8d8000bac5f193430e8e195c70338c272350ff19a7d/hamsclientfork-0.2.7.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [shortloop-python]: executing diffoscope
+[2023-06-22 12:22:27] INFO root fetch - processPackages [shortloop-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortloop_python-0.1.4.tar.gz tmp/shortloop_python-0.1.5.tar.gz --markdown 20230622/s/shortloop-python/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-22 12:22:27] INFO root fetch - processPackages [PyEmailExtracter]: executing diffoscope
+[2023-06-22 12:22:27] INFO root fetch - processPackages [PyEmailExtracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtracter-0.1.tar.gz tmp/PyEmailExtracter-0.2.tar.gz --markdown 20230622/P/PyEmailExtracter/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-22 12:22:27] INFO root fetch - processPackages [AutoTransform]: Downloading https://files.pythonhosted.org/packages/cd/8e/bba6760f3a15d72c030adfd21539f9fafeeff158a0fb1cae2742dcb1eb8b/AutoTransform-1.1.1a4.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [hamsclientfork]: Downloading https://files.pythonhosted.org/packages/48/9a/006dcf62bab35832a8f6a8ba58f316afb297094555cb2be514e930d15000/hamsclientfork-0.2.8.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [hamsclientfork]: executing diffoscope
+[2023-06-22 12:22:27] INFO root fetch - processPackages [hamsclientfork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hamsclientfork-0.2.7.tar.gz tmp/hamsclientfork-0.2.8.tar.gz --markdown 20230622/h/hamsclientfork/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-22 12:22:27] INFO root fetch - processPackages [spectacularAI]: executing diffoscope
+[2023-06-22 12:22:27] INFO root fetch - processPackages [spectacularAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230622/s/spectacularAI/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-22 12:22:27] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/88/0a/476cb8fd1cfbdbc9055643ed545f50a85c9206afd5b04b6fdf18251ced02/langful-0.28-py2.py3-none-any.whl
+[2023-06-22 12:22:27] INFO root fetch - processPackages [docstruct]: Downloading https://files.pythonhosted.org/packages/67/cc/bf46d160e67c20e24bc07a7e2fa460e37f75a31caefaaab0b2d53bc678b2/docstruct-1.0.9.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [AutoTransform]: executing diffoscope
+[2023-06-22 12:22:27] INFO root fetch - processPackages [AutoTransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoTransform-1.1.1a3.tar.gz tmp/AutoTransform-1.1.1a4.tar.gz --markdown 20230622/A/AutoTransform/1.1.1a3-1.1.1a4/diff.md --exclude *.pyd
+[2023-06-22 12:22:27] INFO root fetch - processPackages [flasket]: Downloading https://files.pythonhosted.org/packages/63/e5/1be5bb024dd03bc819787d7bd7aa0f95acb765f78896d615e3529d8a6003/flasket-0.9.3.tar.gz
+[2023-06-22 12:22:27] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-06-22 12:22:27] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.27-py2.py3-none-any.whl.zip tmp/langful-0.28-py2.py3-none-any.whl.zip --markdown 20230622/l/langful/0.27-0.28/diff.md --exclude *.pyd
+[2023-06-22 12:22:27] INFO root fetch - processPackages [docstruct]: executing diffoscope
+[2023-06-22 12:22:27] INFO root fetch - processPackages [docstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docstruct-1.0.8.tar.gz tmp/docstruct-1.0.9.tar.gz --markdown 20230622/d/docstruct/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 12:22:28] INFO root fetch - processPackages [flasket]: executing diffoscope
+[2023-06-22 12:22:28] INFO root fetch - processPackages [flasket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flasket-0.9.2.tar.gz tmp/flasket-0.9.3.tar.gz --markdown 20230622/f/flasket/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-22 12:22:28] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.1.tar.gz]
+[2023-06-22 12:22:28] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.2.tar.gz]
+[2023-06-22 12:22:28] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter]: success
+[2023-06-22 12:22:28] INFO root fetch - processPackages [hamsclientfork]: Remove: archive file [/home/abi/fetcher/tmp/hamsclientfork-0.2.7.tar.gz]
+[2023-06-22 12:22:28] INFO root fetch - processPackages [hamsclientfork]: Remove: archive file [/home/abi/fetcher/tmp/hamsclientfork-0.2.8.tar.gz]
+[2023-06-22 12:22:28] INFO root fetch - main [MainThread]: End processing [hamsclientfork]: success
+[2023-06-22 12:22:29] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.4.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.5.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - main [MainThread]: End processing [shortloop-python]: success
+[2023-06-22 12:22:29] ERROR root fetch - processPackages [spectacularAI]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140155184749984)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140155318967648)
+
+[2023-06-22 12:22:29] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
+[2023-06-22 12:22:29] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.27-py2.py3-none-any.whl.zip]
+[2023-06-22 12:22:29] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.28-py2.py3-none-any.whl.zip]
+[2023-06-22 12:22:29] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-06-22 12:22:29] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.8.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - processPackages [docstruct]: Remove: archive file [/home/abi/fetcher/tmp/docstruct-1.0.9.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - main [MainThread]: End processing [docstruct]: success
+[2023-06-22 12:22:29] INFO root fetch - processPackages [flasket]: Remove: archive file [/home/abi/fetcher/tmp/flasket-0.9.2.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - processPackages [flasket]: Remove: archive file [/home/abi/fetcher/tmp/flasket-0.9.3.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - main [MainThread]: End processing [flasket]: success
+[2023-06-22 12:22:29] INFO root fetch - processPackages [AutoTransform]: Remove: archive file [/home/abi/fetcher/tmp/AutoTransform-1.1.1a3.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - processPackages [AutoTransform]: Remove: archive file [/home/abi/fetcher/tmp/AutoTransform-1.1.1a4.tar.gz]
+[2023-06-22 12:22:29] INFO root fetch - main [MainThread]: End processing [AutoTransform]: success
+[2023-06-22 12:22:29] INFO root fetch - main [MainThread]: Store serial: [18603531]
