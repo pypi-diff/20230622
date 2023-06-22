@@ -5249,3 +5249,103 @@
 [2023-06-22 03:12:15] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
 [2023-06-22 03:12:15] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
 [2023-06-22 03:12:15] INFO root fetch - main [MainThread]: Store serial: [18599059]
+[2023-06-22 03:17:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18599059]
+[2023-06-22 03:17:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfit
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anjani
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: statick-tex
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythonce
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythonce
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langpack
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: delphix-dct-api
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-hugo-deploy
+[2023-06-22 03:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: neon-tts-plugin-coqui-remote
+[2023-06-22 03:17:23] INFO root fetch - processPackages [statick-tex]: New version: [0.3.4] Old Version: [0.3.1]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [zfit]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [anjani]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pythonce]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pythonce]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [delphix-dct-api]: New version: [8.0.0rc3] Old Version: [8.0.0rc2]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [langpack]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Downloading https://files.pythonhosted.org/packages/fe/89/c90b676fc0bb6dfd06677fac393518e902767f09f8c602d7ebb4d500c3f0/neon-tts-plugin-coqui-remote-0.0.1a2.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-22 03:17:24] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/e8/95/254e0ec8a12c7ccdd7a3904c6fe717be85b5a385aff5652d5842168fb99c/delphix-dct-api-8.0.0rc2.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/a0/4b/02833bc01203d0b9addbff43d3b48c7c40022e828cbd0b8fdb836018bcac/anjani-2.8.1.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/99/70/e14beeb629493aa150f16300bb4d2d1b8770b7035c197074cb6431cddb33/pythonce-0.0.6.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [statick-tex]: Downloading https://files.pythonhosted.org/packages/ca/f0/49f70970b6b05fc48a144f46c9c873a13a1cb9495b878f50e40651beb88f/statick-tex-0.3.1.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/5f/45/c2a4a280a4669f3d5a473bbbede7e0fb01844f23957157b09b6980486c1f/zfit-0.9.0a2.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/99/70/e14beeb629493aa150f16300bb4d2d1b8770b7035c197074cb6431cddb33/pythonce-0.0.6.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/f9/9d/09023cad363092c71cd40b8312939b2e4d4bfbd47cae721893d04ab5a6d9/anjani-2.9.0.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [langpack]: Downloading https://files.pythonhosted.org/packages/a7/12/dc9be0a7283a106f5e01d324b46511c8920ef6417690f0115dc05198d7e5/langpack-0.0.8-py2.py3-none-any.whl
+[2023-06-22 03:17:24] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/d7/d4/d23408669fa3d70990400663e11bae16da4688cd9f800d287346d6ba0601/delphix-dct-api-8.0.0rc3.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Downloading https://files.pythonhosted.org/packages/4b/78/0d4ecc0e7f7ec52606e59ca770b17c7f0974307d729ceacbab3ec823e5be/neon-tts-plugin-coqui-remote-0.0.1a3.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [anjani]: executing diffoscope
+[2023-06-22 03:17:24] INFO root fetch - processPackages [anjani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjani-2.8.1.tar.gz tmp/anjani-2.9.0.tar.gz --markdown 20230622/a/anjani/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-22 03:17:24] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-06-22 03:17:24] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-8.0.0rc2.tar.gz tmp/delphix-dct-api-8.0.0rc3.tar.gz --markdown 20230622/d/delphix-dct-api/8.0.0rc2-8.0.0rc3/diff.md --exclude *.pyd
+[2023-06-22 03:17:24] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: executing diffoscope
+[2023-06-22 03:17:24] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-tts-plugin-coqui-remote-0.0.1a2.tar.gz tmp/neon-tts-plugin-coqui-remote-0.0.1a3.tar.gz --markdown 20230622/n/neon-tts-plugin-coqui-remote/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-22 03:17:24] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [statick-tex]: Downloading https://files.pythonhosted.org/packages/57/79/ab3a53252abf7b9865317a345392d8065b69c1f6a8b8090147e3cc159e04/statick-tex-0.3.4.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-22 03:17:24] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230622/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 03:17:24] INFO root fetch - processPackages [langpack]: Downloading https://files.pythonhosted.org/packages/61/80/117adb136013f8478716f7779cf3f300800f57287cd5acf6b647298d7195/langpack-0.0.9-py2.py3-none-any.whl
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/3b/b6/396d60a47cef18be7dd8cac53be9979124923967f64dbd94c02abf2953d9/pythonce-0.0.7.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pythonce]: Downloading https://files.pythonhosted.org/packages/3b/b6/396d60a47cef18be7dd8cac53be9979124923967f64dbd94c02abf2953d9/pythonce-0.0.7.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-22 03:17:24] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230622/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-22 03:17:24] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/1a/21/15ef2af4e39f9470653ee29ada9b0207d6a2ff7d11654e5d791a0ca1504a/zfit-0.9.0a3.tar.gz
+[2023-06-22 03:17:24] INFO root fetch - processPackages [statick-tex]: executing diffoscope
+[2023-06-22 03:17:24] INFO root fetch - processPackages [statick-tex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statick-tex-0.3.1.tar.gz tmp/statick-tex-0.3.4.tar.gz --markdown 20230622/s/statick-tex/0.3.1-0.3.4/diff.md --exclude *.pyd
+[2023-06-22 03:17:24] INFO root fetch - processPackages [langpack]: executing diffoscope
+[2023-06-22 03:17:24] INFO root fetch - processPackages [langpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langpack-0.0.8-py2.py3-none-any.whl.zip tmp/langpack-0.0.9-py2.py3-none-any.whl.zip --markdown 20230622/l/langpack/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 03:17:25] INFO root fetch - processPackages [zfit]: executing diffoscope
+[2023-06-22 03:17:25] INFO root fetch - processPackages [zfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfit-0.9.0a2.tar.gz tmp/zfit-0.9.0a3.tar.gz --markdown 20230622/z/zfit/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-06-22 03:17:25] INFO root fetch - processPackages [pythonce]: executing diffoscope
+[2023-06-22 03:17:25] INFO root fetch - processPackages [pythonce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonce-0.0.6.tar.gz tmp/pythonce-0.0.7.tar.gz --markdown 20230622/p/pythonce/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 03:17:25] INFO root fetch - processPackages [pythonce]: executing diffoscope
+[2023-06-22 03:17:25] INFO root fetch - processPackages [pythonce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonce-0.0.6.tar.gz tmp/pythonce-0.0.7.tar.gz --markdown 20230622/p/pythonce/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 03:17:26] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Remove: archive file [/home/abi/fetcher/tmp/neon-tts-plugin-coqui-remote-0.0.1a2.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Remove: archive file [/home/abi/fetcher/tmp/neon-tts-plugin-coqui-remote-0.0.1a3.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Start processing: moptipy
+[2023-06-22 03:17:26] INFO root fetch - main [MainThread]: End processing [neon-tts-plugin-coqui-remote]: success
+[2023-06-22 03:17:26] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-22 03:17:26] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [langpack]: Remove: archive file [/home/abi/fetcher/tmp/langpack-0.0.8-py2.py3-none-any.whl.zip]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [langpack]: Remove: archive file [/home/abi/fetcher/tmp/langpack-0.0.9-py2.py3-none-any.whl.zip]
+[2023-06-22 03:17:26] INFO root fetch - main [MainThread]: End processing [langpack]: success
+[2023-06-22 03:17:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.8.1.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.9.0.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-22 03:17:26] INFO root fetch - main [MainThread]: End processing [anjani]: success
+[2023-06-22 03:17:26] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/be/7f/5279c5a66253c3acc29a2b1baa2ae5e5c13f14d8ed5e613af26af0568f80/moptipy-0.9.8.tar.gz
+[2023-06-22 03:17:26] INFO root fetch - processPackages [statick-tex]: Remove: archive file [/home/abi/fetcher/tmp/statick-tex-0.3.1.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - processPackages [statick-tex]: Remove: archive file [/home/abi/fetcher/tmp/statick-tex-0.3.4.tar.gz]
+[2023-06-22 03:17:26] INFO root fetch - main [MainThread]: End processing [statick-tex]: success
+[2023-06-22 03:17:27] INFO root fetch - processPackages [moptipy]: Downloading https://files.pythonhosted.org/packages/86/d3/45297bbff0974d528e5da780bc1bf48f8418230162685da0ba8212246056/moptipy-0.9.9.tar.gz
+[2023-06-22 03:17:27] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-06-22 03:17:27] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230622/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 03:17:29] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.8.tar.gz]
+[2023-06-22 03:17:29] INFO root fetch - processPackages [moptipy]: Remove: archive file [/home/abi/fetcher/tmp/moptipy-0.9.9.tar.gz]
+[2023-06-22 03:17:29] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-06-22 03:17:31] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a2.tar.gz]
+[2023-06-22 03:17:31] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a3.tar.gz]
+[2023-06-22 03:17:31] INFO root fetch - main [MainThread]: End processing [zfit]: success
+[2023-06-22 03:17:33] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-8.0.0rc2.tar.gz]
+[2023-06-22 03:17:33] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-8.0.0rc3.tar.gz]
+[2023-06-22 03:17:33] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-06-22 03:18:03] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.6.tar.gz]
+[2023-06-22 03:18:03] INFO root fetch - processPackages [pythonce]: Remove: archive file [/home/abi/fetcher/tmp/pythonce-0.0.7.tar.gz]
+[2023-06-22 03:18:03] INFO root fetch - main [MainThread]: End processing [pythonce]: success
+[2023-06-22 03:18:04] INFO root fetch - main [MainThread]: End processing [pythonce]: success
+[2023-06-22 03:18:04] INFO root fetch - main [MainThread]: Store serial: [18599089]
