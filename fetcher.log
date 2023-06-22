@@ -11379,3 +11379,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:52:44] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_export_async_schedule-14.0.1.0.1.dev3-py3-none-any.whl.zip]
 [2023-06-22 06:52:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-export-async-schedule]: success
 [2023-06-22 06:52:44] INFO root fetch - main [MainThread]: Store serial: [18601160]
+[2023-06-22 06:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601160]
+[2023-06-22 06:57:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-compare
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quao
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cabinet
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdevpy
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: makolator
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PySide6-Fluent-Widgets
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ijson
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyspark-delta-scd2
+[2023-06-22 06:57:53] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pytest-compare]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [sdevpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [makolator]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pyspark-delta-scd2]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.21.2]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ijson]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-06-22 06:57:53] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/aa/17/2d32c77d669114a5acd5994925b20481cc66f0546261860308c3a9fa3287/sdevpy-0.1.1.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/da/7c/830fd0327ee71520e953e900b769f3e86a1d612806a197057e66dd41b4d5/pyspark_delta_scd2-0.3.0.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ijson]: Downloading https://files.pythonhosted.org/packages/68/31/bbe68817b1f480d3fec3356f14a1805157b0be5b81d87a58ea962d3c29da/ijson-3.2.1.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pytest-compare]: Downloading https://files.pythonhosted.org/packages/e7/fe/1a2af887c5e1767afc8ea41baa12e227affe76b7865568b761c601e47b9b/pytest_compare-0.2.4.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/a6/a1/ec37bd4eb840e4837b8734cf12e08c2054a8f0de0ab8e5bc7587e3a65a76/cabinet-2023.6.21.2.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/96/ea/0a21478b75401c5918ef3b61325e43883813134afb23b730f4bf91b7ae98/PySide6-Fluent-Widgets-0.9.5.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/8c/32/cc2f5007134ad95879ebcc5886cdbad15ab8ae29351672edbec665b9a1bf/makolator-0.1.0.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [ijson]: Downloading https://files.pythonhosted.org/packages/2b/2d/c60462c4af82e6fc1d461c6b4d3f3f20fde510b9a23178d9050888c12f01/ijson-3.2.2-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-22 06:57:53] INFO root fetch - processPackages [sdevpy]: Downloading https://files.pythonhosted.org/packages/b1/88/9c6dabaf634140677801402d62154d488241c1911c664086c5dfa6c4d191/sdevpy-0.1.2.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-22 06:57:53] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230622/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/07/67/e5a9b651708ebf589e35f24afa4e5be12bb989006d724f5ca6818c405ad2/pyspark_delta_scd2-0.3.1.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-22 06:57:53] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.21.2.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230622/c/cabinet/2023.6.21.2-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-22 06:57:53] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/50/88/4fb773aee35b78a6da5143969936b24e266e5b420ecf7d241dd123c5eed3/makolator-1.0.0.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [sdevpy]: executing diffoscope
+[2023-06-22 06:57:53] INFO root fetch - processPackages [sdevpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdevpy-0.1.1.tar.gz tmp/sdevpy-0.1.2.tar.gz --markdown 20230622/s/sdevpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pytest-compare]: Downloading https://files.pythonhosted.org/packages/03/58/a873f215603b1ab0998cb625da8c3e0a4de6d86cf4fd4d697aa3a7f51803/pytest_compare-0.2.5.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pytest-compare]: executing diffoscope
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pytest-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_compare-0.2.4.tar.gz tmp/pytest_compare-0.2.5.tar.gz --markdown 20230622/p/pytest-compare/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pyspark-delta-scd2]: executing diffoscope
+[2023-06-22 06:57:53] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/0a/b9/6b582109e2831c3fb9f5b6c89c209c11ee6f4641f38b7a0447a88f01be4f/PySide6-Fluent-Widgets-0.9.6.tar.gz
+[2023-06-22 06:57:53] INFO root fetch - processPackages [pyspark-delta-scd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_delta_scd2-0.3.0.tar.gz tmp/pyspark_delta_scd2-0.3.1.tar.gz --markdown 20230622/p/pyspark-delta-scd2/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-22 06:57:53] INFO root fetch - processPackages [makolator]: executing diffoscope
+[2023-06-22 06:57:53] INFO root fetch - processPackages [makolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makolator-0.1.0.tar.gz tmp/makolator-1.0.0.tar.gz --markdown 20230622/m/makolator/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 06:57:54] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-06-22 06:57:54] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.9.5.tar.gz tmp/PySide6-Fluent-Widgets-0.9.6.tar.gz --markdown 20230622/P/PySide6-Fluent-Widgets/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-22 06:57:54] INFO root fetch - processPackages [ijson]: executing diffoscope
+[2023-06-22 06:57:54] INFO root fetch - processPackages [ijson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ijson-3.2.1.tar.gz tmp/ijson-3.2.2-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230622/i/ijson/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-06-22 06:57:55] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.21.2.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-22 06:57:55] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-22 06:57:55] INFO root fetch - processPackages [pyspark-delta-scd2]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_delta_scd2-0.3.0.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - processPackages [pyspark-delta-scd2]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_delta_scd2-0.3.1.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - main [MainThread]: End processing [pyspark-delta-scd2]: success
+[2023-06-22 06:57:55] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-0.1.0.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-1.0.0.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - main [MainThread]: End processing [makolator]: success
+[2023-06-22 06:57:55] INFO root fetch - processPackages [ijson]: Remove: archive file [/home/abi/fetcher/tmp/ijson-3.2.1.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - processPackages [ijson]: Remove: archive file [/home/abi/fetcher/tmp/ijson-3.2.2-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-06-22 06:57:55] INFO root fetch - main [MainThread]: End processing [ijson]: success
+[2023-06-22 06:57:55] INFO root fetch - processPackages [pytest-compare]: Remove: archive file [/home/abi/fetcher/tmp/pytest_compare-0.2.4.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - processPackages [pytest-compare]: Remove: archive file [/home/abi/fetcher/tmp/pytest_compare-0.2.5.tar.gz]
+[2023-06-22 06:57:55] INFO root fetch - main [MainThread]: End processing [pytest-compare]: success
+[2023-06-22 06:57:56] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.1.1.tar.gz]
+[2023-06-22 06:57:56] INFO root fetch - processPackages [sdevpy]: Remove: archive file [/home/abi/fetcher/tmp/sdevpy-0.1.2.tar.gz]
+[2023-06-22 06:57:56] INFO root fetch - main [MainThread]: End processing [sdevpy]: success
+[2023-06-22 06:57:58] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.5.tar.gz]
+[2023-06-22 06:57:58] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-0.9.6.tar.gz]
+[2023-06-22 06:57:58] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-06-22 06:57:58] INFO root fetch - main [MainThread]: Store serial: [18601205]
