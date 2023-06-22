@@ -1720,3 +1720,114 @@
 [2023-06-22 02:04:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230621.post405.tar.gz]
 [2023-06-22 02:04:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-22 02:04:16] INFO root fetch - main [MainThread]: Store serial: [18597846]
+[2023-06-22 02:09:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597846]
+[2023-06-22 02:09:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-organization-python
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-id-python
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: exergenics-etl
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-connectwise
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hmmer-tables
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml-compiler-opt
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eqalert
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [exergenics-etl]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306220007] Old Version: [0.0.1.dev202306210145]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [hmmer-tables]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [eqalert]: New version: [3.6.0] Old Version: [3.5.6]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [django-connectwise]: New version: [1.3.1] Old Version: [1.2.1]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230621] Old Version: [0.0.8.dev20230620]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-22 02:09:26] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/0d/c6/b8735715385972a9be252867d1ab29a79e1df3153069b2139badecb33aac/hmmer_tables-0.2.0.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/77/ae/42bdc02aec6ae299f20735c8ed8eee4f982603085e632085b2ef18095279/jaxutils-nightly-0.0.8.dev20230620.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/ef/f5/250984a0d867ff8b0ffe4e8303933192657dbc90d7c1eb0185d610ae9a99/exergenics-etl-1.3.0.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/03/be/10e1ed4bad265f55ff6bd77e04a95b6d64e579db85e842bf9853d8c2c70b/ml-compiler-opt-0.0.1.dev202306210145.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c7/03/726b619e5986e64582e6437aa978f16eec32e58d01b4a2b2bf8cc6eb80cb/jaxutils-nightly-0.0.8.dev20230621.tar.gz
+[2023-06-22 02:09:26] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-22 02:09:27] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/ca/0a/7239dce2c9bc1b7f323b65a0babcbc075ae2968ffc07a0bdeba472bb8e5e/django-connectwise-1.2.1.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [eqalert]: Downloading https://files.pythonhosted.org/packages/05/00/386bbbc0378be56c83e82cb0fe804d33b4e19b2ce547426e914caa4516f7/eqalert-3.5.6.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/c4/ed/0143b7d575764c46c92c5bcad42170eaa1f92474ba1ff84e9c4aa6097cf0/hmmer_tables-0.3.0.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230620.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230621.tar.gz --markdown 20230622/j/jaxutils-nightly/0.0.8.dev20230620-0.0.8.dev20230621/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230622/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230622/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [hmmer-tables]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [hmmer-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmmer_tables-0.2.0.tar.gz tmp/hmmer_tables-0.3.0.tar.gz --markdown 20230622/h/hmmer-tables/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230622/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230622/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/33/a7/c6b09bd3f1c922a954d0f0dfc905da9cc966570f78e824049781200e0a40/ml-compiler-opt-0.0.1.dev202306220007.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [django-connectwise]: Downloading https://files.pythonhosted.org/packages/a4/cb/450b9f5ff9c1631a9fa4daaab9b77185023fd5cda307e7ba223aa2dbe3d7/django-connectwise-1.3.1.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [eqalert]: Downloading https://files.pythonhosted.org/packages/f4/aa/e6ecba624dc6ff67bf1a28a73b151787d0cf72557d8c970e443221e57c99/eqalert-3.6.0.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [django-connectwise]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [django-connectwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-connectwise-1.2.1.tar.gz tmp/django-connectwise-1.3.1.tar.gz --markdown 20230622/d/django-connectwise/1.2.1-1.3.1/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [exergenics-etl]: Downloading https://files.pythonhosted.org/packages/c8/4e/d4983280647039a857115bd402e436f31fc886d693387b7d7d098b03c37c/exergenics-etl-1.4.0.tar.gz
+[2023-06-22 02:09:27] INFO root fetch - processPackages [eqalert]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [eqalert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqalert-3.5.6.tar.gz tmp/eqalert-3.6.0.tar.gz --markdown 20230622/e/eqalert/3.5.6-3.6.0/diff.md --exclude *.pyd
+[2023-06-22 02:09:27] INFO root fetch - processPackages [exergenics-etl]: executing diffoscope
+[2023-06-22 02:09:27] INFO root fetch - processPackages [exergenics-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-etl-1.3.0.tar.gz tmp/exergenics-etl-1.4.0.tar.gz --markdown 20230622/e/exergenics-etl/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-22 02:09:28] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.2.0.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.3.0.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [hmmer-tables]: Start processing: torchlayers-nightly
+[2023-06-22 02:09:28] INFO root fetch - main [MainThread]: End processing [hmmer-tables]: success
+[2023-06-22 02:09:28] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687306044] Old Version: [1687219588]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d1/566efec3e7e0a24f018fd6094d3e493f86a1863754d8fe3de383d5c0b388/torchlayers-nightly-1687219588.tar.gz
+[2023-06-22 02:09:28] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/bc/49/49eced55468196f6c8681f29f526708565e141a578bc0ab92e99cce0c317/torchlayers-nightly-1687306044.tar.gz
+[2023-06-22 02:09:28] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-22 02:09:28] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687219588.tar.gz tmp/torchlayers-nightly-1687306044.tar.gz --markdown 20230622/t/torchlayers-nightly/1687219588-1687306044/diff.md --exclude *.pyd
+[2023-06-22 02:09:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230620.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230621.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: tccli
+[2023-06-22 02:09:28] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-22 02:09:28] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-22 02:09:28] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-06-22 02:09:28] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-22 02:09:28] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-22 02:09:29] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.3.0.tar.gz]
+[2023-06-22 02:09:29] INFO root fetch - processPackages [exergenics-etl]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-etl-1.4.0.tar.gz]
+[2023-06-22 02:09:29] INFO root fetch - main [MainThread]: End processing [exergenics-etl]: success
+[2023-06-22 02:09:29] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-06-22 02:09:29] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-22 02:09:29] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202306210145.tar.gz tmp/ml-compiler-opt-0.0.1.dev202306220007.tar.gz --markdown 20230622/m/ml-compiler-opt/0.0.1.dev202306210145-0.0.1.dev202306220007/diff.md --exclude *.pyd
+[2023-06-22 02:09:29] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-06-22 02:09:29] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230622/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-22 02:09:29] INFO root fetch - processPackages [eqalert]: Remove: archive file [/home/abi/fetcher/tmp/eqalert-3.5.6.tar.gz]
+[2023-06-22 02:09:29] INFO root fetch - processPackages [eqalert]: Remove: archive file [/home/abi/fetcher/tmp/eqalert-3.6.0.tar.gz]
+[2023-06-22 02:09:29] INFO root fetch - main [MainThread]: End processing [eqalert]: success
+[2023-06-22 02:09:30] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-22 02:09:30] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-22 02:09:30] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-22 02:09:30] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687219588.tar.gz]
+[2023-06-22 02:09:30] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687306044.tar.gz]
+[2023-06-22 02:09:30] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-22 02:09:30] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-22 02:09:30] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-22 02:09:30] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-22 02:09:32] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306210145.tar.gz]
+[2023-06-22 02:09:32] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306220007.tar.gz]
+[2023-06-22 02:09:32] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-22 02:09:33] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-06-22 02:09:33] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-06-22 02:09:33] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-06-22 02:09:34] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.2.1.tar.gz]
+[2023-06-22 02:09:34] INFO root fetch - processPackages [django-connectwise]: Remove: archive file [/home/abi/fetcher/tmp/django-connectwise-1.3.1.tar.gz]
+[2023-06-22 02:09:34] INFO root fetch - main [MainThread]: End processing [django-connectwise]: success
+[2023-06-22 02:09:34] INFO root fetch - main [MainThread]: Store serial: [18597883]
