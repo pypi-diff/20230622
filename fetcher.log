@@ -4852,3 +4852,92 @@
 [2023-06-22 02:44:29] INFO root fetch - processPackages [tencentcloud-sdk-python-yunjing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunjing-3.0.920.tar.gz]
 [2023-06-22 02:44:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunjing]: success
 [2023-06-22 02:44:29] INFO root fetch - main [MainThread]: Store serial: [18598923]
+[2023-06-22 02:49:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18598923]
+[2023-06-22 02:49:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hdcms
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEMO-CE
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-llm
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bgstools
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubric-nightly
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pr-commenter
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-comprehend-s3olap
+[2023-06-22 02:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Finance-Hermes
+[2023-06-22 02:49:39] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.25]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [NEMO-CE]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [pr-commenter]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [spark-llm]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [Finance-Hermes]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [policyengine-us]: New version: [0.337.1] Old Version: [0.337.0]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306220044] Old Version: [4.9.2.dev202306210051]
+[2023-06-22 02:49:39] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/72/eb/8ed4fff1d41a68829ca58cc616dcb2e89e0f26ff18f1fe69c2bf85f5483a/NEMO_CE-1.5.0-py3-none-any.whl
+[2023-06-22 02:49:39] INFO root fetch - processPackages [spark-llm]: Downloading https://files.pythonhosted.org/packages/a4/3b/5c2bcfa45cb69f5faaa8306059f38c27f231b7cfe365b47e5324997f0be4/spark_llm-0.1.6.tar.gz
+[2023-06-22 02:49:39] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-22 02:49:39] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-22 02:49:39] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/0f/ce/fed80bf7fa4727d8c1355fe6234c3dcb8cd87474dd6db529341cc5f90383/hdcms-0.1.25.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [pr-commenter]: Downloading https://files.pythonhosted.org/packages/b2/4c/1fb588624076164b021d517665fb947734f56ab439bc85aa2abe0aaa1934/pr_commenter-0.2.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [spark-llm]: Downloading https://files.pythonhosted.org/packages/36/c6/cb290fd45692703bc3ad545943644e64aa734ff76162f4827a6b75f31dbc/spark_llm-0.1.7.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/61/66/7f8543334c50ff0cef54400fd77e4527a53e79ae4ace50ce1027d90f2219/policyengine-us-0.337.0.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/47/29/2510c1432057a734d39cc8fe1fd6c6fe560d5017f6e9f865c1f7c81d92a1/Finance-Hermes-0.2.1.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/d3/63/55214852dd9a4b4449f32980b98b196e3cbf9866d5aa94c658ff72b87675/tfds-nightly-4.9.2.dev202306210051.tar.gz
+[2023-06-22 02:49:39] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/e5/b0/b893afdddc5df695685a2136a335fb99978745591981401289800d843ff0/NEMO_CE-1.5.1-py3-none-any.whl
+[2023-06-22 02:49:39] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-06-22 02:49:39] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230622/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 02:49:39] INFO root fetch - processPackages [spark-llm]: executing diffoscope
+[2023-06-22 02:49:39] INFO root fetch - processPackages [spark-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_llm-0.1.6.tar.gz tmp/spark_llm-0.1.7.tar.gz --markdown 20230622/s/spark-llm/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-22 02:49:39] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-22 02:49:39] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230622/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-22 02:49:39] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2023-06-22 02:49:39] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-1.5.0-py3-none-any.whl.zip tmp/NEMO_CE-1.5.1-py3-none-any.whl.zip --markdown 20230622/N/NEMO-CE/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-22 02:49:40] INFO root fetch - processPackages [pr-commenter]: Downloading https://files.pythonhosted.org/packages/6e/01/6f8a9514e341a75cf52fb39a15e175d41a48164a6ea0b96b1147cd7ca1b5/pr_commenter-0.2.1.tar.gz
+[2023-06-22 02:49:40] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/21/ba/4994e91c5def7aeb9aaad9930efbe98e1bda82084e9f3d9b7efc90e863fe/Finance-Hermes-0.2.2.tar.gz
+[2023-06-22 02:49:40] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/51/34/34ec56614830dd108a14b9d8f0c47d25fafb9b28d6da054418f54c5aadf2/hdcms-0.1.9.tar.gz
+[2023-06-22 02:49:40] INFO root fetch - processPackages [pr-commenter]: executing diffoscope
+[2023-06-22 02:49:40] INFO root fetch - processPackages [pr-commenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_commenter-0.2.tar.gz tmp/pr_commenter-0.2.1.tar.gz --markdown 20230622/p/pr-commenter/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 02:49:40] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-06-22 02:49:40] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.25.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230622/h/hdcms/0.1.25-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 02:49:40] INFO root fetch - processPackages [Finance-Hermes]: executing diffoscope
+[2023-06-22 02:49:40] INFO root fetch - processPackages [Finance-Hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Hermes-0.2.1.tar.gz tmp/Finance-Hermes-0.2.2.tar.gz --markdown 20230622/F/Finance-Hermes/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-22 02:49:40] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/e8/6d/e814cb65082378fbbfbc1c25282ff697f4b705846f6cf7ee46454409eaf5/policyengine-us-0.337.1.tar.gz
+[2023-06-22 02:49:40] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/d0/d0/c36744119901e1fac7cdc5a8d72956f8754faf8154cece6ee8e5191bfb11/tfds-nightly-4.9.2.dev202306220044.tar.gz
+[2023-06-22 02:49:40] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-06-22 02:49:40] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.337.0.tar.gz tmp/policyengine-us-0.337.1.tar.gz --markdown 20230622/p/policyengine-us/0.337.0-0.337.1/diff.md --exclude *.pyd
+[2023-06-22 02:49:40] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-22 02:49:40] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306210051.tar.gz tmp/tfds-nightly-4.9.2.dev202306220044.tar.gz --markdown 20230622/t/tfds-nightly/4.9.2.dev202306210051-4.9.2.dev202306220044/diff.md --exclude *.pyd
+[2023-06-22 02:49:41] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-06-22 02:49:41] INFO root fetch - processPackages [spark-llm]: Remove: archive file [/home/abi/fetcher/tmp/spark_llm-0.1.6.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - processPackages [spark-llm]: Remove: archive file [/home/abi/fetcher/tmp/spark_llm-0.1.7.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - main [MainThread]: End processing [spark-llm]: success
+[2023-06-22 02:49:41] INFO root fetch - processPackages [pr-commenter]: Remove: archive file [/home/abi/fetcher/tmp/pr_commenter-0.2.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - processPackages [pr-commenter]: Remove: archive file [/home/abi/fetcher/tmp/pr_commenter-0.2.1.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - main [MainThread]: End processing [pr-commenter]: success
+[2023-06-22 02:49:41] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.1.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.2.tar.gz]
+[2023-06-22 02:49:41] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
+[2023-06-22 02:49:42] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-22 02:49:42] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-22 02:49:42] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-22 02:49:46] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.0-py3-none-any.whl.zip]
+[2023-06-22 02:49:46] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.1-py3-none-any.whl.zip]
+[2023-06-22 02:49:46] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2023-06-22 02:49:47] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.25.tar.gz]
+[2023-06-22 02:49:47] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.9.tar.gz]
+[2023-06-22 02:49:47] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-06-22 02:49:53] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306210051.tar.gz]
+[2023-06-22 02:49:53] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306220044.tar.gz]
+[2023-06-22 02:49:53] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-22 02:50:59] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.337.0.tar.gz]
+[2023-06-22 02:50:59] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.337.1.tar.gz]
+[2023-06-22 02:50:59] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-06-22 02:50:59] INFO root fetch - main [MainThread]: Store serial: [18598954]
