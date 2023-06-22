@@ -16579,3 +16579,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 11:55:24] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.14.0.tar.gz]
 [2023-06-22 11:55:24] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2023-06-22 11:55:24] INFO root fetch - main [MainThread]: Store serial: [18603310]
+[2023-06-22 12:00:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603310]
+[2023-06-22 12:00:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nifpga-fast-fifo-recv
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: power-grid-model-io
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dv-utils
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hayloft
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quao
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: a2y-fef
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: es-translator
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: peaqevcore
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nifpga-fast-fifo-recv
+[2023-06-22 12:00:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CosmoTech-SupplyChain
+[2023-06-22 12:00:34] INFO root fetch - processPackages [a2y-fef]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [power-grid-model-io]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [hayloft]: New version: [0.2.0a0] Old Version: [0.1.9]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [CosmoTech-SupplyChain]: New version: [5.0.0] Old Version: [4.1.2]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [dv-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [es-translator]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-06-22 12:00:34] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/ce/a6/c0ed304942cea6c15764fc3560f13e24a034cc5679958b3b0fb908e8f9d8/es_translator-1.6.0.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [dv-utils]: Downloading https://files.pythonhosted.org/packages/5a/b6/9b45a38b48fdf1a70813fa4350adb6783765c60b21bd87df20522681e237/dv_utils-0.1.1.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [a2y-fef]: Downloading https://files.pythonhosted.org/packages/33/a9/d0173d80d56b3b9dfa4b2e2752fc5412009f463067980dd90a89c770c97d/a2y_fef-0.9.5-cp36-cp36m-win32.whl
+[2023-06-22 12:00:34] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/2b/aa/8777f50ec82b6cb8779e15bd2a2381d8dbe593908c4bfda4b0b4cc0da066/CosmoTech-SupplyChain-4.1.2.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [power-grid-model-io]: Downloading https://files.pythonhosted.org/packages/f5/2d/38fd53c680170b530df74688c518af350dadfc964ac23a736dd88ee324db/power_grid_model_io-1.2.8-py3-none-any.whl
+[2023-06-22 12:00:34] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/6b/b7/ed77f1cdc903cf81b9ddbb48f92df60ac84762081b7dd651d14b16a1c1eb/hayloft-0.1.9.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/89/cc/0e382447e660dc347bcbce58448c0433ed9785832c76f4a7a44b5c5b3b09/nifpga_fast_fifo_recv-0.99.2.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/89/cc/0e382447e660dc347bcbce58448c0433ed9785832c76f4a7a44b5c5b3b09/nifpga_fast_fifo_recv-0.99.2.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230622/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/b9/af/1778f003fcc511dbe692236d9688daab5e13dc0c1f58c0fe01c83d430a98/es_translator-1.6.1.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230622/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [dv-utils]: Downloading https://files.pythonhosted.org/packages/8f/05/01270c40d4198554e7d85b6857ed8fa1fa0d04f2fda016ab2c6004b6c9f2/dv_utils-0.1.2.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/c6/37/bb0e2f42299627d7359ef8815ade68db8b1002a65e429f8f2756360780f7/nifpga_fast_fifo_recv-0.99.3.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [a2y-fef]: Downloading https://files.pythonhosted.org/packages/a5/a0/6fe6a3b095532004faf48fe9549e97861aeb2d23d6345091e228ad3ff6f4/a2y_fef-0.9.6-cp36-cp36m-win32.whl
+[2023-06-22 12:00:34] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Downloading https://files.pythonhosted.org/packages/5e/f0/a74d29744d18993e9e83bb8436f6ce85e7ac3ffc4b119294703440e917bf/CosmoTech-SupplyChain-5.0.0.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/c6/37/bb0e2f42299627d7359ef8815ade68db8b1002a65e429f8f2756360780f7/nifpga_fast_fifo_recv-0.99.3.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/d8/d7/f857e35a8955624a0c7f63df514e8d4b80d292ae00b024c10c2a648b2ea0/hayloft-0.2.0a0.tar.gz
+[2023-06-22 12:00:34] INFO root fetch - processPackages [dv-utils]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [dv-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dv_utils-0.1.1.tar.gz tmp/dv_utils-0.1.2.tar.gz --markdown 20230622/d/dv-utils/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [a2y-fef]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [a2y-fef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2y_fef-0.9.5-cp36-cp36m-win32.whl.zip tmp/a2y_fef-0.9.6-cp36-cp36m-win32.whl.zip --markdown 20230622/a/a2y-fef/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.6.0.tar.gz tmp/es_translator-1.6.1.tar.gz --markdown 20230622/e/es-translator/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifpga_fast_fifo_recv-0.99.2.tar.gz tmp/nifpga_fast_fifo_recv-0.99.3.tar.gz --markdown 20230622/n/nifpga-fast-fifo-recv/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifpga_fast_fifo_recv-0.99.2.tar.gz tmp/nifpga_fast_fifo_recv-0.99.3.tar.gz --markdown 20230622/n/nifpga-fast-fifo-recv/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.1.9.tar.gz tmp/hayloft-0.2.0a0.tar.gz --markdown 20230622/h/hayloft/0.1.9-0.2.0a0/diff.md --exclude *.pyd
+[2023-06-22 12:00:34] INFO root fetch - processPackages [power-grid-model-io]: Downloading https://files.pythonhosted.org/packages/4c/cc/8eb9ed701ded84401013d806307a8c2d457f6815447f949a74b8907b664e/power_grid_model_io-1.2.9-py3-none-any.whl
+[2023-06-22 12:00:34] INFO root fetch - processPackages [CosmoTech-SupplyChain]: executing diffoscope
+[2023-06-22 12:00:34] INFO root fetch - processPackages [CosmoTech-SupplyChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech-SupplyChain-4.1.2.tar.gz tmp/CosmoTech-SupplyChain-5.0.0.tar.gz --markdown 20230622/C/CosmoTech-SupplyChain/4.1.2-5.0.0/diff.md --exclude *.pyd
+[2023-06-22 12:00:35] INFO root fetch - processPackages [power-grid-model-io]: executing diffoscope
+[2023-06-22 12:00:35] INFO root fetch - processPackages [power-grid-model-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model_io-1.2.8-py3-none-any.whl.zip tmp/power_grid_model_io-1.2.9-py3-none-any.whl.zip --markdown 20230622/p/power-grid-model-io/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-22 12:00:36] INFO root fetch - processPackages [dv-utils]: Remove: archive file [/home/abi/fetcher/tmp/dv_utils-0.1.1.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - processPackages [dv-utils]: Remove: archive file [/home/abi/fetcher/tmp/dv_utils-0.1.2.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [dv-utils]: success
+[2023-06-22 12:00:36] INFO root fetch - processPackages [a2y-fef]: Remove: archive file [/home/abi/fetcher/tmp/a2y_fef-0.9.5-cp36-cp36m-win32.whl.zip]
+[2023-06-22 12:00:36] INFO root fetch - processPackages [a2y-fef]: Remove: archive file [/home/abi/fetcher/tmp/a2y_fef-0.9.6-cp36-cp36m-win32.whl.zip]
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [a2y-fef]: success
+[2023-06-22 12:00:36] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.99.2.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.99.3.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv]: success
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv]: success
+[2023-06-22 12:00:36] INFO root fetch - processPackages [power-grid-model-io]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model_io-1.2.8-py3-none-any.whl.zip]
+[2023-06-22 12:00:36] INFO root fetch - processPackages [power-grid-model-io]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model_io-1.2.9-py3-none-any.whl.zip]
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [power-grid-model-io]: success
+[2023-06-22 12:00:36] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-22 12:00:36] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.6.0.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.6.1.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-06-22 12:00:36] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech-SupplyChain-4.1.2.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - processPackages [CosmoTech-SupplyChain]: Remove: archive file [/home/abi/fetcher/tmp/CosmoTech-SupplyChain-5.0.0.tar.gz]
+[2023-06-22 12:00:36] INFO root fetch - main [MainThread]: End processing [CosmoTech-SupplyChain]: success
+[2023-06-22 12:00:37] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-22 12:00:37] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-22 12:00:37] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-22 12:00:40] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.1.9.tar.gz]
+[2023-06-22 12:00:40] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.0a0.tar.gz]
+[2023-06-22 12:00:40] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-22 12:00:40] INFO root fetch - main [MainThread]: Store serial: [18603351]
