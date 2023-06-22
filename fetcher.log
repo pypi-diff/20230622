@@ -13582,3 +13582,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:46:42] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-22 09:46:42] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
 [2023-06-22 09:46:42] INFO root fetch - main [MainThread]: Store serial: [18602085]
+[2023-06-22 09:51:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602085]
+[2023-06-22 09:51:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: perceval
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cereslib
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytrend
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuNet
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdypy-io
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsspkg
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oddrn-generator
+[2023-06-22 09:51:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sciform
+[2023-06-22 09:51:58] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.83]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sdypy-io]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [cereslib]: New version: [0.4.1rc1] Old Version: [0.4.0rc1]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [talkytrend]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [dsspkg]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [QuNet]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230621] Old Version: [2.14.0.dev20230620]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-22 09:51:58] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/17/d8/3a6de9584e9a0799fe6188b572e2313eb1c3aea1e405a76d32bd0b717d68/talkytrend-1.3.3.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/73/b6/2c1d1113b2e9124312f0fbe6ab33ff377b88aaa7f6eb9bfc99a491b400a4/QuNet-0.0.92-py3-none-any.whl
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/00/63/1dabd0b480f317a65663f74b5ecb2cf7edf3c038489b6efb6463671bd617/dsspkg-0.2.3.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/78/cb/c1035985fa887455c2887354d68a7c63621796159bced25eeba041ce8ec0/oddrn_generator-0.1.83.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/e7/a3/ad85a5edce698a3062794a0c127fd2a51ddb14014218f9a42185bd4703b8/talkytrend-1.3.4.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/d7/e8/ee86d121d319d8fb91081f1352c1427065b460c7e27e3fbadeaa4f435f6b/tf_nightly_cpu-2.14.0.dev20230620-cp39-cp39-win_amd64.whl
+[2023-06-22 09:51:58] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/d7/90/1bc49292ae0ff57deb9e110f70d4e23657da2094a72223ea201da14c223b/perceval-0.9.6.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [cereslib]: Downloading https://files.pythonhosted.org/packages/50/b6/b719de8348c196144dabc00837a00a6160af7216f3b441a5ea976f906228/cereslib-0.4.0rc1.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-22 09:51:58] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.3.3.tar.gz tmp/talkytrend-1.3.4.tar.gz --markdown 20230622/t/talkytrend/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sdypy-io]: Downloading https://files.pythonhosted.org/packages/05/14/99e980059e03127480d9dd00604d645a6a963785697a6429f47ae8cabe27/sdypy-io-0.0.1.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230622/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-22 09:51:58] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/93/d3/1e58323f0e555eea4ecbec417ce366a2476339c9f8cd6fa8491002ae4371/QuNet-0.0.93-py3-none-any.whl
+[2023-06-22 09:51:58] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/a5/92/da1f552a311b38c908b3b67c0958e988405bd12fa92b945a2058cc54a761/dsspkg-0.2.4.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sdypy-io]: Downloading https://files.pythonhosted.org/packages/86/94/bdcb6264a394a828af392c72e1f50f97fbcd2264232e91f99fd5a2b0747c/sdypy-io-0.1.0.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [dsspkg]: executing diffoscope
+[2023-06-22 09:51:58] INFO root fetch - processPackages [dsspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspkg-0.2.3.tar.gz tmp/dsspkg-0.2.4.tar.gz --markdown 20230622/d/dsspkg/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-22 09:51:58] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2a/2e/c01483d58b0cf1c450eb92f93a9180e3d71bda2dfe4cbe678bad80d62bfb/oddrn-generator-0.1.9.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [cereslib]: Downloading https://files.pythonhosted.org/packages/d6/99/ff8fe77282e85d6ccc3845fbb9fd74c4c8a7db2291c160a94007b6f1fa9a/cereslib-0.4.1rc1.tar.gz
+[2023-06-22 09:51:58] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-22 09:51:58] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.92-py3-none-any.whl.zip tmp/QuNet-0.0.93-py3-none-any.whl.zip --markdown 20230622/Q/QuNet/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-06-22 09:51:58] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-06-22 09:51:58] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.83.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230622/o/oddrn-generator/0.1.83-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 09:51:58] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f1/12/e6f37a5a200bc162a4ff5eafbc03bf775407d4613c43deca790a0f4ecb3c/tf_nightly_cpu-2.14.0.dev20230621-cp39-cp39-win_amd64.whl
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sdypy-io]: executing diffoscope
+[2023-06-22 09:51:58] INFO root fetch - processPackages [sdypy-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdypy-io-0.0.1.tar.gz tmp/sdypy-io-0.1.0.tar.gz --markdown 20230622/s/sdypy-io/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-22 09:51:58] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-22 09:51:58] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230620-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230621-cp39-cp39-win_amd64.whl.zip --markdown 20230622/t/tf-nightly-cpu/2.14.0.dev20230620-2.14.0.dev20230621/diff.md --exclude *.pyd
+[2023-06-22 09:51:59] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/dc/90/58dacc04ea0df998da783850425882982c9710d459b2cba75540de045a50/perceval-0.9.9.tar.gz
+[2023-06-22 09:51:59] INFO root fetch - processPackages [cereslib]: executing diffoscope
+[2023-06-22 09:51:59] INFO root fetch - processPackages [cereslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cereslib-0.4.0rc1.tar.gz tmp/cereslib-0.4.1rc1.tar.gz --markdown 20230622/c/cereslib/0.4.0rc1-0.4.1rc1/diff.md --exclude *.pyd
+[2023-06-22 09:51:59] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-06-22 09:51:59] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230622/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-06-22 09:52:00] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.3.3.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.3.4.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-22 09:52:00] INFO root fetch - processPackages [sdypy-io]: Remove: archive file [/home/abi/fetcher/tmp/sdypy-io-0.0.1.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [sdypy-io]: Remove: archive file [/home/abi/fetcher/tmp/sdypy-io-0.1.0.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [sdypy-io]: success
+[2023-06-22 09:52:00] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230620-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230621-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-22 09:52:00] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.92-py3-none-any.whl.zip]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.93-py3-none-any.whl.zip]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-22 09:52:00] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.83.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.9.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-06-22 09:52:00] INFO root fetch - processPackages [cereslib]: Remove: archive file [/home/abi/fetcher/tmp/cereslib-0.4.0rc1.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [cereslib]: Remove: archive file [/home/abi/fetcher/tmp/cereslib-0.4.1rc1.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [cereslib]: success
+[2023-06-22 09:52:00] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.3.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.4.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [dsspkg]: success
+[2023-06-22 09:52:00] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-22 09:52:00] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-22 09:52:03] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.6.tar.gz]
+[2023-06-22 09:52:03] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.9.tar.gz]
+[2023-06-22 09:52:03] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-06-22 09:52:03] INFO root fetch - main [MainThread]: Store serial: [18602113]
