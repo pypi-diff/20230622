@@ -9987,3 +9987,86 @@
 [2023-06-22 05:09:36] INFO root fetch - processPackages [odoo13-addon-crm-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_crm_claim-13.0.1.1.1.dev3-py3-none-any.whl.zip]
 [2023-06-22 05:09:36] INFO root fetch - main [MainThread]: End processing [odoo13-addon-crm-claim]: success
 [2023-06-22 05:09:36] INFO root fetch - main [MainThread]: Store serial: [18600733]
+[2023-06-22 05:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600733]
+[2023-06-22 05:14:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocr-iiif-tools
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-crm-claim
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featurelayers
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatch-project-pypi-2
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snok
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sourcery-nightly
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-http
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlutilities-udea
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyzscaler
+[2023-06-22 05:14:46] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.4.1b37] Old Version: [1.4.1b36]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [snok]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [hatch-project-pypi-2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ocr-iiif-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [featurelayers]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [pyzscaler]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [odoo-addon-crm-claim]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-06-22 05:14:46] WARNING root fetch - processPackages [mlutilities-udea]: Skipping, unable to determine old version
+[2023-06-22 05:14:46] INFO root fetch - main [MainThread]: End processing [mlutilities-udea] error
+[2023-06-22 05:14:46] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230622] Old Version: [0.0.17.dev20230621]
+[2023-06-22 05:14:46] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/fe/84/4438fef49e8db854d6e3d5f83ec22d4b0411b4688de1510c523941a512c2/snok-0.0.2.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/4a/13/34876028a2b1c6753476880132f0ac9346baf532594a44930e4fac94737b/sourcery_nightly-1.4.1b36-py2.py3-none-win_amd64.whl
+[2023-06-22 05:14:46] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/e7/60/4448c30505b25e7e49a0022e710d69dbf43a73f01dd60bf61fc7051c64c4/GANDLF-0.0.17.dev20230621.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/d8/59/4eb82a4967b9f9c5cce7139f329c3402432cf5f21d9979123217a45e98fa/featurelayers-1.2.7.tar.gz
+[2023-06-22 05:14:46] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 59935374>=10485760
+[2023-06-22 05:14:46] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-22 05:14:46] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/25/23/c0b7f4c2d49661649784839ee96d7af8491d97c9c506d83f78c3244521f3/hatch_project_pypi_2-0.0.8.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/93/6c/d6e455b8ca866d5f1b2bd4f0a1faacd38790882bd68b2c57ac42a2f23386/ocr_iiif_tools-0.0.3.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Downloading https://files.pythonhosted.org/packages/42/a1/13e7acfa5ad5151567a62d036ad9cabc6165c1abf2b2d7ff09498c07b3c1/cdktf-cdktf-provider-http-5.0.0.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [pyzscaler]: Downloading https://files.pythonhosted.org/packages/98/e0/630c116387c9d29452ba758a86d25bc8dd56b04396e9593edc684f923a4e/pyzscaler-1.4.1.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [odoo-addon-crm-claim]: Downloading https://files.pythonhosted.org/packages/ba/9b/37d93791117d0a9f35d17c4a34cf46593a83a7a078cca2237540ca42c696/odoo_addon_crm_claim-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-22 05:14:46] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/61/d0/b3aaff59bcf5faa2e1e3545569332e9bd3f802c5ed308c849b4befb6c5dd/snok-0.0.3.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/14/1a/78c1ca99646abf7e08f8f6d04a505dac39ce701ed0eb1f6f8d5d1ba701e7/featurelayers-1.2.8.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/68/fd/db6bf17ae282e676441f0c432301aec1c8b07598207f16964a4c634da053/GANDLF-0.0.17.dev20230622.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.2.tar.gz tmp/snok-0.0.3.tar.gz --markdown 20230622/s/snok/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 05:14:46] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.2.7.tar.gz tmp/featurelayers-1.2.8.tar.gz --markdown 20230622/f/featurelayers/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-22 05:14:46] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/03/03/2648b818892fb354302e1aa97dcc8e3ef5b7f4fee1f964ebe31ac62d51fb/hatch_project_pypi_2-0.0.9.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ocr-iiif-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/ac46bd51c82e9538e52d818226fad67aaad53701029e6d88ece49808e408/ocr_iiif_tools-0.0.4.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [hatch-project-pypi-2]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [hatch-project-pypi-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi_2-0.0.8.tar.gz tmp/hatch_project_pypi_2-0.0.9.tar.gz --markdown 20230622/h/hatch-project-pypi-2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ocr-iiif-tools]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [ocr-iiif-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocr_iiif_tools-0.0.3.tar.gz tmp/ocr_iiif_tools-0.0.4.tar.gz --markdown 20230622/o/ocr-iiif-tools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 05:14:46] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230621.tar.gz tmp/GANDLF-0.0.17.dev20230622.tar.gz --markdown 20230622/G/GANDLF/0.0.17.dev20230621-0.0.17.dev20230622/diff.md --exclude *.pyd
+[2023-06-22 05:14:46] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Downloading https://files.pythonhosted.org/packages/c4/17/0dcd30bdced968351df75b868b25446f52d22451b2effb585f6133a4fea3/cdktf-cdktf-provider-http-6.0.0.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [odoo-addon-crm-claim]: Downloading https://files.pythonhosted.org/packages/39/67/f7b35b7e11370e2008094000c9e5fabfd84fe399c4e10d2c9b96da5ec0fe/odoo_addon_crm_claim-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-22 05:14:46] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-http-5.0.0.tar.gz tmp/cdktf-cdktf-provider-http-6.0.0.tar.gz --markdown 20230622/c/cdktf-cdktf-provider-http/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-22 05:14:46] INFO root fetch - processPackages [pyzscaler]: Downloading https://files.pythonhosted.org/packages/a3/5b/6f85ab04b05599be4230989a5d72380815656a1d29b0412ec3c27056e5b2/pyzscaler-1.5.0.tar.gz
+[2023-06-22 05:14:46] INFO root fetch - processPackages [odoo-addon-crm-claim]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [odoo-addon-crm-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_claim-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_crm_claim-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-crm-claim/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-22 05:14:46] INFO root fetch - processPackages [pyzscaler]: executing diffoscope
+[2023-06-22 05:14:46] INFO root fetch - processPackages [pyzscaler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzscaler-1.4.1.tar.gz tmp/pyzscaler-1.5.0.tar.gz --markdown 20230622/p/pyzscaler/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-22 05:14:47] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.2.tar.gz]
+[2023-06-22 05:14:47] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.3.tar.gz]
+[2023-06-22 05:14:47] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-06-22 05:14:47] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.8.tar.gz]
+[2023-06-22 05:14:47] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.9.tar.gz]
+[2023-06-22 05:14:47] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi-2]: success
+[2023-06-22 05:14:48] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.7.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.8.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-22 05:14:48] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.3.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - processPackages [ocr-iiif-tools]: Remove: archive file [/home/abi/fetcher/tmp/ocr_iiif_tools-0.0.4.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - main [MainThread]: End processing [ocr-iiif-tools]: success
+[2023-06-22 05:14:48] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-http-5.0.0.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - processPackages [cdktf-cdktf-provider-http]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-http-6.0.0.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-http]: success
+[2023-06-22 05:14:48] INFO root fetch - processPackages [odoo-addon-crm-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-22 05:14:48] INFO root fetch - processPackages [odoo-addon-crm-claim]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-22 05:14:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-claim]: success
+[2023-06-22 05:14:48] INFO root fetch - processPackages [pyzscaler]: Remove: archive file [/home/abi/fetcher/tmp/pyzscaler-1.4.1.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - processPackages [pyzscaler]: Remove: archive file [/home/abi/fetcher/tmp/pyzscaler-1.5.0.tar.gz]
+[2023-06-22 05:14:48] INFO root fetch - main [MainThread]: End processing [pyzscaler]: success
+[2023-06-22 05:14:50] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230621.tar.gz]
+[2023-06-22 05:14:50] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230622.tar.gz]
+[2023-06-22 05:14:50] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-22 05:14:50] INFO root fetch - main [MainThread]: Store serial: [18600765]
