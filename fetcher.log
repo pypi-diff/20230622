@@ -10112,3 +10112,34 @@
 [2023-06-22 05:20:07] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.0.tar.gz]
 [2023-06-22 05:20:07] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2023-06-22 05:20:07] INFO root fetch - main [MainThread]: Store serial: [18600782]
+[2023-06-22 05:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600782]
+[2023-06-22 05:25:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customtkinterx
+[2023-06-22 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-vault
+[2023-06-22 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embaas
+[2023-06-22 05:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: customtkinterx
+[2023-06-22 05:25:18] INFO root fetch - processPackages [customtkinterx]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-22 05:25:18] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-22 05:25:18] INFO root fetch - processPackages [customtkinterx]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-22 05:25:18] WARNING root fetch - processPackages [embaas]: Skipping, unable to determine old version
+[2023-06-22 05:25:18] INFO root fetch - main [MainThread]: End processing [embaas] error
+[2023-06-22 05:25:18] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/d7/3b/dd861c5e582beb1711553675b71326da94c150556f92d2c9bebe99d3a480/customtkinterx-0.4.2.tar.gz
+[2023-06-22 05:25:18] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/d7/3b/dd861c5e582beb1711553675b71326da94c150556f92d2c9bebe99d3a480/customtkinterx-0.4.2.tar.gz
+[2023-06-22 05:25:18] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/b1/3b/fbd57b9ed946e13e5d88688ee2d1afaf74b7717119b18d62b1e156fbacf0/cdktf-cdktf-provider-vault-8.0.0.tar.gz
+[2023-06-22 05:25:19] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/ba/b9/211080fba965315d3fd3624e6ef1a9e33a4e5ba9e60526c96f7fa5b53e7f/customtkinterx-0.4.3.tar.gz
+[2023-06-22 05:25:19] INFO root fetch - processPackages [customtkinterx]: Downloading https://files.pythonhosted.org/packages/ba/b9/211080fba965315d3fd3624e6ef1a9e33a4e5ba9e60526c96f7fa5b53e7f/customtkinterx-0.4.3.tar.gz
+[2023-06-22 05:25:19] INFO root fetch - processPackages [customtkinterx]: executing diffoscope
+[2023-06-22 05:25:19] INFO root fetch - processPackages [customtkinterx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinterx-0.4.2.tar.gz tmp/customtkinterx-0.4.3.tar.gz --markdown 20230622/c/customtkinterx/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-22 05:25:19] INFO root fetch - processPackages [customtkinterx]: executing diffoscope
+[2023-06-22 05:25:19] INFO root fetch - processPackages [customtkinterx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customtkinterx-0.4.2.tar.gz tmp/customtkinterx-0.4.3.tar.gz --markdown 20230622/c/customtkinterx/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-22 05:25:19] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/f5/3b/7f410aca37ad20b83b637cb97bf444941ab453002ed61938c3ca49001800/cdktf-cdktf-provider-vault-9.0.0.tar.gz
+[2023-06-22 05:25:19] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-06-22 05:25:19] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-8.0.0.tar.gz tmp/cdktf-cdktf-provider-vault-9.0.0.tar.gz --markdown 20230622/c/cdktf-cdktf-provider-vault/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-22 05:25:20] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.4.2.tar.gz]
+[2023-06-22 05:25:20] INFO root fetch - processPackages [customtkinterx]: Remove: archive file [/home/abi/fetcher/tmp/customtkinterx-0.4.3.tar.gz]
+[2023-06-22 05:25:20] INFO root fetch - main [MainThread]: End processing [customtkinterx]: success
+[2023-06-22 05:25:20] INFO root fetch - main [MainThread]: End processing [customtkinterx]: success
+[2023-06-22 05:25:30] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-8.0.0.tar.gz]
+[2023-06-22 05:25:30] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.0.tar.gz]
+[2023-06-22 05:25:30] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-06-22 05:25:30] INFO root fetch - main [MainThread]: Store serial: [18600795]
