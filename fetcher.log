@@ -12410,3 +12410,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:25:49] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2023-06-22 08:25:49] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-06-22 08:25:49] INFO root fetch - main [MainThread]: Store serial: [18601624]
+[2023-06-22 08:30:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601624]
+[2023-06-22 08:30:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: workflow-package
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazyearth
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trailblazer
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PureCloudPlatformClientV2
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datascrub
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dyn-rm
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biblioteca2080
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lazyearth
+[2023-06-22 08:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pfizer-components
+[2023-06-22 08:30:59] INFO root fetch - processPackages [pfizer-components]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 08:30:59] WARNING root fetch - processPackages [dyn-rm]: Skipping, unable to determine old version
+[2023-06-22 08:30:59] INFO root fetch - main [MainThread]: End processing [dyn-rm] error
+[2023-06-22 08:30:59] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230622] Old Version: [20230621]
+[2023-06-22 08:30:59] WARNING root fetch - processPackages [workflow-package]: Skipping, unable to determine old version
+[2023-06-22 08:30:59] INFO root fetch - main [MainThread]: End processing [workflow-package] error
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-22 08:30:59] INFO root fetch - processPackages [biblioteca2080]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-22 08:30:59] INFO root fetch - processPackages [datascrub]: New version: [1.0.1a0] Old Version: [1.0.1]
+[2023-06-22 08:30:59] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-06-22 08:30:59] INFO root fetch - processPackages [trailblazer]: New version: [9.2.2] Old Version: [9.2.1]
+[2023-06-22 08:30:59] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/ec/66/e98d6b6e0169cf8fc23648257643affa3c5b8c4197e3fdd23cfc3423e5e8/pfizer_components-0.2.2-py3-none-any.whl
+[2023-06-22 08:30:59] INFO root fetch - processPackages [biblioteca2080]: Downloading https://files.pythonhosted.org/packages/e6/6d/fb01fc2dcf61a397aad6d443c1579b2ae463c88b8d2180895dcf54be1321/biblioteca2080-1.0.0.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/d5/6e/b1ace1dd396e103472872b5a579cdf682583add16afd612891012a111556/trailblazer-9.2.1.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cf/f6/e5c8e5661ca8c7aa1bee9cb1c70e9a5f4d8aa068e64d732e66b87bb5b8fc/fake-bpy-module-latest-20230621.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [trailblazer]: Downloading https://files.pythonhosted.org/packages/62/26/4e5aaa2f489559d2215daf26b18ae4d84f0ec47ec57ba184df9e56b4eddc/trailblazer-9.2.2.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/8d/b8/c6de081a8d5b4e0b0dd046bd652e97307536d4e468aca69edf756e3e5953/pfizer_components-0.2.3-py3-none-any.whl
+[2023-06-22 08:30:59] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/f2/a6/dbc0f496a7f19b490a3c43c8e414593f1e3b1d390f44aa4433ce7661827f/datascrub-1.0.1.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-22 08:30:59] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.2.2-py3-none-any.whl.zip tmp/pfizer_components-0.2.3-py3-none-any.whl.zip --markdown 20230622/p/pfizer-components/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 08:30:59] INFO root fetch - processPackages [biblioteca2080]: Downloading https://files.pythonhosted.org/packages/96/32/cb4de1986153cf599a4f020d53f78854effaae883639eb7db840de24d32f/biblioteca2080-1.0.1.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/cf/98/31131d48921ce122d2015b01e0f804f9327f04686bd1bdc6db11c0a275fc/fake-bpy-module-latest-20230622.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/d1/86/7d11c6a9be5101a4df836432ecf1789efa8ffe0181c42817fe2b5e9cdbe4/datascrub-1.0.1a0.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [biblioteca2080]: executing diffoscope
+[2023-06-22 08:30:59] INFO root fetch - processPackages [biblioteca2080]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblioteca2080-1.0.0.tar.gz tmp/biblioteca2080-1.0.1.tar.gz --markdown 20230622/b/biblioteca2080/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-22 08:30:59] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-22 08:30:59] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230621.tar.gz tmp/fake-bpy-module-latest-20230622.tar.gz --markdown 20230622/f/fake-bpy-module-latest/20230621-20230622/diff.md --exclude *.pyd
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [datascrub]: executing diffoscope
+[2023-06-22 08:30:59] INFO root fetch - processPackages [datascrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascrub-1.0.1.tar.gz tmp/datascrub-1.0.1a0.tar.gz --markdown 20230622/d/datascrub/1.0.1-1.0.1a0/diff.md --exclude *.pyd
+[2023-06-22 08:30:59] INFO root fetch - processPackages [trailblazer]: executing diffoscope
+[2023-06-22 08:30:59] INFO root fetch - processPackages [trailblazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailblazer-9.2.1.tar.gz tmp/trailblazer-9.2.2.tar.gz --markdown 20230622/t/trailblazer/9.2.1-9.2.2/diff.md --exclude *.pyd
+[2023-06-22 08:30:59] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230622/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-22 08:30:59] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230622/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-22 08:31:00] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-06-22 08:31:00] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230622/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-06-22 08:31:00] INFO root fetch - processPackages [biblioteca2080]: Remove: archive file [/home/abi/fetcher/tmp/biblioteca2080-1.0.0.tar.gz]
+[2023-06-22 08:31:00] INFO root fetch - processPackages [biblioteca2080]: Remove: archive file [/home/abi/fetcher/tmp/biblioteca2080-1.0.1.tar.gz]
+[2023-06-22 08:31:00] INFO root fetch - main [MainThread]: End processing [biblioteca2080]: success
+[2023-06-22 08:31:01] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.0.1.tar.gz]
+[2023-06-22 08:31:01] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.0.1a0.tar.gz]
+[2023-06-22 08:31:01] INFO root fetch - main [MainThread]: End processing [datascrub]: success
+[2023-06-22 08:31:01] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.2-py3-none-any.whl.zip]
+[2023-06-22 08:31:01] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.3-py3-none-any.whl.zip]
+[2023-06-22 08:31:01] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-22 08:31:01] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.1.tar.gz]
+[2023-06-22 08:31:01] INFO root fetch - processPackages [trailblazer]: Remove: archive file [/home/abi/fetcher/tmp/trailblazer-9.2.2.tar.gz]
+[2023-06-22 08:31:01] INFO root fetch - main [MainThread]: End processing [trailblazer]: success
+[2023-06-22 08:31:02] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-22 08:31:02] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-22 08:31:02] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-22 08:31:02] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-22 08:31:07] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230621.tar.gz]
+[2023-06-22 08:31:07] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230622.tar.gz]
+[2023-06-22 08:31:07] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-22 08:31:52] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-06-22 08:31:52] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-06-22 08:31:52] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-06-22 08:31:53] INFO root fetch - main [MainThread]: Store serial: [18601654]
