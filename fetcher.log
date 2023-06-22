@@ -13294,3 +13294,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:30:24] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.4.tar.gz]
 [2023-06-22 09:30:24] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbqueue]: success
 [2023-06-22 09:30:24] INFO root fetch - main [MainThread]: Store serial: [18601941]
+[2023-06-22 09:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601941]
+[2023-06-22 09:35:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiosumma
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropython-captive-dns-server
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcai-nova-utils
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tg-api
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab-nbqueue
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: planetmint
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ssb-fagfunksjoner
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightstreamer-client-lib
+[2023-06-22 09:35:33] WARNING root fetch - processPackages [tg-api]: Skipping, unable to determine old version
+[2023-06-22 09:35:33] INFO root fetch - processPackages [tg-api]: Start processing: qontract-reconcile
+[2023-06-22 09:35:33] INFO root fetch - main [MainThread]: End processing [tg-api] error
+[2023-06-22 09:35:33] INFO root fetch - processPackages [micropython-captive-dns-server]: New version: [0.0.3.dev0] Old Version: [0.0.2.dev0]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [lightstreamer-client-lib]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-22 09:35:33] WARNING root fetch - processPackages [ssb-fagfunksjoner]: Skipping, unable to determine old version
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ssb-fagfunksjoner]: Start processing: ARIclicker
+[2023-06-22 09:35:33] INFO root fetch - main [MainThread]: End processing [ssb-fagfunksjoner] error
+[2023-06-22 09:35:33] INFO root fetch - processPackages [jupyterlab-nbqueue]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230621163821] Old Version: [2.1.1.dev20230621143631]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [planetmint]: New version: [2.5.0] Old Version: [2.4.7]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ARIclicker]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [hcai-nova-utils]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-22 09:35:33] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/3d/0f/32e28f772c33f2f5fd280d74aacdcdceb719ce31f73948de42ef26acd6c2/ARIclicker-0.1.8.tar.gz
+[2023-06-22 09:35:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c0/6f/cfdb9ec26c5d55d026147de46115195ae810f2519a349602d91063ce7029/localstack-core-2.1.1.dev20230621143631.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-22 09:35:34] INFO root fetch - processPackages [lightstreamer-client-lib]: Downloading https://files.pythonhosted.org/packages/d8/2a/a92b35543a81074a68da6e65480c38790db6407d2e85f470fda3b8f1a1fd/lightstreamer-client-lib-1.0.2.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [planetmint]: Downloading https://files.pythonhosted.org/packages/13/85/719cfbd71628db3bafa471e19139b7eb5b4f0ed6c127a1ad67bd87518ffa/planetmint-2.4.7.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-22 09:35:34] INFO root fetch - processPackages [jupyterlab-nbqueue]: Downloading https://files.pythonhosted.org/packages/c5/71/064726f2e83ef3680d2aded1add4d9594db4a878b8ab329dba673c5db12e/jupyterlab_nbqueue-0.1.3.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-22 09:35:34] INFO root fetch - processPackages [micropython-captive-dns-server]: Downloading https://files.pythonhosted.org/packages/4d/ad/bf3c58d15d1a18ae9c63f04b7064ec3fbddb01432442b4c376d9f87fd923/micropython-captive-dns-server-0.0.2.dev0.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [hcai-nova-utils]: Downloading https://files.pythonhosted.org/packages/09/50/e1cfde7f5f72a202acfeff4fdc023f5ce1d0954a002730fb36f6371483ea/hcai-nova-utils-0.7.0.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-22 09:35:34] INFO root fetch - processPackages [planetmint]: Downloading https://files.pythonhosted.org/packages/1d/18/3c69a14176d261573878e83d0e7ef86b5dc020a470b5aa59e09f99d7ed44/planetmint-2.5.0.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [micropython-captive-dns-server]: Downloading https://files.pythonhosted.org/packages/49/e8/9583c697f24441c6ff7bab56ed3135ab80f83b4a4a2ce5aeba998840a9e8/micropython-captive-dns-server-0.0.3.dev0.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a1/05/583d046ff9e2c5837957a2629dc6096b884488246d9ff02fe0af8ea88188/localstack-core-2.1.1.dev20230621163821.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [jupyterlab-nbqueue]: Downloading https://files.pythonhosted.org/packages/7b/8b/3c673d52d9f9d8a5da2db225bcca5e02a15658571d40b90960ad7f6528ce/jupyterlab_nbqueue-0.1.4.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/e7/3a/fedc54660ed5fdb6e8390c2ad535a1678ed6abedf27d394a506732a7d1d7/ARIclicker-0.1.9.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [lightstreamer-client-lib]: Downloading https://files.pythonhosted.org/packages/bf/1e/da9f259eda2cf3eecfd15813fd2a920144ce282102089ec9beae022350d3/lightstreamer-client-lib-1.0.3.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-22 09:35:34] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230622/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [planetmint]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [planetmint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint-2.4.7.tar.gz tmp/planetmint-2.5.0.tar.gz --markdown 20230622/p/planetmint/2.4.7-2.5.0/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [micropython-captive-dns-server]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230622/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [micropython-captive-dns-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-captive-dns-server-0.0.2.dev0.tar.gz tmp/micropython-captive-dns-server-0.0.3.dev0.tar.gz --markdown 20230622/m/micropython-captive-dns-server/0.0.2.dev0-0.0.3.dev0/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230621143631.tar.gz tmp/localstack-core-2.1.1.dev20230621163821.tar.gz --markdown 20230622/l/localstack-core/2.1.1.dev20230621143631-2.1.1.dev20230621163821/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [lightstreamer-client-lib]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [lightstreamer-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightstreamer-client-lib-1.0.2.tar.gz tmp/lightstreamer-client-lib-1.0.3.tar.gz --markdown 20230622/l/lightstreamer-client-lib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [hcai-nova-utils]: Downloading https://files.pythonhosted.org/packages/cc/df/20a1e2698e83d840de8cb68fd72daa0d500087673c7585884acaee532d91/hcai-nova-utils-0.7.1.tar.gz
+[2023-06-22 09:35:34] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.1.8.tar.gz tmp/ARIclicker-0.1.9.tar.gz --markdown 20230622/A/ARIclicker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230622/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [hcai-nova-utils]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [hcai-nova-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-utils-0.7.0.tar.gz tmp/hcai-nova-utils-0.7.1.tar.gz --markdown 20230622/h/hcai-nova-utils/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-22 09:35:34] INFO root fetch - processPackages [jupyterlab-nbqueue]: executing diffoscope
+[2023-06-22 09:35:34] INFO root fetch - processPackages [jupyterlab-nbqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nbqueue-0.1.3.tar.gz tmp/jupyterlab_nbqueue-0.1.4.tar.gz --markdown 20230622/j/jupyterlab-nbqueue/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-22 09:35:37] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - processPackages [bridgecrew]: Start processing: statute-utils
+[2023-06-22 09:35:37] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-22 09:35:37] INFO root fetch - processPackages [statute-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-22 09:35:37] INFO root fetch - processPackages [micropython-captive-dns-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dns-server-0.0.2.dev0.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - processPackages [micropython-captive-dns-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dns-server-0.0.3.dev0.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - main [MainThread]: End processing [micropython-captive-dns-server]: success
+[2023-06-22 09:35:37] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/4c/62/0ef8cb80cdc1a3ad43b8d8065161f135fafdcf90ea6d7c1f54f168de9730/statute_utils-0.3.0.tar.gz
+[2023-06-22 09:35:37] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.1.8.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.1.9.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-06-22 09:35:37] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/b3/a6/6f3c7392d6635ddbcd7028392585d2a2886b17de0e6bc74b21cbd53b80b9/statute_utils-0.3.1.tar.gz
+[2023-06-22 09:35:37] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-06-22 09:35:37] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.3.0.tar.gz tmp/statute_utils-0.3.1.tar.gz --markdown 20230622/s/statute-utils/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-22 09:35:37] INFO root fetch - processPackages [hcai-nova-utils]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-utils-0.7.0.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - processPackages [hcai-nova-utils]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-utils-0.7.1.tar.gz]
+[2023-06-22 09:35:37] INFO root fetch - main [MainThread]: End processing [hcai-nova-utils]: success
+[2023-06-22 09:35:38] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-22 09:35:38] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-22 09:35:38] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-22 09:35:39] INFO root fetch - processPackages [planetmint]: Remove: archive file [/home/abi/fetcher/tmp/planetmint-2.4.7.tar.gz]
+[2023-06-22 09:35:39] INFO root fetch - processPackages [planetmint]: Remove: archive file [/home/abi/fetcher/tmp/planetmint-2.5.0.tar.gz]
+[2023-06-22 09:35:39] INFO root fetch - main [MainThread]: End processing [planetmint]: success
+[2023-06-22 09:35:39] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.3.0.tar.gz]
+[2023-06-22 09:35:39] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.3.1.tar.gz]
+[2023-06-22 09:35:39] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-06-22 09:35:40] INFO root fetch - processPackages [lightstreamer-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/lightstreamer-client-lib-1.0.2.tar.gz]
+[2023-06-22 09:35:40] INFO root fetch - processPackages [lightstreamer-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/lightstreamer-client-lib-1.0.3.tar.gz]
+[2023-06-22 09:35:40] INFO root fetch - main [MainThread]: End processing [lightstreamer-client-lib]: success
+[2023-06-22 09:35:40] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.3.tar.gz]
+[2023-06-22 09:35:40] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.4.tar.gz]
+[2023-06-22 09:35:40] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbqueue]: success
+[2023-06-22 09:35:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-22 09:35:43] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-22 09:35:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-22 09:35:47] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230621143631.tar.gz]
+[2023-06-22 09:35:47] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230621163821.tar.gz]
+[2023-06-22 09:35:47] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-22 09:35:47] INFO root fetch - main [MainThread]: Store serial: [18602001]
