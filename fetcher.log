@@ -12254,3 +12254,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:10:07] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230622.tar.gz]
 [2023-06-22 08:10:07] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-22 08:10:07] INFO root fetch - main [MainThread]: Store serial: [18601555]
+[2023-06-22 08:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601555]
+[2023-06-22 08:15:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-framework
+[2023-06-22 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Accuinsight
+[2023-06-22 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysqlclient
+[2023-06-22 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impoasdiff
+[2023-06-22 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datascrub
+[2023-06-22 08:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: statute-utils
+[2023-06-22 08:15:16] INFO root fetch - processPackages [Accuinsight]: New version: [3.4.230530] Old Version: [3.4.230516rc1]
+[2023-06-22 08:15:16] WARNING root fetch - processPackages [aws-framework]: Skipping, unable to determine old version
+[2023-06-22 08:15:16] INFO root fetch - main [MainThread]: End processing [aws-framework] error
+[2023-06-22 08:15:16] WARNING root fetch - processPackages [impoasdiff]: Skipping, unable to determine old version
+[2023-06-22 08:15:16] INFO root fetch - main [MainThread]: End processing [impoasdiff] error
+[2023-06-22 08:15:16] WARNING root fetch - processPackages [datascrub]: Skipping, unable to determine old version
+[2023-06-22 08:15:16] INFO root fetch - main [MainThread]: End processing [datascrub] error
+[2023-06-22 08:15:16] INFO root fetch - processPackages [mysqlclient]: New version: [2.2.0rc1] Old Version: [2.2.0]
+[2023-06-22 08:15:16] INFO root fetch - processPackages [statute-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-22 08:15:16] INFO root fetch - processPackages [mysqlclient]: Downloading https://files.pythonhosted.org/packages/de/9c/b176826e8994551ce826404dab97e305a4bb76c8b0a4e016fabda2901c71/mysqlclient-2.2.0.tar.gz
+[2023-06-22 08:15:16] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/4c/62/0ef8cb80cdc1a3ad43b8d8065161f135fafdcf90ea6d7c1f54f168de9730/statute_utils-0.3.0.tar.gz
+[2023-06-22 08:15:16] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/a3/74/24160bcfe107e2545b51dae55876ed752d0a278ce0517ba4ab6493a20a92/Accuinsight-3.4.230516rc1.tar.gz
+[2023-06-22 08:15:16] INFO root fetch - processPackages [statute-utils]: Downloading https://files.pythonhosted.org/packages/b3/a6/6f3c7392d6635ddbcd7028392585d2a2886b17de0e6bc74b21cbd53b80b9/statute_utils-0.3.1.tar.gz
+[2023-06-22 08:15:16] INFO root fetch - processPackages [mysqlclient]: Downloading https://files.pythonhosted.org/packages/3e/de/305a3cd857f34a23ffe3e94f027ccdfcbb803b800b6c1c16155995a66d8d/mysqlclient-2.2.0rc1.tar.gz
+[2023-06-22 08:15:17] INFO root fetch - processPackages [statute-utils]: executing diffoscope
+[2023-06-22 08:15:17] INFO root fetch - processPackages [statute-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statute_utils-0.3.0.tar.gz tmp/statute_utils-0.3.1.tar.gz --markdown 20230622/s/statute-utils/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-22 08:15:17] INFO root fetch - processPackages [mysqlclient]: executing diffoscope
+[2023-06-22 08:15:17] INFO root fetch - processPackages [mysqlclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlclient-2.2.0.tar.gz tmp/mysqlclient-2.2.0rc1.tar.gz --markdown 20230622/m/mysqlclient/2.2.0-2.2.0rc1/diff.md --exclude *.pyd
+[2023-06-22 08:15:17] INFO root fetch - processPackages [Accuinsight]: Downloading https://files.pythonhosted.org/packages/4e/5a/b5c015b7df70d45b696d6939e0a90221416bbe87757b22d95a2e47b572dd/Accuinsight-3.4.230530.tar.gz
+[2023-06-22 08:15:17] INFO root fetch - processPackages [Accuinsight]: executing diffoscope
+[2023-06-22 08:15:17] INFO root fetch - processPackages [Accuinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Accuinsight-3.4.230516rc1.tar.gz tmp/Accuinsight-3.4.230530.tar.gz --markdown 20230622/A/Accuinsight/3.4.230516rc1-3.4.230530/diff.md --exclude *.pyd
+[2023-06-22 08:15:18] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.3.0.tar.gz]
+[2023-06-22 08:15:18] INFO root fetch - processPackages [statute-utils]: Remove: archive file [/home/abi/fetcher/tmp/statute_utils-0.3.1.tar.gz]
+[2023-06-22 08:15:18] INFO root fetch - main [MainThread]: End processing [statute-utils]: success
+[2023-06-22 08:15:18] INFO root fetch - processPackages [mysqlclient]: Remove: archive file [/home/abi/fetcher/tmp/mysqlclient-2.2.0.tar.gz]
+[2023-06-22 08:15:18] INFO root fetch - processPackages [mysqlclient]: Remove: archive file [/home/abi/fetcher/tmp/mysqlclient-2.2.0rc1.tar.gz]
+[2023-06-22 08:15:18] INFO root fetch - main [MainThread]: End processing [mysqlclient]: success
+[2023-06-22 08:15:18] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230516rc1.tar.gz]
+[2023-06-22 08:15:18] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230530.tar.gz]
+[2023-06-22 08:15:18] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
+[2023-06-22 08:15:18] INFO root fetch - main [MainThread]: Store serial: [18601587]
