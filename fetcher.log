@@ -9492,3 +9492,42 @@
 [2023-06-22 04:36:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-22 04:36:59] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-22 04:36:59] INFO root fetch - main [MainThread]: Store serial: [18600576]
+[2023-06-22 04:42:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600576]
+[2023-06-22 04:42:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-06-22 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-06-22 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-25
+[2023-06-22 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stig-edit
+[2023-06-22 04:42:15] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230622] Old Version: [1.2.20230621]
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-22 04:42:15] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/51/ca/6b522cc6afdfbe12b5b19830a9e0a344092e3dbc8207765b7ac674b3beda/iam_actions-1.2.20230621.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [stig-edit]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/94/2a/eaf70bc8ddbb07d519b09ae4fdaf55bb810b45c772e2ab7ac53ddfcee847/iam_actions-1.2.20230622.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [stig-edit]: Downloading https://files.pythonhosted.org/packages/49/12/1038d5b0329850aa9b7b531644bad626190737ae9b6b879089babc67d370/stig_edit-1.0.5.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-22 04:42:15] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230621.tar.gz tmp/iam_actions-1.2.20230622.tar.gz --markdown 20230622/i/iam-actions/1.2.20230621-1.2.20230622/diff.md --exclude *.pyd
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230622/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-22 04:42:15] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230622/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-22 04:42:15] INFO root fetch - processPackages [stig-edit]: Downloading https://files.pythonhosted.org/packages/9c/75/a6bc342198f486faf7daede9f69fdebee76f35c74c41efdbf971b5a894c0/stig_edit-1.0.6.tar.gz
+[2023-06-22 04:42:15] INFO root fetch - processPackages [stig-edit]: executing diffoscope
+[2023-06-22 04:42:15] INFO root fetch - processPackages [stig-edit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stig_edit-1.0.5.tar.gz tmp/stig_edit-1.0.6.tar.gz --markdown 20230622/s/stig-edit/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-22 04:42:16] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-22 04:42:16] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-22 04:42:16] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-22 04:42:17] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-22 04:42:17] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-22 04:42:17] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-22 04:42:17] INFO root fetch - processPackages [stig-edit]: Remove: archive file [/home/abi/fetcher/tmp/stig_edit-1.0.5.tar.gz]
+[2023-06-22 04:42:17] INFO root fetch - processPackages [stig-edit]: Remove: archive file [/home/abi/fetcher/tmp/stig_edit-1.0.6.tar.gz]
+[2023-06-22 04:42:17] INFO root fetch - main [MainThread]: End processing [stig-edit]: success
+[2023-06-22 04:42:20] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230621.tar.gz]
+[2023-06-22 04:42:20] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230622.tar.gz]
+[2023-06-22 04:42:20] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-22 04:42:20] INFO root fetch - main [MainThread]: Store serial: [18600591]
