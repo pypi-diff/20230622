@@ -14306,3 +14306,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:24:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622082107.tar.gz]
 [2023-06-22 10:24:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-22 10:24:06] INFO root fetch - main [MainThread]: Store serial: [18602360]
+[2023-06-22 10:29:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602360]
+[2023-06-22 10:29:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minilab
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tblib
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: power-grid-model
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msaDocModels
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sarus
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: es-translator
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scalyr-agent-2
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybox-toolkit
+[2023-06-22 10:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsspkg
+[2023-06-22 10:29:15] WARNING root fetch - processPackages [minilab]: Skipping, unable to determine old version
+[2023-06-22 10:29:15] INFO root fetch - processPackages [minilab]: Start processing: maxgradient
+[2023-06-22 10:29:15] INFO root fetch - main [MainThread]: End processing [minilab] error
+[2023-06-22 10:29:15] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.80]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [tblib]: New version: [2.0.0] Old Version: [1.7.0]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev67] Old Version: [0.1.8.dev5]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [sarus]: New version: [0.7.3rc0] Old Version: [0.7.2]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [dsspkg]: New version: [0.3.1] Old Version: [0.3]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [scalyr-agent-2]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [maxgradient]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [es-translator]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9183513819989] Old Version: [1.5.0rc9181700408075]
+[2023-06-22 10:29:15] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/38/7f/0e8f4f46eb8d92eabef921eab8484267bbea7c0cf46f3a3677fb4909dd6f/dsspkg-0.3.tar.gz
+[2023-06-22 10:29:15] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/38/5f/24e2f70e85c48dd8863408515528e36b4fe5fa5bad799cef71a406b26315/msaDocModels-0.0.80.tar.gz
+[2023-06-22 10:29:15] INFO root fetch - processPackages [tblib]: Downloading https://files.pythonhosted.org/packages/d3/41/901ef2e81d7b1e834b9870d416cb09479e175a2be1c4aa1a9dcd0a555293/tblib-1.7.0.tar.gz
+[2023-06-22 10:29:15] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/d3/f9/d99e8348d289b8030526ebb3586d497350615fb49db7e02afd540907764c/pybox-toolkit-0.1.8.dev5.tar.gz
+[2023-06-22 10:29:15] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/6d/3f/f1170c05cfaca19fae1d50df6ab06b445b544c9146970c03992b1feeab38/power-grid-model-1.5.0rc9181700408075.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-06-22 10:29:16] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/23/ae/575ba138c9ffea6eace42f79aa8ed8e829579afe977d687564c0ead9508a/sarus-0.7.2.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/4f/34/38786c48a8c53f10ae0967a35ff205775e4fd60b28e746cfe1bf460a25ff/es_translator-1.5.0.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/96/01/38207d6e8f32ef75a8f08b40fb6b1829a9cbcf82058e6d1b091dd1adec21/maxgradient-0.1.3.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [scalyr-agent-2]: Downloading https://files.pythonhosted.org/packages/39/20/e5d29f0dca9afc2d52c19b2f6443109901e69fa218a7df6c36da15b3d15e/scalyr-agent-2-2.2.2.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [tblib]: Downloading https://files.pythonhosted.org/packages/64/e3/d9aebe40d15d2c4c73a0ff8555326ef42a62ce3e5320ceb1aa762e4fbb54/tblib-2.0.0.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/9c/15/8202f727cd65e49b35e213b1b39aac0dd54447cce9f74f38e0f7133bfaff/pybox-toolkit-0.1.9.dev67.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/db/2b/c5c78bcc25a58d591be51f8ef2cb475b16f5a478f32d96703ee45ccb497d/dsspkg-0.3.1.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [sarus]: Downloading https://files.pythonhosted.org/packages/e1/7b/e8d8e52d9414ac2595f23ae08fc16cf38e11634583b6319f6f1fc347bd3f/sarus-0.7.3rc0.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/0d/58/750f3232b5f982c87c4f9df8e0d329fbe75d51d60032f85022d4a0876459/power-grid-model-1.5.0rc9183513819989.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-06-22 10:29:16] INFO root fetch - processPackages [dsspkg]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [dsspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspkg-0.3.tar.gz tmp/dsspkg-0.3.1.tar.gz --markdown 20230622/d/dsspkg/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [es-translator]: Downloading https://files.pythonhosted.org/packages/ce/a6/c0ed304942cea6c15764fc3560f13e24a034cc5679958b3b0fb908e8f9d8/es_translator-1.6.0.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/2f/da/7c36532a600ac292c1fec4f775200d779a44eb48ddc5249e3c2fc70dbf4d/msaDocModels-0.0.9.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [tblib]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [tblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tblib-1.7.0.tar.gz tmp/tblib-2.0.0.tar.gz --markdown 20230622/t/tblib/1.7.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/a0/b8/30077affaba3dc98db7e1543a4313bc6dcf23db73497a0d24febb723956f/maxgradient-0.1.4.tar.gz
+[2023-06-22 10:29:16] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230622/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.8.dev5.tar.gz tmp/pybox-toolkit-0.1.9.dev67.tar.gz --markdown 20230622/p/pybox-toolkit/0.1.8.dev5-0.1.9.dev67/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.5.0.tar.gz tmp/es_translator-1.6.0.tar.gz --markdown 20230622/e/es-translator/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [sarus]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [sarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus-0.7.2.tar.gz tmp/sarus-0.7.3rc0.tar.gz --markdown 20230622/s/sarus/0.7.2-0.7.3rc0/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [maxgradient]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [maxgradient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxgradient-0.1.3.tar.gz tmp/maxgradient-0.1.4.tar.gz --markdown 20230622/m/maxgradient/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9181700408075.tar.gz tmp/power-grid-model-1.5.0rc9183513819989.tar.gz --markdown 20230622/p/power-grid-model/1.5.0rc9181700408075-1.5.0rc9183513819989/diff.md --exclude *.pyd
+[2023-06-22 10:29:16] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-06-22 10:29:16] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.80.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230622/m/msaDocModels/0.0.80-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:29:17] INFO root fetch - processPackages [scalyr-agent-2]: Downloading https://files.pythonhosted.org/packages/78/fe/a4331145fdde417e73bc17413c417c73bfb0f1174e95de15fbf1a73affe6/scalyr-agent-2-2.2.3.tar.gz
+[2023-06-22 10:29:17] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.3.tar.gz]
+[2023-06-22 10:29:17] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.3.1.tar.gz]
+[2023-06-22 10:29:17] INFO root fetch - processPackages [dsspkg]: Start processing: grimoire-elk
+[2023-06-22 10:29:17] INFO root fetch - main [MainThread]: End processing [dsspkg]: success
+[2023-06-22 10:29:17] INFO root fetch - processPackages [grimoire-elk]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 10:29:17] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-06-22 10:29:17] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-06-22 10:29:17] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-06-22 10:29:17] INFO root fetch - processPackages [maxgradient]: Remove: archive file [/home/abi/fetcher/tmp/maxgradient-0.1.3.tar.gz]
+[2023-06-22 10:29:17] INFO root fetch - processPackages [maxgradient]: Remove: archive file [/home/abi/fetcher/tmp/maxgradient-0.1.4.tar.gz]
+[2023-06-22 10:29:17] INFO root fetch - main [MainThread]: End processing [maxgradient]: success
+[2023-06-22 10:29:17] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/6e/6b/26e2cafa568bb7a51ea5d1be8c64dd391ab1aa2cd01232155f52ad48b67c/grimoire-elk-0.98.0.tar.gz
+[2023-06-22 10:29:18] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.8.dev5.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev67.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-22 10:29:18] INFO root fetch - processPackages [scalyr-agent-2]: executing diffoscope
+[2023-06-22 10:29:18] INFO root fetch - processPackages [scalyr-agent-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalyr-agent-2-2.2.2.tar.gz tmp/scalyr-agent-2-2.2.3.tar.gz --markdown 20230622/s/scalyr-agent-2/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-06-22 10:29:18] INFO root fetch - processPackages [grimoire-elk]: Downloading https://files.pythonhosted.org/packages/94/9c/1d6de6f85b2b5e248e8a8caecf336a3c3a718fef571a361ac806e66bb816/grimoire-elk-0.99.0.tar.gz
+[2023-06-22 10:29:18] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.5.0.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - processPackages [es-translator]: Remove: archive file [/home/abi/fetcher/tmp/es_translator-1.6.0.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-06-22 10:29:18] INFO root fetch - processPackages [grimoire-elk]: executing diffoscope
+[2023-06-22 10:29:18] INFO root fetch - processPackages [grimoire-elk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoire-elk-0.98.0.tar.gz tmp/grimoire-elk-0.99.0.tar.gz --markdown 20230622/g/grimoire-elk/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 10:29:18] INFO root fetch - processPackages [tblib]: Remove: archive file [/home/abi/fetcher/tmp/tblib-1.7.0.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - processPackages [tblib]: Remove: archive file [/home/abi/fetcher/tmp/tblib-2.0.0.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - main [MainThread]: End processing [tblib]: success
+[2023-06-22 10:29:18] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.80.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.9.tar.gz]
+[2023-06-22 10:29:18] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-06-22 10:29:19] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.2.tar.gz]
+[2023-06-22 10:29:19] INFO root fetch - processPackages [sarus]: Remove: archive file [/home/abi/fetcher/tmp/sarus-0.7.3rc0.tar.gz]
+[2023-06-22 10:29:19] INFO root fetch - main [MainThread]: End processing [sarus]: success
+[2023-06-22 10:29:20] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.98.0.tar.gz]
+[2023-06-22 10:29:20] INFO root fetch - processPackages [grimoire-elk]: Remove: archive file [/home/abi/fetcher/tmp/grimoire-elk-0.99.0.tar.gz]
+[2023-06-22 10:29:20] INFO root fetch - main [MainThread]: End processing [grimoire-elk]: success
+[2023-06-22 10:29:20] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9181700408075.tar.gz]
+[2023-06-22 10:29:20] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9183513819989.tar.gz]
+[2023-06-22 10:29:20] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-22 10:29:25] INFO root fetch - processPackages [scalyr-agent-2]: Remove: archive file [/home/abi/fetcher/tmp/scalyr-agent-2-2.2.2.tar.gz]
+[2023-06-22 10:29:25] INFO root fetch - processPackages [scalyr-agent-2]: Remove: archive file [/home/abi/fetcher/tmp/scalyr-agent-2-2.2.3.tar.gz]
+[2023-06-22 10:29:25] INFO root fetch - main [MainThread]: End processing [scalyr-agent-2]: success
+[2023-06-22 10:29:25] INFO root fetch - main [MainThread]: Store serial: [18602401]
