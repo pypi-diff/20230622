@@ -12489,3 +12489,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:31:52] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-06-22 08:31:52] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-06-22 08:31:53] INFO root fetch - main [MainThread]: Store serial: [18601654]
+[2023-06-22 08:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601654]
+[2023-06-22 08:37:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 08:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-pydantic-api
+[2023-06-22 08:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datascrub
+[2023-06-22 08:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-rtc-test
+[2023-06-22 08:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: workflow-package
+[2023-06-22 08:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: betainc
+[2023-06-22 08:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logfile-metrics
+[2023-06-22 08:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datascrub
+[2023-06-22 08:37:02] INFO root fetch - processPackages [flask-pydantic-api]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-22 08:37:02] INFO root fetch - processPackages [jupyter-rtc-test]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 08:37:02] INFO root fetch - processPackages [datascrub]: New version: [1.0.1b0] Old Version: [1.0.1a0]
+[2023-06-22 08:37:02] INFO root fetch - processPackages [workflow-package]: New version: [3.1.1] Old Version: [2.1.1]
+[2023-06-22 08:37:02] INFO root fetch - processPackages [betainc]: New version: [0.3.0] Old Version: [0.2.6]
+[2023-06-22 08:37:02] INFO root fetch - processPackages [logfile-metrics]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-22 08:37:02] INFO root fetch - processPackages [datascrub]: New version: [1.0.1b0] Old Version: [1.0.1a0]
+[2023-06-22 08:37:02] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/d1/86/7d11c6a9be5101a4df836432ecf1789efa8ffe0181c42817fe2b5e9cdbe4/datascrub-1.0.1a0.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/b6/0d/2a85aa825ea1751406dc6a47609ef7242bab54afee310920282c564982ff/betainc-0.2.6.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/d1/86/7d11c6a9be5101a4df836432ecf1789efa8ffe0181c42817fe2b5e9cdbe4/datascrub-1.0.1a0.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [workflow-package]: Downloading https://files.pythonhosted.org/packages/27/50/246fed81afd59716f18550be12f24739dc4b6b4783dd43b53b090a8a97fe/workflow_package-2.1.1.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [jupyter-rtc-test]: Downloading https://files.pythonhosted.org/packages/5e/5a/dc3c1bb72eb073e8b6a2392b03bcc716050d664bcd85a9306cfabd19aac2/jupyter_rtc_test-0.0.3.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [flask-pydantic-api]: Downloading https://files.pythonhosted.org/packages/64/06/e0d8f31a450777aa9aa75efb60309a547d160e597d30779adaee5e08d2b4/flask_pydantic_api-0.9.5-py3-none-any.whl
+[2023-06-22 08:37:02] INFO root fetch - processPackages [logfile-metrics]: Downloading https://files.pythonhosted.org/packages/cf/90/a1ef0021f8c5f97238996ad341234656a223bb0d1eeb00496ce2b2701e8c/logfile_metrics-0.1.0.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/b3/77/4a7941d2601f55165478f0f8ee7cfbc7216abf0d07ad1d5a40aa70bf4dff/datascrub-1.0.1b0.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/43/8e/b6bce5189583a87ea50801f9a175d8085da7ffbbede3daa523287b3a775a/betainc-0.3.0.tar.gz
+[2023-06-22 08:37:02] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/b3/77/4a7941d2601f55165478f0f8ee7cfbc7216abf0d07ad1d5a40aa70bf4dff/datascrub-1.0.1b0.tar.gz
+[2023-06-22 08:37:03] INFO root fetch - processPackages [datascrub]: executing diffoscope
+[2023-06-22 08:37:03] INFO root fetch - processPackages [datascrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascrub-1.0.1a0.tar.gz tmp/datascrub-1.0.1b0.tar.gz --markdown 20230622/d/datascrub/1.0.1a0-1.0.1b0/diff.md --exclude *.pyd
+[2023-06-22 08:37:03] INFO root fetch - processPackages [datascrub]: executing diffoscope
+[2023-06-22 08:37:03] INFO root fetch - processPackages [datascrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascrub-1.0.1a0.tar.gz tmp/datascrub-1.0.1b0.tar.gz --markdown 20230622/d/datascrub/1.0.1a0-1.0.1b0/diff.md --exclude *.pyd
+[2023-06-22 08:37:03] INFO root fetch - processPackages [betainc]: executing diffoscope
+[2023-06-22 08:37:03] INFO root fetch - processPackages [betainc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betainc-0.2.6.tar.gz tmp/betainc-0.3.0.tar.gz --markdown 20230622/b/betainc/0.2.6-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 08:37:03] INFO root fetch - processPackages [flask-pydantic-api]: Downloading https://files.pythonhosted.org/packages/5d/de/78c229c4e965305831acd842ff516d36a69638574642a390c56847c77d0f/flask_pydantic_api-0.9.6-py3-none-any.whl
+[2023-06-22 08:37:03] INFO root fetch - processPackages [logfile-metrics]: Downloading https://files.pythonhosted.org/packages/32/ed/dd3466cf9b3993145b56912206abb47bf77423e3600b6131c78e74f4d36c/logfile_metrics-1.0.0.tar.gz
+[2023-06-22 08:37:03] INFO root fetch - processPackages [workflow-package]: Downloading https://files.pythonhosted.org/packages/04/bd/d88e8eb68b0a5c4382916e5420bb4b9ff5d0ccfbe70bb7fa40c589f90160/workflow_package-3.1.1.tar.gz
+[2023-06-22 08:37:03] INFO root fetch - processPackages [flask-pydantic-api]: executing diffoscope
+[2023-06-22 08:37:03] INFO root fetch - processPackages [flask-pydantic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_pydantic_api-0.9.5-py3-none-any.whl.zip tmp/flask_pydantic_api-0.9.6-py3-none-any.whl.zip --markdown 20230622/f/flask-pydantic-api/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-22 08:37:03] INFO root fetch - processPackages [logfile-metrics]: executing diffoscope
+[2023-06-22 08:37:03] INFO root fetch - processPackages [logfile-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfile_metrics-0.1.0.tar.gz tmp/logfile_metrics-1.0.0.tar.gz --markdown 20230622/l/logfile-metrics/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 08:37:03] INFO root fetch - processPackages [jupyter-rtc-test]: Downloading https://files.pythonhosted.org/packages/44/c1/5f219d9717f7e001513e240422d830d7b1d2360fa3f6bb0187ec221e6d5a/jupyter_rtc_test-0.0.4.tar.gz
+[2023-06-22 08:37:03] INFO root fetch - processPackages [workflow-package]: executing diffoscope
+[2023-06-22 08:37:03] INFO root fetch - processPackages [workflow-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workflow_package-2.1.1.tar.gz tmp/workflow_package-3.1.1.tar.gz --markdown 20230622/w/workflow-package/2.1.1-3.1.1/diff.md --exclude *.pyd
+[2023-06-22 08:37:03] INFO root fetch - processPackages [jupyter-rtc-test]: executing diffoscope
+[2023-06-22 08:37:03] INFO root fetch - processPackages [jupyter-rtc-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_rtc_test-0.0.3.tar.gz tmp/jupyter_rtc_test-0.0.4.tar.gz --markdown 20230622/j/jupyter-rtc-test/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 08:37:04] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.0.1a0.tar.gz]
+[2023-06-22 08:37:04] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.0.1b0.tar.gz]
+[2023-06-22 08:37:04] INFO root fetch - main [MainThread]: End processing [datascrub]: success
+[2023-06-22 08:37:04] INFO root fetch - main [MainThread]: End processing [datascrub]: success
+[2023-06-22 08:37:04] INFO root fetch - processPackages [logfile-metrics]: Remove: archive file [/home/abi/fetcher/tmp/logfile_metrics-0.1.0.tar.gz]
+[2023-06-22 08:37:04] INFO root fetch - processPackages [logfile-metrics]: Remove: archive file [/home/abi/fetcher/tmp/logfile_metrics-1.0.0.tar.gz]
+[2023-06-22 08:37:04] INFO root fetch - main [MainThread]: End processing [logfile-metrics]: success
+[2023-06-22 08:37:04] INFO root fetch - processPackages [flask-pydantic-api]: Remove: archive file [/home/abi/fetcher/tmp/flask_pydantic_api-0.9.5-py3-none-any.whl.zip]
+[2023-06-22 08:37:04] INFO root fetch - processPackages [flask-pydantic-api]: Remove: archive file [/home/abi/fetcher/tmp/flask_pydantic_api-0.9.6-py3-none-any.whl.zip]
+[2023-06-22 08:37:04] INFO root fetch - main [MainThread]: End processing [flask-pydantic-api]: success
+[2023-06-22 08:37:04] INFO root fetch - processPackages [workflow-package]: Remove: archive file [/home/abi/fetcher/tmp/workflow_package-2.1.1.tar.gz]
+[2023-06-22 08:37:04] INFO root fetch - processPackages [workflow-package]: Remove: archive file [/home/abi/fetcher/tmp/workflow_package-3.1.1.tar.gz]
+[2023-06-22 08:37:04] INFO root fetch - main [MainThread]: End processing [workflow-package]: success
+[2023-06-22 08:37:05] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.2.6.tar.gz]
+[2023-06-22 08:37:05] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.3.0.tar.gz]
+[2023-06-22 08:37:05] INFO root fetch - main [MainThread]: End processing [betainc]: success
+[2023-06-22 08:37:13] INFO root fetch - processPackages [jupyter-rtc-test]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rtc_test-0.0.3.tar.gz]
+[2023-06-22 08:37:13] INFO root fetch - processPackages [jupyter-rtc-test]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_rtc_test-0.0.4.tar.gz]
+[2023-06-22 08:37:13] INFO root fetch - main [MainThread]: End processing [jupyter-rtc-test]: success
+[2023-06-22 08:37:13] INFO root fetch - main [MainThread]: Store serial: [18601674]
