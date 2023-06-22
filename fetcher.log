@@ -10863,3 +10863,189 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:15:07] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.4-py3-none-any.whl.zip]
 [2023-06-22 06:15:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-ach-base]: success
 [2023-06-22 06:15:07] INFO root fetch - main [MainThread]: Store serial: [18601005]
+[2023-06-22 06:20:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601005]
+[2023-06-22 06:20:16] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ARIclicker
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aenum
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acore-server-config
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chibi-command
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flufl-lock
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vstutils
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chibi-command
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-margin-analysis
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comex
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cabinet
+[2023-06-22 06:20:16] INFO root fetch - processPackages [aenum]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ARIclicker]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [cabinet]: New version: [2023.6.8.1] Old Version: [2023.6.21.1]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [chibi-command]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [chibi-command]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: New version: [16.0.20230621.0] Old Version: [16.0.20230620.0]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [acore-server-config]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [comex]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [flufl-lock]: New version: [8.0] Old Version: [7.1.1]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [vstutils]: New version: [5.5.4] Old Version: [5.5.3]
+[2023-06-22 06:20:16] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/3e/50/4cb0e3210ac4970c184179ff83b21132f810c5dbcf2e6dad5c3fe0730280/odoo_addons_oca_margin_analysis-16.0.20230620.0-py3-none-any.whl
+[2023-06-22 06:20:16] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/7d/2a/3431e2c0514bd6c9dbc5a60f49f962e333c44bb60d3431abbdf222923dd9/cabinet-2023.6.21.1.tar.gz
+[2023-06-22 06:20:16] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/39/bd/c5daf19155d2fdfcf703f2f21edf9c04a4d025f7a678f70b6013d7ea7cf5/chibi_command-0.4.4.tar.gz
+[2023-06-22 06:20:16] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/39/bd/c5daf19155d2fdfcf703f2f21edf9c04a4d025f7a678f70b6013d7ea7cf5/chibi_command-0.4.4.tar.gz
+[2023-06-22 06:20:16] INFO root fetch - processPackages [flufl-lock]: Downloading https://files.pythonhosted.org/packages/35/33/d3baecd2545b9ae842f4df356aaa4a1816191eff737264542e9d27c5ec3b/flufl.lock-7.1.1.tar.gz
+[2023-06-22 06:20:16] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/56/e0/8f1c29f15b7a61ea73e9ef4528aefd8d4826553c645bb56b0b16a18bdb54/ARIclicker-0.1.7.tar.gz
+[2023-06-22 06:20:16] INFO root fetch - processPackages [aenum]: Downloading https://files.pythonhosted.org/packages/14/f6/0c98c65f0f4e0a275f7a4493dddc58b30831749d7f74a72e487994fd9b7f/aenum-3.1.8.tar.gz
+[2023-06-22 06:20:16] INFO root fetch - processPackages [comex]: Downloading https://files.pythonhosted.org/packages/53/fd/3591019d49b1f07bf8c9d29adf3ef3ccf8f3c015ed49386dfd75aaaa373e/comex-0.1.2.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/d3/d2/9ba31acc80e9a747711abff10ddf11ebbc33d7f847b780320494547963e3/acore_server_config-0.3.1.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/bf/1f/69b6bcaa2e21f8ce0c404dc99068fe7976e265bea1493da7ce1a0e475c29/vstutils-5.5.3.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [ARIclicker]: Downloading https://files.pythonhosted.org/packages/3d/0f/32e28f772c33f2f5fd280d74aacdcdceb719ce31f73948de42ef26acd6c2/ARIclicker-0.1.8.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/37/41/5d95b4b9cd91a0afb9b3a764fa266094e9400925a1613326066452676bd3/odoo_addons_oca_margin_analysis-16.0.20230621.0-py3-none-any.whl
+[2023-06-22 06:20:17] INFO root fetch - processPackages [aenum]: Downloading https://files.pythonhosted.org/packages/73/85/601b0587a82eb5852de78156f1d65345c1bb2d3a9b9733abab665a05faf8/aenum-3.1.9.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/17/4b/395750b8cbd9234de129c41fee645c0c78255e978b367f976014137c7a4d/cabinet-2023.6.8.1.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/0c/e6/c6c2728dbc0366179ad8fa27ab4c97196f86a8ed2c80960bfb1712cb869a/chibi_command-0.4.5.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/0c/e6/c6c2728dbc0366179ad8fa27ab4c97196f86a8ed2c80960bfb1712cb869a/chibi_command-0.4.5.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [ARIclicker]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [ARIclicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARIclicker-0.1.7.tar.gz tmp/ARIclicker-0.1.8.tar.gz --markdown 20230622/A/ARIclicker/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_margin_analysis-16.0.20230620.0-py3-none-any.whl.zip tmp/odoo_addons_oca_margin_analysis-16.0.20230621.0-py3-none-any.whl.zip --markdown 20230622/o/odoo-addons-oca-margin-analysis/16.0.20230620.0-16.0.20230621.0/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [flufl-lock]: Downloading https://files.pythonhosted.org/packages/a7/91/e0f8b42d3ba418703c6ad237519809d70f569d315073bc8d1dd52e85dd24/flufl_lock-8.0.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2023.6.21.1.tar.gz tmp/cabinet-2023.6.8.1.tar.gz --markdown 20230622/c/cabinet/2023.6.21.1-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [chibi-command]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [chibi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chibi_command-0.4.4.tar.gz tmp/chibi_command-0.4.5.tar.gz --markdown 20230622/c/chibi-command/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [aenum]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [aenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aenum-3.1.8.tar.gz tmp/aenum-3.1.9.tar.gz --markdown 20230622/a/aenum/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/3f/49/2db3e4460526316d094e4fbdc69609e684b817b4bb88a8e73803f06f963f/vstutils-5.5.4.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [chibi-command]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [comex]: Downloading https://files.pythonhosted.org/packages/c0/01/b4914690ccab34da0d4b57a12f4ac8da84b18f4be55cf0e0e4cbfe067b2b/comex-0.1.3.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [chibi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chibi_command-0.4.4.tar.gz tmp/chibi_command-0.4.5.tar.gz --markdown 20230622/c/chibi-command/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [flufl-lock]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [flufl-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flufl.lock-7.1.1.tar.gz tmp/flufl_lock-8.0.tar.gz --markdown 20230622/f/flufl-lock/7.1.1-8.0/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [acore-server-config]: Downloading https://files.pythonhosted.org/packages/77/d1/052016d980c3896446215c48afecc115e78bc5ecb70680d97e25dd6a677a/acore_server_config-0.3.2.tar.gz
+[2023-06-22 06:20:17] INFO root fetch - processPackages [comex]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [comex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comex-0.1.2.tar.gz tmp/comex-0.1.3.tar.gz --markdown 20230622/c/comex/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.3.tar.gz tmp/vstutils-5.5.4.tar.gz --markdown 20230622/v/vstutils/5.5.3-5.5.4/diff.md --exclude *.pyd
+[2023-06-22 06:20:17] INFO root fetch - processPackages [acore-server-config]: executing diffoscope
+[2023-06-22 06:20:17] INFO root fetch - processPackages [acore-server-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acore_server_config-0.3.1.tar.gz tmp/acore_server_config-0.3.2.tar.gz --markdown 20230622/a/acore-server-config/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-22 06:20:18] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.1.7.tar.gz]
+[2023-06-22 06:20:18] INFO root fetch - processPackages [ARIclicker]: Remove: archive file [/home/abi/fetcher/tmp/ARIclicker-0.1.8.tar.gz]
+[2023-06-22 06:20:18] INFO root fetch - processPackages [ARIclicker]: Start processing: chibi-command
+[2023-06-22 06:20:18] INFO root fetch - main [MainThread]: End processing [ARIclicker]: success
+[2023-06-22 06:20:18] INFO root fetch - processPackages [chibi-command]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-22 06:20:18] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230620.0-py3-none-any.whl.zip]
+[2023-06-22 06:20:18] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230621.0-py3-none-any.whl.zip]
+[2023-06-22 06:20:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-margin-analysis]: success
+[2023-06-22 06:20:19] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/f2/a5/692f9300b9f0157ce830dd469638cddb7f3d9da8c4bfcf443f66a451a3f7/chibi_command-0.4.6.tar.gz
+[2023-06-22 06:20:19] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.21.1.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2023.6.8.1.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2023-06-22 06:20:19] INFO root fetch - processPackages [chibi-command]: executing diffoscope
+[2023-06-22 06:20:19] INFO root fetch - processPackages [chibi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chibi_command-0.4.5.tar.gz tmp/chibi_command-0.4.6.tar.gz --markdown 20230622/c/chibi-command/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-22 06:20:19] INFO root fetch - processPackages [chibi-command]: Remove: archive file [/home/abi/fetcher/tmp/chibi_command-0.4.4.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - processPackages [chibi-command]: Remove: archive file [/home/abi/fetcher/tmp/chibi_command-0.4.5.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - main [MainThread]: End processing [chibi-command]: success
+[2023-06-22 06:20:19] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.3.1.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - processPackages [acore-server-config]: Remove: archive file [/home/abi/fetcher/tmp/acore_server_config-0.3.2.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - main [MainThread]: End processing [acore-server-config]: success
+[2023-06-22 06:20:19] ERROR root fetch - processPackages [chibi-command]: Diffoscope failed: gzip: tmp/chibi_command-0.4.5.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/chibi_command-0.4.5.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-22 06:20:19] INFO root fetch - main [MainThread]: End processing [chibi-command] error
+[2023-06-22 06:20:19] INFO root fetch - processPackages [flufl-lock]: Remove: archive file [/home/abi/fetcher/tmp/flufl.lock-7.1.1.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - processPackages [flufl-lock]: Remove: archive file [/home/abi/fetcher/tmp/flufl_lock-8.0.tar.gz]
+[2023-06-22 06:20:19] INFO root fetch - main [MainThread]: End processing [flufl-lock]: success
+[2023-06-22 06:20:19] ERROR root fetch - processPackages [chibi-command]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/chibi_command-0.4.5.tar.gz: No such file or directory
+
+[2023-06-22 06:20:19] INFO root fetch - main [MainThread]: End processing [chibi-command] error
+[2023-06-22 06:20:20] INFO root fetch - processPackages [aenum]: Remove: archive file [/home/abi/fetcher/tmp/aenum-3.1.8.tar.gz]
+[2023-06-22 06:20:20] INFO root fetch - processPackages [aenum]: Remove: archive file [/home/abi/fetcher/tmp/aenum-3.1.9.tar.gz]
+[2023-06-22 06:20:20] INFO root fetch - main [MainThread]: End processing [aenum]: success
+[2023-06-22 06:20:20] INFO root fetch - processPackages [comex]: Remove: archive file [/home/abi/fetcher/tmp/comex-0.1.2.tar.gz]
+[2023-06-22 06:20:20] INFO root fetch - processPackages [comex]: Remove: archive file [/home/abi/fetcher/tmp/comex-0.1.3.tar.gz]
+[2023-06-22 06:20:20] INFO root fetch - main [MainThread]: End processing [comex]: success
+[2023-06-22 06:20:23] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.3.tar.gz]
+[2023-06-22 06:20:23] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.4.tar.gz]
+[2023-06-22 06:20:23] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-22 06:20:23] INFO root fetch - main [MainThread]: Store serial: [18601034]
