@@ -9164,3 +9164,24 @@
 [2023-06-22 03:54:46] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.5.tar.gz]
 [2023-06-22 03:54:46] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
 [2023-06-22 03:54:46] INFO root fetch - main [MainThread]: Store serial: [18600414]
+[2023-06-22 03:59:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600414]
+[2023-06-22 03:59:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-22 03:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-tts-plugin-server
+[2023-06-22 03:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyaprilaire
+[2023-06-22 03:59:55] INFO root fetch - processPackages [ovos-tts-plugin-server]: New version: [0.0.2a3] Old Version: [0.0.2a1]
+[2023-06-22 03:59:55] INFO root fetch - processPackages [pyaprilaire]: New version: [0.7.0b1] Old Version: [0.7.0]
+[2023-06-22 03:59:55] INFO root fetch - processPackages [pyaprilaire]: Downloading https://files.pythonhosted.org/packages/20/80/8ce2bd8001df889e938f04ecbbd8174dbd572f27f0c906ff9cabc4a02b9c/pyaprilaire-0.7.0.tar.gz
+[2023-06-22 03:59:55] INFO root fetch - processPackages [ovos-tts-plugin-server]: Downloading https://files.pythonhosted.org/packages/25/c7/e5039565a2293cac3602d793fe7ccb54e808c9c4c11b466af5999d850a1a/ovos-tts-plugin-server-0.0.2a1.tar.gz
+[2023-06-22 03:59:56] INFO root fetch - processPackages [ovos-tts-plugin-server]: Downloading https://files.pythonhosted.org/packages/b3/79/c51e69286ed3986be6dfa53d8aefba7eadec01ab64ae75db86a8b3967d3f/ovos-tts-plugin-server-0.0.2a3.tar.gz
+[2023-06-22 03:59:56] INFO root fetch - processPackages [ovos-tts-plugin-server]: executing diffoscope
+[2023-06-22 03:59:56] INFO root fetch - processPackages [ovos-tts-plugin-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-tts-plugin-server-0.0.2a1.tar.gz tmp/ovos-tts-plugin-server-0.0.2a3.tar.gz --markdown 20230622/o/ovos-tts-plugin-server/0.0.2a1-0.0.2a3/diff.md --exclude *.pyd
+[2023-06-22 03:59:56] INFO root fetch - processPackages [pyaprilaire]: Downloading https://files.pythonhosted.org/packages/b3/a6/25b46ca6765f6fa6f2e45306e64775dad9201a968d2a29c5f393554630bb/pyaprilaire-0.7.0b1.tar.gz
+[2023-06-22 03:59:56] INFO root fetch - processPackages [pyaprilaire]: executing diffoscope
+[2023-06-22 03:59:56] INFO root fetch - processPackages [pyaprilaire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaprilaire-0.7.0.tar.gz tmp/pyaprilaire-0.7.0b1.tar.gz --markdown 20230622/p/pyaprilaire/0.7.0-0.7.0b1/diff.md --exclude *.pyd
+[2023-06-22 03:59:57] INFO root fetch - processPackages [ovos-tts-plugin-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-tts-plugin-server-0.0.2a1.tar.gz]
+[2023-06-22 03:59:57] INFO root fetch - processPackages [ovos-tts-plugin-server]: Remove: archive file [/home/abi/fetcher/tmp/ovos-tts-plugin-server-0.0.2a3.tar.gz]
+[2023-06-22 03:59:57] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-server]: success
+[2023-06-22 03:59:57] INFO root fetch - processPackages [pyaprilaire]: Remove: archive file [/home/abi/fetcher/tmp/pyaprilaire-0.7.0.tar.gz]
+[2023-06-22 03:59:57] INFO root fetch - processPackages [pyaprilaire]: Remove: archive file [/home/abi/fetcher/tmp/pyaprilaire-0.7.0b1.tar.gz]
+[2023-06-22 03:59:57] INFO root fetch - main [MainThread]: End processing [pyaprilaire]: success
+[2023-06-22 03:59:57] INFO root fetch - main [MainThread]: Store serial: [18600423]
