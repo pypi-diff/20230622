@@ -11728,3 +11728,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 07:22:38] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b7.tar.gz]
 [2023-06-22 07:22:38] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-06-22 07:22:38] INFO root fetch - main [MainThread]: Store serial: [18601354]
+[2023-06-22 07:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601354]
+[2023-06-22 07:27:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 07:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lincot
+[2023-06-22 07:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-models
+[2023-06-22 07:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hstrat
+[2023-06-22 07:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antgo
+[2023-06-22 07:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syft
+[2023-06-22 07:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libmata
+[2023-06-22 07:27:47] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 07:27:47] INFO root fetch - processPackages [hstrat]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-22 07:27:47] INFO root fetch - processPackages [lincot]: New version: [1.0.2b3] Old Version: [1.0.2b2]
+[2023-06-22 07:27:47] INFO root fetch - processPackages [core-models]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 07:27:47] INFO root fetch - processPackages [libmata]: New version: [0.69.0] Old Version: [0.68.0]
+[2023-06-22 07:27:47] INFO root fetch - processPackages [syft]: New version: [0.8.1b9] Old Version: [0.8.1b8]
+[2023-06-22 07:27:47] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [lincot]: Downloading https://files.pythonhosted.org/packages/ee/8f/22f89a46835cdde87ffa5803427695a6d189ab58b58ff1562d7c262c071f/lincot-1.0.2b2.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/ca/91/29dcedb066e9d410ca6d74cc9ae77c9fbe5639c0124fca256c835ab9efa2/libmata-0.68.0.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/85/0e/d9d34e97c7fcbbe2c2eb13c733f04352364bb54d05539e63bda8c0e882e5/core_models-0.1.0.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/1a/e0/aff69cd9507c8677d2d0162e5fe51bc8b23b9d6f395fa50a426da1429992/hstrat-1.7.2.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-22 07:27:47] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b8.tar.gz tmp/syft-0.8.1b9.tar.gz --markdown 20230622/s/syft/0.8.1b8-0.8.1b9/diff.md --exclude *.pyd
+[2023-06-22 07:27:47] INFO root fetch - processPackages [lincot]: Downloading https://files.pythonhosted.org/packages/dd/8a/505b1e5d26e9cbd73be019c5ad968c1613229d1561d45946174905d5490c/lincot-1.0.2b3.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/1f/29/6fbf5842198f9c3770d2cfb02cfe7cac252d9e385aff92bdc4365326d9c4/libmata-0.69.0.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/05/7a/2f96dda91cbc8c3250c4c03fcb62186bec85ac572e9fb782174963f5c7a3/core_models-0.1.1.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-22 07:27:47] INFO root fetch - processPackages [lincot]: executing diffoscope
+[2023-06-22 07:27:47] INFO root fetch - processPackages [lincot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lincot-1.0.2b2.tar.gz tmp/lincot-1.0.2b3.tar.gz --markdown 20230622/l/lincot/1.0.2b2-1.0.2b3/diff.md --exclude *.pyd
+[2023-06-22 07:27:47] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2023-06-22 07:27:47] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.1.0.tar.gz tmp/core_models-0.1.1.tar.gz --markdown 20230622/c/core-models/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 07:27:47] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-06-22 07:27:47] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.68.0.tar.gz tmp/libmata-0.69.0.tar.gz --markdown 20230622/l/libmata/0.68.0-0.69.0/diff.md --exclude *.pyd
+[2023-06-22 07:27:48] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-22 07:27:48] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230622/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 07:27:48] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/cb/60/d2095f9d4308b726b00176e2e60657ad0bfaeffa35975d2f80e4ec0769a0/hstrat-1.7.3.tar.gz
+[2023-06-22 07:27:48] INFO root fetch - processPackages [hstrat]: executing diffoscope
+[2023-06-22 07:27:48] INFO root fetch - processPackages [hstrat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstrat-1.7.2.tar.gz tmp/hstrat-1.7.3.tar.gz --markdown 20230622/h/hstrat/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-22 07:27:48] INFO root fetch - processPackages [lincot]: Remove: archive file [/home/abi/fetcher/tmp/lincot-1.0.2b2.tar.gz]
+[2023-06-22 07:27:48] INFO root fetch - processPackages [lincot]: Remove: archive file [/home/abi/fetcher/tmp/lincot-1.0.2b3.tar.gz]
+[2023-06-22 07:27:48] INFO root fetch - main [MainThread]: End processing [lincot]: success
+[2023-06-22 07:27:49] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.0.tar.gz]
+[2023-06-22 07:27:49] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.1.1.tar.gz]
+[2023-06-22 07:27:49] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2023-06-22 07:27:51] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-22 07:27:51] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-22 07:27:51] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-22 07:27:53] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.68.0.tar.gz]
+[2023-06-22 07:27:53] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.69.0.tar.gz]
+[2023-06-22 07:27:53] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-06-22 07:27:56] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-22 07:27:56] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-22 07:27:56] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-22 07:28:04] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.7.2.tar.gz]
+[2023-06-22 07:28:04] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.7.3.tar.gz]
+[2023-06-22 07:28:04] INFO root fetch - main [MainThread]: End processing [hstrat]: success
+[2023-06-22 07:28:04] INFO root fetch - main [MainThread]: Store serial: [18601371]
