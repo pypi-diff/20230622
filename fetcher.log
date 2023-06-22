@@ -13440,3 +13440,145 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:40:59] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-06-22 09:40:59] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-06-22 09:40:59] INFO root fetch - main [MainThread]: Store serial: [18602030]
+[2023-06-22 09:46:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602030]
+[2023-06-22 09:46:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vllm
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spyx
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: candlelite
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syft
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytmlib
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: workflowSession
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazyearth
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinybird-cli
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grimoirelab-toolkit
+[2023-06-22 09:46:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: icenet
+[2023-06-22 09:46:08] INFO root fetch - processPackages [vllm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [syft]: New version: [0.8.1b9] Old Version: [0.8.1b8]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [grimoirelab-toolkit]: New version: [0.3.5rc1] Old Version: [0.3.4rc1]
+[2023-06-22 09:46:08] WARNING root fetch - processPackages [workflowSession]: Skipping, unable to determine old version
+[2023-06-22 09:46:08] WARNING root fetch - processPackages [spyx]: Skipping, unable to determine old version
+[2023-06-22 09:46:08] INFO root fetch - processPackages [icenet]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [workflowSession]: Start processing: kidash
+[2023-06-22 09:46:08] INFO root fetch - main [MainThread]: End processing [workflowSession] error
+[2023-06-22 09:46:08] INFO root fetch - processPackages [spyx]: Start processing: pytmlib
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-22 09:46:08] INFO root fetch - main [MainThread]: End processing [spyx] error
+[2023-06-22 09:46:08] INFO root fetch - processPackages [candlelite]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [kidash]: New version: [0.5.7rc1] Old Version: [0.5.6rc1]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: New version: [1.1.0.dev9] Old Version: [1.1.0.dev8]
+[2023-06-22 09:46:08] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/f1/f6/6fbe5902899f1cf58894e65e5dd22831d89dbd78a921f72943eab0090a1b/pytmlib-1.1.0.dev8.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/f1/f6/6fbe5902899f1cf58894e65e5dd22831d89dbd78a921f72943eab0090a1b/pytmlib-1.1.0.dev8.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/43/5d/ddc65d3492e447aa138925be32a14c776972d650380e3719d8680a621145/candlelite-1.0.6.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [vllm]: Downloading https://files.pythonhosted.org/packages/39/a1/42e126432a166dcca8d93c430a5c733b1734f4e0f7ffbaf7cbbdb22662a1/vllm-0.1.0.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [icenet]: Downloading https://files.pythonhosted.org/packages/44/fe/cd449e7bf1c65796ed980b81bce1426a26690e8f426fa0b71c613b00dda7/icenet-0.2.3.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/4d/3c/1f8749a5632f646920efab3b2e8a86389dce17a23006469e7413ea358a57/kidash-0.5.6rc1.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/94/a3/7356fa2c6c02bc0fcd8088b8d331a8a6ca11beb7ee6659f97e2a79b2c110/pytmlib-1.1.0.dev9.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: Downloading https://files.pythonhosted.org/packages/94/a3/7356fa2c6c02bc0fcd8088b8d331a8a6ca11beb7ee6659f97e2a79b2c110/pytmlib-1.1.0.dev9.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/e5/91/f758345932c7a75daa7d62f122c8b104c1d7537a8db8950a08e2d3d767d7/grimoirelab_toolkit-0.3.4rc1.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.1.0.dev8.tar.gz tmp/pytmlib-1.1.0.dev9.tar.gz --markdown 20230622/p/pytmlib/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-06-22 09:46:08] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/f8/fe/b8ee2553b05329520992e5100b4cec492e40e6772858c7b634f17490808d/candlelite-1.0.7-py3-none-any.whl
+[2023-06-22 09:46:08] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-22 09:46:08] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230622/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: executing diffoscope
+[2023-06-22 09:46:08] INFO root fetch - processPackages [pytmlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmlib-1.1.0.dev8.tar.gz tmp/pytmlib-1.1.0.dev9.tar.gz --markdown 20230622/p/pytmlib/1.1.0.dev8-1.1.0.dev9/diff.md --exclude *.pyd
+[2023-06-22 09:46:08] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-22 09:46:08] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b8.tar.gz tmp/syft-0.8.1b9.tar.gz --markdown 20230622/s/syft/0.8.1b8-0.8.1b9/diff.md --exclude *.pyd
+[2023-06-22 09:46:08] INFO root fetch - processPackages [vllm]: Downloading https://files.pythonhosted.org/packages/30/fe/0194e8eac5de81ad6acd583e31fa95e95e7e7f608521cba67493b403a077/vllm-0.1.1.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [icenet]: Downloading https://files.pythonhosted.org/packages/f5/13/2751a8d351bb0c59ab2d17b276a4d8a0845cb25003c10fb68481e5289ce0/icenet-0.2.4.tar.gz
+[2023-06-22 09:46:08] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/4e/c8/a413bcb9c3e9f64cd25f1b1ec51b060e02dd4036facc8e93388f9a8b6e64/grimoirelab_toolkit-0.3.5rc1.tar.gz
+[2023-06-22 09:46:09] INFO root fetch - processPackages [vllm]: executing diffoscope
+[2023-06-22 09:46:09] INFO root fetch - processPackages [vllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vllm-0.1.0.tar.gz tmp/vllm-0.1.1.tar.gz --markdown 20230622/v/vllm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 09:46:09] INFO root fetch - processPackages [icenet]: executing diffoscope
+[2023-06-22 09:46:09] INFO root fetch - processPackages [icenet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icenet-0.2.3.tar.gz tmp/icenet-0.2.4.tar.gz --markdown 20230622/i/icenet/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-22 09:46:09] INFO root fetch - processPackages [grimoirelab-toolkit]: executing diffoscope
+[2023-06-22 09:46:09] INFO root fetch - processPackages [grimoirelab-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab_toolkit-0.3.4rc1.tar.gz tmp/grimoirelab_toolkit-0.3.5rc1.tar.gz --markdown 20230622/g/grimoirelab-toolkit/0.3.4rc1-0.3.5rc1/diff.md --exclude *.pyd
+[2023-06-22 09:46:09] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-22 09:46:09] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230622/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-22 09:46:09] INFO root fetch - processPackages [candlelite]: executing diffoscope
+[2023-06-22 09:46:09] INFO root fetch - processPackages [candlelite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candlelite-1.0.6.tar.gz tmp/candlelite-1.0.7-py3-none-any.whl.zip --markdown 20230622/c/candlelite/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-22 09:46:09] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/86/cb/52964106ec325c958254156859c58159c97f0d6401c101168043e7ce085c/kidash-0.5.7rc1.tar.gz
+[2023-06-22 09:46:10] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-06-22 09:46:10] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.6rc1.tar.gz tmp/kidash-0.5.7rc1.tar.gz --markdown 20230622/k/kidash/0.5.6rc1-0.5.7rc1/diff.md --exclude *.pyd
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: Remove: archive file [/home/abi/fetcher/tmp/candlelite-1.0.6.tar.gz]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: Remove: archive file [/home/abi/fetcher/tmp/candlelite-1.0.7-py3-none-any.whl.zip]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: Start processing: pytextrust
+[2023-06-22 09:46:10] INFO root fetch - main [MainThread]: End processing [candlelite]: success
+[2023-06-22 09:46:10] INFO root fetch - processPackages [pytextrust]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev8.tar.gz]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [pytmlib]: Remove: archive file [/home/abi/fetcher/tmp/pytmlib-1.1.0.dev9.tar.gz]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [pytmlib]: Start processing: dsspkg
+[2023-06-22 09:46:10] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-22 09:46:10] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [lazyearth]: Start processing: candlelite
+[2023-06-22 09:46:10] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-22 09:46:10] INFO root fetch - processPackages [dsspkg]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [pytmlib]: Start processing: quao
+[2023-06-22 09:46:10] INFO root fetch - main [MainThread]: End processing [pytmlib]: success
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/23/59/9f78f64b27dc93612b49b868efb9ae4f52f8c3599c1c93fe1e93736f7c79/dsspkg-0.2.2.tar.gz
+[2023-06-22 09:46:10] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/e3/bc/f80188c791eb430f80fdc359f51af59d94e17662d770871ab9749eccd247/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-22 09:46:10] INFO root fetch - processPackages [quao]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/43/5d/ddc65d3492e447aa138925be32a14c776972d650380e3719d8680a621145/candlelite-1.0.6.tar.gz
+[2023-06-22 09:46:10] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/00/a0/820dd62b9ef8233a40ce1fc9f928bae61cb1a92a54db8058c2910b1219f8/quao-0.2.8.tar.gz
+[2023-06-22 09:46:10] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-0.3.4rc1.tar.gz]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-0.3.5rc1.tar.gz]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [grimoirelab-toolkit]: Start processing: mdf-iter
+[2023-06-22 09:46:10] INFO root fetch - main [MainThread]: End processing [grimoirelab-toolkit]: success
+[2023-06-22 09:46:10] INFO root fetch - processPackages [mdf-iter]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: Downloading https://files.pythonhosted.org/packages/f8/fe/b8ee2553b05329520992e5100b4cec492e40e6772858c7b634f17490808d/candlelite-1.0.7-py3-none-any.whl
+[2023-06-22 09:46:10] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-06-22 09:46:10] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/00/63/1dabd0b480f317a65663f74b5ecb2cf7edf3c038489b6efb6463671bd617/dsspkg-0.2.3.tar.gz
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: executing diffoscope
+[2023-06-22 09:46:10] INFO root fetch - processPackages [candlelite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/candlelite-1.0.6.tar.gz tmp/candlelite-1.0.7-py3-none-any.whl.zip --markdown 20230622/c/candlelite/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-22 09:46:10] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-22 09:46:10] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.8.tar.gz tmp/quao-0.2.9.tar.gz --markdown 20230622/q/quao/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 09:46:11] INFO root fetch - processPackages [dsspkg]: executing diffoscope
+[2023-06-22 09:46:11] INFO root fetch - processPackages [dsspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspkg-0.2.2.tar.gz tmp/dsspkg-0.2.3.tar.gz --markdown 20230622/d/dsspkg/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 09:46:11] INFO root fetch - processPackages [mdf-iter]: Downloading https://files.pythonhosted.org/packages/6e/80/a15a676802d2bc4b28bcd2859636a2675fe47fe47ed7b268654861d364e8/mdf_iter-2.0.7-cp37-abi3-win_amd64.whl
+[2023-06-22 09:46:11] INFO root fetch - processPackages [pytextrust]: Downloading https://files.pythonhosted.org/packages/f2/50/3ac4f53e52c9ca00af65c870172d963a9bee545cd73c8470aef43e2d9ce7/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-22 09:46:11] INFO root fetch - processPackages [mdf-iter]: Downloading https://files.pythonhosted.org/packages/b6/fb/7f06e0cf4fdb7614f0f1d8d370e947c22a6424249d98ca2eee12829cb6a0/mdf_iter-2.0.8-cp37-abi3-win_amd64.whl
+[2023-06-22 09:46:11] INFO root fetch - processPackages [pytextrust]: executing diffoscope
+[2023-06-22 09:46:11] INFO root fetch - processPackages [pytextrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230622/p/pytextrust/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-22 09:46:11] INFO root fetch - processPackages [mdf-iter]: executing diffoscope
+[2023-06-22 09:46:11] INFO root fetch - processPackages [mdf-iter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdf_iter-2.0.7-cp37-abi3-win_amd64.whl.zip tmp/mdf_iter-2.0.8-cp37-abi3-win_amd64.whl.zip --markdown 20230622/m/mdf-iter/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-06-22 09:46:11] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.6rc1.tar.gz]
+[2023-06-22 09:46:11] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.7rc1.tar.gz]
+[2023-06-22 09:46:11] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-06-22 09:46:11] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-22 09:46:11] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-22 09:46:11] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-22 09:46:12] INFO root fetch - processPackages [candlelite]: Remove: archive file [/home/abi/fetcher/tmp/candlelite-1.0.6.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - processPackages [candlelite]: Remove: archive file [/home/abi/fetcher/tmp/candlelite-1.0.7-py3-none-any.whl.zip]
+[2023-06-22 09:46:12] INFO root fetch - main [MainThread]: End processing [candlelite]: success
+[2023-06-22 09:46:12] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.1.0.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - processPackages [vllm]: Remove: archive file [/home/abi/fetcher/tmp/vllm-0.1.1.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - main [MainThread]: End processing [vllm]: success
+[2023-06-22 09:46:12] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.2.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.3.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - main [MainThread]: End processing [dsspkg]: success
+[2023-06-22 09:46:12] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.8.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-22 09:46:12] INFO root fetch - processPackages [mdf-iter]: Remove: archive file [/home/abi/fetcher/tmp/mdf_iter-2.0.7-cp37-abi3-win_amd64.whl.zip]
+[2023-06-22 09:46:12] INFO root fetch - processPackages [mdf-iter]: Remove: archive file [/home/abi/fetcher/tmp/mdf_iter-2.0.8-cp37-abi3-win_amd64.whl.zip]
+[2023-06-22 09:46:12] INFO root fetch - main [MainThread]: End processing [mdf-iter]: success
+[2023-06-22 09:46:12] INFO root fetch - processPackages [icenet]: Remove: archive file [/home/abi/fetcher/tmp/icenet-0.2.3.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - processPackages [icenet]: Remove: archive file [/home/abi/fetcher/tmp/icenet-0.2.4.tar.gz]
+[2023-06-22 09:46:12] INFO root fetch - main [MainThread]: End processing [icenet]: success
+[2023-06-22 09:46:14] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-22 09:46:14] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-22 09:46:14] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-22 09:46:42] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-22 09:46:42] INFO root fetch - processPackages [pytextrust]: Remove: archive file [/home/abi/fetcher/tmp/pytextrust-0.2.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-22 09:46:42] INFO root fetch - main [MainThread]: End processing [pytextrust]: success
+[2023-06-22 09:46:42] INFO root fetch - main [MainThread]: Store serial: [18602085]
