@@ -12293,3 +12293,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:15:18] INFO root fetch - processPackages [Accuinsight]: Remove: archive file [/home/abi/fetcher/tmp/Accuinsight-3.4.230530.tar.gz]
 [2023-06-22 08:15:18] INFO root fetch - main [MainThread]: End processing [Accuinsight]: success
 [2023-06-22 08:15:18] INFO root fetch - main [MainThread]: Store serial: [18601587]
+[2023-06-22 08:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601587]
+[2023-06-22 08:20:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datascrub
+[2023-06-22 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-framework
+[2023-06-22 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hak
+[2023-06-22 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cici-tools
+[2023-06-22 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-log-sku1
+[2023-06-22 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p-ttauto-crawler
+[2023-06-22 08:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: betainc
+[2023-06-22 08:20:28] INFO root fetch - processPackages [aws-framework]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 08:20:28] INFO root fetch - processPackages [flask-log-sku1]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-22 08:20:28] WARNING root fetch - processPackages [datascrub]: Skipping, unable to determine old version
+[2023-06-22 08:20:28] INFO root fetch - main [MainThread]: End processing [datascrub] error
+[2023-06-22 08:20:28] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 08:20:28] INFO root fetch - processPackages [cici-tools]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 08:20:28] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 08:20:28] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [betainc]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-22 08:20:28] INFO root fetch - processPackages [flask-log-sku1]: Downloading https://files.pythonhosted.org/packages/30/46/4e46700da125b6093c514e65eff0ca44136060f71979be97ffc9f806a4c1/flask_log_sku1-1.1.0.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/64/55/8799dc11995dd6af91c68730caedb1b6c1b187fc6cc1403540f3d703083c/cici-tools-0.2.2.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/cc/07/87015563e40e75d579e56fabbbcfe222b19f01580b7f791811008b5b3f12/betainc-0.2.5.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [aws-framework]: Downloading https://files.pythonhosted.org/packages/fd/49/a5051ce5dee6afccbeddfc70608dc491e575050e4717da2af7f99949eea7/aws_framework-0.0.1.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-22 08:20:28] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230622/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 08:20:28] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-06-22 08:20:28] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230622/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 08:20:28] INFO root fetch - processPackages [flask-log-sku1]: Downloading https://files.pythonhosted.org/packages/07/d4/a645c7065b0b32a472ae00447040a0b433064f3328b07d076d82450d1188/flask_log_sku1-1.1.1.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/a9/a2/01dbf6e8f871799fd1c7e47787b8cc244f4190ecc7d6bde9f57611dd3b89/cici-tools-0.2.3.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/b6/0d/2a85aa825ea1751406dc6a47609ef7242bab54afee310920282c564982ff/betainc-0.2.6.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [aws-framework]: Downloading https://files.pythonhosted.org/packages/45/1e/b9ba9dbc81621cfb4d028cdf2425ea1d14b9ef7a5a523c0d30505b0dac59/aws_framework-0.0.2.tar.gz
+[2023-06-22 08:20:28] INFO root fetch - processPackages [flask-log-sku1]: executing diffoscope
+[2023-06-22 08:20:28] INFO root fetch - processPackages [flask-log-sku1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_log_sku1-1.1.0.tar.gz tmp/flask_log_sku1-1.1.1.tar.gz --markdown 20230622/f/flask-log-sku1/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-22 08:20:28] INFO root fetch - processPackages [aws-framework]: executing diffoscope
+[2023-06-22 08:20:28] INFO root fetch - processPackages [aws-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_framework-0.0.1.tar.gz tmp/aws_framework-0.0.2.tar.gz --markdown 20230622/a/aws-framework/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 08:20:28] INFO root fetch - processPackages [cici-tools]: executing diffoscope
+[2023-06-22 08:20:28] INFO root fetch - processPackages [cici-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici-tools-0.2.2.tar.gz tmp/cici-tools-0.2.3.tar.gz --markdown 20230622/c/cici-tools/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 08:20:29] INFO root fetch - processPackages [betainc]: executing diffoscope
+[2023-06-22 08:20:29] INFO root fetch - processPackages [betainc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betainc-0.2.5.tar.gz tmp/betainc-0.2.6.tar.gz --markdown 20230622/b/betainc/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-22 08:20:29] INFO root fetch - processPackages [flask-log-sku1]: Remove: archive file [/home/abi/fetcher/tmp/flask_log_sku1-1.1.0.tar.gz]
+[2023-06-22 08:20:29] INFO root fetch - processPackages [flask-log-sku1]: Remove: archive file [/home/abi/fetcher/tmp/flask_log_sku1-1.1.1.tar.gz]
+[2023-06-22 08:20:29] INFO root fetch - main [MainThread]: End processing [flask-log-sku1]: success
+[2023-06-22 08:20:30] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.2.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.3.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - main [MainThread]: End processing [cici-tools]: success
+[2023-06-22 08:20:30] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-22 08:20:30] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.2.5.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.2.6.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - main [MainThread]: End processing [betainc]: success
+[2023-06-22 08:20:30] INFO root fetch - processPackages [aws-framework]: Remove: archive file [/home/abi/fetcher/tmp/aws_framework-0.0.1.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - processPackages [aws-framework]: Remove: archive file [/home/abi/fetcher/tmp/aws_framework-0.0.2.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - main [MainThread]: End processing [aws-framework]: success
+[2023-06-22 08:20:30] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-06-22 08:20:30] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-06-22 08:20:30] INFO root fetch - main [MainThread]: Store serial: [18601607]
