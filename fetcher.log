@@ -9059,3 +9059,69 @@
 [2023-06-22 03:44:22] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
 [2023-06-22 03:44:22] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
 [2023-06-22 03:44:22] INFO root fetch - main [MainThread]: Store serial: [18600380]
+[2023-06-22 03:49:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600380]
+[2023-06-22 03:49:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 03:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-apl
+[2023-06-22 03:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statick-tex
+[2023-06-22 03:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rayfed-nightly
+[2023-06-22 03:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mandown
+[2023-06-22 03:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prfect
+[2023-06-22 03:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatch-project-pypi-2
+[2023-06-22 03:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-wordpress
+[2023-06-22 03:49:31] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-22 03:49:31] INFO root fetch - processPackages [prfect]: New version: [0.4] Old Version: [0.34]
+[2023-06-22 03:49:31] INFO root fetch - processPackages [rayfed-nightly]: New version: [0.1.0b20230621.dev0] Old Version: [0.1.0b20230620.dev0]
+[2023-06-22 03:49:31] INFO root fetch - processPackages [hatch-project-pypi-2]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 03:49:31] INFO root fetch - processPackages [mandown]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-22 03:49:31] INFO root fetch - processPackages [statick-tex]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-22 03:49:31] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.849] Old Version: [0.0.848]
+[2023-06-22 03:49:31] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [statick-tex]: Downloading https://files.pythonhosted.org/packages/57/79/ab3a53252abf7b9865317a345392d8065b69c1f6a8b8090147e3cc159e04/statick-tex-0.3.4.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/20/bf/da3e922a48df72129f1b51a6f49e029bf4df5a312d4938178d38b34aaab1/rayfed_nightly-0.1.0b20230620.dev0-py3-none-any.whl
+[2023-06-22 03:49:31] INFO root fetch - processPackages [mandown]: Downloading https://files.pythonhosted.org/packages/c6/32/79520ec3d96145a03553dc6f267500d91b28359f77faed9e60f8bac05956/mandown-1.4.0.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [prfect]: Downloading https://files.pythonhosted.org/packages/de/fb/fd8919ea2d9ecda7d3530b72adae6a5a4c548cc297b2610fabfd71687e9c/prfect-0.34.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/a1/ad/4e8031b4fcb2a263287791e0b35f3dda64d3e7910427e5f43c3a68fb16fb/hatch_project_pypi_2-0.0.3.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/7a/05/248f2be256f2db163f21173619384ea9f4d9e21a601d1078ce90982de09a/nbdev-apl-0.0.848.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [statick-tex]: Downloading https://files.pythonhosted.org/packages/7f/a5/3c000fb27e814bd3a5ea2b6ea6f8b4c6bd199df753f83357cb3417c81e14/statick-tex-0.3.5.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/0b/20/577f1ad3f391343132b80d8397b91a3fb6e210b6bd17d55691ff7b14ba1b/rayfed_nightly-0.1.0b20230621.dev0-py3-none-any.whl
+[2023-06-22 03:49:31] INFO root fetch - processPackages [mandown]: Downloading https://files.pythonhosted.org/packages/0c/b1/09f33393045b8b61e92a17e1376877cfeb115dbaafe9b34b6c2303206768/mandown-1.5.0.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-22 03:49:31] INFO root fetch - processPackages [statick-tex]: executing diffoscope
+[2023-06-22 03:49:31] INFO root fetch - processPackages [statick-tex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statick-tex-0.3.4.tar.gz tmp/statick-tex-0.3.5.tar.gz --markdown 20230622/s/statick-tex/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-22 03:49:32] INFO root fetch - processPackages [rayfed-nightly]: executing diffoscope
+[2023-06-22 03:49:32] INFO root fetch - processPackages [rayfed-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayfed_nightly-0.1.0b20230620.dev0-py3-none-any.whl.zip tmp/rayfed_nightly-0.1.0b20230621.dev0-py3-none-any.whl.zip --markdown 20230622/r/rayfed-nightly/0.1.0b20230620.dev0-0.1.0b20230621.dev0/diff.md --exclude *.pyd
+[2023-06-22 03:49:32] INFO root fetch - processPackages [mandown]: executing diffoscope
+[2023-06-22 03:49:32] INFO root fetch - processPackages [mandown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mandown-1.4.0.tar.gz tmp/mandown-1.5.0.tar.gz --markdown 20230622/m/mandown/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-22 03:49:32] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/b2/84/e646945311d56c3ca8bfac9e924bb50e8861da687ffab2304a542641484e/nbdev-apl-0.0.849.tar.gz
+[2023-06-22 03:49:32] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/f1/a7/fa1f883b6f638fac77a2d8861296e19e7c89e4bb172521f6e5875b8f69b5/hatch_project_pypi_2-0.0.4.tar.gz
+[2023-06-22 03:49:32] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-22 03:49:32] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230622/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-22 03:49:32] INFO root fetch - processPackages [prfect]: Downloading https://files.pythonhosted.org/packages/73/04/d85e08d5bfd489b49ebb22b764fdaa9a8b389db5c4eb920c925f8ea204bc/prfect-0.4.tar.gz
+[2023-06-22 03:49:32] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-22 03:49:32] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.848.tar.gz tmp/nbdev-apl-0.0.849.tar.gz --markdown 20230622/n/nbdev-apl/0.0.848-0.0.849/diff.md --exclude *.pyd
+[2023-06-22 03:49:32] INFO root fetch - processPackages [hatch-project-pypi-2]: executing diffoscope
+[2023-06-22 03:49:32] INFO root fetch - processPackages [hatch-project-pypi-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi_2-0.0.3.tar.gz tmp/hatch_project_pypi_2-0.0.4.tar.gz --markdown 20230622/h/hatch-project-pypi-2/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 03:49:32] INFO root fetch - processPackages [prfect]: executing diffoscope
+[2023-06-22 03:49:32] INFO root fetch - processPackages [prfect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prfect-0.34.tar.gz tmp/prfect-0.4.tar.gz --markdown 20230622/p/prfect/0.34-0.4/diff.md --exclude *.pyd
+[2023-06-22 03:49:33] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230620.dev0-py3-none-any.whl.zip]
+[2023-06-22 03:49:33] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230621.dev0-py3-none-any.whl.zip]
+[2023-06-22 03:49:33] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
+[2023-06-22 03:49:33] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-22 03:49:33] INFO root fetch - processPackages [mandown]: Remove: archive file [/home/abi/fetcher/tmp/mandown-1.4.0.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - processPackages [mandown]: Remove: archive file [/home/abi/fetcher/tmp/mandown-1.5.0.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - main [MainThread]: End processing [mandown]: success
+[2023-06-22 03:49:33] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.848.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.849.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-22 03:49:33] INFO root fetch - processPackages [statick-tex]: Remove: archive file [/home/abi/fetcher/tmp/statick-tex-0.3.4.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - processPackages [statick-tex]: Remove: archive file [/home/abi/fetcher/tmp/statick-tex-0.3.5.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - main [MainThread]: End processing [statick-tex]: success
+[2023-06-22 03:49:33] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.3.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.4.tar.gz]
+[2023-06-22 03:49:33] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi-2]: success
+[2023-06-22 03:49:34] INFO root fetch - processPackages [prfect]: Remove: archive file [/home/abi/fetcher/tmp/prfect-0.34.tar.gz]
+[2023-06-22 03:49:34] INFO root fetch - processPackages [prfect]: Remove: archive file [/home/abi/fetcher/tmp/prfect-0.4.tar.gz]
+[2023-06-22 03:49:34] INFO root fetch - main [MainThread]: End processing [prfect]: success
+[2023-06-22 03:49:34] INFO root fetch - main [MainThread]: Store serial: [18600400]
