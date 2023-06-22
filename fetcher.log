@@ -11283,3 +11283,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:42:17] INFO root fetch - processPackages [DjAIoT]: Remove: archive file [/home/abi/fetcher/tmp/DjAIoT-23.6.21.1.tar.gz]
 [2023-06-22 06:42:17] INFO root fetch - main [MainThread]: End processing [DjAIoT]: success
 [2023-06-22 06:42:17] INFO root fetch - main [MainThread]: Store serial: [18601121]
+[2023-06-22 06:47:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601121]
+[2023-06-22 06:47:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pump-offline-calibration-plugin
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ReprTraceback
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwpdb.apps.ccmodule
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: betainc
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyspark-delta-scd2
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: async-pymongo
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: httpexec
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ReprTraceback]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-22 06:47:30] INFO root fetch - processPackages [pyspark-delta-scd2]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 06:47:30] WARNING root fetch - processPackages [pump-offline-calibration-plugin]: Skipping, unable to determine old version
+[2023-06-22 06:47:30] INFO root fetch - main [MainThread]: End processing [pump-offline-calibration-plugin] error
+[2023-06-22 06:47:30] INFO root fetch - processPackages [betainc]: New version: [0.2.5] Old Version: [0.2.2]
+[2023-06-22 06:47:30] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: New version: [0.28] Old Version: [0.27]
+[2023-06-22 06:47:30] INFO root fetch - processPackages [httpexec]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-22 06:47:30] INFO root fetch - processPackages [async-pymongo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 06:47:30] INFO root fetch - processPackages [ReprTraceback]: Downloading https://files.pythonhosted.org/packages/5d/ce/b070a1cc53ec91ecbf89c8139f6d3c35b0913fad8651435cc5314f2dda6b/ReprTraceback-1.0.3.tar.gz
+[2023-06-22 06:47:30] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/71/6a/ab36b28453b11ed52550dbf75a5d38d9aab35174c6ece59047b4d1a79cc7/pyspark_delta_scd2-0.2.0.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Downloading https://files.pythonhosted.org/packages/76/66/9f54fa9ecc7a4383e2a5d66de4ed375224dd8fb061cca2995b8bb9adb640/wwpdb.apps.ccmodule-0.27.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [async-pymongo]: Downloading https://files.pythonhosted.org/packages/a8/a1/65ba9f1f6e98c591c5637f91d078c72d0d6bee8ce38d479b15d839948a5e/async_pymongo-0.1.2.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/bc/43/b34217d764b61fe8a0cefd5dd18b3d652f89979ccd9f3e0d6ac0ec6aff35/betainc-0.2.2.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [httpexec]: Downloading https://files.pythonhosted.org/packages/7e/1c/1662389e1e0e264b4fcfbed03724d9151a585e0d2275f68edec5e16cd7bc/httpexec-1.0.0.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [pyspark-delta-scd2]: Downloading https://files.pythonhosted.org/packages/da/7c/830fd0327ee71520e953e900b769f3e86a1d612806a197057e66dd41b4d5/pyspark_delta_scd2-0.3.0.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [ReprTraceback]: Downloading https://files.pythonhosted.org/packages/66/4c/20727cee61f45f6fd15bb818559cd43af1fd400bd393f617134b9140cea5/ReprTraceback-1.0.4.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [pyspark-delta-scd2]: executing diffoscope
+[2023-06-22 06:47:31] INFO root fetch - processPackages [pyspark-delta-scd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_delta_scd2-0.2.0.tar.gz tmp/pyspark_delta_scd2-0.3.0.tar.gz --markdown 20230622/p/pyspark-delta-scd2/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 06:47:31] INFO root fetch - processPackages [ReprTraceback]: executing diffoscope
+[2023-06-22 06:47:31] INFO root fetch - processPackages [ReprTraceback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReprTraceback-1.0.3.tar.gz tmp/ReprTraceback-1.0.4.tar.gz --markdown 20230622/R/ReprTraceback/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-22 06:47:31] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Downloading https://files.pythonhosted.org/packages/b9/76/87bc60fdbe3b4209ff5fa51ace2fec18274749ab01db4bab1990a4408e2e/wwpdb.apps.ccmodule-0.28.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/cc/07/87015563e40e75d579e56fabbbcfe222b19f01580b7f791811008b5b3f12/betainc-0.2.5.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: executing diffoscope
+[2023-06-22 06:47:31] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.ccmodule-0.27.tar.gz tmp/wwpdb.apps.ccmodule-0.28.tar.gz --markdown 20230622/w/wwpdb.apps.ccmodule/0.27-0.28/diff.md --exclude *.pyd
+[2023-06-22 06:47:31] INFO root fetch - processPackages [async-pymongo]: Downloading https://files.pythonhosted.org/packages/a0/20/2eac3ce8938cf66ab398379e2c94a050afd2ab0798929d44259ce9b34d20/async_pymongo-0.1.3.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [betainc]: executing diffoscope
+[2023-06-22 06:47:31] INFO root fetch - processPackages [betainc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betainc-0.2.2.tar.gz tmp/betainc-0.2.5.tar.gz --markdown 20230622/b/betainc/0.2.2-0.2.5/diff.md --exclude *.pyd
+[2023-06-22 06:47:31] INFO root fetch - processPackages [httpexec]: Downloading https://files.pythonhosted.org/packages/31/d4/09da2ddf79a6c3dae78303bb017c103ee6e4a80dad656fef3c1b4a87eec4/httpexec-1.0.1.tar.gz
+[2023-06-22 06:47:31] INFO root fetch - processPackages [async-pymongo]: executing diffoscope
+[2023-06-22 06:47:31] INFO root fetch - processPackages [async-pymongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_pymongo-0.1.2.tar.gz tmp/async_pymongo-0.1.3.tar.gz --markdown 20230622/a/async-pymongo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 06:47:31] INFO root fetch - processPackages [httpexec]: executing diffoscope
+[2023-06-22 06:47:31] INFO root fetch - processPackages [httpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpexec-1.0.0.tar.gz tmp/httpexec-1.0.1.tar.gz --markdown 20230622/h/httpexec/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-22 06:47:32] INFO root fetch - processPackages [pyspark-delta-scd2]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_delta_scd2-0.2.0.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - processPackages [pyspark-delta-scd2]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_delta_scd2-0.3.0.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - main [MainThread]: End processing [pyspark-delta-scd2]: success
+[2023-06-22 06:47:32] INFO root fetch - processPackages [ReprTraceback]: Remove: archive file [/home/abi/fetcher/tmp/ReprTraceback-1.0.3.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - processPackages [ReprTraceback]: Remove: archive file [/home/abi/fetcher/tmp/ReprTraceback-1.0.4.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - main [MainThread]: End processing [ReprTraceback]: success
+[2023-06-22 06:47:32] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.2.2.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.2.5.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - main [MainThread]: End processing [betainc]: success
+[2023-06-22 06:47:32] INFO root fetch - processPackages [async-pymongo]: Remove: archive file [/home/abi/fetcher/tmp/async_pymongo-0.1.2.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - processPackages [async-pymongo]: Remove: archive file [/home/abi/fetcher/tmp/async_pymongo-0.1.3.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - main [MainThread]: End processing [async-pymongo]: success
+[2023-06-22 06:47:32] INFO root fetch - processPackages [httpexec]: Remove: archive file [/home/abi/fetcher/tmp/httpexec-1.0.0.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - processPackages [httpexec]: Remove: archive file [/home/abi/fetcher/tmp/httpexec-1.0.1.tar.gz]
+[2023-06-22 06:47:32] INFO root fetch - main [MainThread]: End processing [httpexec]: success
+[2023-06-22 06:47:33] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ccmodule-0.27.tar.gz]
+[2023-06-22 06:47:33] INFO root fetch - processPackages [wwpdb.apps.ccmodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.ccmodule-0.28.tar.gz]
+[2023-06-22 06:47:33] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.ccmodule]: success
+[2023-06-22 06:47:33] INFO root fetch - main [MainThread]: Store serial: [18601143]
