@@ -9419,3 +9419,76 @@
 [2023-06-22 04:31:43] INFO root fetch - processPackages [uaDevice]: Remove: archive file [/home/abi/fetcher/tmp/uaDevice-1.0.9.tar.gz]
 [2023-06-22 04:31:43] INFO root fetch - main [MainThread]: End processing [uaDevice]: success
 [2023-06-22 04:31:43] INFO root fetch - main [MainThread]: Store serial: [18600542]
+[2023-06-22 04:36:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600542]
+[2023-06-22 04:36:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skill-easter-eggs
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magellanmapper
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hak
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snok
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tikshort
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-24
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycde
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: naif-eop-high-prec
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addons-shopinvader-odoo-shopinvader
+[2023-06-22 04:36:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osw
+[2023-06-22 04:36:52] INFO root fetch - processPackages [skill-easter-eggs]: New version: [0.1.1a2] Old Version: [0.1.1]
+[2023-06-22 04:36:52] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 04:36:52] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-22 04:36:52] WARNING root fetch - processPackages [tikshort]: Skipping, unable to determine old version
+[2023-06-22 04:36:52] INFO root fetch - processPackages [snok]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 04:36:52] INFO root fetch - main [MainThread]: End processing [tikshort] error
+[2023-06-22 04:36:52] WARNING root fetch - processPackages [magellanmapper]: Skipping, unable to determine old version
+[2023-06-22 04:36:52] INFO root fetch - main [MainThread]: End processing [magellanmapper] error
+[2023-06-22 04:36:52] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-22 04:36:52] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev808]
+[2023-06-22 04:36:52] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/34/04/49e8ac835f824fa434f2aa407e5019a48f91703b97a207ed786f1e2f3536/snok-0.0.1.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: New version: [14.0.20230621.1] Old Version: [14.0.20230614.9]
+[2023-06-22 04:36:52] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-22 04:36:52] INFO root fetch - processPackages [skill-easter-eggs]: Downloading https://files.pythonhosted.org/packages/a4/94/6ac1e6312a1bbf43ba5df9cfba67448275a00d08d4719f20bdee5f9a97bd/skill-easter-eggs-0.1.1.tar.gz
+[2023-06-22 04:36:52] WARNING root fetch - processPackages [skill-easter-eggs]: Skipping package: exceeds size limit 21752346>=10485760
+[2023-06-22 04:36:52] INFO root fetch - main [MainThread]: End processing [skill-easter-eggs] error
+[2023-06-22 04:36:52] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/fe/84/4438fef49e8db854d6e3d5f83ec22d4b0411b4688de1510c523941a512c2/snok-0.0.2.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/91/b3/2a63c2bf507828ad425257a6eaeaeda03ef8a2f4d9b4dd21df673f011ba3/pycde-0.2.1.dev808-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-22 04:36:52] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-06-22 04:36:52] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.1.tar.gz tmp/snok-0.0.2.tar.gz --markdown 20230622/s/snok/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 04:36:52] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/9e/66/42d767182ddd5ccb4eaa926fa2b8cce00a6dc4833073105d065c43f84d79/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230614.9-py3-none-any.whl
+[2023-06-22 04:36:52] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-06-22 04:36:52] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230622/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 04:36:52] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 13330946>=10485760
+[2023-06-22 04:36:52] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-06-22 04:36:52] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Downloading https://files.pythonhosted.org/packages/e2/ab/57e7ad5e355daffb54f6577a2e387adcbcbbcaed8bf0b3a204cb9db0105d/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230621.1-py3-none-any.whl
+[2023-06-22 04:36:52] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2023-06-22 04:36:52] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: executing diffoscope
+[2023-06-22 04:36:52] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230614.9-py3-none-any.whl.zip tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230621.1-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addons-shopinvader-odoo-shopinvader/14.0.20230614.9-14.0.20230621.1/diff.md --exclude *.pyd
+[2023-06-22 04:36:52] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-22 04:36:52] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230622/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-22 04:36:52] INFO root fetch - processPackages [osw]: executing diffoscope
+[2023-06-22 04:36:52] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20230622/o/osw/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 04:36:53] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-22 04:36:53] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230622/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-22 04:36:53] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.1.tar.gz]
+[2023-06-22 04:36:53] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.2.tar.gz]
+[2023-06-22 04:36:53] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-06-22 04:36:53] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230614.9-py3-none-any.whl.zip]
+[2023-06-22 04:36:53] INFO root fetch - processPackages [odoo14-addons-shopinvader-odoo-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_shopinvader_odoo_shopinvader-14.0.20230621.1-py3-none-any.whl.zip]
+[2023-06-22 04:36:53] INFO root fetch - main [MainThread]: End processing [odoo14-addons-shopinvader-odoo-shopinvader]: success
+[2023-06-22 04:36:54] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-22 04:36:54] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-22 04:36:54] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-22 04:36:54] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-06-22 04:36:54] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-06-22 04:36:54] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-06-22 04:36:54] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.8.1.tar.gz]
+[2023-06-22 04:36:54] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
+[2023-06-22 04:36:54] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2023-06-22 04:36:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-22 04:36:59] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-22 04:36:59] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-22 04:36:59] INFO root fetch - main [MainThread]: Store serial: [18600576]
