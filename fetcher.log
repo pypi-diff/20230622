@@ -19056,3 +19056,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:34:52] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.3.4.tar.gz]
 [2023-06-22 13:34:52] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
 [2023-06-22 13:34:52] INFO root fetch - main [MainThread]: Store serial: [18604250]
+[2023-06-22 13:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604250]
+[2023-06-22 13:40:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 13:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-somconnexio
+[2023-06-22 13:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filesreader
+[2023-06-22 13:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: norminette
+[2023-06-22 13:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authomize-rest-api-client
+[2023-06-22 13:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nics
+[2023-06-22 13:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-nano
+[2023-06-22 13:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kalm
+[2023-06-22 13:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: micro-orch
+[2023-06-22 13:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyre-check-nightly
+[2023-06-22 13:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kpler.sdk
+[2023-06-22 13:40:02] INFO root fetch - processPackages [filesreader]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [norminette]: New version: [3.3.52] Old Version: [3.3.51]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687432292] Old Version: [0.0.101687345960]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [odoo12-addon-somconnexio]: New version: [12.0.2.3.2] Old Version: [12.0.2.3.1]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micro-orch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kpler.sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [4.3.0] Old Version: [4.2.9]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [filesreader]: Downloading https://files.pythonhosted.org/packages/8a/98/a185aca6e0ca38aa0cb376a4526082aff4dcb14fcfcf7f0082ddac08825a/filesreader-0.1.0.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micro-orch]: Downloading https://files.pythonhosted.org/packages/63/2a/e4c8b291a27c791611cffc1fa1fc8d2095ca66f58c1f62b967a8e4450def/micro_orch-0.1.1.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/58/b2/d6d835fc24010742853376c3d9c7adaf84122a911cbe1be321e9fa70d896/pyre-check-nightly-0.0.101687345960.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/52/20/59fda5bfb511f3217701a4654c39356a259fca3c4ed847e289e136082616/kpler.sdk-1.0.7.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Downloading https://files.pythonhosted.org/packages/d6/4a/aea7d79501f0840a6363d86827a69b15a35fc32b50630297ee89f1d3af00/odoo12-addon-somconnexio-12.0.2.3.1.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/af/47/04e8f1f47a6c6080c20babc34bc9a1945f761c1f6b9e82b9065bb66d8c7f/authomize-rest-api-client-4.2.9.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [norminette]: Downloading https://files.pythonhosted.org/packages/f4/a5/d94b7367b980b9fb6b6fa1225d382ec2d84704e488ba737db7ecfbe443ff/norminette-3.3.51.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/cc/8c/994cbab5632e215205cc6d3af707ce227cc833b4feea61ed32afb04b5f17/bigdl_nano-2.4.0b20230621-py3-none-win_amd64.whl
+[2023-06-22 13:40:02] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23511835>=10485760
+[2023-06-22 13:40:02] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: micropython-captive-dns-server
+[2023-06-22 13:40:02] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micropython-captive-dns-server]: New version: [0.0.4.dev0] Old Version: [0.0.3.dev0]
+[2023-06-22 13:40:02] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230622/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micropython-captive-dns-server]: Downloading https://files.pythonhosted.org/packages/49/e8/9583c697f24441c6ff7bab56ed3135ab80f83b4a4a2ce5aeba998840a9e8/micropython-captive-dns-server-0.0.3.dev0.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [filesreader]: Downloading https://files.pythonhosted.org/packages/57/07/d3dae384cb691d3fb0d36b53237b86011ea168535557a16413663cfab19d/filesreader-0.1.2.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [norminette]: Downloading https://files.pythonhosted.org/packages/00/38/8e27b205b16530147c285ed14aac89f5062f5ee36f7143e36003d32e4edb/norminette-3.3.52.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [filesreader]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [filesreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filesreader-0.1.0.tar.gz tmp/filesreader-0.1.2.tar.gz --markdown 20230622/f/filesreader/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 13:40:02] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/c8/bd/b567241ac58cbdd769b5ff57a74b242f528b907a7d3a1a08bd2d239ae73c/authomize-rest-api-client-4.3.0.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micro-orch]: Downloading https://files.pythonhosted.org/packages/8c/8d/8c5fd28da6a927f063c34cde1f4cba97124ed8977e24732036e8289b9dc3/micro_orch-0.1.2.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/5c/6b/2255fb120f8585ab366bc4f58684914e058108c7a8ff4201af94121f41b3/bigdl_nano-2.4.0b20230622-py3-none-win_amd64.whl
+[2023-06-22 13:40:02] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/f6/50/27d8cbc4897c825995b73b5f50acd1689a844318d20873c060045cd33c38/kpler.sdk-1.0.8.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Downloading https://files.pythonhosted.org/packages/9d/ba/689ae18f0521926412ce32482a1cc5ae2e7e5ba96c138ba6e9fa94ab28c6/odoo12-addon-somconnexio-12.0.2.3.2.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micropython-captive-dns-server]: Downloading https://files.pythonhosted.org/packages/3f/12/b9d4f0812287597817c01cb11530a8cec0857f5b9f010358c1cba0771f04/micropython-captive-dns-server-0.0.4.dev0.tar.gz
+[2023-06-22 13:40:02] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-4.2.9.tar.gz tmp/authomize-rest-api-client-4.3.0.tar.gz --markdown 20230622/a/authomize-rest-api-client/4.2.9-4.3.0/diff.md --exclude *.pyd
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micro-orch]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micro-orch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micro_orch-0.1.1.tar.gz tmp/micro_orch-0.1.2.tar.gz --markdown 20230622/m/micro-orch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 13:40:02] INFO root fetch - processPackages [norminette]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [norminette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/norminette-3.3.51.tar.gz tmp/norminette-3.3.52.tar.gz --markdown 20230622/n/norminette/3.3.51-3.3.52/diff.md --exclude *.pyd
+[2023-06-22 13:40:02] INFO root fetch - processPackages [odoo12-addon-somconnexio]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [odoo12-addon-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-somconnexio-12.0.2.3.1.tar.gz tmp/odoo12-addon-somconnexio-12.0.2.3.2.tar.gz --markdown 20230622/o/odoo12-addon-somconnexio/12.0.2.3.1-12.0.2.3.2/diff.md --exclude *.pyd
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micropython-captive-dns-server]: executing diffoscope
+[2023-06-22 13:40:02] INFO root fetch - processPackages [micropython-captive-dns-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-captive-dns-server-0.0.3.dev0.tar.gz tmp/micropython-captive-dns-server-0.0.4.dev0.tar.gz --markdown 20230622/m/micropython-captive-dns-server/0.0.3.dev0-0.0.4.dev0/diff.md --exclude *.pyd
+[2023-06-22 13:40:03] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-22 13:40:03] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230621-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230622-py3-none-win_amd64.whl.zip --markdown 20230622/b/bigdl-nano/2.4.0b20230621-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 13:40:03] INFO root fetch - processPackages [kpler.sdk]: executing diffoscope
+[2023-06-22 13:40:03] INFO root fetch - processPackages [kpler.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpler.sdk-1.0.7.tar.gz tmp/kpler.sdk-1.0.8.tar.gz --markdown 20230622/k/kpler.sdk/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-22 13:40:03] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-22 13:40:03] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-22 13:40:03] INFO root fetch - processPackages [nics]: Start processing: kalm
+[2023-06-22 13:40:03] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 13:40:04] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [filesreader]: Remove: archive file [/home/abi/fetcher/tmp/filesreader-0.1.0.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [filesreader]: Remove: archive file [/home/abi/fetcher/tmp/filesreader-0.1.2.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [filesreader]: Start processing: pquisby
+[2023-06-22 13:40:04] INFO root fetch - main [MainThread]: End processing [filesreader]: success
+[2023-06-22 13:40:04] INFO root fetch - processPackages [pquisby]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/19/fd/0caf6a72ce99530d7a8b49210638deb0bae119f66ce0158d35c1106a5368/pquisby-0.0.6.tar.gz
+[2023-06-22 13:40:04] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:40:04] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:40:04] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-22 13:40:04] INFO root fetch - processPackages [pquisby]: Downloading https://files.pythonhosted.org/packages/f5/f1/415b38ab89dcb529864deed58bba6aa1b1ed67ae373330d2ee4ae7e4b730/pquisby-0.0.7.tar.gz
+[2023-06-22 13:40:04] INFO root fetch - processPackages [pquisby]: executing diffoscope
+[2023-06-22 13:40:04] INFO root fetch - processPackages [pquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pquisby-0.0.6.tar.gz tmp/pquisby-0.0.7.tar.gz --markdown 20230622/p/pquisby/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 13:40:04] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.2.9.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [authomize-rest-api-client]: Remove: archive file [/home/abi/fetcher/tmp/authomize-rest-api-client-4.3.0.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-06-22 13:40:04] INFO root fetch - processPackages [micropython-captive-dns-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dns-server-0.0.3.dev0.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [micropython-captive-dns-server]: Remove: archive file [/home/abi/fetcher/tmp/micropython-captive-dns-server-0.0.4.dev0.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - main [MainThread]: End processing [micropython-captive-dns-server]: success
+[2023-06-22 13:40:04] INFO root fetch - processPackages [micro-orch]: Remove: archive file [/home/abi/fetcher/tmp/micro_orch-0.1.1.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [micro-orch]: Remove: archive file [/home/abi/fetcher/tmp/micro_orch-0.1.2.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - main [MainThread]: End processing [micro-orch]: success
+[2023-06-22 13:40:04] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.7.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.8.tar.gz]
+[2023-06-22 13:40:04] INFO root fetch - main [MainThread]: End processing [kpler.sdk]: success
+[2023-06-22 13:40:04] ERROR root fetch - processPackages [kalm]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/kalm-0.7.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/kalm-0.7.9.tar.gz: No such file or directory
+
+[2023-06-22 13:40:04] INFO root fetch - main [MainThread]: End processing [kalm] error
+[2023-06-22 13:40:05] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.6.tar.gz]
+[2023-06-22 13:40:05] INFO root fetch - processPackages [pquisby]: Remove: archive file [/home/abi/fetcher/tmp/pquisby-0.0.7.tar.gz]
+[2023-06-22 13:40:05] INFO root fetch - main [MainThread]: End processing [pquisby]: success
+[2023-06-22 13:40:06] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230621-py3-none-win_amd64.whl.zip]
+[2023-06-22 13:40:06] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230622-py3-none-win_amd64.whl.zip]
+[2023-06-22 13:40:06] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-22 13:40:06] INFO root fetch - processPackages [norminette]: Remove: archive file [/home/abi/fetcher/tmp/norminette-3.3.51.tar.gz]
+[2023-06-22 13:40:06] INFO root fetch - processPackages [norminette]: Remove: archive file [/home/abi/fetcher/tmp/norminette-3.3.52.tar.gz]
+[2023-06-22 13:40:06] INFO root fetch - main [MainThread]: End processing [norminette]: success
+[2023-06-22 13:40:10] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-somconnexio-12.0.2.3.1.tar.gz]
+[2023-06-22 13:40:10] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-somconnexio-12.0.2.3.2.tar.gz]
+[2023-06-22 13:40:10] INFO root fetch - main [MainThread]: End processing [odoo12-addon-somconnexio]: success
+[2023-06-22 13:40:10] INFO root fetch - main [MainThread]: Store serial: [18604289]
