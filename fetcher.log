@@ -20620,3 +20620,181 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 14:36:39] INFO root fetch - processPackages [mercurial]: Remove: archive file [/home/abi/fetcher/tmp/mercurial-6.5rc0.tar.gz]
 [2023-06-22 14:36:39] INFO root fetch - main [MainThread]: End processing [mercurial]: success
 [2023-06-22 14:36:39] INFO root fetch - main [MainThread]: Store serial: [18604854]
+[2023-06-22 14:41:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604854]
+[2023-06-22 14:41:50] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oidc-drf
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thipster
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linki
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hayloft
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: expire-lock
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reswarm
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scinumtools
+[2023-06-22 14:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: marda-steffenBrinckmann
+[2023-06-22 14:41:50] INFO root fetch - processPackages [kfish]: New version: [99.0.202306221236] Old Version: [99.0.202306221152]
+[2023-06-22 14:41:50] WARNING root fetch - processPackages [oidc-drf]: Skipping, unable to determine old version
+[2023-06-22 14:41:50] INFO root fetch - processPackages [oidc-drf]: Start processing: rannet
+[2023-06-22 14:41:50] INFO root fetch - main [MainThread]: End processing [oidc-drf] error
+[2023-06-22 14:41:50] WARNING root fetch - processPackages [marda-steffenBrinckmann]: Skipping, unable to determine old version
+[2023-06-22 14:41:50] INFO root fetch - processPackages [hayloft]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-22 14:41:50] INFO root fetch - processPackages [marda-steffenBrinckmann]: Start processing: expire-lock
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: New version: [0.3] Old Version: [0.2]
+[2023-06-22 14:41:50] INFO root fetch - main [MainThread]: End processing [marda-steffenBrinckmann] error
+[2023-06-22 14:41:50] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-22 14:41:50] INFO root fetch - processPackages [linki]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 14:41:50] INFO root fetch - processPackages [thipster]: New version: [0.17.8] Old Version: [0.17.7]
+[2023-06-22 14:41:50] INFO root fetch - processPackages [reswarm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 14:41:50] INFO root fetch - processPackages [scinumtools]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-22 14:41:50] WARNING root fetch - processPackages [rannet]: Skipping, unable to determine old version
+[2023-06-22 14:41:50] INFO root fetch - processPackages [rannet]: Start processing: QuNet
+[2023-06-22 14:41:50] INFO root fetch - main [MainThread]: End processing [rannet] error
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: New version: [0.3] Old Version: [0.2]
+[2023-06-22 14:41:50] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/3b/1e/5df629ffb7c621a01d1cbcb60986dc388c1f8664cbbf783e8ca10a4d2b35/hayloft-0.2.1.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [QuNet]: New version: [0.0.95] Old Version: [0.0.94]
+[2023-06-22 14:41:50] INFO root fetch - processPackages [reswarm]: Downloading https://files.pythonhosted.org/packages/45/ca/d558b6e3b07157d2c79d30915de2273794928176b85e166fd35d876bf435/reswarm-0.0.8.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/b2/c68ae9cd68dee0b107d9e1997670005f54759b009e2c2142ddaf86a57fc5/kfish-99.0.202306221152-py3-none-any.whl
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: Downloading https://files.pythonhosted.org/packages/cf/de/9677dcb2ec32be77041e99c597ac7b57c84e125374d4d76b4385a229af4b/expire_lock-0.2.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: Downloading https://files.pythonhosted.org/packages/cf/de/9677dcb2ec32be77041e99c597ac7b57c84e125374d4d76b4385a229af4b/expire_lock-0.2.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/eb/32/0ae95ff9bcc3ce3f78947c655e7272eeb2613594acf7a50fcedc937a1618/QuNet-0.0.94-py3-none-any.whl
+[2023-06-22 14:41:50] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/06/e1/0673405365659821d2aa26a4daee3e2a03fff36e6687901f3f120fe3954c/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl
+[2023-06-22 14:41:50] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/61/d3/b028709d7f6e8a6ae476e6aa01f2480309f6743455cebf8701618bc19160/scinumtools-1.3.0.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/6d/1b/42a705c27c5ec336884ec61af42e49e8a63341ee3086ecf8b6577159cfe8/thipster-0.17.7.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/1f/85/5cc91e9ba525e91d9979fdf45309b1dc543c1583960a1f3826269d8c2e78/linki-0.0.8.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/0e/43/cff47755f6a329eda40ade0d286fa330d726b7d5472e05810f7ecbb5c114/hayloft-0.2.2.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: Downloading https://files.pythonhosted.org/packages/8e/e1/45a317c53153f658707f2bf51897769b40045f67161c2f72f8970a63b3d3/expire_lock-0.3.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: Downloading https://files.pythonhosted.org/packages/8e/e1/45a317c53153f658707f2bf51897769b40045f67161c2f72f8970a63b3d3/expire_lock-0.3.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [reswarm]: Downloading https://files.pythonhosted.org/packages/02/d5/c4890b4980226107ebd04916617abbb7c500319c0e500d49d795b73dc64a/reswarm-0.0.9.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.2.1.tar.gz tmp/hayloft-0.2.2.tar.gz --markdown 20230622/h/hayloft/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/8b/bb/771123a6a73875f993d8a45177a56e4d0c35cda804bab62e484df57b05dd/QuNet-0.0.95-py3-none-any.whl
+[2023-06-22 14:41:50] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c3/1a/752ba6d8042cce3e5386de55efc6c009219c99e3729fa2f35a8a4e0e9ca3/kfish-99.0.202306221236-py3-none-any.whl
+[2023-06-22 14:41:50] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/71/11/3190e2ba877cd744695129606ecfc5b8d68b3a3eecf4b579d435245ffdd1/thipster-0.17.8.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expire_lock-0.2.tar.gz tmp/expire_lock-0.3.tar.gz --markdown 20230622/e/expire-lock/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/84/b9/169c2b8f87fa84d481051d9b11e61c43ed4e141182ef541b13ede9a4caa0/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl
+[2023-06-22 14:41:50] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/e0/3b/33c11111d9d7eec4e18221f898039ccbc7e8b8b14d5ac4441a86a4ff159f/scinumtools-1.3.1.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [expire-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expire_lock-0.2.tar.gz tmp/expire_lock-0.3.tar.gz --markdown 20230622/e/expire-lock/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221152-py3-none-any.whl.zip tmp/kfish-99.0.202306221236-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306221152-99.0.202306221236/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.94-py3-none-any.whl.zip tmp/QuNet-0.0.95-py3-none-any.whl.zip --markdown 20230622/Q/QuNet/0.0.94-0.0.95/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.17.7.tar.gz tmp/thipster-0.17.8.tar.gz --markdown 20230622/t/thipster/0.17.7-0.17.8/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl.zip --markdown 20230622/D/Denoising-Diffusion-Probabilistic-Models/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.3.0.tar.gz tmp/scinumtools-1.3.1.tar.gz --markdown 20230622/s/scinumtools/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [reswarm]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [reswarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reswarm-0.0.8.tar.gz tmp/reswarm-0.0.9.tar.gz --markdown 20230622/r/reswarm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 14:41:50] INFO root fetch - processPackages [linki]: Downloading https://files.pythonhosted.org/packages/77/c3/ace975f260cef9236206242f89437c9d83bbafcd4ab12e568c92d930794e/linki-0.0.9.tar.gz
+[2023-06-22 14:41:50] INFO root fetch - processPackages [linki]: executing diffoscope
+[2023-06-22 14:41:50] INFO root fetch - processPackages [linki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linki-0.0.8.tar.gz tmp/linki-0.0.9.tar.gz --markdown 20230622/l/linki/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 14:41:52] INFO root fetch - processPackages [expire-lock]: Remove: archive file [/home/abi/fetcher/tmp/expire_lock-0.2.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [expire-lock]: Remove: archive file [/home/abi/fetcher/tmp/expire_lock-0.3.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [expire-lock]: Start processing: bigdl-dllib
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [expire-lock]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230621]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221152-py3-none-any.whl.zip]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221236-py3-none-any.whl.zip]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [kfish]: Start processing: qontract-reconcile
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-22 14:41:52] INFO root fetch - processPackages [expire-lock]: Start processing: bipl
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [expire-lock]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/a3/58/5377e2f5644bb0b6bf1c5e0557063533a85bb698a95eb4ca66e8d7dcf5ed/bigdl-dllib-2.4.0b20230621.tar.gz
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bipl]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [reswarm]: Remove: archive file [/home/abi/fetcher/tmp/reswarm-0.0.8.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [reswarm]: Remove: archive file [/home/abi/fetcher/tmp/reswarm-0.0.9.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [reswarm]: Start processing: bigdl-orca
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [reswarm]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl.zip]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl.zip]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Start processing: datapusher-plus
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230620]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [datapusher-plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 14:41:52] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53637781>=10485760
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bigdl-dllib]: Start processing: causallib
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-22 14:41:52] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-22 14:41:52] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230622/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-22 14:41:52] INFO root fetch - processPackages [causallib]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/9f/68/397cd9810ab6732196e43b9478bb03405933602ff7a64c725dce6081e908/datapusher-plus-0.8.0.tar.gz
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/93/9d/ed57a0f0f0eaca95ecdd2b56d85f4cd6f0795e18552a40af643934a90316/bipl-0.2.2.tar.gz
+[2023-06-22 14:41:52] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.3.0.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.3.1.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [scinumtools]: Start processing: bigdl-friesian
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230620]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.1.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.2.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [hayloft]: Start processing: snaptext
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/36/64/a070146e876cab8f40b7653a432fe2c1421419a196269af9421d78dc89f4/bigdl_orca-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:41:52] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/ee/ac/dec6609d2262650af59bb62a83a943cd36d1336a5daf933fe093085afa86/datapusher-plus-0.9.0.tar.gz
+[2023-06-22 14:41:52] INFO root fetch - processPackages [snaptext]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [datapusher-plus]: executing diffoscope
+[2023-06-22 14:41:52] INFO root fetch - processPackages [datapusher-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapusher-plus-0.8.0.tar.gz tmp/datapusher-plus-0.9.0.tar.gz --markdown 20230622/d/datapusher-plus/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 14:41:52] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.94-py3-none-any.whl.zip]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.95-py3-none-any.whl.zip]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [QuNet]: Start processing: bigdl
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [causallib]: Downloading https://files.pythonhosted.org/packages/cd/f8/60b1e6e183d2ffb08c404ab4be6a8ce891e37d17515f68475ca0ddba7510/causallib-0.9.4.tar.gz
+[2023-06-22 14:41:52] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.7.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.8.tar.gz]
+[2023-06-22 14:41:52] INFO root fetch - processPackages [thipster]: Start processing: brainreg-segment
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-22 14:41:52] INFO root fetch - processPackages [brainreg-segment]: New version: [0.2.8rc0] Old Version: [0.2.8]
+[2023-06-22 14:41:52] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369605>=10485760
+[2023-06-22 14:41:52] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/c6/b3/33b35b4bb0274289bf88cc9407fbb5d8575b79955e4a1d1fb50eedd887a3/bigdl_friesian-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:41:52] INFO root fetch - processPackages [bipl]: Downloading https://files.pythonhosted.org/packages/82/af/519f96005d696b591e066bd955380d87013acc4654af568e141e4795a6de/bipl-0.2.3.tar.gz
+[2023-06-22 14:41:52] INFO root fetch - processPackages [snaptext]: Downloading https://files.pythonhosted.org/packages/66/d6/7b0798db17f9eb107e231412d94c947a0b29bbc23e977481ece1ed06668b/snaptext-0.1.0.tar.gz
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bipl]: executing diffoscope
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bipl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipl-0.2.2.tar.gz tmp/bipl-0.2.3.tar.gz --markdown 20230622/b/bipl/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230622] Old Version: [2.4.0b20230620]
+[2023-06-22 14:41:53] INFO root fetch - processPackages [brainreg-segment]: Downloading https://files.pythonhosted.org/packages/02/1d/69d501ef47cf1f87ae69f75591ec0ba3c7cc3f0f0acabc12735db4077bd2/brainreg-segment-0.2.8.tar.gz
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/b7/d1/7d3fb632c299131c746d547cf389a9287c51c09ab2931b58f9554da70f84/bigdl_friesian-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/0f/74/d2f3849914517a90dbc3285346f0e0c3fdbe6fdf58fb0aed76ab7d8d9317/bigdl-2.4.0b20230620-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230622/b/bigdl-friesian/2.4.0b20230620-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 14:41:53] INFO root fetch - processPackages [snaptext]: Downloading https://files.pythonhosted.org/packages/da/2a/8b13cbddc1017ebae56ffa9a1afef358099d1aeea246ae0792e54184b198/snaptext-0.1.1.tar.gz
+[2023-06-22 14:41:53] INFO root fetch - processPackages [causallib]: Downloading https://files.pythonhosted.org/packages/b7/4e/6e34e60cee7f3f80c6a73d31563d2e97292bc351e15c9a4a02e092c8dcf9/causallib-0.9.5.tar.gz
+[2023-06-22 14:41:53] INFO root fetch - processPackages [snaptext]: executing diffoscope
+[2023-06-22 14:41:53] INFO root fetch - processPackages [snaptext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptext-0.1.0.tar.gz tmp/snaptext-0.1.1.tar.gz --markdown 20230622/s/snaptext/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/7e/b2/6090086b803c1850f084e4cb06f34449004c69b6bf875dc3f1b45d1dfb70/bigdl-2.4.0b20230622-py3-none-manylinux1_x86_64.whl
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-22 14:41:53] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip --markdown 20230622/b/bigdl/2.4.0b20230620-2.4.0b20230622/diff.md --exclude *.pyd
+[2023-06-22 14:41:53] INFO root fetch - processPackages [causallib]: executing diffoscope
+[2023-06-22 14:41:53] INFO root fetch - processPackages [causallib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causallib-0.9.4.tar.gz tmp/causallib-0.9.5.tar.gz --markdown 20230622/c/causallib/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-22 14:41:54] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.8.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - processPackages [linki]: Remove: archive file [/home/abi/fetcher/tmp/linki-0.0.9.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - main [MainThread]: End processing [linki]: success
+[2023-06-22 14:41:54] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.8.0.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.9.0.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - main [MainThread]: End processing [datapusher-plus]: success
+[2023-06-22 14:41:54] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.2.2.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - processPackages [bipl]: Remove: archive file [/home/abi/fetcher/tmp/bipl-0.2.3.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - main [MainThread]: End processing [bipl]: success
+[2023-06-22 14:41:54] INFO root fetch - processPackages [snaptext]: Remove: archive file [/home/abi/fetcher/tmp/snaptext-0.1.0.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - processPackages [snaptext]: Remove: archive file [/home/abi/fetcher/tmp/snaptext-0.1.1.tar.gz]
+[2023-06-22 14:41:54] INFO root fetch - main [MainThread]: End processing [snaptext]: success
+[2023-06-22 14:41:54] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:41:54] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:41:54] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-22 14:41:55] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230620-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:41:55] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230622-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-22 14:41:55] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-22 14:41:55] WARNING root fetch - processPackages [brainreg-segment]: Skipping package: exceeds size limit 13694841>=10485760
+[2023-06-22 14:41:55] INFO root fetch - main [MainThread]: End processing [brainreg-segment] error
+[2023-06-22 14:41:55] INFO root fetch - processPackages [causallib]: Remove: archive file [/home/abi/fetcher/tmp/causallib-0.9.4.tar.gz]
+[2023-06-22 14:41:55] INFO root fetch - processPackages [causallib]: Remove: archive file [/home/abi/fetcher/tmp/causallib-0.9.5.tar.gz]
+[2023-06-22 14:41:55] INFO root fetch - main [MainThread]: End processing [causallib]: success
+[2023-06-22 14:41:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-22 14:41:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-22 14:41:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-22 14:41:58] INFO root fetch - main [MainThread]: Store serial: [18604921]
