@@ -14492,3 +14492,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:34:37] INFO root fetch - processPackages [idoit-scaleup]: Remove: archive file [/home/abi/fetcher/tmp/idoit_scaleup-0.0.9.tar.gz]
 [2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [idoit-scaleup]: success
 [2023-06-22 10:34:37] INFO root fetch - main [MainThread]: Store serial: [18602429]
+[2023-06-22 10:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602429]
+[2023-06-22 10:39:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacesense
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-account-credit-control
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m-abac-test
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncgraphs
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrappeycom
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multiversx-sdk-core
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molgenis-emx2-pyclient
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-cache-middleware
+[2023-06-22 10:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyscemu
+[2023-06-22 10:39:46] WARNING root fetch - processPackages [molgenis-emx2-pyclient]: Skipping, unable to determine old version
+[2023-06-22 10:39:46] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient] error
+[2023-06-22 10:39:46] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.0]
+[2023-06-22 10:39:46] INFO root fetch - processPackages [multiversx-sdk-core]: New version: [0.6.0b0] Old Version: [0.5.0]
+[2023-06-22 10:39:46] WARNING root fetch - processPackages [django-cache-middleware]: Skipping, unable to determine old version
+[2023-06-22 10:39:46] INFO root fetch - processPackages [scrappeycom]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-22 10:39:46] INFO root fetch - processPackages [spacesense]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-22 10:39:46] INFO root fetch - processPackages [asyncgraphs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 10:39:46] INFO root fetch - main [MainThread]: End processing [django-cache-middleware] error
+[2023-06-22 10:39:46] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 10:39:46] INFO root fetch - processPackages [pyscemu]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-22 10:39:46] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-22 10:39:46] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/2b/a5/3402f6daec20d863ef602409d49cfe38e96bd01e42f63173446c92a661cc/scrappeycom-0.3.6.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-22 10:39:46] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/02/95/232558ca7dcdfbce3fdaa21da76960b63689d5e5add37955507d70b8934f/pyscemu-0.2.5.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/4f/38/dbe12cb279d95b7c0499c45b5a428ae41d92719d10ed6f9249f81a50e7d5/scrappeycom-0.3.7.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [spacesense]: Downloading https://files.pythonhosted.org/packages/1f/30/2b8f0dad0b2fbf2ffb26f77c7dffd7967f398a52720dc6d3d5c98b073ca5/spacesense-0.8.3-py3-none-any.whl
+[2023-06-22 10:39:46] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/1b/58/01987ca47a53999ff0ba296adbcc5e74c961e16cb9d036f439a1d40ea3a9/odoo14_addon_account_credit_control-14.0.1.4.0-py3-none-any.whl
+[2023-06-22 10:39:46] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/05/ea/904e35bef4451377910e22ebf9071ca605b85395b99343ad6450d9a3b5cd/multiversx_sdk_core-0.5.0.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [asyncgraphs]: Downloading https://files.pythonhosted.org/packages/ad/b1/5efd905e1cb4e53f3584003400fae5bcb0bd20cb633efe516805536615aa/asyncgraphs-0.0.3.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [scrappeycom]: executing diffoscope
+[2023-06-22 10:39:46] INFO root fetch - processPackages [scrappeycom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappeycom-0.3.6.tar.gz tmp/scrappeycom-0.3.7.tar.gz --markdown 20230622/s/scrappeycom/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-22 10:39:46] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-22 10:39:46] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230622/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:39:46] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-22 10:39:46] INFO root fetch - processPackages [asyncgraphs]: Downloading https://files.pythonhosted.org/packages/4f/cf/2072189831715c692ccfcf4c71e70bd8ba5996809c21db7720283549dc0e/asyncgraphs-0.0.4.tar.gz
+[2023-06-22 10:39:46] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/3c/63/3b4afa6f4cb74abbf57651d7ad7ed77a4ddb3b307056f7e6af5a1831e3ca/pyscemu-0.2.6.tar.gz
+[2023-06-22 10:39:47] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/d9/0b/3bd80af7712fe9aae99e31c68bcc9a9239c5b4caed956681011f572f8101/multiversx_sdk_core-0.6.0b0.tar.gz
+[2023-06-22 10:39:47] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/aa/92/15c6caae3cfe32fbdc209e0d4a777c3573cf0902251c38df889bcd3afefb/odoo14_addon_account_credit_control-14.0.1.5.0-py3-none-any.whl
+[2023-06-22 10:39:47] INFO root fetch - processPackages [spacesense]: Downloading https://files.pythonhosted.org/packages/b9/b6/39886403fb30376bc2e5ff621d3a9ef394bd7c8e177ad6c935feade091f6/spacesense-0.9.0-py3-none-any.whl
+[2023-06-22 10:39:47] INFO root fetch - processPackages [asyncgraphs]: executing diffoscope
+[2023-06-22 10:39:47] INFO root fetch - processPackages [asyncgraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncgraphs-0.0.3.tar.gz tmp/asyncgraphs-0.0.4.tar.gz --markdown 20230622/a/asyncgraphs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 10:39:47] INFO root fetch - processPackages [spacesense]: executing diffoscope
+[2023-06-22 10:39:47] INFO root fetch - processPackages [spacesense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacesense-0.8.3-py3-none-any.whl.zip tmp/spacesense-0.9.0-py3-none-any.whl.zip --markdown 20230622/s/spacesense/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 10:39:47] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: executing diffoscope
+[2023-06-22 10:39:47] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_credit_control-14.0.1.4.0-py3-none-any.whl.zip tmp/odoo14_addon_account_credit_control-14.0.1.5.0-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-account-credit-control/14.0.1.4.0-14.0.1.5.0/diff.md --exclude *.pyd
+[2023-06-22 10:39:47] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-22 10:39:47] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230622/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-22 10:39:47] INFO root fetch - processPackages [multiversx-sdk-core]: executing diffoscope
+[2023-06-22 10:39:47] INFO root fetch - processPackages [multiversx-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_core-0.5.0.tar.gz tmp/multiversx_sdk_core-0.6.0b0.tar.gz --markdown 20230622/m/multiversx-sdk-core/0.5.0-0.6.0b0/diff.md --exclude *.pyd
+[2023-06-22 10:39:47] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-06-22 10:39:47] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.2.5.tar.gz tmp/pyscemu-0.2.6.tar.gz --markdown 20230622/p/pyscemu/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-22 10:39:48] INFO root fetch - processPackages [asyncgraphs]: Remove: archive file [/home/abi/fetcher/tmp/asyncgraphs-0.0.3.tar.gz]
+[2023-06-22 10:39:48] INFO root fetch - processPackages [asyncgraphs]: Remove: archive file [/home/abi/fetcher/tmp/asyncgraphs-0.0.4.tar.gz]
+[2023-06-22 10:39:48] INFO root fetch - main [MainThread]: End processing [asyncgraphs]: success
+[2023-06-22 10:39:48] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.6.tar.gz]
+[2023-06-22 10:39:48] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.7.tar.gz]
+[2023-06-22 10:39:48] INFO root fetch - main [MainThread]: End processing [scrappeycom]: success
+[2023-06-22 10:39:48] INFO root fetch - processPackages [spacesense]: Remove: archive file [/home/abi/fetcher/tmp/spacesense-0.8.3-py3-none-any.whl.zip]
+[2023-06-22 10:39:48] INFO root fetch - processPackages [spacesense]: Remove: archive file [/home/abi/fetcher/tmp/spacesense-0.9.0-py3-none-any.whl.zip]
+[2023-06-22 10:39:48] INFO root fetch - main [MainThread]: End processing [spacesense]: success
+[2023-06-22 10:39:48] INFO root fetch - processPackages [multiversx-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_core-0.5.0.tar.gz]
+[2023-06-22 10:39:48] INFO root fetch - processPackages [multiversx-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_core-0.6.0b0.tar.gz]
+[2023-06-22 10:39:48] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-core]: success
+[2023-06-22 10:39:49] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-22 10:39:49] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-22 10:39:49] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-22 10:39:49] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_credit_control-14.0.1.4.0-py3-none-any.whl.zip]
+[2023-06-22 10:39:49] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_credit_control-14.0.1.5.0-py3-none-any.whl.zip]
+[2023-06-22 10:39:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-credit-control]: success
+[2023-06-22 10:39:49] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-22 10:39:49] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-22 10:39:49] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-22 10:39:50] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.2.5.tar.gz]
+[2023-06-22 10:39:50] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.2.6.tar.gz]
+[2023-06-22 10:39:50] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-06-22 10:39:50] INFO root fetch - main [MainThread]: Store serial: [18602460]
