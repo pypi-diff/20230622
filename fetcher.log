@@ -9125,3 +9125,42 @@
 [2023-06-22 03:49:34] INFO root fetch - processPackages [prfect]: Remove: archive file [/home/abi/fetcher/tmp/prfect-0.4.tar.gz]
 [2023-06-22 03:49:34] INFO root fetch - main [MainThread]: End processing [prfect]: success
 [2023-06-22 03:49:34] INFO root fetch - main [MainThread]: Store serial: [18600400]
+[2023-06-22 03:54:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600400]
+[2023-06-22 03:54:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 03:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpaca-eval
+[2023-06-22 03:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymino
+[2023-06-22 03:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moptipyapps
+[2023-06-22 03:54:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hatch-project-pypi-2
+[2023-06-22 03:54:43] INFO root fetch - processPackages [hatch-project-pypi-2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 03:54:43] INFO root fetch - processPackages [alpaca-eval]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-06-22 03:54:43] INFO root fetch - processPackages [moptipyapps]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-22 03:54:43] INFO root fetch - processPackages [pymino]: New version: [1.2.1.6] Old Version: [1.2.1.5]
+[2023-06-22 03:54:43] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/cd/57/9c627c7c97e6e6592ab5007c9fda780442373b1638e35a9a952ff25e9041/pymino-1.2.1.5.tar.gz
+[2023-06-22 03:54:43] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/aa/4b/0356aadf22e8fa09b452c5969144411ecd2f85836816e681f5d097e04a4f/alpaca_eval-0.1.3.tar.gz
+[2023-06-22 03:54:43] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/f1/a7/fa1f883b6f638fac77a2d8861296e19e7c89e4bb172521f6e5875b8f69b5/hatch_project_pypi_2-0.0.4.tar.gz
+[2023-06-22 03:54:43] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/34/72/9b4869adee6e3783be1570c124adef38a9fce5375eb2cd7b5ec6daed538c/moptipyapps-0.8.4.tar.gz
+[2023-06-22 03:54:43] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/29/2d/2612e5d5d3948bbe2f6e7b6d1ae30e6b56b2b581aca1bb62063701ce7901/hatch_project_pypi_2-0.0.5.tar.gz
+[2023-06-22 03:54:43] INFO root fetch - processPackages [hatch-project-pypi-2]: executing diffoscope
+[2023-06-22 03:54:43] INFO root fetch - processPackages [hatch-project-pypi-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi_2-0.0.4.tar.gz tmp/hatch_project_pypi_2-0.0.5.tar.gz --markdown 20230622/h/hatch-project-pypi-2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 03:54:43] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/5e/48/60d2b593127537105bba3096d312bfacb5fb59763c45179e7951a23d458b/pymino-1.2.1.6.tar.gz
+[2023-06-22 03:54:43] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/18/8a/d423f1d1aec1cb7bfae8e05c5bc42f6cef1d8a25f7f16a8e62273722d3f1/alpaca_eval-0.1.5.tar.gz
+[2023-06-22 03:54:44] INFO root fetch - processPackages [alpaca-eval]: executing diffoscope
+[2023-06-22 03:54:44] INFO root fetch - processPackages [alpaca-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_eval-0.1.3.tar.gz tmp/alpaca_eval-0.1.5.tar.gz --markdown 20230622/a/alpaca-eval/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-06-22 03:54:44] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-22 03:54:44] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.5.tar.gz tmp/pymino-1.2.1.6.tar.gz --markdown 20230622/p/pymino/1.2.1.5-1.2.1.6/diff.md --exclude *.pyd
+[2023-06-22 03:54:44] INFO root fetch - processPackages [moptipyapps]: Downloading https://files.pythonhosted.org/packages/17/db/b6b0dd44eda6a196d6443840a3f73283fefcbd0e6d7960dd1deb24204a1c/moptipyapps-0.8.5.tar.gz
+[2023-06-22 03:54:44] INFO root fetch - processPackages [moptipyapps]: executing diffoscope
+[2023-06-22 03:54:44] INFO root fetch - processPackages [moptipyapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipyapps-0.8.4.tar.gz tmp/moptipyapps-0.8.5.tar.gz --markdown 20230622/m/moptipyapps/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-22 03:54:44] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.4.tar.gz]
+[2023-06-22 03:54:44] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.5.tar.gz]
+[2023-06-22 03:54:44] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi-2]: success
+[2023-06-22 03:54:45] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.5.tar.gz]
+[2023-06-22 03:54:45] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.6.tar.gz]
+[2023-06-22 03:54:45] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-22 03:54:45] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.1.3.tar.gz]
+[2023-06-22 03:54:45] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.1.5.tar.gz]
+[2023-06-22 03:54:45] INFO root fetch - main [MainThread]: End processing [alpaca-eval]: success
+[2023-06-22 03:54:46] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.4.tar.gz]
+[2023-06-22 03:54:46] INFO root fetch - processPackages [moptipyapps]: Remove: archive file [/home/abi/fetcher/tmp/moptipyapps-0.8.5.tar.gz]
+[2023-06-22 03:54:46] INFO root fetch - main [MainThread]: End processing [moptipyapps]: success
+[2023-06-22 03:54:46] INFO root fetch - main [MainThread]: Store serial: [18600414]
