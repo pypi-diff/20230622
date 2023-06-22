@@ -9220,3 +9220,41 @@
 [2023-06-22 04:05:08] INFO root fetch - processPackages [seqchromloader]: Remove: archive file [/home/abi/fetcher/tmp/seqchromloader-0.6.1.tar.gz]
 [2023-06-22 04:05:08] INFO root fetch - main [MainThread]: End processing [seqchromloader]: success
 [2023-06-22 04:05:08] INFO root fetch - main [MainThread]: Store serial: [18600439]
+[2023-06-22 04:10:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600439]
+[2023-06-22 04:10:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 04:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultranest
+[2023-06-22 04:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elm-framework-helpers
+[2023-06-22 04:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prfect
+[2023-06-22 04:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-alicloud
+[2023-06-22 04:10:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libs-n-utils-package-uq-2022
+[2023-06-22 04:10:17] INFO root fetch - processPackages [elm-framework-helpers]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-06-22 04:10:17] WARNING root fetch - processPackages [libs-n-utils-package-uq-2022]: Skipping, unable to determine old version
+[2023-06-22 04:10:17] INFO root fetch - main [MainThread]: End processing [libs-n-utils-package-uq-2022] error
+[2023-06-22 04:10:17] INFO root fetch - processPackages [ultranest]: New version: [3.6.0] Old Version: [3.5.7]
+[2023-06-22 04:10:17] INFO root fetch - processPackages [prfect]: New version: [0.4] Old Version: [0.35]
+[2023-06-22 04:10:17] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-06-22 04:10:17] INFO root fetch - processPackages [prfect]: Downloading https://files.pythonhosted.org/packages/35/5f/a1feb8894818ec6ced27bff959715bf7bd9d064f9efaafa1085bcccb1f94/prfect-0.35.tar.gz
+[2023-06-22 04:10:17] INFO root fetch - processPackages [elm-framework-helpers]: Downloading https://files.pythonhosted.org/packages/92/fd/ba61e08969918eed6dfb8afeca202e4fac12df7ca7cbd2720b8ea5834b57/elm_framework_helpers-0.2.7.tar.gz
+[2023-06-22 04:10:17] INFO root fetch - processPackages [ultranest]: Downloading https://files.pythonhosted.org/packages/05/4e/97c78b6994c73760d21d175529c25a8bac5646acbfde2020988774b888b9/ultranest-3.5.7.tar.gz
+[2023-06-22 04:10:17] WARNING root fetch - processPackages [ultranest]: Skipping package: exceeds size limit 21109987>=10485760
+[2023-06-22 04:10:17] INFO root fetch - main [MainThread]: End processing [ultranest] error
+[2023-06-22 04:10:17] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2023-06-22 04:10:17] INFO root fetch - processPackages [elm-framework-helpers]: Downloading https://files.pythonhosted.org/packages/42/bb/783389e6fc4ce79d724729e7904d429284388155832692ccd508a275cb22/elm_framework_helpers-0.3.0.tar.gz
+[2023-06-22 04:10:18] INFO root fetch - processPackages [elm-framework-helpers]: executing diffoscope
+[2023-06-22 04:10:18] INFO root fetch - processPackages [elm-framework-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm_framework_helpers-0.2.7.tar.gz tmp/elm_framework_helpers-0.3.0.tar.gz --markdown 20230622/e/elm-framework-helpers/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 04:10:18] INFO root fetch - processPackages [prfect]: Downloading https://files.pythonhosted.org/packages/73/04/d85e08d5bfd489b49ebb22b764fdaa9a8b389db5c4eb920c925f8ea204bc/prfect-0.4.tar.gz
+[2023-06-22 04:10:18] INFO root fetch - processPackages [prfect]: executing diffoscope
+[2023-06-22 04:10:18] INFO root fetch - processPackages [prfect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prfect-0.35.tar.gz tmp/prfect-0.4.tar.gz --markdown 20230622/p/prfect/0.35-0.4/diff.md --exclude *.pyd
+[2023-06-22 04:10:19] INFO root fetch - processPackages [elm-framework-helpers]: Remove: archive file [/home/abi/fetcher/tmp/elm_framework_helpers-0.2.7.tar.gz]
+[2023-06-22 04:10:19] INFO root fetch - processPackages [elm-framework-helpers]: Remove: archive file [/home/abi/fetcher/tmp/elm_framework_helpers-0.3.0.tar.gz]
+[2023-06-22 04:10:19] INFO root fetch - main [MainThread]: End processing [elm-framework-helpers]: success
+[2023-06-22 04:10:19] INFO root fetch - processPackages [prfect]: Remove: archive file [/home/abi/fetcher/tmp/prfect-0.35.tar.gz]
+[2023-06-22 04:10:19] INFO root fetch - processPackages [prfect]: Remove: archive file [/home/abi/fetcher/tmp/prfect-0.4.tar.gz]
+[2023-06-22 04:10:19] INFO root fetch - main [MainThread]: End processing [prfect]: success
+[2023-06-22 04:10:20] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2023-06-22 04:10:20] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-06-22 04:10:20] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230622/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-06-22 04:10:47] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2023-06-22 04:10:47] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2023-06-22 04:10:47] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-06-22 04:10:47] INFO root fetch - main [MainThread]: Store serial: [18600452]
