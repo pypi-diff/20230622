@@ -14707,3 +14707,112 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:45:13] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-06-22 10:45:13] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-22 10:45:13] INFO root fetch - main [MainThread]: Store serial: [18602506]
+[2023-06-22 10:50:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602506]
+[2023-06-22 10:50:22] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thipster
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-upwork-oauth2
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marchie
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pers
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: math-econ-code
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: energyid-webhooks
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FlowAnalyzer
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py4ami
+[2023-06-22 10:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-axes
+[2023-06-22 10:50:22] WARNING root fetch - processPackages [marchie]: Skipping, unable to determine old version
+[2023-06-22 10:50:22] INFO root fetch - processPackages [marchie]: Start processing: gpt-engineer
+[2023-06-22 10:50:22] INFO root fetch - main [MainThread]: End processing [marchie] error
+[2023-06-22 10:50:22] INFO root fetch - processPackages [python-upwork-oauth2]: New version: [3.1.0] Old Version: [3.0.4]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [energyid-webhooks]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [lollms]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [math-econ-code]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [pers]: New version: [0.2.2] Old Version: [0.1.4]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [gpt-engineer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [py4ami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [django-axes]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [thipster]: New version: [0.17.6] Old Version: [0.17.5]
+[2023-06-22 10:50:22] INFO root fetch - processPackages [math-econ-code]: Downloading https://files.pythonhosted.org/packages/3f/8a/1efe376acf559dbf0e67957611ecada445f54b4865bc150a2bfc79e909db/math_econ_code-0.1.tar.gz
+[2023-06-22 10:50:22] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/fe/3d/85cbf5d99367a136ba4a9f76c11b9b36b75a37c1f317ca08c18bb879251d/lollms-2.0.8.tar.gz
+[2023-06-22 10:50:22] INFO root fetch - processPackages [FlowAnalyzer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-22 10:50:23] INFO root fetch - processPackages [py4ami]: Downloading https://files.pythonhosted.org/packages/c5/19/fd72b8e353daaae6dce12807e4727231323c1eb920f6f081e58828435702/py4ami-0.0.8.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/33/a7/3390a4ba10f59a4ef7277dd251dbab1fddd923e3479c569f47f58babcc11/thipster-0.17.5.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/04/60/76bf0de5c1627ed3bbbbc93fecea9e1f48e9d920c95428db8b9f8de92cad/django-axes-6.0.3.tar.gz
+[2023-06-22 10:50:23] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31791875>=10485760
+[2023-06-22 10:50:23] INFO root fetch - processPackages [lollms]: Start processing: kmer-mapper
+[2023-06-22 10:50:23] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-22 10:50:23] WARNING root fetch - processPackages [py4ami]: Skipping package: exceeds size limit 16331081>=10485760
+[2023-06-22 10:50:23] INFO root fetch - processPackages [py4ami]: Start processing: power-grid-model
+[2023-06-22 10:50:23] INFO root fetch - main [MainThread]: End processing [py4ami] error
+[2023-06-22 10:50:23] INFO root fetch - processPackages [FlowAnalyzer]: Downloading https://files.pythonhosted.org/packages/91/8b/f0366c040a84b653ea5848da4cb750f3443b748a438ee7d081d825aa306a/FlowAnalyzer-0.1.5.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [kmer-mapper]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-22 10:50:23] INFO root fetch - processPackages [energyid-webhooks]: Downloading https://files.pythonhosted.org/packages/06/1d/1eebd429e5fe81c6f8d7464a7a4e2a739f38d30726bbd9edacbf42011498/energyid-webhooks-0.0.5.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [python-upwork-oauth2]: Downloading https://files.pythonhosted.org/packages/76/f7/53f75f78f5eea3a7edf7318ce9d9f44a8bce9ce90133dce31225261eece8/python-upwork-oauth2-3.0.4.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [math-econ-code]: Downloading https://files.pythonhosted.org/packages/7d/b9/f414888a521f9b95101ab0190024123c4c6724b65f84e6b5218becadac39/math_econ_code-0.1.1.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [pers]: Downloading https://files.pythonhosted.org/packages/07/4f/8f5f442036193c7fe18a88120ea25f5e8b616b535e3576bec343fbe73ab3/pers-0.1.4.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/8c/62/f406c95f2ef688d890a7678277df353c941cedd6d3f3e5a6351d926c51d2/gpt-engineer-0.0.4.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9183710847250] Old Version: [1.5.0rc9183513819989]
+[2023-06-22 10:50:23] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/03/12/2ec3f067d88fc7617adb989382b8c45334975416544e6ef65175608d340f/thipster-0.17.6.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [math-econ-code]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [math-econ-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/math_econ_code-0.1.tar.gz tmp/math_econ_code-0.1.1.tar.gz --markdown 20230622/m/math-econ-code/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/0d/58/750f3232b5f982c87c4f9df8e0d329fbe75d51d60032f85022d4a0876459/power-grid-model-1.5.0rc9183513819989.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [FlowAnalyzer]: Downloading https://files.pythonhosted.org/packages/d6/3d/357eeb65f0484a827853f0b2be85b3744dfbacaea5cf7b1c05a4f9bbb148/FlowAnalyzer-0.1.6.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/cd/ec/868eb3ab4370146f3b04c586090a5d102946894a4355c251d324d5626c3e/django-axes-6.0.4.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [kmer-mapper]: Downloading https://files.pythonhosted.org/packages/67/de/065161040da5b82930fc7d0c98ce926271dc4176db30c834b01701d3aae8/kmer_mapper-0.0.7.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [pers]: Downloading https://files.pythonhosted.org/packages/9c/b2/706f57d751da68f4928e85d843962649577300fa10fa52cbb687b6e5a630/pers-0.2.2.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [python-upwork-oauth2]: Downloading https://files.pythonhosted.org/packages/67/c5/0218a170b250da3a216951efe0fa657569d40b7bc3e25388e33b8a9b90d6/python-upwork-oauth2-3.1.0.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [energyid-webhooks]: Downloading https://files.pythonhosted.org/packages/53/1f/e11f1605c2cc6f443a729f3c063e8389de04ae8d71e1d63e5ba3d41d7525/energyid-webhooks-0.0.6.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [FlowAnalyzer]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [FlowAnalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowAnalyzer-0.1.5.tar.gz tmp/FlowAnalyzer-0.1.6.tar.gz --markdown 20230622/F/FlowAnalyzer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/29/3c/2d2f3ad6f4a36c6d1fd4823cacfe4c0f8d9b0900807ca0c85572b3cdc323/gpt-engineer-0.0.5.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [django-axes]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [django-axes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-axes-6.0.3.tar.gz tmp/django-axes-6.0.4.tar.gz --markdown 20230622/d/django-axes/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [gpt-engineer]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [gpt-engineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-engineer-0.0.4.tar.gz tmp/gpt-engineer-0.0.5.tar.gz --markdown 20230622/g/gpt-engineer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.17.5.tar.gz tmp/thipster-0.17.6.tar.gz --markdown 20230622/t/thipster/0.17.5-0.17.6/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [python-upwork-oauth2]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [pers]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [python-upwork-oauth2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-upwork-oauth2-3.0.4.tar.gz tmp/python-upwork-oauth2-3.1.0.tar.gz --markdown 20230622/p/python-upwork-oauth2/3.0.4-3.1.0/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [pers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pers-0.1.4.tar.gz tmp/pers-0.2.2.tar.gz --markdown 20230622/p/pers/0.1.4-0.2.2/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [energyid-webhooks]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [energyid-webhooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energyid-webhooks-0.0.5.tar.gz tmp/energyid-webhooks-0.0.6.tar.gz --markdown 20230622/e/energyid-webhooks/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-22 10:50:23] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/a5/42/4db23a956832bd3dd8a708bc7c3e061bfdeb580a2f0a1ecb864baf22f50b/power-grid-model-1.5.0rc9183710847250.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [kmer-mapper]: Downloading https://files.pythonhosted.org/packages/46/53/2b96885d604f85de8af875a260e74644e920cfcda7dacdd7183819bacd85/kmer_mapper-0.0.9.tar.gz
+[2023-06-22 10:50:23] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-22 10:50:23] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9183513819989.tar.gz tmp/power-grid-model-1.5.0rc9183710847250.tar.gz --markdown 20230622/p/power-grid-model/1.5.0rc9183513819989-1.5.0rc9183710847250/diff.md --exclude *.pyd
+[2023-06-22 10:50:24] INFO root fetch - processPackages [kmer-mapper]: executing diffoscope
+[2023-06-22 10:50:24] INFO root fetch - processPackages [kmer-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmer_mapper-0.0.7.tar.gz tmp/kmer_mapper-0.0.9.tar.gz --markdown 20230622/k/kmer-mapper/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:50:24] INFO root fetch - processPackages [math-econ-code]: Remove: archive file [/home/abi/fetcher/tmp/math_econ_code-0.1.tar.gz]
+[2023-06-22 10:50:24] INFO root fetch - processPackages [math-econ-code]: Remove: archive file [/home/abi/fetcher/tmp/math_econ_code-0.1.1.tar.gz]
+[2023-06-22 10:50:24] INFO root fetch - processPackages [math-econ-code]: Start processing: veli-kafka-client
+[2023-06-22 10:50:24] INFO root fetch - main [MainThread]: End processing [math-econ-code]: success
+[2023-06-22 10:50:24] WARNING root fetch - processPackages [veli-kafka-client]: Skipping, unable to determine old version
+[2023-06-22 10:50:24] INFO root fetch - main [MainThread]: End processing [veli-kafka-client] error
+[2023-06-22 10:50:24] INFO root fetch - processPackages [FlowAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/FlowAnalyzer-0.1.5.tar.gz]
+[2023-06-22 10:50:24] INFO root fetch - processPackages [FlowAnalyzer]: Remove: archive file [/home/abi/fetcher/tmp/FlowAnalyzer-0.1.6.tar.gz]
+[2023-06-22 10:50:24] INFO root fetch - main [MainThread]: End processing [FlowAnalyzer]: success
+[2023-06-22 10:50:25] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.4.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.5.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - main [MainThread]: End processing [gpt-engineer]: success
+[2023-06-22 10:50:25] INFO root fetch - processPackages [energyid-webhooks]: Remove: archive file [/home/abi/fetcher/tmp/energyid-webhooks-0.0.5.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - processPackages [energyid-webhooks]: Remove: archive file [/home/abi/fetcher/tmp/energyid-webhooks-0.0.6.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - main [MainThread]: End processing [energyid-webhooks]: success
+[2023-06-22 10:50:25] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.5.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.17.6.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-22 10:50:25] INFO root fetch - processPackages [pers]: Remove: archive file [/home/abi/fetcher/tmp/pers-0.1.4.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - processPackages [pers]: Remove: archive file [/home/abi/fetcher/tmp/pers-0.2.2.tar.gz]
+[2023-06-22 10:50:25] INFO root fetch - main [MainThread]: End processing [pers]: success
+[2023-06-22 10:50:26] INFO root fetch - processPackages [kmer-mapper]: Remove: archive file [/home/abi/fetcher/tmp/kmer_mapper-0.0.7.tar.gz]
+[2023-06-22 10:50:26] INFO root fetch - processPackages [kmer-mapper]: Remove: archive file [/home/abi/fetcher/tmp/kmer_mapper-0.0.9.tar.gz]
+[2023-06-22 10:50:26] INFO root fetch - main [MainThread]: End processing [kmer-mapper]: success
+[2023-06-22 10:50:26] INFO root fetch - processPackages [python-upwork-oauth2]: Remove: archive file [/home/abi/fetcher/tmp/python-upwork-oauth2-3.0.4.tar.gz]
+[2023-06-22 10:50:26] INFO root fetch - processPackages [python-upwork-oauth2]: Remove: archive file [/home/abi/fetcher/tmp/python-upwork-oauth2-3.1.0.tar.gz]
+[2023-06-22 10:50:26] INFO root fetch - main [MainThread]: End processing [python-upwork-oauth2]: success
+[2023-06-22 10:50:27] INFO root fetch - processPackages [django-axes]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-6.0.3.tar.gz]
+[2023-06-22 10:50:27] INFO root fetch - processPackages [django-axes]: Remove: archive file [/home/abi/fetcher/tmp/django-axes-6.0.4.tar.gz]
+[2023-06-22 10:50:27] INFO root fetch - main [MainThread]: End processing [django-axes]: success
+[2023-06-22 10:50:29] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9183513819989.tar.gz]
+[2023-06-22 10:50:29] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9183710847250.tar.gz]
+[2023-06-22 10:50:29] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-22 10:50:29] INFO root fetch - main [MainThread]: Store serial: [18602554]
