@@ -15407,3 +15407,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 11:12:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306220909-py3-none-any.whl.zip]
 [2023-06-22 11:12:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-22 11:12:02] INFO root fetch - main [MainThread]: Store serial: [18602807]
+[2023-06-22 11:17:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602807]
+[2023-06-22 11:17:12] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebook
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eoreader
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: breeze-strategies
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: censius
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skypatrol
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zalando-kubectl
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apigeecli
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SqliteOrmMagic
+[2023-06-22 11:17:12] INFO root fetch - processPackages [notebook]: New version: [7.0.0rc1] Old Version: [7.0.0rc0]
+[2023-06-22 11:17:12] INFO root fetch - processPackages [eoreader]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-22 11:17:12] INFO root fetch - processPackages [skypatrol]: New version: [0.6.8] Old Version: [0.6.5]
+[2023-06-22 11:17:12] INFO root fetch - processPackages [censius]: New version: [1.7.3] Old Version: [1.7.1]
+[2023-06-22 11:17:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202306220916] Old Version: [99.0.202306220911]
+[2023-06-22 11:17:12] WARNING root fetch - processPackages [SqliteOrmMagic]: Skipping, unable to determine old version
+[2023-06-22 11:17:12] INFO root fetch - processPackages [SqliteOrmMagic]: Start processing: testkafkainitialcleint
+[2023-06-22 11:17:12] INFO root fetch - main [MainThread]: End processing [SqliteOrmMagic] error
+[2023-06-22 11:17:12] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-06-22 11:17:12] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2023-06-22 11:17:12] INFO root fetch - processPackages [apigeecli]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-22 11:17:12] WARNING root fetch - processPackages [testkafkainitialcleint]: Skipping, unable to determine old version
+[2023-06-22 11:17:12] INFO root fetch - processPackages [testkafkainitialcleint]: Start processing: ansys-api-pyensight
+[2023-06-22 11:17:12] INFO root fetch - main [MainThread]: End processing [testkafkainitialcleint] error
+[2023-06-22 11:17:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202306220913] Old Version: [99.0.202306220909]
+[2023-06-22 11:17:12] ERROR root fetch - processPackages [ansys-api-pyensight]: Unable to get metadata: No such project 'ansys-api-pyensight'
+[2023-06-22 11:17:12] INFO root fetch - processPackages [ansys-api-pyensight]: Start processing: kfish
+[2023-06-22 11:17:12] INFO root fetch - main [MainThread]: End processing [ansys-api-pyensight] error
+[2023-06-22 11:17:12] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/58/fd/d81db4f3279f502d4640610c24d66127c3efa3d206935cbef8d13e25c483/breeze_strategies-6.0.5.tar.gz
+[2023-06-22 11:17:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/9c/bc/65a623389031813b78138920516fff981d94cd93106fc0f945cf02b22422/kcli-99.0.202306220909-py3-none-any.whl
+[2023-06-22 11:17:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202306220916] Old Version: [99.0.202306220911]
+[2023-06-22 11:17:12] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/50/d9/0fdd56e2628389a2388e1a1fe88e97746d098ad894457b269c260dc807b2/skypatrol-0.6.5.tar.gz
+[2023-06-22 11:17:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a8/f5/87ddab77fdf6f80c6cee4875343094a9a845d80324a9b5219f26dc89a461/kfish-99.0.202306220911-py3-none-any.whl
+[2023-06-22 11:17:12] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/34/49/ad5172fc8230ed875a6db856d94a733ce410dc1645d7be0e70b7c9b6c00b/censius-1.7.1.tar.gz
+[2023-06-22 11:17:12] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/c7/e0/fb693217263f895d852a32789b66ce292969d3e875b44ceb10e1f99b47b5/notebook-7.0.0rc0.tar.gz
+[2023-06-22 11:17:12] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2023-06-22 11:17:12] INFO root fetch - processPackages [apigeecli]: Downloading https://files.pythonhosted.org/packages/1b/d9/46852ec119db83d37ce11b53ffffcb750084883bd5e5421ae5fc05fb92ab/apigeecli-0.8.3.tar.gz
+[2023-06-22 11:17:12] INFO root fetch - processPackages [eoreader]: Downloading https://files.pythonhosted.org/packages/aa/93/2526755e5e5c071b3dd1c998a47aee62dae3ad3909ed36ea6c9b45953cd7/eoreader-0.9.4.tar.gz
+[2023-06-22 11:17:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a8/f5/87ddab77fdf6f80c6cee4875343094a9a845d80324a9b5219f26dc89a461/kfish-99.0.202306220911-py3-none-any.whl
+[2023-06-22 11:17:12] WARNING root fetch - processPackages [eoreader]: Skipping package: exceeds size limit 11498903>=10485760
+[2023-06-22 11:17:12] INFO root fetch - processPackages [eoreader]: Start processing: python-worker
+[2023-06-22 11:17:12] INFO root fetch - main [MainThread]: End processing [eoreader] error
+[2023-06-22 11:17:13] INFO root fetch - processPackages [python-worker]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-22 11:17:13] INFO root fetch - processPackages [censius]: Downloading https://files.pythonhosted.org/packages/e9/f6/bb66cd942e498eed8513db37c262d7e0c8b13976812efcf82c29674305f9/censius-1.7.3.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f6/ab/b1557b9f0224f1a6eeb9cc327dd5d556e6654df77e3809a6110c041af43e/kcli-99.0.202306220913-py3-none-any.whl
+[2023-06-22 11:17:13] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/eb/53/48871ecb178421c06b5b3aa631d10d454587a871924ff8888d36a56b3ccd/breeze_strategies-6.0.6.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/99/dc/d0cb589b24f493121d736cc59043b9aeaddd447c7646bd7742e087e0f03f/kfish-99.0.202306220916-py3-none-any.whl
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/99/dc/d0cb589b24f493121d736cc59043b9aeaddd447c7646bd7742e087e0f03f/kfish-99.0.202306220916-py3-none-any.whl
+[2023-06-22 11:17:13] INFO root fetch - processPackages [python-worker]: Downloading https://files.pythonhosted.org/packages/97/2b/1919167fa3f973eb6b882dc536ab048db494720717fe413983fbe3fa8872/python-worker-2.2.0.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [censius]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [censius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censius-1.7.1.tar.gz tmp/censius-1.7.3.tar.gz --markdown 20230622/c/censius/1.7.1-1.7.3/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/98/a4/399111d1f22562cf4a3205364ea3172ceb9f4fe59f5cf5f1634961ac9aa6/skypatrol-0.6.8.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.5.tar.gz tmp/breeze_strategies-6.0.6.tar.gz --markdown 20230622/b/breeze-strategies/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306220911-py3-none-any.whl.zip tmp/kfish-99.0.202306220916-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306220911-99.0.202306220916/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306220911-py3-none-any.whl.zip tmp/kfish-99.0.202306220916-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306220911-99.0.202306220916/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [apigeecli]: Downloading https://files.pythonhosted.org/packages/3c/d7/b28bf20f333e5f498af7eefd8b5ea532b5f02538dfdf857ed8caaaa0bd76/apigeecli-0.9.0.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [notebook]: Downloading https://files.pythonhosted.org/packages/60/5d/3ca5488dde0ac59e239d7979ef1b110186ef495cafab6ce823121c2a800f/notebook-7.0.0rc1.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [skypatrol]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [skypatrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypatrol-0.6.5.tar.gz tmp/skypatrol-0.6.8.tar.gz --markdown 20230622/s/skypatrol/0.6.5-0.6.8/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20230622/z/zalando-kubectl/1.9.3.45-1.9.3.46/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [apigeecli]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [apigeecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apigeecli-0.8.3.tar.gz tmp/apigeecli-0.9.0.tar.gz --markdown 20230622/a/apigeecli/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [python-worker]: Downloading https://files.pythonhosted.org/packages/27/f5/9207531ced43ca50903361022d354d68d87e036e9fd2cbc361e052657a99/python-worker-2.2.1.tar.gz
+[2023-06-22 11:17:13] INFO root fetch - processPackages [python-worker]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [python-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-worker-2.2.0.tar.gz tmp/python-worker-2.2.1.tar.gz --markdown 20230622/p/python-worker/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306220909-py3-none-any.whl.zip tmp/kcli-99.0.202306220913-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306220909-99.0.202306220913/diff.md --exclude *.pyd
+[2023-06-22 11:17:13] INFO root fetch - processPackages [notebook]: executing diffoscope
+[2023-06-22 11:17:13] INFO root fetch - processPackages [notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebook-7.0.0rc0.tar.gz tmp/notebook-7.0.0rc1.tar.gz --markdown 20230622/n/notebook/7.0.0rc0-7.0.0rc1/diff.md --exclude *.pyd
+[2023-06-22 11:17:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306220911-py3-none-any.whl.zip]
+[2023-06-22 11:17:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306220916-py3-none-any.whl.zip]
+[2023-06-22 11:17:14] INFO root fetch - processPackages [kfish]: Start processing: wizata-dsapi
+[2023-06-22 11:17:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 11:17:14] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.5.tar.gz]
+[2023-06-22 11:17:14] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.6.tar.gz]
+[2023-06-22 11:17:14] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-22 11:17:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 11:17:15] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-22 11:17:15] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.5.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.8.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - main [MainThread]: End processing [skypatrol]: success
+[2023-06-22 11:17:15] INFO root fetch - processPackages [apigeecli]: Remove: archive file [/home/abi/fetcher/tmp/apigeecli-0.8.3.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - processPackages [apigeecli]: Remove: archive file [/home/abi/fetcher/tmp/apigeecli-0.9.0.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - main [MainThread]: End processing [apigeecli]: success
+[2023-06-22 11:17:15] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-22 11:17:15] INFO root fetch - processPackages [censius]: Remove: archive file [/home/abi/fetcher/tmp/censius-1.7.1.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - processPackages [censius]: Remove: archive file [/home/abi/fetcher/tmp/censius-1.7.3.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - main [MainThread]: End processing [censius]: success
+[2023-06-22 11:17:15] INFO root fetch - processPackages [python-worker]: Remove: archive file [/home/abi/fetcher/tmp/python-worker-2.2.0.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - processPackages [python-worker]: Remove: archive file [/home/abi/fetcher/tmp/python-worker-2.2.1.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - main [MainThread]: End processing [python-worker]: success
+[2023-06-22 11:17:15] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2023-06-22 11:17:15] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2023-06-22 11:17:15] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-22 11:17:15] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-22 11:17:15] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230622/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-22 11:17:16] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-22 11:17:16] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-22 11:17:16] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-22 11:17:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306220909-py3-none-any.whl.zip]
+[2023-06-22 11:17:23] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306220913-py3-none-any.whl.zip]
+[2023-06-22 11:17:23] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 11:17:26] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc0.tar.gz]
+[2023-06-22 11:17:26] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc1.tar.gz]
+[2023-06-22 11:17:26] INFO root fetch - main [MainThread]: End processing [notebook]: success
+[2023-06-22 11:17:26] INFO root fetch - main [MainThread]: Store serial: [18602913]
