@@ -9258,3 +9258,36 @@
 [2023-06-22 04:10:47] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
 [2023-06-22 04:10:47] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-06-22 04:10:47] INFO root fetch - main [MainThread]: Store serial: [18600452]
+[2023-06-22 04:15:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600452]
+[2023-06-22 04:15:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 04:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cgt
+[2023-06-22 04:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pfizer-components
+[2023-06-22 04:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embaas
+[2023-06-22 04:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rq
+[2023-06-22 04:15:57] INFO root fetch - processPackages [pfizer-components]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-22 04:15:57] INFO root fetch - processPackages [cgt]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-06-22 04:15:57] INFO root fetch - processPackages [rq]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-22 04:15:57] WARNING root fetch - processPackages [embaas]: Skipping, unable to determine old version
+[2023-06-22 04:15:57] INFO root fetch - main [MainThread]: End processing [embaas] error
+[2023-06-22 04:15:57] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/ec/66/e98d6b6e0169cf8fc23648257643affa3c5b8c4197e3fdd23cfc3423e5e8/pfizer_components-0.2.2-py3-none-any.whl
+[2023-06-22 04:15:57] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/28/8d/f60c3fb04e630027e49e958ba825f2dff114f846b17bc7755fe9f894e63a/cgt-0.1.8.tar.gz
+[2023-06-22 04:15:57] INFO root fetch - processPackages [rq]: Downloading https://files.pythonhosted.org/packages/f2/8f/2a63a51079ed5903496c113b2a4bda5fe91e748d6c00d4a533f2d901b9d8/rq-1.8.1.tar.gz
+[2023-06-22 04:15:57] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/8d/b8/c6de081a8d5b4e0b0dd046bd652e97307536d4e468aca69edf756e3e5953/pfizer_components-0.2.3-py3-none-any.whl
+[2023-06-22 04:15:57] INFO root fetch - processPackages [cgt]: Downloading https://files.pythonhosted.org/packages/c7/24/053cebf2131a799b32e05b35ed9195711213f77308ac4f1815c88be9b03b/cgt-0.2.0.tar.gz
+[2023-06-22 04:15:57] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-22 04:15:57] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.2.2-py3-none-any.whl.zip tmp/pfizer_components-0.2.3-py3-none-any.whl.zip --markdown 20230622/p/pfizer-components/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-22 04:15:57] INFO root fetch - processPackages [cgt]: executing diffoscope
+[2023-06-22 04:15:57] INFO root fetch - processPackages [cgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgt-0.1.8.tar.gz tmp/cgt-0.2.0.tar.gz --markdown 20230622/c/cgt/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 04:15:58] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.1.8.tar.gz]
+[2023-06-22 04:15:58] INFO root fetch - processPackages [cgt]: Remove: archive file [/home/abi/fetcher/tmp/cgt-0.2.0.tar.gz]
+[2023-06-22 04:15:58] INFO root fetch - main [MainThread]: End processing [cgt]: success
+[2023-06-22 04:15:59] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.2-py3-none-any.whl.zip]
+[2023-06-22 04:15:59] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.2.3-py3-none-any.whl.zip]
+[2023-06-22 04:15:59] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-22 04:15:59] INFO root fetch - processPackages [rq]: Downloading https://files.pythonhosted.org/packages/e9/20/97f8e3e0b73382d4708880f27683b0d93c0426360ff1ece2c02591e1f265/rq-1.9.0.tar.gz
+[2023-06-22 04:15:59] INFO root fetch - processPackages [rq]: executing diffoscope
+[2023-06-22 04:15:59] INFO root fetch - processPackages [rq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rq-1.8.1.tar.gz tmp/rq-1.9.0.tar.gz --markdown 20230622/r/rq/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-22 04:16:01] INFO root fetch - processPackages [rq]: Remove: archive file [/home/abi/fetcher/tmp/rq-1.8.1.tar.gz]
+[2023-06-22 04:16:01] INFO root fetch - processPackages [rq]: Remove: archive file [/home/abi/fetcher/tmp/rq-1.9.0.tar.gz]
+[2023-06-22 04:16:01] INFO root fetch - main [MainThread]: End processing [rq]: success
+[2023-06-22 04:16:01] INFO root fetch - main [MainThread]: Store serial: [18600465]
