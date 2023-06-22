@@ -11992,3 +11992,66 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 07:43:50] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-4.1.0a1687411093.tar.gz]
 [2023-06-22 07:43:50] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-06-22 07:43:50] INFO root fetch - main [MainThread]: Store serial: [18601447]
+[2023-06-22 07:48:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601447]
+[2023-06-22 07:48:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peds-common
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyberdrop-dl
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snok
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipeline-viz
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hstrat
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tidy-tweet
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m-abac-test
+[2023-06-22 07:48:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SpLFastlyWrite
+[2023-06-22 07:48:59] INFO root fetch - processPackages [snok]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-22 07:48:59] INFO root fetch - processPackages [pipeline-viz]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 07:49:00] WARNING root fetch - processPackages [peds-common]: Skipping, unable to determine old version
+[2023-06-22 07:49:00] INFO root fetch - main [MainThread]: End processing [peds-common] error
+[2023-06-22 07:49:00] INFO root fetch - processPackages [tidy-tweet]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2023-06-22 07:49:00] INFO root fetch - processPackages [hstrat]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-22 07:49:00] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/92/6d/2042781502b583e38a97c0226392103d450fec8a016d44b5b43de316bf84/snok-0.0.6.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.98] Old Version: [4.2.97]
+[2023-06-22 07:49:00] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 07:49:00] WARNING root fetch - processPackages [SpLFastlyWrite]: Skipping, unable to determine old version
+[2023-06-22 07:49:00] INFO root fetch - main [MainThread]: End processing [SpLFastlyWrite] error
+[2023-06-22 07:49:00] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/cb/60/d2095f9d4308b726b00176e2e60657ad0bfaeffa35975d2f80e4ec0769a0/hstrat-1.7.3.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [pipeline-viz]: Downloading https://files.pythonhosted.org/packages/81/b9/9bcb13969bf32d18321e761b07037ae72313bd884d308a5f238ccc12213b/pipeline_viz-0.1.1.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/2c/ae/6136885586c18067299ad7b1611d00aa9971e254bfab9d74b81abad71510/cyberdrop-dl-4.2.97.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/83/21/d14c45c0689526dbee1c067103ef842c534350e4b398176dd66efbbbbb84/tidy_tweet-1.0.0a2.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/3e/45/9a9b373d3ccbefe96aed31aa9487a684ae40f17cda7119f7f6542536bbb6/snok-0.0.7.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-06-22 07:49:00] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.6.tar.gz tmp/snok-0.0.7.tar.gz --markdown 20230622/s/snok/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-22 07:49:00] INFO root fetch - processPackages [pipeline-viz]: Downloading https://files.pythonhosted.org/packages/af/0e/b8872a92d4fa868728d7fdcf514e7ebddcadd79765dec590672868d15cea/pipeline_viz-0.1.2.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [pipeline-viz]: executing diffoscope
+[2023-06-22 07:49:00] INFO root fetch - processPackages [pipeline-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_viz-0.1.1.tar.gz tmp/pipeline_viz-0.1.2.tar.gz --markdown 20230622/p/pipeline-viz/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 07:49:00] INFO root fetch - processPackages [hstrat]: Downloading https://files.pythonhosted.org/packages/c9/0d/58844d17b78cea126ddaed48df9ebd168bf32c6185ec0b0ca32580091642/hstrat-1.7.4.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-22 07:49:00] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.97.tar.gz tmp/cyberdrop-dl-4.2.98.tar.gz --markdown 20230622/c/cyberdrop-dl/4.2.97-4.2.98/diff.md --exclude *.pyd
+[2023-06-22 07:49:00] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/06/c6/84e93020913b2df71fa89200235515d67ace9b4752b126477d6d031fbad8/tidy_tweet-1.0.0a3.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-22 07:49:00] INFO root fetch - processPackages [hstrat]: executing diffoscope
+[2023-06-22 07:49:00] INFO root fetch - processPackages [hstrat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstrat-1.7.3.tar.gz tmp/hstrat-1.7.4.tar.gz --markdown 20230622/h/hstrat/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-22 07:49:00] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-22 07:49:00] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230622/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 07:49:00] INFO root fetch - processPackages [tidy-tweet]: executing diffoscope
+[2023-06-22 07:49:00] INFO root fetch - processPackages [tidy-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy_tweet-1.0.0a2.tar.gz tmp/tidy_tweet-1.0.0a3.tar.gz --markdown 20230622/t/tidy-tweet/1.0.0a2-1.0.0a3/diff.md --exclude *.pyd
+[2023-06-22 07:49:01] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.6.tar.gz]
+[2023-06-22 07:49:01] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.7.tar.gz]
+[2023-06-22 07:49:01] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-06-22 07:49:02] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.97.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-22 07:49:02] INFO root fetch - processPackages [pipeline-viz]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_viz-0.1.1.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - processPackages [pipeline-viz]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_viz-0.1.2.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - main [MainThread]: End processing [pipeline-viz]: success
+[2023-06-22 07:49:02] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a2.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a3.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - main [MainThread]: End processing [tidy-tweet]: success
+[2023-06-22 07:49:02] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-22 07:49:02] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-22 07:49:16] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.7.3.tar.gz]
+[2023-06-22 07:49:16] INFO root fetch - processPackages [hstrat]: Remove: archive file [/home/abi/fetcher/tmp/hstrat-1.7.4.tar.gz]
+[2023-06-22 07:49:16] INFO root fetch - main [MainThread]: End processing [hstrat]: success
+[2023-06-22 07:49:16] INFO root fetch - main [MainThread]: Store serial: [18601475]
