@@ -11123,3 +11123,56 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:25:44] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-06-22 06:25:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-06-22 06:25:44] INFO root fetch - main [MainThread]: Store serial: [18601057]
+[2023-06-22 06:30:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601057]
+[2023-06-22 06:30:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 06:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmdsky-debug-py
+[2023-06-22 06:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytak
+[2023-06-22 06:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyslim
+[2023-06-22 06:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyroFork-dev
+[2023-06-22 06:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyroFork-dev
+[2023-06-22 06:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyroFork-dev
+[2023-06-22 06:30:54] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.1.dev202306220430] Old Version: [2.2.1.dev202306220429]
+[2023-06-22 06:30:54] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.1.dev202306220430] Old Version: [2.2.1.dev202306220429]
+[2023-06-22 06:30:54] INFO root fetch - processPackages [pytak]: New version: [5.7.0b3] Old Version: [5.6.1]
+[2023-06-22 06:30:54] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.1.dev202306220430] Old Version: [2.2.1.dev202306220429]
+[2023-06-22 06:30:54] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-06-22 06:30:54] INFO root fetch - processPackages [pyslim]: New version: [1.0b1] Old Version: [1.0.3]
+[2023-06-22 06:30:54] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/84/52/041dde7417ab9d288c7bffc4309a8332694b16522ecf0891e6cc6540adae/PyroFork-dev-2.2.1.dev202306220429.tar.gz
+[2023-06-22 06:30:54] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/84/52/041dde7417ab9d288c7bffc4309a8332694b16522ecf0891e6cc6540adae/PyroFork-dev-2.2.1.dev202306220429.tar.gz
+[2023-06-22 06:30:54] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/84/52/041dde7417ab9d288c7bffc4309a8332694b16522ecf0891e6cc6540adae/PyroFork-dev-2.2.1.dev202306220429.tar.gz
+[2023-06-22 06:30:54] INFO root fetch - processPackages [pyslim]: Downloading https://files.pythonhosted.org/packages/1a/0a/91d51f4947b1c5dd4faa6b38f4cb9cd8383d939d310c59a4e32829b9bb13/pyslim-1.0.3.tar.gz
+[2023-06-22 06:30:54] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/a1/9f/4ebd43d37afd6d1cd3e56bf3b345ed7751f7c12b146aaa8c615bd68c4c14/pmdsky_debug_py-5.1.8-py3-none-any.whl
+[2023-06-22 06:30:54] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/9b/b9/9ca7f9206d94f1d97fb834d37c49ccec9189d5733e288846c0b799476973/pytak-5.6.1.tar.gz
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pytak]: Downloading https://files.pythonhosted.org/packages/d2/19/db09989c327d4daa9f4d3a34dc3e05f83ab469448e01a372a43317cfdcf3/pytak-5.7.0b3.tar.gz
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/f3/e0/97a33b8c585580f8c77a4a3e7f2931d869041959ad53a9859d01a4f88ae1/PyroFork-dev-2.2.1.dev202306220430.tar.gz
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pyslim]: Downloading https://files.pythonhosted.org/packages/c1/36/74d50735333ac34ab7d4835c200e08b8310878f51015dad630f4611e50d4/pyslim-1.0b1.tar.gz
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/f3/e0/97a33b8c585580f8c77a4a3e7f2931d869041959ad53a9859d01a4f88ae1/PyroFork-dev-2.2.1.dev202306220430.tar.gz
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/f3/e0/97a33b8c585580f8c77a4a3e7f2931d869041959ad53a9859d01a4f88ae1/PyroFork-dev-2.2.1.dev202306220430.tar.gz
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/cd/d0/996c9b5291bf25dba8c6f2d7fc1fa4fdc00a7a4cd70b642aeed357578680/pmdsky_debug_py-5.1.9-py3-none-any.whl
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pytak]: executing diffoscope
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pytak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytak-5.6.1.tar.gz tmp/pytak-5.7.0b3.tar.gz --markdown 20230622/p/pytak/5.6.1-5.7.0b3/diff.md --exclude *.pyd
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.1.dev202306220429.tar.gz tmp/PyroFork-dev-2.2.1.dev202306220430.tar.gz --markdown 20230622/P/PyroFork-dev/2.2.1.dev202306220429-2.2.1.dev202306220430/diff.md --exclude *.pyd
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.1.dev202306220429.tar.gz tmp/PyroFork-dev-2.2.1.dev202306220430.tar.gz --markdown 20230622/P/PyroFork-dev/2.2.1.dev202306220429-2.2.1.dev202306220430/diff.md --exclude *.pyd
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-22 06:30:55] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.1.dev202306220429.tar.gz tmp/PyroFork-dev-2.2.1.dev202306220430.tar.gz --markdown 20230622/P/PyroFork-dev/2.2.1.dev202306220429-2.2.1.dev202306220430/diff.md --exclude *.pyd
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip --markdown 20230622/p/pmdsky-debug-py/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pyslim]: executing diffoscope
+[2023-06-22 06:30:55] INFO root fetch - processPackages [pyslim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslim-1.0.3.tar.gz tmp/pyslim-1.0b1.tar.gz --markdown 20230622/p/pyslim/1.0.3-1.0b1/diff.md --exclude *.pyd
+[2023-06-22 06:30:56] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-5.6.1.tar.gz]
+[2023-06-22 06:30:56] INFO root fetch - processPackages [pytak]: Remove: archive file [/home/abi/fetcher/tmp/pytak-5.7.0b3.tar.gz]
+[2023-06-22 06:30:56] INFO root fetch - main [MainThread]: End processing [pytak]: success
+[2023-06-22 06:30:58] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip]
+[2023-06-22 06:30:58] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip]
+[2023-06-22 06:30:58] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-06-22 06:30:59] INFO root fetch - processPackages [pyslim]: Remove: archive file [/home/abi/fetcher/tmp/pyslim-1.0.3.tar.gz]
+[2023-06-22 06:30:59] INFO root fetch - processPackages [pyslim]: Remove: archive file [/home/abi/fetcher/tmp/pyslim-1.0b1.tar.gz]
+[2023-06-22 06:30:59] INFO root fetch - main [MainThread]: End processing [pyslim]: success
+[2023-06-22 06:31:00] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.1.dev202306220429.tar.gz]
+[2023-06-22 06:31:00] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.1.dev202306220430.tar.gz]
+[2023-06-22 06:31:00] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-22 06:31:00] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-22 06:31:00] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-22 06:31:00] INFO root fetch - main [MainThread]: Store serial: [18601074]
