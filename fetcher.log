@@ -13402,3 +13402,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:35:47] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230621163821.tar.gz]
 [2023-06-22 09:35:47] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-22 09:35:47] INFO root fetch - main [MainThread]: Store serial: [18602001]
+[2023-06-22 09:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602001]
+[2023-06-22 09:40:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 09:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syft
+[2023-06-22 09:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: breeze-strategies
+[2023-06-22 09:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-beta
+[2023-06-22 09:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hak
+[2023-06-22 09:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: temStaPy
+[2023-06-22 09:40:56] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 09:40:56] INFO root fetch - processPackages [syft]: New version: [0.8.1b9] Old Version: [0.8.1b8]
+[2023-06-22 09:40:56] INFO root fetch - processPackages [certora-cli-beta]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-06-22 09:40:56] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-22 09:40:56] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-06-22 09:40:56] WARNING root fetch - processPackages [temStaPy]: Skipping, unable to determine old version
+[2023-06-22 09:40:56] INFO root fetch - main [MainThread]: End processing [temStaPy] error
+[2023-06-22 09:40:56] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-22 09:40:56] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/47/39/3fcec666c2be7ec5671a10c1889a9e420d3f3ae5edcd7e1bb1983c121daf/certora-cli-beta-4.3.0.tar.gz
+[2023-06-22 09:40:56] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/26/98/f1ec73b910b5bc1bc68562eaf7978e07a38ee9a31ddd8b3a6e2af30bcae4/breeze_strategies-6.0.3.tar.gz
+[2023-06-22 09:40:56] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-06-22 09:40:56] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 37052874>=10485760
+[2023-06-22 09:40:57] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2023-06-22 09:40:57] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-06-22 09:40:57] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230622/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 09:40:57] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/e7/92/dc0e8b249f7120dddadd69de9953a32c81aeb8c439cae7c7a7c9ca929ff7/breeze_strategies-6.0.4.tar.gz
+[2023-06-22 09:40:57] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-22 09:40:57] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.3.tar.gz tmp/breeze_strategies-6.0.4.tar.gz --markdown 20230622/b/breeze-strategies/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-22 09:40:57] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-22 09:40:57] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-22 09:40:57] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b8.tar.gz tmp/syft-0.8.1b9.tar.gz --markdown 20230622/s/syft/0.8.1b8-0.8.1b9/diff.md --exclude *.pyd
+[2023-06-22 09:40:58] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.3.tar.gz]
+[2023-06-22 09:40:58] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.4.tar.gz]
+[2023-06-22 09:40:58] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-22 09:40:59] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-22 09:40:59] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-22 09:40:59] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-22 09:40:59] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-06-22 09:40:59] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-06-22 09:40:59] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-06-22 09:40:59] INFO root fetch - main [MainThread]: Store serial: [18602030]
