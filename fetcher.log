@@ -12669,3 +12669,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:42:39] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.5.tar.gz]
 [2023-06-22 08:42:39] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-22 08:42:39] INFO root fetch - main [MainThread]: Store serial: [18601713]
+[2023-06-22 08:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601713]
+[2023-06-22 08:47:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 08:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fsrs4anki-optimizer
+[2023-06-22 08:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyllo-kickstart
+[2023-06-22 08:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-06-22 08:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofscraper
+[2023-06-22 08:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pigar
+[2023-06-22 08:47:48] WARNING root fetch - processPackages [pyllo-kickstart]: Skipping, unable to determine old version
+[2023-06-22 08:47:48] INFO root fetch - main [MainThread]: End processing [pyllo-kickstart] error
+[2023-06-22 08:47:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.25.4] Old Version: [3.25.3]
+[2023-06-22 08:47:48] INFO root fetch - processPackages [ofscraper]: New version: [2.5] Old Version: [2.4.5]
+[2023-06-22 08:47:48] INFO root fetch - processPackages [pigar]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-22 08:47:48] INFO root fetch - processPackages [coiled]: New version: [0.7.9.dev9] Old Version: [0.7.9.dev8]
+[2023-06-22 08:47:48] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/a7/01/b5a4cbd06e8fe6cb1d49512abbe6434f64ea4b91b21a64f30069aa693547/coiled-0.7.9.dev8.tar.gz
+[2023-06-22 08:47:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/ca/d8/3a5a06a0704f66d9b83ae0d8c4d80c5ff357da61f329e4f51de9e036efe0/fsrs4anki_optimizer-3.25.3.tar.gz
+[2023-06-22 08:47:48] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/87/f3/1f49f0cf1272155583e35056ecfec3e5217213b3a7bed147510b40e602b6/ofscraper-2.4.5.tar.gz
+[2023-06-22 08:47:48] INFO root fetch - processPackages [pigar]: Downloading https://files.pythonhosted.org/packages/d9/10/2237f1ae5f0ec3f8794f2135c137cabb50288ddc845139bd2b2dc1ecafcf/pigar-2.0.7.tar.gz
+[2023-06-22 08:47:48] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/dc/d4/10718387e304a2c81528522bffed5d5d434266d38a8703defb9b50eee491/fsrs4anki_optimizer-3.25.4.tar.gz
+[2023-06-22 08:47:48] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/68/a0/03deba097f154d5d35f5aaf9cc9e6203f2e386628cf93962bded599cc14d/coiled-0.7.9.dev9.tar.gz
+[2023-06-22 08:47:49] WARNING root fetch - processPackages [pigar]: Skipping package: exceeds size limit 19703040>=10485760
+[2023-06-22 08:47:49] INFO root fetch - main [MainThread]: End processing [pigar] error
+[2023-06-22 08:47:49] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-22 08:47:49] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.9.dev8.tar.gz tmp/coiled-0.7.9.dev9.tar.gz --markdown 20230622/c/coiled/0.7.9.dev8-0.7.9.dev9/diff.md --exclude *.pyd
+[2023-06-22 08:47:49] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/6d/06/4f7ba07d0cf858c139a93aeffda541a3a3c344690bfe4ea24b693f2ee851/ofscraper-2.5.tar.gz
+[2023-06-22 08:47:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-22 08:47:49] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.25.3.tar.gz tmp/fsrs4anki_optimizer-3.25.4.tar.gz --markdown 20230622/f/fsrs4anki-optimizer/3.25.3-3.25.4/diff.md --exclude *.pyd
+[2023-06-22 08:47:49] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2023-06-22 08:47:49] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-2.4.5.tar.gz tmp/ofscraper-2.5.tar.gz --markdown 20230622/o/ofscraper/2.4.5-2.5/diff.md --exclude *.pyd
+[2023-06-22 08:47:50] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.3.tar.gz]
+[2023-06-22 08:47:50] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.4.tar.gz]
+[2023-06-22 08:47:50] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-22 08:47:50] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.4.5.tar.gz]
+[2023-06-22 08:47:50] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-2.5.tar.gz]
+[2023-06-22 08:47:50] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2023-06-22 08:47:52] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev8.tar.gz]
+[2023-06-22 08:47:52] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.9.dev9.tar.gz]
+[2023-06-22 08:47:52] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-22 08:47:52] INFO root fetch - main [MainThread]: Store serial: [18601730]
