@@ -10755,3 +10755,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:09:03] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.9.tar.gz]
 [2023-06-22 06:09:03] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
 [2023-06-22 06:09:03] INFO root fetch - main [MainThread]: Store serial: [18600968]
+[2023-06-22 06:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600968]
+[2023-06-22 06:14:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicodebot
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypdfe
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: actuarialmath
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nodestream
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sciform
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rapid-videocr
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-banking-ach-base
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-banking-ach-credit-transfer
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-l10n-us-form-1099
+[2023-06-22 06:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-l10n-usa
+[2023-06-22 06:14:13] WARNING root fetch - processPackages [aicodebot]: Skipping, unable to determine old version
+[2023-06-22 06:14:13] INFO root fetch - processPackages [aicodebot]: Start processing: dataquality
+[2023-06-22 06:14:13] INFO root fetch - main [MainThread]: End processing [aicodebot] error
+[2023-06-22 06:14:13] INFO root fetch - processPackages [pypdfe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 06:14:13] INFO root fetch - processPackages [odoo-addon-l10n-us-form-1099]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-22 06:14:13] INFO root fetch - processPackages [nodestream]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 06:14:13] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-22 06:14:13] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: New version: [15.0.1.0.1.4] Old Version: [15.0.1.0.1.2]
+[2023-06-22 06:14:13] INFO root fetch - processPackages [rapid-videocr]: New version: [2.2.0] Old Version: [2.1.7]
+[2023-06-22 06:14:13] WARNING root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: Skipping, unable to determine old version
+[2023-06-22 06:14:13] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: New version: [16.0.20230316.0] Old Version: [15.0.20230621.1]
+[2023-06-22 06:14:13] INFO root fetch - processPackages [dataquality]: New version: [0.8.9] Old Version: [0.8.8a0]
+[2023-06-22 06:14:13] INFO root fetch - processPackages [odoo-addon-account-banking-ach-credit-transfer]: Start processing: pipen-board
+[2023-06-22 06:14:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-ach-credit-transfer] error
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pipen-board]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-06-22 06:14:14] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/ec/c0/a67c048905f2c652971d55ff82c30b8a749cfdd800d5119bb8accf3770bc/dataquality-0.8.8a0.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [actuarialmath]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-l10n-us-form-1099]: Downloading https://files.pythonhosted.org/packages/42/e8/ef4e41562cc70a3023a849a8bd72edac5b9e79c70422879c3e644c5d26d3/odoo_addon_l10n_us_form_1099-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Downloading https://files.pythonhosted.org/packages/e5/5f/fd2f00dbec940476dbe5171f62947179efcc103c0921727b34b5920af66c/odoo_addon_account_banking_ach_base-15.0.1.0.1.2-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/b9/26/588ba54db4bc19d62cb0b8656aab3e2ff10f22f053edfe96ad5057a9db6c/pypdfe-0.1.0.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/bd/68/a984b760de42a365a5e9d80d2965e702e248a60001f42f0796022d5c66aa/rapid_videocr-2.1.7-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Downloading https://files.pythonhosted.org/packages/2d/ed/ed461ea02b5bb11f14646d218f39e41b56b9e11965d503cb32dc5c0ae23d/odoo_addons_oca_l10n_usa-15.0.20230621.1-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [nodestream]: Downloading https://files.pythonhosted.org/packages/d4/ca/fccaa99c30985d4aaab40f811cc84283ff6b5a3e21d69a755bdb39451e70/nodestream-0.2.0.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/8f/ee/180f0526e553597061108ba573afa0baa2afaac7dce7008fd1fa9f7ebc8e/pipen_board-0.6.4.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/53/a7/36f4047a75aa34b0b1e6a1f3b2d2d42b27aea58160ceaf9cc8bfb746c2b2/actuarialmath-0.0.8.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/91/1e/b93106f778087ce05e7c356ffd9a6a6062c6e62a84bf3f9d4eb655b16850/dataquality-0.8.9.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/45/11/f5dd91583d2f3fa69442df6ecfb68ff894a3fded816b3d7aefc57a84039b/rapid_videocr-2.2.0-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Downloading https://files.pythonhosted.org/packages/ba/81/2f173404d77ec36437764699de02e015d39f285a68c2312b8ac07146f7f6/odoo_addon_account_banking_ach_base-15.0.1.0.1.4-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pypdfe]: Downloading https://files.pythonhosted.org/packages/c8/10/9274d8407708679372bf40321b3aabb608e8e7edba06cb8a20e4b73840f9/pypdfe-0.1.1.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.8.8a0.tar.gz tmp/dataquality-0.8.9.tar.gz --markdown 20230622/d/dataquality/0.8.8a0-0.8.9/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-l10n-us-form-1099]: Downloading https://files.pythonhosted.org/packages/81/c9/648061d826374fe519ff64ba7c90e04aa7c12972de9add78f76f60f83aea/odoo_addon_l10n_us_form_1099-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Downloading https://files.pythonhosted.org/packages/f3/17/ec4eceb689ec3dfd1265239361985de990a4070e177e3e7cd5595e865a9d/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl
+[2023-06-22 06:14:14] INFO root fetch - processPackages [nodestream]: Downloading https://files.pythonhosted.org/packages/93/8e/72faff7aefeb8600607d08c7daede7c23fbc34ca60eedfabe154b402398d/nodestream-0.3.0.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/8f/5e/afc98fb222d399bd7f0d5fd564efca49a0910f83ac005cb16eb4bf59d1c1/pipen_board-0.7.0.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pypdfe]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pypdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfe-0.1.0.tar.gz tmp/pypdfe-0.1.1.tar.gz --markdown 20230622/p/pypdfe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-l10n-us-form-1099]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-l10n-us-form-1099]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_us_form_1099-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_us_form_1099-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-l10n-us-form-1099/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [rapid-videocr]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [rapid-videocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_videocr-2.1.7-py3-none-any.whl.zip tmp/rapid_videocr-2.2.0-py3-none-any.whl.zip --markdown 20230622/r/rapid-videocr/2.1.7-2.2.0/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230622/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-account-banking-ach-base/15.0.1.0.1.2-15.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/ca/fd/c80557f05d04d7de901ba58e67180085758d1bb5a0201df6f0ba957d8555/actuarialmath-0.0.9.tar.gz
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_usa-15.0.20230621.1-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl.zip --markdown 20230622/o/odoo-addons-oca-l10n-usa/15.0.20230621.1-16.0.20230316.0/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [nodestream]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [nodestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodestream-0.2.0.tar.gz tmp/nodestream-0.3.0.tar.gz --markdown 20230622/n/nodestream/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.6.4.tar.gz tmp/pipen_board-0.7.0.tar.gz --markdown 20230622/p/pipen-board/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-06-22 06:14:14] INFO root fetch - processPackages [actuarialmath]: executing diffoscope
+[2023-06-22 06:14:14] INFO root fetch - processPackages [actuarialmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actuarialmath-0.0.8.tar.gz tmp/actuarialmath-0.0.9.tar.gz --markdown 20230622/a/actuarialmath/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 06:14:16] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.1.7-py3-none-any.whl.zip]
+[2023-06-22 06:14:16] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.0-py3-none-any.whl.zip]
+[2023-06-22 06:14:16] INFO root fetch - processPackages [rapid-videocr]: Start processing: chibi-command
+[2023-06-22 06:14:16] INFO root fetch - main [MainThread]: End processing [rapid-videocr]: success
+[2023-06-22 06:14:16] INFO root fetch - processPackages [chibi-command]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-22 06:14:16] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_usa-15.0.20230621.1-py3-none-any.whl.zip]
+[2023-06-22 06:14:16] INFO root fetch - processPackages [odoo-addons-oca-l10n-usa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_usa-16.0.20230316.0-py3-none-any.whl.zip]
+[2023-06-22 06:14:16] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-usa]: success
+[2023-06-22 06:14:16] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/49/06/26bdc786936428a85f87e44036a81cd2ac23307942c25b40c784224200ff/chibi_command-0.4.2.tar.gz
+[2023-06-22 06:14:16] INFO root fetch - processPackages [odoo-addon-l10n-us-form-1099]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_us_form_1099-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-22 06:14:16] INFO root fetch - processPackages [odoo-addon-l10n-us-form-1099]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_us_form_1099-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-22 06:14:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-us-form-1099]: success
+[2023-06-22 06:14:16] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-22 06:14:16] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-22 06:14:16] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-22 06:14:16] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/be/97/7d45b7b28398ff5b607537a0544fb00f2a81a9e6c625c11e17d49dc008f7/chibi_command-0.4.3.tar.gz
+[2023-06-22 06:14:16] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.8a0.tar.gz]
+[2023-06-22 06:14:16] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.8.9.tar.gz]
+[2023-06-22 06:14:16] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-06-22 06:14:16] INFO root fetch - processPackages [chibi-command]: executing diffoscope
+[2023-06-22 06:14:16] INFO root fetch - processPackages [chibi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chibi_command-0.4.2.tar.gz tmp/chibi_command-0.4.3.tar.gz --markdown 20230622/c/chibi-command/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-22 06:14:17] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.8.tar.gz]
+[2023-06-22 06:14:17] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.9.tar.gz]
+[2023-06-22 06:14:17] INFO root fetch - main [MainThread]: End processing [actuarialmath]: success
+[2023-06-22 06:14:17] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.0.tar.gz]
+[2023-06-22 06:14:17] INFO root fetch - processPackages [pypdfe]: Remove: archive file [/home/abi/fetcher/tmp/pypdfe-0.1.1.tar.gz]
+[2023-06-22 06:14:17] INFO root fetch - main [MainThread]: End processing [pypdfe]: success
+[2023-06-22 06:14:18] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.2.0.tar.gz]
+[2023-06-22 06:14:18] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.3.0.tar.gz]
+[2023-06-22 06:14:18] INFO root fetch - main [MainThread]: End processing [nodestream]: success
+[2023-06-22 06:14:18] INFO root fetch - processPackages [chibi-command]: Remove: archive file [/home/abi/fetcher/tmp/chibi_command-0.4.2.tar.gz]
+[2023-06-22 06:14:18] INFO root fetch - processPackages [chibi-command]: Remove: archive file [/home/abi/fetcher/tmp/chibi_command-0.4.3.tar.gz]
+[2023-06-22 06:14:18] INFO root fetch - main [MainThread]: End processing [chibi-command]: success
+[2023-06-22 06:14:26] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.6.4.tar.gz]
+[2023-06-22 06:14:26] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.7.0.tar.gz]
+[2023-06-22 06:14:26] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-06-22 06:15:07] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-22 06:15:07] INFO root fetch - processPackages [odoo-addon-account-banking-ach-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_ach_base-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-06-22 06:15:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-ach-base]: success
+[2023-06-22 06:15:07] INFO root fetch - main [MainThread]: Store serial: [18601005]
