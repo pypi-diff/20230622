@@ -1663,3 +1663,60 @@
 [2023-06-22 01:59:02] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306212354-py3-none-any.whl.zip]
 [2023-06-22 01:59:02] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-22 01:59:02] INFO root fetch - main [MainThread]: Store serial: [18597818]
+[2023-06-22 02:04:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18597818]
+[2023-06-22 02:04:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alanapy
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paspailleur
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythorhead
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ypricemagic
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: travel-pricing-scraper
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchdatasets-nightly
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: object-registry
+[2023-06-22 02:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mct-nightly
+[2023-06-22 02:04:11] WARNING root fetch - processPackages [alanapy]: Skipping, unable to determine old version
+[2023-06-22 02:04:11] INFO root fetch - main [MainThread]: End processing [alanapy] error
+[2023-06-22 02:04:11] INFO root fetch - processPackages [pythorhead]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-22 02:04:11] WARNING root fetch - processPackages [paspailleur]: Skipping, unable to determine old version
+[2023-06-22 02:04:11] INFO root fetch - main [MainThread]: End processing [paspailleur] error
+[2023-06-22 02:04:11] WARNING root fetch - processPackages [travel-pricing-scraper]: Skipping, unable to determine old version
+[2023-06-22 02:04:11] INFO root fetch - main [MainThread]: End processing [travel-pricing-scraper] error
+[2023-06-22 02:04:11] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230621.post405] Old Version: [1.9.0.20230620.post345]
+[2023-06-22 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1687305796] Old Version: [1687219387]
+[2023-06-22 02:04:12] INFO root fetch - processPackages [ypricemagic]: New version: [2.3.8] Old Version: [2.3.7]
+[2023-06-22 02:04:12] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/44/22/b6a9140fc9920998fec121d708391088157b78afefd7edc835ba42054a2a/pythorhead-0.7.0.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [object-registry]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-22 02:04:12] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/6f/0b/178ab3a2c52d15e0371ce07e78a7e1573d5baacc1b28aae60085eaaedfb0/mct-nightly-1.9.0.20230620.post345.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/d4/d4/26cea0525d75940d8f432891b9b8d05b09aad9d71e59a7040efc4eeed4fd/torchdatasets-nightly-1687219387.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [object-registry]: Downloading https://files.pythonhosted.org/packages/2f/91/0926bdadfd99ca896cc84122b096c647bd67d582aa69a411933fc6d941f5/object_registry-0.2.0.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/d8/27/0f8b866710db1419d3ec1399f564803cc44859ad85302a0760b6ecfa2ce6/torchdatasets-nightly-1687305796.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/3d/85/bd3bf4ea1f715a5f6c956897d4156e48d9575e436d8b867a871ff53554d9/pythorhead-0.7.1.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/c6/8a/e6eca79c1481e61f0b42bb0881426e56701bf81b8b1fa69ba0aa56117fe4/ypricemagic-2.3.7.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-22 02:04:12] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1687219387.tar.gz tmp/torchdatasets-nightly-1687305796.tar.gz --markdown 20230622/t/torchdatasets-nightly/1687219387-1687305796/diff.md --exclude *.pyd
+[2023-06-22 02:04:12] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/c6/51/a0e5b0ed6469b0e0de84fe0695c2c60d4e7397c96523f67fd7473192fd44/mct-nightly-1.9.0.20230621.post405.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-22 02:04:12] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.7.0.tar.gz tmp/pythorhead-0.7.1.tar.gz --markdown 20230622/p/pythorhead/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-22 02:04:12] INFO root fetch - processPackages [object-registry]: Downloading https://files.pythonhosted.org/packages/f6/89/e03d6e99776981b23d66c02aa1a6c1cac77d37fffaa1a8e698c7631224b4/object_registry-0.3.0.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-22 02:04:12] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230620.post345.tar.gz tmp/mct-nightly-1.9.0.20230621.post405.tar.gz --markdown 20230622/m/mct-nightly/1.9.0.20230620.post345-1.9.0.20230621.post405/diff.md --exclude *.pyd
+[2023-06-22 02:04:12] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/7a/cd/49f971070bc0f2147406998cdcb10ac9ffac509775c74b9931dc8a7fd1af/ypricemagic-2.3.8.tar.gz
+[2023-06-22 02:04:12] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2023-06-22 02:04:12] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-2.3.7.tar.gz tmp/ypricemagic-2.3.8.tar.gz --markdown 20230622/y/ypricemagic/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2023-06-22 02:04:13] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687219387.tar.gz]
+[2023-06-22 02:04:13] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687305796.tar.gz]
+[2023-06-22 02:04:13] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-22 02:04:13] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.7.0.tar.gz]
+[2023-06-22 02:04:13] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.7.1.tar.gz]
+[2023-06-22 02:04:13] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-22 02:04:14] INFO root fetch - processPackages [object-registry]: executing diffoscope
+[2023-06-22 02:04:14] INFO root fetch - processPackages [object-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/object_registry-0.2.0.tar.gz tmp/object_registry-0.3.0.tar.gz --markdown 20230622/o/object-registry/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-22 02:04:14] INFO root fetch - processPackages [object-registry]: Remove: archive file [/home/abi/fetcher/tmp/object_registry-0.2.0.tar.gz]
+[2023-06-22 02:04:14] INFO root fetch - processPackages [object-registry]: Remove: archive file [/home/abi/fetcher/tmp/object_registry-0.3.0.tar.gz]
+[2023-06-22 02:04:14] INFO root fetch - main [MainThread]: End processing [object-registry]: success
+[2023-06-22 02:04:15] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.7.tar.gz]
+[2023-06-22 02:04:15] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-2.3.8.tar.gz]
+[2023-06-22 02:04:15] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2023-06-22 02:04:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230620.post345.tar.gz]
+[2023-06-22 02:04:16] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230621.post405.tar.gz]
+[2023-06-22 02:04:16] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-22 02:04:16] INFO root fetch - main [MainThread]: Store serial: [18597846]
