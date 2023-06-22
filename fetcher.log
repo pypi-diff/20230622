@@ -19171,3 +19171,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:40:10] INFO root fetch - processPackages [odoo12-addon-somconnexio]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-somconnexio-12.0.2.3.2.tar.gz]
 [2023-06-22 13:40:10] INFO root fetch - main [MainThread]: End processing [odoo12-addon-somconnexio]: success
 [2023-06-22 13:40:10] INFO root fetch - main [MainThread]: Store serial: [18604289]
+[2023-06-22 13:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604289]
+[2023-06-22 13:45:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opustrainer
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distributions-ariana
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: verstack
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-gem
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morch
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsr-shelx
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: st-ant-statistic
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kalm
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nligraphspacy
+[2023-06-22 13:45:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gingado
+[2023-06-22 13:45:19] INFO root fetch - processPackages [verstack]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-06-22 13:45:19] INFO root fetch - processPackages [dsr-shelx]: New version: [241] Old Version: [240]
+[2023-06-22 13:45:19] INFO root fetch - processPackages [django-gem]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-22 13:45:19] INFO root fetch - processPackages [opustrainer]: New version: [0.2] Old Version: [0.1]
+[2023-06-22 13:45:19] INFO root fetch - processPackages [nligraphspacy]: New version: [1.1.0] Old Version: [0.7]
+[2023-06-22 13:45:19] INFO root fetch - processPackages [st-ant-statistic]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 13:45:19] INFO root fetch - processPackages [gingado]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 13:45:19] WARNING root fetch - processPackages [morch]: Skipping, unable to determine old version
+[2023-06-22 13:45:19] WARNING root fetch - processPackages [distributions-ariana]: Skipping, unable to determine old version
+[2023-06-22 13:45:19] INFO root fetch - main [MainThread]: End processing [morch] error
+[2023-06-22 13:45:19] INFO root fetch - main [MainThread]: End processing [distributions-ariana] error
+[2023-06-22 13:45:19] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:45:19] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/9c/54/98768492c986841b1be2d97687a0b1ad5f8704d1e39e425837238ccad01a/nligraphspacy-0.7.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [django-gem]: Downloading https://files.pythonhosted.org/packages/0d/d9/9639c8078fd0a447f98b72735206f6aa4bc5ae70de2b90779db14cf4f2d6/django_gem-1.1.2.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [opustrainer]: Downloading https://files.pythonhosted.org/packages/42/60/840a0884ec3ea6269eef01a48ba1e261a056eb01c544fdd8be774e6282fe/opustrainer-0.1-py3-none-any.whl
+[2023-06-22 13:45:19] INFO root fetch - processPackages [verstack]: Downloading https://files.pythonhosted.org/packages/36/67/23df160d5ec6483f27b05d74dcc57558d8bf804a3df50cc3ea394f691e3c/verstack-3.8.0.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [dsr-shelx]: Downloading https://files.pythonhosted.org/packages/09/f3/9c71e52f00b050c5486a657bb9afaadcf0ae00f813ef70471aabcb379191/dsr_shelx-240.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [st-ant-statistic]: Downloading https://files.pythonhosted.org/packages/e7/32/5d353a6376bd3214f7dc167d842f01e93330be836d42c89f901be5fed6d0/st_ant_statistic-0.0.2-py3-none-any.whl
+[2023-06-22 13:45:19] INFO root fetch - processPackages [gingado]: Downloading https://files.pythonhosted.org/packages/89/e7/e496b38a0283f4397f13c629ab677dd59f98e8e3d2a4388e13cb693389b3/gingado-0.1.2.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/0e/8c/416dc3428d05509328d44a0409d7003e3563ff93f1b91f6dd8ca74d00998/nligraphspacy-1.1.0.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-06-22 13:45:19] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-0.7.tar.gz tmp/nligraphspacy-1.1.0.tar.gz --markdown 20230622/n/nligraphspacy/0.7-1.1.0/diff.md --exclude *.pyd
+[2023-06-22 13:45:19] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:45:19] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:45:19] INFO root fetch - processPackages [opustrainer]: Downloading https://files.pythonhosted.org/packages/c7/64/91318007163f4880c31b97f455fe6183a74556b34f6fabf2b65c7453f60c/opustrainer-0.2.tar.gz
+[2023-06-22 13:45:19] INFO root fetch - processPackages [django-gem]: Downloading https://files.pythonhosted.org/packages/9f/2f/63e990bfc13b128490525bfbe6bdf21fa48ff95839df35063c5f285fdd75/django_gem-1.1.3.tar.gz
+[2023-06-22 13:45:20] INFO root fetch - processPackages [django-gem]: executing diffoscope
+[2023-06-22 13:45:20] INFO root fetch - processPackages [django-gem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_gem-1.1.2.tar.gz tmp/django_gem-1.1.3.tar.gz --markdown 20230622/d/django-gem/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-22 13:45:20] INFO root fetch - processPackages [opustrainer]: executing diffoscope
+[2023-06-22 13:45:20] INFO root fetch - processPackages [opustrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opustrainer-0.1-py3-none-any.whl.zip tmp/opustrainer-0.2.tar.gz --markdown 20230622/o/opustrainer/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-22 13:45:20] INFO root fetch - processPackages [dsr-shelx]: Downloading https://files.pythonhosted.org/packages/46/f9/981ea63355522fdeade1daa030bceee0f609b474bac72dd8f7f4254054ab/dsr_shelx-241.tar.gz
+[2023-06-22 13:45:20] INFO root fetch - processPackages [verstack]: Downloading https://files.pythonhosted.org/packages/84/e4/2c92c8198dc3dac0e30beaf01d5c772b47c98368c0b7b87edf6657446d92/verstack-3.8.1.tar.gz
+[2023-06-22 13:45:20] INFO root fetch - processPackages [gingado]: Downloading https://files.pythonhosted.org/packages/20/2f/ce088517db87e98fcda7b9e180b343797bb0bb828ab9d01cd9d4d3d6eaf1/gingado-0.1.3.tar.gz
+[2023-06-22 13:45:20] INFO root fetch - processPackages [dsr-shelx]: executing diffoscope
+[2023-06-22 13:45:20] INFO root fetch - processPackages [dsr-shelx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsr_shelx-240.tar.gz tmp/dsr_shelx-241.tar.gz --markdown 20230622/d/dsr-shelx/240-241/diff.md --exclude *.pyd
+[2023-06-22 13:45:20] INFO root fetch - processPackages [gingado]: executing diffoscope
+[2023-06-22 13:45:20] INFO root fetch - processPackages [gingado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gingado-0.1.2.tar.gz tmp/gingado-0.1.3.tar.gz --markdown 20230622/g/gingado/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 13:45:20] INFO root fetch - processPackages [verstack]: executing diffoscope
+[2023-06-22 13:45:20] INFO root fetch - processPackages [verstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verstack-3.8.0.tar.gz tmp/verstack-3.8.1.tar.gz --markdown 20230622/v/verstack/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-06-22 13:45:20] INFO root fetch - processPackages [st-ant-statistic]: Downloading https://files.pythonhosted.org/packages/2c/3a/acf693fad79f54daa399809580f5d45ccff7ab895843e361fa3edbf175e7/st_ant_statistic-0.0.3-py3-none-any.whl
+[2023-06-22 13:45:20] INFO root fetch - processPackages [st-ant-statistic]: executing diffoscope
+[2023-06-22 13:45:20] INFO root fetch - processPackages [st-ant-statistic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_statistic-0.0.2-py3-none-any.whl.zip tmp/st_ant_statistic-0.0.3-py3-none-any.whl.zip --markdown 20230622/s/st-ant-statistic/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 13:45:21] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-0.7.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.0.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-06-22 13:45:21] INFO root fetch - processPackages [opustrainer]: Remove: archive file [/home/abi/fetcher/tmp/opustrainer-0.1-py3-none-any.whl.zip]
+[2023-06-22 13:45:21] INFO root fetch - processPackages [opustrainer]: Remove: archive file [/home/abi/fetcher/tmp/opustrainer-0.2.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - main [MainThread]: End processing [opustrainer]: success
+[2023-06-22 13:45:21] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-22 13:45:21] INFO root fetch - processPackages [gingado]: Remove: archive file [/home/abi/fetcher/tmp/gingado-0.1.2.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - processPackages [gingado]: Remove: archive file [/home/abi/fetcher/tmp/gingado-0.1.3.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - main [MainThread]: End processing [gingado]: success
+[2023-06-22 13:45:21] INFO root fetch - processPackages [django-gem]: Remove: archive file [/home/abi/fetcher/tmp/django_gem-1.1.2.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - processPackages [django-gem]: Remove: archive file [/home/abi/fetcher/tmp/django_gem-1.1.3.tar.gz]
+[2023-06-22 13:45:21] INFO root fetch - main [MainThread]: End processing [django-gem]: success
+[2023-06-22 13:45:22] INFO root fetch - processPackages [st-ant-statistic]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_statistic-0.0.2-py3-none-any.whl.zip]
+[2023-06-22 13:45:22] INFO root fetch - processPackages [st-ant-statistic]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_statistic-0.0.3-py3-none-any.whl.zip]
+[2023-06-22 13:45:22] INFO root fetch - main [MainThread]: End processing [st-ant-statistic]: success
+[2023-06-22 13:45:26] INFO root fetch - processPackages [verstack]: Remove: archive file [/home/abi/fetcher/tmp/verstack-3.8.0.tar.gz]
+[2023-06-22 13:45:26] INFO root fetch - processPackages [verstack]: Remove: archive file [/home/abi/fetcher/tmp/verstack-3.8.1.tar.gz]
+[2023-06-22 13:45:26] INFO root fetch - main [MainThread]: End processing [verstack]: success
+[2023-06-22 13:45:28] INFO root fetch - processPackages [dsr-shelx]: Remove: archive file [/home/abi/fetcher/tmp/dsr_shelx-240.tar.gz]
+[2023-06-22 13:45:28] INFO root fetch - processPackages [dsr-shelx]: Remove: archive file [/home/abi/fetcher/tmp/dsr_shelx-241.tar.gz]
+[2023-06-22 13:45:28] INFO root fetch - main [MainThread]: End processing [dsr-shelx]: success
+[2023-06-22 13:45:28] INFO root fetch - main [MainThread]: Store serial: [18604320]
