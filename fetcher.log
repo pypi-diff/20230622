@@ -22715,3 +22715,178 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 16:01:57] INFO root fetch - processPackages [bob.bio.face]: Remove: archive file [/home/abi/fetcher/tmp/bob.bio.face-8.0.0.tar.gz]
 [2023-06-22 16:01:57] INFO root fetch - main [MainThread]: End processing [bob.bio.face]: success
 [2023-06-22 16:01:57] INFO root fetch - main [MainThread]: Store serial: [18605768]
+[2023-06-22 16:07:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605768]
+[2023-06-22 16:07:18] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genepass
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-msgs
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starrailcard
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ChatGPT-Cloud
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cave-utils
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: subplots-from-axsize
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nester-struct
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: split-python4gpt
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: genepass
+[2023-06-22 16:07:18] INFO root fetch - processPackages [django-msgs]: New version: [1.3.27] Old Version: [1.3.26]
+[2023-06-22 16:07:18] INFO root fetch - processPackages [subplots-from-axsize]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-22 16:07:18] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-06-22 16:07:18] INFO root fetch - processPackages [starrailcard]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 16:07:18] INFO root fetch - processPackages [genepass]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 16:07:19] INFO root fetch - processPackages [cave-utils]: New version: [1.5.0b8] Old Version: [1.5.0b7]
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 16:07:19] WARNING root fetch - processPackages [split-python4gpt]: Skipping, unable to determine old version
+[2023-06-22 16:07:19] INFO root fetch - processPackages [split-python4gpt]: Start processing: paasta-tools
+[2023-06-22 16:07:19] INFO root fetch - processPackages [nester-struct]: New version: [1.0.0] Old Version: [0.5.2]
+[2023-06-22 16:07:19] INFO root fetch - main [MainThread]: End processing [split-python4gpt] error
+[2023-06-22 16:07:19] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 16:07:19] INFO root fetch - processPackages [subplots-from-axsize]: Downloading https://files.pythonhosted.org/packages/50/4c/a6889c679ac0aac7cd29371ca51525111f898eaeefcb4b0d5e16e237925e/subplots_from_axsize-0.1.6.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-06-22 16:07:19] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/72/05/3022ee7e63a0da5a2579e8254cdf0ea1c547bed81743e6b804b2f38c12ce/starrailcard-0.0.4.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [cave-utils]: Downloading https://files.pythonhosted.org/packages/2f/ba/c0b8ffb8cb047650d46bc76c4d5c80f6bd76e0c0154e4434cbd8ba5f42e4/cave_utils-1.5.0b7.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/78/3e/147626123d64146bece29cd52cce277a61c77c5f9f20d357ab0781a93d35/genepass-0.1.2.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/78/3e/147626123d64146bece29cd52cce277a61c77c5f9f20d357ab0781a93d35/genepass-0.1.2.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/5d/bd/cd4f2aec7998d4df679fadfbd18f1c709e91360fd716f4bd392da3218041/ChatGPT-Cloud-0.5.9.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [django-msgs]: Downloading https://files.pythonhosted.org/packages/6b/62/472038fd6faba0020e107042a18a58cf9c165add75b7b14d71f8cf5471dd/django_msgs-1.3.26.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [nester-struct]: Downloading https://files.pythonhosted.org/packages/22/58/aa2140cc27b968e05356f580487ba1e348a85d574005a07b8a7152d1940b/nester-struct-0.5.2.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [cave-utils]: Downloading https://files.pythonhosted.org/packages/fb/4a/6fa52adf0a8fb00c33bb25242406c9615f8c6084aecd1d278b412abde7fe/cave_utils-1.5.0b8.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [subplots-from-axsize]: Downloading https://files.pythonhosted.org/packages/0c/11/eafc9112817683947db2feca9213aa30ce57a1c236347d54b2372a6945a9/subplots_from_axsize-0.1.7.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230622/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 16:07:19] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/ca/2d/5d137b477d5bc91a3b5089d4352f88a500f79d6c6a637ab6c2bdc2191cc9/starrailcard-0.0.5.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/b2/82/150969301150340a0a69a3a7701f0a6ad9e3aa522ad0b0e9cdc4ae97c7fc/genepass-0.1.3.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [cave-utils]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [cave-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cave_utils-1.5.0b7.tar.gz tmp/cave_utils-1.5.0b8.tar.gz --markdown 20230622/c/cave-utils/1.5.0b7-1.5.0b8/diff.md --exclude *.pyd
+[2023-06-22 16:07:19] INFO root fetch - processPackages [subplots-from-axsize]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [subplots-from-axsize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subplots_from_axsize-0.1.6.tar.gz tmp/subplots_from_axsize-0.1.7.tar.gz --markdown 20230622/s/subplots-from-axsize/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/b2/82/150969301150340a0a69a3a7701f0a6ad9e3aa522ad0b0e9cdc4ae97c7fc/genepass-0.1.3.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [starrailcard]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [starrailcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailcard-0.0.4.tar.gz tmp/starrailcard-0.0.5.tar.gz --markdown 20230622/s/starrailcard/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 16:07:19] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepass-0.1.2.tar.gz tmp/genepass-0.1.3.tar.gz --markdown 20230622/g/genepass/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 16:07:19] INFO root fetch - processPackages [genepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepass-0.1.2.tar.gz tmp/genepass-0.1.3.tar.gz --markdown 20230622/g/genepass/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 16:07:19] INFO root fetch - processPackages [django-msgs]: Downloading https://files.pythonhosted.org/packages/bb/a9/c619793428b1d6aab3cd24c458f1dd73fcbceb179b86cacc096f3810ff9b/django_msgs-1.3.27.tar.gz
+[2023-06-22 16:07:19] INFO root fetch - processPackages [django-msgs]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [django-msgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_msgs-1.3.26.tar.gz tmp/django_msgs-1.3.27.tar.gz --markdown 20230622/d/django-msgs/1.3.26-1.3.27/diff.md --exclude *.pyd
+[2023-06-22 16:07:19] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2023-06-22 16:07:19] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20230622/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-06-22 16:07:20] INFO root fetch - processPackages [nester-struct]: Downloading https://files.pythonhosted.org/packages/5b/83/1a96f0535b735b78d4a3648aad0e668e234594d905c07f5e26e77dde5e6d/nester-struct-1.0.0.tar.gz
+[2023-06-22 16:07:20] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/d5/88/f08bc34464e5b53901888d4fc99e35c363844b3de4c34fd9a73ba742aa67/ChatGPT-Cloud-0.6.0.tar.gz
+[2023-06-22 16:07:20] INFO root fetch - processPackages [nester-struct]: executing diffoscope
+[2023-06-22 16:07:20] INFO root fetch - processPackages [nester-struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nester-struct-0.5.2.tar.gz tmp/nester-struct-1.0.0.tar.gz --markdown 20230622/n/nester-struct/0.5.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 16:07:20] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-06-22 16:07:20] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPT-Cloud-0.5.9.tar.gz tmp/ChatGPT-Cloud-0.6.0.tar.gz --markdown 20230622/C/ChatGPT-Cloud/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-06-22 16:07:21] INFO root fetch - processPackages [subplots-from-axsize]: Remove: archive file [/home/abi/fetcher/tmp/subplots_from_axsize-0.1.6.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [subplots-from-axsize]: Remove: archive file [/home/abi/fetcher/tmp/subplots_from_axsize-0.1.7.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [subplots-from-axsize]: Start processing: th2-grpc-common
+[2023-06-22 16:07:21] INFO root fetch - main [MainThread]: End processing [subplots-from-axsize]: success
+[2023-06-22 16:07:21] INFO root fetch - processPackages [th2-grpc-common]: New version: [4.3.0.dev5346500753] Old Version: [4.2.0.dev4476477365]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.2.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.3.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [genepass]: Start processing: strmprivacy-api-definitions
+[2023-06-22 16:07:21] INFO root fetch - main [MainThread]: End processing [genepass]: success
+[2023-06-22 16:07:21] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [genepass]: Start processing: sh2d
+[2023-06-22 16:07:21] INFO root fetch - main [MainThread]: End processing [genepass]: success
+[2023-06-22 16:07:21] INFO root fetch - processPackages [sh2d]: New version: [1.1] Old Version: [0.9]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/71/a9/4f41fa1ddf589f0a0fecf639184f4ddc3aff21f9a4c9958b454baef4d148/strmprivacy-api-definitions-3.0.0.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/f8/de/cdcd672d442c053e5b11c65528418129393e172ea493a7193160dacaa2da/th2_grpc_common-4.2.0.dev4476477365.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [leadguru-jobs]: Start processing: anjani
+[2023-06-22 16:07:21] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-22 16:07:21] INFO root fetch - processPackages [anjani]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [sh2d]: Downloading https://files.pythonhosted.org/packages/be/6a/4fb4ea2a2f82894ddecfed0834b1f367aaaa6db5d3e62e16b9067c201bfb/sh2d-0.9.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [cave-utils]: Remove: archive file [/home/abi/fetcher/tmp/cave_utils-1.5.0b7.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/a0/4b/02833bc01203d0b9addbff43d3b48c7c40022e828cbd0b8fdb836018bcac/anjani-2.8.1.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [cave-utils]: Remove: archive file [/home/abi/fetcher/tmp/cave_utils-1.5.0b8.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [cave-utils]: Start processing: py-jokes-py
+[2023-06-22 16:07:21] INFO root fetch - main [MainThread]: End processing [cave-utils]: success
+[2023-06-22 16:07:21] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/33/81/39dbe0bc1556e400d1e3b6f56e50db3b5a6f54a73b2464ab0e626eade30c/strmprivacy-api-definitions-3.0.1.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [py-jokes-py]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [py-jokes-py]: Downloading https://files.pythonhosted.org/packages/11/ce/beabb6149333d99a76f7e40c74e47b7508a328b773d7af870ebb908ed7e5/py_jokes_py-1.0.1.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [django-msgs]: Remove: archive file [/home/abi/fetcher/tmp/django_msgs-1.3.26.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [django-msgs]: Remove: archive file [/home/abi/fetcher/tmp/django_msgs-1.3.27.tar.gz]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [django-msgs]: Start processing: Clone-ChatGPT
+[2023-06-22 16:07:21] INFO root fetch - main [MainThread]: End processing [django-msgs]: success
+[2023-06-22 16:07:21] INFO root fetch - processPackages [anjani]: Downloading https://files.pythonhosted.org/packages/f9/9d/09023cad363092c71cd40b8312939b2e4d4bfbd47cae721893d04ab5a6d9/anjani-2.9.0.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.2.3.1] Old Version: [1.2.2]
+[2023-06-22 16:07:21] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-06-22 16:07:21] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-3.0.0.tar.gz tmp/strmprivacy-api-definitions-3.0.1.tar.gz --markdown 20230622/s/strmprivacy-api-definitions/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-22 16:07:21] INFO root fetch - processPackages [sh2d]: Downloading https://files.pythonhosted.org/packages/04/c8/c18d833fed2737ec5380e4d20eb6a664dd805e4f8b8589c929fc4d10350b/sh2d-1.1.tar.gz
+[2023-06-22 16:07:21] INFO root fetch - processPackages [anjani]: executing diffoscope
+[2023-06-22 16:07:21] INFO root fetch - processPackages [anjani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anjani-2.8.1.tar.gz tmp/anjani-2.9.0.tar.gz --markdown 20230622/a/anjani/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-22 16:07:21] INFO root fetch - processPackages [sh2d]: executing diffoscope
+[2023-06-22 16:07:21] INFO root fetch - processPackages [sh2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh2d-0.9.tar.gz tmp/sh2d-1.1.tar.gz --markdown 20230622/s/sh2d/0.9-1.1/diff.md --exclude *.pyd
+[2023-06-22 16:07:21] INFO root fetch - processPackages [py-jokes-py]: Downloading https://files.pythonhosted.org/packages/61/8e/0f6bda77ca69a907f09efaa2b78b2a200c12171341db087c4ab2869cdf45/py_jokes_py-1.1.1.tar.gz
+[2023-06-22 16:07:22] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/04/06/621d86fe6dbdfb9a6d3ed6c72cd53ecbc41b61bd29b362f88fe6a58c8de9/Clone-ChatGPT-1.2.2.tar.gz
+[2023-06-22 16:07:22] INFO root fetch - processPackages [th2-grpc-common]: Downloading https://files.pythonhosted.org/packages/7e/93/530b33a612fca14e168044d9c1126c5f76557f08d626cdb57c84e4e72172/th2_grpc_common-4.3.0.dev5346500753.tar.gz
+[2023-06-22 16:07:22] INFO root fetch - processPackages [py-jokes-py]: executing diffoscope
+[2023-06-22 16:07:22] INFO root fetch - processPackages [py-jokes-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_jokes_py-1.0.1.tar.gz tmp/py_jokes_py-1.1.1.tar.gz --markdown 20230622/p/py-jokes-py/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-22 16:07:22] INFO root fetch - processPackages [th2-grpc-common]: executing diffoscope
+[2023-06-22 16:07:22] INFO root fetch - processPackages [th2-grpc-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_common-4.2.0.dev4476477365.tar.gz tmp/th2_grpc_common-4.3.0.dev5346500753.tar.gz --markdown 20230622/t/th2-grpc-common/4.2.0.dev4476477365-4.3.0.dev5346500753/diff.md --exclude *.pyd
+[2023-06-22 16:07:22] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.5.9.tar.gz]
+[2023-06-22 16:07:22] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.0.tar.gz]
+[2023-06-22 16:07:22] INFO root fetch - processPackages [ChatGPT-Cloud]: Start processing: sflux
+[2023-06-22 16:07:22] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-06-22 16:07:22] INFO root fetch - processPackages [sflux]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 16:07:22] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/a3/84/de1668899d48be04b39817548b22ba921320aa2a7871e3bfedee0a141aa8/Clone-ChatGPT-1.2.3.1.tar.gz
+[2023-06-22 16:07:22] INFO root fetch - processPackages [sflux]: Downloading https://files.pythonhosted.org/packages/50/ba/3be33ed2c03a0e7f0319c7f5607c618373e8491c0a0b21e3d0134c3c91f8/sflux-0.0.8.tar.gz
+[2023-06-22 16:07:22] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-06-22 16:07:22] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.2.tar.gz tmp/Clone-ChatGPT-1.2.3.1.tar.gz --markdown 20230622/C/Clone-ChatGPT/1.2.2-1.2.3.1/diff.md --exclude *.pyd
+[2023-06-22 16:07:23] INFO root fetch - processPackages [sflux]: Downloading https://files.pythonhosted.org/packages/c8/9d/5b88877c141fe8089959c93895c6e7604e7ce8b5fdf15202dcf011de0527/sflux-0.0.9.tar.gz
+[2023-06-22 16:07:23] INFO root fetch - processPackages [py-jokes-py]: Remove: archive file [/home/abi/fetcher/tmp/py_jokes_py-1.0.1.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [py-jokes-py]: Remove: archive file [/home/abi/fetcher/tmp/py_jokes_py-1.1.1.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [py-jokes-py]: Start processing: python-shell-colors
+[2023-06-22 16:07:23] INFO root fetch - main [MainThread]: End processing [py-jokes-py]: success
+[2023-06-22 16:07:23] INFO root fetch - processPackages [python-shell-colors]: New version: [0.4.0.dev0] Old Version: [0.2.1]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [sflux]: executing diffoscope
+[2023-06-22 16:07:23] INFO root fetch - processPackages [sflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sflux-0.0.8.tar.gz tmp/sflux-0.0.9.tar.gz --markdown 20230622/s/sflux/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 16:07:23] INFO root fetch - processPackages [python-shell-colors]: Downloading https://files.pythonhosted.org/packages/6c/55/e5c0ba258b26792bf3efbf558987106aa82aea1341308d17b18c637c8164/python-shell-colors-0.2.1.tar.gz
+[2023-06-22 16:07:23] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.2.0.dev4476477365.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [th2-grpc-common]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_common-4.3.0.dev5346500753.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [th2-grpc-common]: Start processing: curtxt-reader
+[2023-06-22 16:07:23] INFO root fetch - main [MainThread]: End processing [th2-grpc-common]: success
+[2023-06-22 16:07:23] INFO root fetch - processPackages [curtxt-reader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [curtxt-reader]: Downloading https://files.pythonhosted.org/packages/ac/f1/eb4920714aa2dd78a324528342b9f19a06fca464221fdc9c91e9150c45e9/curtxt-reader-1.0.0.tar.gz
+[2023-06-22 16:07:23] INFO root fetch - processPackages [python-shell-colors]: Downloading https://files.pythonhosted.org/packages/98/fa/8404ce5fb0ef0fb33718885b4ecab5eac59134b3cb4766afe025cba0e040/python-shell-colors-0.4.0.dev0.tar.gz
+[2023-06-22 16:07:23] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.8.1.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [anjani]: Remove: archive file [/home/abi/fetcher/tmp/anjani-2.9.0.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - main [MainThread]: End processing [anjani]: success
+[2023-06-22 16:07:23] INFO root fetch - processPackages [python-shell-colors]: executing diffoscope
+[2023-06-22 16:07:23] INFO root fetch - processPackages [python-shell-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-shell-colors-0.2.1.tar.gz tmp/python-shell-colors-0.4.0.dev0.tar.gz --markdown 20230622/p/python-shell-colors/0.2.1-0.4.0.dev0/diff.md --exclude *.pyd
+[2023-06-22 16:07:23] INFO root fetch - processPackages [sh2d]: Remove: archive file [/home/abi/fetcher/tmp/sh2d-0.9.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - processPackages [sh2d]: Remove: archive file [/home/abi/fetcher/tmp/sh2d-1.1.tar.gz]
+[2023-06-22 16:07:23] INFO root fetch - main [MainThread]: End processing [sh2d]: success
+[2023-06-22 16:07:23] INFO root fetch - processPackages [curtxt-reader]: Downloading https://files.pythonhosted.org/packages/30/a7/1459a75cd98977ad07234608cc3379308c940b2c6a3bb1c1e01d55e2b1f8/curtxt-reader-1.0.1.tar.gz
+[2023-06-22 16:07:24] INFO root fetch - processPackages [curtxt-reader]: executing diffoscope
+[2023-06-22 16:07:24] INFO root fetch - processPackages [curtxt-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curtxt-reader-1.0.0.tar.gz tmp/curtxt-reader-1.0.1.tar.gz --markdown 20230622/c/curtxt-reader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-22 16:07:24] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.4.tar.gz]
+[2023-06-22 16:07:24] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.5.tar.gz]
+[2023-06-22 16:07:24] INFO root fetch - main [MainThread]: End processing [starrailcard]: success
+[2023-06-22 16:07:24] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.0.0.tar.gz]
+[2023-06-22 16:07:24] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.0.1.tar.gz]
+[2023-06-22 16:07:24] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-06-22 16:07:24] INFO root fetch - processPackages [sflux]: Remove: archive file [/home/abi/fetcher/tmp/sflux-0.0.8.tar.gz]
+[2023-06-22 16:07:24] INFO root fetch - processPackages [sflux]: Remove: archive file [/home/abi/fetcher/tmp/sflux-0.0.9.tar.gz]
+[2023-06-22 16:07:24] INFO root fetch - main [MainThread]: End processing [sflux]: success
+[2023-06-22 16:07:25] INFO root fetch - processPackages [python-shell-colors]: Remove: archive file [/home/abi/fetcher/tmp/python-shell-colors-0.2.1.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - processPackages [python-shell-colors]: Remove: archive file [/home/abi/fetcher/tmp/python-shell-colors-0.4.0.dev0.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - main [MainThread]: End processing [python-shell-colors]: success
+[2023-06-22 16:07:25] INFO root fetch - processPackages [curtxt-reader]: Remove: archive file [/home/abi/fetcher/tmp/curtxt-reader-1.0.0.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - processPackages [curtxt-reader]: Remove: archive file [/home/abi/fetcher/tmp/curtxt-reader-1.0.1.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - main [MainThread]: End processing [curtxt-reader]: success
+[2023-06-22 16:07:25] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2023-06-22 16:07:25] INFO root fetch - processPackages [nester-struct]: Remove: archive file [/home/abi/fetcher/tmp/nester-struct-0.5.2.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - processPackages [nester-struct]: Remove: archive file [/home/abi/fetcher/tmp/nester-struct-1.0.0.tar.gz]
+[2023-06-22 16:07:25] INFO root fetch - main [MainThread]: End processing [nester-struct]: success
+[2023-06-22 16:07:27] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.2.tar.gz]
+[2023-06-22 16:07:27] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.3.1.tar.gz]
+[2023-06-22 16:07:27] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-06-22 16:07:27] INFO root fetch - main [MainThread]: Store serial: [18605826]
