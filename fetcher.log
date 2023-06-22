@@ -22890,3 +22890,167 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 16:07:27] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.3.1.tar.gz]
 [2023-06-22 16:07:27] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
 [2023-06-22 16:07:27] INFO root fetch - main [MainThread]: Store serial: [18605826]
+[2023-06-22 16:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605826]
+[2023-06-22 16:12:36] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycdfpp
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coscine
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leadguru-jobs
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysatMissions
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwiqc
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-roborock
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apysc
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-spectrometer
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fsapp
+[2023-06-22 16:12:36] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-22 16:12:36] INFO root fetch - processPackages [pysatMissions]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-22 16:12:36] INFO root fetch - processPackages [fsapp]: New version: [1.0.3] Old Version: [0.0.3]
+[2023-06-22 16:12:36] WARNING root fetch - processPackages [python-spectrometer]: Skipping, unable to determine old version
+[2023-06-22 16:12:36] INFO root fetch - processPackages [python-spectrometer]: Start processing: ul-data-logger-api-sdk
+[2023-06-22 16:12:36] INFO root fetch - processPackages [dwiqc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-22 16:12:36] INFO root fetch - main [MainThread]: End processing [python-spectrometer] error
+[2023-06-22 16:12:36] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-22 16:12:36] INFO root fetch - processPackages [coscine]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-22 16:12:36] INFO root fetch - processPackages [pycdfpp]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-22 16:12:36] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 16:12:36] INFO root fetch - processPackages [apysc]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-22 16:12:36] WARNING root fetch - processPackages [ul-data-logger-api-sdk]: Skipping, unable to determine old version
+[2023-06-22 16:12:36] INFO root fetch - processPackages [ul-data-logger-api-sdk]: Start processing: genepass
+[2023-06-22 16:12:36] INFO root fetch - main [MainThread]: End processing [ul-data-logger-api-sdk] error
+[2023-06-22 16:12:36] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-06-22 16:12:36] INFO root fetch - processPackages [genepass]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-22 16:12:37] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/0c/63/4ff0a876d12002fc8380d7aebad3bb53e3f42557ddab096b6b9385bd7408/dwiqc-0.4.8-py2.py3-none-any.whl
+[2023-06-22 16:12:37] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [fsapp]: Downloading https://files.pythonhosted.org/packages/49/18/4afeb3f88c08518e5758480313a826897476562f96037ef96da35630b254/fsapp-0.0.3.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/99/9d/fb37a586f01eb149c76c7d2c33540429c2169a9054118ee740f457b29f19/dwiqc-0.4.9-py2.py3-none-any.whl
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pysatMissions]: Downloading https://files.pythonhosted.org/packages/e7/26/577968a9e8e2707af4c0e52d3e45ad2f703ab4ce23021219be47775548db/pysatMissions-0.3.3.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/b2/82/150969301150340a0a69a3a7701f0a6ad9e3aa522ad0b0e9cdc4ae97c7fc/genepass-0.1.3.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [coscine]: Downloading https://files.pythonhosted.org/packages/03/e2/0ed1825defa4650cf99ee2f78e07a1b2f8fbf559d91dc2c600c9167a33e2/coscine-0.9.2.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/ad/b8/0e28e6b32c9c8269cb7dadbe6a40eda95c116082dc38c75820edb87933fc/apysc-2.8.8.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230622/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pycdfpp]: Downloading https://files.pythonhosted.org/packages/20/ba/5853a0aa315fa42f97d7128b1ab0187a38fbab88b881b9ba638ab6cb7de3/pycdfpp-0.4.5.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230622/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230622/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip --markdown 20230622/d/dwiqc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [fsapp]: Downloading https://files.pythonhosted.org/packages/de/68/75cadad743d0f02878061321334630b5689df665b819bfe2218b13af1a48/fsapp-1.0.3.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pycdfpp]: Downloading https://files.pythonhosted.org/packages/70/fa/2ad8d0d40426b7f189ab5a46a3b70b59381471d7c3e2daf9796d9dc495f2/pycdfpp-0.4.6.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [genepass]: Downloading https://files.pythonhosted.org/packages/f1/98/89b3b8816060ca6e41f773328322f611dac7deaea5cad43cf2ac65e1d353/genepass-0.1.4.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [fsapp]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [fsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsapp-0.0.3.tar.gz tmp/fsapp-1.0.3.tar.gz --markdown 20230622/f/fsapp/0.0.3-1.0.3/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [genepass]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [genepass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genepass-0.1.3.tar.gz tmp/genepass-0.1.4.tar.gz --markdown 20230622/g/genepass/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pycdfpp]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pycdfpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycdfpp-0.4.5.tar.gz tmp/pycdfpp-0.4.6.tar.gz --markdown 20230622/p/pycdfpp/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [coscine]: Downloading https://files.pythonhosted.org/packages/92/be/3c388702671572247bb5eeaa21110094b9753b53d9bfd4dbea59e5bd43a2/coscine-0.9.3.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pysatMissions]: Downloading https://files.pythonhosted.org/packages/d1/46/dd64ae80407fe8273b3407407c4bbfae3894d092d6656bbdf4f4a4863eef/pysatMissions-0.3.4.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [coscine]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [coscine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coscine-0.9.2.tar.gz tmp/coscine-0.9.3.tar.gz --markdown 20230622/c/coscine/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pysatMissions]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [pysatMissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysatMissions-0.3.3.tar.gz tmp/pysatMissions-0.3.4.tar.gz --markdown 20230622/p/pysatMissions/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-22 16:12:37] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/58/a3/a6f7e250674b7eb884049e28bf937c78e1643e143c22675e29337194cf49/apysc-2.8.9.tar.gz
+[2023-06-22 16:12:37] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-06-22 16:12:37] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.8.8.tar.gz tmp/apysc-2.8.9.tar.gz --markdown 20230622/a/apysc/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-22 16:12:39] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.3.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [genepass]: Remove: archive file [/home/abi/fetcher/tmp/genepass-0.1.4.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [genepass]: Start processing: es7s
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [genepass]: success
+[2023-06-22 16:12:39] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.8-py2.py3-none-any.whl.zip]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.4.9-py2.py3-none-any.whl.zip]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [dwiqc]: Start processing: ul-data-logger-sdk
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-06-22 16:12:39] WARNING root fetch - processPackages [ul-data-logger-sdk]: Skipping, unable to determine old version
+[2023-06-22 16:12:39] INFO root fetch - processPackages [ul-data-logger-sdk]: Start processing: aspect-ratio-too
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [ul-data-logger-sdk] error
+[2023-06-22 16:12:39] INFO root fetch - processPackages [aspect-ratio-too]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/d4/9b/638089077ce7b31286a1c6ea6d58552b2cb0e3f363a26c290e6de2ea308b/es7s-3.5.0.dev0.tar.gz
+[2023-06-22 16:12:39] INFO root fetch - processPackages [coscine]: Remove: archive file [/home/abi/fetcher/tmp/coscine-0.9.2.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [coscine]: Remove: archive file [/home/abi/fetcher/tmp/coscine-0.9.3.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [coscine]: Start processing: Denoising-Diffusion-Probabilistic-Models
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [coscine]: success
+[2023-06-22 16:12:39] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [fsapp]: Remove: archive file [/home/abi/fetcher/tmp/fsapp-0.0.3.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [fsapp]: Remove: archive file [/home/abi/fetcher/tmp/fsapp-1.0.3.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [fsapp]: Start processing: PyDuplicate
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [fsapp]: success
+[2023-06-22 16:12:39] WARNING root fetch - processPackages [PyDuplicate]: Skipping, unable to determine old version
+[2023-06-22 16:12:39] INFO root fetch - processPackages [PyDuplicate]: Start processing: sertit
+[2023-06-22 16:12:39] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [PyDuplicate] error
+[2023-06-22 16:12:39] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [leadguru-jobs]: Start processing: python-shell-colors
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-22 16:12:39] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/06/e1/0673405365659821d2aa26a4daee3e2a03fff36e6687901f3f120fe3954c/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl
+[2023-06-22 16:12:39] INFO root fetch - processPackages [python-shell-colors]: New version: [0.4.0.dev0] Old Version: [0.4.0]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [sertit]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [pysatMissions]: Remove: archive file [/home/abi/fetcher/tmp/pysatMissions-0.3.3.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [pysatMissions]: Remove: archive file [/home/abi/fetcher/tmp/pysatMissions-0.3.4.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [pysatMissions]: Start processing: tdw
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [pysatMissions]: success
+[2023-06-22 16:12:39] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [python-roborock]: Start processing: matrix-sydent
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-22 16:12:39] INFO root fetch - processPackages [tdw]: New version: [1.9.9.3] Old Version: [1.9.9.2]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Downloading https://files.pythonhosted.org/packages/84/b9/169c2b8f87fa84d481051d9b11e61c43ed4e141182ef541b13ede9a4caa0/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl
+[2023-06-22 16:12:39] INFO root fetch - processPackages [pycdfpp]: Remove: archive file [/home/abi/fetcher/tmp/pycdfpp-0.4.5.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [pycdfpp]: Remove: archive file [/home/abi/fetcher/tmp/pycdfpp-0.4.6.tar.gz]
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [pycdfpp]: success
+[2023-06-22 16:12:39] INFO root fetch - processPackages [matrix-sydent]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-06-22 16:12:39] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: executing diffoscope
+[2023-06-22 16:12:39] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl.zip tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl.zip --markdown 20230622/D/Denoising-Diffusion-Probabilistic-Models/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-06-22 16:12:39] INFO root fetch - processPackages [tdw]: Downloading https://files.pythonhosted.org/packages/c4/72/7e9dcffb20652a0fc7a75acb9c45c9c15e02911caff77569e88bda949a27/tdw-1.9.9.2.tar.gz
+[2023-06-22 16:12:39] INFO root fetch - processPackages [aspect-ratio-too]: Downloading https://files.pythonhosted.org/packages/36/83/5a8ec3a90352efcd7d8181844f0fdba2a544c2757a6cd0e9a320c6960c03/aspect_ratio_too-0.1.0-py2.py3-none-any.whl
+[2023-06-22 16:12:39] INFO root fetch - processPackages [python-shell-colors]: Downloading https://files.pythonhosted.org/packages/c3/f4/7b24495da9b55aef080ca6dd18a4ffe5f7bdd6e7b96a8a5db13a092c93dd/python-shell-colors-0.4.0.tar.gz
+[2023-06-22 16:12:39] INFO root fetch - processPackages [matrix-sydent]: Downloading https://files.pythonhosted.org/packages/37/4d/d9d543fb1057af83c4dec4b5065878f04837806edfed3c6330b069fc6962/matrix_sydent-2.5.4.tar.gz
+[2023-06-22 16:12:39] WARNING root fetch - processPackages [tdw]: Skipping package: exceeds size limit 28395540>=10485760
+[2023-06-22 16:12:39] INFO root fetch - main [MainThread]: End processing [tdw] error
+[2023-06-22 16:12:39] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/18/b5/8f8ae3243c9a8219ed4d021a73afa00c403efb3965526ea84b690569d3c7/sertit-1.8.1.tar.gz
+[2023-06-22 16:12:39] INFO root fetch - processPackages [es7s]: Downloading https://files.pythonhosted.org/packages/19/8b/f0ecc6844615f1d6585d48b9c2cc1f4e21bd25b8cf7a8d0aa0f8912bc159/es7s-3.6.0.dev0.tar.gz
+[2023-06-22 16:12:39] INFO root fetch - processPackages [python-shell-colors]: Downloading https://files.pythonhosted.org/packages/98/fa/8404ce5fb0ef0fb33718885b4ecab5eac59134b3cb4766afe025cba0e040/python-shell-colors-0.4.0.dev0.tar.gz
+[2023-06-22 16:12:39] INFO root fetch - processPackages [aspect-ratio-too]: Downloading https://files.pythonhosted.org/packages/92/19/4fe9a0c58cc62445e154aac498c6b95188004a0fc27c819da8d507150add/aspect_ratio_too-0.1.1-py2.py3-none-any.whl
+[2023-06-22 16:12:40] INFO root fetch - processPackages [python-shell-colors]: executing diffoscope
+[2023-06-22 16:12:40] INFO root fetch - processPackages [python-shell-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-shell-colors-0.4.0.tar.gz tmp/python-shell-colors-0.4.0.dev0.tar.gz --markdown 20230622/p/python-shell-colors/0.4.0-0.4.0.dev0/diff.md --exclude *.pyd
+[2023-06-22 16:12:40] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-06-22 16:12:40] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230622/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-06-22 16:12:40] INFO root fetch - processPackages [aspect-ratio-too]: executing diffoscope
+[2023-06-22 16:12:40] INFO root fetch - processPackages [aspect-ratio-too]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspect_ratio_too-0.1.0-py2.py3-none-any.whl.zip tmp/aspect_ratio_too-0.1.1-py2.py3-none-any.whl.zip --markdown 20230622/a/aspect-ratio-too/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 16:12:40] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/59/69/cbc0654faac948effc31798c883e666bf607b99951a584b7d5d192a3f2e4/sertit-1.9.0.tar.gz
+[2023-06-22 16:12:40] INFO root fetch - processPackages [matrix-sydent]: Downloading https://files.pythonhosted.org/packages/98/c6/966856bd7b1562a506b8c3a23709ee0ae0185c7a0532ad92081259b53b61/matrix_sydent-2.5.5.tar.gz
+[2023-06-22 16:12:40] INFO root fetch - processPackages [sertit]: executing diffoscope
+[2023-06-22 16:12:40] INFO root fetch - processPackages [sertit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sertit-1.8.1.tar.gz tmp/sertit-1.9.0.tar.gz --markdown 20230622/s/sertit/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-22 16:12:40] INFO root fetch - processPackages [matrix-sydent]: executing diffoscope
+[2023-06-22 16:12:40] INFO root fetch - processPackages [matrix-sydent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_sydent-2.5.4.tar.gz tmp/matrix_sydent-2.5.5.tar.gz --markdown 20230622/m/matrix-sydent/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-06-22 16:12:40] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.8-py3-none-any.whl.zip]
+[2023-06-22 16:12:40] INFO root fetch - processPackages [Denoising-Diffusion-Probabilistic-Models]: Remove: archive file [/home/abi/fetcher/tmp/Denoising_Diffusion_Probabilistic_Models-0.0.0.9-py3-none-any.whl.zip]
+[2023-06-22 16:12:40] INFO root fetch - main [MainThread]: End processing [Denoising-Diffusion-Probabilistic-Models]: success
+[2023-06-22 16:12:41] INFO root fetch - processPackages [aspect-ratio-too]: Remove: archive file [/home/abi/fetcher/tmp/aspect_ratio_too-0.1.0-py2.py3-none-any.whl.zip]
+[2023-06-22 16:12:41] INFO root fetch - processPackages [aspect-ratio-too]: Remove: archive file [/home/abi/fetcher/tmp/aspect_ratio_too-0.1.1-py2.py3-none-any.whl.zip]
+[2023-06-22 16:12:41] INFO root fetch - main [MainThread]: End processing [aspect-ratio-too]: success
+[2023-06-22 16:12:41] INFO root fetch - processPackages [python-shell-colors]: Remove: archive file [/home/abi/fetcher/tmp/python-shell-colors-0.4.0.tar.gz]
+[2023-06-22 16:12:41] INFO root fetch - processPackages [python-shell-colors]: Remove: archive file [/home/abi/fetcher/tmp/python-shell-colors-0.4.0.dev0.tar.gz]
+[2023-06-22 16:12:41] INFO root fetch - main [MainThread]: End processing [python-shell-colors]: success
+[2023-06-22 16:12:42] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.5.0.dev0.tar.gz]
+[2023-06-22 16:12:42] INFO root fetch - processPackages [es7s]: Remove: archive file [/home/abi/fetcher/tmp/es7s-3.6.0.dev0.tar.gz]
+[2023-06-22 16:12:42] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-06-22 16:12:42] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.8.1.tar.gz]
+[2023-06-22 16:12:42] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.9.0.tar.gz]
+[2023-06-22 16:12:42] INFO root fetch - main [MainThread]: End processing [sertit]: success
+[2023-06-22 16:12:43] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-06-22 16:12:43] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-06-22 16:12:43] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-06-22 16:12:43] INFO root fetch - processPackages [matrix-sydent]: Remove: archive file [/home/abi/fetcher/tmp/matrix_sydent-2.5.4.tar.gz]
+[2023-06-22 16:12:43] INFO root fetch - processPackages [matrix-sydent]: Remove: archive file [/home/abi/fetcher/tmp/matrix_sydent-2.5.5.tar.gz]
+[2023-06-22 16:12:43] INFO root fetch - main [MainThread]: End processing [matrix-sydent]: success
+[2023-06-22 16:12:52] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.8.tar.gz]
+[2023-06-22 16:12:52] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-2.8.9.tar.gz]
+[2023-06-22 16:12:52] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-06-22 16:12:52] INFO root fetch - main [MainThread]: Store serial: [18605907]
