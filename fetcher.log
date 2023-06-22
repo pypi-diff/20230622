@@ -12353,3 +12353,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 08:20:30] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-06-22 08:20:30] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-06-22 08:20:30] INFO root fetch - main [MainThread]: Store serial: [18601607]
+[2023-06-22 08:25:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601607]
+[2023-06-22 08:25:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 08:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betainc
+[2023-06-22 08:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-06-22 08:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethyca-fides
+[2023-06-22 08:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-product-pricelist-assortment
+[2023-06-22 08:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nics
+[2023-06-22 08:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cici-tools
+[2023-06-22 08:25:39] INFO root fetch - processPackages [cici-tools]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-22 08:25:39] INFO root fetch - processPackages [nics]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-22 08:25:39] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-06-22 08:25:39] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: New version: [14.0.2.1.0] Old Version: [14.0.2.0.1.dev1]
+[2023-06-22 08:25:39] INFO root fetch - processPackages [betainc]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-22 08:25:39] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/a9/a2/01dbf6e8f871799fd1c7e47787b8cc244f4190ecc7d6bde9f57611dd3b89/cici-tools-0.2.3.tar.gz
+[2023-06-22 08:25:39] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230622] Old Version: [1.6.1.dev20230621]
+[2023-06-22 08:25:40] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/89/49/36920c80f897acdade9ebdf18eb67c5536baabdd1bb649015536478499ec/nics-0.6.0.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/cc/07/87015563e40e75d579e56fabbbcfe222b19f01580b7f791811008b5b3f12/betainc-0.2.5.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/ae/c1/817d209025f85b587d5b382816ec71c47e31bc815965d7344688c7ae3bde/odoo14_addon_product_pricelist_assortment-14.0.2.0.1.dev1-py3-none-any.whl
+[2023-06-22 08:25:40] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/66/31/286fe9558915136bbcd691b7a2eac240011af4ce0be1d5655f0078e06f72/pretext-1.6.1.dev20230621.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [cici-tools]: Downloading https://files.pythonhosted.org/packages/39/1b/ee91aac818e876548b9922ebd6c9e61e2b4bed48dc954c21b8e800455445/cici-tools-0.2.4.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/36/4b/3b1d5aade0198d252e61978889c45b100ce499f10fe9e3a2dc4cf945b8cc/nics-0.7.0.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 08:25:40] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.6.0.tar.gz tmp/nics-0.7.0.tar.gz --markdown 20230622/n/nics/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-22 08:25:40] INFO root fetch - processPackages [cici-tools]: executing diffoscope
+[2023-06-22 08:25:40] INFO root fetch - processPackages [cici-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cici-tools-0.2.3.tar.gz tmp/cici-tools-0.2.4.tar.gz --markdown 20230622/c/cici-tools/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-22 08:25:40] INFO root fetch - processPackages [betainc]: Downloading https://files.pythonhosted.org/packages/b6/0d/2a85aa825ea1751406dc6a47609ef7242bab54afee310920282c564982ff/betainc-0.2.6.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [betainc]: executing diffoscope
+[2023-06-22 08:25:40] INFO root fetch - processPackages [betainc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betainc-0.2.5.tar.gz tmp/betainc-0.2.6.tar.gz --markdown 20230622/b/betainc/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-22 08:25:40] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/53/f4/5a686bbba9f2d0b6bdd38db92f0a3a438404b446ea11e76ff455cca4ef1b/pretext-1.6.1.dev20230622.tar.gz
+[2023-06-22 08:25:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Downloading https://files.pythonhosted.org/packages/5b/23/11eab219c50cd143f57185de4b421ccf47d6d544e828d822dc830b299a0b/odoo14_addon_product_pricelist_assortment-14.0.2.1.0-py3-none-any.whl
+[2023-06-22 08:25:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: executing diffoscope
+[2023-06-22 08:25:40] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_pricelist_assortment-14.0.2.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_product_pricelist_assortment-14.0.2.1.0-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-product-pricelist-assortment/14.0.2.0.1.dev1-14.0.2.1.0/diff.md --exclude *.pyd
+[2023-06-22 08:25:40] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2023-06-22 08:25:41] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-22 08:25:41] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230621.tar.gz tmp/pretext-1.6.1.dev20230622.tar.gz --markdown 20230622/p/pretext/1.6.1.dev20230621-1.6.1.dev20230622/diff.md --exclude *.pyd
+[2023-06-22 08:25:41] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-06-22 08:25:41] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230622/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-06-22 08:25:41] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.6.0.tar.gz]
+[2023-06-22 08:25:41] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.7.0.tar.gz]
+[2023-06-22 08:25:41] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 08:25:41] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.2.5.tar.gz]
+[2023-06-22 08:25:41] INFO root fetch - processPackages [betainc]: Remove: archive file [/home/abi/fetcher/tmp/betainc-0.2.6.tar.gz]
+[2023-06-22 08:25:41] INFO root fetch - main [MainThread]: End processing [betainc]: success
+[2023-06-22 08:25:42] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2023-06-22 08:25:42] INFO root fetch - processPackages [odoo14-addon-product-pricelist-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_pricelist_assortment-14.0.2.1.0-py3-none-any.whl.zip]
+[2023-06-22 08:25:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-pricelist-assortment]: success
+[2023-06-22 08:25:42] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.3.tar.gz]
+[2023-06-22 08:25:42] INFO root fetch - processPackages [cici-tools]: Remove: archive file [/home/abi/fetcher/tmp/cici-tools-0.2.4.tar.gz]
+[2023-06-22 08:25:42] INFO root fetch - main [MainThread]: End processing [cici-tools]: success
+[2023-06-22 08:25:45] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230621.tar.gz]
+[2023-06-22 08:25:45] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230622.tar.gz]
+[2023-06-22 08:25:45] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-22 08:25:49] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2023-06-22 08:25:49] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2023-06-22 08:25:49] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-06-22 08:25:49] INFO root fetch - main [MainThread]: Store serial: [18601624]
