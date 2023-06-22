@@ -12999,3 +12999,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:08:42] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.9.5.9.tar.gz]
 [2023-06-22 09:08:42] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
 [2023-06-22 09:08:42] INFO root fetch - main [MainThread]: Store serial: [18601834]
+[2023-06-22 09:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601834]
+[2023-06-22 09:13:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fsrs4anki-optimizer
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycoinlib
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optilog
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-nbqueue
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SFlock2
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-06-22 09:13:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiosumma
+[2023-06-22 09:13:51] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [3.25.5] Old Version: [3.25.4]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [mycoinlib]: New version: [1.1] Old Version: [1.0]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [jupyterlab-nbqueue]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [irene-pro]: New version: [0.0.66] Old Version: [0.0.65]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [SFlock2]: New version: [0.3.50] Old Version: [0.3.49]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [optilog]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [aiosumma]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-22 09:13:51] INFO root fetch - processPackages [jupyterlab-nbqueue]: Downloading https://files.pythonhosted.org/packages/85/29/7ddf906f298eb10266b74e080d016c31c19caee9ec905d041a0f2bd7fa11/jupyterlab_nbqueue-0.1.2.tar.gz
+[2023-06-22 09:13:51] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/af/63/76bb948cda2c27009b48b8fddf160e3d70fd6bfcd7ad70add7b240652ed3/aiosumma-2.9.8-py3-none-any.whl
+[2023-06-22 09:13:51] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/dc/d4/10718387e304a2c81528522bffed5d5d434266d38a8703defb9b50eee491/fsrs4anki_optimizer-3.25.4.tar.gz
+[2023-06-22 09:13:51] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/45/1c/60f299661899990d4fdb3c53722ff155af5bb210aa11b53e14d35f105ab3/mycoinlib-1.0.tar.gz
+[2023-06-22 09:13:51] INFO root fetch - processPackages [SFlock2]: Downloading https://files.pythonhosted.org/packages/52/c8/62974f1b9d8a6c4646c05741fa32e864f4a5649350a1e92a79138f3c44e1/SFlock2-0.3.49.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [optilog]: Downloading https://files.pythonhosted.org/packages/fe/40/a9cf4e2affc8ed4fd6ee660e9df7c1209ef2150081bdbea7e0e8f1c9d71c/optilog-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-22 09:13:52] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/d1/6c/57a2d9a0a900b75695e79006f81e6fe2c48d451412755c47b8a51e925612/irene_pro-0.0.65.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [aiosumma]: Downloading https://files.pythonhosted.org/packages/c8/7f/f303da086cbb7f185236d31e6bc67a25c6f5286e37ca9dcfc361983a9a60/aiosumma-2.9.9-py3-none-any.whl
+[2023-06-22 09:13:52] WARNING root fetch - processPackages [optilog]: Skipping package: exceeds size limit 13141809>=10485760
+[2023-06-22 09:13:52] INFO root fetch - main [MainThread]: End processing [optilog] error
+[2023-06-22 09:13:52] INFO root fetch - processPackages [mycoinlib]: Downloading https://files.pythonhosted.org/packages/5c/77/78f525ec5d60b83747fd0b1d85a96866e6bada7029f3d6a503e32daa796e/mycoinlib-1.1.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/85/3d/49335b1a16a537c803ce2bd5a5c27ae0033105067fc57fef29b04d562747/fsrs4anki_optimizer-3.25.5.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [aiosumma]: executing diffoscope
+[2023-06-22 09:13:52] INFO root fetch - processPackages [aiosumma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosumma-2.9.8-py3-none-any.whl.zip tmp/aiosumma-2.9.9-py3-none-any.whl.zip --markdown 20230622/a/aiosumma/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-22 09:13:52] INFO root fetch - processPackages [jupyterlab-nbqueue]: Downloading https://files.pythonhosted.org/packages/c5/71/064726f2e83ef3680d2aded1add4d9594db4a878b8ab329dba673c5db12e/jupyterlab_nbqueue-0.1.3.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [mycoinlib]: executing diffoscope
+[2023-06-22 09:13:52] INFO root fetch - processPackages [mycoinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycoinlib-1.0.tar.gz tmp/mycoinlib-1.1.tar.gz --markdown 20230622/m/mycoinlib/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-22 09:13:52] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/81/80/31a7d73b1a3887ad0131b4f1baa340fe6dc826a335f9cf9b8c5328b240e0/irene_pro-0.0.66.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-06-22 09:13:52] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-3.25.4.tar.gz tmp/fsrs4anki_optimizer-3.25.5.tar.gz --markdown 20230622/f/fsrs4anki-optimizer/3.25.4-3.25.5/diff.md --exclude *.pyd
+[2023-06-22 09:13:52] INFO root fetch - processPackages [SFlock2]: Downloading https://files.pythonhosted.org/packages/82/73/0ac88f8f857d8aaaf350914141aa2c65ba1c4b5662c8d47dd093cf026839/SFlock2-0.3.50.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-22 09:13:52] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.65.tar.gz tmp/irene_pro-0.0.66.tar.gz --markdown 20230622/i/irene-pro/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2023-06-22 09:13:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-22 09:13:52] INFO root fetch - processPackages [jupyterlab-nbqueue]: executing diffoscope
+[2023-06-22 09:13:52] INFO root fetch - processPackages [jupyterlab-nbqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_nbqueue-0.1.2.tar.gz tmp/jupyterlab_nbqueue-0.1.3.tar.gz --markdown 20230622/j/jupyterlab-nbqueue/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 09:13:52] INFO root fetch - processPackages [SFlock2]: executing diffoscope
+[2023-06-22 09:13:52] INFO root fetch - processPackages [SFlock2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SFlock2-0.3.49.tar.gz tmp/SFlock2-0.3.50.tar.gz --markdown 20230622/S/SFlock2/0.3.49-0.3.50/diff.md --exclude *.pyd
+[2023-06-22 09:13:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-22 09:13:52] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230622/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-22 09:13:53] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-1.0.tar.gz]
+[2023-06-22 09:13:53] INFO root fetch - processPackages [mycoinlib]: Remove: archive file [/home/abi/fetcher/tmp/mycoinlib-1.1.tar.gz]
+[2023-06-22 09:13:53] INFO root fetch - main [MainThread]: End processing [mycoinlib]: success
+[2023-06-22 09:13:53] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.4.tar.gz]
+[2023-06-22 09:13:53] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-3.25.5.tar.gz]
+[2023-06-22 09:13:53] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-06-22 09:13:53] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.65.tar.gz]
+[2023-06-22 09:13:53] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.66.tar.gz]
+[2023-06-22 09:13:53] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-22 09:13:53] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.8-py3-none-any.whl.zip]
+[2023-06-22 09:13:53] INFO root fetch - processPackages [aiosumma]: Remove: archive file [/home/abi/fetcher/tmp/aiosumma-2.9.9-py3-none-any.whl.zip]
+[2023-06-22 09:13:53] INFO root fetch - main [MainThread]: End processing [aiosumma]: success
+[2023-06-22 09:13:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-22 09:13:54] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-22 09:13:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-22 09:13:54] INFO root fetch - processPackages [SFlock2]: Remove: archive file [/home/abi/fetcher/tmp/SFlock2-0.3.49.tar.gz]
+[2023-06-22 09:13:54] INFO root fetch - processPackages [SFlock2]: Remove: archive file [/home/abi/fetcher/tmp/SFlock2-0.3.50.tar.gz]
+[2023-06-22 09:13:54] INFO root fetch - main [MainThread]: End processing [SFlock2]: success
+[2023-06-22 09:13:58] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.2.tar.gz]
+[2023-06-22 09:13:58] INFO root fetch - processPackages [jupyterlab-nbqueue]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_nbqueue-0.1.3.tar.gz]
+[2023-06-22 09:13:58] INFO root fetch - main [MainThread]: End processing [jupyterlab-nbqueue]: success
+[2023-06-22 09:13:58] INFO root fetch - main [MainThread]: Store serial: [18601861]
