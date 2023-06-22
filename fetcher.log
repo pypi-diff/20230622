@@ -11176,3 +11176,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:31:00] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-06-22 06:31:00] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-06-22 06:31:00] INFO root fetch - main [MainThread]: Store serial: [18601074]
+[2023-06-22 06:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601074]
+[2023-06-22 06:36:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-partner-contact-access-link
+[2023-06-22 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspark-delta-scd2
+[2023-06-22 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qiskit-ionq
+[2023-06-22 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-pos
+[2023-06-22 06:36:09] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-06-22 06:36:09] WARNING root fetch - processPackages [pyspark-delta-scd2]: Skipping, unable to determine old version
+[2023-06-22 06:36:09] INFO root fetch - main [MainThread]: End processing [pyspark-delta-scd2] error
+[2023-06-22 06:36:09] INFO root fetch - processPackages [odoo14-addons-oca-pos]: New version: [14.0.20230621.0] Old Version: [14.0.20230620.0]
+[2023-06-22 06:36:09] INFO root fetch - processPackages [qiskit-ionq]: New version: [0.4.1] Old Version: [0.4.0.dev0]
+[2023-06-22 06:36:09] INFO root fetch - processPackages [odoo14-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/9f/cf/eef0aee963d6fe49fe70a8faa5ca3fa57a438b93c2a28ee3938aa1c4fc39/odoo14_addons_oca_pos-14.0.20230620.0-py3-none-any.whl
+[2023-06-22 06:36:09] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Downloading https://files.pythonhosted.org/packages/ea/7b/69aaf87816e12cdef02db773945dd7a394e0c982649d9cefb6f2a83f4d27/odoo_addon_partner_contact_access_link-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-22 06:36:10] INFO root fetch - processPackages [odoo14-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/4f/e7/2e06c292f269636417242a9d83120fe78b1518bbd1331d24453d4e1850e8/odoo14_addons_oca_pos-14.0.20230621.0-py3-none-any.whl
+[2023-06-22 06:36:10] INFO root fetch - processPackages [qiskit-ionq]: Downloading https://files.pythonhosted.org/packages/21/91/107ec3c049f01ae26a1dacef80070f4e4289b4726a5fffb81fd42a1ee3dd/qiskit-ionq-0.4.0.dev0.tar.gz
+[2023-06-22 06:36:10] INFO root fetch - processPackages [odoo14-addons-oca-pos]: executing diffoscope
+[2023-06-22 06:36:10] INFO root fetch - processPackages [odoo14-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_pos-14.0.20230620.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_pos-14.0.20230621.0-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addons-oca-pos/14.0.20230620.0-14.0.20230621.0/diff.md --exclude *.pyd
+[2023-06-22 06:36:10] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Downloading https://files.pythonhosted.org/packages/8a/91/1de9640b9f4b3d0d6ac4aed563ff546e77ea846537d5b62f5213185d5a0e/odoo_addon_partner_contact_access_link-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-22 06:36:10] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: executing diffoscope
+[2023-06-22 06:36:10] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_contact_access_link-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_partner_contact_access_link-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-partner-contact-access-link/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-22 06:36:10] INFO root fetch - processPackages [qiskit-ionq]: Downloading https://files.pythonhosted.org/packages/af/99/0cfebe85630bbc4d931dca086ef8e7703520f72f43daac827b74a2c10d0d/qiskit-ionq-0.4.1.tar.gz
+[2023-06-22 06:36:10] INFO root fetch - processPackages [qiskit-ionq]: executing diffoscope
+[2023-06-22 06:36:10] INFO root fetch - processPackages [qiskit-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-ionq-0.4.0.dev0.tar.gz tmp/qiskit-ionq-0.4.1.tar.gz --markdown 20230622/q/qiskit-ionq/0.4.0.dev0-0.4.1/diff.md --exclude *.pyd
+[2023-06-22 06:36:11] INFO root fetch - processPackages [odoo14-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_pos-14.0.20230620.0-py3-none-any.whl.zip]
+[2023-06-22 06:36:11] INFO root fetch - processPackages [odoo14-addons-oca-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_pos-14.0.20230621.0-py3-none-any.whl.zip]
+[2023-06-22 06:36:11] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-pos]: success
+[2023-06-22 06:36:11] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_access_link-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-22 06:36:11] INFO root fetch - processPackages [odoo-addon-partner-contact-access-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_contact_access_link-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-22 06:36:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-contact-access-link]: success
+[2023-06-22 06:36:11] INFO root fetch - processPackages [qiskit-ionq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-ionq-0.4.0.dev0.tar.gz]
+[2023-06-22 06:36:11] INFO root fetch - processPackages [qiskit-ionq]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-ionq-0.4.1.tar.gz]
+[2023-06-22 06:36:11] INFO root fetch - main [MainThread]: End processing [qiskit-ionq]: success
+[2023-06-22 06:36:11] INFO root fetch - main [MainThread]: Store serial: [18601086]
