@@ -9814,3 +9814,60 @@
 [2023-06-22 04:59:05] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.4.tar.gz]
 [2023-06-22 04:59:05] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-06-22 04:59:05] INFO root fetch - main [MainThread]: Store serial: [18600679]
+[2023-06-22 05:04:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600679]
+[2023-06-22 05:04:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-22 05:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mantium-spec
+[2023-06-22 05:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snarled
+[2023-06-22 05:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyQt-Fluent-Widgets
+[2023-06-22 05:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-build-core
+[2023-06-22 05:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: statick-planning
+[2023-06-22 05:04:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudflare-r2
+[2023-06-22 05:04:16] INFO root fetch - processPackages [mantium-spec]: New version: [1.0.390] Old Version: [1.0.389]
+[2023-06-22 05:04:16] INFO root fetch - processPackages [cloudflare-r2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 05:04:16] INFO root fetch - processPackages [scikit-build-core]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-22 05:04:16] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-22 05:04:16] INFO root fetch - processPackages [statick-planning]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-22 05:04:16] INFO root fetch - processPackages [snarled]: New version: [1.0] Old Version: [0.6]
+[2023-06-22 05:04:16] INFO root fetch - processPackages [mantium-spec]: Downloading https://files.pythonhosted.org/packages/c4/16/29b634b0b7d535a7745fa039070dc1a9d44ebbc2ade16040aac26ed44483/mantium_spec-1.0.389.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/81/2c/992dfd4449dfc81ea42d3d84e31f565f1f6b98d81018e6cfd3c8a1394134/scikit_build_core-0.4.5.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [statick-planning]: Downloading https://files.pythonhosted.org/packages/fb/0e/61b67d20cd52301d09177c23326a4e399a692d05948726e5548146e31019/statick-planning-0.2.1.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/b6/49/15b3d861e399137d304fb5f63068be9c8c2ba03cb91881a372cc3d3ee358/PyQt-Fluent-Widgets-0.9.5.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [cloudflare-r2]: Downloading https://files.pythonhosted.org/packages/41/69/47b4c5f8133af0761f3547ee22ee5a97e042ff04581c51dd472ae9e356a8/cloudflare_r2-0.0.2.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [snarled]: Downloading https://files.pythonhosted.org/packages/4c/dd/9fffcfe495ee365b9ed31007aee3ac6d04f2d9170b0bc19b6f52117725ce/snarled-0.6.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [mantium-spec]: Downloading https://files.pythonhosted.org/packages/95/96/7d890daf39a83d44753b2c282063b6e8648f984f7cd486a5a1f5bd489076/mantium_spec-1.0.390.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [mantium-spec]: executing diffoscope
+[2023-06-22 05:04:16] INFO root fetch - processPackages [mantium-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mantium_spec-1.0.389.tar.gz tmp/mantium_spec-1.0.390.tar.gz --markdown 20230622/m/mantium-spec/1.0.389-1.0.390/diff.md --exclude *.pyd
+[2023-06-22 05:04:16] INFO root fetch - processPackages [statick-planning]: Downloading https://files.pythonhosted.org/packages/15/20/5d09fb5af19742cd0e89138c82fd28a5de5f41eab38e1cc370f81ee30764/statick-planning-0.2.2.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [cloudflare-r2]: Downloading https://files.pythonhosted.org/packages/d8/52/03a04bfc099b3bf117f754911a1bc80d7cf8e805a45ef8c17de4b1d4afeb/cloudflare_r2-0.0.3.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [snarled]: Downloading https://files.pythonhosted.org/packages/02/ca/0c14e8d58f868d896e8766c98e2276d786ae2febb758698b13370aa9c1f3/snarled-1.0.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/27/69/dd5e6de5f162e4187a8b8cb02da99327ad9a313da7816e0109cf2a7c9616/scikit_build_core-0.4.6.tar.gz
+[2023-06-22 05:04:16] INFO root fetch - processPackages [snarled]: executing diffoscope
+[2023-06-22 05:04:16] INFO root fetch - processPackages [snarled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snarled-0.6.tar.gz tmp/snarled-1.0.tar.gz --markdown 20230622/s/snarled/0.6-1.0/diff.md --exclude *.pyd
+[2023-06-22 05:04:17] ERROR root fetch - processPackages [mantium-spec]: Diffoscope failed: Error: error creating container storage: the container name "thirsty_hofstadter" is already in use by "1940baae4d3c35367bb06889a699ec07a7c42c7688a215fbefe189dada2b8d0a". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-22 05:04:17] INFO root fetch - main [MainThread]: End processing [mantium-spec] error
+[2023-06-22 05:04:17] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/49/3a/09426b28bb359a6077f4d9c45a1948bfefd698f96e1da6728b00e37f3e91/PyQt-Fluent-Widgets-0.9.6.tar.gz
+[2023-06-22 05:04:17] INFO root fetch - processPackages [statick-planning]: executing diffoscope
+[2023-06-22 05:04:17] INFO root fetch - processPackages [statick-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statick-planning-0.2.1.tar.gz tmp/statick-planning-0.2.2.tar.gz --markdown 20230622/s/statick-planning/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-22 05:04:17] INFO root fetch - processPackages [cloudflare-r2]: executing diffoscope
+[2023-06-22 05:04:17] INFO root fetch - processPackages [cloudflare-r2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare_r2-0.0.2.tar.gz tmp/cloudflare_r2-0.0.3.tar.gz --markdown 20230622/c/cloudflare-r2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 05:04:17] INFO root fetch - processPackages [scikit-build-core]: executing diffoscope
+[2023-06-22 05:04:17] INFO root fetch - processPackages [scikit-build-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core-0.4.5.tar.gz tmp/scikit_build_core-0.4.6.tar.gz --markdown 20230622/s/scikit-build-core/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-22 05:04:17] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-06-22 05:04:17] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.9.5.tar.gz tmp/PyQt-Fluent-Widgets-0.9.6.tar.gz --markdown 20230622/P/PyQt-Fluent-Widgets/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-22 05:04:18] INFO root fetch - processPackages [snarled]: Remove: archive file [/home/abi/fetcher/tmp/snarled-0.6.tar.gz]
+[2023-06-22 05:04:18] INFO root fetch - processPackages [snarled]: Remove: archive file [/home/abi/fetcher/tmp/snarled-1.0.tar.gz]
+[2023-06-22 05:04:18] INFO root fetch - main [MainThread]: End processing [snarled]: success
+[2023-06-22 05:04:18] INFO root fetch - processPackages [statick-planning]: Remove: archive file [/home/abi/fetcher/tmp/statick-planning-0.2.1.tar.gz]
+[2023-06-22 05:04:18] INFO root fetch - processPackages [statick-planning]: Remove: archive file [/home/abi/fetcher/tmp/statick-planning-0.2.2.tar.gz]
+[2023-06-22 05:04:18] INFO root fetch - main [MainThread]: End processing [statick-planning]: success
+[2023-06-22 05:04:18] INFO root fetch - processPackages [cloudflare-r2]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare_r2-0.0.2.tar.gz]
+[2023-06-22 05:04:18] INFO root fetch - processPackages [cloudflare-r2]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare_r2-0.0.3.tar.gz]
+[2023-06-22 05:04:18] INFO root fetch - main [MainThread]: End processing [cloudflare-r2]: success
+[2023-06-22 05:04:19] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.5.tar.gz]
+[2023-06-22 05:04:19] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.6.tar.gz]
+[2023-06-22 05:04:19] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
+[2023-06-22 05:04:22] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.5.tar.gz]
+[2023-06-22 05:04:22] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-0.9.6.tar.gz]
+[2023-06-22 05:04:22] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-06-22 05:04:22] INFO root fetch - main [MainThread]: Store serial: [18600702]
