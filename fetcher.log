@@ -14921,3 +14921,195 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:55:49] INFO root fetch - processPackages [sirmordred]: Remove: archive file [/home/abi/fetcher/tmp/sirmordred-0.9.0rc1.tar.gz]
 [2023-06-22 10:55:49] INFO root fetch - main [MainThread]: End processing [sirmordred]: success
 [2023-06-22 10:55:49] INFO root fetch - main [MainThread]: Store serial: [18602588]
+[2023-06-22 11:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602588]
+[2023-06-22 11:00:59] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clearml
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: array-record
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybird-cli
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lest
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TypeDal
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lzmp
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hcai-nova-server-nightly
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: efel
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hcai-datasets
+[2023-06-22 11:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hcai-datasets-nightly
+[2023-06-22 11:00:59] INFO root fetch - processPackages [array-record]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [lest]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [lzmp]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-datasets]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [TypeDal]: New version: [1.1.1] Old Version: [1.0.0b1]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [efel]: New version: [4.2.7] Old Version: [4.2.5]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-06-22 11:00:59] INFO root fetch - processPackages [array-record]: Downloading https://files.pythonhosted.org/packages/87/4b/3cd5a3f9bc3ba53a00d3d19f0dbcfa462354e609af50f4105bcd54e882f7/array_record-0.3.0-py39-none-any.whl
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-datasets]: Downloading https://files.pythonhosted.org/packages/97/9e/86aff134e80cefe5281896e6dc3bc3bf9e1ba571ee124e0658b77e44fc57/hcai-datasets-0.1.8.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [lest]: Downloading https://files.pythonhosted.org/packages/81/e9/88d1f1f864fdc7303fc7c323161125758c980d5f410bf8c3d7c64da1e8ad/lest-0.3.0.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [TypeDal]: Downloading https://files.pythonhosted.org/packages/6c/a0/d35540c04bb58ac71f08b3e2e58f24016b152ac6ccf294623a065a8fc2e8/typedal-1.0.0b1.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [lzmp]: Downloading https://files.pythonhosted.org/packages/de/14/b3a3062b3c841a50b8991de99e43b431cd6794752444d8fa22ca6c2cbe76/lzmp-0.3.2.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/7e/29/095ec92c0b253f5d8ad2c5fc3a6c437c0cdabc67716b99ae81f0d773ae77/clearml-1.9.2rc2-py2.py3-none-any.whl
+[2023-06-22 11:00:59] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/8a/a9/ab6b41695b7e1c3a147a48013439b51aa39498cd9fdf9eb52f559b26b3a4/efel-4.2.5.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [array-record]: Downloading https://files.pythonhosted.org/packages/4b/93/2a07d2f7317ea17ea9e17865d27175db13292ca8496aaeb6b9614aabe638/array_record-0.4.0-py39-none-any.whl
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230622/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-06-22 11:00:59] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-06-22 11:00:59] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230622/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-06-22 11:00:59] INFO root fetch - processPackages [hcai-datasets]: Downloading https://files.pythonhosted.org/packages/26/b7/fa25bbbf6ebefdc2e2d02b5a5f0e99f47f685533eff43005c65fb68e90c9/hcai-datasets-0.1.9.tar.gz
+[2023-06-22 11:00:59] INFO root fetch - processPackages [lest]: Downloading https://files.pythonhosted.org/packages/c9/97/f19eed49681686c01fc7977e58804c2757b26de6e44df393329eac5c4f15/lest-0.4.0.tar.gz
+[2023-06-22 11:01:00] INFO root fetch - processPackages [array-record]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [array-record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/array_record-0.3.0-py39-none-any.whl.zip tmp/array_record-0.4.0-py39-none-any.whl.zip --markdown 20230622/a/array-record/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 11:01:00] INFO root fetch - processPackages [lest]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [lest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lest-0.3.0.tar.gz tmp/lest-0.4.0.tar.gz --markdown 20230622/l/lest/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 11:01:00] INFO root fetch - processPackages [lzmp]: Downloading https://files.pythonhosted.org/packages/1a/52/0209091986ef0d797a0a814b9764bad15e8235be70332296207147ef86ce/lzmp-0.4.0.tar.gz
+[2023-06-22 11:01:00] INFO root fetch - processPackages [TypeDal]: Downloading https://files.pythonhosted.org/packages/ee/3f/950383e885d4fc73727bd564ff018ae222e67cc74a21c1ecf1b22b181b74/typedal-1.1.1.tar.gz
+[2023-06-22 11:01:00] INFO root fetch - processPackages [lzmp]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [lzmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzmp-0.3.2.tar.gz tmp/lzmp-0.4.0.tar.gz --markdown 20230622/l/lzmp/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 11:01:00] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/ce/e8/0c335873c6ef72310890be41a2b4b804f0390e3b0c1a507bcbc4300d4229/clearml-1.9.3-py2.py3-none-any.whl
+[2023-06-22 11:01:00] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/0e/a3/833934a320423b3d41bf72306975d346c494881acb510980f3f6b06535cf/efel-4.2.7.tar.gz
+[2023-06-22 11:01:00] INFO root fetch - processPackages [TypeDal]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [TypeDal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedal-1.0.0b1.tar.gz tmp/typedal-1.1.1.tar.gz --markdown 20230622/T/TypeDal/1.0.0b1-1.1.1/diff.md --exclude *.pyd
+[2023-06-22 11:01:00] INFO root fetch - processPackages [hcai-datasets]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [hcai-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-0.1.8.tar.gz tmp/hcai-datasets-0.1.9.tar.gz --markdown 20230622/h/hcai-datasets/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 11:01:00] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20230622/c/clearml/1.9.2rc2-1.9.3/diff.md --exclude *.pyd
+[2023-06-22 11:01:00] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.2.5.tar.gz tmp/efel-4.2.7.tar.gz --markdown 20230622/e/efel/4.2.5-4.2.7/diff.md --exclude *.pyd
+[2023-06-22 11:01:00] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-06-22 11:01:00] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230622/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-06-22 11:01:01] INFO root fetch - processPackages [lest]: Remove: archive file [/home/abi/fetcher/tmp/lest-0.3.0.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [lest]: Remove: archive file [/home/abi/fetcher/tmp/lest-0.4.0.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [lest]: Start processing: rmmbr
+[2023-06-22 11:01:01] INFO root fetch - main [MainThread]: End processing [lest]: success
+[2023-06-22 11:01:01] INFO root fetch - processPackages [rmmbr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [lzmp]: Remove: archive file [/home/abi/fetcher/tmp/lzmp-0.3.2.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [lzmp]: Remove: archive file [/home/abi/fetcher/tmp/lzmp-0.4.0.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [lzmp]: Start processing: odoo-addon-l10n-es-aeat-mod123
+[2023-06-22 11:01:01] INFO root fetch - main [MainThread]: End processing [lzmp]: success
+[2023-06-22 11:01:01] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [rmmbr]: Downloading https://files.pythonhosted.org/packages/f4/40/80fcb553b12d1dd930a100563943c42f742efc1117d4d13ce7e2fa227f9b/rmmbr-0.0.8.tar.gz
+[2023-06-22 11:01:01] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/a3/7e/b5cc72116cf8a95b5073501cc6e2659201b3805999422c0a6567d2d09f3c/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-22 11:01:01] INFO root fetch - processPackages [hcai-datasets]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-0.1.8.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [hcai-datasets]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-0.1.9.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [hcai-datasets]: Start processing: pancollection
+[2023-06-22 11:01:01] INFO root fetch - main [MainThread]: End processing [hcai-datasets]: success
+[2023-06-22 11:01:01] INFO root fetch - processPackages [pancollection]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz]
+[2023-06-22 11:01:01] INFO root fetch - processPackages [hcai-datasets-nightly]: Start processing: ccfit2
+[2023-06-22 11:01:01] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-06-22 11:01:02] INFO root fetch - processPackages [ccfit2]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-06-22 11:01:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-22 11:01:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-06-22 11:01:02] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: kuksa-client
+[2023-06-22 11:01:02] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-22 11:01:02] INFO root fetch - processPackages [rmmbr]: Downloading https://files.pythonhosted.org/packages/bd/2b/67f6ef88671efad28f4fde6f28d5ecad53948c4e7b214c4af437fe804b19/rmmbr-0.0.9.tar.gz
+[2023-06-22 11:01:02] INFO root fetch - processPackages [kuksa-client]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2023-06-22 11:01:02] INFO root fetch - processPackages [pancollection]: Downloading https://files.pythonhosted.org/packages/ae/21/a642e04e139f04d37ec393c241d0b87b25e4161040f844eea3debfa16a41/pancollection-0.3.3-py3-none-any.whl
+[2023-06-22 11:01:02] INFO root fetch - processPackages [rmmbr]: executing diffoscope
+[2023-06-22 11:01:02] INFO root fetch - processPackages [rmmbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rmmbr-0.0.8.tar.gz tmp/rmmbr-0.0.9.tar.gz --markdown 20230622/r/rmmbr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 11:01:02] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/fa/71/e408b7db27f8e43b4ba11bc21ed7f5fb2be8c37eaedca6e1076222682594/ccfit2-5.0.0.tar.gz
+[2023-06-22 11:01:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/0b/e1/050ea6556f734034558bf2c33e581c4adcea73f1473727de0785c222b193/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-22 11:01:02] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/be/88/650065c2f4c66736f3277a11c805a18c2d3499a96265e183dda1d1adb3d0/kuksa_client-0.4.0a2.tar.gz
+[2023-06-22 11:01:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2023-06-22 11:01:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-l10n-es-aeat-mod123/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-22 11:01:02] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-06-22 11:01:02] INFO root fetch - processPackages [pancollection]: Downloading https://files.pythonhosted.org/packages/5c/5f/3aa74516aacec66a09ec4abb822ef0f62d4f8d5710aecec8f1fd3e36d4b6/pancollection-0.3.4-py3-none-any.whl
+[2023-06-22 11:01:02] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-06-22 11:01:02] INFO root fetch - processPackages [tinybird-cli]: Start processing: giant-plugins
+[2023-06-22 11:01:02] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-06-22 11:01:02] INFO root fetch - processPackages [giant-plugins]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-22 11:01:02] INFO root fetch - processPackages [ccfit2]: Downloading https://files.pythonhosted.org/packages/ab/2f/867ceb64e81b571b9e016688f0f5294b4a4c3879f21b28209feb0bb96d3b/ccfit2-5.0.1.tar.gz
+[2023-06-22 11:01:02] INFO root fetch - processPackages [pancollection]: executing diffoscope
+[2023-06-22 11:01:02] INFO root fetch - processPackages [pancollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pancollection-0.3.3-py3-none-any.whl.zip tmp/pancollection-0.3.4-py3-none-any.whl.zip --markdown 20230622/p/pancollection/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-22 11:01:02] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/bd/2d/e6bb7ae0796747669ddf0486b3a0a5ffe6d544950bf4d8a1558c4ee4cd02/kuksa_client-0.4.0a3.tar.gz
+[2023-06-22 11:01:02] INFO root fetch - processPackages [ccfit2]: executing diffoscope
+[2023-06-22 11:01:02] INFO root fetch - processPackages [ccfit2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccfit2-5.0.0.tar.gz tmp/ccfit2-5.0.1.tar.gz --markdown 20230622/c/ccfit2/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-06-22 11:01:02] INFO root fetch - processPackages [giant-plugins]: Downloading https://files.pythonhosted.org/packages/69/bf/8fd91a052305bfeda7a7ff6147373edc51ee1f0370368e2bdd4aa36c3b84/giant-plugins-1.0.8.tar.gz
+[2023-06-22 11:01:02] INFO root fetch - processPackages [kuksa-client]: executing diffoscope
+[2023-06-22 11:01:02] INFO root fetch - processPackages [kuksa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuksa_client-0.4.0a2.tar.gz tmp/kuksa_client-0.4.0a3.tar.gz --markdown 20230622/k/kuksa-client/0.4.0a2-0.4.0a3/diff.md --exclude *.pyd
+[2023-06-22 11:01:03] INFO root fetch - processPackages [rmmbr]: Remove: archive file [/home/abi/fetcher/tmp/rmmbr-0.0.8.tar.gz]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [rmmbr]: Remove: archive file [/home/abi/fetcher/tmp/rmmbr-0.0.9.tar.gz]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [rmmbr]: Start processing: baguette-verse
+[2023-06-22 11:01:03] INFO root fetch - main [MainThread]: End processing [rmmbr]: success
+[2023-06-22 11:01:03] INFO root fetch - processPackages [baguette-verse]: New version: [1.0.6.4] Old Version: [1.0.6.3]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [baguette-verse]: Downloading https://files.pythonhosted.org/packages/7d/ef/985d6881787afcee8259bb1d87f9b04a0e938835e7e94f611de3b3bc2906/baguette_verse-1.0.6.3.tar.gz
+[2023-06-22 11:01:03] INFO root fetch - processPackages [giant-plugins]: Downloading https://files.pythonhosted.org/packages/c2/6c/275688b0e041dcb282b957248ea60c9c0568685cd2f4c16beb575b762cd6/giant-plugins-1.0.9.tar.gz
+[2023-06-22 11:01:03] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.2.5.tar.gz]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.2.7.tar.gz]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [efel]: Start processing: hcai-nova-server
+[2023-06-22 11:01:03] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-06-22 11:01:03] INFO root fetch - processPackages [hcai-nova-server]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/41/e7/88c9ee328c9b7058af2bccb07742ff63eb94c157f8aa8043f8e77de83d19/hcai-nova-server-0.1.8.tar.gz
+[2023-06-22 11:01:03] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [clearml]: Start processing: talkytrend
+[2023-06-22 11:01:03] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2023-06-22 11:01:03] INFO root fetch - processPackages [talkytrend]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/17/d8/3a6de9584e9a0799fe6188b572e2313eb1c3aea1e405a76d32bd0b717d68/talkytrend-1.3.3.tar.gz
+[2023-06-22 11:01:03] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/f2/15/6f1137a2294b11c9cac9e2f1c5e80c38876f24591c7f0323ec9c49543613/hcai-nova-server-0.1.9.tar.gz
+[2023-06-22 11:01:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod123-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-22 11:01:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod123]: Start processing: openlane
+[2023-06-22 11:01:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod123]: success
+[2023-06-22 11:01:04] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-22 11:01:04] INFO root fetch - processPackages [hcai-nova-server]: executing diffoscope
+[2023-06-22 11:01:04] INFO root fetch - processPackages [hcai-nova-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-0.1.8.tar.gz tmp/hcai-nova-server-0.1.9.tar.gz --markdown 20230622/h/hcai-nova-server/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 11:01:04] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.0.0.tar.gz]
+[2023-06-22 11:01:04] INFO root fetch - processPackages [ccfit2]: Remove: archive file [/home/abi/fetcher/tmp/ccfit2-5.0.1.tar.gz]
+[2023-06-22 11:01:04] INFO root fetch - processPackages [ccfit2]: Start processing: acryl-datahub
+[2023-06-22 11:01:04] INFO root fetch - main [MainThread]: End processing [ccfit2]: success
+[2023-06-22 11:01:04] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/e7/a3/ad85a5edce698a3062794a0c127fd2a51ddb14014218f9a42185bd4703b8/talkytrend-1.3.4.tar.gz
+[2023-06-22 11:01:04] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-06-22 11:01:04] INFO root fetch - processPackages [giant-plugins]: executing diffoscope
+[2023-06-22 11:01:04] INFO root fetch - processPackages [giant-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant-plugins-1.0.8.tar.gz tmp/giant-plugins-1.0.9.tar.gz --markdown 20230622/g/giant-plugins/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-22 11:01:04] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-22 11:01:04] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.3.3.tar.gz tmp/talkytrend-1.3.4.tar.gz --markdown 20230622/t/talkytrend/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-22 11:01:04] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-06-22 11:01:04] INFO root fetch - processPackages [pancollection]: Remove: archive file [/home/abi/fetcher/tmp/pancollection-0.3.3-py3-none-any.whl.zip]
+[2023-06-22 11:01:04] INFO root fetch - processPackages [pancollection]: Remove: archive file [/home/abi/fetcher/tmp/pancollection-0.3.4-py3-none-any.whl.zip]
+[2023-06-22 11:01:04] INFO root fetch - main [MainThread]: End processing [pancollection]: success
+[2023-06-22 11:01:04] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-06-22 11:01:04] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-06-22 11:01:04] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230622/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-22 11:01:05] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-06-22 11:01:05] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.8.tar.gz]
+[2023-06-22 11:01:05] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.9.tar.gz]
+[2023-06-22 11:01:05] INFO root fetch - main [MainThread]: End processing [hcai-nova-server]: success
+[2023-06-22 11:01:05] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.3.3.tar.gz]
+[2023-06-22 11:01:05] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.3.4.tar.gz]
+[2023-06-22 11:01:05] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-22 11:01:05] INFO root fetch - processPackages [baguette-verse]: Downloading https://files.pythonhosted.org/packages/1f/2a/516c4a08f0e0c29ad3dbd9d78478d7baaed8516d9e44944cb95a5ca9b6bb/baguette_verse-1.0.6.4.tar.gz
+[2023-06-22 11:01:05] INFO root fetch - processPackages [array-record]: Remove: archive file [/home/abi/fetcher/tmp/array_record-0.3.0-py39-none-any.whl.zip]
+[2023-06-22 11:01:05] INFO root fetch - processPackages [array-record]: Remove: archive file [/home/abi/fetcher/tmp/array_record-0.4.0-py39-none-any.whl.zip]
+[2023-06-22 11:01:05] INFO root fetch - main [MainThread]: End processing [array-record]: success
+[2023-06-22 11:01:05] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.0a2.tar.gz]
+[2023-06-22 11:01:05] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.0a3.tar.gz]
+[2023-06-22 11:01:05] INFO root fetch - main [MainThread]: End processing [kuksa-client]: success
+[2023-06-22 11:01:06] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-06-22 11:01:06] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-06-22 11:01:06] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-06-22 11:01:06] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-06-22 11:01:06] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-06-22 11:01:06] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230622/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-06-22 11:01:06] INFO root fetch - processPackages [giant-plugins]: Remove: archive file [/home/abi/fetcher/tmp/giant-plugins-1.0.8.tar.gz]
+[2023-06-22 11:01:06] INFO root fetch - processPackages [giant-plugins]: Remove: archive file [/home/abi/fetcher/tmp/giant-plugins-1.0.9.tar.gz]
+[2023-06-22 11:01:06] INFO root fetch - main [MainThread]: End processing [giant-plugins]: success
+[2023-06-22 11:01:07] INFO root fetch - processPackages [baguette-verse]: executing diffoscope
+[2023-06-22 11:01:07] INFO root fetch - processPackages [baguette-verse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baguette_verse-1.0.6.3.tar.gz tmp/baguette_verse-1.0.6.4.tar.gz --markdown 20230622/b/baguette-verse/1.0.6.3-1.0.6.4/diff.md --exclude *.pyd
+[2023-06-22 11:01:09] INFO root fetch - processPackages [baguette-verse]: Remove: archive file [/home/abi/fetcher/tmp/baguette_verse-1.0.6.3.tar.gz]
+[2023-06-22 11:01:09] INFO root fetch - processPackages [baguette-verse]: Remove: archive file [/home/abi/fetcher/tmp/baguette_verse-1.0.6.4.tar.gz]
+[2023-06-22 11:01:09] INFO root fetch - main [MainThread]: End processing [baguette-verse]: success
+[2023-06-22 11:01:10] INFO root fetch - processPackages [TypeDal]: Remove: archive file [/home/abi/fetcher/tmp/typedal-1.0.0b1.tar.gz]
+[2023-06-22 11:01:10] INFO root fetch - processPackages [TypeDal]: Remove: archive file [/home/abi/fetcher/tmp/typedal-1.1.1.tar.gz]
+[2023-06-22 11:01:10] INFO root fetch - main [MainThread]: End processing [TypeDal]: success
+[2023-06-22 11:01:12] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-06-22 11:01:12] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-06-22 11:01:12] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-06-22 11:01:12] INFO root fetch - main [MainThread]: Store serial: [18602665]
