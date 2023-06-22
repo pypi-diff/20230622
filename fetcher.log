@@ -18942,3 +18942,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:29:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-06-22 13:29:37] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-06-22 13:29:37] INFO root fetch - main [MainThread]: Store serial: [18604183]
+[2023-06-22 13:34:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604183]
+[2023-06-22 13:34:46] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijzept
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napalm-slx-os
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SqliteOrmMagic
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalecodec
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-crm-security-group
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client-v2
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stigg-api-client
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starrailcard
+[2023-06-22 13:34:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-selectable
+[2023-06-22 13:34:46] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [django-selectable]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.467.1] Old Version: [0.467.0]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [napalm-slx-os]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [starrailcard]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.467.1]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [SqliteOrmMagic]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [odoo-addon-crm-security-group]: New version: [15.0.1.2.0] Old Version: [15.0.1.1.0.5]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [scalecodec]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [jijzept]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-22 13:34:46] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/3d/50/ddd01a468b1d5927c0bd0a443fc74a79e68ea97930c5e7428c8cea05f779/starrailcard-0.0.2.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [SqliteOrmMagic]: Downloading https://files.pythonhosted.org/packages/42/f6/ee96b7231a84e1ceeb2ccfada4d98f1e29fa2ee11ae872fdc52b467afddb/SqliteOrmMagic-0.0.4.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/d1/f8/21c65438f0b3bec8a6f6dd4af5a96504afde5382bc00109b0484a8606cfd/stigg_api_client_v2-0.467.0.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [django-selectable]: Downloading https://files.pythonhosted.org/packages/ea/72/1a8a65ce3981fe8922749d4be489713e3a74ead5c5957f0cf0e72261b557/django-selectable-1.3.0.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/55/e4/09556e373c07dc27768cbce6401b2c54eea42fbc365959b91eefb8b65e99/stigg_api_client-0.467.1.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [napalm-slx-os]: Downloading https://files.pythonhosted.org/packages/99/d2/2e6e56a1fef5b5549be3292898287265a8c82ae54e73c3fd2c087826143b/napalm-slx-os-0.1.1.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Downloading https://files.pythonhosted.org/packages/92/e4/f4bc9e2f429401aa69ad8b7b50ea27db381584d02627aad993d4af359a24/odoo_addon_crm_security_group-15.0.1.1.0.5-py3-none-any.whl
+[2023-06-22 13:34:46] INFO root fetch - processPackages [scalecodec]: Downloading https://files.pythonhosted.org/packages/cd/b1/8a82770996863b911fb4ddd11a87b3490555da9d9432a2542fbc526f7cdd/scalecodec-1.2.5.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/72/fb/9a52fe090892437248f15fb11b3c8ee874329278b8f5ee8d6169e88dc0a6/jijzept-1.9.1-cp39-cp39-win_amd64.whl
+[2023-06-22 13:34:46] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:34:46] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:34:46] INFO root fetch - processPackages [SqliteOrmMagic]: Downloading https://files.pythonhosted.org/packages/21/07/8286cbcfab35d5b7cd0c6ac2b866ae79105705cde40636840b7c226fd299/SqliteOrmMagic-0.0.5.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/81/fb/847e974dcc3ee9a7ccbb42d21547a1a515442cf4af799134b8a57799e662/stigg_api_client_v2-0.467.1.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/74/1d/bd1a557484ec388844999f63ddd18e4c34cc007a3287f8e7b42eedfa2548/starrailcard-0.0.3.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [napalm-slx-os]: Downloading https://files.pythonhosted.org/packages/9b/48/3810e7dcb925284e5f9435d9962cd8d1789d7b16c7061ec9ec6cb99a9d8c/napalm-slx-os-0.2.0.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-06-22 13:34:46] INFO root fetch - processPackages [scalecodec]: Downloading https://files.pythonhosted.org/packages/90/a9/5a3dbdb01be43aeabee1453604dc32407512a094ca77d3ed2a66e304158a/scalecodec-1.2.6.tar.gz
+[2023-06-22 13:34:47] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Downloading https://files.pythonhosted.org/packages/d0/66/685c5916e7d56b2c0a3cf3b628f47b04799633d4e451cce4fb39f26cd023/odoo_addon_crm_security_group-15.0.1.2.0-py3-none-any.whl
+[2023-06-22 13:34:47] INFO root fetch - processPackages [SqliteOrmMagic]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [SqliteOrmMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SqliteOrmMagic-0.0.4.tar.gz tmp/SqliteOrmMagic-0.0.5.tar.gz --markdown 20230622/S/SqliteOrmMagic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [django-selectable]: Downloading https://files.pythonhosted.org/packages/46/1f/fb184a75bc1c811f0d49f2c8d99845c55d185e0327997704b38da37b9994/django-selectable-1.4.0.tar.gz
+[2023-06-22 13:34:47] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.467.1.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230622/s/stigg-api-client/0.467.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [napalm-slx-os]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [napalm-slx-os]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napalm-slx-os-0.1.1.tar.gz tmp/napalm-slx-os-0.2.0.tar.gz --markdown 20230622/n/napalm-slx-os/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.467.0.tar.gz tmp/stigg_api_client_v2-0.467.1.tar.gz --markdown 20230622/s/stigg-api-client-v2/0.467.0-0.467.1/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/a1/bc/e2438f5f8452cd4acef7ef12bfa56f583f3dfd05881f00d6bb416d64ba72/jijzept-1.9.2-cp39-cp39-win_amd64.whl
+[2023-06-22 13:34:47] INFO root fetch - processPackages [scalecodec]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [scalecodec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalecodec-1.2.5.tar.gz tmp/scalecodec-1.2.6.tar.gz --markdown 20230622/s/scalecodec/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [odoo-addon-crm-security-group]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [odoo-addon-crm-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_security_group-15.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_crm_security_group-15.0.1.2.0-py3-none-any.whl.zip --markdown 20230622/o/odoo-addon-crm-security-group/15.0.1.1.0.5-15.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [django-selectable]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [django-selectable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-selectable-1.3.0.tar.gz tmp/django-selectable-1.4.0.tar.gz --markdown 20230622/d/django-selectable/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [jijzept]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [jijzept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20230622/j/jijzept/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-22 13:34:47] INFO root fetch - processPackages [starrailcard]: executing diffoscope
+[2023-06-22 13:34:47] INFO root fetch - processPackages [starrailcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailcard-0.0.2.tar.gz tmp/starrailcard-0.0.3.tar.gz --markdown 20230622/s/starrailcard/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 13:34:48] INFO root fetch - processPackages [SqliteOrmMagic]: Remove: archive file [/home/abi/fetcher/tmp/SqliteOrmMagic-0.0.4.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [SqliteOrmMagic]: Remove: archive file [/home/abi/fetcher/tmp/SqliteOrmMagic-0.0.5.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [SqliteOrmMagic]: Start processing: micro-orch
+[2023-06-22 13:34:48] INFO root fetch - main [MainThread]: End processing [SqliteOrmMagic]: success
+[2023-06-22 13:34:48] WARNING root fetch - processPackages [micro-orch]: Skipping, unable to determine old version
+[2023-06-22 13:34:48] INFO root fetch - processPackages [micro-orch]: Start processing: opsramp-analytics-utils
+[2023-06-22 13:34:48] INFO root fetch - main [MainThread]: End processing [micro-orch] error
+[2023-06-22 13:34:48] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.3.4] Old Version: [3.3.3]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [napalm-slx-os]: Remove: archive file [/home/abi/fetcher/tmp/napalm-slx-os-0.1.1.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [napalm-slx-os]: Remove: archive file [/home/abi/fetcher/tmp/napalm-slx-os-0.2.0.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [napalm-slx-os]: Start processing: OpenNMT-py
+[2023-06-22 13:34:48] INFO root fetch - main [MainThread]: End processing [napalm-slx-os]: success
+[2023-06-22 13:34:48] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.467.1.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-06-22 13:34:48] INFO root fetch - processPackages [OpenNMT-py]: New version: [3.3] Old Version: [3.2.0]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_security_group-15.0.1.1.0.5-py3-none-any.whl.zip]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [odoo-addon-crm-security-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_security_group-15.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-22 13:34:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-security-group]: success
+[2023-06-22 13:34:48] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/ac/9a/af63b9ba418b50456d1dd7f7a90dbb62b9466e31726ed76087ded93f4bf2/opsramp-analytics-utils-3.3.3.tar.gz
+[2023-06-22 13:34:48] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-22 13:34:48] INFO root fetch - processPackages [OpenNMT-py]: Downloading https://files.pythonhosted.org/packages/ef/bd/5e96599195cc0c54330d9ef0ca435076724cabbf1f5a63ce01b99c1a0b1e/OpenNMT-py-3.2.0.tar.gz
+[2023-06-22 13:34:48] INFO root fetch - processPackages [django-selectable]: Remove: archive file [/home/abi/fetcher/tmp/django-selectable-1.3.0.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - processPackages [django-selectable]: Remove: archive file [/home/abi/fetcher/tmp/django-selectable-1.4.0.tar.gz]
+[2023-06-22 13:34:48] INFO root fetch - main [MainThread]: End processing [django-selectable]: success
+[2023-06-22 13:34:49] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/bd/45/a319d8b13a7988db0b7f6d152977c27d5a578bd7df58bbbcb312ecde078b/opsramp-analytics-utils-3.3.4.tar.gz
+[2023-06-22 13:34:49] INFO root fetch - processPackages [OpenNMT-py]: Downloading https://files.pythonhosted.org/packages/fd/fa/9785c37ea4be100056a2e6c5711fd1e60803573c14054d48eea2c54b0700/OpenNMT-py-3.3.tar.gz
+[2023-06-22 13:34:49] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2023-06-22 13:34:49] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.3.3.tar.gz tmp/opsramp-analytics-utils-3.3.4.tar.gz --markdown 20230622/o/opsramp-analytics-utils/3.3.3-3.3.4/diff.md --exclude *.pyd
+[2023-06-22 13:34:49] INFO root fetch - processPackages [OpenNMT-py]: executing diffoscope
+[2023-06-22 13:34:49] INFO root fetch - processPackages [OpenNMT-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenNMT-py-3.2.0.tar.gz tmp/OpenNMT-py-3.3.tar.gz --markdown 20230622/O/OpenNMT-py/3.2.0-3.3/diff.md --exclude *.pyd
+[2023-06-22 13:34:49] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.2.tar.gz]
+[2023-06-22 13:34:49] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.3.tar.gz]
+[2023-06-22 13:34:49] INFO root fetch - main [MainThread]: End processing [starrailcard]: success
+[2023-06-22 13:34:49] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.467.0.tar.gz]
+[2023-06-22 13:34:49] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.467.1.tar.gz]
+[2023-06-22 13:34:49] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-06-22 13:34:50] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 13:34:50] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 13:34:50] INFO root fetch - main [MainThread]: End processing [jijzept]: success
+[2023-06-22 13:34:51] INFO root fetch - processPackages [OpenNMT-py]: Remove: archive file [/home/abi/fetcher/tmp/OpenNMT-py-3.2.0.tar.gz]
+[2023-06-22 13:34:51] INFO root fetch - processPackages [OpenNMT-py]: Remove: archive file [/home/abi/fetcher/tmp/OpenNMT-py-3.3.tar.gz]
+[2023-06-22 13:34:51] INFO root fetch - main [MainThread]: End processing [OpenNMT-py]: success
+[2023-06-22 13:34:51] INFO root fetch - processPackages [scalecodec]: Remove: archive file [/home/abi/fetcher/tmp/scalecodec-1.2.5.tar.gz]
+[2023-06-22 13:34:51] INFO root fetch - processPackages [scalecodec]: Remove: archive file [/home/abi/fetcher/tmp/scalecodec-1.2.6.tar.gz]
+[2023-06-22 13:34:51] INFO root fetch - main [MainThread]: End processing [scalecodec]: success
+[2023-06-22 13:34:52] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.3.3.tar.gz]
+[2023-06-22 13:34:52] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.3.4.tar.gz]
+[2023-06-22 13:34:52] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2023-06-22 13:34:52] INFO root fetch - main [MainThread]: Store serial: [18604250]
