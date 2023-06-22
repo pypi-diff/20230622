@@ -20012,3 +20012,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 14:15:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
 [2023-06-22 14:15:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-06-22 14:15:53] INFO root fetch - main [MainThread]: Store serial: [18604588]
+[2023-06-22 14:20:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604588]
+[2023-06-22 14:21:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-db-utils
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datazimmer
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuantFin
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argparser-adapter
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: looqbox-components
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: darwinio
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multiversx-sdk-core
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decore-Base
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blizzardwarcraftapi
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nics
+[2023-06-22 14:21:03] WARNING root fetch - processPackages [ul-db-utils]: Skipping, unable to determine old version
+[2023-06-22 14:21:03] INFO root fetch - processPackages [ul-db-utils]: Start processing: configu
+[2023-06-22 14:21:03] INFO root fetch - main [MainThread]: End processing [ul-db-utils] error
+[2023-06-22 14:21:03] INFO root fetch - processPackages [darwinio]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [multiversx-sdk-core]: New version: [0.6.0b1] Old Version: [0.6.0b0]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [looqbox-components]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [QuantFin]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [decore-Base]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [argparser-adapter]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [datazimmer]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [blizzardwarcraftapi]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [configu]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-06-22 14:21:03] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/d9/0b/3bd80af7712fe9aae99e31c68bcc9a9239c5b4caed956681011f572f8101/multiversx_sdk_core-0.6.0b0.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [QuantFin]: Downloading https://files.pythonhosted.org/packages/42/42/8a08e95629c5ac8c876cddfe27cb31e2ba69d5936d41c976b6e59552c104/QuantFin-0.0.2.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/32/69/d7596559bca703da88ed671240630591e5e3ff127e9daec3d65899fbe94f/BlizzardWarcraftAPI-0.1.1.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/18/71/3801ddd234c90347a08daf3db9f7ce6d9307dfe1b6122c2bf5898d22bec0/decore_Base-0.0.23.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [argparser-adapter]: Downloading https://files.pythonhosted.org/packages/1c/da/ab14df74d23786e29bb672d46cb62359762d8b38d110a828d0f983c96f69/argparser_adapter-2.2.3.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/7e/3e/455419aac3833de02f0a05d287f2af7f6b73c404fc89712b2b4d638d39f9/darwinio-0.0.7.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [datazimmer]: Downloading https://files.pythonhosted.org/packages/d2/2d/9a780f414b771c6bef41a2c2ecc7166c5065a56262bb9cbab529fcb3c6c6/datazimmer-0.5.2.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [configu]: Downloading https://files.pythonhosted.org/packages/b5/fe/a901fb50ca23f5529888e9ab069048606d80fb98c68ceb93ba69b2975bbb/configu-0.1.4.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [looqbox-components]: Downloading https://files.pythonhosted.org/packages/3a/18/75feeb5d1110d86ed16b1aaa155eb7c808ccdd6c6ae604336cdd3e66a61e/looqbox_components-1.3.4-py3-none-any.whl
+[2023-06-22 14:21:03] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 14:21:03] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230622/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 14:21:03] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/b7/6c/91dca1d924039910feecca4afec272697cef696498cbeb67a25466299d0b/multiversx_sdk_core-0.6.0b1.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [datazimmer]: Downloading https://files.pythonhosted.org/packages/79/65/6cc6038d769105c987a5d93f8700fcdd84481125eb4725633d000a6ab83e/datazimmer-0.5.3.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [argparser-adapter]: Downloading https://files.pythonhosted.org/packages/11/0c/bcb6083a1a518d73729d517a9e8bd9cf165b6f2d759268b3fdadc80ab899/argparser_adapter-2.2.4.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [QuantFin]: Downloading https://files.pythonhosted.org/packages/f2/2b/f2fab70eac666faf791e432af61eae4c7199917744b01c0f2efe641662bb/QuantFin-0.0.3.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [multiversx-sdk-core]: executing diffoscope
+[2023-06-22 14:21:03] INFO root fetch - processPackages [multiversx-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_core-0.6.0b0.tar.gz tmp/multiversx_sdk_core-0.6.0b1.tar.gz --markdown 20230622/m/multiversx-sdk-core/0.6.0b0-0.6.0b1/diff.md --exclude *.pyd
+[2023-06-22 14:21:03] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/86/7e/acdf15140c3b364e7241fcdc8d302266fe6c44064c1f9858ae50fe372aca/blizzardwarcraftapi-0.1.3.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [looqbox-components]: Downloading https://files.pythonhosted.org/packages/65/ec/530ebba2fc786c4ea99a2f61cbbc48c1477957ac1261a37c4889dc52fbcc/looqbox_components-1.3.5-py3-none-any.whl
+[2023-06-22 14:21:03] INFO root fetch - processPackages [configu]: Downloading https://files.pythonhosted.org/packages/7e/af/a206a29d37deadb0fb0b0bf34ef925896c8c894841e1491446c5f287a20d/configu-0.2.0.tar.gz
+[2023-06-22 14:21:03] INFO root fetch - processPackages [argparser-adapter]: executing diffoscope
+[2023-06-22 14:21:03] INFO root fetch - processPackages [argparser-adapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparser_adapter-2.2.3.tar.gz tmp/argparser_adapter-2.2.4.tar.gz --markdown 20230622/a/argparser-adapter/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-22 14:21:03] INFO root fetch - processPackages [QuantFin]: executing diffoscope
+[2023-06-22 14:21:03] INFO root fetch - processPackages [QuantFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantFin-0.0.2.tar.gz tmp/QuantFin-0.0.3.tar.gz --markdown 20230622/Q/QuantFin/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 14:21:03] INFO root fetch - processPackages [datazimmer]: executing diffoscope
+[2023-06-22 14:21:03] INFO root fetch - processPackages [datazimmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datazimmer-0.5.2.tar.gz tmp/datazimmer-0.5.3.tar.gz --markdown 20230622/d/datazimmer/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-22 14:21:03] INFO root fetch - processPackages [looqbox-components]: executing diffoscope
+[2023-06-22 14:21:03] INFO root fetch - processPackages [looqbox-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox_components-1.3.4-py3-none-any.whl.zip tmp/looqbox_components-1.3.5-py3-none-any.whl.zip --markdown 20230622/l/looqbox-components/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-22 14:21:03] INFO root fetch - processPackages [blizzardwarcraftapi]: executing diffoscope
+[2023-06-22 14:21:03] INFO root fetch - processPackages [blizzardwarcraftapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlizzardWarcraftAPI-0.1.1.tar.gz tmp/blizzardwarcraftapi-0.1.3.tar.gz --markdown 20230622/b/blizzardwarcraftapi/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 14:21:04] INFO root fetch - processPackages [configu]: executing diffoscope
+[2023-06-22 14:21:04] INFO root fetch - processPackages [configu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configu-0.1.4.tar.gz tmp/configu-0.2.0.tar.gz --markdown 20230622/c/configu/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 14:21:04] INFO root fetch - processPackages [decore-Base]: Downloading https://files.pythonhosted.org/packages/d1/7b/ffcd77b539c69ee67cc83524e1ac1c3624849816462e5ad4d39dc399f354/decore_Base-0.0.24.tar.gz
+[2023-06-22 14:21:04] INFO root fetch - processPackages [decore-Base]: executing diffoscope
+[2023-06-22 14:21:04] INFO root fetch - processPackages [decore-Base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decore_Base-0.0.23.tar.gz tmp/decore_Base-0.0.24.tar.gz --markdown 20230622/d/decore-Base/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-06-22 14:21:04] INFO root fetch - processPackages [darwinio]: Downloading https://files.pythonhosted.org/packages/dd/a8/d5f647ab3b7934f812cdf10a32ffdfba07045e138989a9d1ab9c358d4aa2/darwinio-0.0.8.tar.gz
+[2023-06-22 14:21:04] INFO root fetch - processPackages [darwinio]: executing diffoscope
+[2023-06-22 14:21:04] INFO root fetch - processPackages [darwinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwinio-0.0.7.tar.gz tmp/darwinio-0.0.8.tar.gz --markdown 20230622/d/darwinio/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-22 14:21:05] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [nics]: Start processing: morph-kgc
+[2023-06-22 14:21:05] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 14:21:05] INFO root fetch - processPackages [morph-kgc]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [morph-kgc]: Downloading https://files.pythonhosted.org/packages/a4/e3/22c025001f285025aa0f43bd8c9cfb3b22d62ca687358138e1caab2d72df/morph_kgc-2.6.0.tar.gz
+[2023-06-22 14:21:05] INFO root fetch - processPackages [argparser-adapter]: Remove: archive file [/home/abi/fetcher/tmp/argparser_adapter-2.2.3.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [argparser-adapter]: Remove: archive file [/home/abi/fetcher/tmp/argparser_adapter-2.2.4.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [argparser-adapter]: Start processing: titan-iris
+[2023-06-22 14:21:05] INFO root fetch - main [MainThread]: End processing [argparser-adapter]: success
+[2023-06-22 14:21:05] INFO root fetch - processPackages [titan-iris]: New version: [0.7.1.dev82] Old Version: [0.7.1.dev79]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [looqbox-components]: Remove: archive file [/home/abi/fetcher/tmp/looqbox_components-1.3.4-py3-none-any.whl.zip]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [looqbox-components]: Remove: archive file [/home/abi/fetcher/tmp/looqbox_components-1.3.5-py3-none-any.whl.zip]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [looqbox-components]: Start processing: pyterrier-pisa
+[2023-06-22 14:21:05] INFO root fetch - main [MainThread]: End processing [looqbox-components]: success
+[2023-06-22 14:21:05] INFO root fetch - processPackages [pyterrier-pisa]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/2d/9a/3f0629143fe7198126c3c634e892f66450ac1383818280ce3c6b8f3b7f2e/titan-iris-0.7.1.dev79.tar.gz
+[2023-06-22 14:21:05] INFO root fetch - processPackages [configu]: Remove: archive file [/home/abi/fetcher/tmp/configu-0.1.4.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [configu]: Remove: archive file [/home/abi/fetcher/tmp/configu-0.2.0.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - main [MainThread]: End processing [configu]: success
+[2023-06-22 14:21:05] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/ff/69/db1b7bf8f3a693c91b46b26b7ea855f510b2c02244f379ed93231abfce13/titan-iris-0.7.1.dev82.tar.gz
+[2023-06-22 14:21:05] INFO root fetch - processPackages [morph-kgc]: Downloading https://files.pythonhosted.org/packages/ef/3e/2d2c200580e8f5d6d73cd3fe6021145c23e259cf872b63e2ab643e6f8862/morph_kgc-2.6.1.tar.gz
+[2023-06-22 14:21:05] INFO root fetch - processPackages [QuantFin]: Remove: archive file [/home/abi/fetcher/tmp/QuantFin-0.0.2.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - processPackages [QuantFin]: Remove: archive file [/home/abi/fetcher/tmp/QuantFin-0.0.3.tar.gz]
+[2023-06-22 14:21:05] INFO root fetch - main [MainThread]: End processing [QuantFin]: success
+[2023-06-22 14:21:06] INFO root fetch - processPackages [pyterrier-pisa]: Downloading https://files.pythonhosted.org/packages/d9/6b/1bb0541309ffccd88e72b5306de29c8ca9c288d95f3e3ced8b713074beb0/pyterrier_pisa-0.0.3-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-22 14:21:06] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/BlizzardWarcraftAPI-0.1.1.tar.gz]
+[2023-06-22 14:21:06] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.1.3.tar.gz]
+[2023-06-22 14:21:06] INFO root fetch - main [MainThread]: End processing [blizzardwarcraftapi]: success
+[2023-06-22 14:21:06] INFO root fetch - processPackages [morph-kgc]: executing diffoscope
+[2023-06-22 14:21:06] INFO root fetch - processPackages [morph-kgc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morph_kgc-2.6.0.tar.gz tmp/morph_kgc-2.6.1.tar.gz --markdown 20230622/m/morph-kgc/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-22 14:21:06] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-22 14:21:06] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.7.1.dev79.tar.gz tmp/titan-iris-0.7.1.dev82.tar.gz --markdown 20230622/t/titan-iris/0.7.1.dev79-0.7.1.dev82/diff.md --exclude *.pyd
+[2023-06-22 14:21:06] INFO root fetch - processPackages [multiversx-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_core-0.6.0b0.tar.gz]
+[2023-06-22 14:21:06] INFO root fetch - processPackages [multiversx-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_core-0.6.0b1.tar.gz]
+[2023-06-22 14:21:06] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-core]: success
+[2023-06-22 14:21:06] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.7.tar.gz]
+[2023-06-22 14:21:06] INFO root fetch - processPackages [darwinio]: Remove: archive file [/home/abi/fetcher/tmp/darwinio-0.0.8.tar.gz]
+[2023-06-22 14:21:06] INFO root fetch - main [MainThread]: End processing [darwinio]: success
+[2023-06-22 14:21:07] INFO root fetch - processPackages [pyterrier-pisa]: Downloading https://files.pythonhosted.org/packages/0c/b1/4913857b8594b6e17a5ba8c417d8b7799ee537c3c7a4a4b5939dfc50231c/pyterrier_pisa-0.0.4-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-22 14:21:07] INFO root fetch - processPackages [datazimmer]: Remove: archive file [/home/abi/fetcher/tmp/datazimmer-0.5.2.tar.gz]
+[2023-06-22 14:21:07] INFO root fetch - processPackages [datazimmer]: Remove: archive file [/home/abi/fetcher/tmp/datazimmer-0.5.3.tar.gz]
+[2023-06-22 14:21:07] INFO root fetch - main [MainThread]: End processing [datazimmer]: success
+[2023-06-22 14:21:07] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.7.1.dev79.tar.gz]
+[2023-06-22 14:21:07] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.7.1.dev82.tar.gz]
+[2023-06-22 14:21:07] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-22 14:21:08] INFO root fetch - processPackages [pyterrier-pisa]: executing diffoscope
+[2023-06-22 14:21:08] INFO root fetch - processPackages [pyterrier-pisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyterrier_pisa-0.0.3-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/pyterrier_pisa-0.0.4-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230622/p/pyterrier-pisa/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 14:21:15] INFO root fetch - processPackages [decore-Base]: Remove: archive file [/home/abi/fetcher/tmp/decore_Base-0.0.23.tar.gz]
+[2023-06-22 14:21:15] INFO root fetch - processPackages [decore-Base]: Remove: archive file [/home/abi/fetcher/tmp/decore_Base-0.0.24.tar.gz]
+[2023-06-22 14:21:15] INFO root fetch - main [MainThread]: End processing [decore-Base]: success
+[2023-06-22 14:21:26] INFO root fetch - processPackages [morph-kgc]: Remove: archive file [/home/abi/fetcher/tmp/morph_kgc-2.6.0.tar.gz]
+[2023-06-22 14:21:26] INFO root fetch - processPackages [morph-kgc]: Remove: archive file [/home/abi/fetcher/tmp/morph_kgc-2.6.1.tar.gz]
+[2023-06-22 14:21:26] INFO root fetch - main [MainThread]: End processing [morph-kgc]: success
+[2023-06-22 14:23:31] INFO root fetch - processPackages [pyterrier-pisa]: Remove: archive file [/home/abi/fetcher/tmp/pyterrier_pisa-0.0.3-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-22 14:23:31] INFO root fetch - processPackages [pyterrier-pisa]: Remove: archive file [/home/abi/fetcher/tmp/pyterrier_pisa-0.0.4-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-22 14:23:31] INFO root fetch - main [MainThread]: End processing [pyterrier-pisa]: success
+[2023-06-22 14:23:31] INFO root fetch - main [MainThread]: Store serial: [18604643]
