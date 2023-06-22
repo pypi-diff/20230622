@@ -20385,3 +20385,238 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 14:30:09] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
 [2023-06-22 14:30:09] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
 [2023-06-22 14:30:09] INFO root fetch - main [MainThread]: Store serial: [18604739]
+[2023-06-22 14:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604739]
+[2023-06-22 14:35:19] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pin-pink
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nyckel
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meme-generator
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyscal-rdf
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autodynatrace
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-gestpay
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hello-package-test
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phylo-matt
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oidc-library
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyEmailExtracter
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pin-pink]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pyscal-rdf]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [python-gestpay]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [PyEmailExtracter]: New version: [0.7] Old Version: [0.6]
+[2023-06-22 14:35:19] WARNING root fetch - processPackages [oidc-library]: Skipping, unable to determine old version
+[2023-06-22 14:35:19] INFO root fetch - processPackages [oidc-library]: Start processing: hayloft
+[2023-06-22 14:35:19] INFO root fetch - main [MainThread]: End processing [oidc-library] error
+[2023-06-22 14:35:19] WARNING root fetch - processPackages [hello-package-test]: Skipping, unable to determine old version
+[2023-06-22 14:35:19] INFO root fetch - processPackages [hello-package-test]: Start processing: ppioner
+[2023-06-22 14:35:19] INFO root fetch - main [MainThread]: End processing [hello-package-test] error
+[2023-06-22 14:35:19] INFO root fetch - processPackages [meme-generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [phylo-matt]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [autodynatrace]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ppioner]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [hayloft]: New version: [0.2.1] Old Version: [0.2.0a2]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/63/b9/8f68b8d04b36123130120aeff9bf8fb68cacd03549cc3f20ec21f2155145/PyEmailExtracter-0.6.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ppioner]: Downloading https://files.pythonhosted.org/packages/73/96/bcbcc41a97efe6b13810bcc803052e3842898df91a01eee7222f0a75b40e/ppioner-0.0.3.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/61/8d/b688205ffe6dc1b4224883d001364e2bc54b88ea04ac7561220bc48af8e9/hayloft-0.2.0a2.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/84/16/921be5721a1bf9aaa52ee17c5a3877a7fb5eee5fffba36999ff2ce374379/nyckel-0.0.8.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [python-gestpay]: Downloading https://files.pythonhosted.org/packages/97/4f/d23c3aaf3f686504de7a1115d88785c4e2f4d2ebb1a4c764028b8d1bee75/python_gestpay-2.0.1-py3-none-any.whl
+[2023-06-22 14:35:19] INFO root fetch - processPackages [phylo-matt]: Downloading https://files.pythonhosted.org/packages/b7/ff/4f4f2a1d5165253244a93130319bb7ac7091a32e2cb99436ecf81aa45045/phylo-matt-1.3.3.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [autodynatrace]: Downloading https://files.pythonhosted.org/packages/50/8e/9da4b30b7c61a5a0fe4560f1ced73216674f66cbe7cca3a8c4a031b8dbef/autodynatrace-1.1.1.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [meme-generator]: Downloading https://files.pythonhosted.org/packages/a9/d7/0e3a810f2bc5c3297da0dd0b704e0135ad64087f37a1e767b3b1e0a85809/meme_generator-0.0.8.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/64/31/ebfd97e083bda358393e177335fb1f78b36d15bbf7013a32c02ecd73b7c0/pyscal_rdf-0.0.4.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/13/e5/620fe7d61cb6aac6743e8c5ce2405e141d8fe166ab75cade4657b768a721/PyEmailExtracter-0.7.tar.gz
+[2023-06-22 14:35:19] WARNING root fetch - processPackages [phylo-matt]: Skipping package: exceeds size limit 13133467>=10485760
+[2023-06-22 14:35:19] INFO root fetch - processPackages [phylo-matt]: Start processing: gmsPython
+[2023-06-22 14:35:19] INFO root fetch - main [MainThread]: End processing [phylo-matt] error
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ppioner]: Downloading https://files.pythonhosted.org/packages/81/73/589476c62959b4c434e357299be6e38d18826f9179ba327acded8b6411cf/ppioner-0.0.4.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [autodynatrace]: Downloading https://files.pythonhosted.org/packages/60/72/03b77a0745897b21a3d41c417da15cc73d99682debe8e74239055d7ddcdc/autodynatrace-2.0.0.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pin-pink]: Downloading https://files.pythonhosted.org/packages/70/f5/8d4f0c1d5a141353d2036c44995ca301a44c8e9c0ee836090321ffe43669/pin-pink-0.9.0.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/3b/1e/5df629ffb7c621a01d1cbcb60986dc388c1f8664cbbf783e8ca10a4d2b35/hayloft-0.2.1.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [gmsPython]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 14:35:19] INFO root fetch - processPackages [python-gestpay]: Downloading https://files.pythonhosted.org/packages/03/71/80af3992dfc5b829b8e0e27bb4e42566da4097087d364ce4f55b79aaeff2/python_gestpay-2.0.2-py3-none-any.whl
+[2023-06-22 14:35:19] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/44/be/18126ac7e7be3b6db5916e37529641b2aa83b85ad3076f23a737bac70bf7/nyckel-0.0.9.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ppioner]: executing diffoscope
+[2023-06-22 14:35:19] INFO root fetch - processPackages [ppioner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppioner-0.0.3.tar.gz tmp/ppioner-0.0.4.tar.gz --markdown 20230622/p/ppioner/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 14:35:19] INFO root fetch - processPackages [PyEmailExtracter]: executing diffoscope
+[2023-06-22 14:35:19] INFO root fetch - processPackages [PyEmailExtracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtracter-0.6.tar.gz tmp/PyEmailExtracter-0.7.tar.gz --markdown 20230622/P/PyEmailExtracter/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-22 14:35:19] INFO root fetch - processPackages [autodynatrace]: executing diffoscope
+[2023-06-22 14:35:19] INFO root fetch - processPackages [autodynatrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodynatrace-1.1.1.tar.gz tmp/autodynatrace-2.0.0.tar.gz --markdown 20230622/a/autodynatrace/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-22 14:35:19] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-22 14:35:19] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.2.0a2.tar.gz tmp/hayloft-0.2.1.tar.gz --markdown 20230622/h/hayloft/0.2.0a2-0.2.1/diff.md --exclude *.pyd
+[2023-06-22 14:35:19] INFO root fetch - processPackages [python-gestpay]: executing diffoscope
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pyscal-rdf]: Downloading https://files.pythonhosted.org/packages/3a/e9/bbe478a7c36ed302c00768182581cb0a14e490f936d099af1191fea92cca/pyscal_rdf-0.0.6.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [python-gestpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gestpay-2.0.1-py3-none-any.whl.zip tmp/python_gestpay-2.0.2-py3-none-any.whl.zip --markdown 20230622/p/python-gestpay/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-22 14:35:19] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-06-22 14:35:19] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230622/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 14:35:19] INFO root fetch - processPackages [gmsPython]: Downloading https://files.pythonhosted.org/packages/fc/12/0edfd38694bad5b26f0bd3db6bf3947c5544dbff259da9dd59a58b4a5f8e/gmsPython-0.0.3.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pyscal-rdf]: executing diffoscope
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pyscal-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscal_rdf-0.0.4.tar.gz tmp/pyscal_rdf-0.0.6.tar.gz --markdown 20230622/p/pyscal-rdf/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-22 14:35:19] INFO root fetch - processPackages [meme-generator]: Downloading https://files.pythonhosted.org/packages/90/df/38bd05ba859b098fb21ed20a255e4ebe63b6e8e39962cd492827b796c48f/meme_generator-0.0.9.tar.gz
+[2023-06-22 14:35:19] INFO root fetch - processPackages [pin-pink]: Downloading https://files.pythonhosted.org/packages/46/11/fb3d408f34a0cc331f8193663abdbf0726531b7888e69691e15bf100dc4e/pin-pink-1.0.0.tar.gz
+[2023-06-22 14:35:20] INFO root fetch - processPackages [gmsPython]: Downloading https://files.pythonhosted.org/packages/9d/75/a24ab341d3d4d53058d8db913915aa8333ceedf2b61f8a4f48235b1fdbaf/gmsPython-0.0.4.tar.gz
+[2023-06-22 14:35:20] INFO root fetch - processPackages [meme-generator]: executing diffoscope
+[2023-06-22 14:35:20] INFO root fetch - processPackages [meme-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meme_generator-0.0.8.tar.gz tmp/meme_generator-0.0.9.tar.gz --markdown 20230622/m/meme-generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 14:35:20] INFO root fetch - processPackages [pin-pink]: executing diffoscope
+[2023-06-22 14:35:20] INFO root fetch - processPackages [pin-pink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pin-pink-0.9.0.tar.gz tmp/pin-pink-1.0.0.tar.gz --markdown 20230622/p/pin-pink/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 14:35:20] INFO root fetch - processPackages [gmsPython]: executing diffoscope
+[2023-06-22 14:35:20] INFO root fetch - processPackages [gmsPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsPython-0.0.3.tar.gz tmp/gmsPython-0.0.4.tar.gz --markdown 20230622/g/gmsPython/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 14:35:21] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.6.tar.gz]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.7.tar.gz]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [PyEmailExtracter]: Start processing: gmsPython
+[2023-06-22 14:35:21] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter]: success
+[2023-06-22 14:35:21] INFO root fetch - processPackages [gmsPython]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [gmsPython]: executing diffoscope
+[2023-06-22 14:35:21] INFO root fetch - processPackages [gmsPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsPython-0.0.3.tar.gz tmp/gmsPython-0.0.4.tar.gz --markdown 20230622/g/gmsPython/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 14:35:21] INFO root fetch - processPackages [python-gestpay]: Remove: archive file [/home/abi/fetcher/tmp/python_gestpay-2.0.1-py3-none-any.whl.zip]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [python-gestpay]: Remove: archive file [/home/abi/fetcher/tmp/python_gestpay-2.0.2-py3-none-any.whl.zip]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [python-gestpay]: Start processing: pyqrack
+[2023-06-22 14:35:21] INFO root fetch - main [MainThread]: End processing [python-gestpay]: success
+[2023-06-22 14:35:21] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.8.tar.gz]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.9.tar.gz]
+[2023-06-22 14:35:21] INFO root fetch - processPackages [nyckel]: Start processing: assisted-service-client
+[2023-06-22 14:35:21] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-06-22 14:35:22] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-22 14:35:22] INFO root fetch - processPackages [ppioner]: Remove: archive file [/home/abi/fetcher/tmp/ppioner-0.0.3.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [ppioner]: Remove: archive file [/home/abi/fetcher/tmp/ppioner-0.0.4.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [ppioner]: Start processing: launchpy
+[2023-06-22 14:35:22] INFO root fetch - main [MainThread]: End processing [ppioner]: success
+[2023-06-22 14:35:22] INFO root fetch - processPackages [launchpy]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-22 14:35:22] INFO root fetch - processPackages [autodynatrace]: Remove: archive file [/home/abi/fetcher/tmp/autodynatrace-1.1.1.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [autodynatrace]: Remove: archive file [/home/abi/fetcher/tmp/autodynatrace-2.0.0.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [autodynatrace]: Start processing: QuantFin
+[2023-06-22 14:35:22] INFO root fetch - main [MainThread]: End processing [autodynatrace]: success
+[2023-06-22 14:35:22] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.4.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [pyscal-rdf]: Remove: archive file [/home/abi/fetcher/tmp/pyscal_rdf-0.0.6.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [pyscal-rdf]: Start processing: glance-store
+[2023-06-22 14:35:22] INFO root fetch - main [MainThread]: End processing [pyscal-rdf]: success
+[2023-06-22 14:35:22] INFO root fetch - processPackages [QuantFin]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.0a2.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.1.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [hayloft]: Start processing: iminuit
+[2023-06-22 14:35:22] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-22 14:35:22] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-22 14:35:22] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230622/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-22 14:35:22] INFO root fetch - processPackages [glance-store]: New version: [4.6.0] Old Version: [4.5.0]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [launchpy]: Downloading https://files.pythonhosted.org/packages/c5/d6/48fa53e14dc21cd13f236654080ee55d988c6f11a870e15e4bff1232c529/launchpy-0.4.1.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [iminuit]: New version: [2.9.0] Old Version: [2.8.4]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-22 14:35:22] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230622/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-22 14:35:22] INFO root fetch - processPackages [QuantFin]: Downloading https://files.pythonhosted.org/packages/99/73/131145b2bcb9e38234e31da93032b3830e7ce474497f1eaa0dcc03129b33/QuantFin-0.0.4.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [gmsPython]: Remove: archive file [/home/abi/fetcher/tmp/gmsPython-0.0.3.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [gmsPython]: Remove: archive file [/home/abi/fetcher/tmp/gmsPython-0.0.4.tar.gz]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [gmsPython]: Start processing: th2-grpc-lw-data-provider
+[2023-06-22 14:35:22] INFO root fetch - main [MainThread]: End processing [gmsPython]: success
+[2023-06-22 14:35:22] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/60/72/14692002e1245a2341e617ee2302005aedaf743d8e9e169646868bed0911/glance_store-4.5.0.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [iminuit]: Downloading https://files.pythonhosted.org/packages/02/93/03a5b0c66b17027400a0e596fec5928e6b895eaf8c46902878ceaecd7902/iminuit-2.8.4.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5345529766]
+[2023-06-22 14:35:22] INFO root fetch - processPackages [launchpy]: Downloading https://files.pythonhosted.org/packages/dd/67/46ae6f7d1cdab1ac8e7d25e9c7d2eca2a6c7de438036787a42bd89ceaa6f/launchpy-0.4.2.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [QuantFin]: Downloading https://files.pythonhosted.org/packages/7a/75/1abbf9bfbb6091687ab0e78b92f0599684f7eababb0cd5bf65463b448fdd/QuantFin-0.0.6.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/50/95/ddb529ede08a526e371a0d18fc0e750810ec1213dd05a43c83d7211affb0/th2_grpc_lw_data_provider-2.0.0.dev5345529766.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [glance-store]: Downloading https://files.pythonhosted.org/packages/fe/bb/e184f2dc646845fa574532587c57a30defd0cb3d7fa02be3f8850532301a/glance_store-4.6.0.tar.gz
+[2023-06-22 14:35:22] INFO root fetch - processPackages [QuantFin]: executing diffoscope
+[2023-06-22 14:35:22] INFO root fetch - processPackages [QuantFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuantFin-0.0.4.tar.gz tmp/QuantFin-0.0.6.tar.gz --markdown 20230622/Q/QuantFin/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-22 14:35:22] INFO root fetch - processPackages [launchpy]: executing diffoscope
+[2023-06-22 14:35:22] INFO root fetch - processPackages [launchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchpy-0.4.1.tar.gz tmp/launchpy-0.4.2.tar.gz --markdown 20230622/l/launchpy/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-22 14:35:22] INFO root fetch - processPackages [glance-store]: executing diffoscope
+[2023-06-22 14:35:22] INFO root fetch - processPackages [glance-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glance_store-4.5.0.tar.gz tmp/glance_store-4.6.0.tar.gz --markdown 20230622/g/glance-store/4.5.0-4.6.0/diff.md --exclude *.pyd
+[2023-06-22 14:35:22] INFO root fetch - processPackages [iminuit]: Downloading https://files.pythonhosted.org/packages/2c/d9/a53b8644237fd08bc603600867cd3ad1d29dbb2a007d8d28b51f7759c540/iminuit-2.9.0.tar.gz
+[2023-06-22 14:35:22] ERROR root fetch - processPackages [gmsPython]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/gmsPython-0.0.3.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/gmsPython-0.0.4.tar.gz: No such file or directory
+
+[2023-06-22 14:35:22] INFO root fetch - processPackages [gmsPython]: Start processing: PyEmailExtracter
+[2023-06-22 14:35:22] INFO root fetch - main [MainThread]: End processing [gmsPython] error
+[2023-06-22 14:35:23] INFO root fetch - processPackages [PyEmailExtracter]: New version: [0.7] Old Version: [0.6]
+[2023-06-22 14:35:23] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/63/b9/8f68b8d04b36123130120aeff9bf8fb68cacd03549cc3f20ec21f2155145/PyEmailExtracter-0.6.tar.gz
+[2023-06-22 14:35:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-22 14:35:23] INFO root fetch - processPackages [pin-pink]: Remove: archive file [/home/abi/fetcher/tmp/pin-pink-0.9.0.tar.gz]
+[2023-06-22 14:35:23] INFO root fetch - processPackages [pin-pink]: Remove: archive file [/home/abi/fetcher/tmp/pin-pink-1.0.0.tar.gz]
+[2023-06-22 14:35:23] INFO root fetch - processPackages [pin-pink]: Start processing: wiremind-kubernetes
+[2023-06-22 14:35:23] INFO root fetch - main [MainThread]: End processing [pin-pink]: success
+[2023-06-22 14:35:23] INFO root fetch - processPackages [wiremind-kubernetes]: New version: [7.2.0] Old Version: [7.1.1]
+[2023-06-22 14:35:23] INFO root fetch - processPackages [iminuit]: executing diffoscope
+[2023-06-22 14:35:23] INFO root fetch - processPackages [iminuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iminuit-2.8.4.tar.gz tmp/iminuit-2.9.0.tar.gz --markdown 20230622/i/iminuit/2.8.4-2.9.0/diff.md --exclude *.pyd
+[2023-06-22 14:35:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-22 14:35:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5345529766.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230622/t/th2-grpc-lw-data-provider/2.0.0.dev5345529766-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-22 14:35:23] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/13/e5/620fe7d61cb6aac6743e8c5ce2405e141d8fe166ab75cade4657b768a721/PyEmailExtracter-0.7.tar.gz
+[2023-06-22 14:35:23] INFO root fetch - processPackages [PyEmailExtracter]: executing diffoscope
+[2023-06-22 14:35:23] INFO root fetch - processPackages [PyEmailExtracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtracter-0.6.tar.gz tmp/PyEmailExtracter-0.7.tar.gz --markdown 20230622/P/PyEmailExtracter/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-22 14:35:23] INFO root fetch - processPackages [wiremind-kubernetes]: Downloading https://files.pythonhosted.org/packages/ba/8c/6cb8e692096f16a12fbab5cad58b2af761f4001b7a889bcac99a2e1984b2/wiremind-kubernetes-7.1.1.tar.gz
+[2023-06-22 14:35:23] INFO root fetch - processPackages [wiremind-kubernetes]: Downloading https://files.pythonhosted.org/packages/93/94/49798269c6b379ee9cc2a89f0e7ea2061085ae80f6f2c734c515cd74d463/wiremind-kubernetes-7.2.0.tar.gz
+[2023-06-22 14:35:23] INFO root fetch - processPackages [wiremind-kubernetes]: executing diffoscope
+[2023-06-22 14:35:23] INFO root fetch - processPackages [wiremind-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiremind-kubernetes-7.1.1.tar.gz tmp/wiremind-kubernetes-7.2.0.tar.gz --markdown 20230622/w/wiremind-kubernetes/7.1.1-7.2.0/diff.md --exclude *.pyd
+[2023-06-22 14:35:24] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-22 14:35:24] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-22 14:35:24] INFO root fetch - processPackages [pyqrack]: Start processing: mercurial
+[2023-06-22 14:35:24] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-22 14:35:24] INFO root fetch - processPackages [mercurial]: New version: [6.5rc0] Old Version: [6.4rc0]
+[2023-06-22 14:35:24] INFO root fetch - processPackages [QuantFin]: Remove: archive file [/home/abi/fetcher/tmp/QuantFin-0.0.4.tar.gz]
+[2023-06-22 14:35:24] INFO root fetch - processPackages [QuantFin]: Remove: archive file [/home/abi/fetcher/tmp/QuantFin-0.0.6.tar.gz]
+[2023-06-22 14:35:24] INFO root fetch - processPackages [QuantFin]: Start processing: kcli
+[2023-06-22 14:35:24] INFO root fetch - main [MainThread]: End processing [QuantFin]: success
+[2023-06-22 14:35:24] INFO root fetch - processPackages [kcli]: New version: [99.0.202306221234] Old Version: [99.0.202306221149]
+[2023-06-22 14:35:24] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/05/3a/6301ab7c5b04b5e0e20af6d46ce39faf89160a2387749b1a677ce09aaf9b/kcli-99.0.202306221149-py3-none-any.whl
+[2023-06-22 14:35:24] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/45/70/5868446eae400fb15aedb993cc232fab244cb976c86426a854d371c1010f/mercurial-6.4rc0.tar.gz
+[2023-06-22 14:35:25] INFO root fetch - processPackages [launchpy]: Remove: archive file [/home/abi/fetcher/tmp/launchpy-0.4.1.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [launchpy]: Remove: archive file [/home/abi/fetcher/tmp/launchpy-0.4.2.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [launchpy]: Start processing: projen
+[2023-06-22 14:35:25] INFO root fetch - main [MainThread]: End processing [launchpy]: success
+[2023-06-22 14:35:25] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5345529766.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: nics
+[2023-06-22 14:35:25] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-22 14:35:25] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-22 14:35:25] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.6.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.7.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [PyEmailExtracter]: Start processing: imlconnect
+[2023-06-22 14:35:25] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter]: success
+[2023-06-22 14:35:25] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-22 14:35:25] WARNING root fetch - processPackages [imlconnect]: Skipping, unable to determine old version
+[2023-06-22 14:35:25] INFO root fetch - processPackages [imlconnect]: Start processing: kuut
+[2023-06-22 14:35:25] INFO root fetch - main [MainThread]: End processing [imlconnect] error
+[2023-06-22 14:35:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0c/e3/0cd0d529b4407654d9ffc83b9247ceac63d7742197fb13712b190b4a4065/kcli-99.0.202306221234-py3-none-any.whl
+[2023-06-22 14:35:25] WARNING root fetch - processPackages [kuut]: Skipping, unable to determine old version
+[2023-06-22 14:35:25] INFO root fetch - main [MainThread]: End processing [kuut] error
+[2023-06-22 14:35:25] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-22 14:35:25] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-22 14:35:25] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 14:35:25] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230622/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 14:35:25] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-22 14:35:25] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230622/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-22 14:35:25] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 14:35:25] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306221149-py3-none-any.whl.zip tmp/kcli-99.0.202306221234-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306221149-99.0.202306221234/diff.md --exclude *.pyd
+[2023-06-22 14:35:25] INFO root fetch - processPackages [meme-generator]: Remove: archive file [/home/abi/fetcher/tmp/meme_generator-0.0.8.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - processPackages [meme-generator]: Remove: archive file [/home/abi/fetcher/tmp/meme_generator-0.0.9.tar.gz]
+[2023-06-22 14:35:25] INFO root fetch - main [MainThread]: End processing [meme-generator]: success
+[2023-06-22 14:35:26] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/b5/da/43ee7dd61b0b40bdde120770c8e4dff7b1a09359d9723ed77e9fda692785/mercurial-6.5rc0.tar.gz
+[2023-06-22 14:35:26] INFO root fetch - processPackages [wiremind-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/wiremind-kubernetes-7.1.1.tar.gz]
+[2023-06-22 14:35:26] INFO root fetch - processPackages [wiremind-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/wiremind-kubernetes-7.2.0.tar.gz]
+[2023-06-22 14:35:26] INFO root fetch - main [MainThread]: End processing [wiremind-kubernetes]: success
+[2023-06-22 14:35:26] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-22 14:35:26] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-22 14:35:26] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 14:35:27] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-22 14:35:27] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-22 14:35:27] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-22 14:35:27] INFO root fetch - processPackages [mercurial]: executing diffoscope
+[2023-06-22 14:35:27] INFO root fetch - processPackages [mercurial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercurial-6.4rc0.tar.gz tmp/mercurial-6.5rc0.tar.gz --markdown 20230622/m/mercurial/6.4rc0-6.5rc0/diff.md --exclude *.pyd
+[2023-06-22 14:35:27] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-22 14:35:27] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-22 14:35:27] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-22 14:35:28] INFO root fetch - processPackages [glance-store]: Remove: archive file [/home/abi/fetcher/tmp/glance_store-4.5.0.tar.gz]
+[2023-06-22 14:35:28] INFO root fetch - processPackages [glance-store]: Remove: archive file [/home/abi/fetcher/tmp/glance_store-4.6.0.tar.gz]
+[2023-06-22 14:35:28] INFO root fetch - main [MainThread]: End processing [glance-store]: success
+[2023-06-22 14:35:31] INFO root fetch - processPackages [iminuit]: Remove: archive file [/home/abi/fetcher/tmp/iminuit-2.8.4.tar.gz]
+[2023-06-22 14:35:31] INFO root fetch - processPackages [iminuit]: Remove: archive file [/home/abi/fetcher/tmp/iminuit-2.9.0.tar.gz]
+[2023-06-22 14:35:31] INFO root fetch - main [MainThread]: End processing [iminuit]: success
+[2023-06-22 14:35:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221149-py3-none-any.whl.zip]
+[2023-06-22 14:35:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221234-py3-none-any.whl.zip]
+[2023-06-22 14:35:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 14:36:39] INFO root fetch - processPackages [mercurial]: Remove: archive file [/home/abi/fetcher/tmp/mercurial-6.4rc0.tar.gz]
+[2023-06-22 14:36:39] INFO root fetch - processPackages [mercurial]: Remove: archive file [/home/abi/fetcher/tmp/mercurial-6.5rc0.tar.gz]
+[2023-06-22 14:36:39] INFO root fetch - main [MainThread]: End processing [mercurial]: success
+[2023-06-22 14:36:39] INFO root fetch - main [MainThread]: Store serial: [18604854]
