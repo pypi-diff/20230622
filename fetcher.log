@@ -5207,3 +5207,45 @@
 [2023-06-22 03:06:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-06-22 03:06:59] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-06-22 03:06:59] INFO root fetch - main [MainThread]: Store serial: [18599044]
+[2023-06-22 03:12:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18599044]
+[2023-06-22 03:12:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-22 03:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: featurelayers
+[2023-06-22 03:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arabica
+[2023-06-22 03:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snaptrade-python-sdk
+[2023-06-22 03:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mass-composition
+[2023-06-22 03:12:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inquirer3
+[2023-06-22 03:12:09] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 03:12:09] INFO root fetch - processPackages [featurelayers]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-22 03:12:09] WARNING root fetch - processPackages [inquirer3]: Skipping, unable to determine old version
+[2023-06-22 03:12:09] INFO root fetch - main [MainThread]: End processing [inquirer3] error
+[2023-06-22 03:12:09] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-06-22 03:12:09] INFO root fetch - processPackages [arabica]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-22 03:12:09] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/e5/06/fe27b5ec5d80f28ae83d4f1967c29ea55c3c225519163cbe830f24655fa3/featurelayers-1.2.0.tar.gz
+[2023-06-22 03:12:09] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/73/f1/c3a23de1942adad03c06e750c6aacb10298d3a2235fe5969225b1d999f3a/arabica-1.6.2.tar.gz
+[2023-06-22 03:12:09] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-06-22 03:12:09] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-06-22 03:12:09] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/89/00/acfdbead5afe072dfd139aef1b97d7ed25450c95e1fc398b1076b7660c35/featurelayers-1.2.1.tar.gz
+[2023-06-22 03:12:09] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-22 03:12:09] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.2.0.tar.gz tmp/featurelayers-1.2.1.tar.gz --markdown 20230622/f/featurelayers/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-22 03:12:09] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/92/58/97c425b4d8a7fb1e2b2dda2e2232bb7348fb41711228c16559d796043279/arabica-1.6.3.tar.gz
+[2023-06-22 03:12:09] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-06-22 03:12:09] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-06-22 03:12:09] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.2.tar.gz tmp/arabica-1.6.3.tar.gz --markdown 20230622/a/arabica/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-22 03:12:09] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-06-22 03:12:10] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-06-22 03:12:10] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230622/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 03:12:10] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-06-22 03:12:10] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230622/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-22 03:12:10] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.0.tar.gz]
+[2023-06-22 03:12:10] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.2.1.tar.gz]
+[2023-06-22 03:12:10] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-22 03:12:11] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.2.tar.gz]
+[2023-06-22 03:12:11] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.3.tar.gz]
+[2023-06-22 03:12:11] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-06-22 03:12:11] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-06-22 03:12:11] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-06-22 03:12:11] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-06-22 03:12:15] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-8.4.0.tar.gz]
+[2023-06-22 03:12:15] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
+[2023-06-22 03:12:15] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-06-22 03:12:15] INFO root fetch - main [MainThread]: Store serial: [18599059]
