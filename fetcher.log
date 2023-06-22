@@ -17402,3 +17402,115 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 12:28:36] INFO root fetch - processPackages [pybddisasm]: Remove: archive file [/home/abi/fetcher/tmp/pybddisasm-0.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.zip]
 [2023-06-22 12:28:36] INFO root fetch - main [MainThread]: End processing [pybddisasm]: success
 [2023-06-22 12:28:36] INFO root fetch - main [MainThread]: Store serial: [18603580]
+[2023-06-22 12:33:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603580]
+[2023-06-22 12:33:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyEmailExtracter
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telemetry-tempest-plugin
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bubble-api
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tttpquisby
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titan-iris
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nemreport
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thipstercli
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyEmailExtracter
+[2023-06-22 12:33:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eAsistentPY
+[2023-06-22 12:33:49] INFO root fetch - processPackages [bubble-api]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: New version: [0.4] Old Version: [0.3]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [nemreport]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [eAsistentPY]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: New version: [0.4] Old Version: [0.3]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [tttpquisby]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230622103001] Old Version: [2.1.1.dev20230622100938]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [titan-iris]: New version: [0.7.1.dev82] Old Version: [0.7.1.dev79]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [thipstercli]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/f0/40/af32001111e2c3d9dfaac38b942cf3e1dd3b73b3d4330fbd5d5145f017c5/localstack-core-2.1.1.dev20230622100938.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [telemetry-tempest-plugin]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-22 12:33:49] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/b7/04/64333229631ae40b5fe59f131ee6aaa7f17a0eb67f692997d87230443cdb/thipstercli-0.4.2.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/01/6e/128b93f0574c840409bb5c1413781b48a3b32301ef4d910fea0fdc63bbe4/PyEmailExtracter-0.3.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/01/6e/128b93f0574c840409bb5c1413781b48a3b32301ef4d910fea0fdc63bbe4/PyEmailExtracter-0.3.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/2d/9a/3f0629143fe7198126c3c634e892f66450ac1383818280ce3c6b8f3b7f2e/titan-iris-0.7.1.dev79.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [bubble-api]: Downloading https://files.pythonhosted.org/packages/cf/61/c4b20b90c765841fc13c89308e500bb453a882cec5d3a9e3289b1236c6b9/bubble_api-0.3.1.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [tttpquisby]: Downloading https://files.pythonhosted.org/packages/8d/92/b0724f52f3633d0e841e2b5349994997020cfa0ee8a8de60cbbf71c0f445/tttpquisby-0.0.5.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [nemreport]: Downloading https://files.pythonhosted.org/packages/5b/57/f75a394d563a71a9bce7f619910edf6b86140dea1e9055bc4bcb75ab339f/nemreport-0.0.1.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [eAsistentPY]: Downloading https://files.pythonhosted.org/packages/93/40/e22356c2af4fb0d61471038387d03285e2aa9f85d503740d3c8b73ad0e28/eAsistentPY-2.1.1.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [telemetry-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/7b/fa/f72eb7473e772e8f980092f3fef99fe1a654c80a079abdaeeb3fa9f27a55/telemetry_tempest_plugin-1.8.0.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/4c/51/d2bdab730f3c1e3217b7d0772b8c45d02d919a1436598af2b6357d2395b8/thipstercli-0.4.3.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/ff/69/db1b7bf8f3a693c91b46b26b7ea855f510b2c02244f379ed93231abfce13/titan-iris-0.7.1.dev82.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.4.2.tar.gz tmp/thipstercli-0.4.3.tar.gz --markdown 20230622/t/thipstercli/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-22 12:33:49] INFO root fetch - processPackages [nemreport]: Downloading https://files.pythonhosted.org/packages/a1/5e/d59f76e5c2fe6b0a494ab7cd9842af7e5f484af253e0012a18c05f7b73f9/nemreport-0.0.2.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/f1/79/abfb9befd5504416d178f070464c56c73856e3559b38294cd623a3345154/PyEmailExtracter-0.4.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: Downloading https://files.pythonhosted.org/packages/f1/79/abfb9befd5504416d178f070464c56c73856e3559b38294cd623a3345154/PyEmailExtracter-0.4.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/da/5c/e296558628dc92b01f0f0815fa41cb8cd6521c8ce18c23346badac4ca7e1/localstack-core-2.1.1.dev20230622103001.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [eAsistentPY]: Downloading https://files.pythonhosted.org/packages/37/53/8739d79f03d2662373caf461686e635d43abd0d6066b170e9d7b18b9428c/eAsistentPY-2.1.2.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [bubble-api]: Downloading https://files.pythonhosted.org/packages/67/4b/e49a871c05ed818583f75a0045f2936187653dc3a865f0daaa5e051c0387/bubble_api-0.4.0.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.7.1.dev79.tar.gz tmp/titan-iris-0.7.1.dev82.tar.gz --markdown 20230622/t/titan-iris/0.7.1.dev79-0.7.1.dev82/diff.md --exclude *.pyd
+[2023-06-22 12:33:49] INFO root fetch - processPackages [tttpquisby]: Downloading https://files.pythonhosted.org/packages/fc/67/b20539f0df4cf9a58aace5bc996ff982132dd2f667339acb121cae7ad7b5/tttpquisby-0.0.6.tar.gz
+[2023-06-22 12:33:49] INFO root fetch - processPackages [bubble-api]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [bubble-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bubble_api-0.3.1.tar.gz tmp/bubble_api-0.4.0.tar.gz --markdown 20230622/b/bubble-api/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 12:33:49] INFO root fetch - processPackages [nemreport]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [nemreport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemreport-0.0.1.tar.gz tmp/nemreport-0.0.2.tar.gz --markdown 20230622/n/nemreport/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 12:33:49] INFO root fetch - processPackages [eAsistentPY]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [eAsistentPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eAsistentPY-2.1.1.tar.gz tmp/eAsistentPY-2.1.2.tar.gz --markdown 20230622/e/eAsistentPY/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-22 12:33:49] INFO root fetch - processPackages [tttpquisby]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [tttpquisby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tttpquisby-0.0.5.tar.gz tmp/tttpquisby-0.0.6.tar.gz --markdown 20230622/t/tttpquisby/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtracter-0.3.tar.gz tmp/PyEmailExtracter-0.4.tar.gz --markdown 20230622/P/PyEmailExtracter/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: executing diffoscope
+[2023-06-22 12:33:49] INFO root fetch - processPackages [PyEmailExtracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailExtracter-0.3.tar.gz tmp/PyEmailExtracter-0.4.tar.gz --markdown 20230622/P/PyEmailExtracter/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-22 12:33:50] INFO root fetch - processPackages [telemetry-tempest-plugin]: Downloading https://files.pythonhosted.org/packages/25/7f/82ed077d52fa1ab342b9a5c2b9fdc22c7a76dacb302bc3838d292c5753a4/telemetry_tempest_plugin-1.9.0.tar.gz
+[2023-06-22 12:33:50] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-22 12:33:50] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230622100938.tar.gz tmp/localstack-core-2.1.1.dev20230622103001.tar.gz --markdown 20230622/l/localstack-core/2.1.1.dev20230622100938-2.1.1.dev20230622103001/diff.md --exclude *.pyd
+[2023-06-22 12:33:50] INFO root fetch - processPackages [telemetry-tempest-plugin]: executing diffoscope
+[2023-06-22 12:33:50] INFO root fetch - processPackages [telemetry-tempest-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telemetry_tempest_plugin-1.8.0.tar.gz tmp/telemetry_tempest_plugin-1.9.0.tar.gz --markdown 20230622/t/telemetry-tempest-plugin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-22 12:33:51] INFO root fetch - processPackages [bubble-api]: Remove: archive file [/home/abi/fetcher/tmp/bubble_api-0.3.1.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [bubble-api]: Remove: archive file [/home/abi/fetcher/tmp/bubble_api-0.4.0.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [bubble-api]: Start processing: pkchat
+[2023-06-22 12:33:51] INFO root fetch - main [MainThread]: End processing [bubble-api]: success
+[2023-06-22 12:33:51] WARNING root fetch - processPackages [pkchat]: Skipping, unable to determine old version
+[2023-06-22 12:33:51] INFO root fetch - processPackages [pkchat]: Start processing: cqi
+[2023-06-22 12:33:51] INFO root fetch - main [MainThread]: End processing [pkchat] error
+[2023-06-22 12:33:51] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.4.2.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.4.3.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [thipstercli]: Start processing: django-logikal
+[2023-06-22 12:33:51] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-22 12:33:51] INFO root fetch - processPackages [django-logikal]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.3.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [PyEmailExtracter]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailExtracter-0.4.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter]: success
+[2023-06-22 12:33:51] INFO root fetch - processPackages [cqi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [eAsistentPY]: Remove: archive file [/home/abi/fetcher/tmp/eAsistentPY-2.1.1.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [eAsistentPY]: Remove: archive file [/home/abi/fetcher/tmp/eAsistentPY-2.1.2.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - main [MainThread]: End processing [eAsistentPY]: success
+[2023-06-22 12:33:51] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/99/92/fda6e4e13cc7e8e5f1ee948203a9ed30d4c451db9983e669d640e0a62abf/django-logikal-1.0.1.tar.gz
+[2023-06-22 12:33:51] INFO root fetch - main [MainThread]: End processing [PyEmailExtracter]: success
+[2023-06-22 12:33:51] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.7.1.dev79.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.7.1.dev82.tar.gz]
+[2023-06-22 12:33:51] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-22 12:33:51] INFO root fetch - processPackages [cqi]: Downloading https://files.pythonhosted.org/packages/23/8d/420ab838fe282a833994af6215388c17105aa1b04dc3af3fcc2b5b9da612/cqi-0.1.0.tar.gz
+[2023-06-22 12:33:51] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/8e/2e/085b561b591a43e98231b91d84133458c169ef73c68110a1732367171ecc/django-logikal-1.0.2.tar.gz
+[2023-06-22 12:33:51] INFO root fetch - processPackages [django-logikal]: executing diffoscope
+[2023-06-22 12:33:51] INFO root fetch - processPackages [django-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-logikal-1.0.1.tar.gz tmp/django-logikal-1.0.2.tar.gz --markdown 20230622/d/django-logikal/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-22 12:33:52] INFO root fetch - processPackages [cqi]: Downloading https://files.pythonhosted.org/packages/07/3d/ede5dc77a34e71f90104dfd156ca6a3e8c3e8a23a1a0f6021f80de50a7c0/cqi-0.1.1.tar.gz
+[2023-06-22 12:33:52] INFO root fetch - processPackages [cqi]: executing diffoscope
+[2023-06-22 12:33:52] INFO root fetch - processPackages [cqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqi-0.1.0.tar.gz tmp/cqi-0.1.1.tar.gz --markdown 20230622/c/cqi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 12:33:53] INFO root fetch - processPackages [telemetry-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/telemetry_tempest_plugin-1.8.0.tar.gz]
+[2023-06-22 12:33:53] INFO root fetch - processPackages [telemetry-tempest-plugin]: Remove: archive file [/home/abi/fetcher/tmp/telemetry_tempest_plugin-1.9.0.tar.gz]
+[2023-06-22 12:33:53] INFO root fetch - main [MainThread]: End processing [telemetry-tempest-plugin]: success
+[2023-06-22 12:33:53] INFO root fetch - processPackages [cqi]: Remove: archive file [/home/abi/fetcher/tmp/cqi-0.1.0.tar.gz]
+[2023-06-22 12:33:53] INFO root fetch - processPackages [cqi]: Remove: archive file [/home/abi/fetcher/tmp/cqi-0.1.1.tar.gz]
+[2023-06-22 12:33:53] INFO root fetch - main [MainThread]: End processing [cqi]: success
+[2023-06-22 12:33:53] INFO root fetch - processPackages [nemreport]: Remove: archive file [/home/abi/fetcher/tmp/nemreport-0.0.1.tar.gz]
+[2023-06-22 12:33:53] INFO root fetch - processPackages [nemreport]: Remove: archive file [/home/abi/fetcher/tmp/nemreport-0.0.2.tar.gz]
+[2023-06-22 12:33:53] INFO root fetch - main [MainThread]: End processing [nemreport]: success
+[2023-06-22 12:33:54] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django-logikal-1.0.1.tar.gz]
+[2023-06-22 12:33:54] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django-logikal-1.0.2.tar.gz]
+[2023-06-22 12:33:54] INFO root fetch - main [MainThread]: End processing [django-logikal]: success
+[2023-06-22 12:33:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622100938.tar.gz]
+[2023-06-22 12:33:58] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230622103001.tar.gz]
+[2023-06-22 12:33:58] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-22 12:34:42] INFO root fetch - processPackages [tttpquisby]: Remove: archive file [/home/abi/fetcher/tmp/tttpquisby-0.0.5.tar.gz]
+[2023-06-22 12:34:42] INFO root fetch - processPackages [tttpquisby]: Remove: archive file [/home/abi/fetcher/tmp/tttpquisby-0.0.6.tar.gz]
+[2023-06-22 12:34:42] INFO root fetch - main [MainThread]: End processing [tttpquisby]: success
+[2023-06-22 12:34:42] INFO root fetch - main [MainThread]: Store serial: [18603626]
