@@ -14067,3 +14067,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:08:00] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.3.1-py3-none-any.whl.zip]
 [2023-06-22 10:08:00] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
 [2023-06-22 10:08:00] INFO root fetch - main [MainThread]: Store serial: [18602265]
+[2023-06-22 10:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602265]
+[2023-06-22 10:13:10] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-openapi-libcore
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ozgursozluk
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: the-useless-cli
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: httpie-edgegrid
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiohttp-s3-client
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ibpmodel
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: murkrow
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llmz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-automatic-workflow-job
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py4ami
+[2023-06-22 10:13:10] INFO root fetch - processPackages [aiohttp-s3-client]: New version: [0.8.7] Old Version: [0.8.2]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ibpmodel]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-22 10:13:10] WARNING root fetch - processPackages [llmz]: Skipping, unable to determine old version
+[2023-06-22 10:13:10] INFO root fetch - processPackages [llmz]: Start processing: odoo14-addon-sale-automatic-workflow-ignore-exception
+[2023-06-22 10:13:10] INFO root fetch - main [MainThread]: End processing [llmz] error
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ozgursozluk]: New version: [0.7.5] Old Version: [0.7.3]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [the-useless-cli]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [py4ami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [murkrow]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-job]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1.dev7]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [httpie-edgegrid]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [robotframework-openapi-libcore]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-ignore-exception]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ozgursozluk]: Downloading https://files.pythonhosted.org/packages/ac/23/07cb09b67e77053805c8a24d723942faae01de09f65aeaa0a9766947d97e/ozgursozluk-0.7.3.tar.gz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [the-useless-cli]: Downloading https://files.pythonhosted.org/packages/3e/b2/e3a3ac72e520f85d341c4cd6c07ff9d9ad6e3b9fa43a734f25dd6f14a8fb/the_useless_cli-0.0.1.tar.gz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/63/30/fe4fa3e7ba104cf304f8f5386a339214e5eb8a0b0402c050041ccfcc5686/aiohttp_s3_client-0.8.2.tar.gz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ibpmodel]: Downloading https://files.pythonhosted.org/packages/ad/db/77178d1a579fe135ddfd36eb6f805e7387a261ad03db076c6548e922bd84/ibpmodel-1.2.0.tar.gz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/0a/01/acdedc9526ef3a7d75eb04dc74e69660e28ff3c6920da598fe4e1b6456ac/murkrow-0.8.0.tar.gz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [py4ami]: Downloading https://files.pythonhosted.org/packages/c5/19/fd72b8e353daaae6dce12807e4727231323c1eb920f6f081e58828435702/py4ami-0.0.8.tar.gz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [robotframework-openapi-libcore]: Downloading https://files.pythonhosted.org/packages/62/40/31952171d54105d46d042ddc4b7c05365cc9e7d286d0b2b4e1918c6c0c69/robotframework_openapi_libcore-1.9.0.tar.gz
+[2023-06-22 10:13:10] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-ignore-exception]: Downloading https://files.pythonhosted.org/packages/32/70/7f514752cf889ea1962d04c6bcf6702803f3efba695547b5ffbfc46ef756/odoo14_addon_sale_automatic_workflow_ignore_exception-14.0.1.0.1-py3-none-any.whl
+[2023-06-22 10:13:10] INFO root fetch - processPackages [httpie-edgegrid]: Downloading https://files.pythonhosted.org/packages/6c/03/899a7e7bd6d177d9301dbab92bcdc4e4a67819a6a885310ec54c05d88bf5/httpie_edgegrid-2.1.1-py3-none-any.whl
+[2023-06-22 10:13:10] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-job]: Downloading https://files.pythonhosted.org/packages/c9/9a/4f67958ab05da7d5f5464b98676e2e53bfbebf0000f5bb254a550d41cb2f/odoo14_addon_sale_automatic_workflow_job-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-06-22 10:13:10] INFO root fetch - processPackages [ozgursozluk]: Downloading https://files.pythonhosted.org/packages/24/e6/f880a6f1d092ba20609f6d5f09122f31abddee797244c99cbe96ba279636/ozgursozluk-0.7.5.tar.gz
+[2023-06-22 10:13:11] INFO root fetch - processPackages [robotframework-openapi-libcore]: Downloading https://files.pythonhosted.org/packages/fd/3a/94299acc5fc583ede493df982e5413135e38d3e43ebb682a8c68f438f3e9/robotframework_openapi_libcore-1.9.1.tar.gz
+[2023-06-22 10:13:11] INFO root fetch - processPackages [ibpmodel]: Downloading https://files.pythonhosted.org/packages/c8/1e/8da77825d2e8bc16ad42e5f61668aa3113a963bbf944987b5411ee944c20/ibpmodel-1.2.1.tar.gz
+[2023-06-22 10:13:11] INFO root fetch - processPackages [ozgursozluk]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [ozgursozluk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozgursozluk-0.7.3.tar.gz tmp/ozgursozluk-0.7.5.tar.gz --markdown 20230622/o/ozgursozluk/0.7.3-0.7.5/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [the-useless-cli]: Downloading https://files.pythonhosted.org/packages/06/54/4ace44c45bc4794f20fa0005572d399a3d996095d7aa2242eefc7b67089b/the_useless_cli-1.0.0.tar.gz
+[2023-06-22 10:13:11] INFO root fetch - processPackages [aiohttp-s3-client]: Downloading https://files.pythonhosted.org/packages/7a/95/8eb0b9473bc41750b725473422d528651a2765b5b932ccbc69a34a1e7f82/aiohttp_s3_client-0.8.7.tar.gz
+[2023-06-22 10:13:11] INFO root fetch - processPackages [httpie-edgegrid]: Downloading https://files.pythonhosted.org/packages/e8/54/d5e17bb68652fc32eeb388d74aaf27191b338eff5cbafb95360e9645c78c/httpie_edgegrid-2.1.2-py3-none-any.whl
+[2023-06-22 10:13:11] INFO root fetch - processPackages [robotframework-openapi-libcore]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [robotframework-openapi-libcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_openapi_libcore-1.9.0.tar.gz tmp/robotframework_openapi_libcore-1.9.1.tar.gz --markdown 20230622/r/robotframework-openapi-libcore/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-job]: Downloading https://files.pythonhosted.org/packages/72/97/46c12c68a3508def0d8f76ab537b66acdbb079935f853a6c10b28bb3cbdd/odoo14_addon_sale_automatic_workflow_job-14.0.1.0.2-py3-none-any.whl
+[2023-06-22 10:13:11] INFO root fetch - processPackages [the-useless-cli]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [the-useless-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the_useless_cli-0.0.1.tar.gz tmp/the_useless_cli-1.0.0.tar.gz --markdown 20230622/t/the-useless-cli/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-ignore-exception]: Downloading https://files.pythonhosted.org/packages/d4/39/bdc44035aec6c2d42cda0dd9c77f36e95129794a2a199970082e945dab24/odoo14_addon_sale_automatic_workflow_ignore_exception-14.0.1.0.2-py3-none-any.whl
+[2023-06-22 10:13:11] INFO root fetch - processPackages [ibpmodel]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [ibpmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibpmodel-1.2.0.tar.gz tmp/ibpmodel-1.2.1.tar.gz --markdown 20230622/i/ibpmodel/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [httpie-edgegrid]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [httpie-edgegrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpie_edgegrid-2.1.1-py3-none-any.whl.zip tmp/httpie_edgegrid-2.1.2-py3-none-any.whl.zip --markdown 20230622/h/httpie-edgegrid/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [murkrow]: Downloading https://files.pythonhosted.org/packages/a4/e9/84dc9a4bc1643f3d51e61a87dc738301cc044acf02216d65e0840e05aeba/murkrow-0.9.0.tar.gz
+[2023-06-22 10:13:11] INFO root fetch - processPackages [aiohttp-s3-client]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [aiohttp-s3-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_s3_client-0.8.2.tar.gz tmp/aiohttp_s3_client-0.8.7.tar.gz --markdown 20230622/a/aiohttp-s3-client/0.8.2-0.8.7/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [murkrow]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [murkrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murkrow-0.8.0.tar.gz tmp/murkrow-0.9.0.tar.gz --markdown 20230622/m/murkrow/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-job]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_automatic_workflow_job-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_sale_automatic_workflow_job-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-sale-automatic-workflow-job/14.0.1.0.1.dev7-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-ignore-exception]: executing diffoscope
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-ignore-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_automatic_workflow_ignore_exception-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_sale_automatic_workflow_ignore_exception-14.0.1.0.2-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-sale-automatic-workflow-ignore-exception/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-22 10:13:11] WARNING root fetch - processPackages [py4ami]: Skipping package: exceeds size limit 16331081>=10485760
+[2023-06-22 10:13:11] INFO root fetch - processPackages [py4ami]: Start processing: odoo14-addon-sale-automatic-workflow
+[2023-06-22 10:13:11] INFO root fetch - main [MainThread]: End processing [py4ami] error
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: New version: [14.0.1.3.4.dev6] Old Version: [14.0.1.3.4.dev5]
+[2023-06-22 10:13:11] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/c7/c0/35707275996de6693f537348e91932cb1375772dab92c9c1625ac7b85b60/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev5-py3-none-any.whl
+[2023-06-22 10:13:12] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/f4/e5/086736b6d2f34dd52dbd279474b598c2469b5415e35abf4629c4a60fab80/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev6-py3-none-any.whl
+[2023-06-22 10:13:12] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: executing diffoscope
+[2023-06-22 10:13:12] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev5-py3-none-any.whl.zip tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev6-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-sale-automatic-workflow/14.0.1.3.4.dev5-14.0.1.3.4.dev6/diff.md --exclude *.pyd
+[2023-06-22 10:13:12] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.8.2.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - processPackages [aiohttp-s3-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_s3_client-0.8.7.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - main [MainThread]: End processing [aiohttp-s3-client]: success
+[2023-06-22 10:13:12] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.8.0.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - processPackages [murkrow]: Remove: archive file [/home/abi/fetcher/tmp/murkrow-0.9.0.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - main [MainThread]: End processing [murkrow]: success
+[2023-06-22 10:13:12] INFO root fetch - processPackages [ozgursozluk]: Remove: archive file [/home/abi/fetcher/tmp/ozgursozluk-0.7.3.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - processPackages [ozgursozluk]: Remove: archive file [/home/abi/fetcher/tmp/ozgursozluk-0.7.5.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - main [MainThread]: End processing [ozgursozluk]: success
+[2023-06-22 10:13:12] INFO root fetch - processPackages [httpie-edgegrid]: Remove: archive file [/home/abi/fetcher/tmp/httpie_edgegrid-2.1.1-py3-none-any.whl.zip]
+[2023-06-22 10:13:12] INFO root fetch - processPackages [httpie-edgegrid]: Remove: archive file [/home/abi/fetcher/tmp/httpie_edgegrid-2.1.2-py3-none-any.whl.zip]
+[2023-06-22 10:13:12] INFO root fetch - main [MainThread]: End processing [httpie-edgegrid]: success
+[2023-06-22 10:13:12] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow_job-14.0.1.0.1.dev7-py3-none-any.whl.zip]
+[2023-06-22 10:13:12] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow_job-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-22 10:13:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-automatic-workflow-job]: success
+[2023-06-22 10:13:12] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-ignore-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow_ignore_exception-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-22 10:13:12] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow-ignore-exception]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow_ignore_exception-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-22 10:13:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-automatic-workflow-ignore-exception]: success
+[2023-06-22 10:13:12] INFO root fetch - processPackages [the-useless-cli]: Remove: archive file [/home/abi/fetcher/tmp/the_useless_cli-0.0.1.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - processPackages [the-useless-cli]: Remove: archive file [/home/abi/fetcher/tmp/the_useless_cli-1.0.0.tar.gz]
+[2023-06-22 10:13:12] INFO root fetch - main [MainThread]: End processing [the-useless-cli]: success
+[2023-06-22 10:13:13] INFO root fetch - processPackages [robotframework-openapi-libcore]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapi_libcore-1.9.0.tar.gz]
+[2023-06-22 10:13:13] INFO root fetch - processPackages [robotframework-openapi-libcore]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_openapi_libcore-1.9.1.tar.gz]
+[2023-06-22 10:13:13] INFO root fetch - main [MainThread]: End processing [robotframework-openapi-libcore]: success
+[2023-06-22 10:13:13] INFO root fetch - processPackages [ibpmodel]: Remove: archive file [/home/abi/fetcher/tmp/ibpmodel-1.2.0.tar.gz]
+[2023-06-22 10:13:13] INFO root fetch - processPackages [ibpmodel]: Remove: archive file [/home/abi/fetcher/tmp/ibpmodel-1.2.1.tar.gz]
+[2023-06-22 10:13:13] INFO root fetch - main [MainThread]: End processing [ibpmodel]: success
+[2023-06-22 10:13:14] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev5-py3-none-any.whl.zip]
+[2023-06-22 10:13:14] INFO root fetch - processPackages [odoo14-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_automatic_workflow-14.0.1.3.4.dev6-py3-none-any.whl.zip]
+[2023-06-22 10:13:14] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-automatic-workflow]: success
+[2023-06-22 10:13:14] INFO root fetch - main [MainThread]: Store serial: [18602308]
