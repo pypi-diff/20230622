@@ -15521,3 +15521,194 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 11:17:26] INFO root fetch - processPackages [notebook]: Remove: archive file [/home/abi/fetcher/tmp/notebook-7.0.0rc1.tar.gz]
 [2023-06-22 11:17:26] INFO root fetch - main [MainThread]: End processing [notebook]: success
 [2023-06-22 11:17:26] INFO root fetch - main [MainThread]: Store serial: [18602913]
+[2023-06-22 11:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602913]
+[2023-06-22 11:22:36] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-pex-config
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-ctrl-bps-htcondor
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testkafkainitialcleint
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-metadata-translator
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-gitconfig
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datapusher-plus
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-ctrl-bps-panda
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lsst-utils
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mercurial
+[2023-06-22 11:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-ctrl-bps-parsl
+[2023-06-22 11:22:36] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [testkafkainitialcleint]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [mercurial]: New version: [6.4rc0] Old Version: [6.4.5]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [datapusher-plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [pytest-gitconfig]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-06-22 11:22:36] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/93/62/a76cdeb1f25d5df7795809fa5b3a37d9c9a9183885cd5b0c756b7759fcf4/mercurial-6.4.5.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [testkafkainitialcleint]: Downloading https://files.pythonhosted.org/packages/f6/9e/59791d7fc337e07f13e30df9f1349bdf2bfe4ddb6d8917bd825a121fd2c2/testkafkainitialcleint-1.0.0.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/d7/0c/0464eaef88f46db58e9972a38d5221f68038faa115510c0cb95799422145/lsst-pex-config-26.0.0a20230400.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/9f/68/397cd9810ab6732196e43b9478bb03405933602ff7a64c725dce6081e908/datapusher-plus-0.8.0.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [pytest-gitconfig]: Downloading https://files.pythonhosted.org/packages/43/d9/7dd802b5aec6966cc009b1e1c1d0652ee83a08ebbdd0b67ad99dfcd23dda/pytest_gitconfig-0.1.1.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [testkafkainitialcleint]: Downloading https://files.pythonhosted.org/packages/bf/88/ae285b92de99006fb82751ed7cfe1638fc8f94668492b45de39300291353/testkafkainitialcleint-1.0.1.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/cb/e7/b5b77ed48e975232d6d946423eca1f7883eb826cf1844d70b96ddddd1696/lsst-pex-config-26.0.0a20230500.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/45/70/5868446eae400fb15aedb993cc232fab244cb976c86426a854d371c1010f/mercurial-6.4rc0.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [testkafkainitialcleint]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [testkafkainitialcleint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testkafkainitialcleint-1.0.0.tar.gz tmp/testkafkainitialcleint-1.0.1.tar.gz --markdown 20230622/t/testkafkainitialcleint/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [datapusher-plus]: Downloading https://files.pythonhosted.org/packages/ee/ac/dec6609d2262650af59bb62a83a943cd36d1336a5daf933fe093085afa86/datapusher-plus-0.9.0.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [pytest-gitconfig]: Downloading https://files.pythonhosted.org/packages/02/84/7487295d2b88d0b78644291d9b989ccda89e46905b0505a95d22ecfe857b/pytest_gitconfig-0.2.0.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-06-22 11:22:36] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230622/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.0.0a20230400.tar.gz tmp/lsst-pex-config-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-pex-config/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [pytest-gitconfig]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [pytest-gitconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_gitconfig-0.1.1.tar.gz tmp/pytest_gitconfig-0.2.0.tar.gz --markdown 20230622/p/pytest-gitconfig/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [datapusher-plus]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [datapusher-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapusher-plus-0.8.0.tar.gz tmp/datapusher-plus-0.9.0.tar.gz --markdown 20230622/d/datapusher-plus/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:22:36] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-06-22 11:22:37] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-06-22 11:22:37] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230622/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:22:38] INFO root fetch - processPackages [testkafkainitialcleint]: Remove: archive file [/home/abi/fetcher/tmp/testkafkainitialcleint-1.0.0.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [testkafkainitialcleint]: Remove: archive file [/home/abi/fetcher/tmp/testkafkainitialcleint-1.0.1.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [testkafkainitialcleint]: Start processing: saqc
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [testkafkainitialcleint]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [saqc]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [pytest-gitconfig]: Remove: archive file [/home/abi/fetcher/tmp/pytest_gitconfig-0.1.1.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [pytest-gitconfig]: Remove: archive file [/home/abi/fetcher/tmp/pytest_gitconfig-0.2.0.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [pytest-gitconfig]: Start processing: tbp-nightly
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [pytest-gitconfig]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [saqc]: Downloading https://files.pythonhosted.org/packages/9a/c6/48fdf4868532f5e8f2d8c65aafc22af87153206368ca1587388eba63b12a/saqc-2.4.0.tar.gz
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: spanishconjugator
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-22 11:22:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.8.0.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [datapusher-plus]: Remove: archive file [/home/abi/fetcher/tmp/datapusher-plus-0.9.0.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [datapusher-plus]: Start processing: spanishconjugator
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [datapusher-plus]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230400.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230500.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-utils]: Start processing: stringzilla
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230400.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230500.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-pex-config]: Start processing: spaceone-monitoring
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [stringzilla]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-22 11:22:38] INFO root fetch - processPackages [spaceone-monitoring]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-22 11:22:38] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/31/50/1785bbc97bdfb08a3303bb03b26d953cde9e97d4e2e70c591a6acd91bd55/spaceone_monitoring-1.9.7.1-py3-none-any.whl
+[2023-06-22 11:22:38] INFO root fetch - processPackages [mercurial]: executing diffoscope
+[2023-06-22 11:22:38] INFO root fetch - processPackages [mercurial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercurial-6.4.5.tar.gz tmp/mercurial-6.4rc0.tar.gz --markdown 20230622/m/mercurial/6.4.5-6.4rc0/diff.md --exclude *.pyd
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Start processing: inspire-schemas
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: skypatrol
+[2023-06-22 11:22:38] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-06-22 11:22:38] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/76/71/8de2a4ba2edc65ec82cbde5257ef18f99f420a2810d55c302b26737bd7b6/stringzilla-0.1.1-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-22 11:22:38] INFO root fetch - processPackages [skypatrol]: New version: [0.6.8] Old Version: [0.6.5]
+[2023-06-22 11:22:38] INFO root fetch - processPackages [saqc]: Downloading https://files.pythonhosted.org/packages/61/c1/5e104e64ded379a9e4f5b314d071f483de1d306e369e445d38058b4c2c7d/saqc-2.4.1-1.tar.gz
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-22 11:22:39] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/50/d9/0fdd56e2628389a2388e1a1fe88e97746d098ad894457b269c260dc807b2/skypatrol-0.6.5.tar.gz
+[2023-06-22 11:22:39] INFO root fetch - processPackages [saqc]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [saqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saqc-2.4.0.tar.gz tmp/saqc-2.4.1-1.tar.gz --markdown 20230622/s/saqc/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-06-22 11:22:39] INFO root fetch - processPackages [inspire-schemas]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/5c/43/1bcb4990406f113187354a4bc48e34799ab22b38cce64bbf832545718082/spaceone_monitoring-1.9.7rc1-py3-none-any.whl
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230622/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230622/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-22 11:22:39] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230622/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-22 11:22:39] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/cd/75/bbbe506d48f8a2c2611f4188dba18b185389a3d2cbf1e3c382f28046a19d/stringzilla-0.1.2-cp39-cp39-win_amd64.whl
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip --markdown 20230622/s/spaceone-monitoring/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-22 11:22:39] INFO root fetch - processPackages [skypatrol]: Downloading https://files.pythonhosted.org/packages/98/a4/399111d1f22562cf4a3205364ea3172ceb9f4fe59f5cf5f1634961ac9aa6/skypatrol-0.6.8.tar.gz
+[2023-06-22 11:22:39] INFO root fetch - processPackages [inspire-schemas]: Downloading https://files.pythonhosted.org/packages/8b/d2/aad5d3d0cb1ebdf711e48df8c4478f7a2b1fdd77d08ea21ae30e0f345b01/inspire-schemas-8.0.0.tar.gz
+[2023-06-22 11:22:39] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230400.tar.gz]
+[2023-06-22 11:22:39] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230500.tar.gz]
+[2023-06-22 11:22:39] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: merlinxai
+[2023-06-22 11:22:39] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-06-22 11:22:39] INFO root fetch - processPackages [stringzilla]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [stringzilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringzilla-0.1.1-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/stringzilla-0.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230622/s/stringzilla/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 11:22:39] WARNING root fetch - processPackages [merlinxai]: Skipping, unable to determine old version
+[2023-06-22 11:22:39] INFO root fetch - processPackages [merlinxai]: Start processing: lentille
+[2023-06-22 11:22:39] INFO root fetch - main [MainThread]: End processing [merlinxai] error
+[2023-06-22 11:22:39] INFO root fetch - processPackages [lentille]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-22 11:22:39] INFO root fetch - processPackages [inspire-schemas]: Downloading https://files.pythonhosted.org/packages/c4/81/b75803a91c2dacb0b3ec7566e003880b974b51b1b31f6e1b60c99e3d1572/inspire-schemas-9.0.0.tar.gz
+[2023-06-22 11:22:39] INFO root fetch - processPackages [lentille]: Downloading https://files.pythonhosted.org/packages/5c/0c/c1c0c44352f882804c086c0530d769d91cdd7e01518c2471669539d21439/lentille-0.1.0.tar.gz
+[2023-06-22 11:22:39] INFO root fetch - processPackages [skypatrol]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [skypatrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypatrol-0.6.5.tar.gz tmp/skypatrol-0.6.8.tar.gz --markdown 20230622/s/skypatrol/0.6.5-0.6.8/diff.md --exclude *.pyd
+[2023-06-22 11:22:39] INFO root fetch - processPackages [inspire-schemas]: executing diffoscope
+[2023-06-22 11:22:39] INFO root fetch - processPackages [inspire-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-schemas-8.0.0.tar.gz tmp/inspire-schemas-9.0.0.tar.gz --markdown 20230622/i/inspire-schemas/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-22 11:22:40] INFO root fetch - processPackages [lentille]: Downloading https://files.pythonhosted.org/packages/3b/cd/e39e36a2bd0d674fa45b97fe045f04d0a92823ef3fb658bef2cd0ccd5133/lentille-0.2.0.tar.gz
+[2023-06-22 11:22:40] INFO root fetch - processPackages [lentille]: executing diffoscope
+[2023-06-22 11:22:40] INFO root fetch - processPackages [lentille]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lentille-0.1.0.tar.gz tmp/lentille-0.2.0.tar.gz --markdown 20230622/l/lentille/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-22 11:22:40] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.5.tar.gz]
+[2023-06-22 11:22:40] INFO root fetch - processPackages [skypatrol]: Remove: archive file [/home/abi/fetcher/tmp/skypatrol-0.6.8.tar.gz]
+[2023-06-22 11:22:40] INFO root fetch - processPackages [skypatrol]: Start processing: lsst-daf-relation
+[2023-06-22 11:22:40] INFO root fetch - main [MainThread]: End processing [skypatrol]: success
+[2023-06-22 11:22:41] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [spaceone-monitoring]: Start processing: requests-pkcs12
+[2023-06-22 11:22:41] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2023-06-22 11:22:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-22 11:22:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-22 11:22:41] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [requests-pkcs12]: New version: [1.9] Old Version: [1.8]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [inspire-schemas]: Remove: archive file [/home/abi/fetcher/tmp/inspire-schemas-8.0.0.tar.gz]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [inspire-schemas]: Remove: archive file [/home/abi/fetcher/tmp/inspire-schemas-9.0.0.tar.gz]
+[2023-06-22 11:22:41] INFO root fetch - main [MainThread]: End processing [inspire-schemas]: success
+[2023-06-22 11:22:41] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-22 11:22:41] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/70/3c/0141e12b587bec5b891a41842fbcece287881b9943b05633bfe7a77c212e/requests_pkcs12-1.8.tar.gz
+[2023-06-22 11:22:41] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-06-22 11:22:41] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-0.1.1-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-0.1.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 11:22:41] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
+[2023-06-22 11:22:41] INFO root fetch - processPackages [lentille]: Remove: archive file [/home/abi/fetcher/tmp/lentille-0.1.0.tar.gz]
+[2023-06-22 11:22:41] INFO root fetch - processPackages [lentille]: Remove: archive file [/home/abi/fetcher/tmp/lentille-0.2.0.tar.gz]
+[2023-06-22 11:22:41] INFO root fetch - main [MainThread]: End processing [lentille]: success
+[2023-06-22 11:22:41] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/14/dd/3651b0dd709a3712d5581cbd74b92a5b2c38d03c51e07a2906b45a1074b9/requests_pkcs12-1.9.tar.gz
+[2023-06-22 11:22:41] INFO root fetch - processPackages [requests-pkcs12]: executing diffoscope
+[2023-06-22 11:22:41] INFO root fetch - processPackages [requests-pkcs12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_pkcs12-1.8.tar.gz tmp/requests_pkcs12-1.9.tar.gz --markdown 20230622/r/requests-pkcs12/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-22 11:22:41] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-06-22 11:22:41] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-06-22 11:22:41] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230622/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-06-22 11:22:42] INFO root fetch - processPackages [requests-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/requests_pkcs12-1.8.tar.gz]
+[2023-06-22 11:22:42] INFO root fetch - processPackages [requests-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/requests_pkcs12-1.9.tar.gz]
+[2023-06-22 11:22:42] INFO root fetch - main [MainThread]: End processing [requests-pkcs12]: success
+[2023-06-22 11:22:42] INFO root fetch - processPackages [saqc]: Remove: archive file [/home/abi/fetcher/tmp/saqc-2.4.0.tar.gz]
+[2023-06-22 11:22:42] INFO root fetch - processPackages [saqc]: Remove: archive file [/home/abi/fetcher/tmp/saqc-2.4.1-1.tar.gz]
+[2023-06-22 11:22:42] INFO root fetch - main [MainThread]: End processing [saqc]: success
+[2023-06-22 11:22:43] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230400.tar.gz]
+[2023-06-22 11:22:43] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230500.tar.gz]
+[2023-06-22 11:22:43] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-06-22 11:22:44] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-22 11:22:44] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-22 11:22:44] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-22 11:23:41] INFO root fetch - processPackages [mercurial]: Remove: archive file [/home/abi/fetcher/tmp/mercurial-6.4.5.tar.gz]
+[2023-06-22 11:23:41] INFO root fetch - processPackages [mercurial]: Remove: archive file [/home/abi/fetcher/tmp/mercurial-6.4rc0.tar.gz]
+[2023-06-22 11:23:41] INFO root fetch - main [MainThread]: End processing [mercurial]: success
+[2023-06-22 11:23:41] INFO root fetch - main [MainThread]: Store serial: [18603006]
