@@ -22244,3 +22244,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 15:40:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221327-py3-none-any.whl.zip]
 [2023-06-22 15:40:45] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-22 15:40:45] INFO root fetch - main [MainThread]: Store serial: [18605573]
+[2023-06-22 15:45:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605573]
+[2023-06-22 15:45:54] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-22 15:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytket-qiskit
+[2023-06-22 15:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optigasflow
+[2023-06-22 15:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyncp
+[2023-06-22 15:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly
+[2023-06-22 15:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readme-ai
+[2023-06-22 15:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vectordb
+[2023-06-22 15:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eventio
+[2023-06-22 15:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dstack
+[2023-06-22 15:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wq
+[2023-06-22 15:45:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scrunch
+[2023-06-22 15:45:55] INFO root fetch - processPackages [readme-ai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [pytket-qiskit]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [vectordb]: New version: [0.0.2] Old Version: [0.0.1.dev1]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.6.21] Old Version: [2023.6.20]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [eventio]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [dstack]: New version: [0.9rc2] Old Version: [0.9.post1]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [readme-ai]: Downloading https://files.pythonhosted.org/packages/7a/6a/aa87edeb4c36ce779d2ee77eca2c83c1af09e0af85579c52ee4b5b614d93/readme_ai-0.1.2.tar.gz
+[2023-06-22 15:45:55] WARNING root fetch - processPackages [pyncp]: Skipping, unable to determine old version
+[2023-06-22 15:45:55] INFO root fetch - processPackages [pyncp]: Start processing: siat
+[2023-06-22 15:45:55] INFO root fetch - main [MainThread]: End processing [pyncp] error
+[2023-06-22 15:45:55] WARNING root fetch - processPackages [optigasflow]: Skipping, unable to determine old version
+[2023-06-22 15:45:55] INFO root fetch - processPackages [optigasflow]: Start processing: unified-planning
+[2023-06-22 15:45:55] INFO root fetch - main [MainThread]: End processing [optigasflow] error
+[2023-06-22 15:45:55] INFO root fetch - processPackages [scrunch]: New version: [1687441397] Old Version: [1675291584]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [wq]: New version: [2.0.0a1] Old Version: [2.0.0a0]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [readme-ai]: Downloading https://files.pythonhosted.org/packages/41/e0/c9fd33fe6951ff1c49dde3771efa39e421b858d446dd40d3de6654c223b9/readme_ai-0.1.3.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/88/4a/4bfcfaaac88e34d9bd5ea64c827f3f5e9bfc06ae66eee310e2b15f13569f/fbgemm_gpu_nightly-2023.6.20-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-22 15:45:55] INFO root fetch - processPackages [siat]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.94.dev1] Old Version: [0.6.0.9.dev1]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/da/17/4f97750226d46341eeb444af42de914ef437a2fa1b56cf3d16493db9db28/vectordb-0.0.1.dev1.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [eventio]: Downloading https://files.pythonhosted.org/packages/ee/d2/1943d14a17ec3f816d1632cbb3d53082673284d6712ee08cf4234ad5710a/eventio-1.9.0.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [pytket-qiskit]: Downloading https://files.pythonhosted.org/packages/ff/b9/8f46cbccd38064746fc115594124a6dff8729f5e246680d9043202787ead/pytket-qiskit-0.9.0.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/8f/33/51159a0ccb0f3afa597b1288d1b6c5457782cc77d5b6ad328af94c001e8e/dstack-0.9.post1.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [wq]: Downloading https://files.pythonhosted.org/packages/9a/d3/858f1a57cc23178f1c2f19904dccebf9622da2ca56cb549dfd1d31a51ad4/wq-2.0.0a0-py3-none-any.whl
+[2023-06-22 15:45:55] INFO root fetch - processPackages [readme-ai]: executing diffoscope
+[2023-06-22 15:45:55] INFO root fetch - processPackages [readme-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ai-0.1.2.tar.gz tmp/readme_ai-0.1.3.tar.gz --markdown 20230622/r/readme-ai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 15:45:55] WARNING root fetch - processPackages [eventio]: Skipping package: exceeds size limit 82623042>=10485760
+[2023-06-22 15:45:55] INFO root fetch - processPackages [eventio]: Start processing: modal-client
+[2023-06-22 15:45:55] INFO root fetch - main [MainThread]: End processing [eventio] error
+[2023-06-22 15:45:55] INFO root fetch - processPackages [modal-client]: New version: [0.49.2462] Old Version: [0.49.2455]
+[2023-06-22 15:45:55] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/d7/ae/cd3aafe1f9df512d0d12f9852abd6a98c75e92eb389bbfe3235a07788970/siat-2.1.5-py3-none-any.whl
+[2023-06-22 15:45:55] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e0/17/afa530e911cf430322ceaebb067cfd968e2423e4e4d188943594e8055296/modal_client-0.49.2455-py3-none-any.whl
+[2023-06-22 15:45:55] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/7b/cd/ac15f362b634f8dfca374107a12b11d18cda8da3341e1e1de92d45e36fc9/unified_planning-0.6.0.9.dev1.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [vectordb]: Downloading https://files.pythonhosted.org/packages/bd/f7/660293dd71cb0b71d3374c9812a675d201bedf61c29c4ca88567e130d59e/vectordb-0.0.2.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [wq]: Downloading https://files.pythonhosted.org/packages/3b/25/553a0211ea7b4b0668d6192088e2ff93436f8e111545977102822d895844/wq-2.0.0a1.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-06-22 15:45:55] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.1.dev1.tar.gz tmp/vectordb-0.0.2.tar.gz --markdown 20230622/v/vectordb/0.0.1.dev1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 15:45:55] INFO root fetch - processPackages [pytket-qiskit]: Downloading https://files.pythonhosted.org/packages/23/19/02ea04ea396821dbc38a6428fe6344ca7c0d8eca52f90f0af34f63647f77/pytket-qiskit-0.9.1.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/97/83/d78624f6ab3b83aac6c674dde1931bc4ed283a9854e25b519448c987d3d0/modal_client-0.49.2462-py3-none-any.whl
+[2023-06-22 15:45:55] INFO root fetch - processPackages [dstack]: Downloading https://files.pythonhosted.org/packages/0c/71/fa2b8b831003b2f30398328af884d3a70b5bda19450f6119233da4ce9edc/dstack-0.9rc2.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [pytket-qiskit]: executing diffoscope
+[2023-06-22 15:45:55] INFO root fetch - processPackages [pytket-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-qiskit-0.9.0.tar.gz tmp/pytket-qiskit-0.9.1.tar.gz --markdown 20230622/p/pytket-qiskit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-22 15:45:55] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/f6/da/938bde23d54f20b9060bded8fcf36300256a764d008a9405e30e209274ec/siat-2.1.6-py3-none-any.whl
+[2023-06-22 15:45:55] INFO root fetch - processPackages [wq]: executing diffoscope
+[2023-06-22 15:45:55] INFO root fetch - processPackages [wq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wq-2.0.0a0-py3-none-any.whl.zip tmp/wq-2.0.0a1.tar.gz --markdown 20230622/w/wq/2.0.0a0-2.0.0a1/diff.md --exclude *.pyd
+[2023-06-22 15:45:55] INFO root fetch - processPackages [dstack]: executing diffoscope
+[2023-06-22 15:45:55] INFO root fetch - processPackages [dstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstack-0.9.post1.tar.gz tmp/dstack-0.9rc2.tar.gz --markdown 20230622/d/dstack/0.9.post1-0.9rc2/diff.md --exclude *.pyd
+[2023-06-22 15:45:55] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-06-22 15:45:55] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2455-py3-none-any.whl.zip tmp/modal_client-0.49.2462-py3-none-any.whl.zip --markdown 20230622/m/modal-client/0.49.2455-0.49.2462/diff.md --exclude *.pyd
+[2023-06-22 15:45:55] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/01/fe/dd58ab1e114c123aec7060515decd8033ef7cf2decc8e2649e4e4e4c28ad/scrunch-1675291584.tar.gz
+[2023-06-22 15:45:55] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 256048001>=10485760
+[2023-06-22 15:45:55] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: modal
+[2023-06-22 15:45:55] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-06-22 15:45:55] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/47/44/b13fcddb5405f914c9898095cd7fd61a47cc4647a4065d3a61f28919f91a/unified_planning-0.6.0.94.dev1.tar.gz
+[2023-06-22 15:45:55] INFO root fetch - processPackages [modal]: New version: [0.49.2462] Old Version: [0.49.2455]
+[2023-06-22 15:45:56] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/6d/72/d6bbe75624991e10b601fed3d6f3e2de9621a7fcd89d4eba54e0cdc37dea/modal-0.49.2455-py3-none-any.whl
+[2023-06-22 15:45:56] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-06-22 15:45:56] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.9.dev1.tar.gz tmp/unified_planning-0.6.0.94.dev1.tar.gz --markdown 20230622/u/unified-planning/0.6.0.9.dev1-0.6.0.94.dev1/diff.md --exclude *.pyd
+[2023-06-22 15:45:56] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/90/c5/adac32e97f8bc3835923dc5a997d23b4861e5d68d7a1710221583b52b123/modal-0.49.2462-py3-none-any.whl
+[2023-06-22 15:45:56] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-06-22 15:45:56] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.1.5-py3-none-any.whl.zip tmp/siat-2.1.6-py3-none-any.whl.zip --markdown 20230622/s/siat/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-22 15:45:56] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/69/46/4f5a85aff5a8d896a2095817ca7dd8303e7da6a1b3a7b7f998944f509e08/scrunch-1687441397.tar.gz
+[2023-06-22 15:45:56] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-06-22 15:45:56] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.49.2455-py3-none-any.whl.zip tmp/modal-0.49.2462-py3-none-any.whl.zip --markdown 20230622/m/modal/0.49.2455-0.49.2462/diff.md --exclude *.pyd
+[2023-06-22 15:45:56] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-06-22 15:45:56] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-1675291584.tar.gz tmp/scrunch-1687441397.tar.gz --markdown 20230622/s/scrunch/1675291584-1687441397/diff.md --exclude *.pyd
+[2023-06-22 15:45:56] INFO root fetch - processPackages [readme-ai]: Remove: archive file [/home/abi/fetcher/tmp/readme_ai-0.1.2.tar.gz]
+[2023-06-22 15:45:56] INFO root fetch - processPackages [readme-ai]: Remove: archive file [/home/abi/fetcher/tmp/readme_ai-0.1.3.tar.gz]
+[2023-06-22 15:45:56] INFO root fetch - processPackages [readme-ai]: Start processing: peaqevcore
+[2023-06-22 15:45:56] INFO root fetch - main [MainThread]: End processing [readme-ai]: success
+[2023-06-22 15:45:56] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-22 15:45:56] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-22 15:45:57] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-22 15:45:57] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-22 15:45:57] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230622/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-22 15:45:57] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.1.dev1.tar.gz]
+[2023-06-22 15:45:57] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.2.tar.gz]
+[2023-06-22 15:45:57] INFO root fetch - processPackages [vectordb]: Start processing: qsmap
+[2023-06-22 15:45:57] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-06-22 15:45:57] WARNING root fetch - processPackages [qsmap]: Skipping, unable to determine old version
+[2023-06-22 15:45:57] INFO root fetch - processPackages [qsmap]: Start processing: solidago
+[2023-06-22 15:45:57] INFO root fetch - main [MainThread]: End processing [qsmap] error
+[2023-06-22 15:45:57] INFO root fetch - processPackages [wq]: Remove: archive file [/home/abi/fetcher/tmp/wq-2.0.0a0-py3-none-any.whl.zip]
+[2023-06-22 15:45:57] INFO root fetch - processPackages [wq]: Remove: archive file [/home/abi/fetcher/tmp/wq-2.0.0a1.tar.gz]
+[2023-06-22 15:45:57] INFO root fetch - main [MainThread]: End processing [wq]: success
+[2023-06-22 15:45:57] INFO root fetch - processPackages [pytket-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qiskit-0.9.0.tar.gz]
+[2023-06-22 15:45:57] INFO root fetch - processPackages [pytket-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qiskit-0.9.1.tar.gz]
+[2023-06-22 15:45:57] INFO root fetch - main [MainThread]: End processing [pytket-qiskit]: success
+[2023-06-22 15:45:57] INFO root fetch - processPackages [solidago]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-22 15:45:57] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2455-py3-none-any.whl.zip]
+[2023-06-22 15:45:57] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.49.2462-py3-none-any.whl.zip]
+[2023-06-22 15:45:57] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-06-22 15:45:57] INFO root fetch - processPackages [solidago]: Downloading https://files.pythonhosted.org/packages/70/e5/74d9fe3431110510d7d776d7349aa30c1476f0824b396f332c988ebebe45/solidago-0.0.3.tar.gz
+[2023-06-22 15:45:58] INFO root fetch - processPackages [solidago]: Downloading https://files.pythonhosted.org/packages/c3/9c/4da72edce4ba445d0229f5b8bd16399c9bd86adfa621fb820a77bc570628/solidago-0.0.4.tar.gz
+[2023-06-22 15:45:58] INFO root fetch - processPackages [solidago]: executing diffoscope
+[2023-06-22 15:45:58] INFO root fetch - processPackages [solidago]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidago-0.0.3.tar.gz tmp/solidago-0.0.4.tar.gz --markdown 20230622/s/solidago/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-22 15:45:58] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2455-py3-none-any.whl.zip]
+[2023-06-22 15:45:58] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.49.2462-py3-none-any.whl.zip]
+[2023-06-22 15:45:58] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-06-22 15:45:58] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9.post1.tar.gz]
+[2023-06-22 15:45:58] INFO root fetch - processPackages [dstack]: Remove: archive file [/home/abi/fetcher/tmp/dstack-0.9rc2.tar.gz]
+[2023-06-22 15:45:58] INFO root fetch - main [MainThread]: End processing [dstack]: success
+[2023-06-22 15:45:58] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-22 15:45:58] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-22 15:45:58] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-22 15:45:58] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.1.5-py3-none-any.whl.zip]
+[2023-06-22 15:45:58] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.1.6-py3-none-any.whl.zip]
+[2023-06-22 15:45:58] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-06-22 15:45:59] INFO root fetch - processPackages [solidago]: Remove: archive file [/home/abi/fetcher/tmp/solidago-0.0.3.tar.gz]
+[2023-06-22 15:45:59] INFO root fetch - processPackages [solidago]: Remove: archive file [/home/abi/fetcher/tmp/solidago-0.0.4.tar.gz]
+[2023-06-22 15:45:59] INFO root fetch - main [MainThread]: End processing [solidago]: success
+[2023-06-22 15:45:59] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-1675291584.tar.gz]
+[2023-06-22 15:45:59] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-1687441397.tar.gz]
+[2023-06-22 15:45:59] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-06-22 15:46:00] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.9.dev1.tar.gz]
+[2023-06-22 15:46:00] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-0.6.0.94.dev1.tar.gz]
+[2023-06-22 15:46:00] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-06-22 15:46:00] INFO root fetch - main [MainThread]: Store serial: [18605620]
