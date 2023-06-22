@@ -22506,3 +22506,104 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 15:51:19] INFO root fetch - processPackages [fastestimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/fastestimator-nightly-1.6.0.dev202306221350.tar.gz]
 [2023-06-22 15:51:19] INFO root fetch - main [MainThread]: End processing [fastestimator-nightly]: success
 [2023-06-22 15:51:19] INFO root fetch - main [MainThread]: Store serial: [18605675]
+[2023-06-22 15:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605675]
+[2023-06-22 15:56:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-pysmp
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyroFork-dev
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Jord
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abin-sim
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jwave
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arraylib-solve
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phylo-matt
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dltool
+[2023-06-22 15:56:29] INFO root fetch - processPackages [phylo-matt]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-22 15:56:29] WARNING root fetch - processPackages [ul-pysmp]: Skipping, unable to determine old version
+[2023-06-22 15:56:29] INFO root fetch - processPackages [ul-pysmp]: Start processing: nics
+[2023-06-22 15:56:29] INFO root fetch - main [MainThread]: End processing [ul-pysmp] error
+[2023-06-22 15:56:29] INFO root fetch - processPackages [arraylib-solve]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 15:56:29] WARNING root fetch - processPackages [abin-sim]: Skipping, unable to determine old version
+[2023-06-22 15:56:29] INFO root fetch - processPackages [abin-sim]: Start processing: tum-esm-signal
+[2023-06-22 15:56:29] INFO root fetch - main [MainThread]: End processing [abin-sim] error
+[2023-06-22 15:56:29] INFO root fetch - processPackages [kfish]: New version: [99.0.202306221338] Old Version: [99.0.202306221330]
+[2023-06-22 15:56:29] INFO root fetch - processPackages [nics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-22 15:56:29] INFO root fetch - processPackages [kcli]: New version: [99.0.202306221352] Old Version: [99.0.202306221336]
+[2023-06-22 15:56:29] INFO root fetch - processPackages [phylo-matt]: Downloading https://files.pythonhosted.org/packages/b7/ff/4f4f2a1d5165253244a93130319bb7ac7091a32e2cb99436ecf81aa45045/phylo-matt-1.3.3.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [tum-esm-signal]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 15:56:29] INFO root fetch - processPackages [Jord]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-22 15:56:29] WARNING root fetch - processPackages [jwave]: Skipping, unable to determine old version
+[2023-06-22 15:56:29] INFO root fetch - processPackages [jwave]: Start processing: tensordict-nightly
+[2023-06-22 15:56:29] WARNING root fetch - processPackages [dltool]: Skipping, unable to determine old version
+[2023-06-22 15:56:29] INFO root fetch - main [MainThread]: End processing [jwave] error
+[2023-06-22 15:56:29] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/18/ff/6f476dcb8e7a45babcf0bd96f8dc40b368c58997b229288db7a1f70dffc2/kfish-99.0.202306221330-py3-none-any.whl
+[2023-06-22 15:56:29] INFO root fetch - processPackages [dltool]: Start processing: wizata-dsapi
+[2023-06-22 15:56:29] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.1.dev202306221351] Old Version: [2.2.1.dev202306220430]
+[2023-06-22 15:56:29] INFO root fetch - main [MainThread]: End processing [dltool] error
+[2023-06-22 15:56:29] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/32/4f/e8f4bdd76e1184bbe68cbb0c6cb9a72ac09ce5d9e60e597538070daff230/nics-0.8.0.tar.gz
+[2023-06-22 15:56:29] WARNING root fetch - processPackages [phylo-matt]: Skipping package: exceeds size limit 13133467>=10485760
+[2023-06-22 15:56:29] INFO root fetch - main [MainThread]: End processing [phylo-matt] error
+[2023-06-22 15:56:29] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-22 15:56:29] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/df/66/1f0dad5c285a6d0214671111bdae6780e739712e03e813e97d12c013d536/tum_esm_signal-0.1.0.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/54/a8/3ce0db62e41731b9c9bc19b0b253b6db4486b7a766443276c20c5d0f00d5/arraylib_solve-0.8.0.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/01/7c/1b9ed1c4145a18f02ac02d49241b65f919023d4f9e7ef40ae15deda1df24/Jord-0.0.7.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/db/27/cdde2cc74b61a835331711de4dcf767f726f3830102dd1dbd648ebd550b4/kcli-99.0.202306221336-py3-none-any.whl
+[2023-06-22 15:56:29] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.8] Old Version: [2023.6.7]
+[2023-06-22 15:56:29] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f3/77/838279230360aebee261799c1e734b4994dfd6c5c3eb95562331cb082db9/kfish-99.0.202306221338-py3-none-any.whl
+[2023-06-22 15:56:29] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/28/c9/ed0dc845f3c9d1ea9e22bbba2eb22804f6e3ff99e5cc338469af7756eee5/nics-0.9.0.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [tum-esm-signal]: Downloading https://files.pythonhosted.org/packages/25/d5/5c10b5595c143a5a845821937f8a572ba388726d924a0193935398f45800/tum_esm_signal-0.1.1.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/f3/e0/97a33b8c585580f8c77a4a3e7f2931d869041959ad53a9859d01a4f88ae1/PyroFork-dev-2.2.1.dev202306220430.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 15:56:29] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221330-py3-none-any.whl.zip tmp/kfish-99.0.202306221338-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306221330-99.0.202306221338/diff.md --exclude *.pyd
+[2023-06-22 15:56:29] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-22 15:56:29] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 15:56:29] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.8.0.tar.gz tmp/nics-0.9.0.tar.gz --markdown 20230622/n/nics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 15:56:29] INFO root fetch - processPackages [tum-esm-signal]: executing diffoscope
+[2023-06-22 15:56:29] INFO root fetch - processPackages [tum-esm-signal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_signal-0.1.0.tar.gz tmp/tum_esm_signal-0.1.1.tar.gz --markdown 20230622/t/tum-esm-signal/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 15:56:29] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/ff/30/b32844a10951d90914392dfbcca8636b98e17cce1cde26587f3389a428a0/tensordict_nightly-2023.6.7-py39-none-any.whl
+[2023-06-22 15:56:29] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-22 15:56:29] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230622/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-22 15:56:29] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/99/25/27b016e26fb396ebae85cf8258fdb310f2f153f49d7cac0bf85e35d565d8/Jord-0.0.8.tar.gz
+[2023-06-22 15:56:30] INFO root fetch - processPackages [arraylib-solve]: Downloading https://files.pythonhosted.org/packages/99/da/01f7df718ea448ff62fb19424a662d999214580ce453370bbadaf861d9bf/arraylib_solve-0.9.0.tar.gz
+[2023-06-22 15:56:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a7/24/210ad19c07ac442d7e122b000c22868332dabc197826617291738b003797/kcli-99.0.202306221352-py3-none-any.whl
+[2023-06-22 15:56:30] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/a2/5a/6654041821cdb3342d11448b312c7502808082ad40fa90db139c6495021d/PyroFork-dev-2.2.1.dev202306221351.tar.gz
+[2023-06-22 15:56:30] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2023-06-22 15:56:30] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jord-0.0.7.tar.gz tmp/Jord-0.0.8.tar.gz --markdown 20230622/J/Jord/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-22 15:56:30] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/39/f4/a81f434361c103e23a2a4dee883bb30ca7b9f26526ad7913607e5a271158/tensordict_nightly-2023.6.8-py39-none-any.whl
+[2023-06-22 15:56:30] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-22 15:56:30] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.1.dev202306220430.tar.gz tmp/PyroFork-dev-2.2.1.dev202306221351.tar.gz --markdown 20230622/P/PyroFork-dev/2.2.1.dev202306220430-2.2.1.dev202306221351/diff.md --exclude *.pyd
+[2023-06-22 15:56:30] INFO root fetch - processPackages [arraylib-solve]: executing diffoscope
+[2023-06-22 15:56:30] INFO root fetch - processPackages [arraylib-solve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraylib_solve-0.8.0.tar.gz tmp/arraylib_solve-0.9.0.tar.gz --markdown 20230622/a/arraylib-solve/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 15:56:30] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-22 15:56:30] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip --markdown 20230622/t/tensordict-nightly/2023.6.7-2023.6.8/diff.md --exclude *.pyd
+[2023-06-22 15:56:30] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 15:56:30] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306221336-py3-none-any.whl.zip tmp/kcli-99.0.202306221352-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306221336-99.0.202306221352/diff.md --exclude *.pyd
+[2023-06-22 15:56:31] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221330-py3-none-any.whl.zip]
+[2023-06-22 15:56:31] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221338-py3-none-any.whl.zip]
+[2023-06-22 15:56:31] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 15:56:31] INFO root fetch - processPackages [tum-esm-signal]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_signal-0.1.0.tar.gz]
+[2023-06-22 15:56:31] INFO root fetch - processPackages [tum-esm-signal]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_signal-0.1.1.tar.gz]
+[2023-06-22 15:56:31] INFO root fetch - main [MainThread]: End processing [tum-esm-signal]: success
+[2023-06-22 15:56:31] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.8.0.tar.gz]
+[2023-06-22 15:56:31] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.9.0.tar.gz]
+[2023-06-22 15:56:31] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 15:56:31] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.8.0.tar.gz]
+[2023-06-22 15:56:31] INFO root fetch - processPackages [arraylib-solve]: Remove: archive file [/home/abi/fetcher/tmp/arraylib_solve-0.9.0.tar.gz]
+[2023-06-22 15:56:31] INFO root fetch - main [MainThread]: End processing [arraylib-solve]: success
+[2023-06-22 15:56:32] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.7-py39-none-any.whl.zip]
+[2023-06-22 15:56:32] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-22 15:56:32] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-22 15:56:32] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-22 15:56:32] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-22 15:56:32] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-22 15:56:34] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.0.7.tar.gz]
+[2023-06-22 15:56:34] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.0.8.tar.gz]
+[2023-06-22 15:56:34] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2023-06-22 15:56:34] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.1.dev202306220430.tar.gz]
+[2023-06-22 15:56:34] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.1.dev202306221351.tar.gz]
+[2023-06-22 15:56:34] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-22 15:56:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221336-py3-none-any.whl.zip]
+[2023-06-22 15:56:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221352-py3-none-any.whl.zip]
+[2023-06-22 15:56:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 15:56:40] INFO root fetch - main [MainThread]: Store serial: [18605720]
