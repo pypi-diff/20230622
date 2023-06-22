@@ -11049,3 +11049,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 06:20:23] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.4.tar.gz]
 [2023-06-22 06:20:23] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-22 06:20:23] INFO root fetch - main [MainThread]: Store serial: [18601034]
+[2023-06-22 06:25:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601034]
+[2023-06-22 06:25:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chibi-command
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpaframework
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Djaizz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymino
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: html5svg2
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libtextworker
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-06-22 06:25:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remindmail
+[2023-06-22 06:25:32] INFO root fetch - processPackages [chibi-command]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [html5svg2]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [Djaizz]: New version: [23.6.21.1] Old Version: [23.6.21.0]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [libtextworker]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [remindmail]: New version: [2023.6.8.1] Old Version: [2023.6.4.2]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [pymino]: New version: [1.2.1.7] Old Version: [1.2.1.6]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-06-22 06:25:32] INFO root fetch - processPackages [chibi-command]: Downloading https://files.pythonhosted.org/packages/0c/e6/c6c2728dbc0366179ad8fa27ab4c97196f86a8ed2c80960bfb1712cb869a/chibi_command-0.4.5.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [Djaizz]: Downloading https://files.pythonhosted.org/packages/db/f4/84535698781bd962a5fba9f7f410505c3a30d6275ee29eab36af7329a3b3/Djaizz-23.6.21.0.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/5e/48/60d2b593127537105bba3096d312bfacb5fb59763c45179e7951a23d458b/pymino-1.2.1.6.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/b3/73/d06ede570a844307c75d91e105fc9f7a789f8d264b78962a5e8cec1ea933/remindmail-2023.6.4.2.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [html5svg2]: Downloading https://files.pythonhosted.org/packages/ab/ff/225c5c3d9be3eb277b5ce8c723f4bbcf13b8fb87668f7c7387fd2b38e631/html5svg2-0.1.2.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-06-22 06:25:32] INFO root fetch - processPackages [libtextworker]: Downloading https://files.pythonhosted.org/packages/1b/b5/2bb22ee3f982ba5e8f9f7c93bee9b4323c2f472f5cd309dd9d1dac3cfb9b/libtextworker-0.1.2.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/57/f4/27b007bb1348d6f0b913c46781c7c5a0a4bd8e30cb21648e9d9b8a134f17/remindmail-2023.6.8.1.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [chibi-command]: executing diffoscope
+[2023-06-22 06:25:32] INFO root fetch - processPackages [chibi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chibi_command-0.4.5.tar.gz tmp/chibi_command-0.4.6.tar.gz --markdown 20230622/c/chibi-command/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-22 06:25:32] INFO root fetch - processPackages [Djaizz]: Downloading https://files.pythonhosted.org/packages/b5/2a/17785807768f1f829d619017af58bcdce101ba860e8a267198b88570bb7b/Djaizz-23.6.21.1.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-06-22 06:25:32] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.6.4.2.tar.gz tmp/remindmail-2023.6.8.1.tar.gz --markdown 20230622/r/remindmail/2023.6.4.2-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-22 06:25:32] INFO root fetch - processPackages [pymino]: Downloading https://files.pythonhosted.org/packages/75/eb/1322cc70e277ac5ce4961b9f34f29b695f604d3621a7dbac947792664cb9/pymino-1.2.1.7.tar.gz
+[2023-06-22 06:25:32] INFO root fetch - processPackages [html5svg2]: Downloading https://files.pythonhosted.org/packages/0b/c0/d62a918eb279c6ebe7c7b6abd55786bc26e3950d51a5f776bf8d10d6a1da/html5svg2-0.1.4.tar.gz
+[2023-06-22 06:25:33] INFO root fetch - processPackages [Djaizz]: executing diffoscope
+[2023-06-22 06:25:33] INFO root fetch - processPackages [Djaizz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Djaizz-23.6.21.0.tar.gz tmp/Djaizz-23.6.21.1.tar.gz --markdown 20230622/D/Djaizz/23.6.21.0-23.6.21.1/diff.md --exclude *.pyd
+[2023-06-22 06:25:33] INFO root fetch - processPackages [libtextworker]: Downloading https://files.pythonhosted.org/packages/44/40/db0e531434f239c847aab2ab277148aa96f2cc39175bcafb19fba0079ef0/libtextworker-0.1.3.tar.gz
+[2023-06-22 06:25:33] INFO root fetch - processPackages [pymino]: executing diffoscope
+[2023-06-22 06:25:33] INFO root fetch - processPackages [pymino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymino-1.2.1.6.tar.gz tmp/pymino-1.2.1.7.tar.gz --markdown 20230622/p/pymino/1.2.1.6-1.2.1.7/diff.md --exclude *.pyd
+[2023-06-22 06:25:33] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-06-22 06:25:33] INFO root fetch - processPackages [libtextworker]: executing diffoscope
+[2023-06-22 06:25:33] INFO root fetch - processPackages [libtextworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtextworker-0.1.2.tar.gz tmp/libtextworker-0.1.3.tar.gz --markdown 20230622/l/libtextworker/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 06:25:33] INFO root fetch - processPackages [html5svg2]: executing diffoscope
+[2023-06-22 06:25:33] INFO root fetch - processPackages [html5svg2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html5svg2-0.1.2.tar.gz tmp/html5svg2-0.1.4.tar.gz --markdown 20230622/h/html5svg2/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-22 06:25:33] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-06-22 06:25:33] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230622/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-06-22 06:25:33] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2023-06-22 06:25:33] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2023-06-22 06:25:33] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20230622/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-06-22 06:25:34] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.4.2.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.8.1.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-06-22 06:25:34] INFO root fetch - processPackages [chibi-command]: Remove: archive file [/home/abi/fetcher/tmp/chibi_command-0.4.5.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - processPackages [chibi-command]: Remove: archive file [/home/abi/fetcher/tmp/chibi_command-0.4.6.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - main [MainThread]: End processing [chibi-command]: success
+[2023-06-22 06:25:34] INFO root fetch - processPackages [html5svg2]: Remove: archive file [/home/abi/fetcher/tmp/html5svg2-0.1.2.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - processPackages [html5svg2]: Remove: archive file [/home/abi/fetcher/tmp/html5svg2-0.1.4.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - main [MainThread]: End processing [html5svg2]: success
+[2023-06-22 06:25:34] INFO root fetch - processPackages [Djaizz]: Remove: archive file [/home/abi/fetcher/tmp/Djaizz-23.6.21.0.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - processPackages [Djaizz]: Remove: archive file [/home/abi/fetcher/tmp/Djaizz-23.6.21.1.tar.gz]
+[2023-06-22 06:25:34] INFO root fetch - main [MainThread]: End processing [Djaizz]: success
+[2023-06-22 06:25:35] INFO root fetch - processPackages [libtextworker]: Remove: archive file [/home/abi/fetcher/tmp/libtextworker-0.1.2.tar.gz]
+[2023-06-22 06:25:35] INFO root fetch - processPackages [libtextworker]: Remove: archive file [/home/abi/fetcher/tmp/libtextworker-0.1.3.tar.gz]
+[2023-06-22 06:25:35] INFO root fetch - main [MainThread]: End processing [libtextworker]: success
+[2023-06-22 06:25:36] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.5.0.tar.gz]
+[2023-06-22 06:25:36] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
+[2023-06-22 06:25:36] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2023-06-22 06:25:36] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.6.tar.gz]
+[2023-06-22 06:25:36] INFO root fetch - processPackages [pymino]: Remove: archive file [/home/abi/fetcher/tmp/pymino-1.2.1.7.tar.gz]
+[2023-06-22 06:25:36] INFO root fetch - main [MainThread]: End processing [pymino]: success
+[2023-06-22 06:25:44] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2023-06-22 06:25:44] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2023-06-22 06:25:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-06-22 06:25:44] INFO root fetch - main [MainThread]: Store serial: [18601057]
