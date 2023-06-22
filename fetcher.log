@@ -14411,3 +14411,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:29:25] INFO root fetch - processPackages [scalyr-agent-2]: Remove: archive file [/home/abi/fetcher/tmp/scalyr-agent-2-2.2.3.tar.gz]
 [2023-06-22 10:29:25] INFO root fetch - main [MainThread]: End processing [scalyr-agent-2]: success
 [2023-06-22 10:29:25] INFO root fetch - main [MainThread]: Store serial: [18602401]
+[2023-06-22 10:34:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602401]
+[2023-06-22 10:34:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osm-flex
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snakehelp
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idoit-scaleup
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-tiktok-ads
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: social-blade-scraper
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrappeycom
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mse-cli-core
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jpylib-jyrgenn
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scrappeycom
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ultranest
+[2023-06-22 10:34:34] WARNING root fetch - processPackages [osm-flex]: Skipping, unable to determine old version
+[2023-06-22 10:34:34] INFO root fetch - processPackages [snakehelp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [social-blade-scraper]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 10:34:34] INFO root fetch - main [MainThread]: End processing [osm-flex] error
+[2023-06-22 10:34:34] INFO root fetch - processPackages [mse-cli-core]: New version: [0.1a6] Old Version: [0.1a5]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [scrappeycom]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [idoit-scaleup]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [tap-tiktok-ads]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [ultranest]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [jpylib-jyrgenn]: New version: [2023.622.1032] Old Version: [2023.621.1458]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [scrappeycom]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-22 10:34:34] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/04/ab/c5ec90665413b5ffa73ada1c06ce3e053666cadff6e851c8d26f0510704e/jpylib-jyrgenn-2023.621.1458.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/76/64/fa623a94a93f705db1227645d67babaa2dea281868a4d63bd1a9adb7fd93/scrappeycom-0.3.5.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/76/64/fa623a94a93f705db1227645d67babaa2dea281868a4d63bd1a9adb7fd93/scrappeycom-0.3.5.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/3f/97/08547360f7a9057a77523013cb575f8d16ac777697d85aa42bb2ec2cf59e/mse_cli_core-0.1a5.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [snakehelp]: Downloading https://files.pythonhosted.org/packages/a8/77/1d81fc49869b50ca630e49fb55d5f04879f824c25a06ed36efb6e0158543/snakehelp-0.0.8.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/36/1c/cdff2a8e8bf3fcda7e42f7054a0f0ddb3b7d6fe0799ad0d6328b2c0f273d/social-blade-scraper-0.1.0.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [ultranest]: Downloading https://files.pythonhosted.org/packages/40/f6/a066e95520db0780a089e34b7f7d12537c187e1012171f9b6e8c30bf70b4/ultranest-3.6.0.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [idoit-scaleup]: Downloading https://files.pythonhosted.org/packages/aa/db/56136685357cacb1d2a673f1f65e4a81347d515be7e1fa512a6ff6caa961/idoit_scaleup-0.0.8.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [tap-tiktok-ads]: Downloading https://files.pythonhosted.org/packages/37/05/caf08629d4655525f6a5aede409f622331f836a6ab6d2efe151e7fa35414/tap-tiktok-ads-0.3.0.tar.gz
+[2023-06-22 10:34:35] WARNING root fetch - processPackages [ultranest]: Skipping package: exceeds size limit 21801107>=10485760
+[2023-06-22 10:34:35] INFO root fetch - main [MainThread]: End processing [ultranest] error
+[2023-06-22 10:34:35] INFO root fetch - processPackages [jpylib-jyrgenn]: Downloading https://files.pythonhosted.org/packages/c2/73/ad365deba63df5d866e15d60fb18f387da06ebc8b71d40ff6e53c141aca3/jpylib-jyrgenn-2023.622.1032.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/2b/a5/3402f6daec20d863ef602409d49cfe38e96bd01e42f63173446c92a661cc/scrappeycom-0.3.6.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/8e/2a/38761aa2f22de9336b381a2f26d18b92069a3c271049e3afe28f38d81ee1/social-blade-scraper-0.1.1.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: Downloading https://files.pythonhosted.org/packages/2b/a5/3402f6daec20d863ef602409d49cfe38e96bd01e42f63173446c92a661cc/scrappeycom-0.3.6.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [mse-cli-core]: Downloading https://files.pythonhosted.org/packages/df/14/10d81bbb1b7b9386f3726bf5813103c7ef57f30f8d28aa39ecbaf80d9860/mse_cli_core-0.1a6.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappeycom-0.3.5.tar.gz tmp/scrappeycom-0.3.6.tar.gz --markdown 20230622/s/scrappeycom/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [scrappeycom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrappeycom-0.3.5.tar.gz tmp/scrappeycom-0.3.6.tar.gz --markdown 20230622/s/scrappeycom/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-22 10:34:35] INFO root fetch - processPackages [jpylib-jyrgenn]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [jpylib-jyrgenn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jpylib-jyrgenn-2023.621.1458.tar.gz tmp/jpylib-jyrgenn-2023.622.1032.tar.gz --markdown 20230622/j/jpylib-jyrgenn/2023.621.1458-2023.622.1032/diff.md --exclude *.pyd
+[2023-06-22 10:34:35] INFO root fetch - processPackages [social-blade-scraper]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [social-blade-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social-blade-scraper-0.1.0.tar.gz tmp/social-blade-scraper-0.1.1.tar.gz --markdown 20230622/s/social-blade-scraper/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 10:34:35] INFO root fetch - processPackages [tap-tiktok-ads]: Downloading https://files.pythonhosted.org/packages/c0/2e/72a738e498d1621e6e7216580e38b58aa3a0394601a64ce95c0a6d1910ac/tap-tiktok-ads-0.4.0.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [mse-cli-core]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [mse-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mse_cli_core-0.1a5.tar.gz tmp/mse_cli_core-0.1a6.tar.gz --markdown 20230622/m/mse-cli-core/0.1a5-0.1a6/diff.md --exclude *.pyd
+[2023-06-22 10:34:35] INFO root fetch - processPackages [idoit-scaleup]: Downloading https://files.pythonhosted.org/packages/9e/ef/04ce41ee1a70ac4263bdf5473d84e4fa65e810f2dc22dc397c3d4cbd0607/idoit_scaleup-0.0.9.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [snakehelp]: Downloading https://files.pythonhosted.org/packages/f8/a1/634e490c19016099efd1dd9f8de8044cf6b41762d4f47f00045f0178c8e8/snakehelp-0.0.9.tar.gz
+[2023-06-22 10:34:35] INFO root fetch - processPackages [idoit-scaleup]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [idoit-scaleup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idoit_scaleup-0.0.8.tar.gz tmp/idoit_scaleup-0.0.9.tar.gz --markdown 20230622/i/idoit-scaleup/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:34:35] INFO root fetch - processPackages [tap-tiktok-ads]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [tap-tiktok-ads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-tiktok-ads-0.3.0.tar.gz tmp/tap-tiktok-ads-0.4.0.tar.gz --markdown 20230622/t/tap-tiktok-ads/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 10:34:35] INFO root fetch - processPackages [snakehelp]: executing diffoscope
+[2023-06-22 10:34:35] INFO root fetch - processPackages [snakehelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakehelp-0.0.8.tar.gz tmp/snakehelp-0.0.9.tar.gz --markdown 20230622/s/snakehelp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:34:36] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.5.tar.gz]
+[2023-06-22 10:34:36] INFO root fetch - processPackages [scrappeycom]: Remove: archive file [/home/abi/fetcher/tmp/scrappeycom-0.3.6.tar.gz]
+[2023-06-22 10:34:36] INFO root fetch - main [MainThread]: End processing [scrappeycom]: success
+[2023-06-22 10:34:37] INFO root fetch - processPackages [tap-tiktok-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-tiktok-ads-0.3.0.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - processPackages [tap-tiktok-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-tiktok-ads-0.4.0.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [tap-tiktok-ads]: success
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [scrappeycom]: success
+[2023-06-22 10:34:37] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.1.0.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.1.1.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [social-blade-scraper]: success
+[2023-06-22 10:34:37] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a5.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - processPackages [mse-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mse_cli_core-0.1a6.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [mse-cli-core]: success
+[2023-06-22 10:34:37] INFO root fetch - processPackages [snakehelp]: Remove: archive file [/home/abi/fetcher/tmp/snakehelp-0.0.8.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - processPackages [snakehelp]: Remove: archive file [/home/abi/fetcher/tmp/snakehelp-0.0.9.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [snakehelp]: success
+[2023-06-22 10:34:37] INFO root fetch - processPackages [jpylib-jyrgenn]: Remove: archive file [/home/abi/fetcher/tmp/jpylib-jyrgenn-2023.621.1458.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - processPackages [jpylib-jyrgenn]: Remove: archive file [/home/abi/fetcher/tmp/jpylib-jyrgenn-2023.622.1032.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [jpylib-jyrgenn]: success
+[2023-06-22 10:34:37] INFO root fetch - processPackages [idoit-scaleup]: Remove: archive file [/home/abi/fetcher/tmp/idoit_scaleup-0.0.8.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - processPackages [idoit-scaleup]: Remove: archive file [/home/abi/fetcher/tmp/idoit_scaleup-0.0.9.tar.gz]
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: End processing [idoit-scaleup]: success
+[2023-06-22 10:34:37] INFO root fetch - main [MainThread]: Store serial: [18602429]
