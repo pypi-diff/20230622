@@ -10294,3 +10294,38 @@
 [2023-06-22 05:41:16] INFO root fetch - processPackages [napari-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-chatgpt-2023.6.3.tar.gz]
 [2023-06-22 05:41:16] INFO root fetch - main [MainThread]: End processing [napari-chatgpt]: success
 [2023-06-22 05:41:16] INFO root fetch - main [MainThread]: Store serial: [18600840]
+[2023-06-22 05:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600840]
+[2023-06-22 05:46:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-22 05:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glitter-sdk
+[2023-06-22 05:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptography318
+[2023-06-22 05:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-frame
+[2023-06-22 05:46:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hordelib
+[2023-06-22 05:46:25] INFO root fetch - processPackages [cryptography318]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-22 05:46:25] INFO root fetch - processPackages [glitter-sdk]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-22 05:46:25] INFO root fetch - processPackages [torch-frame]: New version: [1.7.0] Old Version: [1.6.8]
+[2023-06-22 05:46:25] INFO root fetch - processPackages [hordelib]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-06-22 05:46:25] INFO root fetch - processPackages [torch-frame]: Downloading https://files.pythonhosted.org/packages/f4/99/0ac5a4765408aa1c0aac0d3388421a5cb5c55ec3cf5f1b2ba6946b2820a2/torch-frame-1.6.8.tar.gz
+[2023-06-22 05:46:25] INFO root fetch - processPackages [glitter-sdk]: Downloading https://files.pythonhosted.org/packages/54/0f/f3074aeaba12ab0d25d33dbd2117a484741dcbbc39edf56f7b61567f7c32/glitter_sdk-0.2.4.tar.gz
+[2023-06-22 05:46:25] INFO root fetch - processPackages [cryptography318]: Downloading https://files.pythonhosted.org/packages/f7/b9/6328eb3964b8f8a42dbcdc4a1d653d0a9d3d4fca5d92bb6782753bc46db9/cryptography318-0.4.0.tar.gz
+[2023-06-22 05:46:25] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/ac/4f/d0ad64245d45778770ab5b5fd42c7d7f6fd7b322f71b112d7648f70ad9dc/hordelib-1.5.2.tar.gz
+[2023-06-22 05:46:25] INFO root fetch - processPackages [cryptography318]: Downloading https://files.pythonhosted.org/packages/b4/ba/f321513c65b26b3276ab9cefad0c31ed8b9d094a06615873f0fa6ef4e098/cryptography318-0.4.1.tar.gz
+[2023-06-22 05:46:25] INFO root fetch - processPackages [cryptography318]: executing diffoscope
+[2023-06-22 05:46:25] INFO root fetch - processPackages [cryptography318]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptography318-0.4.0.tar.gz tmp/cryptography318-0.4.1.tar.gz --markdown 20230622/c/cryptography318/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-22 05:46:25] INFO root fetch - processPackages [torch-frame]: Downloading https://files.pythonhosted.org/packages/6d/b4/e666ff52a1a9d3cfb57c98a037ab030771dac9ec366567bd027e9de398e9/torch-frame-1.7.0.tar.gz
+[2023-06-22 05:46:25] INFO root fetch - processPackages [glitter-sdk]: Downloading https://files.pythonhosted.org/packages/b1/13/5a82dbeea61cec0b8e5bebfd630d924e0dfba201710a3b77e486eeaf42f1/glitter_sdk-0.2.5.tar.gz
+[2023-06-22 05:46:25] INFO root fetch - processPackages [torch-frame]: executing diffoscope
+[2023-06-22 05:46:25] INFO root fetch - processPackages [torch-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-frame-1.6.8.tar.gz tmp/torch-frame-1.7.0.tar.gz --markdown 20230622/t/torch-frame/1.6.8-1.7.0/diff.md --exclude *.pyd
+[2023-06-22 05:46:26] INFO root fetch - processPackages [glitter-sdk]: executing diffoscope
+[2023-06-22 05:46:26] INFO root fetch - processPackages [glitter-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glitter_sdk-0.2.4.tar.gz tmp/glitter_sdk-0.2.5.tar.gz --markdown 20230622/g/glitter-sdk/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-22 05:46:26] WARNING root fetch - processPackages [hordelib]: Skipping package: exceeds size limit 52614194>=10485760
+[2023-06-22 05:46:26] INFO root fetch - main [MainThread]: End processing [hordelib] error
+[2023-06-22 05:46:27] INFO root fetch - processPackages [cryptography318]: Remove: archive file [/home/abi/fetcher/tmp/cryptography318-0.4.0.tar.gz]
+[2023-06-22 05:46:27] INFO root fetch - processPackages [cryptography318]: Remove: archive file [/home/abi/fetcher/tmp/cryptography318-0.4.1.tar.gz]
+[2023-06-22 05:46:27] INFO root fetch - main [MainThread]: End processing [cryptography318]: success
+[2023-06-22 05:46:27] INFO root fetch - processPackages [torch-frame]: Remove: archive file [/home/abi/fetcher/tmp/torch-frame-1.6.8.tar.gz]
+[2023-06-22 05:46:27] INFO root fetch - processPackages [torch-frame]: Remove: archive file [/home/abi/fetcher/tmp/torch-frame-1.7.0.tar.gz]
+[2023-06-22 05:46:27] INFO root fetch - main [MainThread]: End processing [torch-frame]: success
+[2023-06-22 05:46:27] INFO root fetch - processPackages [glitter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glitter_sdk-0.2.4.tar.gz]
+[2023-06-22 05:46:27] INFO root fetch - processPackages [glitter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/glitter_sdk-0.2.5.tar.gz]
+[2023-06-22 05:46:27] INFO root fetch - main [MainThread]: End processing [glitter-sdk]: success
+[2023-06-22 05:46:27] INFO root fetch - main [MainThread]: Store serial: [18600853]
