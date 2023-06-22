@@ -19394,3 +19394,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:51:49] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
 [2023-06-22 13:51:49] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
 [2023-06-22 13:51:49] INFO root fetch - main [MainThread]: Store serial: [18604371]
+[2023-06-22 13:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604371]
+[2023-06-22 13:56:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hepstats
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metamist
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iqrfpy
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text-mods
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shareddata
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-cooperator-account-banking-mandate
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minilab
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: morch
+[2023-06-22 13:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pybotx
+[2023-06-22 13:56:59] INFO root fetch - processPackages [kfish]: New version: [99.0.202306221152] Old Version: [99.0.202306221049]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [hepstats]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: New version: [14.0.1.0.2] Old Version: [14.0.1.0.1]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [text-mods]: New version: [1.50] Old Version: [1.42]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [metamist]: New version: [6.0.6] Old Version: [6.0.5]
+[2023-06-22 13:56:59] WARNING root fetch - processPackages [minilab]: Skipping, unable to determine old version
+[2023-06-22 13:56:59] INFO root fetch - processPackages [pybotx]: New version: [0.55.7] Old Version: [0.55.6]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [minilab]: Start processing: cardano-clusterlib
+[2023-06-22 13:56:59] INFO root fetch - processPackages [morch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-22 13:56:59] INFO root fetch - main [MainThread]: End processing [minilab] error
+[2023-06-22 13:56:59] INFO root fetch - processPackages [shareddata]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/8c/18/c6055d7f4bb5fcc7ac06ad7b29c54c9cfa874f51299efa391a900b767d03/pybotx-0.55.6.tar.gz
+[2023-06-22 13:56:59] INFO root fetch - processPackages [cardano-clusterlib]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-06-22 13:56:59] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ae/93/4ed91a35e9334b39b5830a6fb7010dd41af9f9a4c5626e3ed684bc7aebc7/kfish-99.0.202306221049-py3-none-any.whl
+[2023-06-22 13:56:59] INFO root fetch - processPackages [hepstats]: Downloading https://files.pythonhosted.org/packages/a0/34/0b2ba01845d3052aa0187dc88fb56d40e7bc8f33c6878efde50e7e6f7c46/hepstats-0.6.1.tar.gz
+[2023-06-22 13:56:59] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/fd/0b/b5001769e7b0510bc2310011f7a92f58242fcd4471a202b9c9fc02458aa7/morch-0.1.0.tar.gz
+[2023-06-22 13:56:59] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/0c/ff/7151162ede95ebd23acee39639425a5c0f7ff902f345c43cb0dc0e65eba4/odoo14-addon-cooperator_account_banking_mandate-14.0.1.0.1.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [text-mods]: Downloading https://files.pythonhosted.org/packages/6a/f2/f14da26b0c323545e395d7af68f42fedc18bd69bbd78d7bb2d035586834f/text_mods-1.42.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/d3/ea/d321d6d868024e702b0ddbd3ea8778dcfe4f502e003ccf6630fdcccbcda0/metamist-6.0.5.tar.gz
+[2023-06-22 13:57:00] WARNING root fetch - processPackages [hepstats]: Skipping package: exceeds size limit 16677628>=10485760
+[2023-06-22 13:57:00] INFO root fetch - processPackages [hepstats]: Start processing: s2stac
+[2023-06-22 13:57:00] INFO root fetch - main [MainThread]: End processing [hepstats] error
+[2023-06-22 13:57:00] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/a3/89/36663418cc430f191945f4554d0919f8804487b2ffe208a4b81eb15419ff/shareddata-2.0.8.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [cardano-clusterlib]: Downloading https://files.pythonhosted.org/packages/88/30/597da1831245f564f433502db235d1fcd2185f76b982dc4eb96099dd0b90/cardano-clusterlib-0.4.9.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [s2stac]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-22 13:57:00] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/30/69/a49d8794ce79a7a69fb8bc25a2bb85dbf2a0d274e9638b34c790bff48073/pybotx-0.55.7.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/b2/c68ae9cd68dee0b107d9e1997670005f54759b009e2c2142ddaf86a57fc5/kfish-99.0.202306221152-py3-none-any.whl
+[2023-06-22 13:57:00] INFO root fetch - processPackages [s2stac]: Downloading https://files.pythonhosted.org/packages/f5/97/d0a5cd3107eceee066533c9fb34095ec1b22a478b771936343cf6f3c42b6/s2stac-0.1.1.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [pybotx]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [pybotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx-0.55.6.tar.gz tmp/pybotx-0.55.7.tar.gz --markdown 20230622/p/pybotx/0.55.6-0.55.7/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: Downloading https://files.pythonhosted.org/packages/f6/5d/9b868874cd9272d908c52e59a25c441395a6a5bd2d6885b61cc4dfcc6818/odoo14-addon-cooperator_account_banking_mandate-14.0.1.0.2.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/1f/bd/dc393b54fc10249d717d9a3ccb8dae7a68b9791c88ea01065aa76e0c2b48/morch-0.1.1.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [text-mods]: Downloading https://files.pythonhosted.org/packages/7c/05/d6f10dc9cd88e6585f829d265b06dc7d3efa1aaafb5ce0c31af91f255838/text_mods-1.50.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221049-py3-none-any.whl.zip tmp/kfish-99.0.202306221152-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306221049-99.0.202306221152/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/a9/9c/68c2ca5ff7917231fe65dbe8bb8ebcd058621b0d02bd9558db92707b4d56/metamist-6.0.6.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-cooperator_account_banking_mandate-14.0.1.0.1.tar.gz tmp/odoo14-addon-cooperator_account_banking_mandate-14.0.1.0.2.tar.gz --markdown 20230622/o/odoo14-addon-cooperator-account-banking-mandate/14.0.1.0.1-14.0.1.0.2/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [morch]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [morch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morch-0.1.0.tar.gz tmp/morch-0.1.1.tar.gz --markdown 20230622/m/morch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [s2stac]: Downloading https://files.pythonhosted.org/packages/62/0a/db840546a2b465f6f11ab50ab28d2abd2f1c1e2c0950a4ba8f3159a6af1b/s2stac-0.1.3.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [text-mods]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [text-mods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_mods-1.42.tar.gz tmp/text_mods-1.50.tar.gz --markdown 20230622/t/text-mods/1.42-1.50/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [cardano-clusterlib]: Downloading https://files.pythonhosted.org/packages/f8/bb/cf0e0c6152b02dc7a97588ceb6088a28065d47e4e0f82e19f82bb8fa6b70/cardano-clusterlib-0.5.0.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.0.5.tar.gz tmp/metamist-6.0.6.tar.gz --markdown 20230622/m/metamist/6.0.5-6.0.6/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [s2stac]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [s2stac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2stac-0.1.1.tar.gz tmp/s2stac-0.1.3.tar.gz --markdown 20230622/s/s2stac/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [cardano-clusterlib]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [cardano-clusterlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-clusterlib-0.4.9.tar.gz tmp/cardano-clusterlib-0.5.0.tar.gz --markdown 20230622/c/cardano-clusterlib/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230622/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 13:57:00] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/c9/f9/61fa61a22abefea2b892306bbb73a62ed0a1a79371960e7ef36dd8fd83b5/shareddata-2.0.9.tar.gz
+[2023-06-22 13:57:00] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-06-22 13:57:00] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.8.tar.gz tmp/shareddata-2.0.9.tar.gz --markdown 20230622/s/shareddata/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-22 13:57:01] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-cooperator_account_banking_mandate-14.0.1.0.1.tar.gz]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-cooperator_account_banking_mandate-14.0.1.0.2.tar.gz]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [odoo14-addon-cooperator-account-banking-mandate]: Start processing: arivo-settings-models
+[2023-06-22 13:57:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator-account-banking-mandate]: success
+[2023-06-22 13:57:01] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221049-py3-none-any.whl.zip]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221152-py3-none-any.whl.zip]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [kfish]: Start processing: substrate-interface
+[2023-06-22 13:57:01] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 13:57:01] INFO root fetch - processPackages [substrate-interface]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [arivo-settings-models]: New version: [0.0.1rc1] Old Version: [0.0.1rc0]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [text-mods]: Remove: archive file [/home/abi/fetcher/tmp/text_mods-1.42.tar.gz]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [text-mods]: Remove: archive file [/home/abi/fetcher/tmp/text_mods-1.50.tar.gz]
+[2023-06-22 13:57:01] INFO root fetch - processPackages [text-mods]: Start processing: skyflow
+[2023-06-22 13:57:01] INFO root fetch - main [MainThread]: End processing [text-mods]: success
+[2023-06-22 13:57:02] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-0.1.0.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-0.1.1.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - main [MainThread]: End processing [morch]: success
+[2023-06-22 13:57:02] INFO root fetch - processPackages [skyflow]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-22 13:57:02] INFO root fetch - processPackages [s2stac]: Remove: archive file [/home/abi/fetcher/tmp/s2stac-0.1.1.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - processPackages [s2stac]: Remove: archive file [/home/abi/fetcher/tmp/s2stac-0.1.3.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - main [MainThread]: End processing [s2stac]: success
+[2023-06-22 13:57:02] INFO root fetch - processPackages [arivo-settings-models]: Downloading https://files.pythonhosted.org/packages/fb/d6/355084d3792a82f77240c5807e9ac54a4fa89db80b4d8817ba94e857dbb9/arivo-settings_models-0.0.1rc0.tar.gz
+[2023-06-22 13:57:02] INFO root fetch - processPackages [substrate-interface]: Downloading https://files.pythonhosted.org/packages/f6/37/ddcbbe96118c780f700f69c9b1a699a1b1c33c38fabdd0a590682d703d74/substrate-interface-1.7.2.tar.gz
+[2023-06-22 13:57:02] INFO root fetch - processPackages [skyflow]: Downloading https://files.pythonhosted.org/packages/61/c0/aa8ecb05f167d3f8f10addb19203c88d842445449b9f17eceaad4201543b/skyflow-1.9.1.tar.gz
+[2023-06-22 13:57:02] INFO root fetch - processPackages [cardano-clusterlib]: Remove: archive file [/home/abi/fetcher/tmp/cardano-clusterlib-0.4.9.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - processPackages [cardano-clusterlib]: Remove: archive file [/home/abi/fetcher/tmp/cardano-clusterlib-0.5.0.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - main [MainThread]: End processing [cardano-clusterlib]: success
+[2023-06-22 13:57:02] INFO root fetch - processPackages [arivo-settings-models]: Downloading https://files.pythonhosted.org/packages/69/76/9d8af87e7b1391e410f73e404a3d730f338a6a64338d8830dc9720621bd8/arivo-settings_models-0.0.1rc1.tar.gz
+[2023-06-22 13:57:02] INFO root fetch - processPackages [substrate-interface]: Downloading https://files.pythonhosted.org/packages/84/1e/5f0137f4899bc871bb56e29eef3604cfff10267cd4d1a48cf80ac2eee4dd/substrate-interface-1.7.3.tar.gz
+[2023-06-22 13:57:02] INFO root fetch - processPackages [skyflow]: Downloading https://files.pythonhosted.org/packages/22/cd/48f2079a1224ba75ca3e492f58207e6aa8920d668821f9518cb3b7a19ecc/skyflow-1.9.2.tar.gz
+[2023-06-22 13:57:02] INFO root fetch - processPackages [substrate-interface]: executing diffoscope
+[2023-06-22 13:57:02] INFO root fetch - processPackages [substrate-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-interface-1.7.2.tar.gz tmp/substrate-interface-1.7.3.tar.gz --markdown 20230622/s/substrate-interface/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-22 13:57:02] INFO root fetch - processPackages [skyflow]: executing diffoscope
+[2023-06-22 13:57:02] INFO root fetch - processPackages [skyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyflow-1.9.1.tar.gz tmp/skyflow-1.9.2.tar.gz --markdown 20230622/s/skyflow/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-22 13:57:02] INFO root fetch - processPackages [arivo-settings-models]: executing diffoscope
+[2023-06-22 13:57:02] INFO root fetch - processPackages [arivo-settings-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arivo-settings_models-0.0.1rc0.tar.gz tmp/arivo-settings_models-0.0.1rc1.tar.gz --markdown 20230622/a/arivo-settings-models/0.0.1rc0-0.0.1rc1/diff.md --exclude *.pyd
+[2023-06-22 13:57:02] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-06-22 13:57:02] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-06-22 13:57:03] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.55.6.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.55.7.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - main [MainThread]: End processing [pybotx]: success
+[2023-06-22 13:57:03] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.8.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.9.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-06-22 13:57:03] INFO root fetch - processPackages [skyflow]: Remove: archive file [/home/abi/fetcher/tmp/skyflow-1.9.1.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - processPackages [skyflow]: Remove: archive file [/home/abi/fetcher/tmp/skyflow-1.9.2.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - main [MainThread]: End processing [skyflow]: success
+[2023-06-22 13:57:03] INFO root fetch - processPackages [substrate-interface]: Remove: archive file [/home/abi/fetcher/tmp/substrate-interface-1.7.2.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - processPackages [substrate-interface]: Remove: archive file [/home/abi/fetcher/tmp/substrate-interface-1.7.3.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - main [MainThread]: End processing [substrate-interface]: success
+[2023-06-22 13:57:03] INFO root fetch - processPackages [arivo-settings-models]: Remove: archive file [/home/abi/fetcher/tmp/arivo-settings_models-0.0.1rc0.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - processPackages [arivo-settings-models]: Remove: archive file [/home/abi/fetcher/tmp/arivo-settings_models-0.0.1rc1.tar.gz]
+[2023-06-22 13:57:03] INFO root fetch - main [MainThread]: End processing [arivo-settings-models]: success
+[2023-06-22 13:57:05] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.5.tar.gz]
+[2023-06-22 13:57:05] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.0.6.tar.gz]
+[2023-06-22 13:57:05] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2023-06-22 13:57:05] INFO root fetch - main [MainThread]: Store serial: [18604416]
