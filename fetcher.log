@@ -18734,3 +18734,211 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 13:24:20] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
 [2023-06-22 13:24:20] INFO root fetch - main [MainThread]: End processing [kalm]: success
 [2023-06-22 13:24:20] INFO root fetch - main [MainThread]: Store serial: [18604136]
+[2023-06-22 13:29:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18604136]
+[2023-06-22 13:29:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nligraphspacy
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchtnt-nightly
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starrailcard
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-web-remember-tree-column-width
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: censoredsummarystats
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: comet-ml
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axisregistry
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starrailcard
+[2023-06-22 13:29:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biaslyze
+[2023-06-22 13:29:29] INFO root fetch - processPackages [kalm]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [biaslyze]: New version: [0.0.6a0] Old Version: [0.0.5a0]
+[2023-06-22 13:29:29] WARNING root fetch - processPackages [odoo14-addon-web-remember-tree-column-width]: Skipping, unable to determine old version
+[2023-06-22 13:29:29] INFO root fetch - processPackages [odoo14-addon-web-remember-tree-column-width]: Start processing: tb-nightly
+[2023-06-22 13:29:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-remember-tree-column-width] error
+[2023-06-22 13:29:29] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [nligraphspacy]: New version: [0.7] Old Version: [0.6]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [starrailcard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [starrailcard]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [axisregistry]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/b7/64/e7619d9848dd7abe2edbdf6808dbd499e50d0c7b2298b56ae22a94a6103d/starrailcard-0.0.1.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/2c/8fe5219ade87f03ec373efea909f8b1567e840e29ce3a77e99cae0020fb7/kalm-0.7.8.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-22 13:29:29] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/b7/64/e7619d9848dd7abe2edbdf6808dbd499e50d0c7b2298b56ae22a94a6103d/starrailcard-0.0.1.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/cf/24/a9ee2cf4f7107b7869724a620c55f0f05a85787dbc1592a5a41f68152043/biaslyze-0.0.5a0.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/7f/e3/7182bc8d7ad0ecc2f900b2654f505c1027c8c509358a6b5d9e870b3f6c17/nligraphspacy-0.6.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/c5/b5/8c4d18a9df0a26cba7467b77a74dcd65f946cdb288cece27d66f71cd853d/censoredsummarystats-0.2.3.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/4e/55/96e5733caa6cd58d2b8cee3776cbffc162c0c3388e1ae7a75d3e7226f003/kalm-0.7.9.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [axisregistry]: Downloading https://files.pythonhosted.org/packages/c3/b1/dbed3ab0466c3e01ef0f32754ded12e3a37f744e7c27389b7838b517af5c/axisregistry-0.4.2.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-22 13:29:29] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-22 13:29:29] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.8.tar.gz tmp/kalm-0.7.9.tar.gz --markdown 20230622/k/kalm/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-22 13:29:29] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/3d/50/ddd01a468b1d5927c0bd0a443fc74a79e68ea97930c5e7428c8cea05f779/starrailcard-0.0.2.tar.gz
+[2023-06-22 13:29:29] INFO root fetch - processPackages [starrailcard]: Downloading https://files.pythonhosted.org/packages/3d/50/ddd01a468b1d5927c0bd0a443fc74a79e68ea97930c5e7428c8cea05f779/starrailcard-0.0.2.tar.gz
+[2023-06-22 13:29:30] INFO root fetch - processPackages [biaslyze]: Downloading https://files.pythonhosted.org/packages/3c/3b/6ea45670b9deba48e3f3e4923ab8912ee81e8de43413e04297b283ebe8bf/biaslyze-0.0.6a0.tar.gz
+[2023-06-22 13:29:30] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/9c/54/98768492c986841b1be2d97687a0b1ad5f8704d1e39e425837238ccad01a/nligraphspacy-0.7.tar.gz
+[2023-06-22 13:29:30] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/9a/f9/c4ac53ce9256bae9f3961fb9d0f00972c6604ab761551117e12222df17ca/censoredsummarystats-0.2.4.tar.gz
+[2023-06-22 13:29:30] INFO root fetch - processPackages [starrailcard]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [starrailcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailcard-0.0.1.tar.gz tmp/starrailcard-0.0.2.tar.gz --markdown 20230622/s/starrailcard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-0.6.tar.gz tmp/nligraphspacy-0.7.tar.gz --markdown 20230622/n/nligraphspacy/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [axisregistry]: Downloading https://files.pythonhosted.org/packages/ae/1b/2609db1707f22a482c91f6a5022fc369bdde2c95fdcebc7d7e133dae5e3b/axisregistry-0.4.3.tar.gz
+[2023-06-22 13:29:30] INFO root fetch - processPackages [starrailcard]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [starrailcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrailcard-0.0.1.tar.gz tmp/starrailcard-0.0.2.tar.gz --markdown 20230622/s/starrailcard/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2023-06-22 13:29:30] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-22 13:29:30] INFO root fetch - processPackages [biaslyze]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [biaslyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biaslyze-0.0.5a0.tar.gz tmp/biaslyze-0.0.6a0.tar.gz --markdown 20230622/b/biaslyze/0.0.5a0-0.0.6a0/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.2.3.tar.gz tmp/censoredsummarystats-0.2.4.tar.gz --markdown 20230622/c/censoredsummarystats/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [axisregistry]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [axisregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axisregistry-0.4.2.tar.gz tmp/axisregistry-0.4.3.tar.gz --markdown 20230622/a/axisregistry/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230622/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-22 13:29:30] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230622/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-22 13:29:30] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-06-22 13:29:30] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230622/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-22 13:29:31] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-0.6.tar.gz]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-0.7.tar.gz]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [nligraphspacy]: Start processing: pinecone-datasets
+[2023-06-22 13:29:31] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-06-22 13:29:31] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.8.tar.gz]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.9.tar.gz]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [kalm]: Start processing: travel-pricing-scraper
+[2023-06-22 13:29:31] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-22 13:29:31] INFO root fetch - processPackages [pinecone-datasets]: New version: [0.5.0rc8] Old Version: [0.5.0rc7]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [travel-pricing-scraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [travel-pricing-scraper]: Downloading https://files.pythonhosted.org/packages/46/fe/944fde7a0b1523a82982cfcaf1b60e52fac8a0dc59fd0594ef5854ca1bbd/travel_pricing_scraper-0.1.1.tar.gz
+[2023-06-22 13:29:31] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/27/cf/db1a43339e6ec64241c428905d084115bc4cf386c2c70981c33277b4617c/pinecone_datasets-0.5.0rc7.tar.gz
+[2023-06-22 13:29:31] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.3.tar.gz]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.4.tar.gz]
+[2023-06-22 13:29:31] INFO root fetch - processPackages [censoredsummarystats]: Start processing: datascrub
+[2023-06-22 13:29:31] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-06-22 13:29:31] INFO root fetch - processPackages [travel-pricing-scraper]: Downloading https://files.pythonhosted.org/packages/6a/04/27b9e21a24d477e2ae4c89b900d7eef092598c3b9d23ef217f3a88adca81/travel_pricing_scraper-0.1.2.tar.gz
+[2023-06-22 13:29:32] INFO root fetch - processPackages [datascrub]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-22 13:29:32] INFO root fetch - processPackages [travel-pricing-scraper]: executing diffoscope
+[2023-06-22 13:29:32] INFO root fetch - processPackages [travel-pricing-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/travel_pricing_scraper-0.1.1.tar.gz tmp/travel_pricing_scraper-0.1.2.tar.gz --markdown 20230622/t/travel-pricing-scraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-22 13:29:32] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/52/92/cfec9a784a84693a0f88d9acaa1273aa6fdac5aa6662382696f7829eb8fb/datascrub-1.1.1.tar.gz
+[2023-06-22 13:29:32] INFO root fetch - processPackages [pinecone-datasets]: Downloading https://files.pythonhosted.org/packages/b2/17/ceb06e426399a637499fd958d39e18872d9ae6e8eab2c3c761e28d51217c/pinecone_datasets-0.5.0rc8.tar.gz
+[2023-06-22 13:29:32] INFO root fetch - processPackages [pinecone-datasets]: executing diffoscope
+[2023-06-22 13:29:32] INFO root fetch - processPackages [pinecone-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_datasets-0.5.0rc7.tar.gz tmp/pinecone_datasets-0.5.0rc8.tar.gz --markdown 20230622/p/pinecone-datasets/0.5.0rc7-0.5.0rc8/diff.md --exclude *.pyd
+[2023-06-22 13:29:32] INFO root fetch - processPackages [datascrub]: Downloading https://files.pythonhosted.org/packages/56/0a/10ccbdd62dce217dd5becf07fee805f6bc0a14fb6271fd5c81447a5bfc8b/datascrub-1.1.2.tar.gz
+[2023-06-22 13:29:32] INFO root fetch - processPackages [datascrub]: executing diffoscope
+[2023-06-22 13:29:32] INFO root fetch - processPackages [datascrub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascrub-1.1.1.tar.gz tmp/datascrub-1.1.2.tar.gz --markdown 20230622/d/datascrub/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-22 13:29:32] INFO root fetch - processPackages [biaslyze]: Remove: archive file [/home/abi/fetcher/tmp/biaslyze-0.0.5a0.tar.gz]
+[2023-06-22 13:29:32] INFO root fetch - processPackages [biaslyze]: Remove: archive file [/home/abi/fetcher/tmp/biaslyze-0.0.6a0.tar.gz]
+[2023-06-22 13:29:32] INFO root fetch - main [MainThread]: End processing [biaslyze]: success
+[2023-06-22 13:29:32] INFO root fetch - processPackages [axisregistry]: Remove: archive file [/home/abi/fetcher/tmp/axisregistry-0.4.2.tar.gz]
+[2023-06-22 13:29:32] INFO root fetch - processPackages [axisregistry]: Remove: archive file [/home/abi/fetcher/tmp/axisregistry-0.4.3.tar.gz]
+[2023-06-22 13:29:32] INFO root fetch - main [MainThread]: End processing [axisregistry]: success
+[2023-06-22 13:29:33] INFO root fetch - processPackages [travel-pricing-scraper]: Remove: archive file [/home/abi/fetcher/tmp/travel_pricing_scraper-0.1.1.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - processPackages [travel-pricing-scraper]: Remove: archive file [/home/abi/fetcher/tmp/travel_pricing_scraper-0.1.2.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - main [MainThread]: End processing [travel-pricing-scraper]: success
+[2023-06-22 13:29:33] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc7.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - processPackages [pinecone-datasets]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_datasets-0.5.0rc8.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - main [MainThread]: End processing [pinecone-datasets]: success
+[2023-06-22 13:29:33] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.1.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - processPackages [datascrub]: Remove: archive file [/home/abi/fetcher/tmp/datascrub-1.1.2.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - main [MainThread]: End processing [datascrub]: success
+[2023-06-22 13:29:33] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-22 13:29:33] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.1.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - processPackages [starrailcard]: Remove: archive file [/home/abi/fetcher/tmp/starrailcard-0.0.2.tar.gz]
+[2023-06-22 13:29:33] INFO root fetch - main [MainThread]: End processing [starrailcard]: success
+[2023-06-22 13:29:35] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.0.tar.gz]
+[2023-06-22 13:29:35] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.1.tar.gz]
+[2023-06-22 13:29:35] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-06-22 13:29:35] ERROR root fetch - processPackages [starrailcard]: Diffoscope failed: gzip: tmp/starrailcard-0.0.2.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/starrailcard-0.0.2.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-22 13:29:35] INFO root fetch - main [MainThread]: End processing [starrailcard] error
+[2023-06-22 13:29:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-22 13:29:37] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-22 13:29:37] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-22 13:29:37] INFO root fetch - main [MainThread]: Store serial: [18604183]
