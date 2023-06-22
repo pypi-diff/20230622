@@ -17656,3 +17656,123 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 12:40:27] INFO root fetch - processPackages [openstacksdk]: Remove: archive file [/home/abi/fetcher/tmp/openstacksdk-1.3.0.tar.gz]
 [2023-06-22 12:40:27] INFO root fetch - main [MainThread]: End processing [openstacksdk]: success
 [2023-06-22 12:40:27] INFO root fetch - main [MainThread]: Store serial: [18603689]
+[2023-06-22 12:45:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18603689]
+[2023-06-22 12:45:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JustScan
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hayloft
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: granian
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpkio-python-sdk
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcloud
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radical.saga
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: windmill-api
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wmill-pg
+[2023-06-22 12:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpkio-cli
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-python-sdk]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [radical.saga]: New version: [1.8.0] Old Version: [1.6.9]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hayloft]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hcloud]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-cli]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [granian]: New version: [0.5.0] Old Version: [0.4.3]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/85/29/4f57349e421a5d91d38fe2cc0a5854f89dc4f6e449d36715e50fe86ef986/hayloft-0.2.0a1.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/3b/69/eb760e93f8f0646aff6eb1902e3568f7defd688b92a4e0c67d8b3d349496/radical.saga-1.6.9.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/18/a3/1c958a4327acf05db0c67da1274e13a99257ab421e8f53dfd91dbabbd2d4/bpkio_python_sdk-1.4.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/75/ae/3377e93b699a5a13d41b1da469eadc345a199ceebf95e75d000414478955/hcloud-1.9.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/76/43/2d866adcfafa0177cc53beb2a9b7b100431cab9261c0f435f1a5514530fd/granian-0.4.3.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hayloft]: Downloading https://files.pythonhosted.org/packages/61/8d/b688205ffe6dc1b4224883d001364e2bc54b88ea04ac7561220bc48af8e9/hayloft-0.2.0a2.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/86/2b/e95445024762411c383d70e0532fc7446064f6a935d3ec1fc9037beee6a0/bpkio_cli-1.5.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hayloft]: executing diffoscope
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hayloft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hayloft-0.2.0a1.tar.gz tmp/hayloft-0.2.0a2.tar.gz --markdown 20230622/h/hayloft/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-06-22 12:45:37] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/f4/de/1202856c58b04931fab023cfa6b538a8477062de8efcab1f00ff5051f13a/granian-0.5.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/1b/59/e16e00617d2ca292bcb51d5cdc1ff34e14e23f1b7b793507d151fd7e849d/bpkio_cli-1.5.1.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/0c/37/44b6a3f47258c55bfa080a7ce37b047504040254a522c25ed198c39604ea/bpkio_python_sdk-1.4.1.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [hcloud]: Downloading https://files.pythonhosted.org/packages/57/06/ffb83beaa4a583e87937570492b0fa3ee49120b1617e90ec90aa3801054e/hcloud-1.9.1.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-python-sdk]: executing diffoscope
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_python_sdk-1.4.0.tar.gz tmp/bpkio_python_sdk-1.4.1.tar.gz --markdown 20230622/b/bpkio-python-sdk/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-cli]: executing diffoscope
+[2023-06-22 12:45:37] INFO root fetch - processPackages [bpkio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_cli-1.5.0.tar.gz tmp/bpkio_cli-1.5.1.tar.gz --markdown 20230622/b/bpkio-cli/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-22 12:45:38] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-06-22 12:45:38] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-06-22 12:45:38] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230622/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-22 12:45:38] INFO root fetch - processPackages [hcloud]: executing diffoscope
+[2023-06-22 12:45:38] INFO root fetch - processPackages [hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcloud-1.9.0.tar.gz tmp/hcloud-1.9.1.tar.gz --markdown 20230622/h/hcloud/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-22 12:45:38] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-06-22 12:45:38] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230622/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-22 12:45:38] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-22 12:45:38] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230622/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-22 12:45:38] INFO root fetch - processPackages [granian]: executing diffoscope
+[2023-06-22 12:45:38] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-0.4.3.tar.gz tmp/granian-0.5.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip --markdown 20230622/g/granian/0.4.3-0.5.0/diff.md --exclude *.pyd
+[2023-06-22 12:45:38] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-06-22 12:45:38] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230622/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-22 12:45:38] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/4f/4b/15452082443a7cc86d52bcb6ff568b457eed3d787d65d867942840f1d52c/radical.saga-1.8.0.tar.gz
+[2023-06-22 12:45:38] INFO root fetch - processPackages [radical.saga]: executing diffoscope
+[2023-06-22 12:45:38] INFO root fetch - processPackages [radical.saga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.saga-1.6.9.tar.gz tmp/radical.saga-1.8.0.tar.gz --markdown 20230622/r/radical.saga/1.6.9-1.8.0/diff.md --exclude *.pyd
+[2023-06-22 12:45:39] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [wmill]: Start processing: Dakada
+[2023-06-22 12:45:39] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-06-22 12:45:39] INFO root fetch - processPackages [Dakada]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/eb/d8/38ec62c280f890bc4ffb6735888bc741d0ceaf33b33bdc5d3de5ba590d9d/Dakada-1.8.3.tar.gz
+[2023-06-22 12:45:39] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.4.0.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.4.1.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [bpkio-python-sdk]: Start processing: nonebot-plugin-bilichat
+[2023-06-22 12:45:39] INFO root fetch - main [MainThread]: End processing [bpkio-python-sdk]: success
+[2023-06-22 12:45:39] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.8.0] Old Version: [2.7.5]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/fe/91/fd0ddec32a3b2928cb0c3a91855782741cf671e78c9e207686e113693af6/nonebot_plugin_bilichat-2.7.5.tar.gz
+[2023-06-22 12:45:39] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [wmill-pg]: Start processing: obsln
+[2023-06-22 12:45:39] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-06-22 12:45:39] INFO root fetch - processPackages [Dakada]: Downloading https://files.pythonhosted.org/packages/90/8b/96e09cb2273ff4a64e0cf98b97eafe42881effbdca3135bac14675bc2475/Dakada-1.8.4.tar.gz
+[2023-06-22 12:45:39] INFO root fetch - processPackages [obsln]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.0a1.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [hayloft]: Remove: archive file [/home/abi/fetcher/tmp/hayloft-0.2.0a2.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - main [MainThread]: End processing [hayloft]: success
+[2023-06-22 12:45:39] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-0.4.3.tar.gz]
+[2023-06-22 12:45:39] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-0.5.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip]
+[2023-06-22 12:45:39] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2023-06-22 12:45:39] INFO root fetch - processPackages [Dakada]: executing diffoscope
+[2023-06-22 12:45:39] INFO root fetch - processPackages [Dakada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dakada-1.8.3.tar.gz tmp/Dakada-1.8.4.tar.gz --markdown 20230622/D/Dakada/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-22 12:45:40] INFO root fetch - processPackages [obsln]: Downloading https://files.pythonhosted.org/packages/c5/b4/dd6346ec79b5534e44c9a19289a4786ba38cd0e2a7c2a1f40a20e0d0be53/obsln-0.0.2.tar.gz
+[2023-06-22 12:45:40] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/72/bd/15cf70fff18932558dc0875100f40dff73a12ad6d4789c0c357aee34d541/nonebot_plugin_bilichat-2.8.0.tar.gz
+[2023-06-22 12:45:40] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-22 12:45:40] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.7.5.tar.gz tmp/nonebot_plugin_bilichat-2.8.0.tar.gz --markdown 20230622/n/nonebot-plugin-bilichat/2.7.5-2.8.0/diff.md --exclude *.pyd
+[2023-06-22 12:45:40] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.0.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - processPackages [hcloud]: Remove: archive file [/home/abi/fetcher/tmp/hcloud-1.9.1.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - main [MainThread]: End processing [hcloud]: success
+[2023-06-22 12:45:40] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-22 12:45:40] INFO root fetch - processPackages [obsln]: Downloading https://files.pythonhosted.org/packages/0b/68/d182e006c2af74a3641406e0c1f6ba0834cdb091a8dc3c6702a13a28563a/obsln-0.0.3.tar.gz
+[2023-06-22 12:45:40] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.5.0.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.5.1.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
+[2023-06-22 12:45:40] INFO root fetch - processPackages [obsln]: executing diffoscope
+[2023-06-22 12:45:40] INFO root fetch - processPackages [obsln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsln-0.0.2.tar.gz tmp/obsln-0.0.3.tar.gz --markdown 20230622/o/obsln/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 12:45:40] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-1.8.3.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - processPackages [Dakada]: Remove: archive file [/home/abi/fetcher/tmp/Dakada-1.8.4.tar.gz]
+[2023-06-22 12:45:40] INFO root fetch - main [MainThread]: End processing [Dakada]: success
+[2023-06-22 12:45:41] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.7.5.tar.gz]
+[2023-06-22 12:45:41] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.8.0.tar.gz]
+[2023-06-22 12:45:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-22 12:45:41] INFO root fetch - processPackages [obsln]: Remove: archive file [/home/abi/fetcher/tmp/obsln-0.0.2.tar.gz]
+[2023-06-22 12:45:41] INFO root fetch - processPackages [obsln]: Remove: archive file [/home/abi/fetcher/tmp/obsln-0.0.3.tar.gz]
+[2023-06-22 12:45:41] INFO root fetch - main [MainThread]: End processing [obsln]: success
+[2023-06-22 12:45:43] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.6.9.tar.gz]
+[2023-06-22 12:45:43] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.8.0.tar.gz]
+[2023-06-22 12:45:43] INFO root fetch - main [MainThread]: End processing [radical.saga]: success
+[2023-06-22 12:45:56] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-06-22 12:45:56] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-06-22 12:45:56] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-06-22 12:45:56] INFO root fetch - main [MainThread]: Store serial: [18603763]
