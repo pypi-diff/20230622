@@ -12156,3 +12156,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 07:59:39] INFO root fetch - processPackages [admobilizeapis]: Remove: archive file [/home/abi/fetcher/tmp/admobilizeapis-2023.6.22.post1.tar.gz]
 [2023-06-22 07:59:39] INFO root fetch - main [MainThread]: End processing [admobilizeapis]: success
 [2023-06-22 07:59:39] INFO root fetch - main [MainThread]: Store serial: [18601506]
+[2023-06-22 08:04:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18601506]
+[2023-06-22 08:04:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-22 08:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impoasdiff
+[2023-06-22 08:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dash-leaflet
+[2023-06-22 08:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nics
+[2023-06-22 08:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-06-22 08:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DLMS-SPODES
+[2023-06-22 08:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-llm
+[2023-06-22 08:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cleanmydataset
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cleanmydataset]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-22 08:04:49] INFO root fetch - processPackages [nics]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-22 08:04:49] INFO root fetch - processPackages [spark-llm]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-22 08:04:49] ERROR root fetch - processPackages [impoasdiff]: Unable to get metadata: No such project 'impoasdiff'
+[2023-06-22 08:04:49] INFO root fetch - main [MainThread]: End processing [impoasdiff] error
+[2023-06-22 08:04:49] INFO root fetch - processPackages [dash-leaflet]: New version: [0.1.9rc5] Old Version: [0.1.9rc4]
+[2023-06-22 08:04:49] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-06-22 08:04:49] INFO root fetch - processPackages [spark-llm]: Downloading https://files.pythonhosted.org/packages/36/c6/cb290fd45692703bc3ad545943644e64aa734ff76162f4827a6b75f31dbc/spark_llm-0.1.7.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cleanmydataset]: Downloading https://files.pythonhosted.org/packages/02/fb/c912a23054c969d865f170b573771124f33578396201e351f6a73c3e5c6a/cleanmydataset-1.1.1.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/ed/ae/dd5473e6915290ce16fa83cae738b5e99e36989c14d82def82e8152b1ffd/nics-0.5.0.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/97/e2/60be495fca055220080de90e294b2c16ad5a60ea6485cdee969131f05bf4/DLMS_SPODES-0.8.3.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [dash-leaflet]: Downloading https://files.pythonhosted.org/packages/5b/0e/2b7ec9cca9f2affae75ab19e21334ea836bb6fb14e64d1bf107f1533be2f/dash_leaflet-0.1.9rc4.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [spark-llm]: Downloading https://files.pythonhosted.org/packages/23/2c/48afb296de59e8fb0808a108809f11980821bd4cfcec89be4cc3528bb962/spark_llm-0.1.8.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230622/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cleanmydataset]: Downloading https://files.pythonhosted.org/packages/d4/8b/2aba7b3c268228e1936fdf2a0cd7efdc712b6f4580832272f7d4d48031ca/cleanmydataset-1.1.2.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [nics]: Downloading https://files.pythonhosted.org/packages/89/49/36920c80f897acdade9ebdf18eb67c5536baabdd1bb649015536478499ec/nics-0.6.0.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [spark-llm]: executing diffoscope
+[2023-06-22 08:04:49] INFO root fetch - processPackages [spark-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_llm-0.1.7.tar.gz tmp/spark_llm-0.1.8.tar.gz --markdown 20230622/s/spark-llm/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-22 08:04:49] INFO root fetch - processPackages [DLMS-SPODES]: Downloading https://files.pythonhosted.org/packages/78/a8/0e1e9fd1aa9750b28e12462781d408863affaeb92dbdb8c020b6d3078e67/DLMS_SPODES-0.9.0.tar.gz
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cleanmydataset]: executing diffoscope
+[2023-06-22 08:04:49] INFO root fetch - processPackages [cleanmydataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanmydataset-1.1.1.tar.gz tmp/cleanmydataset-1.1.2.tar.gz --markdown 20230622/c/cleanmydataset/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-22 08:04:49] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-06-22 08:04:49] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230622/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 08:04:50] INFO root fetch - processPackages [dash-leaflet]: Downloading https://files.pythonhosted.org/packages/f2/6f/fc587f0f269f8bda040c0174d28a96058686b992cdc8cf56f5d0acce9ebf/dash_leaflet-0.1.9rc5.tar.gz
+[2023-06-22 08:04:50] INFO root fetch - processPackages [nics]: executing diffoscope
+[2023-06-22 08:04:50] INFO root fetch - processPackages [nics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nics-0.5.0.tar.gz tmp/nics-0.6.0.tar.gz --markdown 20230622/n/nics/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-22 08:04:50] INFO root fetch - processPackages [dash-leaflet]: executing diffoscope
+[2023-06-22 08:04:50] INFO root fetch - processPackages [dash-leaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_leaflet-0.1.9rc4.tar.gz tmp/dash_leaflet-0.1.9rc5.tar.gz --markdown 20230622/d/dash-leaflet/0.1.9rc4-0.1.9rc5/diff.md --exclude *.pyd
+[2023-06-22 08:04:51] INFO root fetch - processPackages [spark-llm]: Remove: archive file [/home/abi/fetcher/tmp/spark_llm-0.1.7.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - processPackages [spark-llm]: Remove: archive file [/home/abi/fetcher/tmp/spark_llm-0.1.8.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - main [MainThread]: End processing [spark-llm]: success
+[2023-06-22 08:04:51] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-22 08:04:51] INFO root fetch - processPackages [cleanmydataset]: Remove: archive file [/home/abi/fetcher/tmp/cleanmydataset-1.1.1.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - processPackages [cleanmydataset]: Remove: archive file [/home/abi/fetcher/tmp/cleanmydataset-1.1.2.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - main [MainThread]: End processing [cleanmydataset]: success
+[2023-06-22 08:04:51] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.5.0.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - processPackages [nics]: Remove: archive file [/home/abi/fetcher/tmp/nics-0.6.0.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - main [MainThread]: End processing [nics]: success
+[2023-06-22 08:04:51] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.8.3.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - processPackages [DLMS-SPODES]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES-0.9.0.tar.gz]
+[2023-06-22 08:04:51] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-06-22 08:04:52] INFO root fetch - processPackages [dash-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/dash_leaflet-0.1.9rc4.tar.gz]
+[2023-06-22 08:04:52] INFO root fetch - processPackages [dash-leaflet]: Remove: archive file [/home/abi/fetcher/tmp/dash_leaflet-0.1.9rc5.tar.gz]
+[2023-06-22 08:04:52] INFO root fetch - main [MainThread]: End processing [dash-leaflet]: success
+[2023-06-22 08:04:52] INFO root fetch - main [MainThread]: Store serial: [18601527]
