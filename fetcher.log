@@ -10467,3 +10467,96 @@
 [2023-06-22 05:56:52] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
 [2023-06-22 05:56:52] INFO root fetch - main [MainThread]: End processing [hak]: success
 [2023-06-22 05:56:52] INFO root fetch - main [MainThread]: Store serial: [18600906]
+[2023-06-22 06:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18600906]
+[2023-06-22 06:02:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-chatgpt
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stdlib-list
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twitter-api-py
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reciprocal
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evals-nightly
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-frame
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wows-shell
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySupercell
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: riscv-config
+[2023-06-22 06:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py3d
+[2023-06-22 06:02:01] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230620] Old Version: [1.0.3.dev20230619]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [wows-shell]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [napari-chatgpt]: New version: [2023.6.3] Old Version: [2023.6.21.post1]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [twitter-api-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [reciprocal]: New version: [0.1.post0] Old Version: [0.1.2]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [PySupercell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [stdlib-list]: New version: [0.9.0rc0] Old Version: [0.8.0]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [torch-frame]: New version: [1.7.0a2] Old Version: [1.6.8]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/5d/fa/ecdef9bde6b3a5b2b9df91cf025d70ea8c0138410947e455e4e4c5ef37a1/evals-nightly-1.0.3.dev20230619.tar.gz
+[2023-06-22 06:02:01] INFO root fetch - processPackages [riscv-config]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [py3d]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-22 06:02:01] INFO root fetch - processPackages [reciprocal]: Downloading https://files.pythonhosted.org/packages/36/55/510943bb7d11863a965ee41901c1543b58acfeda96ecc9eb4b57c37cd572/reciprocal-0.1.2-py3-none-any.whl
+[2023-06-22 06:02:01] INFO root fetch - processPackages [stdlib-list]: Downloading https://files.pythonhosted.org/packages/bb/01/237cea071fd305f162ebbe1db18a59b56b0b5fdff19533c9a1beea0bdee7/stdlib-list-0.8.0.tar.gz
+[2023-06-22 06:02:01] INFO root fetch - processPackages [napari-chatgpt]: Downloading https://files.pythonhosted.org/packages/99/f2/c1af86e56d25a5de83c1b425d0af0eae41b34b05339a90457c9411614688/napari-chatgpt-2023.6.21.post1.tar.gz
+[2023-06-22 06:02:01] INFO root fetch - processPackages [torch-frame]: Downloading https://files.pythonhosted.org/packages/f4/99/0ac5a4765408aa1c0aac0d3388421a5cb5c55ec3cf5f1b2ba6946b2820a2/torch-frame-1.6.8.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/6f/d2/9e758f63c119f278be1cbc282ca8ede4dda852e9cf1fdeede2e6980a26cf/wows_shell-1.2.1.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/73/4e/a80df8b529fe378bfa915eadf594310c1cb8a7b17a048daa10a89dd78108/PySupercell-0.0.8.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/78/aa/94c67f66914b64cb3ce2a217f7457d46087dc0e999859ef0ae2890da3022/twitter_api_py-0.8.1.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/ef/6f/cc7732444b5418a90d78f7e44396a7de84309bfaf68755acadea4df25b40/py3d-0.1.5.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [riscv-config]: Downloading https://files.pythonhosted.org/packages/8b/75/df6d65f54317621722a74caee3bccf7e9590a362847cdf910f626207fc5a/riscv_config-3.9.0.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/8f/64/4d866f4d20767e7ecc694517a920da485795146ad505617916e258a43aaf/evals-nightly-1.0.3.dev20230620.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [stdlib-list]: Downloading https://files.pythonhosted.org/packages/ec/00/d3582827a2eba5a11fecf27b49c6b61503d2dd142e081c82ad53faa6386a/stdlib_list-0.9.0rc0.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [reciprocal]: Downloading https://files.pythonhosted.org/packages/02/5f/671fb3ec95546be48d0d4f2a2bb01555717dacdbfcd3ceb887d712824583/reciprocal-0.1.post0.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [napari-chatgpt]: Downloading https://files.pythonhosted.org/packages/8c/96/9c6112d08a0b010d80cf211bd0cfdd8dcf83d4a900f06842547e759087fe/napari-chatgpt-2023.6.3.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [wows-shell]: Downloading https://files.pythonhosted.org/packages/e3/2b/00e979dbe4b44c1fc8b66f4d9a0cf8b0ce34a95c5e5bac0a56259a21dc7c/wows_shell-1.2.2-cp39-cp39-win_amd64.whl
+[2023-06-22 06:02:02] INFO root fetch - processPackages [torch-frame]: Downloading https://files.pythonhosted.org/packages/ce/2e/17200b56bb1005c44b1794dd5f7bdaf1d2181a8d9d241e735fd2f5ff9898/torch-frame-1.7.0a2.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [reciprocal]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [reciprocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reciprocal-0.1.2-py3-none-any.whl.zip tmp/reciprocal-0.1.post0.tar.gz --markdown 20230622/r/reciprocal/0.1.2-0.1.post0/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [napari-chatgpt]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [napari-chatgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-chatgpt-2023.6.21.post1.tar.gz tmp/napari-chatgpt-2023.6.3.tar.gz --markdown 20230622/n/napari-chatgpt/2023.6.21.post1-2023.6.3/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [wows-shell]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [wows-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wows_shell-1.2.1.tar.gz tmp/wows_shell-1.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20230622/w/wows-shell/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/bb/a3/7b89b801e03e007cd6a84d328e0e46ef8695526deef69fbadd6bbfd3285e/py3d-0.1.6.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230619.tar.gz tmp/evals-nightly-1.0.3.dev20230620.tar.gz --markdown 20230622/e/evals-nightly/1.0.3.dev20230619-1.0.3.dev20230620/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [stdlib-list]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [stdlib-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stdlib-list-0.8.0.tar.gz tmp/stdlib_list-0.9.0rc0.tar.gz --markdown 20230622/s/stdlib-list/0.8.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/3a/a8/9f48fa961dfe3ead6ce3776969f35b5722b6bb808a37eb154f60f0b57186/twitter_api_py-0.9.0.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [PySupercell]: Downloading https://files.pythonhosted.org/packages/05/fc/bbd7e619a558fdf0bd7212a442d3b95393f161f9be0183eb9c2dad9cc8e5/PySupercell-0.0.9.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.8.1.tar.gz tmp/twitter_api_py-0.9.0.tar.gz --markdown 20230622/t/twitter-api-py/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [riscv-config]: Downloading https://files.pythonhosted.org/packages/e1/6c/39d5d244e2bd72c43c490f9dcd8ea7b85babfb92d79c8769e49cd24e11a1/riscv_config-3.9.1.tar.gz
+[2023-06-22 06:02:02] INFO root fetch - processPackages [torch-frame]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [torch-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-frame-1.6.8.tar.gz tmp/torch-frame-1.7.0a2.tar.gz --markdown 20230622/t/torch-frame/1.6.8-1.7.0a2/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [PySupercell]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [PySupercell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySupercell-0.0.8.tar.gz tmp/PySupercell-0.0.9.tar.gz --markdown 20230622/P/PySupercell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.1.5.tar.gz tmp/py3d-0.1.6.tar.gz --markdown 20230622/p/py3d/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-22 06:02:02] INFO root fetch - processPackages [riscv-config]: executing diffoscope
+[2023-06-22 06:02:02] INFO root fetch - processPackages [riscv-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscv_config-3.9.0.tar.gz tmp/riscv_config-3.9.1.tar.gz --markdown 20230622/r/riscv-config/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-22 06:02:03] INFO root fetch - processPackages [reciprocal]: Remove: archive file [/home/abi/fetcher/tmp/reciprocal-0.1.2-py3-none-any.whl.zip]
+[2023-06-22 06:02:03] INFO root fetch - processPackages [reciprocal]: Remove: archive file [/home/abi/fetcher/tmp/reciprocal-0.1.post0.tar.gz]
+[2023-06-22 06:02:03] INFO root fetch - main [MainThread]: End processing [reciprocal]: success
+[2023-06-22 06:02:03] INFO root fetch - processPackages [wows-shell]: Remove: archive file [/home/abi/fetcher/tmp/wows_shell-1.2.1.tar.gz]
+[2023-06-22 06:02:03] INFO root fetch - processPackages [wows-shell]: Remove: archive file [/home/abi/fetcher/tmp/wows_shell-1.2.2-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 06:02:03] INFO root fetch - main [MainThread]: End processing [wows-shell]: success
+[2023-06-22 06:02:04] INFO root fetch - processPackages [torch-frame]: Remove: archive file [/home/abi/fetcher/tmp/torch-frame-1.6.8.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - processPackages [torch-frame]: Remove: archive file [/home/abi/fetcher/tmp/torch-frame-1.7.0a2.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - main [MainThread]: End processing [torch-frame]: success
+[2023-06-22 06:02:04] INFO root fetch - processPackages [riscv-config]: Remove: archive file [/home/abi/fetcher/tmp/riscv_config-3.9.0.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - processPackages [riscv-config]: Remove: archive file [/home/abi/fetcher/tmp/riscv_config-3.9.1.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - main [MainThread]: End processing [riscv-config]: success
+[2023-06-22 06:02:04] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.5.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.6.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-06-22 06:02:04] INFO root fetch - processPackages [stdlib-list]: Remove: archive file [/home/abi/fetcher/tmp/stdlib-list-0.8.0.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - processPackages [stdlib-list]: Remove: archive file [/home/abi/fetcher/tmp/stdlib_list-0.9.0rc0.tar.gz]
+[2023-06-22 06:02:04] INFO root fetch - main [MainThread]: End processing [stdlib-list]: success
+[2023-06-22 06:02:05] INFO root fetch - processPackages [napari-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-chatgpt-2023.6.21.post1.tar.gz]
+[2023-06-22 06:02:05] INFO root fetch - processPackages [napari-chatgpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-chatgpt-2023.6.3.tar.gz]
+[2023-06-22 06:02:05] INFO root fetch - main [MainThread]: End processing [napari-chatgpt]: success
+[2023-06-22 06:02:05] INFO root fetch - processPackages [twitter-api-py]: Remove: archive file [/home/abi/fetcher/tmp/twitter_api_py-0.8.1.tar.gz]
+[2023-06-22 06:02:05] INFO root fetch - processPackages [twitter-api-py]: Remove: archive file [/home/abi/fetcher/tmp/twitter_api_py-0.9.0.tar.gz]
+[2023-06-22 06:02:05] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-06-22 06:02:05] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230619.tar.gz]
+[2023-06-22 06:02:05] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230620.tar.gz]
+[2023-06-22 06:02:05] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-22 06:02:58] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.8.tar.gz]
+[2023-06-22 06:02:58] INFO root fetch - processPackages [PySupercell]: Remove: archive file [/home/abi/fetcher/tmp/PySupercell-0.0.9.tar.gz]
+[2023-06-22 06:02:58] INFO root fetch - main [MainThread]: End processing [PySupercell]: success
+[2023-06-22 06:02:58] INFO root fetch - main [MainThread]: Store serial: [18600935]
