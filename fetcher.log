@@ -22160,3 +22160,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 15:35:27] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.69.0.tar.gz]
 [2023-06-22 15:35:27] INFO root fetch - main [MainThread]: End processing [libmata]: success
 [2023-06-22 15:35:27] INFO root fetch - main [MainThread]: Store serial: [18605535]
+[2023-06-22 15:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18605535]
+[2023-06-22 15:40:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: en-nligraphspacy
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imagetocsv
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abl-quantconnect-stubs
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spoutlang
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strawberry-graphql
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: luminesce-sdk-preview
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-06-22 15:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solldex-api-client
+[2023-06-22 15:40:36] WARNING root fetch - processPackages [en-nligraphspacy]: Skipping, unable to determine old version
+[2023-06-22 15:40:36] INFO root fetch - processPackages [en-nligraphspacy]: Start processing: ul-water5py
+[2023-06-22 15:40:36] INFO root fetch - main [MainThread]: End processing [en-nligraphspacy] error
+[2023-06-22 15:40:36] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 15:40:36] INFO root fetch - processPackages [abl-quantconnect-stubs]: New version: [13987.5] Old Version: [13987.4]
+[2023-06-22 15:40:36] WARNING root fetch - processPackages [spoutlang]: Skipping, unable to determine old version
+[2023-06-22 15:40:36] INFO root fetch - main [MainThread]: End processing [spoutlang] error
+[2023-06-22 15:40:36] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-22 15:40:36] INFO root fetch - processPackages [kfish]: New version: [99.0.202306221338] Old Version: [99.0.202306221330]
+[2023-06-22 15:40:36] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202306221327] Old Version: [99.0.202306221323]
+[2023-06-22 15:40:37] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/ed/f8/a67fee607cc055ec85771793d2aacdf878f9df1ea94699d4ba65fa6693f7/abl-quantconnect-stubs-13987.4.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [imagetocsv]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-06-22 15:40:37] INFO root fetch - processPackages [solldex-api-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-22 15:40:37] WARNING root fetch - processPackages [ul-water5py]: Skipping, unable to determine old version
+[2023-06-22 15:40:37] INFO root fetch - main [MainThread]: End processing [ul-water5py] error
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/18/ff/6f476dcb8e7a45babcf0bd96f8dc40b368c58997b229288db7a1f70dffc2/kfish-99.0.202306221330-py3-none-any.whl
+[2023-06-22 15:40:37] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ea/6b/692167ab8f11971ba4e7b506656c4402e91aeaa3ed72e74ba90ee4aa1485/kcli-99.0.202306221323-py3-none-any.whl
+[2023-06-22 15:40:37] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/63/fb/3ecc0133a1ce4cea9895dce738194165765095fed1ba7684b6f6ce6dd0c8/abl-quantconnect-stubs-13987.5.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [imagetocsv]: Downloading https://files.pythonhosted.org/packages/cc/2e/95046d436311d626b1774f0ba70019a74ea806f0a5fbe76bb8d8b81ced3c/imagetocsv-0.2.1-py2.py3-none-any.whl
+[2023-06-22 15:40:37] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/56/53/8ad74fa5b87143259a899924e6b78c4e0ac671ed4ad917fcd23e4749845c/solldex-api-client-0.1.8.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230622/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f3/77/838279230360aebee261799c1e734b4994dfd6c5c3eb95562331cb082db9/kfish-99.0.202306221338-py3-none-any.whl
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d8/40/ac9534f5667604f8ecfdc1ea301f33aae09b14acb4bb864a5dfba7e4ffa0/kcli-99.0.202306221327-py3-none-any.whl
+[2023-06-22 15:40:37] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230622/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-22 15:40:37] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230622/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306221330-py3-none-any.whl.zip tmp/kfish-99.0.202306221338-py3-none-any.whl.zip --markdown 20230622/k/kfish/99.0.202306221330-99.0.202306221338/diff.md --exclude *.pyd
+[2023-06-22 15:40:37] INFO root fetch - processPackages [abl-quantconnect-stubs]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [abl-quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abl-quantconnect-stubs-13987.4.tar.gz tmp/abl-quantconnect-stubs-13987.5.tar.gz --markdown 20230622/a/abl-quantconnect-stubs/13987.4-13987.5/diff.md --exclude *.pyd
+[2023-06-22 15:40:37] INFO root fetch - processPackages [solldex-api-client]: Downloading https://files.pythonhosted.org/packages/ad/6f/1d0a1b81c3ff2de98cd583382a6a6bff22c4116377a22ae0d61af60ced44/solldex-api-client-0.1.9.tar.gz
+[2023-06-22 15:40:37] INFO root fetch - processPackages [imagetocsv]: Downloading https://files.pythonhosted.org/packages/7f/24/26b04485ec74f102d33c98f553e6697375d984c3e5175819f81e34a42071/imagetocsv-1.0.0-py3-none-any.whl
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306221323-py3-none-any.whl.zip tmp/kcli-99.0.202306221327-py3-none-any.whl.zip --markdown 20230622/k/kcli/99.0.202306221323-99.0.202306221327/diff.md --exclude *.pyd
+[2023-06-22 15:40:37] INFO root fetch - processPackages [solldex-api-client]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [solldex-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solldex-api-client-0.1.8.tar.gz tmp/solldex-api-client-0.1.9.tar.gz --markdown 20230622/s/solldex-api-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-22 15:40:37] INFO root fetch - processPackages [imagetocsv]: executing diffoscope
+[2023-06-22 15:40:37] INFO root fetch - processPackages [imagetocsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagetocsv-0.2.1-py2.py3-none-any.whl.zip tmp/imagetocsv-1.0.0-py3-none-any.whl.zip --markdown 20230622/i/imagetocsv/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-22 15:40:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221330-py3-none-any.whl.zip]
+[2023-06-22 15:40:38] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306221338-py3-none-any.whl.zip]
+[2023-06-22 15:40:38] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-22 15:40:39] INFO root fetch - processPackages [imagetocsv]: Remove: archive file [/home/abi/fetcher/tmp/imagetocsv-0.2.1-py2.py3-none-any.whl.zip]
+[2023-06-22 15:40:39] INFO root fetch - processPackages [imagetocsv]: Remove: archive file [/home/abi/fetcher/tmp/imagetocsv-1.0.0-py3-none-any.whl.zip]
+[2023-06-22 15:40:39] INFO root fetch - main [MainThread]: End processing [imagetocsv]: success
+[2023-06-22 15:40:39] INFO root fetch - processPackages [solldex-api-client]: Remove: archive file [/home/abi/fetcher/tmp/solldex-api-client-0.1.8.tar.gz]
+[2023-06-22 15:40:39] INFO root fetch - processPackages [solldex-api-client]: Remove: archive file [/home/abi/fetcher/tmp/solldex-api-client-0.1.9.tar.gz]
+[2023-06-22 15:40:39] INFO root fetch - main [MainThread]: End processing [solldex-api-client]: success
+[2023-06-22 15:40:39] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-22 15:40:39] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-22 15:40:39] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-22 15:40:39] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-22 15:40:39] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-22 15:40:39] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-22 15:40:40] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-06-22 15:40:40] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-06-22 15:40:40] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-22 15:40:44] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.4.tar.gz]
+[2023-06-22 15:40:44] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.5.tar.gz]
+[2023-06-22 15:40:44] INFO root fetch - main [MainThread]: End processing [abl-quantconnect-stubs]: success
+[2023-06-22 15:40:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221323-py3-none-any.whl.zip]
+[2023-06-22 15:40:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306221327-py3-none-any.whl.zip]
+[2023-06-22 15:40:45] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-22 15:40:45] INFO root fetch - main [MainThread]: Store serial: [18605573]
