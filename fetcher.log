@@ -14573,3 +14573,137 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 10:39:50] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.2.6.tar.gz]
 [2023-06-22 10:39:50] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
 [2023-06-22 10:39:50] INFO root fetch - main [MainThread]: Store serial: [18602460]
+[2023-06-22 10:44:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602460]
+[2023-06-22 10:44:59] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otools-rpc
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsna
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluepyefe
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-mystool
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: encord-active-components
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tff-nightly
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sql-field-report
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: math-econ-code
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: msaBase
+[2023-06-22 10:44:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keqing
+[2023-06-22 10:44:59] WARNING root fetch - processPackages [dsna]: Skipping, unable to determine old version
+[2023-06-22 10:44:59] INFO root fetch - processPackages [dsna]: Start processing: tf-nightly
+[2023-06-22 10:44:59] INFO root fetch - main [MainThread]: End processing [dsna] error
+[2023-06-22 10:44:59] INFO root fetch - processPackages [otools-rpc]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [bluepyefe]: New version: [2.2.55] Old Version: [2.2.53]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [keqing]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.89]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [nonebot-plugin-mystool]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-06-22 10:44:59] WARNING root fetch - processPackages [math-econ-code]: Skipping, unable to determine old version
+[2023-06-22 10:44:59] INFO root fetch - processPackages [math-econ-code]: Start processing: cdpcli
+[2023-06-22 10:44:59] INFO root fetch - main [MainThread]: End processing [math-econ-code] error
+[2023-06-22 10:44:59] INFO root fetch - processPackages [sql-field-report]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [encord-active-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230622] Old Version: [0.0.1.dev20230621]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [cdpcli]: New version: [0.9.90] Old Version: [0.9.9]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230621] Old Version: [2.14.0.dev20230620]
+[2023-06-22 10:44:59] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b2/25eb841c4b2c65ad34d0e5ed3b59c2ec76ce362a8d6246af3a84efbe1293/tff_nightly-0.0.1.dev20230621-py2.py3-none-any.whl
+[2023-06-22 10:44:59] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/13/0a/b2151f48d42d86dd8ffca5541f1388d8bc704c4d7adc18c37932b25e9b54/msaBase-0.0.89.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/ba/a6/8e7dd231c5510b1b0251f2646995c938d05a12f4d6ebbf50e35a96410285/otools-rpc-0.3.1.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/03/c3/f25569e245f34df78b4f7b9e9f135dd48f8dcd84577a99ad671ab944c227/bluepyefe-2.2.53.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/37/df/7208bc86159d3d38f110b04f2e8c79701def6ff13ee5dffa4d7bee86c8ef/nonebot_plugin_mystool-1.0.0b1.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [encord-active-components]: Downloading https://files.pythonhosted.org/packages/b5/2e/e47c34fc9d6d16852ec48b7fd5dbef7f94a73e3b514b8f86c9b12fa4c7df/encord_active_components-0.0.8.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [keqing]: Downloading https://files.pythonhosted.org/packages/bc/7d/df88c0cf3491aca1b8b6f9bbd19d9cd0a0210ef4584aebc56fd5d48bf08d/keqing-1.0.0.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/38/94/b823ddb1cdf28a19e712a10e468988ffe92904c13dcbd42c5021b90fa147/sql_field_report-1.0.5.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [cdpcli]: Downloading https://files.pythonhosted.org/packages/93/32/b9c49cd15469571b388bcf8082817282c493eec94d458b0da1b2c72ce3e3/cdpcli-0.9.9.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/30/bd/15fea4264d97334a8d62630ee7c7d2dc2427595f7160c4345c49a451dc33/sql_field_report-1.0.7.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/34/4c/c45ebf5e7f54c61991a3da3e76cd16ab03cbf87dc7f6e3a768c7404a4ee7/bluepyefe-2.2.55.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [otools-rpc]: Downloading https://files.pythonhosted.org/packages/c3/ba/eef90390150cba1ba4f148e9e91a8bd012c839236610c70baa7de05ada78/otools-rpc-0.4.0.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [msaBase]: Downloading https://files.pythonhosted.org/packages/fd/c7/eaf57b5462f098d2e330245249477745d1619240fbb8ea59ece12e03eeff/msaBase-0.0.9.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/58/aa/e41c8f6797bafc8833ef143f103f63c96ae4274da18a4d98f13304f0ecbb/tf_nightly-2.14.0.dev20230621-cp39-cp39-win_amd64.whl
+[2023-06-22 10:44:59] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/be/bb/762fc6fc512a45d906ae456b8ccc210f9871bb7b7c3f64eeaadf202d10d5/tff_nightly-0.0.1.dev20230622-py2.py3-none-any.whl
+[2023-06-22 10:44:59] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-06-22 10:44:59] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-1.0.5.tar.gz tmp/sql_field_report-1.0.7.tar.gz --markdown 20230622/s/sql-field-report/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-06-22 10:44:59] INFO root fetch - processPackages [keqing]: Downloading https://files.pythonhosted.org/packages/83/7e/7caaf31b07297a78f155be309779e9d8d70ded4a89af27916c03e71a5e58/keqing-1.0.1.tar.gz
+[2023-06-22 10:44:59] INFO root fetch - processPackages [otools-rpc]: executing diffoscope
+[2023-06-22 10:44:59] INFO root fetch - processPackages [otools-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otools-rpc-0.3.1.tar.gz tmp/otools-rpc-0.4.0.tar.gz --markdown 20230622/o/otools-rpc/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-22 10:44:59] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-06-22 10:44:59] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.53.tar.gz tmp/bluepyefe-2.2.55.tar.gz --markdown 20230622/b/bluepyefe/2.2.53-2.2.55/diff.md --exclude *.pyd
+[2023-06-22 10:44:59] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2023-06-22 10:44:59] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.14.0.dev20230620-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.14.0.dev20230621-cp39-cp39-win_amd64.whl.zip --markdown 20230622/t/tf-nightly/2.14.0.dev20230620-2.14.0.dev20230621/diff.md --exclude *.pyd
+[2023-06-22 10:45:00] INFO root fetch - processPackages [cdpcli]: Downloading https://files.pythonhosted.org/packages/6a/86/4ccd649350109981e7c08bee14a71b713d3462c5cb3eeacc5dc8cb34e2a7/cdpcli-0.9.90.tar.gz
+[2023-06-22 10:45:00] INFO root fetch - processPackages [keqing]: executing diffoscope
+[2023-06-22 10:45:00] INFO root fetch - processPackages [keqing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keqing-1.0.0.tar.gz tmp/keqing-1.0.1.tar.gz --markdown 20230622/k/keqing/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-22 10:45:00] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-06-22 10:45:00] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.89.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230622/m/msaBase/0.0.89-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:45:00] INFO root fetch - processPackages [nonebot-plugin-mystool]: Downloading https://files.pythonhosted.org/packages/a9/3f/017bea4e49fcf187219ce440728064ee7f1064abb6db4ebd225f0acdf3e9/nonebot_plugin_mystool-1.0.0b2.tar.gz
+[2023-06-22 10:45:00] INFO root fetch - processPackages [encord-active-components]: Downloading https://files.pythonhosted.org/packages/77/83/e5cc6dce893097c227780b822360b0b4fc8986d8cdd70b2574c3ca6b8008/encord_active_components-0.0.9.tar.gz
+[2023-06-22 10:45:00] ERROR root fetch - processPackages [bluepyefe]: Diffoscope failed: Error: error creating container storage: the container name "admiring_bassi" is already in use by "7f7fe6cbbf063327b54adf09b09a212d9f53372e2b5e7e5985587df02bc781bc". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-22 10:45:00] INFO root fetch - processPackages [bluepyefe]: Start processing: UComp
+[2023-06-22 10:45:00] INFO root fetch - main [MainThread]: End processing [bluepyefe] error
+[2023-06-22 10:45:00] INFO root fetch - processPackages [cdpcli]: executing diffoscope
+[2023-06-22 10:45:00] INFO root fetch - processPackages [cdpcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdpcli-0.9.9.tar.gz tmp/cdpcli-0.9.90.tar.gz --markdown 20230622/c/cdpcli/0.9.9-0.9.90/diff.md --exclude *.pyd
+[2023-06-22 10:45:00] INFO root fetch - processPackages [UComp]: New version: [1.0.73] Old Version: [1.0.72]
+[2023-06-22 10:45:00] INFO root fetch - processPackages [encord-active-components]: executing diffoscope
+[2023-06-22 10:45:00] INFO root fetch - processPackages [encord-active-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord_active_components-0.0.8.tar.gz tmp/encord_active_components-0.0.9.tar.gz --markdown 20230622/e/encord-active-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-22 10:45:00] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-22 10:45:00] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230621-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230622-py2.py3-none-any.whl.zip --markdown 20230622/t/tff-nightly/0.0.1.dev20230621-0.0.1.dev20230622/diff.md --exclude *.pyd
+[2023-06-22 10:45:00] INFO root fetch - processPackages [nonebot-plugin-mystool]: executing diffoscope
+[2023-06-22 10:45:00] INFO root fetch - processPackages [nonebot-plugin-mystool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mystool-1.0.0b1.tar.gz tmp/nonebot_plugin_mystool-1.0.0b2.tar.gz --markdown 20230622/n/nonebot-plugin-mystool/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-06-22 10:45:00] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/d9/29/adc0653255b0573822c3eece353946c0faab6b0127ad46d0b89892509af5/UComp-1.0.72.tar.gz
+[2023-06-22 10:45:00] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/30/2e/612502073eeb15365f232f4de1ec73124c3e07897cf0577ef156e9062f62/UComp-1.0.73.tar.gz
+[2023-06-22 10:45:01] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-22 10:45:01] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.72.tar.gz tmp/UComp-1.0.73.tar.gz --markdown 20230622/U/UComp/1.0.72-1.0.73/diff.md --exclude *.pyd
+[2023-06-22 10:45:01] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230620-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.14.0.dev20230621-cp39-cp39-win_amd64.whl.zip]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [tf-nightly]: Start processing: hcai-datasets-nightly
+[2023-06-22 10:45:01] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2023-06-22 10:45:01] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-1.0.5.tar.gz]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-1.0.7.tar.gz]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [sql-field-report]: Start processing: marchie
+[2023-06-22 10:45:01] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-06-22 10:45:01] INFO root fetch - processPackages [marchie]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-06-22 10:45:01] INFO root fetch - processPackages [otools-rpc]: Remove: archive file [/home/abi/fetcher/tmp/otools-rpc-0.3.1.tar.gz]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [otools-rpc]: Remove: archive file [/home/abi/fetcher/tmp/otools-rpc-0.4.0.tar.gz]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [otools-rpc]: Start processing: tfp-nightly
+[2023-06-22 10:45:01] INFO root fetch - main [MainThread]: End processing [otools-rpc]: success
+[2023-06-22 10:45:01] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-22 10:45:01] INFO root fetch - processPackages [keqing]: Remove: archive file [/home/abi/fetcher/tmp/keqing-1.0.0.tar.gz]
+[2023-06-22 10:45:01] INFO root fetch - processPackages [keqing]: Remove: archive file [/home/abi/fetcher/tmp/keqing-1.0.1.tar.gz]
+[2023-06-22 10:45:01] INFO root fetch - main [MainThread]: End processing [keqing]: success
+[2023-06-22 10:45:01] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-06-22 10:45:01] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-06-22 10:45:01] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230622/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-06-22 10:45:02] INFO root fetch - processPackages [marchie]: Downloading https://files.pythonhosted.org/packages/2e/0f/3eac1b8a1004c1e03e05a1170b34c397a7a6357360e4e4b62ac20da37283/marchie-0.0.2.tar.gz
+[2023-06-22 10:45:02] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-22 10:45:02] INFO root fetch - processPackages [msaBase]: Remove: archive file [/home/abi/fetcher/tmp/msaBase-0.0.89.tar.gz]
+[2023-06-22 10:45:02] INFO root fetch - processPackages [msaBase]: Remove: archive file [/home/abi/fetcher/tmp/msaBase-0.0.9.tar.gz]
+[2023-06-22 10:45:02] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-06-22 10:45:02] INFO root fetch - processPackages [marchie]: Downloading https://files.pythonhosted.org/packages/95/3a/046049d7f052aff078a0e312a8a94a97ce8ff8b266c4cbc11ada2df4fd59/marchie-0.0.3.tar.gz
+[2023-06-22 10:45:02] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-22 10:45:02] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230622/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-22 10:45:02] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.0.0b1.tar.gz]
+[2023-06-22 10:45:02] INFO root fetch - processPackages [nonebot-plugin-mystool]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mystool-1.0.0b2.tar.gz]
+[2023-06-22 10:45:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mystool]: success
+[2023-06-22 10:45:02] INFO root fetch - processPackages [marchie]: executing diffoscope
+[2023-06-22 10:45:02] INFO root fetch - processPackages [marchie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marchie-0.0.2.tar.gz tmp/marchie-0.0.3.tar.gz --markdown 20230622/m/marchie/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 10:45:03] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230621-py2.py3-none-any.whl.zip]
+[2023-06-22 10:45:03] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230622-py2.py3-none-any.whl.zip]
+[2023-06-22 10:45:03] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-22 10:45:03] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz]
+[2023-06-22 10:45:03] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz]
+[2023-06-22 10:45:03] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-06-22 10:45:03] INFO root fetch - processPackages [marchie]: Remove: archive file [/home/abi/fetcher/tmp/marchie-0.0.2.tar.gz]
+[2023-06-22 10:45:03] INFO root fetch - processPackages [marchie]: Remove: archive file [/home/abi/fetcher/tmp/marchie-0.0.3.tar.gz]
+[2023-06-22 10:45:03] INFO root fetch - main [MainThread]: End processing [marchie]: success
+[2023-06-22 10:45:04] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.72.tar.gz]
+[2023-06-22 10:45:04] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.73.tar.gz]
+[2023-06-22 10:45:04] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-22 10:45:05] INFO root fetch - processPackages [cdpcli]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-0.9.9.tar.gz]
+[2023-06-22 10:45:05] INFO root fetch - processPackages [cdpcli]: Remove: archive file [/home/abi/fetcher/tmp/cdpcli-0.9.90.tar.gz]
+[2023-06-22 10:45:05] INFO root fetch - main [MainThread]: End processing [cdpcli]: success
+[2023-06-22 10:45:07] INFO root fetch - processPackages [encord-active-components]: Remove: archive file [/home/abi/fetcher/tmp/encord_active_components-0.0.8.tar.gz]
+[2023-06-22 10:45:07] INFO root fetch - processPackages [encord-active-components]: Remove: archive file [/home/abi/fetcher/tmp/encord_active_components-0.0.9.tar.gz]
+[2023-06-22 10:45:07] INFO root fetch - main [MainThread]: End processing [encord-active-components]: success
+[2023-06-22 10:45:13] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-22 10:45:13] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-22 10:45:13] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-22 10:45:13] INFO root fetch - main [MainThread]: Store serial: [18602506]
