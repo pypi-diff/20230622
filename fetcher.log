@@ -13848,3 +13848,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-22 09:57:27] INFO root fetch - processPackages [watex]: Remove: archive file [/home/abi/fetcher/tmp/watex-0.2.5.tar.gz]
 [2023-06-22 09:57:27] INFO root fetch - main [MainThread]: End processing [watex]: success
 [2023-06-22 09:57:27] INFO root fetch - main [MainThread]: Store serial: [18602178]
+[2023-06-22 10:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18602178]
+[2023-06-22 10:02:37] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peewee-aio
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strmprivacy-api-definitions
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tweeterpy
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-monitoring
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dvp-tools
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: league
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syft
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dvp-platform
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dvp-libs
+[2023-06-22 10:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-data
+[2023-06-22 10:02:37] INFO root fetch - processPackages [spaceone-monitoring]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-tools]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-06-22 10:02:37] WARNING root fetch - processPackages [league]: Skipping, unable to determine old version
+[2023-06-22 10:02:37] INFO root fetch - processPackages [league]: Start processing: tg-bot-ml
+[2023-06-22 10:02:37] INFO root fetch - main [MainThread]: End processing [league] error
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-platform]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [3.0.0] Old Version: [2.9.0]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tweeterpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [peewee-aio]: New version: [1.5.5] Old Version: [1.5.3]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tg-bot-ml]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [syft]: New version: [0.8.1b9] Old Version: [0.8.1b8]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/e3/3d/5b1e997a76c8f4ef86d1abb0afd88a1c9d49128cb6c0538831822dccb376/syft-0.8.1b8.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-libs]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/3c/b0/f93101cbeadab0e1f6b2bb46c8374d59f4cb3bd08f143cb7ac5ed1782151/tg_bot_ml-0.0.4.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/31/50/1785bbc97bdfb08a3303bb03b26d953cde9e97d4e2e70c591a6acd91bd55/spaceone_monitoring-1.9.7.1-py3-none-any.whl
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/70/7c/5f08b65ce322b8339ce1a19b8356ea7bdada1c9badeb62ff1d659b2c6352/tweeterpy-0.0.2.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/89/ad/908915ed1c7af94dfe78a95110dc03d81532c4e526c5d82f30d952314754/strmprivacy-api-definitions-2.9.0.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-platform]: Downloading https://files.pythonhosted.org/packages/27/d0/3ca0c9ea54d1c953fecf15ea2c6343204ebba9327ebeafc472e8f08014cf/dvp-platform-4.0.5.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/f4/85/a6677e00fa1f8f01a9db2d804b7dfd8e9077bc780f7cb3359d766b8175e0/peewee_aio-1.5.3.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-tools]: Downloading https://files.pythonhosted.org/packages/d1/80/00eb09a993db3f085a90eaf0a6bbf7cbd775122d7e0a50a4330c9c6f3222/dvp-tools-4.0.5.tar.gz
+[2023-06-22 10:02:37] WARNING root fetch - processPackages [dvp-tools]: Skipping package: exceeds size limit 12827524>=10485760
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-tools]: Start processing: dsspkg
+[2023-06-22 10:02:37] INFO root fetch - main [MainThread]: End processing [dvp-tools] error
+[2023-06-22 10:02:37] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-libs]: Downloading https://files.pythonhosted.org/packages/6a/a0/059b97422190ded29764ba6c047602dcfb147a5a28446dff4025686c8f0f/dvp-libs-4.0.5.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dsspkg]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tweeterpy]: Downloading https://files.pythonhosted.org/packages/e7/eb/f0b2af29b429d659a6bce951874cb64906b8b21633c2d7df75745614605f/tweeterpy-0.0.3.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [syft]: Downloading https://files.pythonhosted.org/packages/99/b8/426fd52883d499fcb99f3f3e79dc3d626b88f86a44d1105418a78457e80c/syft-0.8.1b9.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [peewee-aio]: Downloading https://files.pythonhosted.org/packages/5b/51/c2516a3c66b40ed1dd426a7a123a8e932ed69d4e6ba7dbf676ddb2c55851/peewee_aio-1.5.5.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/71/a9/4f41fa1ddf589f0a0fecf639184f4ddc3aff21f9a4c9958b454baef4d148/strmprivacy-api-definitions-3.0.0.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/a5/92/da1f552a311b38c908b3b67c0958e988405bd12fa92b945a2058cc54a761/dsspkg-0.2.4.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [syft]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [syft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syft-0.8.1b8.tar.gz tmp/syft-0.8.1b9.tar.gz --markdown 20230622/s/syft/0.8.1b8-0.8.1b9/diff.md --exclude *.pyd
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-platform]: Downloading https://files.pythonhosted.org/packages/2c/2f/546bc358c33a844fe47b9779c285f8f2c897e7ef6f9bda3d01998d5e26d2/dvp-platform-4.1.0.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-2.9.0.tar.gz tmp/strmprivacy-api-definitions-3.0.0.tar.gz --markdown 20230622/s/strmprivacy-api-definitions/2.9.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/66/54/7f21e69ecb839b1c3519e14b07ffa8a72be19975a53130e1a58819e127bc/tg_bot_ml-0.0.5.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-libs]: Downloading https://files.pythonhosted.org/packages/bc/6d/f64dea98e66d69f9931ebc586990bd6a155bb28954def61082c0a38a9588/dvp-libs-4.1.0.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tweeterpy]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/5c/43/1bcb4990406f113187354a4bc48e34799ab22b38cce64bbf832545718082/spaceone_monitoring-1.9.7rc1-py3-none-any.whl
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tweeterpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweeterpy-0.0.2.tar.gz tmp/tweeterpy-0.0.3.tar.gz --markdown 20230622/t/tweeterpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-22 10:02:37] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [peewee-aio]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee_aio-1.5.3.tar.gz tmp/peewee_aio-1.5.5.tar.gz --markdown 20230622/p/peewee-aio/1.5.3-1.5.5/diff.md --exclude *.pyd
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-platform]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvp-platform-4.0.5.tar.gz tmp/dvp-platform-4.1.0.tar.gz --markdown 20230622/d/dvp-platform/4.0.5-4.1.0/diff.md --exclude *.pyd
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tg-bot-ml]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [tg-bot-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_bot_ml-0.0.4.tar.gz tmp/tg_bot_ml-0.0.5.tar.gz --markdown 20230622/t/tg-bot-ml/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-22 10:02:37] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230622/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dsspkg]: Downloading https://files.pythonhosted.org/packages/d6/5a/86c5b98469696d239185e6e1afc056b845c476d82df154ce255d25f036ce/dsspkg-0.2.5.tar.gz
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-libs]: executing diffoscope
+[2023-06-22 10:02:37] INFO root fetch - processPackages [dvp-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvp-libs-4.0.5.tar.gz tmp/dvp-libs-4.1.0.tar.gz --markdown 20230622/d/dvp-libs/4.0.5-4.1.0/diff.md --exclude *.pyd
+[2023-06-22 10:02:38] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2023-06-22 10:02:38] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip --markdown 20230622/s/spaceone-monitoring/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-22 10:02:38] INFO root fetch - processPackages [dsspkg]: executing diffoscope
+[2023-06-22 10:02:38] INFO root fetch - processPackages [dsspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsspkg-0.2.4.tar.gz tmp/dsspkg-0.2.5.tar.gz --markdown 20230622/d/dsspkg/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-22 10:02:39] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.4.tar.gz]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.5.tar.gz]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [tg-bot-ml]: Start processing: leadguru-common
+[2023-06-22 10:02:39] INFO root fetch - main [MainThread]: End processing [tg-bot-ml]: success
+[2023-06-22 10:02:39] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [leadguru-data]: Start processing: dvp
+[2023-06-22 10:02:39] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-06-22 10:02:39] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [dvp]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.5.3.tar.gz]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/peewee_aio-1.5.5.tar.gz]
+[2023-06-22 10:02:39] INFO root fetch - processPackages [peewee-aio]: Start processing: ghga-validator
+[2023-06-22 10:02:39] INFO root fetch - main [MainThread]: End processing [peewee-aio]: success
+[2023-06-22 10:02:40] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.2.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [tweeterpy]: Remove: archive file [/home/abi/fetcher/tmp/tweeterpy-0.0.3.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [tweeterpy]: Start processing: dvp-common
+[2023-06-22 10:02:40] INFO root fetch - main [MainThread]: End processing [tweeterpy]: success
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.4.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dsspkg]: Remove: archive file [/home/abi/fetcher/tmp/dsspkg-0.2.5.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - main [MainThread]: End processing [dsspkg]: success
+[2023-06-22 10:02:40] WARNING root fetch - processPackages [ghga-validator]: Skipping, unable to determine old version
+[2023-06-22 10:02:40] INFO root fetch - main [MainThread]: End processing [ghga-validator] error
+[2023-06-22 10:02:40] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp]: Downloading https://files.pythonhosted.org/packages/1c/e7/04a42f622736dab5fc16c1a48f0362a3304531a96fb9dca877321953a387/dvp-4.0.5.tar.gz
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-libs]: Remove: archive file [/home/abi/fetcher/tmp/dvp-libs-4.0.5.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-libs]: Remove: archive file [/home/abi/fetcher/tmp/dvp-libs-4.1.0.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - main [MainThread]: End processing [dvp-libs]: success
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-platform]: Remove: archive file [/home/abi/fetcher/tmp/dvp-platform-4.0.5.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-platform]: Remove: archive file [/home/abi/fetcher/tmp/dvp-platform-4.1.0.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - main [MainThread]: End processing [dvp-platform]: success
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-common]: New version: [4.1.0] Old Version: [4.0.5]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp]: Downloading https://files.pythonhosted.org/packages/ec/50/09a3a0220087575a167cb271180b16b41aa2b9d4e8eaa2b07909471f6ae1/dvp-4.1.0.tar.gz
+[2023-06-22 10:02:40] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-common]: Downloading https://files.pythonhosted.org/packages/aa/b8/20571594248d21da170c5609f19d6df633491fe87a837a5eed55af11a208/dvp-common-4.0.5.tar.gz
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp]: executing diffoscope
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvp-4.0.5.tar.gz tmp/dvp-4.1.0.tar.gz --markdown 20230622/d/dvp/4.0.5-4.1.0/diff.md --exclude *.pyd
+[2023-06-22 10:02:40] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-06-22 10:02:40] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230622/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-22 10:02:40] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_monitoring-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-22 10:02:40] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-common]: Downloading https://files.pythonhosted.org/packages/81/76/fabbd711bafdb98abd26a24c8e44095a7f94bbfc6075d8f1e3d296b9257e/dvp-common-4.1.0.tar.gz
+[2023-06-22 10:02:40] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b8.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - processPackages [syft]: Remove: archive file [/home/abi/fetcher/tmp/syft-0.8.1b9.tar.gz]
+[2023-06-22 10:02:40] INFO root fetch - main [MainThread]: End processing [syft]: success
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-common]: executing diffoscope
+[2023-06-22 10:02:40] INFO root fetch - processPackages [dvp-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230622:/home/abi/fetcher/20230622:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvp-common-4.0.5.tar.gz tmp/dvp-common-4.1.0.tar.gz --markdown 20230622/d/dvp-common/4.0.5-4.1.0/diff.md --exclude *.pyd
+[2023-06-22 10:02:41] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-2.9.0.tar.gz]
+[2023-06-22 10:02:41] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.0.0.tar.gz]
+[2023-06-22 10:02:41] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-06-22 10:02:41] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-06-22 10:02:41] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-06-22 10:02:41] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-06-22 10:02:41] INFO root fetch - processPackages [dvp]: Remove: archive file [/home/abi/fetcher/tmp/dvp-4.0.5.tar.gz]
+[2023-06-22 10:02:41] INFO root fetch - processPackages [dvp]: Remove: archive file [/home/abi/fetcher/tmp/dvp-4.1.0.tar.gz]
+[2023-06-22 10:02:41] INFO root fetch - main [MainThread]: End processing [dvp]: success
+[2023-06-22 10:02:42] INFO root fetch - processPackages [dvp-common]: Remove: archive file [/home/abi/fetcher/tmp/dvp-common-4.0.5.tar.gz]
+[2023-06-22 10:02:42] INFO root fetch - processPackages [dvp-common]: Remove: archive file [/home/abi/fetcher/tmp/dvp-common-4.1.0.tar.gz]
+[2023-06-22 10:02:42] INFO root fetch - main [MainThread]: End processing [dvp-common]: success
+[2023-06-22 10:02:42] INFO root fetch - main [MainThread]: Store serial: [18602230]
